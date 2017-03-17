@@ -1,0 +1,457 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<? IncludeTemplateLangFile(__FILE__); ?>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8"/>
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"/><![endif]-->
+
+	<?$APPLICATION->ShowHead();?>
+	    
+    <script src="/media/js_new/device.min.js"></script>
+
+	<title>Хендэ Мотор СНГ: модельный ряд Hyundai, цены на автомобили, где купить</title>
+
+    <link rel="shortcut icon" href="/media/img/Favicon_02.ico"/>
+
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
+	<meta name="keywords" content="автомобили Hyundai официальный сайт Хендай где купить модельный ряд цены" />
+
+    <meta name="description" content="Официальный сайт Hyundai: модели и актуальные цены, обзоры и фото автомобилей, новости, запись на тест-драйв. Спешите купить новый Hyundai!" />
+
+
+	<link href="<?=SITE_TEMPLATE_PATH?>/css/style.css" rel="stylesheet" />
+
+	<link type="text/css" href="<?=SITE_TEMPLATE_PATH?>/css/main.css" rel="stylesheet" />
+	<link type="text/css" href="<?=SITE_TEMPLATE_PATH?>/css/css_style_ru.css" rel="stylesheet" />
+
+	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquerymin.js"></script>
+	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery-ui.min.js"></script>
+	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.simplemodal.1.4.4.min.js"></script>
+	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.inputmask.bundle.min.js"></script>
+	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.lazyload.min.js"></script>
+    <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.validate.js"></script>
+	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.main.js"></script>
+	<script src="<?=SITE_TEMPLATE_PATH?>/js/zing.js"></script>
+	<script src="<?=SITE_TEMPLATE_PATH?>/js/main.js"></script>
+	
+	<script src="<?=SITE_TEMPLATE_PATH?>/js/analytics.js"></script>
+	
+	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/call_online.js"></script>
+<!-- 	<script type='text/javascript' src="/media/js/sc_gt_default.js"></script> -->
+
+	</head>
+<body class="main">
+<div id="panel"><?$APPLICATION->ShowPanel();?></div>
+
+<div id="wrapper">
+	<header id="header">
+		<div class="header-center clearfix">
+			<div class="header-center-right">
+				<a class="header-center-right-btn" href="/configurator">
+					<i class="i-0030-auto-icon"></i> Конфигуратор
+				</a>
+			</div>
+			<div class="header-center-left">
+				Служба поддержки — <b>8 800 333-71-67</b>
+				<span class="header-center-left-sep">|</span>
+				<a class="header-center-left-btn zing_form_toggler" for="zing_hotline_btn">
+					<i class="i-0000-call-icon-h"></i> Звонок онлайн
+				</a>
+				<span class="header-center-left-sep">|</span>
+				<a class="header-center-left-btn" href="/ContactUs">
+					<span class="header-center-left-btn-item"><i class="i-0002-mail-icon-h"></i> Написать</span>
+				</a>
+			</div>
+		</div>
+
+		<div class="user-bar clearfix">
+			<div class="user-bar-logo"><a href="/"><img src="<?=SITE_TEMPLATE_PATH?>/media/img/logo.png" alt="HYUNDAI"/></a></div>
+
+			<nav class="user-bar-nav">
+				<ul class="reset gnb">
+					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link showroom-open" href="#gnbShowroom">Модельный ряд</a></li>
+					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="#gnbShopping">Покупка</a></li>
+					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="#gnbServices">Сервис</a></li>
+					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/configurator">Конфигуратор</a></li>
+				</ul>
+			</nav>
+
+
+
+			<div class="gnb_layer" id="gnbShowroom" style="visibility: hidden; height: 0px; padding-bottom: 0px;">
+
+				<div class="layer_body">
+
+					<a href="#" class="btn_close">close gnb layer</a>
+					<div class="showroom">
+
+						<div class="tab">
+							<ul>
+								<li class="all"><a href="#showroomAll" class="on">ПОСМОТРЕТЬ ВСЕ</a></li>
+								<li class="cars"><a href="#showroomCars">ЛЕГКОВЫЕ</a></li>
+								<li class="suv"><a href="#showroomSUV">ВНЕДОРОЖНИКИ</a></li>
+								<li class="commercial"><a href="#showroomCommercial">КОММЕРЧЕСКИЕ</a></li>
+							</ul>
+						</div>
+
+
+						<div class="list">
+
+							<ul id="showroomAll" style="display:block;visibility:visible;height:auto;" class="">
+
+								<li>
+									<a href="/NewSolaris" style="position: relative; display: inline;">
+										<img alt="" src="/media/images/carmodels/Новый Solaris_42658aaacdae6f46.png"><br><span class="model">Новый Solaris</span>
+										<span class="menuPrice">от  599 000  руб.</span>
+									</a>
+								</li>
+								<li>
+									<a href="/Solaris" style="position: relative; display: inline;">
+										<img alt="" src="/media/images/carmodels/Solaris_98457739f0fefda5.png"><br><span class="model">Solaris <span class="sale">Промо</span></span>
+										<span class="menuPrice">от  553 900  руб.</span>
+									</a>
+								</li>
+								<li>
+									<a href="/Solaris-5dr" style="position: relative; display: inline;">
+										<img alt="" src="/media/images/carmodels/Solaris хэтчбек_45057739f19bf845.png"><br><span class="model">Solaris Хетчбек <span class="sale">Промо</span></span>
+										<span class="menuPrice">от  553 900  руб.</span>
+									</a>
+								</li>
+								<li>
+									<a href="/i30-3dr" style="position: relative; display: inline;">
+										<img alt="" src="/media/images/carmodels/i30 3DR_16857739efa063c4.png"><br><span class="model">i30 3DR</span>
+										<span class="menuPrice">от  849 900  руб.</span>
+									</a>
+								</li>
+								<li>
+									<a href="/i30" style="position: relative; display: inline;">
+										<img alt="" src="/media/images/carmodels/i30_15457739eee17e6c.png"><br><span class="model">i30</span>
+										<span class="menuPrice">от  869 900  руб.</span>
+									</a>
+								</li>
+
+							</ul>
+							<ul id="showroomAll" style="display:block;visibility:visible;height:auto;" class="">
+
+								<li>
+									<a href="/i30-Wagon" style="position: relative; display: inline;">
+										<img alt="" src="/media/images/carmodels/i30 универсал_83357739f0575fed.png"><br><span class="model">i30 Универсал</span>
+										<span class="menuPrice">от  919 900  руб.</span>
+									</a>
+								</li>
+								<li>
+									<a href="/Elantra" style="position: relative; display: inline;">
+										<img alt="" src="/media/images/carmodels/Elantra_92157739ede44226.png"><br><span class="model">Elantra</span>
+										<span class="menuPrice">от  909 900  руб.</span>
+									</a>
+								</li>
+								<li>
+									<a href="/i40" style="position: relative; display: inline;">
+										<img alt="" src="/media/images/carmodels/i40_20157739ec501388.png"><br><span class="model">i40</span>
+										<span class="menuPrice">от 1 124 000  руб.</span>
+									</a>
+								</li>
+								<li>
+									<a href="/i40-Wagon" style="position: relative; display: inline;">
+										<img alt="" src="/media/images/carmodels/i40 универсал_64757739ed03829f.png"><br><span class="model">i40 Универсал</span>
+										<span class="menuPrice">от 1 304 000  руб.</span>
+									</a>
+								</li>
+
+							</ul>
+							<ul id="showroomAll" style="display:block;visibility:visible;height:auto;" class="">
+
+								<li>
+									<a href="/Creta" style="position: relative; display: inline;">
+										<img alt="" src="/media/images/carmodels/Creta_955579f250bcf329.png"><br><span class="model">Creta</span>
+										<span class="menuPrice">от  749 900  руб.</span>
+									</a>
+								</li>
+								<li>
+									<a href="/Tucson" style="position: relative; display: inline;">
+										<img alt="" src="/media/images/carmodels/Tucson_57257739f51bbc7f.png"><br><span class="model">Tucson</span>
+										<span class="menuPrice">от 1 505 900  руб.</span>
+									</a>
+								</li>
+								<li>
+									<a href="/SantaFe" style="position: relative; display: inline;">
+										<img alt="" src="/media/images/carmodels/Santa Fe Premium_22757739f44cbfa3.png"><br><span class="model">Santa Fe <span class="sale">Промо</span></span>
+										<span class="menuPrice">от 1 794 000  руб.</span>
+									</a>
+								</li>
+								<li>
+									<a href="/GrandSantaFe" style="position: relative; display: inline;">
+										<img alt="" src="/media/images/carmodels/Grand Santa Fe_76357f794c7e076a.png"><br><span class="model">Grand Santa Fe</span>
+										<span class="menuPrice">от 2 424 000  руб.</span>
+									</a>
+								</li>
+								<li>
+									<a href="/H1" style="position: relative; display: inline;">
+										<img alt="" src="/media/images/carmodels/H-1_89857739f5e11f41.png"><br><span class="model">H-1</span>
+										<span class="menuPrice">от 1 949 000  руб.</span>
+									</a>
+								</li>
+
+							</ul>
+							<ul id="showroomAll" style="display:block;visibility:visible;height:auto;" class="">
+
+								<li>
+									<a href="/GenesisNew" style="position: relative; display: inline;">
+										<img alt="" src="/media/images/carmodels/Genesis_67557739eb9dab83.png"><br><span class="model">Genesis</span>
+										<span class="menuPrice">от 2 329 000  руб.</span>
+									</a>
+								</li>
+
+							</ul>
+
+						</div>
+						<div class="loadingbox" style="display:none;">
+							<img src="/media/img/loading.gif" alt="loading"><br>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="layer_foot"></div>
+				<div class="layer_foot"></div>
+
+			</div>
+
+			<div class="gnb_layer" id="gnbShopping" style="visibility: hidden; height: 0px; padding-bottom: 0px;"><div class="layer_body"><a href="#" class="btn_close">close gnb layer</a><div class="shopping" style=""><div class="tools"><strong class="title">
+								ПОМОЩЬ В ВЫБОРЕ
+							</strong>
+							<ul class="line1">
+
+								<li><a href="/configurator">Создать свою конфигурацию</a></li>
+
+								<li><a href="/corporate-clients" >Корпоративным клиентам</a></li>
+								<li><a href="/all-offers">Специальные предложения</a></li>
+							</ul>
+
+						</div>
+
+					</div></div><div class="layer_foot"></div>
+
+			</div>
+
+
+
+			<div class="gnb_layer gnb_layer--redesign" id="gnbServices" style="visibility: hidden; height: 0px; padding-bottom: 0px;">
+				<div class="layer_body">
+					<div class="services">
+						<ul class="ub-items">
+							<li class="ub-item ub-item--owners">
+								<a href="/service/roadside-assistance" class="ub-item-link">
+									<span class="ub-item__icon"></span>
+									<span class="ub-item__name">Владельцам</span>
+								</a>
+							</li>
+							<li class="ub-item ub-item--warranty">
+								<a href="/service/warranty" class="ub-item-link">
+									<span class="ub-item__icon"></span>
+									<span class="ub-item__name">Гарантия</span>
+								</a>
+							</li>
+							<li class="ub-item ub-item--maintenance">
+								<a href="/service/maintenance" class="ub-item-link">
+									<span class="ub-item__icon"></span>
+									<span class="ub-item__name">Обслуживание</span>
+								</a>
+							</li>
+							<li class="ub-item ub-item--bodyworks">
+								<a href="/service/bodyworks" class="ub-item-link">
+									<span class="ub-item__icon"></span>
+									<span class="ub-item__name">Кузовной ремонт</span>
+								</a>
+							</li>
+							<li class="ub-item ub-item--parts">
+								<a href="/service/parts" class="ub-item-link">
+									<span class="ub-item__icon"></span>
+									<span class="ub-item__name">Оригинальные запчасти</span>
+								</a>
+							</li>
+							<!--
+                                                <li class="ub-item ub-item--accessories">
+                                                    <a href="#" class="ub-item-link">
+                                                        <span class="ub-item__icon"></span>
+                                                        <span class="ub-item__name">Оригинальные аксессуары</span>
+                                                    </a>
+                                                </li>
+                            -->
+							<li class="ub-item ub-item--assurance">
+								<a href="/HyundaiAssurance" class="ub-item-link">
+									<span class="ub-item__icon"></span>
+									<span class="ub-item__name">Premium assurance</span>
+								</a>
+							</li>
+							<li class="ub-item ub-item--brochures">
+								<a href="/service/manuals" class="ub-item-link">
+									<span class="ub-item__icon"></span>
+									<span class="ub-item__name">Руководства и&nbsp;брошюры</span>
+								</a>
+							</li>
+							<li class="ub-item ub-item--best">
+								<a href="/service/best" class="ub-item-link">
+									<span class="ub-item__icon"></span>
+									<span class="ub-item__name">Лучшее для своих</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="layer_foot">
+					<a href="/all-offers#service-offers" class="user-bar-footer-link">сервисные акции</a>
+				</div>
+			</div>
+
+
+			<div id="user-bar-search" class="user-bar-search">
+				<form action="/search">
+					<input type="hidden" name="searchid" value="2249684"/>
+					<input type="hidden" name="web" value="0"/>
+					<input class="user-bar-search-input" type="text" name="text" placeholder="Я хочу найти..." value=""/>
+				</form>
+			</div>
+		</div>
+
+
+		<div style="display: none;">
+			<script type="text/javascript">
+
+				var pip_car_name ="";
+
+				$(function(){
+					$('.gnb_layer .carfinder .btn_reset').click(function(){
+						//2011-08-03 스크립트 삭제1
+						setGnbFinderValues();
+						return false;
+					});
+
+					/* GNB car finder slide values */
+					/* min : range minimum value */
+					/* maz : range maximum value */
+					/* values : initial value */
+					function setGnbFinderValues(){
+
+						$('.gnb_layer .category li').removeClass('select'); //2011-08-03
+						$('.gnb_layer .category .case1 input').attr('value','0');
+
+					}
+					setGnbFinderValues();
+
+
+					//2011-08-04
+					$('.gnb_layer .category li .check').each(function(i){
+						$(this).click(function(){
+							if($(this).parent().hasClass('select')) {
+								// 체크 안되었음
+								$(this).parent().removeClass('select');
+								$('#categoryGnb'+i).attr('value','0');
+							} else {
+								// 체크 되었음
+								$(this).parent().addClass('select');
+								$('#categoryGnb'+i).attr('value','1');
+							}
+						});
+					});
+
+					//Find a car AJax 처리 함수
+					$('.gnb_layer .showroom .tab .btn_finder').click(function(){
+						$('.gnb_layer .showroom .tab a').removeClass('on');
+						gnbToggle('.gnb_layer .showroom>.list ul','off');
+						gnbToggle('.gnb_layer .showroom .banners','off');
+						$(".gnb_layer .showroom>.list").hide();
+						$(".gnb_layer .showroom .banners").hide();
+						/* $('.gnb_layer .showroom>.list ul').hide();
+						 $('.gnb_layer .showroom .banners').hide(); */
+						$(this).addClass('on');
+
+						$('.gnb_layer .showroom .other_list').hide();
+
+						gnbToggle('.gnb_layer .showroom .carfinder','on');
+						/* $('.gnb_layer .showroom .carfinder').show(); */
+						gnbToggle('.header .gnb_layer .showroom .list ul','on');
+
+						var siteCode = $("#siteCode").val();
+						var siteLang = $("#siteLang").val();
+						var dataParam = "wwn_country_code=" + siteCode + "&pageFlag=GNB&" +"wwn_language_code="+ siteLang;
+						var finderUrl = "";
+
+						if(siteCode == "ES"){
+							finderUrl = "/wcm/front/builder/carFinderInitView.do";
+						}else{
+							finderUrl = "/wcm/"+siteCode.toLowerCase()+"/front/builder/carFinderInitView.do";
+						}
+
+						$(".showroom .loadingbox").show();
+
+						//2013-12-20
+						if(siteCode == 'RU' && '' == '11069'){
+
+						}else{
+							$.ajax({
+								url : finderUrl,
+								data : dataParam,
+								success : fn_generateFinder,
+								error : fn_errorFinder
+							});
+						}
+
+						return false;
+					});
+				});
+
+				function fn_generateFinder(xmlDoc){
+					$(".gnb_layer .showroom #gnb_carfinder").remove();
+					$(".gnb_layer .showroom").append(xmlDoc);
+					$(".showroom .loadingbox").hide();
+				}
+
+				function fn_errorFinder(){}
+
+			</script>
+
+
+			<input type="hidden" id="siteCode" value="RU">
+			<input type="hidden" id="siteLang" value="RU">
+
+
+
+			<!-- end gnb layer -->
+
+
+			<div class="gnb_layer" id="gnbShopping" style="visibility: hidden; height: 0px; padding-bottom: 0px;"><div class="layer_body"><a href="#" class="btn_close">close gnb layer</a><div class="shopping" style=""><div class="tools"><strong class="title">
+								ПОМОЩЬ В ВЫБОРЕ
+							</strong>
+							<ul class="line1">
+
+								<li><a href="/configurator">Создать свою конфигурацию</a></li>
+
+								<li><a href="/corporate-clients">Корпоративным клиентам</a></li>
+								<li><a href="/all-offers">Специальные предложения</a></li>
+							</ul>
+
+							<ul class="line2">
+
+							</ul>
+						</div>
+
+						<ul class="etc">
+
+							<li><a href="/find-dealer"><strong>Найти <br>дилера</strong><span class="icon"><img src="/media/img/tr_ico_gnb_shopping_02.gif" alt="TR_ico_gnb_shopping_02"></span><span class="txt">
+															Детальная <br> информация об <br> официальных <br> дилерах Hyundai<br><img src="/media/img/btn_gnb_go.png" alt=""></span></a></li>
+
+
+
+						</ul></div></div><div class="layer_foot"></div>
+
+			</div>
+
+
+			<input type="hidden" value="" id="nUrl"></div>
+	</header><!--header-->
+
+
+
