@@ -1,0 +1,76 @@
+/*
+*	spritespin 360° view scripts
+*	created 12.09.2016
+*/
+
+.spritespin {
+	opacity: 1;
+	-o-transition: opacity .25s linear 0s;
+	-ms-transition: opacity .25s linear 0s;
+	-moz-transition: opacity .25s linear 0s;
+	-webkit-transition: opacity .25s linear 0s;
+	transition: opacity .25s linear 0s;
+}
+.progress-last-frame {
+	display: block;
+	position: absolute;
+	width: auto;
+	opacity: 0;
+	-o-transition: opacity .25s linear 0s;
+	-ms-transition: opacity .25s linear 0s;
+	-moz-transition: opacity .25s linear 0s;
+	-webkit-transition: opacity .25s linear 0s;
+	transition: opacity .25s linear 0s;
+}
+.progress-ring-wrap {
+    left: 250px;
+    position: absolute;
+    top: 70px;
+    opacity: 0;
+	-o-transition: opacity .25s ease-in 0s;
+	-ms-transition: opacity .25s ease-in 0s;
+	-moz-transition: opacity .25s ease-in 0s;
+	-webkit-transition: opacity .25s ease-in 0s;
+	transition: opacity .25s ease-in 0s;
+}
+.progress-last-frame[src*="creta"] + .progress-ring-wrap {
+	top: 110px;
+}
+.progress-ring {
+	position: relative;
+    image-rendering: optimizeQuality;
+}
+.spritespin-loading-progress .spritespin {
+	opacity: 0;
+	cursor: progress;
+}
+.spritespin-loading-progress .progress-last-frame {
+	opacity: .5;
+	-o-animation: fadein .25s linear;
+	-ms-animation: fadein .25s linear;
+	-moz-animation: fadein .25s linear;
+	-webkit-animation: fadein .25s linear;
+	animation: fadein .25s linear;
+}
+.spritespin-loading-progress .progress-ring-wrap {
+	opacity: 1;
+}
+.spritespin-loading-progress .progress-ring {
+    -o-animation: spin360 1.5s infinite linear;
+    -ms-animation: spin360 1.5s infinite linear;
+    -moz-animation: spin360 1.5s infinite linear;
+    -webkit-animation: spin360 1.5s infinite linear;
+    animation: spin360 1.5s infinite linear;
+}
+
+@keyframes spin360 {from {transform: rotate(0deg)} to {transform: rotate(360deg)}}
+@-moz-keyframes spin360 {from {-moz-transform: rotate(0deg)} to {-moz-transform: rotate(360deg)}}
+@-webkit-keyframes spin360 {from {-webkit-transform: rotate(0deg)} to {-webkit-transform: rotate(360deg)}}
+@-o-keyframes spin360 {from {-o-transform: rotate(0deg)} to {-o-transform: rotate(360deg)}}
+@-ms-keyframes spin360 {from {-ms-transform: rotate(0deg)} to {-ms-transform: rotate(360deg)}}
+
+@keyframes fadein {from {opacity:1} to {opacity:.5}}
+@-moz-keyframes fadein {from {opacity:1} to {opacity:.5}}
+@-webkit-keyframes fadein {from {opacity:1} to {opacity:.5}}
+@-o-keyframes fadein {from {opacity:1} to {opacity:.5}}
+@-ms-keyframes fadein {from {opacity:1} to {opacity:.5}}

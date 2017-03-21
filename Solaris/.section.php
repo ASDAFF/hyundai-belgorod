@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Solaris";
+$arDirProperties = Array(
+
+);
+?>

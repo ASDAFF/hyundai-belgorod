@@ -3086,7 +3086,7 @@ only screen and (min-device-pixel-ratio: 1.5) {}
 .scroll_me a{
     width:50px;
     height: 50px;
-    background: url("/media/img/to_top.png");
+    background: url("/img/to_top.png");
     position: fixed;
     bottom: 50px;
     right: 21px;

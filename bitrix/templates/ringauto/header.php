@@ -95,117 +95,33 @@
 							</ul>
 						</div>
 
+						<?$APPLICATION->IncludeComponent("bitrix:catalog.section.list", "menu", Array(
+							"ADD_SECTIONS_CHAIN" => "Y",	// Включать раздел в цепочку навигации
+							"CACHE_GROUPS" => "Y",	// Учитывать права доступа
+							"CACHE_TIME" => "36000000",	// Время кеширования (сек.)
+							"CACHE_TYPE" => "A",	// Тип кеширования
+							"COUNT_ELEMENTS" => "Y",	// Показывать количество элементов в разделе
+							"IBLOCK_ID" => "7",	// Инфоблок
+							"IBLOCK_TYPE" => "products",	// Тип инфоблока
+							"SECTION_CODE" => "",	// Код раздела
+							"SECTION_FIELDS" => array(	// Поля разделов
+								0 => "",
+								1 => "",
+							),
+							"SECTION_ID" => $_REQUEST["SECTION_ID"],	// ID раздела
+							"SECTION_URL" => "",	// URL, ведущий на страницу с содержимым раздела
+							"SECTION_USER_FIELDS" => array(	// Свойства разделов
+								0 => "",
+								1 => "",
+							),
+							"SHOW_PARENT_NAME" => "Y",	// Показывать название раздела
+							"TOP_DEPTH" => "2",	// Максимальная отображаемая глубина разделов
+							"VIEW_MODE" => "LINE",	// Вид списка подразделов
+						),
+							false
+						);?>
 
-						<div class="list">
 
-							<ul id="showroomAll" style="display:block;visibility:visible;height:auto;" class="">
-
-								<li>
-									<a href="/NewSolaris" style="position: relative; display: inline;">
-										<img alt="" src="/media/images/carmodels/Новый Solaris_42658aaacdae6f46.png"><br><span class="model">Новый Solaris</span>
-										<span class="menuPrice">от  599 000  руб.</span>
-									</a>
-								</li>
-								<li>
-									<a href="/Solaris" style="position: relative; display: inline;">
-										<img alt="" src="/media/images/carmodels/Solaris_98457739f0fefda5.png"><br><span class="model">Solaris <span class="sale">Промо</span></span>
-										<span class="menuPrice">от  553 900  руб.</span>
-									</a>
-								</li>
-								<li>
-									<a href="/Solaris-5dr" style="position: relative; display: inline;">
-										<img alt="" src="/media/images/carmodels/Solaris хэтчбек_45057739f19bf845.png"><br><span class="model">Solaris Хетчбек <span class="sale">Промо</span></span>
-										<span class="menuPrice">от  553 900  руб.</span>
-									</a>
-								</li>
-								<li>
-									<a href="/i30-3dr" style="position: relative; display: inline;">
-										<img alt="" src="/media/images/carmodels/i30 3DR_16857739efa063c4.png"><br><span class="model">i30 3DR</span>
-										<span class="menuPrice">от  849 900  руб.</span>
-									</a>
-								</li>
-								<li>
-									<a href="/i30" style="position: relative; display: inline;">
-										<img alt="" src="/media/images/carmodels/i30_15457739eee17e6c.png"><br><span class="model">i30</span>
-										<span class="menuPrice">от  869 900  руб.</span>
-									</a>
-								</li>
-
-							</ul>
-							<ul id="showroomAll" style="display:block;visibility:visible;height:auto;" class="">
-
-								<li>
-									<a href="/i30-Wagon" style="position: relative; display: inline;">
-										<img alt="" src="/media/images/carmodels/i30 универсал_83357739f0575fed.png"><br><span class="model">i30 Универсал</span>
-										<span class="menuPrice">от  919 900  руб.</span>
-									</a>
-								</li>
-								<li>
-									<a href="/Elantra" style="position: relative; display: inline;">
-										<img alt="" src="/media/images/carmodels/Elantra_92157739ede44226.png"><br><span class="model">Elantra</span>
-										<span class="menuPrice">от  909 900  руб.</span>
-									</a>
-								</li>
-								<li>
-									<a href="/i40" style="position: relative; display: inline;">
-										<img alt="" src="/media/images/carmodels/i40_20157739ec501388.png"><br><span class="model">i40</span>
-										<span class="menuPrice">от 1 124 000  руб.</span>
-									</a>
-								</li>
-								<li>
-									<a href="/i40-Wagon" style="position: relative; display: inline;">
-										<img alt="" src="/media/images/carmodels/i40 универсал_64757739ed03829f.png"><br><span class="model">i40 Универсал</span>
-										<span class="menuPrice">от 1 304 000  руб.</span>
-									</a>
-								</li>
-
-							</ul>
-							<ul id="showroomAll" style="display:block;visibility:visible;height:auto;" class="">
-
-								<li>
-									<a href="/Creta" style="position: relative; display: inline;">
-										<img alt="" src="/media/images/carmodels/Creta_955579f250bcf329.png"><br><span class="model">Creta</span>
-										<span class="menuPrice">от  749 900  руб.</span>
-									</a>
-								</li>
-								<li>
-									<a href="/Tucson" style="position: relative; display: inline;">
-										<img alt="" src="/media/images/carmodels/Tucson_57257739f51bbc7f.png"><br><span class="model">Tucson</span>
-										<span class="menuPrice">от 1 505 900  руб.</span>
-									</a>
-								</li>
-								<li>
-									<a href="/SantaFe" style="position: relative; display: inline;">
-										<img alt="" src="/media/images/carmodels/Santa Fe Premium_22757739f44cbfa3.png"><br><span class="model">Santa Fe <span class="sale">Промо</span></span>
-										<span class="menuPrice">от 1 794 000  руб.</span>
-									</a>
-								</li>
-								<li>
-									<a href="/GrandSantaFe" style="position: relative; display: inline;">
-										<img alt="" src="/media/images/carmodels/Grand Santa Fe_76357f794c7e076a.png"><br><span class="model">Grand Santa Fe</span>
-										<span class="menuPrice">от 2 424 000  руб.</span>
-									</a>
-								</li>
-								<li>
-									<a href="/H1" style="position: relative; display: inline;">
-										<img alt="" src="/media/images/carmodels/H-1_89857739f5e11f41.png"><br><span class="model">H-1</span>
-										<span class="menuPrice">от 1 949 000  руб.</span>
-									</a>
-								</li>
-
-							</ul>
-							<ul id="showroomAll" style="display:block;visibility:visible;height:auto;" class="">
-
-								<li>
-									<a href="/GenesisNew" style="position: relative; display: inline;">
-										<img alt="" src="/media/images/carmodels/Genesis_67557739eb9dab83.png"><br><span class="model">Genesis</span>
-										<span class="menuPrice">от 2 329 000  руб.</span>
-									</a>
-								</li>
-
-							</ul>
-
-						</div>
 						<div class="loadingbox" style="display:none;">
 							<img src="/media/img/loading.gif" alt="loading"><br>
 						</div>

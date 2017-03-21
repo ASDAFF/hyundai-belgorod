@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Creta";
+$arDirProperties = Array(
+
+);
+?>
