@@ -11,28 +11,42 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
+
 ?>
 <div class="news">
-	<div class="news-center clearfix">
-		<div class="news-center-head"><h1><?=$arResult['NAME'];?></h1></div>
-		<div class="news-center-body f-row">
 
-			<?foreach($arResult["ITEMS"] as $arItem):?>
-			<?
-			$this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
-			$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
-			?>
-			<div class="w-25 f-row-item">
-				<a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="news-center-body-item">
-					<div class="news-center-body-item-date"><?echo $arItem["DISPLAY_ACTIVE_FROM"]?></div>
-					<div><?echo $arItem["NAME"]?></div>
+	<div class="content-wrap">
+		<h1 class="title-lev01">
+			<?=$arResult['NAME'];?>
+		</h1>
+
+		<ul class="news-list-lg">
+			<li class="news-item">
+				<a href="<?=$arResult["ITEMS"][0]['DETAIL_PAGE_URL']?>">
+					<div class="cover" style="background: url('<?=$arResult["ITEMS"][0]['PREVIEW_PICTURE']['SRC']?>') no-repeat center center; background-size: cover;">
+					</div>
+					<div class="descr"><?=$arResult["ITEMS"][0]['NAME']?></div>
+					<div class="date"><?=$arResult["ITEMS"][0]['DISPLAY_ACTIVE_FROM']?></div>
 				</a>
-			</div>
-			<?endforeach;?>
+			</li>
+		</ul>
 
-
-		</div>
+		<ul class="news-list-sm">
+			<?
+			array_shift($arResult["ITEMS"]);
+			foreach($arResult["ITEMS"] as $i){
+			?>
+			<li class="news-item">
+				<a href="<?=$i['DETAIL_PAGE_URL'];?>">
+					<div class="cover"><img src="<?=$i['PREVIEW_PICTURE']['SRC']?>" alt=""></div>
+					<div class="descr"><?=$i['NAME']?></div>
+					<div class="date"><?=$i['DISPLAY_ACTIVE_FROM']?></div>
+				</a>
+			</li>
+			<?}?>
+		</ul>
 	</div>
+	
 	<div class="news-line"></div>
 	<div class="news-center no-padding clearfix">
 		<div class="news-center-table">
