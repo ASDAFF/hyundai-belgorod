@@ -1,0 +1,24 @@
+2017-03-21 17:50:21 -  - exec CUpdateClient::GetUpdatesList
+2017-03-21 17:50:21 -  - exec CUpdateClient::CollectRequestData
+2017-03-21 17:50:21 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=www.hyundai-ringauto.ru&CHHB=www.hyundai-ringauto.ru&CSAB=87.236.19.110&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_iblock=16.5.2&bitm_perfmon=16.0.0&bitm_translate=14.5.0&bitm_compression=16.0.0&bitm_bitrixcloud=16.0.0&bitm_search=16.0.0&bitm_socialservices=16.5.4&bitm_highloadblock=16.0.2&bitm_fileman=16.5.4&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-03-21 17:50:21 -  - exec CUpdateClient::GetHTTPPage
+2017-03-21 17:50:21 -  - TIME GetUpdatesList(request) 0.339 sec
+2017-03-21 17:50:21 -  - exec CUpdateClient::ParseServerData
+2017-03-21 18:48:01 -  - exec CUpdateClient::GetUpdatesList
+2017-03-21 18:48:01 -  - exec CUpdateClient::CollectRequestData
+2017-03-21 18:48:01 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=www.hyundai-ringauto.ru&CHHB=www.hyundai-ringauto.ru&CSAB=87.236.19.110&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_iblock=16.5.2&bitm_perfmon=16.0.0&bitm_translate=14.5.0&bitm_compression=16.0.0&bitm_bitrixcloud=16.0.0&bitm_search=16.0.0&bitm_socialservices=16.5.4&bitm_highloadblock=16.0.2&bitm_fileman=16.5.4&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-03-21 18:48:01 -  - exec CUpdateClient::GetHTTPPage
+2017-03-21 18:48:02 -  - TIME GetUpdatesList(request) 0.218 sec
+2017-03-21 18:48:02 -  - exec CUpdateClient::ParseServerData
+2017-03-21 18:49:15 -  - exec CUpdateClient::GetUpdatesList
+2017-03-21 18:49:15 -  - exec CUpdateClient::CollectRequestData
+2017-03-21 18:49:15 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=www.hyundai-ringauto.ru&CHHB=www.hyundai-ringauto.ru&CSAB=87.236.19.110&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_iblock=16.5.2&bitm_perfmon=16.0.0&bitm_translate=14.5.0&bitm_compression=16.0.0&bitm_bitrixcloud=16.0.0&bitm_search=16.0.0&bitm_socialservices=16.5.4&bitm_highloadblock=16.0.2&bitm_fileman=16.5.4&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-03-21 18:49:15 -  - exec CUpdateClient::GetHTTPPage
+2017-03-21 18:49:16 -  - TIME GetUpdatesList(request) 0.243 sec
+2017-03-21 18:49:16 -  - exec CUpdateClient::ParseServerData
+2017-03-21 18:50:30 -  - exec CUpdateClient::GetUpdatesList
+2017-03-21 18:50:30 -  - exec CUpdateClient::CollectRequestData
+2017-03-21 18:50:30 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=www.hyundai-ringauto.ru&CHHB=www.hyundai-ringauto.ru&CSAB=87.236.19.110&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_iblock=16.5.2&bitm_perfmon=16.0.0&bitm_translate=14.5.0&bitm_compression=16.0.0&bitm_bitrixcloud=16.0.0&bitm_search=16.0.0&bitm_socialservices=16.5.4&bitm_highloadblock=16.0.2&bitm_fileman=16.5.4&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-03-21 18:50:30 -  - exec CUpdateClient::GetHTTPPage
+2017-03-21 18:50:30 -  - TIME GetUpdatesList(request) 0.198 sec
+2017-03-21 18:50:30 -  - exec CUpdateClient::ParseServerData

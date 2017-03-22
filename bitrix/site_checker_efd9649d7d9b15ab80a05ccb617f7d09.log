@@ -1,0 +1,168 @@
+2017-Mar-21 18:47:14 Наличие необходимых модулей php (check_php_modules): Ok
+Все необходимые модули установлены
+2017-Mar-21 18:47:14 Обязательные параметры PHP (check_php_settings): Ok
+Настройки правильные
+2017-Mar-21 18:47:14 Модули веб-сервера (check_security): Ok
+Конфликтов не выявлено
+2017-Mar-21 18:47:14 Значения переменных сервера (check_server_vars): Ok
+Корректные
+2017-Mar-21 18:47:14 Сохранение сессии (check_session): Ok
+50% done
+2017-Mar-21 18:47:15 Сохранение сессии (check_session): Ok
+Успешно
+2017-Mar-21 18:47:15 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+Правильные. Сайт работает в UTF кодировке
+2017-Mar-21 18:47:15 Служебные скрипты в корне сайта (check_install_scripts): Ok
+Отсутствуют
+2017-Mar-21 18:47:15 Работа с сокетами (check_socket): Ok
+Connection to www.hyundai-ringauto.ru:80	Success
+
+Успешно
+2017-Mar-21 18:47:15 Параметры подключения к базе данных (check_dbconn_settings): Ok
+Успешно
+2017-Mar-21 18:47:15 Лишний вывод в файлах конфигурации (check_dbconn): Ok
+Connection to www.hyundai-ringauto.ru:80	Success
+
+Успешно
+2017-Mar-21 18:47:15 Выполнение агентов на cron (check_bx_crontab): Warning
+Замечание. Агенты выполняются на хитах, рекомендуется перевести выполнение агентов на cron
+2017-Mar-21 18:47:15 Сохранение сессии без UserAgent (check_session_ua): Ok
+50% done
+Connection to www.hyundai-ringauto.ru:80	Success
+
+2017-Mar-21 18:47:16 Сохранение сессии без UserAgent (check_session_ua): Ok
+Connection to www.hyundai-ringauto.ru:80	Success
+
+Успешно
+2017-Mar-21 18:47:16 Настройки сайтов (check_sites): Ok
+Правильные
+2017-Mar-21 18:47:16 Передача объектов по ссылке (check_clone): Ok
+Успешно
+2017-Mar-21 18:47:16 Размер стека и pcre.recursion_limit (check_pcre_recursion): Ok
+Connection to www.hyundai-ringauto.ru:80	Success
+
+Успешно
+2017-Mar-21 18:47:16 Вызов method_exists на строке (check_method_exists): Ok
+Connection to www.hyundai-ringauto.ru:80	Success
+
+Успешно
+2017-Mar-21 18:47:16 Загрузка файла (check_upload): Ok
+Connection to www.hyundai-ringauto.ru:80	Success
+
+Успешно
+2017-Mar-21 18:47:16 Загрузка файла больше 4Мб (check_upload_big): Ok
+Connection to www.hyundai-ringauto.ru:80	Success
+
+Успешно
+2017-Mar-21 18:47:16 Загрузка файла через php://input (check_upload_raw): Ok
+Connection to www.hyundai-ringauto.ru:80	Success
+
+Успешно
+2017-Mar-21 18:47:16 Передача POST запроса с большим числом параметров (check_post): Ok
+Connection to www.hyundai-ringauto.ru:80	Success
+
+Успешно
+2017-Mar-21 18:47:16 Отправка почты (check_mail): Ok
+Успешно
+2017-Mar-21 18:47:16 Отправка почтового сообщения больше 64Кб (check_mail_big): Ok
+Успешно
+2017-Mar-21 18:47:16 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
+Успешно
+2017-Mar-21 18:47:16 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+50% done
+Connection to www.hyundai-ringauto.ru:80	Success
+
+2017-Mar-21 18:47:17 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+Connection to www.hyundai-ringauto.ru:80	Success
+
+Успешно
+2017-Mar-21 18:47:17 Фактическое ограничение памяти (check_memory_limit): Ok
+20% done
+Connection to www.hyundai-ringauto.ru:80	Success
+
+2017-Mar-21 18:47:17 Фактическое ограничение памяти (check_memory_limit): Ok
+40% done
+Connection to www.hyundai-ringauto.ru:80	Success
+
+2017-Mar-21 18:47:17 Фактическое ограничение памяти (check_memory_limit): Ok
+60% done
+Connection to www.hyundai-ringauto.ru:80	Success
+
+2017-Mar-21 18:47:17 Фактическое ограничение памяти (check_memory_limit): Ok
+80% done
+Connection to www.hyundai-ringauto.ru:80	Success
+
+2017-Mar-21 18:47:17 Фактическое ограничение памяти (check_memory_limit): Warning
+Connection to www.hyundai-ringauto.ru:80	Success
+
+Замечание. Не менее 256 М Значение memory_limit было увеличено с 3G до 512M на момент тестирования через ini_set.
+2017-Mar-21 18:47:17 Работа с файлами кеша (check_cache): Ok
+Успешно
+2017-Mar-21 18:47:18 Доступ к серверу обновлений (check_update): Ok
+Успешно
+2017-Mar-21 18:47:18 HTTP авторизация (check_http_auth): Ok
+Connection to www.hyundai-ringauto.ru:80	Success
+
+Успешно
+2017-Mar-21 18:47:18 Создание и запуск файла (check_exec): Ok
+Connection to www.hyundai-ringauto.ru:80	Success
+
+Успешно
+2017-Mar-21 18:47:18 Функция getimagesize для swf (check_getimagesize): Ok
+Успешно
+2017-Mar-21 18:47:18 Версия MySQL-сервера (check_mysql_bug_version): Ok
+Успешно
+2017-Mar-21 18:47:19 Время на БД и веб-сервере (check_mysql_time): Ok
+Успешно
+2017-Mar-21 18:47:19 Режим работы MySQL (check_mysql_mode): Ok
+Успешно
+2017-Mar-21 18:47:19 Кодировка соединения (check_mysql_connection_charset): Ok
+character_set_connection=utf8, collation_connection=utf8_unicode_ci, character_set_results=utf8
+Успешно
+2017-Mar-21 18:47:19 Кодировка базы данных (check_mysql_db_charset): Fail
+CHARSET=utf8, COLLATION=utf8_general_ci
+Ошибка! Сравнение для базы (utf8_general_ci) отличается от сравнения для соединения (utf8_unicode_ci). Исправить
+2017-Mar-21 18:47:19 Кодировки таблиц в БД (check_mysql_table_charset): Warning
+Замечание. Не проверено из-за ошибки кодировки базы
+2017-Mar-21 18:47:19 Структура базы данных (check_mysql_table_structure): Ok
+0% done
+2017-Mar-21 18:47:19 Структура базы данных (check_mysql_table_structure): Ok
+8% done
+В таблице b_perf_sql_backtrace поле SQL_ID "int(18) NOT NULL DEFAULT "0" " не соответствует описанию на диске "int(18) NOT NULL "
+В таблице b_perf_sql_backtrace поле NN "int(18) NOT NULL DEFAULT "0" " не соответствует описанию на диске "int(18) NOT NULL "
+В таблице b_perf_index_suggest_sql поле SUGGEST_ID "int(11) NOT NULL DEFAULT "0" " не соответствует описанию на диске "int(11) NOT NULL "
+В таблице b_perf_index_suggest_sql поле SQL_ID "int(11) NOT NULL DEFAULT "0" " не соответствует описанию на диске "int(11) NOT NULL "
+В таблице b_perf_tab_stat поле TABLE_NAME "varchar(50) NOT NULL DEFAULT "" " не соответствует описанию на диске "varchar(50) NOT NULL "
+
+2017-Mar-21 18:47:19 Структура базы данных (check_mysql_table_structure): Ok
+16% done
+2017-Mar-21 18:47:19 Структура базы данных (check_mysql_table_structure): Ok
+25% done
+2017-Mar-21 18:47:20 Структура базы данных (check_mysql_table_structure): Ok
+33% done
+В таблице b_user_field_lang поле USER_FIELD_ID "int(11) NOT NULL DEFAULT "0" " не соответствует описанию на диске "int(11) NOT NULL "
+В таблице b_user_field_lang поле LANGUAGE_ID "char(2) NOT NULL DEFAULT "" " не соответствует описанию на диске "char(2) NOT NULL "
+
+2017-Mar-21 18:47:20 Структура базы данных (check_mysql_table_structure): Ok
+41% done
+2017-Mar-21 18:47:20 Структура базы данных (check_mysql_table_structure): Ok
+50% done
+2017-Mar-21 18:47:20 Структура базы данных (check_mysql_table_structure): Ok
+58% done
+2017-Mar-21 18:47:21 Структура базы данных (check_mysql_table_structure): Ok
+66% done
+2017-Mar-21 18:47:21 Структура базы данных (check_mysql_table_structure): Ok
+75% done
+2017-Mar-21 18:47:21 Структура базы данных (check_mysql_table_structure): Ok
+83% done
+2017-Mar-21 18:47:21 Структура базы данных (check_mysql_table_structure): Ok
+91% done
+2017-Mar-21 18:47:21 Структура базы данных (check_mysql_table_structure): Fail
+ALTER TABLE `b_perf_sql_backtrace` MODIFY `SQL_ID` int(18) NOT NULL ;
+ALTER TABLE `b_perf_sql_backtrace` MODIFY `NN` int(18) NOT NULL ;
+ALTER TABLE `b_perf_index_suggest_sql` MODIFY `SUGGEST_ID` int(11) NOT NULL ;
+ALTER TABLE `b_perf_index_suggest_sql` MODIFY `SQL_ID` int(11) NOT NULL ;
+ALTER TABLE `b_perf_tab_stat` MODIFY `TABLE_NAME` varchar(50) NOT NULL ;
+ALTER TABLE `b_user_field_lang` MODIFY `USER_FIELD_ID` int(11) NOT NULL ;
+ALTER TABLE `b_user_field_lang` MODIFY `LANGUAGE_ID` char(2) NOT NULL ;
+Ошибка! Структура базы данных имеет ошибки (нет таблиц: 0, нет полей: 0, поля отличаются: 7, нет индексов: 0). Всего 7, автоматически могут быть исправлены: 7. Исправить

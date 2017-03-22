@@ -46,9 +46,11 @@ IncludeTemplateLangFile(__FILE__); ?>
         <div class="footer-center-line"></div>
         <div class="footer-center-call clearfix">
 			<span class="footer-center-call-text">
-				Служба поддержки клиентов —
-				<span class="footer-center-call-text-phone">8 800 333-71-67</span>
+				Ринг Авто Воронеж — <span class="footer-center-call-text-phone">7 (473) 261-7777 </span>
+				<br>
+				Ринг Авто Липецк — <span class="footer-center-call-text-phone">7 (4742) 72-7777</span>
 			</span>
+
             <a class="footer-center-call-right-btn zing_form_toggler" for="zing_hotline_btn">
                 <span class="footer-center-call-right-btn-item"><i class="i-0009-phone-icon"></i> позвонить онлайн</span>
                 <span class="footer-center-call-right-btn-item"><i class="i-0009-phone-icon"></i> позвонить онлайн</span>
@@ -65,7 +67,7 @@ IncludeTemplateLangFile(__FILE__); ?>
             </noindex>
             <br/>
             <div class="p_div" itemscope itemtype="http://schema.org/Organization">
-                2017 &copy; ООО "<span itemprop="name">Хендэ Мотор СНГ</span>"
+                2017 &copy; ООО "<span itemprop="name">Ринг Авто - официальный дилер Hyundai</span>"
                 <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <span itemprop="addressLocality">Москва</span>
                     <span itemprop="streetAddress">ул. Тестовская, 10</span>
@@ -262,6 +264,90 @@ IncludeTemplateLangFile(__FILE__); ?>
 <div class="scroll_me" style="display: block;"><a href="#wrapper"></a></div>
 
 </div><!--wrapper-->
+
+<!-- Yandex.Metrika counter --><script type="text/javascript">var yaParams = {/*Здесь параметры визита*/};</script><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter26763030 = new Ya.Metrika({id:26763030, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true,params:window.yaParams||{ }}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/26763030" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+
+<link href="https://clients.streamwood.ru/StreamWood/sw.css" rel="stylesheet" type="text/css" /> <link href="http://clients.streamwood.ru/StreamWood/hyundai.css" rel="stylesheet" type="text/css" /> <script type="text/javascript" src="https://clients.streamwood.ru/StreamWood/sw.js" charset="utf-8"></script> <script type="text/javascript">
+  swQ(document).ready(function(){
+    swQ().SW({
+      swKey: 'e3723a16eee0ccbbe419cdc9eef8441f',
+      swDomainKey: 'c00beaa9608c553c879fc0bde3aa2377'
+    });
+    swQ('body').SW('load');
+  });
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 971037742;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/971037742/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<div id="carfinPrice"><!-- --></div>
+<script type="text/javascript">
+(function() {
+    var carfinParam = {
+        'partner': 402,
+        'htmlPrice': 'carfinPrice',
+        'positionAlign': 'left',
+        'positionTop': 50,
+        'tpl': 14
+    };
+    var carfinScript = document.createElement('script');
+    carfinScript.type = 'text/javascript';
+    carfinScript.async = true;
+    carfinScript.charset = 'utf-8';
+    carfinScript.src = (("https:" == document.location.protocol) ? "https://" : "http://") + 'car-fin.ru/widget/price.js';
+    var carfinScriptDone = false;
+    carfinScript.onload = carfinScript.onreadystatechange = function() {
+        if (!carfinScriptDone
+        && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")
+        && typeof(carfinCalculator) == 'object') {
+            carfinScriptDone = true;
+            carfinCalculator.run(carfinParam);
+        }
+    }
+    var firstScript = document.getElementsByTagName('script')[0];
+    firstScript.parentNode.insertBefore(carfinScript, firstScript);
+})();
+</script>
+<script type="text/javascript" src="//cdn.perezvoni.com/widget/js/przv.js?przv_code=4116-773dfffea-f2c47-c4713a9-47826773dfffea-26773dfffea" ></script>
+
+<!-- BEGIN CLICKTEX CODE {literal} -->
+<script type="text/javascript" charset="utf-8" async="async" src="//www.clicktex.ru/code/5883"></script>
+<!-- {/literal} END CLICKTEX CODE -->    <!-- scroll to top button -->
+    <style>
+        /* scroll to top button */
+        .scroll_me a{
+            width:50px;
+            height: 50px;
+            background: url("/media/img/to_top.png");
+            position: fixed;
+            bottom: 50px;
+            right: 21px;
+            z-index: 999;
+            cursor: pointer;
+            opacity: 0.7;
+            display: none;
+        }
+        .scroll_me a:hover{
+            opacity:1;
+        }
+        
+        .btn_area1>a>img{
+            max-width: 220px;
+        }
+        .btn_area1>a:hover{
+            opacity:.8;
+        }
+    </style>
 
 </body>
     

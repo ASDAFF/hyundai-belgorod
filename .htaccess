@@ -11,6 +11,23 @@ ErrorDocument 404 /404.php
   #php_value mbstring.internal_encoding UTF-8
 </IfModule>
 
+
+Redirect 301 /car/Solaris /Solaris/
+Redirect 301 /car/new_Solaris5DR /Solaris-5dr/
+Redirect 301 /car/i30-3DR /i30-3dr/
+Redirect 301 /car/i30 /i30/
+Redirect 301 /car/i30Wagon /i30-Wagon/
+Redirect 301 /car/i40 /i40/
+Redirect 301 /car/i40-Wagon /i40-Wagon/
+Redirect 301 /car/Elantra /Elantra/
+Redirect 301 /car/Creta /Creta/
+Redirect 301 /car/Tucson /Tucson/
+Redirect 301 /car/SantaFe /SantaFe/
+Redirect 301 /car/GrandSantaFe /GrandSantaFe/
+Redirect 301 /car/H-1 /H-1/
+Redirect 301 /car/GenesisNew /GenesisNew/
+
+
 <IfModule mod_rewrite.c>
   Options +FollowSymLinks
   RewriteEngine On

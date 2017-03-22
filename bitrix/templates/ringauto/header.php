@@ -39,29 +39,31 @@
 	
 	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/call_online.js"></script>
 <!-- 	<script type='text/javascript' src="/media/js/sc_gt_default.js"></script> -->
-
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NZBL9QH');</script>
+<!-- End Google Tag Manager -->
 	</head>
+
 <body class="main">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZBL9QH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <div id="panel"><?$APPLICATION->ShowPanel();?></div>
 
 <div id="wrapper">
 	<header id="header">
 		<div class="header-center clearfix">
 			<div class="header-center-right">
-				<a class="header-center-right-btn" href="/configurator">
+				<!--<a class="header-center-right-btn" href="/configurator">
 					<i class="i-0030-auto-icon"></i> Конфигуратор
-				</a>
+				</a> -->
 			</div>
 			<div class="header-center-left">
-				Служба поддержки — <b>8 800 333-71-67</b>
+				г. Воронеж, ул. Изыскателей, 39, корп. 2 — <b>+7 473 261-7777</b>
 				<span class="header-center-left-sep">|</span>
-				<a class="header-center-left-btn zing_form_toggler" for="zing_hotline_btn">
-					<i class="i-0000-call-icon-h"></i> Звонок онлайн
-				</a>
-				<span class="header-center-left-sep">|</span>
-				<a class="header-center-left-btn" href="/ContactUs">
-					<span class="header-center-left-btn-item"><i class="i-0002-mail-icon-h"></i> Написать</span>
-				</a>
+				г. Липецк, ул. 50 лет НЛМК, 24 — <b>+7 4742 72-7777</b>
 			</div>
 		</div>
 

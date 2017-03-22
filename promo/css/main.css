@@ -1,0 +1,314 @@
+body {
+  min-height: 2000px;
+  min-width: 1200px!important;
+}
+
+
+
+
+.navbar-default {
+  background-color: #0084CF;
+  border-color: #0084CF;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+     padding-top: 10px;
+     padding-bottom: 0px;
+  }
+}
+.navbar {
+  min-height: 40px;
+  margin-bottom: -1px;
+}
+
+.logo-brand > img{
+  margin-top: 11px;
+}
+
+.banner-top{
+  background: url(../img/banner.jpg);
+  height: 590px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.btn-default {
+  border-radius: 0;
+  width: 100%;
+  height: 45px;
+  background-color: #0084CF;
+  border-color: #0084CF;
+  color: #fff;
+  font-size: 22px;
+}
+
+.form-box{
+  background: rgb(0, 44, 102);
+  padding: 5px 30px;
+  width: 440px;
+  height: 410px;
+  margin-top: 90px;
+}
+.form-box .form-text{
+  text-align: justify;
+}
+.form-box h3{
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.form-box p{
+  color: #fff;
+  margin-bottom: 25px;
+}
+.form-control{
+  margin-bottom: 30px;
+  height: 45px;
+  border-radius: 0;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: #0084CF;
+  border-color: #0084CF;
+}
+
+.banner-text-block h1{
+  color: #fff;
+  font-size: 60px;
+}
+.banner-text-block{
+  margin-top: 75px;
+  text-align: right;
+}
+
+.padding-left-null{
+  padding-left: 0px;
+}
+
+.service-phone{
+  color: #B2B2B2;
+  margin-top: 10px;
+}
+.service-phone span{
+  font-weight: bold;
+}
+.phone-online{
+  color: #B2B2B2;
+  margin-top: 7px;
+}
+.send-mail{
+  color: #B2B2B2;
+  margin-top: 7px;
+}
+.config-header{
+  color: #0084CE;
+  font-weight: bold;
+}
+
+.box-two-one-section h3{
+  color: #EDEDED;
+  margin-bottom: 20px;
+}
+.car-img{
+  margin-bottom: 30px;
+}
+.box-two-two-section p{
+  color: #0071BD;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.box-two-two-section a{
+  border: 2px solid #0071BD;
+  color: #0071BD;
+  font-weight: bold;
+  padding: 15px 30px;
+}
+.box-two-two-section{
+  margin-bottom: 110px;
+}
+
+.icon-two-img{
+  margin-right: 10px;
+  float: left;
+}
+
+.small-text{
+  margin: 0px 0px 0px -1px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.col-md-7 > h1{
+  color: #0071BD;
+  margin-bottom: 30px;
+}
+.row > h1{
+  color: #0071BD;
+  margin-bottom: 30px;
+}
+
+
+.col-md-7 ul{
+  font-size: 22px;
+  color: #0071BD;
+}
+.col-md-7 ul li span{
+  color: #A0A0A0;
+}
+
+.img-car{
+  background-repeat: no-repeat!important;
+  background-position: 605px!important;
+}
+
+.container > .row > .col-md-3{
+  text-align: center;
+}
+.container > .row > .col-md-3 > p{
+  color: #A0A0A0;
+  font-size: 20px;
+  margin: 10px auto;
+}
+.banner-blue{
+  background-repeat: no-repeat;
+  height: 440px;
+}
+.text-blue-box h1{
+  color: #fff;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.text-blue-box{
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+.banner-blue a{
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 30px;
+  padding: 15px 40px;
+}
+
+.col-md-4 p{
+  color: #A0A0A0;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
+.ui-state-active > .pluse{
+  background: url('../img/minus.png')!important;
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  top: 8px;
+  left: 0px;
+}
+.footer{
+  border-bottom: 1px solid #5EA2C1;
+}
+
+.footer ul{
+  color: #C4C2C7;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.footer ul li{
+  list-style: none;
+}
+
+.footer ul li:first-child{
+  color: #fff;
+}
+.footer2 h3{
+  color: #fff;
+}
+
+.footer2 p{
+  color: #C4C2C7;
+}
+
+.popup{
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  text-align: center;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.popup-form-block{
+  position: relative;
+  background-color: #fff;
+  border: 1px solid;
+  width: 1300px;
+  height: 301px;
+  display: inline-block;
+  margin-top: 100px;
+  height: 600px;
+}
+.closed{
+  cursor: pointer;
+  position: absolute;
+  top: -55px;
+  right: -55px;
+  /* background-color: #000; */
+  color: #000;
+  font-size: 20px;
+  border: 2px solid;
+  border-radius: 50px;
+  padding: 7px 15px;
+}
+
+
+.text-error-header{
+  margin: 0!important;
+  text-align: center;
+  color: red!important;
+}
+
+.popup-form-block{
+  background-size: cover!important;
+}
+
+.popup-form{
+ margin: 110px;
+}
+
+.car-back{
+  background: url('../img/accesocreta.png');
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1400px) {
+  .car-back{
+    background: none;
+  }
+  .popup-form-block {
+   width: 1100px;
+  }
+  .popup-form {
+    margin: 90px 0px 0px 20px;
+  }
+}
+
+table tr td{
+	padding:10px;
+	width:225px;
+	min-width: 225px;
+}
+
+.ui-accordion .ui-accordion-content{
+	padding:0px;
+}
+
