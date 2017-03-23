@@ -46,7 +46,7 @@ $this->setFrameMode(true);
 			<?}?>
 		</ul>
 	</div>
-	
+
 	<div class="news-line"></div>
 	<div class="news-center no-padding clearfix">
 		<div class="news-center-table">
