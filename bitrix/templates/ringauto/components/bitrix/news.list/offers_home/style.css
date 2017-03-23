@@ -1,0 +1,114 @@
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+.h1-offer{
+	font-weight: 300;
+	font-family: 'HyundaiSansHead',sans-serif;
+	color: #0084CF;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.offers {
+	background: #f7f7f7;
+	padding-bottom: 15px;
+}
+
+
+.super-offer-slider-giant {
+	width: 50%;
+	margin: 30px auto;
+	height: 430px;
+}
+
+.super-offer-slide-giant .item{
+	width: 300px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid rgb(0, 132, 207);
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.super-offer-slide-giant .item img{
+	max-width: 300px;
+}
+
+.super-offer-slide-giant .item .mCarListCards_Item_Info .mCarListCards_Item_Info_Name a{
+	color: #0084CF;
+	font-size: 20px;
+}
+
+
+
+.mtr-btn.mtr-btn-blue {
+	border-color: #0084CF;
+	color: white;
+	background-color: #0084CF;
+}
+.mtr-btn.mtr-btn-wide {
+	width: 100%;
+}
+.mtr-btn {
+	border-style: solid;
+	font-family: 'HyundaiSansHead',sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	padding: 2px 20px;
+	font-size: 17px;
+}
+.mCarListCards_Item_Info {
+	padding: 20px;
+}
+
+.mCarListCards_Item_Info_Props_Item .gray-text{
+	font-size: 18px;
+	color: #807D7E;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+.mCarListCards_Item_Info_Props_Item .red-text{
+	font-size: 18px;
+	color: #943D3E;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+.mCarListCards_Item_Info_Props_Item .w-gray-text{
+	font-size: 18px;
+	color: #C0C0C0;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+.mCarListCards_Item_Info_Name{
+	margin-bottom: 20px;
+}
+.super-offer-slider-giant .slick-next {
+	right: -100px;
+	background: url('/bitrix/templates/ringauto/media/img/slider_arrows.png') no-repeat -83px 0;
+}
+.super-offer-slider-giant .slick-prev {
+	left: -100px;
+	background: url('/bitrix/templates/ringauto/media/img/slider_arrows.png') no-repeat -29px 0;
+}
+.super-offer-slider-giant .slick-prev, .super-offer-slider-giant .slick-next {
+	width: 28px;
+	height: 45px;
+	z-index: 1;
+	-webkit-transition: all 0s;
+	-moz-transition: all 0s;
+	-ms-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+}
