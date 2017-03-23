@@ -26,6 +26,9 @@ Redirect 301 /car/SantaFe /SantaFe/
 Redirect 301 /car/GrandSantaFe /GrandSantaFe/
 Redirect 301 /car/H-1 /H-1/
 Redirect 301 /car/GenesisNew /GenesisNew/
+Redirect 301 /news/prezentaciya-novogo-hyundai-solaris-2017-v-ring-avto-v-voronezhe-i-lipecke /news/priglashaem-vas-na-prezentatsiyu-novogo-hyundai-solaris-2017-v-ring-avto-v-voronezhe-i-lipetske-/
+Redirect 301 /news/priglashaem-vas-na-prezentaciyu-novogo-hyundai-solaris-2017-v-ring-avto-26-marta-14-00-voronezh-ul-izyskatelej-39-korp-2 /news/priglashaem-vas-na-prezentatsiyu-novogo-hyundai-solaris-2017-v-ring-avto----26-marta-14-00-voronezh-/
+Redirect 301 /news/priglashaem-vas-na-prezentaciyu-novogo-hyundai-solaris-2017-v-ring-avto-26-marta-11-00-lipeck-ul-50-let-nlmk-24 /news/priglashaem-vas-na-prezentatsiyu-novogo-hyundai-solaris-2017-v-ring-avto----26-marta-11-00-lipetsk--/
 
 
 <IfModule mod_rewrite.c>

@@ -1,4 +1,4 @@
-<a class="banners-item thumb-link" style="background-image: url('/img/1.jpg');" href="https://hpromise.hyundai.ru/trade-in/" target="_blank" ></a>
-<a class="banners-item thumb-link" style="background-image: url('/img/2.jpg');" href="http://memories.hyundai.ru/" target="_blank" ></a>
-<a class="banners-item thumb-link" style="background-image: url('/img/3.jpg');" href="http://www.hyundai.ru/promo/the-best"  ></a>
-<a class="banners-item thumb-link" style="background-image: url('/img/4.jpg');" href="http://www.hyundai.ru/configurator/car?compl_id=298&packets="></a>
+<a class="banners-item thumb-link" style="background-image: url('/img/bannery-poloska/bannery-poloska-1.jpg');" href="http://old.hyundai-ringauto.ru/service/service-hyundai/servisnye-programmy/spo/super-predlozhenie-ot-servisa-ooo-ring-avto" target="_blank" ></a>
+<a class="banners-item thumb-link" style="background-image: url('/img/bannery-poloska/bannery-poloska-2.jpg');" href="http://old.hyundai-ringauto.ru/hpromise/about" ></a>
+<a class="banners-item thumb-link" style="background-image: url('/img/bannery-poloska/bannery-poloska-3.jpg');" href="http://old.hyundai-ringauto.ru/service/service-hyundai/servisnye-programmy/spo/Davajte-druzhit"  ></a>
+<a class="banners-item thumb-link" style="background-image: url('/img/bannery-poloska/bannery-poloska-4.jpg');" href="http://old.hyundai-ringauto.ru/shopping/help/spo/Hyundai_Solaris_sale_yanvar2017"></a>
