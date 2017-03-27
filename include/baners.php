@@ -1,4 +1,0 @@
-<a class="banners-item thumb-link" style="background-image: url('/img/bannery-poloska/bannery-poloska-1.jpg');" href="http://old.hyundai-ringauto.ru/service/service-hyundai/servisnye-programmy/spo/super-predlozhenie-ot-servisa-ooo-ring-avto" target="_blank" ></a>
-<a class="banners-item thumb-link" style="background-image: url('/img/bannery-poloska/bannery-poloska-2.jpg');" href="http://old.hyundai-ringauto.ru/hpromise/about" ></a>
-<a class="banners-item thumb-link" style="background-image: url('/img/bannery-poloska/bannery-poloska-3.jpg');" href="http://old.hyundai-ringauto.ru/service/service-hyundai/servisnye-programmy/spo/Davajte-druzhit"  ></a>
-<a class="banners-item thumb-link" style="background-image: url('/img/bannery-poloska/bannery-poloska-4.jpg');" href="http://old.hyundai-ringauto.ru/shopping/help/spo/Hyundai_Solaris_sale_yanvar2017"></a>
