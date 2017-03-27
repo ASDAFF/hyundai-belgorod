@@ -13,19 +13,37 @@
 $this->setFrameMode(true);
 //var_dump($arResult);
 ?>
+<div class="slider">
 
-<div class="main-slideshow">
+	<div class="main-slideshow">
 
-	<?foreach($arResult["PROPERTIES"]["SLIDER"]["VALUE"] as $key => $arItem):?>
-		<div class="main-slideshow-item">
-			<div class="main-slideshow-item-content ls-slide">
-				<a href="<?=$arResult["PROPERTIES"]["SLIDER"]["DESCRIPTION"][$key]?>"><img src="<?=CFile::GetPath($arItem);?>" alt=""/></a>
+		<?foreach($arResult["PROPERTIES"]["SLIDER"]["VALUE"] as $key => $arItem):?>
+			<div class="main-slideshow-item">
+				<div class="main-slideshow-item-content ls-slide">
+					<a href="<?=$arResult["PROPERTIES"]["SLIDER"]["DESCRIPTION"][$key]?>"><img src="<?=CFile::GetPath($arItem);?>" alt=""/></a>
+				</div>
 			</div>
+		<?endforeach;?>
+
+	</div>
+
+	<div class="box-price-absolute-right">
+		<div class="box-price">
+			<p><?=$arResult["PROPERTIES"]['OLD_PRICE']['VALUE']?></p>
+			<p>старая цена</p>
 		</div>
-	<?endforeach;?>
+		<div class="box-price">
+			<p><?=$arResult["PROPERTIES"]['CREDIT']['VALUE']?></p>
+			<p>скидка</p>
+		</div>
+		<div class="box-price">
+			<p><?=$arResult["PROPERTIES"]['NEW_PRICE']['VALUE']?></p>
+			<p>новая цена</p>
+		</div>
+		<div class="clear"></div>
+	</div>
 
 </div>
-
 <div class="top-margin"></div>
 <div class="news-center no-padding clearfix">
 	<div class="news-center-table">
@@ -93,6 +111,8 @@ $this->setFrameMode(true);
 
 </div>
 
+
+
 <div class="news-line"></div>
 
 <div class="news-center">
@@ -113,6 +133,24 @@ $this->setFrameMode(true);
 	<? if(strlen($arResult["PROPERTIES"]['SLIDER_IMAGE_ONE']['VALUE']) >= 1){ ?>
 	<img src="<?=CFile::GetPath($arResult["PROPERTIES"]["SLIDER"]["VALUE"][$arResult["PROPERTIES"]['SLIDER_IMAGE_ONE']['VALUE']])?>">
 	<?}?>
+
+	<div class="box-price-absolute-left">
+		<div class="box-price">
+			<p><?=$arResult["PROPERTIES"]['OLD_PRICE']['VALUE']?></p>
+			<p>старая цена</p>
+		</div>
+		<div class="box-price">
+			<p><?=$arResult["PROPERTIES"]['CREDIT']['VALUE']?></p>
+			<p>скидка</p>
+		</div>
+		<div class="box-price">
+			<p><?=$arResult["PROPERTIES"]['NEW_PRICE']['VALUE']?></p>
+			<p>новая цена</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<p>Скидка предоставляется на дополнительное оборудование*</p>
+
 </div>
 
 
