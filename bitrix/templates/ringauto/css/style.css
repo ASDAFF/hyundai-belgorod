@@ -1114,7 +1114,6 @@ input.user-bar-search-input:focus{
 .main-slideshow{
     position: relative;
     width: 100%;
-    margin-bottom: 3px;
     clear: both;
     height: 520px;
     background: #eee;
