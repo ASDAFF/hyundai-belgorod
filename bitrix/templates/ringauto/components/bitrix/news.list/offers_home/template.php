@@ -54,7 +54,7 @@ foreach($arResult["ITEMS"] as $arItem) {
 						<span class="left red-text">Новая цена</span><span class="right red-text"><?=$arItem['PROPERTIES']['NEW_PRICE']['VALUE']?></span>
 
 						<div class="clear"></div>
-						<span class="left w-gray-text">Кредит от <?=$arItem['PROPERTIES']['CREDIT']['VALUE']?></span>
+						<span class="left w-gray-text">Скидка от <?=$arItem['PROPERTIES']['CREDIT']['VALUE']?></span>
 
 					</div>
 					<div class="clear"></div>

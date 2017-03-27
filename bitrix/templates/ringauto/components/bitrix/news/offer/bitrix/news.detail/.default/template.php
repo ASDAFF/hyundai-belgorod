@@ -68,7 +68,7 @@ $this->setFrameMode(true);
 				<div><?=$arResult["PROPERTIES"]['TEXT_SPEED']['VALUE']?></div>
 			</div>
 		<?}?>
-		
+
 	</div>
 </div>
 
