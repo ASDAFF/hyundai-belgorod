@@ -11,3 +11,8 @@ div.news-detail img.detail_picture
 {
 	color:#486DAA;
 }
+
+.b-news-view img{
+	max-width: 600px;
+	margin-bottom: 20px;
+}
