@@ -91,7 +91,7 @@ $APPLICATION->SetTitle("Creta");
                                         <span>Для дорог и направлений!</span>
                                     </div>
                                     <div class="title-price" style="margin: 1em 0 3em;">
-                                        от  749 900  <span class="rouble">"</span><br>
+                                        <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
                                         <a href="/configurator/?car_id=150&compl_id=336&calc_open=1" class="title-price-notice">В кредит от 7 000 <span class="rouble">"</span> / месяц</a>
                                     </div>
                                     <div class="title-list">

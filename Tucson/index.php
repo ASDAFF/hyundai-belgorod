@@ -422,8 +422,7 @@ $APPLICATION->SetTitle("Tucson");
                                         <strong>НОВЫЙ TUCSON - <br> РЕШАЙСЯ!</strong>
                                     </div>
                                     <div class="title-price">
-                                        <strong>Цена от:</strong>
-                                        <div class="offer-price-count ruble">1 505 900 </div><div class="offer-price-count"><!-- <sup>*</sup> --></div>
+                                        <? price_to_url($APPLICATION->GetCurPage()); ?>
                                     </div>
                                     <div class="title-price">
                                         <strong>КАСКО:</strong>
