@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="http://www.hyundai-ringauto.ru/favicon.ico">
 
-    <title>Hyundai Creta - уже в Липецке! Запишись на тест-драйв</title>
+    <title>Hyundai Creta - уже в Воронеже! Запишись на тест-драйв</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -56,7 +56,7 @@
 
             <div class="col-md-3 padding-left-null">
                 <div class="service-phone">
-                    Официальный дилер Hyundai в Липецке <span>Ринг Авто - г. Липецк, ул. 50 лет НЛМК, 24 - +7 (4742) 72-7777 </span>
+                    Официальный дилер Hyundai в Воронеже <span>Ринг Авто - г. Воронеж, ул. Изыскателей, 39 - +7 (473) 261-7777 </span>
                 </div>
             </div>
 <!--
@@ -174,21 +174,21 @@
                 </div>
                 <div class="col-md-6">
                     <img class="icon-two-img" src="img/2.png">
-                     <p class="small-text">Макс. мощность</p>
-                    <p class="small-text">149 л.с.</p>
+                    <p class="small-text">Экономный рассход</p>
+                    <p class="small-text">7,5 литров на 100 км</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <img class="icon-two-img" src="img/3.png">
-                    <p class="small-text">До 6 подушек</p>
-                    <p class="small-text">безопасности</p>
+                    <p class="small-text">Экономный рассход</p>
+                    <p class="small-text">7,5 литров на 100 км</p>
 
                 </div>
                 <div class="col-md-6">
                     <img class="icon-two-img" src="img/4.png">
-                    <p class="small-text">Большой список</p>
-                    <p class="small-text">опций</p>
+                    <p class="small-text">Экономный рассход</p>
+                    <p class="small-text">7,5 литров на 100 км</p>
                 </div>
             </div>
 
@@ -591,8 +591,8 @@
 
         <div class="container">
 
-            <h3>Официальный дилер Hyundai в Липецке <strong>Ринг Авто - г. Липецк, ул. 50 лет НЛМК 24 <br>
-			 +7 (4742) 72-7777</strong></h3>
+            <h3>Официальный дилер Hyundai в Воронеже <strong>Ринг Авто - г. Воронеж, ул. Изыскателей 39<br>
+			+7 (473) 261-7777</strong></h3>
             
 
         </div>

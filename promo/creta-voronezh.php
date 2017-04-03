@@ -174,21 +174,21 @@
                 </div>
                 <div class="col-md-6">
                     <img class="icon-two-img" src="img/2.png">
-                    <p class="small-text">Экономный рассход</p>
-                    <p class="small-text">7,5 литров на 100 км</p>
+                     <p class="small-text">Макс. мощность</p>
+                    <p class="small-text">149 л.с.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <img class="icon-two-img" src="img/3.png">
-                    <p class="small-text">Экономный рассход</p>
-                    <p class="small-text">7,5 литров на 100 км</p>
+                    <p class="small-text">До 6 подушек</p>
+                    <p class="small-text">безопасности</p>
 
                 </div>
                 <div class="col-md-6">
                     <img class="icon-two-img" src="img/4.png">
-                    <p class="small-text">Экономный рассход</p>
-                    <p class="small-text">7,5 литров на 100 км</p>
+                    <p class="small-text">Большой список</p>
+                    <p class="small-text">опций</p>
                 </div>
             </div>
 

@@ -174,21 +174,21 @@
                 </div>
                 <div class="col-md-6">
                     <img class="icon-two-img" src="img/2.png">
-                     <p class="small-text">Макс. мощность</p>
-                    <p class="small-text">149 л.с.</p>
+                    <p class="small-text">Экономный рассход</p>
+                    <p class="small-text">7,5 литров на 100 км</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <img class="icon-two-img" src="img/3.png">
-                    <p class="small-text">До 6 подушек</p>
-                    <p class="small-text">безопасности</p>
+                    <p class="small-text">Экономный рассход</p>
+                    <p class="small-text">7,5 литров на 100 км</p>
 
                 </div>
                 <div class="col-md-6">
                     <img class="icon-two-img" src="img/4.png">
-                    <p class="small-text">Большой список</p>
-                    <p class="small-text">опций</p>
+                    <p class="small-text">Экономный рассход</p>
+                    <p class="small-text">7,5 литров на 100 км</p>
                 </div>
             </div>
 
@@ -476,7 +476,7 @@
                             <td>1557 / 1545(шины 16" / 17")</td>
                         </tr>
 						<tr>
-                            <td>Задняя колея</td>
+                            <td>Передняя колея</td>
                             <td>2WD: 1570 / 1558(шины 16" / 17")</td>
                             <td>2WD: 1570 / 1558(шины 16" / 17")</td>
                             <td>2WD: 1570 / 1558(шины 16" / 17")</td>

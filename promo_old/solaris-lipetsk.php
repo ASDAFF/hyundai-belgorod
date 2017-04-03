@@ -9,14 +9,14 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="http://www.hyundai-ringauto.ru/favicon.ico">
 
-    <title>Hyundai Creta - уже в Липецке! Запишись на тест-драйв</title>
+    <title>Hyundai Solaris - уже в Липецке! Запишись на тест-драйв</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/jquery-ui.css">
 
     <!-- Custom styles for this template -->
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/main-solaris.css" rel="stylesheet">
 
 
 
@@ -114,12 +114,12 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="banner-top" style="background: url('img/ban.jpg')">
+        <div class="banner-top" style="background: url('img/bansolaris.jpg')">
             <div class="container">
                 <div class="col-md-7">
                     <div class="banner-text-block">
-										<h1>Creta в наличии с птс! Только 20 авто </h1>
-										<h1>до 31 марта!</h1>
+										<h1>Solaris в наличии с птс! Только 20 авто </h1>
+										<h1>до 30 апреля!</h1>
 					
                         </div>
                 </div>
@@ -154,34 +154,34 @@
     <div class="row">
         <div class="col-md-7">
             <div class="box-two-one-section">
-                <img src="img/creta.png">
+                <img src="img/solaris.png">
                 <h3 style="color: rgb(160,160,160);">Для дорог и направлений</h3>
-                <img class="car-img" src="img/car.png">
+                <img class="car-img" src="img/carsolaris.png">
                 <img src="img/color.png">
             </div>
         </div>
         <div class="col-md-5">
             <div class="box-two-two-section">
-                <h1>от 749 900 р</h1>
+                <h1>от 599 000 р</h1>
                 <p>В кредит от 7000 р /месяц</p>
-                <a href="http://configurator.hyundai.ru/price_list/Creta.pdf" target="_blank">ВСЕ ПРЕДЛОЖЕНИЯ ></a>
+                <a href="http://configurator.hyundai.ru/price_list/creta.pdf" target="_blank">ВСЕ ПРЕДЛОЖЕНИЯ ></a>
             </div>
             <div class="row" style="margin-bottom: 15px;">
                 <div class="col-md-6">
                     <img class="icon-two-img" src="img/1.png">
                     <p class="small-text">Экономный рассход</p>
-                    <p class="small-text">7,5 литров на 100 км</p>
+                    <p class="small-text">5.7 литров на 100 км</p>
                 </div>
                 <div class="col-md-6">
                     <img class="icon-two-img" src="img/2.png">
-                     <p class="small-text">Макс. мощность</p>
-                    <p class="small-text">149 л.с.</p>
+                    <p class="small-text">Ускорение 0-100 км/ч</p>
+                    <p class="small-text">10.3 сек</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <img class="icon-two-img" src="img/3.png">
-                    <p class="small-text">До 6 подушек</p>
+                    <p class="small-text">2 подушки</p>
                     <p class="small-text">безопасности</p>
 
                 </div>
@@ -201,21 +201,30 @@
 
 <hr>
 
-<div class="container img-car" style="background: url('img/pol.png')">
+<div class="container img-car" style="background: url('img/polsolaris.png')">
 
     <div class="row">
         <div class="col-md-7">
             <h1>Стандартная комплектация</h1>
             <ul>
-                <li><span>Климат контроль подогрев сидении</span></li>
-                <li><span>Круиз контроль</span></li>
-                <li><span>Система защиты от бокового удара</span></li>
-                <li><span>Система стабилизации</span></li>
-                <li><span>Противоугонная система с датчиками</span></li>
-                <li><span>Центролизовонное закрытие стекл и люка с пульта</span></li>
-                <li><span>Фронтальные и боковые подушки безопасности</span></li>
-                <li><span>Система защиты от травм</span></li>
-                <li><span>Боковые зеркала с подогревом</span></li>
+                <li><span>2 подушки безопасности</span></li>
+                <li><span>Система управления стабилизацией (VSM)</span></li>
+                <li><span>Регулировка руля по высоте и вылету</span></li>
+                <li><span>Электростеклоп. передние и задние</span></li>
+                <li><span>Стальные диски 15" с шинами 185/65 R15</span></li>
+                <li><span>Подогрев передних и задних сидений</span></li>
+                <li><span>Аудио (4 дин., USB, Bluetooth)</span></li>
+                <li><span>Климат-контроль</span></li>
+                <li><span>Пульт ЦЗ в ключе + сигнализация*</span></li>
+                <li><span>Отделка руля кожей</span></li>
+                <li><span>Подогрев руля</span></li>
+                <li><span>Панель приборов Supervision</span></li>
+                <li><span>Проекционные фары с подсв. поворотов</span></li>
+                <li><span>Светодиодные ходовые огни</span></li>
+                <li><span>Передние противотуманные фары</span></li>
+                <li><span>Подогрев лобового стекла и форсунок</span></li>
+                <li><span>Датчики парковки сзади</span></li>
+                <li><span>Передний подлокотник и регул. по длине</span></li>
             </ul>
         </div>
         <div class="col-md-5"></div>
@@ -225,45 +234,16 @@
 
 </div> <!-- /container -->
 
-<hr>
-
-<div class="container">
-
-    <div class="row">
-            <h1>Дополнительное оборудование</h1>
-
-        <div class="col-md-3">
-            <img src="img/rule.jpg">
-            <p>Ковры в багажник</p>
-        </div>
-        <div class="col-md-3">
-            <img src="img/bagaje.jpg">
-            <p>Бырзговики задние</p>
-        </div>
-        <div class="col-md-3">
-            <img src="img/korb.jpg">
-            <p>Защита картера</p>
-        </div>
-        <div class="col-md-3">
-            <img src="img/gallery.jpg">
-            <p>Нано обработка кузова</p>
-        </div>
-
-
-    </div>
-
-
-</div> <!-- /container -->
 
 <hr>
 
 <div class="container-fluid">
 
     <div class="row">
-        <div class="banner-blue" style="background: url('img/blue.jpg')">
+        <div class="banner-blue" style="background: url('img/bluesolaris.jpg')">
             <div class="container">
                 <div class="text-blue-box">
-                    <h1>Hyunday Creta с ПТС</h1>
+                    <h1>Hyunday Solaris с ПТС</h1>
                     <h1>В наличии в Липецке</h1>
                     <h1>В Ринг Авто</h1>
                 </div>
@@ -282,15 +262,15 @@
 
         <div class="col-md-4">
             <p>Надежный стальной каркас</p>
-            <img src="img/kark.png">
+            <img src="img/karksolaris.png">
         </div>
         <div class="col-md-4">
             <p>Экономичные и производительные двигатели</p>
-            <img src="img/dvig.png">
+            <img src="img/dvigsolaris.png">
         </div>
         <div class="col-md-4">
             <p>Исключительный контроль</p>
-            <img src="img/kon.png">
+            <img src="img/konsolaris.png">
         </div>
 
 
@@ -310,10 +290,10 @@
             <table style="width: 100%;font-size: 22px">
                 <tr>
                     <td>Модификации</td>
-                    <td>1,6л - 6MT 2WD</td>
-                    <td>1,6л - 6AT 2WD</td>
-                    <td>2,0л - 6AT 2WD</td>
-                    <td>2,0л - 6AT 4WD</td>
+                    <td>1.4л - 6MT</td>
+                    <td>1.4л - 6AT</td>
+                    <td>1.6л - 6MT</td>
+                    <td>1.6л - 6AT</td>
                 </tr>
             </table>
             <div id="accordion">
@@ -322,45 +302,52 @@
                     <table style="width: 100%;font-size: 22px;color: #A0A0A0">
                         <tr>
                             <td>Мощность</td>
+                            <td>100 л.с.</td>
+                            <td>100 л.с.</td>
                             <td>123 л.с.</td>
                             <td>123 л.с.</td>
-                            <td>149 л.с.</td>
-                            <td>149 л.с.</td>
                         </tr>
                         <tr>
                             <td>Объем двигателя</td>
+                            <td>1.4 л.</td>
+                            <td>1.4 л.</td>
                             <td>1.6 л.</td>
                             <td>1.6 л.</td>
-                            <td>2 л.</td>
-                            <td>2 л.</td>
+                        </tr>
+						<tr>
+                            <td>Двигатель</td>
+                            <td>Kappa 1.4 MPI</td>
+                            <td>Kappa 1.4 MPI</td>
+                            <td>Gamma 1.6 MPI</td>
+                            <td>Gamma 1.6 MPI</td>
                         </tr>
 						<tr>
                             <td>Объем, см3</td>
+                            <td>1368</td>
+                            <td>1368</td>
                             <td>1591</td>
                             <td>1591</td>
-                            <td>1999</td>
-                            <td>1999</td>
                         </tr>
 						<tr>
                             <td>Макс. мощность, кВт</td>
+                            <td>73.3</td>
+                            <td>73.3</td>
                             <td>90.2</td>
                             <td>90.2</td>
-                            <td>110</td>
-                            <td>110</td>
                         </tr>
 						<tr>
                             <td>Макс. мощность, л.с.</td>
+                            <td>99.66</td>
+                            <td>99.66</td>
                             <td>123</td>
                             <td>123</td>
-                            <td>149</td>
-                            <td>149</td>
                         </tr>
 						<tr>
                             <td>Топливный бак</td>
-                            <td>55</td>
-                            <td>55</td>
-                            <td>55</td>
-                            <td>55</td>
+                            <td>50</td>
+                            <td>50</td>
+                            <td>50</td>
+                            <td>50</td>
                         </tr>
                     </table>
                 </div>
@@ -368,39 +355,32 @@
                 <div>
                     <table style="width: 100%;font-size: 22px;color: #A0A0A0">
                         <tr>
-                            <td>Привод</td>
-                            <td>2WD</td>
-                            <td>2WD</td>
-                            <td>2WD</td>
-                            <td>4WD</td>
-                        </tr>
-                        <tr>
                             <td>Динамические характеристики</td>
                             <td>6МКПП</td>
                             <td>6АКПП</td>
-                            <td>6АКПП</td>
+                            <td>6МКПП</td>
                             <td>6АКПП</td>
                         </tr>
 						<tr>
                             <td>Тип трансмиссии</td>
                             <td>Механическая</td>
                             <td>Гидромеханическая</td>
-                            <td>Гидромеханическая</td>
+                            <td>Механическая</td>
                             <td>Гидромеханическая</td>
                         </tr>
 						<tr>
                             <td>Ускорение 0-100 км/ч, сек</td>
-                            <td>12.3</td>
-                            <td>12.1</td>
-                            <td>10.7</td>
-                            <td>11.3</td>
+                            <td>12.2</td>
+                            <td>12.9</td>
+                            <td>10.3</td>
+                            <td>11.2</td>
                         </tr>
 						<tr>
                             <td>Макс. скорость, км/ч</td>
-                            <td>169</td>
-                            <td>169</td>
+                            <td>185</td>
                             <td>183</td>
-                            <td>179</td>
+                            <td>193</td>
+                            <td>192</td>
                         </tr>
                     </table>
                 </div>
@@ -409,45 +389,45 @@
                     <table style="width: 100%;font-size: 22px;color: #A0A0A0">
                         <tr>
                             <td>Городской цикл, л/100 км*</td>
-                            <td>9</td>
-                            <td>9.2</td>
-                            <td>10.2</td>
-                            <td>10.6</td>
+                            <td>7.2</td>
+                            <td>8.5</td>
+                            <td>8</td>
+                            <td>8.9</td>
                         </tr>
                         <tr>
                             <td>Загородный цикл, л/100 км*</td>
-                            <td>5.8</td>
-                            <td>5.9</td>
-                            <td>6</td>
-                            <td>6.5</td>
+                            <td>4.8</td>
+                            <td>5.1</td>
+                            <td>4.8</td>
+                            <td>5.3</td>
                         </tr>
 						<tr>
                             <td>Смешанный цикл, л/100 км*</td>
-                            <td>7</td>
-                            <td>7.1</td>
-                            <td>7.5</td>
-                            <td>8</td>
+                            <td>5.7</td>
+                            <td>6.4</td>
+                            <td>6</td>
+                            <td>6.6</td>
                         </tr>
 						<tr>
                             <td>Выделение CO2 в городском цикле, г/км*</td>
-                            <td>207</td>
-                            <td>216</td>
-                            <td>239</td>
-                            <td>248</td>
+                            <td>167</td>
+                            <td>199</td>
+                            <td>185</td>
+                            <td>205</td>
                         </tr>
 						<tr>
                             <td>Выделение CO2 в загородном цикле, г/км*</td>
-                            <td>133</td>
-                            <td>137</td>
-                            <td>140</td>
-                            <td>153</td>
+                            <td>112</td>
+                            <td>120</td>
+                            <td>113</td>
+                            <td>123</td>
                         </tr>
 						<tr>
                             <td>Выделение CO2 в смешанном цикле, г/км*</td>
-                            <td>161</td>
-                            <td>166</td>
-                            <td>177</td>
-                            <td>188</td>
+                            <td>133</td>
+                            <td>149</td>
+                            <td>140</td>
+                            <td>153</td>
                         </tr>
                     </table>
                 </div>
@@ -456,59 +436,59 @@
                     <table style="width: 100%;font-size: 22px;color: #A0A0A0">
                         <tr>
                             <td>Колесная база</td>
-                            <td>2590</td>
-                            <td>2590</td>
-                            <td>2590</td>
-                            <td>2590</td>
+                            <td>2600</td>
+                            <td>2600</td>
+                            <td>2600</td>
+                            <td>2600</td>
                         </tr>
                         <tr>
                             <td>Минимальный дорожный просвет, мм*</td>
-                            <td>190</td>
-                            <td>190</td>
-                            <td>190</td>
-                            <td>190</td>
+                            <td>160</td>
+                            <td>160</td>
+                            <td>160</td>
+                            <td>160</td>
                         </tr>
 						<tr>
                             <td>Передняя колея</td>
-                            <td>1557 / 1545(шины 16" / 17")</td>
-                            <td>1557 / 1545(шины 16" / 17")</td>
-                            <td>1557 / 1545(шины 16" / 17")</td>
-                            <td>1557 / 1545(шины 16" / 17")</td>
+                            <td>1516 / 1510<br>(шины 15" / 16")</td>
+                            <td>1516 / 1510<br>(шины 15" / 16")</td>
+                            <td>1516 / 1510<br>(шины 15" / 16")</td>
+                            <td>1516 / 1510<br>(шины 15" / 16")</td>
                         </tr>
 						<tr>
                             <td>Задняя колея</td>
-                            <td>2WD: 1570 / 1558(шины 16" / 17")</td>
-                            <td>2WD: 1570 / 1558(шины 16" / 17")</td>
-                            <td>2WD: 1570 / 1558(шины 16" / 17")</td>
-                            <td>4WD: 1568 / 1556(шины 16" / 17")</td>
+                            <td>1524 / 1518<br>(шины 15" / 16")</td>
+                            <td>1524 / 1518<br>(шины 15" / 16")</td>
+                            <td>1524 / 1518<br>(шины 15" / 16")</td>
+                            <td>1524 / 1518<br>(шины 15" / 16")</td>
                         </tr>
 						<tr>
                             <td>Передний свес</td>
-                            <td>840</td>
-                            <td>840</td>
-                            <td>840</td>
-                            <td>840</td>
+                            <td>830</td>
+                            <td>830</td>
+                            <td>830</td>
+                            <td>830</td>
                         </tr>
 						<tr>
                             <td>Задний свес</td>
-                            <td>840</td>
-                            <td>840</td>
-                            <td>840</td>
-                            <td>840</td>
+                            <td>975</td>
+                            <td>975</td>
+                            <td>975</td>
+                            <td>975</td>
                         </tr>
 						<tr>
                             <td>Передняя подвеска</td>
-                            <td>Независимая,стойки McPherson с пружинами и стабилизатором поперечной устойчивости</td>
-                            <td>Независимая,стойки McPherson с пружинами и стабилизатором поперечной устойчивости</td>
-                            <td>Независимая,стойки McPherson с пружинами и стабилизатором поперечной устойчивости</td>
-                            <td>Независимая,стойки McPherson с пружинами и стабилизатором поперечной устойчивости</td>
+                            <td>независимая, пружинная, типа McPherson с гидравлическими телескопическими амортизаторами, со стабилизатором поперечной устойчивости</td>
+                            <td>независимая, пружинная, типа McPherson с гидравлическими телескопическими амортизаторами, со стабилизатором поперечной устойчивости</td>
+                            <td>независимая, пружинная, типа McPherson с гидравлическими телескопическими амортизаторами, со стабилизатором поперечной устойчивости</td>
+                            <td>независимая, пружинная, типа McPherson с гидравлическими телескопическими амортизаторами, со стабилизатором поперечной устойчивости</td>
                         </tr>
 						<tr>
                             <td>Задняя подвеска</td>
-                            <td>2WD: полузависимая, пружинная, с амортизаторами</td>
-                            <td>2WD: полузависимая, пружинная, с амортизаторами</td>
-                            <td>2WD: полузависимая, пружинная, с амортизаторами</td>
-                            <td>4WD: Независимая, многорычажная</td>
+                            <td>полузависимая, пружинная, с гидравлическими телескопическими амортизаторами, со стабилизатором поперечной устойчивости</td>
+                            <td>полузависимая, пружинная, с гидравлическими телескопическими амортизаторами, со стабилизатором поперечной устойчивости</td>
+                            <td>полузависимая, пружинная, с гидравлическими телескопическими амортизаторами, со стабилизатором поперечной устойчивости</td>
+                            <td>полузависимая, пружинная, с гидравлическими телескопическими амортизаторами, со стабилизатором поперечной устойчивости</td>
                         </tr>
                     </table>
                 </div>

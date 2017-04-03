@@ -80,11 +80,13 @@ body {
 }
 
 .banner-text-block h1{
+  width: 660px;
   color: #fff;
   font-size: 60px;
 }
 .banner-text-block{
   margin-top: 75px;
+  margin-right: 75px;
   text-align: right;
 }
 
@@ -150,6 +152,7 @@ body {
   color: #0071BD;
   margin-bottom: 30px;
 }
+
 .row > h1{
   color: #0071BD;
   margin-bottom: 30px;
@@ -286,7 +289,7 @@ body {
 }
 
 .car-back{
-  background: url('../img/accesocreta.png');
+  background: url('../img/accesosolaris.png');
   background-repeat: no-repeat;
 }
 
