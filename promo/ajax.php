@@ -11,7 +11,7 @@ if(empty($_GET['email'])){
 
 
 //Кому отправить
-$to = 'sv@prime-ltd.su';
+$to = 'sv@prime-ltd.su,noreply@hyundai-ringauto.ru';
 
 // тема письма
 $subject = 'Ring Auto';
@@ -33,10 +33,11 @@ $message = '
 
 // Для отправки HTML-письма должен быть установлен заголовок Content-type
 $headers  = 'MIME-Version: 1.0' . "\r\n";
-$headers = 'Content-type: text/html; charset=utf-8' . "\r\n";
+$headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+$headers .= 'From: noreply@hyundai-ringauto.ru' . "\r\n";
 
 // Отправляем
-$mail = mail("noreply@hyundai-ringauto.ru",$to, $subject, $message, $headers);
+$mail = mail($to, $subject, $message, $headers);
 if($mail){
     return print true;
 }

@@ -632,7 +632,7 @@
                         $('.text-error-header').text('');
                         $('.form-text.header h3').text('Сообщение отправлено!');
                     }else{
-                        $('.text-error-header').text('Поля не заполнены или email неправильный');
+                        $('.text-error-header').text('Поля не заполнены');
                     }
 
                 }
