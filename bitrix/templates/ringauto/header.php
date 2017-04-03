@@ -7,17 +7,13 @@
 	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"/><![endif]-->
 
 	<?$APPLICATION->ShowHead();?>
+	<title><?$APPLICATION->ShowTitle()?></title>
 	    
     <script src="/media/js_new/device.min.js"></script>
-
-	<title>Хендэ Мотор СНГ: модельный ряд Hyundai, цены на автомобили, где купить</title>
 
     <link rel="shortcut icon" href="/media/img/Favicon_02.ico"/>
 
     <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
-	<meta name="keywords" content="автомобили Hyundai официальный сайт Хендай где купить модельный ряд цены" />
-
-    <meta name="description" content="Официальный сайт Hyundai: модели и актуальные цены, обзоры и фото автомобилей, новости, запись на тест-драйв. Спешите купить новый Hyundai!" />
 
 
 	<link href="<?=SITE_TEMPLATE_PATH?>/css/style.css" rel="stylesheet" />
