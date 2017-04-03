@@ -12,6 +12,19 @@ ErrorDocument 404 /404.php
 </IfModule>
 
 
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+</IfModule>
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP
+RewriteRule ^index\.php$ http://hyundai-ringauto.ru/ [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP
+RewriteRule ^index\.html$ http://hyundai-ringauto.ru/ [R=301,L]
+
 Redirect 301 /car/Solaris /Solaris/
 Redirect 301 /car/new_Solaris5DR /Solaris-5dr/
 Redirect 301 /car/i30-3DR /i30-3dr/
@@ -29,6 +42,12 @@ Redirect 301 /car/GenesisNew /GenesisNew/
 Redirect 301 /news/prezentaciya-novogo-hyundai-solaris-2017-v-ring-avto-v-voronezhe-i-lipecke /news/priglashaem-vas-na-prezentatsiyu-novogo-hyundai-solaris-2017-v-ring-avto-v-voronezhe-i-lipetske-/
 Redirect 301 /news/priglashaem-vas-na-prezentaciyu-novogo-hyundai-solaris-2017-v-ring-avto-26-marta-14-00-voronezh-ul-izyskatelej-39-korp-2 /news/priglashaem-vas-na-prezentatsiyu-novogo-hyundai-solaris-2017-v-ring-avto----26-marta-14-00-voronezh-/
 Redirect 301 /news/priglashaem-vas-na-prezentaciyu-novogo-hyundai-solaris-2017-v-ring-avto-26-marta-11-00-lipeck-ul-50-let-nlmk-24 /news/priglashaem-vas-na-prezentatsiyu-novogo-hyundai-solaris-2017-v-ring-avto----26-marta-11-00-lipetsk--/
+Redirect 301 /company/ /
+Redirect 301 /company/management.php /
+Redirect 301 /company/mission.php /
+Redirect 301 /company/history.php /
+Redirect 301 /company/vacancies.php /
+
 
 
 <IfModule mod_rewrite.c>

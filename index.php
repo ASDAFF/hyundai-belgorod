@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Официальный дилер Hyundai в Воронеже. Автосалон Хендай");
 $APPLICATION->SetTitle("Мебельная компания");
 ?>
 
