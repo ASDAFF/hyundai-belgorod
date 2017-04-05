@@ -1,0 +1,6 @@
+<?
+$sSectionName = "service";
+$arDirProperties = Array(
+
+);
+?>
