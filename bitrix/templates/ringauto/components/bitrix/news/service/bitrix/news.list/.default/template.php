@@ -254,7 +254,9 @@ $propSection = getPropertySection(11,$arResult['SECTION']['PATH'][0]['ID'],array
 
 
 
+			<? if($APPLICATION->GetCurPage() != '/service/'): ?>
 			<?=$propSection['DESCRIPTION']?>
+			<?endif;?>
 
 			<? if($propSection['UF_SERVICE_TABS'] == 1 and $APPLICATION->GetCurPage() != '/service/'): ?>
 				<?$APPLICATION->IncludeComponent("bitrix:catalog.section.list", "section-tabs", Array(
