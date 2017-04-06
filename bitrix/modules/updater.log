@@ -22,3 +22,13 @@
 2017-03-21 18:50:30 -  - exec CUpdateClient::GetHTTPPage
 2017-03-21 18:50:30 -  - TIME GetUpdatesList(request) 0.198 sec
 2017-03-21 18:50:30 -  - exec CUpdateClient::ParseServerData
+2017-04-05 13:40:49 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1491388849/asd.tplvars/updater1.5.0.php': Query(create table if not exists b_asd_option_descr
+(
+	ID INT not null auto_increment,
+	NAME VARCHAR(50) not null,
+	DESCRIPTION VARCHAR(255),
+	SITE_ID CHAR(2),
+	PRIMARY KEY (ID),
+	INDEX ASD_OPTION_NAME (NAME),
+	INDEX ASD_OPTION_SITE (SITE_ID)
+);, )

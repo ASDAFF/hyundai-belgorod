@@ -46,6 +46,8 @@ $this->setFrameMode(true);
 			false
 		);?>
 
+	<div class="content-wrap">
+
 		<?$APPLICATION->IncludeComponent("bitrix:news.list", "service-list", Array(
 			"ACTIVE_DATE_FORMAT" => "d.m.Y",	// ‘ормат показа даты
 			"ADD_SECTIONS_CHAIN" => "Y",	// ¬ключать раздел в цепочку навигации

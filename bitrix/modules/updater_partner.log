@@ -52,3 +52,198 @@
 2017-03-24 16:50:23 -  - exec CUpdateClientPartner::GetHTTPPage
 2017-03-24 16:50:24 -  - TIME GetUpdatesList(request) 0.41 sec
 2017-03-24 16:50:24 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:33 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-04-05 13:40:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 13:40:33 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ringauto&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.6.19&NGINX=Y&dbv=5.5.48&instm=main%2C16.5.4%2CY%3Baltasib.feedback%2C2.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bsocialservices%2C16.5.4%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Btranslate%2C14.5.0%2CN&reqm=altasib.feedback%2Cbitrix.sitecorporate%2Cthebrainstech.copyiblock%2Casd.tplvars&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 13:40:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 13:40:33 -  - TIME GetUpdatesList(request) 0.618 sec
+2017-04-05 13:40:33 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 13:40:38 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ringauto&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.6.19&NGINX=Y&dbv=5.5.48&instm=main%2C16.5.4%2CY%3Baltasib.feedback%2C2.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bsocialservices%2C16.5.4%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Btranslate%2C14.5.0%2CN&reqm=asd.tplvars&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 13:40:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 13:40:39 -  - TIME LoadModulesUpdates(request) 0.552 sec
+2017-04-05 13:40:39 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:39 - S - STEP
+2017-04-05 13:40:39 - LMU01 - LoadModulesUpdates-Step
+2017-04-05 13:40:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:39 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:39 -  - loadFile
+2017-04-05 13:40:39 - U - RETURN
+2017-04-05 13:40:39 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-05 13:40:39 -  - TIME UnGzipArchive 0.035 sec
+2017-04-05 13:40:39 -  - TIME UpdateStepModules 0.067 sec
+2017-04-05 13:40:39 - UPD_SUCCESS - Updated: asd.tplvars
+2017-04-05 13:40:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 13:40:39 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ringauto&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.6.19&NGINX=Y&dbv=5.5.48&instm=main%2C16.5.4%2CY%3Baltasib.feedback%2C2.5.1%2CN%3Basd.tplvars%2C1.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bsocialservices%2C16.5.4%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Btranslate%2C14.5.0%2CN&reqm=asd.tplvars&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 13:40:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 13:40:40 -  - TIME LoadModulesUpdates(request) 0.475 sec
+2017-04-05 13:40:40 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:40 - S - STEP
+2017-04-05 13:40:40 - LMU01 - LoadModulesUpdates-Step
+2017-04-05 13:40:40 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:40 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:40 -  - loadFile
+2017-04-05 13:40:40 - U - RETURN
+2017-04-05 13:40:40 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-05 13:40:40 -  - TIME UnGzipArchive 0.008 sec
+2017-04-05 13:40:40 - CSURUS1 - Run updater '/bitrix/updates/update_m1491388840/asd.tplvars/updater1.0.2.php'
+2017-04-05 13:40:40 -  - TIME UpdateStepModules 0.01 sec
+2017-04-05 13:40:40 - UPD_SUCCESS - Updated: asd.tplvars (1.0.2)<br>- Изменен порядок проверки показа кнопки на панели.
+2017-04-05 13:40:40 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:40 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 13:40:40 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ringauto&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.6.19&NGINX=Y&dbv=5.5.48&instm=main%2C16.5.4%2CY%3Baltasib.feedback%2C2.5.1%2CN%3Basd.tplvars%2C1.0.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bsocialservices%2C16.5.4%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Btranslate%2C14.5.0%2CN&reqm=asd.tplvars&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 13:40:40 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 13:40:41 -  - TIME LoadModulesUpdates(request) 0.477 sec
+2017-04-05 13:40:41 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:41 - S - STEP
+2017-04-05 13:40:41 - LMU01 - LoadModulesUpdates-Step
+2017-04-05 13:40:41 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:41 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:41 -  - loadFile
+2017-04-05 13:40:41 - U - RETURN
+2017-04-05 13:40:41 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-05 13:40:41 -  - TIME UnGzipArchive 0.007 sec
+2017-04-05 13:40:41 - CSURUS1 - Run updater '/bitrix/updates/update_m1491388841/asd.tplvars/updater1.0.3.php'
+2017-04-05 13:40:41 -  - TIME UpdateStepModules 0.01 sec
+2017-04-05 13:40:41 - UPD_SUCCESS - Updated: asd.tplvars (1.0.3)<br>- Дополнил функцией tplinvis: http://dev.1c-bitrix.ru/community/webdev/user/11948/blog/7543/
+2017-04-05 13:40:42 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:42 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 13:40:42 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ringauto&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.6.19&NGINX=Y&dbv=5.5.48&instm=main%2C16.5.4%2CY%3Baltasib.feedback%2C2.5.1%2CN%3Basd.tplvars%2C1.0.3%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bsocialservices%2C16.5.4%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Btranslate%2C14.5.0%2CN&reqm=asd.tplvars&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 13:40:42 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 13:40:42 -  - TIME LoadModulesUpdates(request) 0.479 sec
+2017-04-05 13:40:42 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:42 - S - STEP
+2017-04-05 13:40:42 - LMU01 - LoadModulesUpdates-Step
+2017-04-05 13:40:42 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:42 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:42 -  - loadFile
+2017-04-05 13:40:43 - U - RETURN
+2017-04-05 13:40:43 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-05 13:40:43 -  - TIME UnGzipArchive 0.061 sec
+2017-04-05 13:40:43 - CSURUS1 - Run updater '/bitrix/updates/update_m1491388843/asd.tplvars/updater1.0.4.php'
+2017-04-05 13:40:43 -  - TIME UpdateStepModules 0.006 sec
+2017-04-05 13:40:43 - UPD_SUCCESS - Updated: asd.tplvars (1.0.4)<br>- Мелкие ошибки.
+2017-04-05 13:40:43 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:43 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 13:40:43 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ringauto&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.6.19&NGINX=Y&dbv=5.5.48&instm=main%2C16.5.4%2CY%3Baltasib.feedback%2C2.5.1%2CN%3Basd.tplvars%2C1.0.4%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bsocialservices%2C16.5.4%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Btranslate%2C14.5.0%2CN&reqm=asd.tplvars&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 13:40:43 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 13:40:43 -  - TIME LoadModulesUpdates(request) 0.516 sec
+2017-04-05 13:40:43 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:43 - S - STEP
+2017-04-05 13:40:43 - LMU01 - LoadModulesUpdates-Step
+2017-04-05 13:40:44 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:44 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:44 -  - loadFile
+2017-04-05 13:40:44 - U - RETURN
+2017-04-05 13:40:44 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-05 13:40:44 -  - TIME UnGzipArchive 0.01 sec
+2017-04-05 13:40:44 - CSURUS1 - Run updater '/bitrix/updates/update_m1491388844/asd.tplvars/updater1.0.5.php'
+2017-04-05 13:40:44 -  - TIME UpdateStepModules 0.009 sec
+2017-04-05 13:40:44 - UPD_SUCCESS - Updated: asd.tplvars (1.0.5)<br>- Исправление js-ошибки.
+2017-04-05 13:40:44 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 13:40:44 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ringauto&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.6.19&NGINX=Y&dbv=5.5.48&instm=main%2C16.5.4%2CY%3Baltasib.feedback%2C2.5.1%2CN%3Basd.tplvars%2C1.0.5%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bsocialservices%2C16.5.4%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Btranslate%2C14.5.0%2CN&reqm=asd.tplvars&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 13:40:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 13:40:45 -  - TIME LoadModulesUpdates(request) 0.588 sec
+2017-04-05 13:40:45 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:45 - S - STEP
+2017-04-05 13:40:45 - LMU01 - LoadModulesUpdates-Step
+2017-04-05 13:40:45 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:45 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:45 -  - loadFile
+2017-04-05 13:40:45 - U - RETURN
+2017-04-05 13:40:45 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-05 13:40:45 -  - TIME UnGzipArchive 0.009 sec
+2017-04-05 13:40:45 - CSURUS1 - Run updater '/bitrix/updates/update_m1491388845/asd.tplvars/updater1.1.0.php'
+2017-04-05 13:40:45 -  - TIME UpdateStepModules 0.012 sec
+2017-04-05 13:40:45 - UPD_SUCCESS - Updated: asd.tplvars (1.1.0)<br>- Добавлена функция tplvar_set. Использование: tplvar_set($code, $value, $site), все значения обязательны. 
+2017-04-05 13:40:45 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:45 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 13:40:45 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ringauto&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.6.19&NGINX=Y&dbv=5.5.48&instm=main%2C16.5.4%2CY%3Baltasib.feedback%2C2.5.1%2CN%3Basd.tplvars%2C1.1.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bsocialservices%2C16.5.4%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Btranslate%2C14.5.0%2CN&reqm=asd.tplvars&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 13:40:45 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 13:40:46 -  - TIME LoadModulesUpdates(request) 0.525 sec
+2017-04-05 13:40:46 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:46 - S - STEP
+2017-04-05 13:40:46 - LMU01 - LoadModulesUpdates-Step
+2017-04-05 13:40:46 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:46 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:46 -  - loadFile
+2017-04-05 13:40:46 - U - RETURN
+2017-04-05 13:40:46 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-05 13:40:46 -  - TIME UnGzipArchive 0.009 sec
+2017-04-05 13:40:46 - CSURUS1 - Run updater '/bitrix/updates/update_m1491388846/asd.tplvars/updater1.1.1.php'
+2017-04-05 13:40:46 -  - TIME UpdateStepModules 0.015 sec
+2017-04-05 13:40:46 - UPD_SUCCESS - Updated: asd.tplvars (1.1.1)<br>- Изменен порядок вызова обработчика на добавление кнопки в меню.
+2017-04-05 13:40:47 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:47 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 13:40:47 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ringauto&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.6.19&NGINX=Y&dbv=5.5.48&instm=main%2C16.5.4%2CY%3Baltasib.feedback%2C2.5.1%2CN%3Basd.tplvars%2C1.1.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bsocialservices%2C16.5.4%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Btranslate%2C14.5.0%2CN&reqm=asd.tplvars&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 13:40:47 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 13:40:47 -  - TIME LoadModulesUpdates(request) 0.68 sec
+2017-04-05 13:40:47 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:47 - S - STEP
+2017-04-05 13:40:47 - LMU01 - LoadModulesUpdates-Step
+2017-04-05 13:40:47 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:47 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:47 -  - loadFile
+2017-04-05 13:40:48 - U - RETURN
+2017-04-05 13:40:48 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-05 13:40:48 -  - TIME UnGzipArchive 0.011 sec
+2017-04-05 13:40:48 - CSURUS1 - Run updater '/bitrix/updates/update_m1491388848/asd.tplvars/updater1.2.1.php'
+2017-04-05 13:40:48 -  - TIME UpdateStepModules 0.018 sec
+2017-04-05 13:40:48 - UPD_SUCCESS - Updated: asd.tplvars (1.2.1)<br>- Исправления под 14-ю версию Битрикс.
+2017-04-05 13:40:48 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 13:40:48 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ringauto&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.6.19&NGINX=Y&dbv=5.5.48&instm=main%2C16.5.4%2CY%3Baltasib.feedback%2C2.5.1%2CN%3Basd.tplvars%2C1.2.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bsocialservices%2C16.5.4%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Btranslate%2C14.5.0%2CN&reqm=asd.tplvars&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 13:40:48 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 13:40:49 -  - TIME LoadModulesUpdates(request) 0.557 sec
+2017-04-05 13:40:49 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:49 - S - STEP
+2017-04-05 13:40:49 - LMU01 - LoadModulesUpdates-Step
+2017-04-05 13:40:49 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:49 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:49 -  - loadFile
+2017-04-05 13:40:49 - U - RETURN
+2017-04-05 13:40:49 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-05 13:40:49 -  - TIME UnGzipArchive 0.036 sec
+2017-04-05 13:40:49 - CSURUS1 - Run updater '/bitrix/updates/update_m1491388849/asd.tplvars/updater1.5.0.php'
+2017-04-05 13:40:49 -  - TIME UpdateStepModules 0.108 sec
+2017-04-05 13:40:49 - UPD_SUCCESS - Updated: asd.tplvars (1.5.0)<br>Поддержка описаний свойств.
+2017-04-05 13:40:49 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:49 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 13:40:49 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ringauto&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.6.19&NGINX=Y&dbv=5.5.48&instm=main%2C16.5.4%2CY%3Baltasib.feedback%2C2.5.1%2CN%3Basd.tplvars%2C1.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bsocialservices%2C16.5.4%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Btranslate%2C14.5.0%2CN&reqm=asd.tplvars&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 13:40:49 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 13:40:50 -  - TIME LoadModulesUpdates(request) 0.492 sec
+2017-04-05 13:40:50 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:50 - S - STEP
+2017-04-05 13:40:50 - LMU01 - LoadModulesUpdates-Step
+2017-04-05 13:40:50 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:50 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:50 -  - loadFile
+2017-04-05 13:40:50 - U - RETURN
+2017-04-05 13:40:50 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-05 13:40:50 -  - TIME UnGzipArchive 0.006 sec
+2017-04-05 13:40:50 - CSURUS1 - Run updater '/bitrix/updates/update_m1491388850/asd.tplvars/updater1.5.1.php'
+2017-04-05 13:40:50 -  - TIME UpdateStepModules 0.009 sec
+2017-04-05 13:40:50 - UPD_SUCCESS - Updated: asd.tplvars (1.5.1)<br>Совместимость со старыми версиями.
+2017-04-05 13:40:51 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-05 13:40:51 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 13:40:51 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ringauto&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.6.19&NGINX=Y&dbv=5.5.48&instm=main%2C16.5.4%2CY%3Baltasib.feedback%2C2.5.1%2CN%3Basd.tplvars%2C1.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bsocialservices%2C16.5.4%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Btranslate%2C14.5.0%2CN&reqm=asd.tplvars&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 13:40:51 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 13:40:51 -  - TIME LoadModulesUpdates(request) 0.51 sec
+2017-04-05 13:40:51 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:51 - STEP - Finish - NOUPDATES
+2017-04-05 13:40:51 - STEP - Finish - NOUPDATES
+2017-04-05 13:40:52 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-04-05 13:40:52 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 13:40:52 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ringauto&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.6.19&NGINX=Y&dbv=5.5.48&instm=main%2C16.5.4%2CY%3Baltasib.feedback%2C2.5.1%2CN%3Basd.tplvars%2C1.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bsocialservices%2C16.5.4%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Btranslate%2C14.5.0%2CN&reqm=altasib.feedback%2Casd.tplvars%2Cbitrix.sitecorporate%2Cthebrainstech.copyiblock&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 13:40:52 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 13:40:53 -  - TIME GetUpdatesList(request) 0.569 sec
+2017-04-05 13:40:53 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 13:40:56 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-04-05 13:40:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 13:40:56 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ringauto&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.6.19&NGINX=Y&dbv=5.5.48&instm=main%2C16.5.4%2CY%3Baltasib.feedback%2C2.5.1%2CN%3Basd.tplvars%2C1.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bsocialservices%2C16.5.4%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Btranslate%2C14.5.0%2CN&reqm=altasib.feedback%2Casd.tplvars%2Cbitrix.sitecorporate%2Cthebrainstech.copyiblock&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 13:40:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 13:40:56 -  - TIME GetUpdatesList(request) 0.5 sec
+2017-04-05 13:40:56 -  - exec CUpdateClientPartner::ParseServerData

@@ -16,3 +16,13 @@ function price_to_url($url){
     return print $price;
 
 }
+
+
+function getPropertySection($uf_iblock_id,$uf_section_id,$uf_name = array()){
+    if(CModule::IncludeModule("iblock")) {
+            $uf_arresult = CIBlockSection::GetList(Array("SORT"=>"asc"), Array("IBLOCK_ID" => $uf_iblock_id, "ID" => $uf_section_id), false, $uf_name);
+            if($uf_value = $uf_arresult->GetNext()):
+                return $uf_value;
+            endif;
+    }
+}

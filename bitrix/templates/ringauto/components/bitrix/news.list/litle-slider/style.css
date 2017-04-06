@@ -1,0 +1,21 @@
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+.promo-slider_wrap .promo-slider_cut{
+	border-bottom: 1px solid #e9e9e9;
+	margin-bottom: 20px;
+}
+
+.container .promo-slider_wrap{
+	background: #fff;
+}

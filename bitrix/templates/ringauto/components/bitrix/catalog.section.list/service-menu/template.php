@@ -44,6 +44,7 @@ $this->setFrameMode(true);
 		<?endforeach;?>
 	</ul>
 
+	</div>
 
 		<script>
 			$(function(){
