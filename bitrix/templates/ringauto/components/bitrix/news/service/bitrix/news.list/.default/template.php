@@ -47,7 +47,7 @@ $propSection = getPropertySection(11,$arResult['SECTION']['PATH'][0]['ID'],array
 		);?>
 
 
-	<?if($propSection['UF_BIG_SLIDER'] == 1):?>
+	<?if($propSection['UF_BIG_SLIDER'] == 1 and $APPLICATION->GetCurPage() != '/service/'):?>
 
 	<?$APPLICATION->IncludeComponent("bitrix:news.list", "big-slider-service", Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",	// Формат показа даты
@@ -121,7 +121,7 @@ $propSection = getPropertySection(11,$arResult['SECTION']['PATH'][0]['ID'],array
 
 
 
-		<?if($propSection['UF_SERVICE_CALC'] == 1):?>
+		<?if($propSection['UF_SERVICE_CALC'] == 1 and $APPLICATION->GetCurPage() != '/service/'):?>
 
 		<?$APPLICATION->IncludeComponent(
 			"bitrix:main.include",
@@ -140,7 +140,7 @@ $propSection = getPropertySection(11,$arResult['SECTION']['PATH'][0]['ID'],array
 
 
 	<?
-	if($propSection['UF_ENABLE_SLIDER'] == 1):
+	if($propSection['UF_ENABLE_SLIDER'] == 1 and $APPLICATION->GetCurPage() != '/service/'):
 	$APPLICATION->IncludeComponent(
 		"bitrix:news.list",
 		"litle-slider",
@@ -210,7 +210,7 @@ $propSection = getPropertySection(11,$arResult['SECTION']['PATH'][0]['ID'],array
 	endif;
 	?>
 
-	<?if($propSection['UF_DOCUMENT']):?>
+	<?if($propSection['UF_DOCUMENT'] and $APPLICATION->GetCurPage() != '/service/'):?>
 		<div class="service-document-block">
 			<div class="content-inner-title">Доступные материалы</div>
 
@@ -256,7 +256,7 @@ $propSection = getPropertySection(11,$arResult['SECTION']['PATH'][0]['ID'],array
 
 			<?=$propSection['DESCRIPTION']?>
 
-			<? if($propSection['UF_SERVICE_TABS'] == 1): ?>
+			<? if($propSection['UF_SERVICE_TABS'] == 1 and $APPLICATION->GetCurPage() != '/service/'): ?>
 				<?$APPLICATION->IncludeComponent("bitrix:catalog.section.list", "section-tabs", Array(
 					"ADD_SECTIONS_CHAIN" => "Y",	// Включать раздел в цепочку навигации
 					"CACHE_GROUPS" => "Y",	// Учитывать права доступа
@@ -309,7 +309,7 @@ $propSection = getPropertySection(11,$arResult['SECTION']['PATH'][0]['ID'],array
 	</div>
 
 
-	<?if($propSection['UF_SLIDER_SERVICE'] == 1):?>
+	<?if($propSection['UF_SLIDER_SERVICE'] == 1 and $APPLICATION->GetCurPage() != '/service/'):?>
 
 	<?$APPLICATION->IncludeComponent("bitrix:news.list", "slider-service", Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",	// Р¤РѕСЂРјР°С‚ РїРѕРєР°Р·Р° РґР°С‚С‹
@@ -388,7 +388,7 @@ $propSection = getPropertySection(11,$arResult['SECTION']['PATH'][0]['ID'],array
 
 
 
-	<?if($propSection['UF_ENABLE_VIN'] == 1):?>
+	<?if($propSection['UF_ENABLE_VIN'] == 1 and $APPLICATION->GetCurPage() != '/service/'):?>
 
 	<div class="vin-check">
 		<div class="vin-check-content">
