@@ -216,7 +216,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 				</div>
 				<div class="layer_foot">
-					<a href="/all-offers#service-offers" class="user-bar-footer-link">сервисные акции</a>
+					<a href="/service/spetspredlozheniya/" class="user-bar-footer-link">сервисные акции</a>
 				</div>
 			</div>
 
