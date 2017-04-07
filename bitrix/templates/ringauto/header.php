@@ -163,13 +163,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								</a>
 							</li>
 							<li class="ub-item ub-item--warranty">
-								<a href="/service/warranty" class="ub-item-link">
+								<a href="/service/garantiya/" class="ub-item-link">
 									<span class="ub-item__icon"></span>
 									<span class="ub-item__name">Гарантия</span>
 								</a>
 							</li>
 							<li class="ub-item ub-item--maintenance">
-								<a href="/service/maintenance" class="ub-item-link">
+								<a href="/service/obsluzhivanie/" class="ub-item-link">
 									<span class="ub-item__icon"></span>
 									<span class="ub-item__name">Обслуживание</span>
 								</a>
@@ -181,7 +181,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								</a>
 							</li>
 							<li class="ub-item ub-item--parts">
-								<a href="/service/parts" class="ub-item-link">
+								<a href="/service/originalnye-zapchasti/" class="ub-item-link">
 									<span class="ub-item__icon"></span>
 									<span class="ub-item__name">Оригинальные запчасти</span>
 								</a>
@@ -201,7 +201,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								</a>
 							</li>
 							<li class="ub-item ub-item--brochures">
-								<a href="/service/manuals" class="ub-item-link">
+								<a href="/service/broshyury-i-rukovodstva/" class="ub-item-link">
 									<span class="ub-item__icon"></span>
 									<span class="ub-item__name">Руководства и&nbsp;брошюры</span>
 								</a>
