@@ -185,8 +185,27 @@ div.news-list img.preview_picture
 	height: calc(100vh - 115px);
 	max-height: 540px;
 	max-width: 1920px;
-	margin: 0 auto 10px;
 	cursor: default;
+}
+
+
+.service-menu li a:hover {
+	text-decoration: none;
+	color: #afc2e2;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+.service-menu li a.active {
+	text-decoration: none;
+	color: #afc2e2;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
 }
 
 .service-top-content {
@@ -238,10 +257,22 @@ div.news-list img.preview_picture
 	margin-bottom: 20px;
 }
 
-.service-content .desc h1{
-	font-size: 25px;
-	font-weight: 600;
+.service-content .desc h1 a{
+	font-size: 20px;
+	font-weight: 500;
 	color: #888888;
+	font-family: 'HyundaiSans', sans-serif;
+	text-decoration: none;
+}
+.service-content .desc p{
+	font-weight: bold;
+}
+.service-left-block ul li a{
+	color: #1D88CD;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'HyundaiSans', sans-serif;
+	text-decoration: none;
 }
 
 .service-line {

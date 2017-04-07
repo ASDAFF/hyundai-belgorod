@@ -15,9 +15,8 @@ div.news-list img.preview_picture
 	height: 540px;
 	height: -moz-calc(100vh - 115px);
 	height: calc(100vh - 115px);
-	min-height: 540px;
+	max-height: 540px;
 	max-width: 1920px;
-	margin: 0 auto 10px;
 	cursor: default;
 }
 
@@ -82,4 +81,28 @@ div.news-list img.preview_picture
 	clear: both;
 	height: 1px;
 	background: #e8e8e8;
+}
+
+.container {
+	margin-top: 0px!important;
+}
+
+.service-left-block ul li a{
+	color: #1D88CD;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'HyundaiSans', sans-serif;
+	text-decoration: none;
+}
+.service-right-block h1{
+	text-align: center;
+	font-weight: normal !important;
+	font-size: 35px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	line-height: initial !important;
+	letter-spacing: normal !important;
+	margin-top: 20px;
+	margin-bottom: 20px !important;
+	font-family: 'HyundaiSans', sans-serif;
 }
