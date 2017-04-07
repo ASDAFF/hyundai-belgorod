@@ -1,0 +1,6 @@
+<?
+$sSectionName = "hpromise";
+$arDirProperties = Array(
+
+);
+?>

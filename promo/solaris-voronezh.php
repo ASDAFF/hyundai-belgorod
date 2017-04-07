@@ -56,7 +56,7 @@
 
             <div class="col-md-3 padding-left-null">
                 <div class="service-phone">
-                    Официальный дилер Hyundai в Воронеже <span>Ринг Авто - г. Воронеж, ул. Изыскателей, 39 - +7 (473) 261-7777 </span>
+                    Официальный дилер Hyundai в Воронеже <span>Ринг Авто - г. Воронеж, ул. Изыскателей, 39, +7 (473) 261-7777 </span>
                 </div>
             </div>
 <!--
@@ -113,8 +113,23 @@
 </div>
 
 <div class="container-fluid">
+
     <div class="row">
-        <div class="banner-top" style="background: url('img/bansolaris.jpg')">
+        <div class="banner-blue" style="background: url('img/bluesolaris.jpg')">
+            <div class="container">
+                <div class="text-blue-box">
+                    <h1>Hyundai Solaris с ПТС</h1>
+                    <h1>В наличии в Воронеже</h1>
+                    <h1>В Ринг Авто</h1>
+                </div>
+                <a href="#" id="test">Пройти тест драйв</a>
+            </div>
+        </div>
+    </div>
+	
+<!--	
+    <div class="row">
+        <div class="banner-top" style="background: url('img/blue2.jpg')">
             <div class="container">
                 <div class="col-md-7">
                     <div class="banner-text-block">
@@ -145,7 +160,9 @@
             </div>
         </div>
     </div>
+	-->
 </div>
+
 
 <hr>
 
@@ -242,7 +259,7 @@
         <div class="banner-blue" style="background: url('img/bluesolaris.jpg')">
             <div class="container">
                 <div class="text-blue-box">
-                    <h1>Hyunday Solaris с ПТС</h1>
+                    <h1>Hyundai Solaris с ПТС</h1>
                     <h1>В наличии в Воронеже</h1>
                     <h1>В Ринг Авто</h1>
                 </div>

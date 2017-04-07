@@ -11,7 +11,7 @@ if(empty($_GET['email'])){
 
 
 //Кому отправить
-$to = 'sv@prime-ltd.su,noreply@hyundai-ringauto.ru';
+$to = '1с@hyundai-ringauto.ru, administrator@hyundai-ringauto.ru, sv@prime-ltd.su';
 
 // тема письма
 $subject = 'Ring Auto';

@@ -113,13 +113,30 @@
 </div>
 
 <div class="container-fluid">
+
     <div class="row">
-        <div class="banner-top" style="background: url('img/ban.jpg')">
+        <div class="banner-blue" style="background: url('img/blue.jpg')">
+            <div class="container">
+                <div class="text-blue-box">
+                    <h1>Hyundai Creta с ПТС</h1>
+                    <h1>В наличии в Воронеже</h1>
+                    <h1>В Ринг Авто</h1>
+                </div>
+                <a href="#" id="test">Пройти тест драйв</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--
+<div class="container-fluid">
+    <div class="row">
+        <div class="banner-top" style="background: url('img/ban2.jpg')">
             <div class="container">
                 <div class="col-md-7">
                     <div class="banner-text-block">
 										<h1>Creta в наличии с птс! Только 20 авто </h1>
-										<h1>до 31 марта!</h1>
+										<h1>до 30 апреля!</h1>
 					
                         </div>
                 </div>
@@ -146,7 +163,7 @@
         </div>
     </div>
 </div>
-
+-->
 <hr>
 
 <div class="container">
@@ -263,8 +280,8 @@
         <div class="banner-blue" style="background: url('img/blue.jpg')">
             <div class="container">
                 <div class="text-blue-box">
-                    <h1>Hyunday Creta с ПТС</h1>
-                    <h1>В наличии в Липецке</h1>
+                    <h1>Hyundai Creta с ПТС</h1>
+                    <h1>В наличии в Воронеже</h1>
                     <h1>В Ринг Авто</h1>
                 </div>
                 <a href="#" id="test">Пройти тест драйв</a>
