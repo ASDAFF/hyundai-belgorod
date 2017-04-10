@@ -33,23 +33,35 @@ div.news-list img.preview_picture
 }
 
 .super-offer-slide-giant .item{
-	width: 300px;
+	max-width: 300px;
 	height: 100%;
 	margin: 0 auto;
 	text-align: center;
-	border: 1px solid rgb(0, 132, 207);
-	margin-bottom: 5px;
-	margin-top: 5px;
+	position: relative;
 }
-.super-offer-slide-giant .item img{
-	max-width: 300px;
+
+
+.mCarListCards_Item_Info_Name{
+	position: absolute;
+	top: 210px;
+	width: 170px;
+	height: 40px;
+	background: #147FCC;
+	left: 0px;
+	padding: 5px 0px;
 }
 
 .super-offer-slide-giant .item .mCarListCards_Item_Info .mCarListCards_Item_Info_Name a{
-	color: #0084CF;
-	font-size: 20px;
+	color: #fff;
+	font-family: 'HyundaiSansHead',sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	text-transform: uppercase;
 }
 
+.super-offer-slide-giant .item .mCarListCards_Item_Info .mCarListCards_Item_Info_Name a:hover{
+	text-decoration: none;
+}
 
 
 .mtr-btn.mtr-btn-blue {
@@ -58,7 +70,12 @@ div.news-list img.preview_picture
 	background-color: #0084CF;
 }
 .mtr-btn.mtr-btn-wide {
-	width: 100%;
+	width: 175px;
+	height: 50px;
+	font-size: 22px;
+	font-family: 'HyundaiSansHead',sans-serif;
+	font-weight: 100;
+	padding: 7px;
 }
 .mtr-btn {
 	border-style: solid;
@@ -91,9 +108,8 @@ div.news-list img.preview_picture
 	margin-bottom: 20px;
 	font-weight: 500;
 }
-.mCarListCards_Item_Info_Name{
-	margin-bottom: 20px;
-}
+
+
 .super-offer-slider-giant .slick-next {
 	right: -100px;
 	background: url('/bitrix/templates/ringauto/media/img/slider_arrows.png') no-repeat -83px 0;
@@ -111,4 +127,88 @@ div.news-list img.preview_picture
 	-ms-transition: all 0s;
 	-o-transition: all 0s;
 	transition: all 0s;
+}
+
+.offer-sale{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.offer-sale span{
+	display: block;
+}
+
+.offer-sale span:first-child{
+	width: 180px;
+	height: 30px;
+	background: #147FCC;
+	padding: 0px;
+	color: #fff;
+	font-family: 'HyundaiSansHead',sans-serif;
+	font-size: 22px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+.offer-sale span:last-child{
+	width: 0;
+	height: 0;
+	border-top: 0px solid transparent;
+	border-left: 180px solid #176AA9;
+	border-bottom: 30px solid transparent;
+	position: relative;
+}
+.offer-sale span:last-child p{
+	position: absolute;
+	top: 5px;
+	left: -177px;
+	color: #fff;
+	font-size: 11px;
+	font-family: 'HyundaiSansHead',sans-serif;
+	transform: rotate(-7deg);
+}
+
+.mCarListCards_Item_Info_Props span{
+	display: block;
+	font-family: 'HyundaiSansHead',sans-serif;
+	font-weight: 400;
+}
+.mCarListCards_Item_Info_Props{
+	margin: 20px 30px;
+	text-align: left;
+}
+
+.mCarListCards_Item_Info_Props span.t1{
+	font-size: 15px;
+	text-transform: uppercase;
+	line-height: 0px;
+}
+.mCarListCards_Item_Info_Props span.t2{
+	font-size: 25px;
+	color: #44A2DA;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+.mCarListCards_Item_Info_Props span.t3{
+	font-size: 25px;
+	text-transform: uppercase;
+	line-height: 4px;
+}
+.mCarListCards_Item_Info_Props span.t4{
+	font-size: 40px;
+	font-weight: bold;
+	color: #0F578A;
+	background: linear-gradient(45deg, #0D4B79 20%, #228cff 66%, #8AA9D6);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.item > a{
+	float: left;
+	overflow: hidden;
+	width: 300px;
+	height: 230px;
+	margin-bottom: 40px;
+}
+.item > a img{
+	max-width: 460px;
 }

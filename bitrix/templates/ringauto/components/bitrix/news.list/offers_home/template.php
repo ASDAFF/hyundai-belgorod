@@ -82,7 +82,7 @@ foreach($arResult["ITEMS"] as $arItem) {
 					slidesToScroll: 1,
 					speed: 500,
 					lazyLoad: 'ondemand',
-					autoplay: false,
+					autoplay: true,
 					autoplaySpeed: 6000,
 					pauseOnHover: false,
 					responsive: [
