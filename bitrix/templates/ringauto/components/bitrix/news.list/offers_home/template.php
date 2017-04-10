@@ -46,17 +46,20 @@ foreach($arResult["ITEMS"] as $arItem) {
 					<a href="<?=$arItem['DETAIL_PAGE_URL']?>"><?=$arItem['NAME']?></a>
 				</div>
 
+				<div class="offer-sale">
+					<span>Скидка</span>
+					<span><p>На авто с ПТС</p></span>
+				</div>
+
+
+
 				<div class="mCarListCards_Item_Info_Props">
-					<div class="mCarListCards_Item_Info_Props_Item">
-						<span class="left gray-text">Старая цена</span><span class="right gray-text"><?=$arItem['PROPERTIES']['OLD_PRICE']['VALUE']?></span>
 
-						<div class="clear"></div>
-						<span class="left red-text">Новая цена</span><span class="right red-text"><?=$arItem['PROPERTIES']['NEW_PRICE']['VALUE']?></span>
+					<span class="t1">Новая цена</span>
+					<span class="t2"><?=$arItem['PROPERTIES']['NEW_PRICE']['VALUE']?></span>
+					<span class="t3">Выгода</span>
+					<span class="t4"><?=$arItem['PROPERTIES']['CREDIT']['VALUE']?></span>
 
-						<div class="clear"></div>
-						<span class="left w-gray-text">Скидка <?=$arItem['PROPERTIES']['CREDIT']['VALUE']?></span>
-
-					</div>
 					<div class="clear"></div>
 				</div>
 				<a class="mtr-btn mtr-btn-blue mtr-btn-wide" href="<?=$arItem['DETAIL_PAGE_URL']?>">Подробнее</a>
@@ -79,7 +82,7 @@ foreach($arResult["ITEMS"] as $arItem) {
 					slidesToScroll: 1,
 					speed: 500,
 					lazyLoad: 'ondemand',
-					autoplay: true,
+					autoplay: false,
 					autoplaySpeed: 6000,
 					pauseOnHover: false,
 					responsive: [
