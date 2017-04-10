@@ -66,15 +66,6 @@ IncludeTemplateLangFile(__FILE__); ?>
                 Вся представленная на сайте информация, касающаяся автомобилей и сервисного обслуживания, носит информационный характер и не является публичной офертой, определяемой положениями ст. 437 (2) ГК РФ. Все цены указанные на данном сайте носят информационный характер и являются максимально рекомендуемыми розничными ценами по расчетам дистрибьютора (ООО «Хендэ Мотор СНГ»). Для получения подробной информации просьба обращаться к ближайшему официальному дилеру ООО «Хендэ Мотор СНГ». Опубликованная на данном сайте информация может быть изменена в любое время без предварительного уведомления.
             </noindex>
             <br/>
-            <div class="p_div" itemscope itemtype="http://schema.org/Organization">
-                2017 &copy; ООО "<span itemprop="name">Ринг Авто - официальный дилер Hyundai</span>"
-                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                    <span itemprop="addressLocality">Москва</span>
-                    <span itemprop="streetAddress">ул. Тестовская, 10</span>
-                </div>
-                <span itemprop="telephone">8 (800) 333-71-67</span><br>
-                <span itemprop="telephone">8 (495) 662-55-00</span>
-            </div>
         </div>
         <div class="footer-center-line"></div>
         <div class="footer-center-foot clearfix">
