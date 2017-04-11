@@ -211,5 +211,5 @@ div.news-list img.preview_picture
 	margin-bottom: 40px;
 }
 .item > a img{
-	max-width: 460px;
+	max-height: 230px;
 }
