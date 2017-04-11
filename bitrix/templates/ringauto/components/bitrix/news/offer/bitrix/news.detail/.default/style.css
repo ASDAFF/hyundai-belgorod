@@ -113,8 +113,9 @@ div.news-detail img.detail_picture
 
 .offer-form{
 	background-repeat: no-repeat;
-	min-height: 400px;
-	background-position: left 0px center;
+	min-height: 500px;
+	/* background-position: left 0px center; */
+	contain: content;
 }
 .forma{
 	width: 60%;
