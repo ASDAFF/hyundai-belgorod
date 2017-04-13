@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Hyundai Elantra комплектации и цены. Купить новый Хендай Элантра в Воронеже");
 $APPLICATION->SetTitle("Elantra");
 ?>
-
 
 
     <script type='text/javascript' src="/media/js/sc_jquery_ui_ipad.js"></script>

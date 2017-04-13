@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Hyundai i40 цена и комплектации. Купить Хендай ай 40 в Воронеже");
 $APPLICATION->SetTitle("i40");
 ?>
-
 
 
     <!-- Begin of GTM DataLayer -->

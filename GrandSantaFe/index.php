@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Купить Hyundai Grand Santa Fe в Воронеже. Цена на Хендай Гранд Санта Фе у дилера");
 $APPLICATION->SetTitle("GrandSantaFe");
 ?>
-
 
 
     <script type='text/javascript' src="/media/js/sc_jquery_ui_ipad.js"></script>

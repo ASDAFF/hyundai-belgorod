@@ -1,9 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Hyundai Solaris купить в Воронеже. Цена на новый Хендай Солярис");
 $APPLICATION->SetTitle("NewSolaris");
 ?>
-
-
 
     <script type='text/javascript' src="/media/js/sc_jquery_ui_ipad.js"></script>
     <script type='text/javascript' src="/media/js_new/sc_wwpip_flat.js"></script>

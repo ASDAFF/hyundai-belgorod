@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Hyundai I30 купить в Воронеже. Цена на Хендай ай 30 универсал");
 $APPLICATION->SetTitle("i30");
 ?>
-
 
 
     <script type='text/javascript' src="/media/js/sc_jquery_ui_ipad.js"></script>

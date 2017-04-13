@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Hyundai Tucson комплектации и цены. Купить хендай туссан в Воронеже.");
 $APPLICATION->SetTitle("Tucson");
 ?>
-
 
 
 

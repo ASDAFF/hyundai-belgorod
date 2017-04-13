@@ -1,9 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Купить Hyundai H1 в Воронеже. Цена на минивэн Хендай Старекс н1");
 $APPLICATION->SetTitle("H-1");
 ?>
-
-
 
 
 

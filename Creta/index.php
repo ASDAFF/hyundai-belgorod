@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Hyundai Creta купить в Воронеже у официального дилера. Хендай Крета комплектации и цены");
 $APPLICATION->SetTitle("Creta");
 ?>
-
 
 
 

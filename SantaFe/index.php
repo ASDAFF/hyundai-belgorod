@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Hyundai Santa Fe цена в Воронеже. Купить новый Хендай Санта Фе у официального дилера.");
 $APPLICATION->SetTitle("SantaFe");
 ?>
-
 
 
 

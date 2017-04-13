@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Hyundai Genesis цена и комплектации. Купить Хендай Генезис в Воронеже");
 $APPLICATION->SetTitle("GenesisNew");
 ?>
-
 
 
 
