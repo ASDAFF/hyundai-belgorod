@@ -7,7 +7,7 @@ $APPLICATION->SetTitle("configurator");
 
         <div class="content_wrap">
 
-    <iframe src="http://configurator.hyundai.ru/configurator" width="1000" height="1060" scrolling="yes" align="left" id="configurator">
+    <iframe src="http://configurator.hyundai.ru/configurator" width="940" height="1060" scrolling="yes" align="left" id="configurator">
         configurator.hyundai.ru
     </iframe>
 
