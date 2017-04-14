@@ -219,3 +219,6 @@ div.news-detail img.detail_picture
 	color: #fff;
 	bottom: 5px;
 }
+.main-slideshow{
+	height: 630px!important;
+}
