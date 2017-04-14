@@ -20,7 +20,7 @@ $this->setFrameMode(true);
 			<div class="car-slider_cut">
 				<ul class="car-slider" style="width: 2632px;">
 					<?foreach($arResult["ITEMS"] as $arItem):?>
-					<li data-model="<?=$arItem['NAME']?>" class="">
+					<li data-model="<?=str_replace(' ','_',$arItem['NAME'])?>" class="">
 						<div class="image-wrap">
 							<img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" alt="" style="max-width: 100%;">
 						</div>
@@ -38,7 +38,7 @@ $this->setFrameMode(true);
 		<div class="content-inner-title"><?=$arResult['NAME']?></div>
 
 		<?foreach($arResult["ITEMS"] as $arItem){?>
-		<div class="avaible-documents" data-model="<?=$arItem['NAME']?>" style="display: none;">
+		<div class="avaible-documents" data-model="<?=str_replace(' ','_',$arItem['NAME'])?>" style="display: none;">
 			<div class="avaible-documents-list grid">
 			<?foreach($arItem['PROPERTIES']['FILES']['VALUE'] as $key => $doc){?>
 				<div class="avaible-document-wrap grid-el grid-el-33">
