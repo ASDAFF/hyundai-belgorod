@@ -26,8 +26,8 @@ IncludeTemplateLangFile(__FILE__); ?>
                 <div class="footer-center-nav-head">медиа-центр</div>
                 <ul class="f-row-item-list">
                     <li class="f-row-item-list-item"><a class="f-row-item-list-item-link" href="/news/">Новости</a></li>
-                    <li class="f-row-item-list-item"><a class="f-row-item-list-item-link" href="/press-release">Пресс-релизы</a></li>
-                    <li class="f-row-item-list-item"><a class="f-row-item-list-item-link" href="/HyundaiMotorWorldmagazine">Hyundai Motor CIS</a></li>
+                   <!-- <li class="f-row-item-list-item"><a class="f-row-item-list-item-link" href="/press-release">Пресс-релизы</a></li>
+                    <li class="f-row-item-list-item"><a class="f-row-item-list-item-link" href="/HyundaiMotorWorldmagazine">Hyundai Motor CIS</a></li> -->
                     <li class="f-row-item-list-item"><a class="f-row-item-list-item-link" href="/awards">Награды</a></li>
                 </ul>
             </div>
