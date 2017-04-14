@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Tenders";
+$arDirProperties = Array(
+
+);
+?>

@@ -1,0 +1,6 @@
+<?
+$sSectionName = "XMMP";
+$arDirProperties = Array(
+
+);
+?>

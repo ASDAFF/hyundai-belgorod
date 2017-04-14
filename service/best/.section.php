@@ -1,0 +1,6 @@
+<?
+$sSectionName = "best";
+$arDirProperties = Array(
+
+);
+?>

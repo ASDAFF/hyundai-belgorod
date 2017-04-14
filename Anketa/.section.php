@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Anketa";
+$arDirProperties = Array(
+
+);
+?>

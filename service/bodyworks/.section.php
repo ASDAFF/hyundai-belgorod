@@ -1,0 +1,6 @@
+<?
+$sSectionName = "bodyworks";
+$arDirProperties = Array(
+
+);
+?>

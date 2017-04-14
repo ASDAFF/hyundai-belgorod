@@ -1,0 +1,6 @@
+<?
+$sSectionName = "HyundaiAssurance";
+$arDirProperties = Array(
+
+);
+?>
