@@ -20,7 +20,7 @@ $this->setFrameMode(true);
 							<div class="spoiler">
 								<div class="spoiler-title"><?=$arItem['NAME']?>
 									<div class="warranty-value">
-										<span class="warranty-value--years"><?=$arItem['PROPERTIES']['SERVICE_YERS']['VALUE']?><sup>Лет</sup></span>
+										<span class="warranty-value--years"><?=$arItem['PROPERTIES']['SERVICE_YERS']['~VALUE']['TEXT']?></span>
 										<span class="warranty-value--milage"><?=$arItem['PROPERTIES']['SERVICE_KM_MILEAG']['VALUE']?><sup>Км</sup><sub>пробега</sub></span>
 									</div>
 								</div>
