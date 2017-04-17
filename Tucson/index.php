@@ -945,7 +945,9 @@ $APPLICATION->SetTitle("Tucson");
                                     <a href="#" class="next">Далее</a>
                                 </div>
                                 <div class="slider_wrap">
-                                    <div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="safety_slider" current="0"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 0%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;"></a></div>
+                                    <div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="safety_slider" current="0">
+                                        <a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;"></a></div>
+                                        <div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 0%;"></div>
                                     <div class="slider_text">
                                         <ul>
                                             <li class="on">AEB</li>
@@ -1418,7 +1420,7 @@ $APPLICATION->SetTitle("Tucson");
                             </div>
                         </div>
                         <div class="detailedSpecLink">
-                            <a href="/configurator/car?car_id=30#desc" onclick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
+                            <a href="/configurator/" onclick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
                         </div>
                         <div class="spec_message">
                             <div>
