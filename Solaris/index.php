@@ -107,7 +107,7 @@ $APPLICATION->SetTitle("Solaris");
                                         <div class="title-price-sale">Скидка до 50 000 &#8381;</div>
                                         <a href="http://www.hyundai.ru/configurator/?car_id=147" class="title-price-notice">В кредит от 11 857 &#8381; / месяц</a>
                                     </div>
-                                    <a href="/all-offers/solaris" class="btn-flat">Все предложения</a>
+                                    <a href="#" class="btn-flat">Все предложения</a>
                                     <div class="title-list">
                                         <ul>
                                             <li>Экономный расход <br>

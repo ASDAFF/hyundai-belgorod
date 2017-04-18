@@ -95,20 +95,22 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                         <? price_to_url($APPLICATION->GetCurPage()); ?>
                                         <a href="http://www.hyundai.ru/configurator/?car_id=12&calc_open=1" class="title-price-notice">В кредит от 37 622 <span class="rouble">p</span> / месяц</a>
                                     </div>
-                                    <a href="/all-offers/grand_santa_fe" class="btn-flat">Все предложения</a>
+                                    <a href="/all-offers/" class="btn-flat">Все предложения</a>
                                     <div class="title-list">
+
                                         <ul>
                                             <li>Система полного<br>привода</li>
                                             <li>Макс. мощность<br><strong>249 л.с.</strong></li>
                                         </ul>
+
                                         <ul>
                                             <li>Функциональный<br>руль</li>
                                             <li>Большой список<br>опций</li>
                                         </ul>
-                                    </div>
 
+                                    </div>
                                 </div>
-                                <!-- 						<img src="/media/images/flat/GSF/elements/info_car_pic.png" class="info-car-pic"/> -->
+                                <!--
                                 <div class="view-360_wrap">
                                     <!-- progress preview + progress loading ring -->
                                     <img class="progress-last-frame" alt="" src="/media/images/common/transparent.gif"/>

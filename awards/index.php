@@ -11,7 +11,7 @@ $APPLICATION->SetTitle("awards");
                 <ul class="">
                     <li class="" style=""><a href="/news">Новости компании</a></li>
                     <!--                 <li class="" style=""><a href="/press-release">Пресс-релизы</a></li> -->
-                    <li class="" style=""><a href="/HyundaiMotorWorldmagazine">Журнал Hyundai Motor CIS</a></li>
+                    <li class="" style=""><a href="#">Журнал Hyundai Motor CIS</a></li>
                     <li class="on" style=""><a href="/awards">Награды</a></li>
                     <!-- <li class="" style=""><a href="/FIFA">FIFA</a></li> -->
                     <!--                 <li class="" style=""><a href="/socialnetworks">Социальные сети</a></li> -->

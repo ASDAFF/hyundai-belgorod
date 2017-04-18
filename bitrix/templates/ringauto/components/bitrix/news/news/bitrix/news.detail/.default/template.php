@@ -24,7 +24,7 @@ $this->setFrameMode(true);
 						<li><span>Медиа-центр</span> &gt;</li>
 						<li class="on" style=""><a href="/news">Новости компании</a> &gt;</li>
 
-						<li><a href="/news/khende_motor_sng_objavljaet_ceny_na_novyj_solaris">«Хендэ Мотор СНГ» объявляет цены на новый Solaris...</a></li>
+						<li><a href="#">«Хендэ Мотор СНГ» объявляет цены на новый Solaris...</a></li>
 					</ul>
 				</div>
 				<h1 class="title">Новости компании</h1>

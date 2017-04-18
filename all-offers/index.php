@@ -139,7 +139,7 @@ $APPLICATION->SetTitle("all-offers");
             <h2 class="offers_divider__content__title">Сервисные программы</h2>
             <div class="offers_divider__content__offers-grid-section clearfix">
                 <div class="insection-offer-unit">
-                    <a href="/promo/parts" class="insection-offer-unit__link">
+                    <a href="#" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/428fb4346f911f205e484e956314de54_Zapchasti.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
                             <span class="name">Запчасти Product Line 2</span>
@@ -149,7 +149,7 @@ $APPLICATION->SetTitle("all-offers");
                 </div>
 
                 <div class="insection-offer-unit">
-                    <a href="/promo/the-best" class="insection-offer-unit__link">
+                    <a href="#" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/f9c45be738044798df716ee341806265_luchsheei.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
                             <span class="name">Лучшее для своих</span>

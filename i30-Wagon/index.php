@@ -91,7 +91,7 @@ $APPLICATION->SetTitle("i30-Wagon");
                                         <? price_to_url($APPLICATION->GetCurPage()); ?>
                                         <a href="http://www.hyundai.ru/configurator/?car_id=20&calc_open=1" class="title-price-notice">В кредит от 15 511 <span class="rouble">p</span> / месяц</a>
                                     </div>
-                                    <a href="/all-offers/i30" class="btn-flat">Все предложения</a>
+                                    <a href="/all-offers/" class="btn-flat">Все предложения</a>
                                     <div class="title-list">
                                         <ul>
                                             <li>Экономный расход <strong>5.2&nbsp;л на 100 км<span class="add-blue-color">*</span></strong></li>
