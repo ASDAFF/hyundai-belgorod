@@ -1286,10 +1286,10 @@ $APPLICATION->SetTitle("Creta");
                     </div>
                     <div class="promo-grid" style="margin-top: 280px;">
                         <ul class="clearfix">
-                            <li><a href="/configurator/car/?compl_id=336&packets="><span>Конфигуратор Creta</span></a></li>
-                            <li style="display:none;"><a href="/find-dealer"><span>Найти дилера</span></a></li>
+                            <li><a href="/configurator/"><span>Конфигуратор Creta</span></a></li>
+                            <li style="display:none;"><a href="#"><span>Найти дилера</span></a></li>
                             <li style="display:none;"><a target="_blank" href="/media/downloads/accessoires/SantaFe_Acc.pdf"><span>Каталог аксессуаров</span></a></li>
-                            <li><a href="/configurator/?car_id=150&compl_id=336&calc_open=1"><span>Рассчитать кредит</span></a></li>
+                            <li><a href="/configurator/"><span>Рассчитать кредит</span></a></li>
                         </ul>
                     </div>
                 </div>

@@ -71,7 +71,7 @@ $APPLICATION->SetTitle("santa_fe_offer");
 
                             <div class="offer-actions__button-span">
                                 <a href="http://www.hyundai.ru/configurator/?car_id=29?calc_open=1" class="offer-actions__button credit">Кредит</a>
-                                <a href="http://www.hyundai.ru/test-drive?old_car_id=29" class="offer-actions__button testdrive">Тест-драйв</a>
+                                <a href="#" class="offer-actions__button testdrive">Тест-драйв</a>
                             </div>
                             <a class="offer-actions__description" href="http://www.hyundai.ru/SantaFe">Описание модели &gt;</a>
                         </div>

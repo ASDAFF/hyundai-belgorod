@@ -301,16 +301,16 @@ $APPLICATION->SetTitle("SantafeLE");
 					Для вас всегда есть удобные программы<br>
 					кредитования и другие предложения Drive Hyundai.
 					</span>
-                                <a href="http://www.hyundai.ru/test-drive?old_car_id=29" class="btn-flat">Пройти тест-драйв</a>
+                                <a href="#" class="btn-flat">Пройти тест-драйв</a>
                             </div>
                             <img src="http://www.hyundai.ru/media/images/flat/SFL/elements/promo_pic.png" width="525" height="350" alt="Тест драйв Хендай Санта Фе">
                         </div>
                         <div class="promo-grid">
                             <ul class="clearfix">
-                                <li><a href="http://www.hyundai.ru/configurator/?car_id=29"><span>Конфигуратор Santa Fe</span></a></li>
-                                <li><a href="http://www.hyundai.ru/find-dealer"><span>Найти дилера</span></a></li>
+                                <li><a href="/configurator/?car_id=29"><span>Конфигуратор Santa Fe</span></a></li>
+                                <li><a href="#"><span>Найти дилера</span></a></li>
                                 <li><a target="_blank" href="http://www.hyundai.ru/media/downloads/accessoires/SantaFe_Acc.pdf"><span>Каталог аксессуаров</span></a></li>
-                                <li><a href="http://www.hyundai.ru/configurator/?car_id=29&amp;calc_open=1"><span>Рассчитать кредит</span></a></li>
+                                <li><a href="/configurator/?car_id=29&amp;calc_open=1"><span>Рассчитать кредит</span></a></li>
                             </ul>
                         </div>
                     </div>

@@ -55,7 +55,7 @@ IncludeTemplateLangFile(__FILE__); ?>
                 <span class="footer-center-call-right-btn-item"><i class="i-0009-phone-icon"></i> позвонить онлайн</span>
                 <span class="footer-center-call-right-btn-item"><i class="i-0009-phone-icon"></i> позвонить онлайн</span>
             </a>
-            <a class="footer-center-call-right-btn" href="/ContactUs">
+            <a class="footer-center-call-right-btn" href="#">
                 <span class="footer-center-call-right-btn-item"><i class="i-0008-mail-icon"></i> обратная связь</span>
                 <span class="footer-center-call-right-btn-item"><i class="i-0008-mail-icon"></i> обратная связь</span>
             </a>
@@ -70,13 +70,13 @@ IncludeTemplateLangFile(__FILE__); ?>
         <div class="footer-center-line"></div>
         <div class="footer-center-foot clearfix">
             <nav class="footer-center-foot-nav">
-                <a class="footer-center-foot-nav-item" href="/Sitemap">Карта сайта</a>
+                <a class="footer-center-foot-nav-item" href="#">Карта сайта</a>
                 <span class="footer-center-foot-nav-sep">|</span>
-                <a class="footer-center-foot-nav-item" href="/Legal">Юридическая информация</a>
+                <a class="footer-center-foot-nav-item" href="#">Юридическая информация</a>
                 <span class="footer-center-foot-nav-sep">|</span>
-                <a class="footer-center-foot-nav-item" href="/Privacy">Конфиденциальность</a>
+                <a class="footer-center-foot-nav-item" href="#">Конфиденциальность</a>
                 <span class="footer-center-foot-nav-sep">|</span>
-                <a class="footer-cener-foot-nav-item" href="/TermsConditions">Авторские права</a>
+                <a class="footer-cener-foot-nav-item" href="#">Авторские права</a>
             </nav>
             <div class="footer-center-foot-left">
                 <a class="lang" target="_blank" href="http://worldwide.hyundai.com/WW/Worldwide/Worldwide/index.html" rel="nofollow">

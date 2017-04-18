@@ -85,7 +85,7 @@ $APPLICATION->SetTitle("elantra_offer");
                             </div>
                             <div class="offer-actions__button-span">
                                 <a href="http://www.hyundai.ru/configurator/?car_id=18?calc_open=1" class="offer-actions__button credit">Кредит</a>
-                                <a href="http://www.hyundai.ru/test-drive?old_car_id=18" class="offer-actions__button testdrive">Тест-драйв</a>
+                                <a href="#" class="offer-actions__button testdrive">Тест-драйв</a>
                             </div>
                             <a class="offer-actions__description" href="http://www.hyundai.ru/Elantra">Описание модели &gt;</a>
                         </div>

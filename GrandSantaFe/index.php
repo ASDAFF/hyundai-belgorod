@@ -1324,7 +1324,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
 					Для вас всегда есть удобные программы<br>
 					кредитования и другие предложения Drive Hyundai.
 					</span>
-                            <a href="/test-drive?old_car_id=12" class="btn-flat">Пройти тест-драйв</a>
+                            <a href="#" class="btn-flat">Пройти тест-драйв</a>
                         </div>
                         <img src="/media/images/flat/GSF/elements/promo_pic.png" width="587" height="331" alt="Тест драйв Хендай Гранд Санта Фе">
                     </div>

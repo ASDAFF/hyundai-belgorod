@@ -309,9 +309,9 @@ $APPLICATION->SetTitle("NewSolaris");
         <div class="container">
             <div class="fast-menu" role="navigation">
                 <a href="#" role="button" class="fast-menu-button fast-menu-button--parent"><svg xmlns="http://www.w3.org/2000/svg" class="svg fast-menu-car"><use xlink:href="#fast-menu-car"></use></svg><svg xmlns="http://www.w3.org/2000/svg" class="svg fast-menu-close"><use xlink:href="#fast-menu-close"></use></svg></a>
-                <a href="/test-drive?old_car_id=200" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Тест-драйв</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-test-drive"></use></svg></a>
-                <a href="/configurator/?car_id=200" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Конфигуратор</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-config"></use></svg></a>
-                <a href="/find-dealer" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Дилеры</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-dealers"></use></svg></a>
+                <a href="#" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Тест-драйв</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-test-drive"></use></svg></a>
+                <a href="/configurator/" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Конфигуратор</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-config"></use></svg></a>
+                <a href="#" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Дилеры</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-dealers"></use></svg></a>
             </div>
             <main class="pip-main">
                 <div class="hero" role="banner">
@@ -1418,7 +1418,7 @@ $APPLICATION->SetTitle("NewSolaris");
                         <ul class="prefooter-l">
                             <li class="prefooter-l-i"><a href="/configurator/?car_id=200" class="prefooter-l-l"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#ic-config"></use></svg><span class="prefooter-l-t">Конфигуратор</span></a></li>
                             <!-- 					<li class="prefooter-l-i"><a href="/find-dealer" class="prefooter-l-l"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#ic-dealer"></use></svg><span class="prefooter-l-t">Найти дилера</span></a></li> -->
-                            <li class="prefooter-l-i"><a href="/test-drive?old_car_id=200" class="prefooter-l-l"><svg xmlns="http://www.w3.org/2000/svg" class="svg svg--prefoter-steering-wheel"><use xlink:href="#fast-menu-test-drive"/></svg><span class="prefooter-l-t">Тест-драйв</span></a></li>
+                            <li class="prefooter-l-i"><a href="#" class="prefooter-l-l"><svg xmlns="http://www.w3.org/2000/svg" class="svg svg--prefoter-steering-wheel"><use xlink:href="#fast-menu-test-drive"/></svg><span class="prefooter-l-t">Тест-драйв</span></a></li>
                             <!-- 					<li class="prefooter-l-i"><a href="#" class="prefooter-l-l"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#ic-credit"></use></svg><span class="prefooter-l-t">Расчет кредита</span></a></li> -->
                         </ul>
                     </div>

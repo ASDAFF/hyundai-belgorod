@@ -39,8 +39,6 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
                 document.location.href="http://m.hyundai.ru/start" + "?" + params;
             else if(window.location.pathname == '/NewSolaris')
                 document.location.href="http://m.hyundai.ru/NewSolaris" + "?" + params;
-            else if(window.location.pathname == '/test-drive')
-                document.location.href="http://m.hyundai.ru/test-drive" + "?" + params;
             else
                 document.location.href="http://m.hyundai.ru";
         }

@@ -1117,16 +1117,16 @@ $APPLICATION->SetTitle("i30");
 					Для вас всегда есть удобные программы<br>
 					кредитования и другие предложения Drive Hyundai.
 					</span>
-                            <a href="/test-drive?old_car_id=19" class="btn-flat">Пройти тест-драйв</a>
+                            <a href="#" class="btn-flat">Пройти тест-драйв</a>
                         </div>
                         <img src="/media/images/flat/i30/elements/promo_pic.png" alt="Тест драйв Hyundai i30">
                     </div>
                     <div class="promo-grid">
                         <ul class="clearfix">
-                            <li><a href="/configurator/?car_id=19"><span>Конфигуратор i30</span></a></li>
+                            <li><a href="/configurator/"><span>Конфигуратор i30</span></a></li>
                             <!-- 					<li><a href="/find-dealer"><span>Найти дилера</span></a></li> -->
                             <li><a target="_blank" href="/media/downloads/accessoires/i30_acc.pdf"><span>Каталог аксессуаров</span></a></li>
-                            <li><a href="/configurator/car?car_id=19&calc_open=1"><span>Рассчитать кредит</span></a></li>
+                            <li><a href="/configurator/"><span>Рассчитать кредит</span></a></li>
                         </ul>
                     </div>
                 </div>

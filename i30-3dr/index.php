@@ -995,7 +995,7 @@ $APPLICATION->SetTitle("i30-3dr");
 					Для вас всегда есть удобные программы<br>
 					кредитования и другие предложения Drive Hyundai.
 					</span>
-                            <a href="/test-drive?old_car_id=25" class="btn-flat">Пройти тест-драйв</a>
+                            <a href="#" class="btn-flat">Пройти тест-драйв</a>
                         </div>
                         <img src="/media/images/flat/i303dr/elements/promo_pic.png" alt="Тест драйв Hyundai i30 3DR">
                     </div>

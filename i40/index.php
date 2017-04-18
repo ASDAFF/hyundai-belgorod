@@ -1398,16 +1398,16 @@ $APPLICATION->SetTitle("i40");
 					Для вас всегда есть удобные программы<br>
 					кредитования и другие предложения Drive Hyundai.
 					</span>
-                            <a href="/test-drive?old_car_id=21" class="btn-flat">Пройти тест-драйв</a>
+                            <a href="#" class="btn-flat">Пройти тест-драйв</a>
                         </div>
                         <img src="/media/images/flat/i40/elements/promo_pic.png" width="667" height="290" alt="Тест драйв Hyundai i40">
                     </div>
                     <div class="promo-grid">
                         <ul class="clearfix">
-                            <li><a href="/configurator/?car_id=21"><span>Конфигуратор i40</span></a></li>
+                            <li><a href="/configurator/"><span>Конфигуратор i40</span></a></li>
                             <!-- 					<li><a href="/find-dealer"><span>Найти дилера</span></a></li> -->
                             <li><a target="_blank" href="/media/downloads/accessoires/#.pdf"><span>Каталог аксессуаров</span></a></li>
-                            <li><a href="/configurator/?car_id=21"><span>Рассчитать кредит</span></a></li>
+                            <li><a href="/configurator/"><span>Рассчитать кредит</span></a></li>
                         </ul>
                     </div>
                 </div>

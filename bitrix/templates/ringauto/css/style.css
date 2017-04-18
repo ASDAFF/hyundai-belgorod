@@ -1294,19 +1294,8 @@ input.user-bar-search-input:focus{
     -o-transition: opacity 0.2s ease-out;
     transition: opacity 0.2s ease-out;
 }
-.banners-item--pic1{
-    background-image: url('../img_new/promo1.jpg');
-}
-.banners-item--pic2{
-    background-image: url('../img_new/promo2.jpg');
-}
-.banners-item--pic3{
-    background-image: url('../img_new/promo3.jpg');
-     background-position: 50% 50%;
-}
-.banners-item--pic4{
-    background-image: url('../img_new/promo4.jpg');
-}
+
+
 .news{
     background: #f7f7f7;
     padding-bottom: 15px;
@@ -1496,7 +1485,6 @@ input.user-bar-search-input:focus{
 }
 .events{
     position: relative;
-    background: url("../img_new/events_bgr.jpg") no-repeat 50% 0;
     background-size: auto 100%;
     min-height: 600px;
 }
@@ -2415,7 +2403,6 @@ input.user-bar-search-input:focus{
     margin: 0 3px;
 }
 .ico-arr-b{
-    background: url("../img_new/dropdown_icon.png") no-repeat 0 0;
     display: inline-block;
     width: 7px;
     height: 5px;
@@ -2423,7 +2410,6 @@ input.user-bar-search-input:focus{
     margin-left: 0px;
 }
 .ico-arr-b-h{
-    background: url("../img_new/dropdown_icon.png") no-repeat 100% 0;
     display: inline-block;
     width: 7px;
     height: 5px;
@@ -2504,7 +2490,6 @@ input.user-bar-search-input:focus{
     display: inline-block;
     width: 24px;
     height: 24px;
-    background: url("../img_new/sprites24.png");
     -webkit-transition: 0.2s ease 0s;
     -moz-transition: 0.2s ease 0s;
     -o-transition: 0.2s ease 0s;
@@ -2735,8 +2720,8 @@ only screen and (min-device-pixel-ratio: 1.5) {}
 .gnb_layer .showroom .carfinder {width:910px;margin:0 auto;overflow:hidden;}
 .gnb_layer .carfinder {visibility:hidden;height:0;display:block;}
 .gnb_layer .showroom .carfinder .list ul {display:block;margin-bottom:-17px;}
-.gnb_layer .carfinder .btn_reset {float:right;margin:0 13px 1px 0;padding:0 0 0 14px;color:#666;text-decoration:none;text-transform:capitalize;background:url(/wcm/images/common/btn/btn_reset.gif) no-repeat 0 center;}
-.gnb_layer .carfinder .find_options {position:relative;clear:both;height:142px;margin-bottom:19px;border:1px solid #d6d6d6;overflow:hidden;background:#f0f0f0 url(/media/img/bg_gnb_carfinder.gif) repeat-x;}
+.gnb_layer .carfinder .btn_reset {float:right;margin:0 13px 1px 0;padding:0 0 0 14px;color:#666;text-decoration:none;text-transform:capitalize;}
+.gnb_layer .carfinder .find_options {position:relative;clear:both;height:142px;margin-bottom:19px;border:1px solid #d6d6d6;overflow:hidden;}
 .gnb_layer .carfinder .find_options form {width:910px;margin-right:-2px;}
 .gnb_layer .carfinder .option {position:relative;float:left;overflow:hidden;width:129px;height:142px;border-right:1px solid #d6d6d6;}
 .gnb_layer .carfinder .option2 {position:relative;height:70px;border-bottom:1px solid #dfdfdf;}
@@ -2756,22 +2741,22 @@ only screen and (min-device-pixel-ratio: 1.5) {}
 .gnb_layer .carfinder a.jqTransformCheckbox.jqTransformChecked {background-position:0 -80px !important;}
 .gnb_layer .carfinder span.jqTransformCheckboxWrapper {margin:0 5px 0 10px;}
 .gnb_layer .carfinder .option .slider {width:110px;margin:14px auto 0;}
-.gnb_layer .carfinder .ui-slider {position: relative;background:url(/wcm/images/common/function/jslider_finder.round.png) right -20px;}
-.gnb_layer .carfinder .price .ui-slider {position: relative;background:url(/wcm/images/common/function/jslider_finder.round.png);}
+.gnb_layer .carfinder .ui-slider {position: relative;}
+.gnb_layer .carfinder .price .ui-slider {position: relative;}
 .gnb_layer .carfinder .ui-slider .ui-slider-handle {position:absolute;z-index:2;}
 .gnb_layer .carfinder .ui-slider .ui-slider-range {position: absolute;z-index: 1;}
 .gnb_layer .carfinder .ui-slider-horizontal {height:11px;}
 .gnb_layer .carfinder .ui-slider-horizontal .ui-slider-range {height:100%;top:0;}
-.gnb_layer .carfinder .ui-slider-horizontal .ui-slider-range-min {left:0;background:url(/wcm/images/common/function/jslider_finder.round.png) 0 0;}
-.gnb_layer .carfinder .price .ui-slider-horizontal .ui-slider-range-min {left:0;background:url(/wcm/images/common/function/jslider_finder.round.png) right -20px;}
+.gnb_layer .carfinder .ui-slider-horizontal .ui-slider-range-min {left:0;}
+.gnb_layer .carfinder .price .ui-slider-horizontal .ui-slider-range-min {left:0;}
 .gnb_layer .carfinder .ui-slider-horizontal .ui-slider-handle {top:-6px;margin-left:-10px;width:19px;height:19px;}
-.gnb_layer .carfinder .ui-state-default {width:19px;height:19px;background:url(/wcm/images/common/function/jslider_finder.round.png) no-repeat -6px -38px; border:none;}
-.gnb_layer .carfinder .ui-widget-header {background:url(/wcm/images/common/function/jslider_finder.round.png) 0 0;}
-.gnb_layer .carfinder .price .ui-widget-header {background:url(/wcm/images/common/function/jslider_finder.round.png) right -20px;}
+.gnb_layer .carfinder .ui-state-default {width:19px;height:19px;}
+.gnb_layer .carfinder .ui-widget-header {}
+.gnb_layer .carfinder .price .ui-widget-header {}
 .gnb_layer .carfinder .find_options ul li span.unable {cursor:text;}
 .gnb_layer .carfinder .category ul.case2 {overflow:hidden;padding:2px 0 0 6px;}
 .gnb_layer .carfinder .category ul.case2 li {float:left;width:59px;height:57px;}
-.gnb_layer .carfinder .category ul.case2 li span {display:block;cursor:pointer;text-indent:-1000px;overflow:hidden;width:57px;height:53px;background:url(/wcm/images/ru/function/carfinder_icon_category.gif) no-repeat;}
+.gnb_layer .carfinder .category ul.case2 li span {display:block;cursor:pointer;text-indent:-1000px;overflow:hidden;width:57px;height:53px;}
 .gnb_layer .carfinder .category ul.case2 li.cars span {background-position:-134px -128px;}
 .gnb_layer .carfinder .category ul.case2 li.cars span.select {background-position:-269px -128px;}
 .gnb_layer .carfinder .category ul.case2 li.cars span.unable {background-position:1px -128px;}
@@ -2808,18 +2793,18 @@ only screen and (min-device-pixel-ratio: 1.5) {}
 .gnb_layer .carfinder .price .range {height:24px;padding-top:2px;text-align:center;}
 .gnb_layer .carfinder .price .range span {color:#696969;font-weight:bold;font-size:14px;vertical-align:middle;}
 .gnb_layer .carfinder .price .range strong {color:#2c407b;font-size:20px;vertical-align:middle;}
-.gnb_layer .carfinder .price .image {width:121px;height:47px;margin:0 auto;overflow:hidden;background:url(/wcm/images/common/function/carfinder_img_price.png) no-repeat;}
-.gnb_layer .carfinder .price .image .img_gauge {height:47px;background:url(/wcm/images/common/function/carfinder_img_price.png) no-repeat 0 -47px;}
-.gnb_layer .carfinder .price .image .img_gauge div {height:47px;background:url(/wcm/images/common/function/carfinder_img_price.png) no-repeat;}
+.gnb_layer .carfinder .price .image {width:121px;height:47px;margin:0 auto;overflow:hidden;}
+.gnb_layer .carfinder .price .image .img_gauge {height:47px;}
+.gnb_layer .carfinder .price .image .img_gauge div {height:47px;}
 .gnb_layer .carfinder .fueleconomy .image {float:left;width:53px;padding:5px 0 0 11px;}
 .gnb_layer .carfinder .fueleconomy .range {float:left;padding:29px 0 0;}
 .gnb_layer .carfinder .fueleconomy .range .values {width:55px;color:#2c407b;font-size:20px;font-weight:bold;background:transparent;}
 .gnb_layer .carfinder .fueleconomy .range span {font-size:10px;}
 .gnb_layer .carfinder .fueleconomy .range span {display:inline-block;margin-top:-4px;padding-left:3px;color:#383837;font-weight:bold;}
-.gnb_layer .carfinder .seats .case1 .gauge {width:102px;height:60px;padding:14px 0 0 13px;background:url(/wcm/images/common/function/carfinder_img_seats.png) no-repeat right 5px;}
+.gnb_layer .carfinder .seats .case1 .gauge {width:102px;height:60px;padding:14px 0 0 13px;}
 .gnb_layer .carfinder .seats .case1 .gauge .values {width:60px;color:#2c407b;font-size:20px;line-height:24px;font-weight:bold;border:none;background:transparent;}
 .gnb_layer .carfinder .seats ul {padding:2px 0 0 6px;}
-.gnb_layer .carfinder .seats ul li span {display:block;cursor:pointer;text-indent:-1000px;overflow:hidden;background:url(/wcm/images/ru/function/carfinder_icon_seats.gif) no-repeat;}
+.gnb_layer .carfinder .seats ul li span {display:block;cursor:pointer;text-indent:-1000px;overflow:hidden;}
 .gnb_layer .carfinder .seats ul.case2 li {height:37px;}
 .gnb_layer .carfinder .seats ul.case2 li span {width:117px;height:36px;}
 .gnb_layer .carfinder .seats ul.case2 li.small span {background-position:-134px -127px;}
@@ -2840,7 +2825,7 @@ only screen and (min-device-pixel-ratio: 1.5) {}
 .gnb_layer .carfinder .seats ul.case3 li.middle span.select {background-position:-265px -56px;}
 .gnb_layer .carfinder .seats ul.case3 li.middle span.unable {background-position:1px -56px;}
 .gnb_layer .carfinder .configuration ul {overflow:hidden;height:38px;padding:0 0 0 6px;margin-top:-2px;}
-.gnb_layer .carfinder .configuration ul li span {display:block;cursor:pointer;text-indent:-1000px;overflow:hidden;background:url(/wcm/images/ru/gnb/carfinder_icon_configuration.png) no-repeat;}
+.gnb_layer .carfinder .configuration ul li span {display:block;cursor:pointer;text-indent:-1000px;overflow:hidden;}
 .gnb_layer .carfinder .configuration ul li {float:left;width:40px;height:36px;}
 .gnb_layer .carfinder .configuration ul li span {width:38px;height:36px;}
 .gnb_layer .carfinder .configuration ul li.fwd span {background-position:0 -36px;}
@@ -2852,7 +2837,7 @@ only screen and (min-device-pixel-ratio: 1.5) {}
 .gnb_layer .carfinder .configuration ul li.awd span {background-position:-80px -36px;}
 .gnb_layer .carfinder .configuration ul li.awd span.select {background-position:-80px -74px;}
 .gnb_layer .carfinder .configuration ul li.awd span.unable {background-position:-80px 1px;}
-.gnb_layer .carfinder .fueltype ul li span {display:block;cursor:pointer;text-indent:-1000px;overflow:hidden;background:url(/wcm/images/ru/gnb/carfinder_icon_fueltype.png) no-repeat;}
+.gnb_layer .carfinder .fueltype ul li span {display:block;cursor:pointer;text-indent:-1000px;overflow:hidden;}
 .gnb_layer .carfinder .fueltype ul.case1 {height:36px;padding:0 0 0 6px;overflow:hidden;}
 .gnb_layer .carfinder .fueltype ul.case1 li {float:left;width:61px;height:36px;}
 .gnb_layer .carfinder .fueltype ul.case1 li span {width:56px;height:36px;}
@@ -2878,7 +2863,7 @@ only screen and (min-device-pixel-ratio: 1.5) {}
 .gnb_layer .carfinder .fueltype ul.case2 li.hybrid span.select {background-position:-252px -76px;}
 .gnb_layer .carfinder .fueltype ul.case2 li.hybrid span.unable {background-position:-252px -38px;}
 
-.gnb_layer .carfinder .transmission ul li span {display:block;cursor:pointer;text-indent:-1000px;overflow:hidden;background:url(/wcm/images/ru/gnb/carfinder_icon_fueltype.png) no-repeat;}
+.gnb_layer .carfinder .transmission ul li span {display:block;cursor:pointer;text-indent:-1000px;overflow:hidden;}
 .gnb_layer .carfinder .transmission ul.case1 {height:36px;padding:4px 0 0 7px;overflow:hidden;}
 .gnb_layer .carfinder .transmission ul.case1 li {float:left;width:58px;height:36px;}
 .gnb_layer .carfinder .transmission ul.case1 li span {width:56px;height:36px;}
@@ -2919,7 +2904,7 @@ only screen and (min-device-pixel-ratio: 1.5) {}
 .gnb_layer .services li.HyundaiService {border: none;}
 
 .gnb_layer:not(.gnb_layer--redesign) .services li a {display:block; padding:18px 0 0 0; height:128px; border-left: 1px solid #e8eaec; overflow:hidden; text-decoration:none; }
-.gnb_layer:not(.gnb_layer--redesign) .services li a:hover {position:relative;z-index:100;background:url(/wcm/images/ru/common/bg_over.gif) repeat-x #e8e5e0; border-color:#e8e5e0;}
+.gnb_layer:not(.gnb_layer--redesign) .services li a:hover {position:relative;z-index:100; border-color:#e8e5e0;}
 
 .gnb_layer .shopping .tools {float:left;padding:0 0 0 0;}
 .gnb_layer .shopping .tools strong.title {display:block; padding-top:10px; height:32px; line-height:31px; font-size:14px;font-weight:500; color:#575a5d;text-transform:uppercase; font-family:'HyundaiSansHead';}
@@ -2933,7 +2918,7 @@ only screen and (min-device-pixel-ratio: 1.5) {}
 .gnb_layer .shopping .etc li strong {height:31px; display:block; font-weight: 500;text-transform:uppercase;padding-bottom:10px; font-family:'HyundaiSansHead'; font-size: 14px; color: #333; line-height: 16px;text-align: center;letter-spacing: -0.5px;}
 .gnb_layer .shopping .etc li span {display: block;}
 .gnb_layer .shopping .etc li a {display:block;text-indent:0;height:149px;padding:18px 0 0 0;overflow:hidden;text-decoration:none; background-color:#fff;border-left:1px solid #e8eaec;}
-.gnb_layer .shopping .etc li a:hover {position:relative;z-index:100; background:url(/wcm/images/ru/common/bg_over.gif) repeat-x #e8e5e0; border-color:#e8e5e0;}
+.gnb_layer .shopping .etc li a:hover {position:relative;z-index:100; border-color:#e8e5e0;}
 .gnb_layer .shopping .etc li span {display: block;}
 .gnb_layer .shopping .etc li span.txt {display: none; padding: 5px 0 0 10px; color: #afafaf; line-height: 14px;}
 .gnb_layer .shopping .etc li span.txt img {margin-top: 10px;}
@@ -3085,7 +3070,6 @@ only screen and (min-device-pixel-ratio: 1.5) {}
 .scroll_me a{
     width:50px;
     height: 50px;
-    background: url("/img/to_top.png");
     position: fixed;
     bottom: 50px;
     right: 21px;

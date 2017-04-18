@@ -293,7 +293,7 @@ $APPLICATION->SetTitle("best");
                                 </div>
                     -->
                     <div class="site-nav-center-item">
-                        <a class="site-nav-center-item-link" href="/test-drive">
+                        <a class="site-nav-center-item-link" href="#">
                             <div class="site-nav-center-item-link-item">
                                 <div class="site-nav-center-item-link-item-pic"><i class="i-0011-icon-3"></i></div>
                                 <div>Пройти тест-драйв</div>

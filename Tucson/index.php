@@ -1474,14 +1474,14 @@ $APPLICATION->SetTitle("Tucson");
 					Для вас всегда есть удобные программы<br>
 					кредитования и другие предложения Drive Hyundai.
 					</span>
-                            <a href="/test-drive?old_car_id=30" class="btn-flat">Пройти тест-драйв</a>
+                            <a href="#" class="btn-flat">Пройти тест-драйв</a>
                         </div>
                         <img src="/media/images/flat/TL/elements/tucson_promo_pic.png" width="525" height="350" alt="Тест драйв Hyundai Tucson">
                     </div>
                     <div class="promo-grid">
                         <ul class="clearfix">
                             <li><a href="/configurator/?car_id=30"><span>Конфигуратор Tucson</span></a></li>
-                            <li><a href="/find-dealer"><span>Найти дилера</span></a></li>
+                            <li><a href="#"><span>Найти дилера</span></a></li>
                             <li><a target="_blank" href="/media/downloads/accessoires/Tucson_Acc.pdf"><span>Каталог аксессуаров</span></a></li>
                             <li><a href="/configurator/?car_id=30&amp;calc_open=1"><span>Рассчитать кредит</span></a></li>
                         </ul>

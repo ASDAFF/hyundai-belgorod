@@ -1135,7 +1135,7 @@ $APPLICATION->SetTitle("Elantra");
 					Для вас всегда есть удобные программы
 					кредитования и другие предложения Drive Hyundai.
 					</span>
-                            <a href="/test-drive?old_car_id=18" class="btn-flat">Пройти тест-драйв</a>
+                            <a href="#" class="btn-flat">Пройти тест-драйв</a>
                         </div>
                         <img src="/media/images/flat/EL/elements/promo_pic.png" alt="Тест драйв Hyundai Elantra">
                     </div>

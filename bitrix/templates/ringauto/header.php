@@ -355,7 +355,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 						<ul class="etc">
 
-							<li><a href="/find-dealer"><strong>Найти <br>дилера</strong><span class="icon"><img src="/media/img/tr_ico_gnb_shopping_02.gif" alt="TR_ico_gnb_shopping_02"></span><span class="txt">
+							<li><a href="#"><strong>Найти <br>дилера</strong><span class="icon"><img src="/media/img/tr_ico_gnb_shopping_02.gif" alt="TR_ico_gnb_shopping_02"></span><span class="txt">
 															Детальная <br> информация об <br> официальных <br> дилерах Hyundai<br><img src="/media/img/btn_gnb_go.png" alt=""></span></a></li>
 
 
