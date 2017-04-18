@@ -69,7 +69,7 @@ $this->setFrameMode(true);
 	</div>
 	<div class="car-list_cell" data-label="">
 					<span class="car-list_cell-inner car-list__price">
-						-    <span style="font-family: 'PT Sans';"></span>
+						<?=$arItem['PROPERTIES']['NEW_PRICE']['VALUE']?>    <span style="font-family: 'PT Sans';"></span>
 					</span>
 	</div>
 </div>
