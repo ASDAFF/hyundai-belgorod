@@ -1257,7 +1257,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
                         </div>
                     </div>
                     <div class="detailedSpecLink">
-                        <a href="/configurator/car?car_id=12#desc" onClick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
+                        <a href="/configurator?car_id=150&compl_id=336#desc">Подробные характеристики</a>
                     </div>
                     <div class="spec_message">
                         <div>

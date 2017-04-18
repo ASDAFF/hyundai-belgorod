@@ -412,7 +412,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                 <header class="section-header">
                                     <h2 class="section-header__title">Особенности</h2>
                                     <div class="section-header__subtitle">Создан быть лидером</div>
-                                    <span class="section-header__descr">Страсть к совершенству, тщательность в&nbsp;выборе материалов и расчетах.</span>
+                                    <span class="section-header__descr">Удобный и экономичный. Создан для &nbsp;городских дорог и для трассы.</span>
                                 </header>
                             </div>
                         </div>
@@ -464,24 +464,27 @@ $APPLICATION->SetTitle("NewSolaris");
                                 <div class="pip-slider pip-slider--hlsl">
                                     <div class="pip-slides-holder">
                                         <div class="pip-slide" data-slide="1">
-                                            <div class="pip-slide-image"><img src="/media/images/flat/SL2017/elements/highlights_3.jpg" class="pip-slide-img" alt=""/></div>
+                                            <div class="pip-slide-image"><img src="/media/images/flat/SL2017/elements/highligh_3.jpg" class="pip-slide-img" alt=""/></div>
                                             <div class="pip-slide-text">
                                                 <div class="pip-slide-subt">
                                                     Элегантный
                                                 </div>
                                                 <div class="pip-slide-descr">
-                                                    Гармоничный, в меру агрессивный.
+                                                    Подчеркивает безупречный вкус,<br>
+                                                    обладает ярким характером.
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="pip-slide" data-slide="2">
-                                            <div class="pip-slide-image"><img src="/media/images/flat/SL2017/elements/highlights_2.jpg" class="pip-slide-img" alt=""/></div>
+                                            <div class="pip-slide-image"><img src="/media/images/flat/SL2017/elements/highligh_2.jpg" class="pip-slide-img" alt=""/></div>
                                             <div class="pip-slide-text">
                                                 <div class="pip-slide-subt">
                                                     Современный
                                                 </div>
                                                 <div class="pip-slide-descr">
-                                                    Новая архитектура, дизайн.
+                                                    Новая архитектура, передовые<br>
+                                                    технологии и вдохновляющий<br>
+                                                    дизайн.
                                                 </div>
                                             </div>
                                         </div>
@@ -492,29 +495,33 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     Комфортный
                                                 </div>
                                                 <div class="pip-slide-descr">
-                                                    Новые настройки, управляемость.
+                                                    Уютный салон создан для<br>
+                                                    комфортных поездок.
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="pip-slide" data-slide="4">
-                                            <div class="pip-slide-image"><img src="/media/images/flat/SL2017/elements/highlights_3.jpg" class="pip-slide-img" alt=""/></div>
+                                            <div class="pip-slide-image"><img src="/media/images/flat/SL2017/elements/highligh_3.jpg" class="pip-slide-img" alt=""/></div>
                                             <div class="pip-slide-text">
                                                 <div class="pip-slide-subt">
                                                     Элегантный
                                                 </div>
                                                 <div class="pip-slide-descr">
-                                                    Гармоничный, в меру агрессивный.
+                                                    Подчеркивает безупречный вкус,<br>
+                                                    обладает ярким характером.
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="pip-slide" data-slide="5">
-                                            <div class="pip-slide-image"><img src="/media/images/flat/SL2017/elements/highlights_2.jpg" class="pip-slide-img" alt=""/></div>
+                                            <div class="pip-slide-image"><img src="/media/images/flat/SL2017/elements/highligh_2.jpg" class="pip-slide-img" alt=""/></div>
                                             <div class="pip-slide-text">
                                                 <div class="pip-slide-subt">
                                                     Современный
                                                 </div>
                                                 <div class="pip-slide-descr">
-                                                    Новая архитектура, дизайн.
+                                                    Новая архитектура, передовые<br>
+                                                    технологии и вдохновляющий<br>
+                                                    дизайн.
                                                 </div>
                                             </div>
                                         </div>
@@ -525,7 +532,8 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     Комфортный
                                                 </div>
                                                 <div class="pip-slide-descr">
-                                                    Новые настройки, управляемость.
+                                                    Уютный салон создан для<br>
+                                                    комфортных поездок.
                                                 </div>
                                             </div>
                                         </div>
@@ -545,7 +553,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                 <header class="section-header">
                                     <h2 class="section-header__title">Экстерьер</h2>
                                     <div class="section-header__subtitle">Всегда на шаг впереди</div>
-                                    <span class="section-header__descr">Страсть к совершенству, тщательность в&nbsp;выборе материалов и расчетах.</span>
+                                    <span class="section-header__descr">Совершенные линии, безупречные детали- узнаваемый, но &nbsp;совершенно новый дизайн!</span>
                                 </header>
                             </div>
                         </div>
@@ -914,8 +922,8 @@ $APPLICATION->SetTitle("NewSolaris");
                             <div class="section-parallax-content" data-parallax-speed="2">
                                 <header class="section-header">
                                     <h2 class="section-header__title">Комфорт</h2>
-                                    <div class="section-header__subtitle">Настоящий оазис комфорта</div>
-                                    <span class="section-header__descr">Новейшие системы безопасности для защиты пассажиров.</span>
+                                    <div class="section-header__subtitle">Чувствуй себя как дома</div>
+                                    <span class="section-header__descr">Наслаждайтесь каждой поездкой, полюбите большие путешествия.</span>
                                 </header>
                             </div>
                         </div>

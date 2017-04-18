@@ -1237,7 +1237,7 @@ $APPLICATION->SetTitle("Solaris");
                         </div>
                     </div>
                     <div class="detailedSpecLink">
-                        <a href="/configurator?car_id=25&compl_id=298">Подробные характеристики</a>
+                        <a href="/configurator/?car_id=25&compl_id=298">Подробные характеристики</a>
                     </div>
                     <div class="spec_message">
                         <div>

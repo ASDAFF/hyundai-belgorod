@@ -19,6 +19,77 @@ $APPLICATION->SetTitle("all-offers");
             <div class="offers_divider__content__offers-grid-section clearfix">
 
                 <div class="insection-offer-unit">
+                    <a href="http://hyundai-ringauto.ru/promo/solaris-special-offer/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/d308a9d099eddef6dc761a31e85c9edc_banner_special_offer_preview.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Специальное предложение для владельцев Hyundai</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
+                    <a href="http://hyundai-ringauto.ru/promo/santa-fe-offer/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/3b6b0e6d05c664a63fd2d85e9af37735_1900x520px_new_mini.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Выгода до 300 000р. на Hyundai Santa fe!</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
+                    <a href="http://www.hyundai.ru/start" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/0fcfbe172cb5d46f056a5940d90a9640_mini.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Программа Старт.<br>Creta за 7 000 руб./мес.</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
+                    <a href="http://hyundai-ringauto.ru/promo/elantra-offer/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/e9af6d87b8b138685dc83ab3a302d792_Elantra.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Hyundai Elantra.<br>За 8 000 руб./мес.</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
+                    <a href="http://hyundai-ringauto.ru/promo/santa-fe-offer/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/23b1a222ff29e8fb318252ccd04a6de1_Leasing_1920x530_small.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Hyundai Leasing Boost</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
+                    <a href="http://hyundai-ringauto.ru/promo/major-leasing/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/04cbeb84a054d5e241ea61acbfabdf67_5_19.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Лизинг для физических лиц</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
+                    <a href="https://hpromise.hyundai.ru/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/f93728a7c2fef9c6b084c56a75ccb4fb_HPromise.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Автомобили с пробегом</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+<!--
+                <div class="insection-offer-unit">
                     <a href="/promo/special_offer_all_cars" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/215c298beaa8b6f3e5894d29675d0588_Kredit.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
@@ -39,20 +110,10 @@ $APPLICATION->SetTitle("all-offers");
                 </div>
 
                 <div class="insection-offer-unit">
-                    <a href="http://www.hyundai.ru/start" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/0fcfbe172cb5d46f056a5940d90a9640_mini.jpg" alt="" class="insection-offer-unit__back-img">
+                    <a href="/promo/solaris_credit_offer" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/d0509115c7c4aff6601d7c729a4c10e3_Solaris_kredit.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
-                            <span class="name">Программа Старт.<br>Creta за 7 000 руб./мес.</span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="insection-offer-unit">
-                    <a href="/promo/elantra_offer" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/e9af6d87b8b138685dc83ab3a302d792_Elantra.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Hyundai Elantra.<br>За 8 000 руб./мес.</span>
+                            <span class="name">Hyundai Solaris.<br>Кредит от 6.7%</span>
                             <span class="addinfo"></span>
                         </div>
                     </a>
@@ -67,27 +128,7 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
-
-                <div class="insection-offer-unit">
-                    <a href="https://hpromise.hyundai.ru/" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/f93728a7c2fef9c6b084c56a75ccb4fb_HPromise.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Автомобили с пробегом</span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="insection-offer-unit">
-                    <a href="/promo/solaris_credit_offer" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/d0509115c7c4aff6601d7c729a4c10e3_Solaris_kredit.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Hyundai Solaris.<br>Кредит от 6.7%</span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
-
+-->
             </div>
             <!-- service stuff next -->
             <!-- not fully offers -->
