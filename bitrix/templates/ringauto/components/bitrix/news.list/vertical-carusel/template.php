@@ -66,7 +66,7 @@ $this->setFrameMode(true);
 		jQuery("#amazingcarousel-10").amazingcarousel({
 			jsfolder:jsFolder,
 			width:240,
-			height:180,
+			height:240,
 			interval:3000,
 			itembottomshadowimagetop:100,
 			random:false,
