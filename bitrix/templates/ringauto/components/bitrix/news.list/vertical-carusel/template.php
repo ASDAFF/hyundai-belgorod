@@ -27,7 +27,7 @@ $this->setFrameMode(true);
 					<li class="amazingcarousel-item">
 						<div class="amazingcarousel-item-container">
 							<div class="amazingcarousel-image">
-								<a href="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" title="<?=$arItem['NAME']?>" class="html5lightbox" data-group="amazingcarousel-10">
+								<a href="<?=$arItem["DETAIL_PAGE_URL"]?>" title="<?=$arItem['NAME']?>" class="html5lightbox" data-group="amazingcarousel-10">
 									<img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" alt="<?=$arItem['NAME']?>" style="max-width: 356px"></a>
 								<div class="amazingcarousel-text">
 									<div class="amazingcarousel-text-bg"></div>
@@ -57,12 +57,7 @@ $this->setFrameMode(true);
 	$(function(){
 
 		var jsFolder = "/img/";
-		if ( typeof html5Lightbox === "undefined" )
-		{
-			html5Lightbox = jQuery(".html5lightbox").html5lightbox({
-				jsfolder:jsFolder
-			});
-		}
+
 		jQuery("#amazingcarousel-10").amazingcarousel({
 			jsfolder:jsFolder,
 			width:240,

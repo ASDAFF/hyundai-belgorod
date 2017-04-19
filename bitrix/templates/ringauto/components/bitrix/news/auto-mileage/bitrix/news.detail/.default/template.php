@@ -52,7 +52,7 @@ $this->setFrameMode(true);
 
 				<div class="detal-btn-auto">
 					<a href="#">Забронировать</a>
-					<a href="#">Заказать звонок</a>
+					<a href="#" onclick="PRZV.helpers.showWidget(1)">Заказать звонок</a>
 				</div>
 			</div>
 			<div class="clear"></div>
