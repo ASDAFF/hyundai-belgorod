@@ -18,7 +18,7 @@ $this->setFrameMode(true);
 	<div class="car-list_cell" data-label="">
 					<span class="car-list_cell-inner">
 						<i class="car-list__img-holder">
-							<a class="car-list__img-link fancycarframe" href="#">
+							<a class="car-list__img-link fancycarframe" href="<?=$arItem['DETAIL_PAGE_URL']?>">
 								<img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" alt="">
 							</a>
 						</i>
@@ -27,7 +27,7 @@ $this->setFrameMode(true);
 	</div>
 	<div class="car-list_cell" data-label="">
 					<span class="car-list__brand">
-						<a class="fancycarframe" href="#"><?echo $arItem["NAME"]?></a>
+						<a class="fancycarframe" href="<?=$arItem['DETAIL_PAGE_URL']?>"><?echo $arItem["NAME"]?></a>
 					</span>
 
 					<span class="car-list_cell-inner">

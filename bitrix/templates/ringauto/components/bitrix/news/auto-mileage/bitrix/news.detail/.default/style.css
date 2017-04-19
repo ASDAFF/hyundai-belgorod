@@ -1,0 +1,108 @@
+div.news-detail
+{
+	word-wrap: break-word;
+}
+div.news-detail img.detail_picture
+{
+	float:left;
+	margin:0 8px 6px 1px;
+}
+.news-date-time
+{
+	color:#486DAA;
+}
+
+.detal-auto-text{
+	font-family: 'HyundaiSansHead',sans-serif;
+	font-size: 22px;
+	color: #696A6D;
+	margin-bottom: 30px;
+}
+.detal-auto-text li:first-child{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.detal-auto-text li.price{
+	font-size: 33px;
+	color: #0088D6;
+}
+
+.detal-btn-auto a{
+	font-family: 'HyundaiSansHead',sans-serif;
+	display: block;
+	width: 350px;
+	height: 40px;
+	margin-bottom: 15px;
+	text-align: -webkit-center;
+	font-size: 25px;
+	color: #fff;
+	font-weight: 300;
+}
+.detal-btn-auto a:first-child{
+	background: #AA0F00;
+}
+.detal-btn-auto a:last-child{
+	background: #0084CF;
+}
+.detal-btn-auto a:hover{
+	text-decoration: none;
+}
+
+.title-detali-auto{
+	font-family: 'HyundaiSansHead',sans-serif;
+	background: #EFF0EE;
+	padding: 10px 10px;
+	color: #61676A;
+	font-size: 25px;
+}
+
+.auto-white-back div.f-row-item{
+	background: #fff;
+	padding-top: 30px;
+	min-height: 460px;
+}
+
+.title-slider-auto{
+	background: #0080D0;
+	height: 120px;
+	color: #fff;
+	font-family: 'HyundaiSansHead',sans-serif;
+	font-size: 33px;
+	padding: 10px 25px;
+	text-align: justify;
+	font-weight: 200;
+	margin-bottom: 10px;
+}
+.title-option-auto h1{
+	font-size: 35px;
+	color: #61676A;
+	font-family: 'HyundaiSansHead',sans-serif;
+}
+
+.title-option-auto > span{
+	width: 65px;
+	height: 3px;
+	background: #0083D1;
+	display: block;
+	margin-bottom: 40px;
+}
+
+.title-option-auto table{
+	font-family: 'HyundaiSansHead',sans-serif;
+	font-size: 22px;
+	color: #696A6D;
+	margin-bottom: 30px;
+	line-height: 2;
+}
+
+.title-option-auto table tr > td:last-child{
+	font-weight: 200;
+}
+
+.detal-text-auto{
+	font-family: 'HyundaiSansHead',sans-serif;
+	font-size: 22px;
+	color: #696A6D;
+	font-weight: 200;
+}
