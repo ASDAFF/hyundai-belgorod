@@ -87,7 +87,7 @@ $this->setFrameMode(true);
 					</tr>
 					<tr>
 						<td>Тип двигателя</td>
-						<td><?=$arResult['PROPERTIES']['ENGINE']['VALUE']?></td>
+						<td><?=$arResult['PROPERTIES']['FUEL_TYPE']['VALUE']?></td>
 					</tr>
 					<tr>
 						<td>Объем двигателя (в литрах)</td>
