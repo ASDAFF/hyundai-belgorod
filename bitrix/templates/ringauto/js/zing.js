@@ -203,7 +203,7 @@ $(document).ready(function() {
 			post_data = {
 				last_name: $this.find(".zing_last_name").sanitize_spaces(),
 				first_name: $this.find(".zing_first_name").sanitize_spaces(),
-				middle_name: $this.find(".zing_middle_name").sanitize_spaces(),
+				//middle_name: $this.find(".zing_middle_name").sanitize_spaces(),
 				email: $this.find(".zing_email").sanitize_spaces(),
 				mobile: $this.find(".zing_mobile").sanitize_zing_mobile(),
 				birthdate: $this.find(".zing_birthdate").sanitize_zing_date(),
@@ -211,7 +211,7 @@ $(document).ready(function() {
 				agree: $this.find(".zing_rules_agree_cb").prop("checked") ? "Y" : "N"
 			};
 		$this.find(".zing_pers_rules_wrp").fadeOut();
-		if (!$(this).valid() || !post_data.last_name || !post_data.first_name || !post_data.middle_name || !post_data.email || !post_data.mobile || post_data.agree == "N") {
+		if (!$(this).valid() || !post_data.last_name || !post_data.first_name || !post_data.email || !post_data.mobile || post_data.agree == "N") {
 			return false;
 		}
 		$.modal.close();
