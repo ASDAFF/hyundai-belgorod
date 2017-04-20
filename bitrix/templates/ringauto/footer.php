@@ -122,6 +122,7 @@ IncludeTemplateLangFile(__FILE__); ?>
                     maxlength	= "50">
                 <label for="zing_first_name">Имя<sup class="skyblue">*</sup></label>
             </div>
+            <!--
             <div class="zing-input">
                 <input
                     type		= "text"
@@ -131,6 +132,7 @@ IncludeTemplateLangFile(__FILE__); ?>
                     maxlength	= "50">
                 <label for="zing_middle_name">Отчество<sup class="skyblue">*</sup></label>
             </div>
+            -->
             <div class="zing-input">
                 <input
                     type		= "email"
@@ -149,6 +151,8 @@ IncludeTemplateLangFile(__FILE__); ?>
                     maxlength	= "50">
                 <label for="zing_mobile">Телефон<sup class="skyblue">*</sup></label>
             </div>
+
+            <!--
             <div class="zing-input">
                 <input
                     readonly
@@ -159,6 +163,7 @@ IncludeTemplateLangFile(__FILE__); ?>
                     maxlength	= "10">
                 <label for="zing_birthdate">Дата рождения</label>
             </div>
+            -->
 
             <div class="zing_pers_rules_wrp">
                 <noindex>
@@ -168,6 +173,7 @@ IncludeTemplateLangFile(__FILE__); ?>
 
             <div class="zing_rules_wrp">
                 <input
+                    checked="checked"
                     type	= "checkbox"
                     class	= "zing_rules_agree_cb zing-agreement-input"
                     id		= "zing_rules_agree_cb"

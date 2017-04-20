@@ -179,9 +179,9 @@ $(document).ready(function() {
 			zing_first_name: {
 				required: true
 			},
-			zing_middle_name: {
-				required: true
-			},
+			//zing_middle_name: {
+			//	required: true
+			//},
 			zing_email: {
 				required: true,
 				check_siebel_email: true
