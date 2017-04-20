@@ -5,12 +5,12 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.ph
 
 
 $PROP = array();
-$PROP[126] = $_POST['email'];
+$PROP[125] = $_POST['email'];
 $PROP[128] = $_POST['birthdate'];
-$PROP[124] = $_POST['first_name'];
+$PROP[123] = $_POST['first_name'];
 $PROP[125] = $_POST['middle_name'];
-$PROP[127] = $_POST['mobile'];
-$PROP[123] = $_POST['last_name'];
+$PROP[126] = $_POST['mobile'];
+$PROP[122] = $_POST['last_name'];
 
 if(CModule::IncludeModule("iblock")) {
 
