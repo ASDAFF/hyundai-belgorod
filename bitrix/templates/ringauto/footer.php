@@ -98,7 +98,7 @@ IncludeTemplateLangFile(__FILE__); ?>
 </footer><!--footer-->
 
 
-<div class="zing_form_wrp" id="blabla">
+<div class="zing_form_wrp" id="blabla" style="display: none">
     <form class="zing_form" action="#" for="zing_hotline_btn">
         <div class="zing_form_content">
             <a class="closePopup  zing_close" href="javascript:;"></a>
