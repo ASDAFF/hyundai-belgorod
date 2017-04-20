@@ -8,7 +8,6 @@ $PROP = array();
 $PROP[125] = $_POST['email'];
 $PROP[128] = $_POST['birthdate'];
 $PROP[123] = $_POST['first_name'];
-$PROP[125] = $_POST['middle_name'];
 $PROP[126] = $_POST['mobile'];
 $PROP[122] = $_POST['last_name'];
 
