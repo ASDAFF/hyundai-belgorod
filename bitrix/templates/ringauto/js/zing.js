@@ -23,7 +23,7 @@ $(document).ready(function() {
 				$zing_form.find(".zing_ok").first().val("РџРѕР·РІРѕРЅРёС‚СЊ РґРёР»РµСЂСѓ");
 				break;
 			case "zing_hotline_btn":
-				$zing_form.find(".zing_ok").first().val("РџРѕР·РІРѕРЅРёС‚СЊ РІ РЎР»СѓР¶Р±Сѓ РїРѕРґРґРµСЂР¶РєРё Hyundai");
+				$zing_form.find(".zing_ok").first().val("Позвонить в Службу поддержки Hyundai");
 				break;
 			case "newslist":
 				$zing_form.find(".zing_ok").first().val("РџРѕРґРїРёСЃР°С‚СЊСЃСЏ РЅР° РЅРѕРІРѕСЃС‚Рё Hyundai");
@@ -92,9 +92,9 @@ $(document).ready(function() {
 		showOtherMonths: false,
 		prevText: "<",
 		nextText: ">",
-		monthNames: ["РЇРЅРІР°СЂСЊ", "Р¤РµРІСЂР°Р»СЊ", "РњР°СЂС‚", "РђРїСЂРµР»СЊ", "РњР°Р№", "РСЋРЅСЊ", "РСЋР»СЊ", "РђРІРіСѓСЃС‚", "РЎРµРЅС‚СЏР±СЂСЊ", "РћРєС‚СЏР±СЂСЊ", "РќРѕСЏР±СЂСЊ", "Р”РµРєР°Р±СЂСЊ"],
-		monthNamesShort: ["РЇРЅРІР°СЂСЊ", "Р¤РµРІСЂР°Р»СЊ", "РњР°СЂС‚", "РђРїСЂРµР»СЊ", "РњР°Р№", "РСЋРЅСЊ", "РСЋР»СЊ", "РђРІРіСѓСЃС‚", "РЎРµРЅС‚СЏР±СЂСЊ", "РћРєС‚СЏР±СЂСЊ", "РќРѕСЏР±СЂСЊ", "Р”РµРєР°Р±СЂСЊ"],
-		dayNamesMin: ['Р’СЃ', 'РџРЅ', 'Р’С‚', 'РЎСЂ', 'Р§С‚', 'РџС‚', 'РЎР±'],
+		monthNames: ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
+		monthNamesShort: ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
+		dayNamesMin: ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'],
 		firstDay: 1,
 		dateFormat: 'dd.mm.yy',
 		defaultDate: "-18y",
@@ -160,7 +160,10 @@ $(document).ready(function() {
 		return this.val().replace(/^\s+|\s+$/g, "").replace("+7", "").replace(/[^0-9]/g, "").substr(0, 50);
 	}
 	$.fn.sanitize_zing_date = function() {
-		return this.val().split(".").reverse().join("").substr(0, 8);
+		return this.val();
+	}
+	$.fn.sanitize_now_url = function() {
+		return this.val();
 	}
 	$.validator.addMethod("check_siebel_email", function(val, el) {
 		return !!$(el).val().match(/^[-a-z0-9_]+[-a-z0-9_.]*[@]{1}[-a-z0-9_]+[-a-z0-9_.]*[.]{1}[a-z]{2,5}$/ig);
@@ -194,6 +197,7 @@ $(document).ready(function() {
 		errorPlacement: function(error, element) {}
 	});
 	$(".zing_form").submit(function(e) {
+		window.scrollTo(0, 0);
 		e.preventDefault();
 		var $this = $(this),
 			post_data = {
@@ -203,6 +207,7 @@ $(document).ready(function() {
 				email: $this.find(".zing_email").sanitize_spaces(),
 				mobile: $this.find(".zing_mobile").sanitize_zing_mobile(),
 				birthdate: $this.find(".zing_birthdate").sanitize_zing_date(),
+				now_url: $this.find(".now_url").sanitize_now_url(),
 				agree: $this.find(".zing_rules_agree_cb").prop("checked") ? "Y" : "N"
 			};
 		$this.find(".zing_pers_rules_wrp").fadeOut();
@@ -245,7 +250,7 @@ $(document).ready(function() {
 				ajax_url = "/request/newslist";
 				break;
 			default:
-				ajax_url = "/request/send_crm_before_zingaya";
+				ajax_url = "/ajax/zing_hotline_btn.php";
 				if (what == 'zing_dealer_btn') {
 					$parent.find("#" + what).trigger("click");
 				} else $("#" + what).trigger("click");
@@ -256,6 +261,14 @@ $(document).ready(function() {
 			type: "POST",
 			data: post_data,
 			success: function(msg) {
+				if(msg == 'ok') {
+					$('.message-send').insertAfter('#simplemodal-container').fadeIn(500).on('click', function (e) {
+						if ($(e.target).closest('.zing-agreement-popup').length === 0 || $(e.target).is('.zing-agreement-close')) {
+							e.preventDefault();
+							$('.zing-agreement-popup-wrapper').fadeOut(500);
+						}
+					});
+				}
 				console.log(msg);
 			}
 		});

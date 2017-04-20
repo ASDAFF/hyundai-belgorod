@@ -97,8 +97,133 @@ IncludeTemplateLangFile(__FILE__); ?>
     </div>
 </footer><!--footer-->
 
+
+<div class="zing_form_wrp" id="blabla">
+    <form class="zing_form" action="#" for="zing_hotline_btn">
+        <div class="zing_form_content">
+            <a class="closePopup  zing_close" href="javascript:;"></a>
+            <p class="zing-heading">Пожалуйста, укажите Ваши контактные данные.</p>
+            <p class="zing-p zing-p--note"><i class="ic-note-31"></i>Поля, отмеченные &laquo;<sup class="skyblue">*</sup>&raquo;, обязательны для заполнения.</p>
+            <div class="zing-input">
+                <input
+                    type		= "text"
+                    class		= "zing_last_name zing_txt"
+                    name		= "zing_last_name"
+                    id			= "zing_last_name"
+                    maxlength	= "50">
+                <label for="zing_last_name">Фамилия<sup class="skyblue">*</sup></label>
+            </div>
+            <div class="zing-input">
+                <input
+                    type		= "text"
+                    class		= "zing_first_name zing_txt"
+                    name		= "zing_first_name"
+                    id			= "zing_first_name"
+                    maxlength	= "50">
+                <label for="zing_first_name">Имя<sup class="skyblue">*</sup></label>
+            </div>
+            <div class="zing-input">
+                <input
+                    type		= "text"
+                    class		= "zing_middle_name zing_txt"
+                    name		= "zing_middle_name"
+                    id			= "zing_middle_name"
+                    maxlength	= "50">
+                <label for="zing_middle_name">Отчество<sup class="skyblue">*</sup></label>
+            </div>
+            <div class="zing-input">
+                <input
+                    type		= "email"
+                    class		= "zing_email zing_txt"
+                    name		= "zing_email"
+                    id			= "zing_email"
+                    maxlength	= "50">
+                <label for="zing_email">E-mail<sup class="skyblue">*</sup></label>
+            </div>
+            <div class="zing-input">
+                <input
+                    type		= "tel"
+                    class		= "zing_mobile zing_txt"
+                    name		= "zing_mobile"
+                    id			= "zing_mobile"
+                    maxlength	= "50">
+                <label for="zing_mobile">Телефон<sup class="skyblue">*</sup></label>
+            </div>
+            <div class="zing-input">
+                <input
+                    readonly
+                    type		= "text"
+                    class		= "zing_birthdate zing_txt ignore"
+                    name		= "zing_birthdate"
+                    id			= "zing_birthdate"
+                    maxlength	= "10">
+                <label for="zing_birthdate">Дата рождения</label>
+            </div>
+
+            <div class="zing_pers_rules_wrp">
+                <noindex>
+                    Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.2009 г. №152-ФЗ «О персональных данных» даю свое согласие лично, своей волей и в своем интересе на обработку (сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, распространение, передачу (включая трансграничную передачу), обезличивание, блокирование и уничтожение) моих персональных данных, в т.ч. с использованием средств автоматизации. Такое согласие мною даётся в отношении следующих персональных данных: фамилии, имя, отчество; контактный адрес электронной почты (e-mail); контактный телефон; -для определения потребностей в производственной мощности, мониторинга исполнения сервисными центрами гарантийной политики; ведения истории обращения в сервисные центры; проведения дилерами, дистрибьюторами, контрагентами маркетинговых исследований в области продаж, сервиса и послепродажного обслуживания; для рекламных, исследовательских, информационных, а также иных целей, в том числе, путем осуществления со мной прямых контактов по различным средствам связи. Согласие дается Hyundai Motor Company(Хёндэ Мотор Компани, 231 Янгджи-Донг, Сеочо-Гу, Сеул, 137-938, Республика Корея), ООО «Хендэ Мотор СНГ» (г. Москва, ул.Тестовская, д.10) ООО «Хендэ Мотор МануфактурингPус» (197706, Санкт-Петербург г, Сестрорецк г, Левашовскоеш, 20, литер А). Я даю свое согласие передавать мои персональные данные для обработки исследовательским агентствам: ООО «Международный институт маркетинговых и социальных исследований «ГФК-Русь» (г. Москва, 9-я Парковая улица, д.48, корп. 4), ЗАО «Бизнес Аналитика МК» (г. Москва, ул. Новослободская, 31, стр. 2); АО «АВТОАССИСТАНС» (г.Москва, ул. Обручева д. 52 стр.3), ООО «Ипсос» (г. Москва, Гамсоновскийпереулок, д. 5), а также любым другим третьим лицам, для целей, указанных в настоящем согласии.
+                </noindex>
+            </div>
+
+            <div class="zing_rules_wrp">
+                <input
+                    type	= "checkbox"
+                    class	= "zing_rules_agree_cb zing-agreement-input"
+                    id		= "zing_rules_agree_cb"
+                    name	= "zing_rules_agree_cb">
+                <label for="zing_rules_agree_cb">Я прочитал <a class="skyblue zing-show-rules" href="javascript:;">правила</a> и даю свое согласие<br>на обработку персональных данных</label>
+            </div>
+
+            <div class="zing-agreement-popup-wrapper" style="display: none;">
+                <div class="zing-agreement-popup">
+                    <h2 class="zing-agreement-header">Правила обработки<br>персональных данных</h2>
+                    <div class="zing-agreement-text">
+                        <p class="zing-agreement-text__col">
+                            Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.09 <strong>№152-ФЗ</strong> «О персональных данных» даю свое согласие лично, своей волей и в своем интересе
+                            на обработку <i>(сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, распространение, передачу (включая трансграничную передачу), обезличивание, блокирование и уничтожение)</i> моих персональных данных, в том числе с использованием средств автоматизации.
+                            <br><br>
+                            Такое согласие мною даётся в отношении следующих персональных данных: фамилии, имя, отчество; контактный адрес электронной почты (e-mail); контактный телефон;
+                            для определения потребностей в производственной мощности, мониторинга исполнения сервисными центрами гарантийной политики; ведения истории обращения в сервисные центры; проведения дилерами, дистрибьюторами, контрагентами маркетинговых исследований в области продаж, сервиса и послепродажного обслуживания;
+                            для рекламных, исследовательских, информационных,
+                        </p>
+                        <p class="zing-agreement-text__col">
+                            а также иных целей, в том числе, путем осуществления
+                            со мной прямых контактов по различным средствам связи.
+                            <br><br>
+                            Согласие дается Hyundai Motor Company (Хёндэ Мотор Компани, 231 Янгджи-Донг, Сеочо-Гу, Сеул, 137-938, Республика Корея), ООО «Хендэ Мотор СНГ» (г. Москва, ул.Тестовская, д.10), ООО «Хендэ Мотор МануфактурингPус» (197706, Санкт-Петербург, г. Сестрорецк, Левашовское ш.,
+                            д. 20, литер А).
+                            <br><br>
+                            Я даю свое согласие передавать мои персональные данные для обработки исследовательским агентствам: ООО «Международный институт маркетинговых и социальных исследований «ГФК-Русь» (г. Москва, 9-я Парковая улица,
+                            д. 48, корп. 4), ЗАО «Бизнес Аналитика МК» (г. Москва,
+                            ул. Новослободская, д. 31, стр. 2); ЗАО «АвтоАссистанс»
+                            (г. Москва, 2-й Южнопортовый проезд, д.18 корп. 2),
+                            ООО «Ипсос» (г. Москва, Гамсоновскийпереулок, д. 5),
+                            а также любым другим третьим лицам, для целей, указанных в настоящем согласии.
+                        </p>
+                    </div>
+                    <div class="zing-agreement-close">×</div>
+                </div>
+            </div>
+
+            <div class="zing-submit-wrap">
+                <input type="hidden" name="now_url" class="now_url" value="<?='http://hyundai-ringauto.ru'.$APPLICATION->GetCurPage();?>">
+                <input type="submit" value="Отправить" class="zing-submit">
+            </div>
+        </div>
+    </form>
+</div>
+<div class="message-send" style="display: none">
+    <div class="zing-agreement-popup" style="padding: 80px 55px;width: 500px;height: 200px;top:50%">
+        <h2 class="zing-agreement-header">Сообщение отправлено!</h2>
+        <div class="zing-agreement-close">×</div>
+    </div>
+</div>
+
+
+
 <div style="display: none;">
-    <a href="http://zingaya.com/widget/7fa635d9bedd182ca122939b4d8769ba" onclick="typeof(_gat)=='undefined'?'':_gat._getTrackerByName()._setAllowLinker(true); window.open(typeof(_gat)=='undefined'?this.href+'?referrer='+escape(window.location.href)+'':_gat._getTrackerByName()._getLinkerUrl(this.href+'?referrer='+escape(window.location.href)+''), '_blank', 'width=236,height=220,resizable=no,toolbar=no,menubar=no,location=no,status=no'); return false" class="zingaya_button1373885756660 _zc2 zing_call_btn" id="zing_hotline_btn"></a>
+ <!--   <a href="http://zingaya.com/widget/7fa635d9bedd182ca122939b4d8769ba" onclick="typeof(_gat)=='undefined'?'':_gat._getTrackerByName()._setAllowLinker(true); window.open(typeof(_gat)=='undefined'?this.href+'?referrer='+escape(window.location.href)+'':_gat._getTrackerByName()._getLinkerUrl(this.href+'?referrer='+escape(window.location.href)+''), '_blank', 'width=236,height=220,resizable=no,toolbar=no,menubar=no,location=no,status=no'); return false" class="zingaya_button1373885756660 _zc2 zing_call_btn" id="zing_hotline_btn"></a> -->
 </div>
 
 

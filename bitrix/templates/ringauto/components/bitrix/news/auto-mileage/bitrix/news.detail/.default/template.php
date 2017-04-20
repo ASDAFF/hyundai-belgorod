@@ -51,7 +51,7 @@ $this->setFrameMode(true);
 				</ul>
 
 				<div class="detal-btn-auto">
-					<a href="#">Забронировать</a>
+					<a href="#" class="zing_form_toggler" for="zing_hotline_btn">Забронировать</a>
 					<a href="#" onclick="PRZV.helpers.showWidget(1)">Заказать звонок</a>
 				</div>
 			</div>

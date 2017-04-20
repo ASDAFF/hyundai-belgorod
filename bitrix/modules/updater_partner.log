@@ -307,3 +307,9 @@
 2017-04-06 18:56:39 -  - exec CUpdateClientPartner::GetHTTPPage
 2017-04-06 18:56:39 -  - TIME GetUpdatesList(request) 0.398 sec
 2017-04-06 18:56:39 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-19 16:36:05 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-04-19 16:36:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-19 16:36:05 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=ringauto&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.6.19&NGINX=Y&dbv=5.5.48&instm=main%2C16.5.4%2CN%3Baltasib.feedback%2C2.5.1%2CN%3Basd.tplvars%2C1.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Biblock%2C16.5.2%2CN%3Bperfmon%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bsocialservices%2C16.5.4%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Btranslate%2C14.5.0%2CN&reqm=altasib.feedback%2Casd.tplvars%2Cbitrix.sitecorporate%2Cthebrainstech.copyiblock&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-19 16:36:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-19 16:36:06 -  - TIME GetUpdatesList(request) 0.881 sec
+2017-04-19 16:36:06 -  - exec CUpdateClientPartner::ParseServerData

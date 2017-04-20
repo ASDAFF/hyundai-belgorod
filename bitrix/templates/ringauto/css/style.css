@@ -3237,14 +3237,7 @@ only screen and (min-device-pixel-ratio: 1.5) {}
     line-height: 32px;
 }
 
-#ui-datepicker-div {
-    background: #ebf8fe none repeat scroll 0 0;
-    border: 5px solid #ccebfe;
-    box-shadow: 0 5px 15px #999;
-    display: none;
-    text-align: center;
-    width: 214px;
-}
+
 #ui-datepicker-div a, #ui-datepicker-div a:hover {
     display: block;
     font-size: 14px;
@@ -3532,3 +3525,599 @@ iframe[height="13"] {display: none;}
 .i-0030-auto-icon:hover.service {
 	background: url('/media/img_new/instruments_2.png') no-repeat center center;
 }
+
+
+
+/* NEW ZING MODAL */
+
+
+/* zing forms */
+.simplemodal-wrap {
+    width: 545px !important;
+    margin: 50px auto;
+    height: auto !important;
+    position: relative;
+}
+.zing_form_wrp {
+    background: #fff;
+    color: #2f2f2f;
+    display: none;
+    height: 825px;
+    width: 545px;
+    left: 50%;
+    margin: 0 0 0 -273px;
+    position: relative;
+    z-index: 999;
+    -ms-transition:		height .5s;
+    -webkit-transition: height .5s;
+    -moz-transition:	height .5s;
+    transition:			height .5s;
+}
+.zing_form_wrp.is-agreement-expanded {
+    height: 1075px;
+}
+.zing-heading {
+    font-size: 18px;
+    color: inherit;
+    margin-bottom: 30px;
+}
+.zing-p {
+    font-size: 12px;
+}
+.zing-p.zing-p--note {
+    color: #6b6b6b;
+    margin-bottom: 20px
+}
+.ic-note-31 {
+    position: relative;
+    display: inline-block;
+    background: url('/media/img_new/sprite.png') no-repeat -12px -451px;
+    width: 31px;
+    height: 31px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.skyblue {
+    color: #1d88cc;
+}
+.zing-p.zing-p--note .skyblue {
+    font-size: 1.1em;
+    top: 0;
+}
+.zing-input {
+    position: relative;
+    margin-bottom: 20px;
+}
+.zing-input .zing_txt {
+    outline: none !important;
+    width: 100%;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #c9c9c9;
+    display: block;
+    padding: 15px 20px;
+    font-size: 15px;
+    color: #000 !important;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    -ms-transition:		border-color .15s ease-out 0s;
+    -moz-transition:	border-color .15s ease-out 0s;
+    -webkit-transition: border-color .15s ease-out 0s;
+    transition:			border-color .15s ease-out 0s;
+}
+.zing-input .zing_txt:focus {
+    -ms-box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.zing-input .zing_txt.error {
+    border-color: #ff5668;
+}
+.zing-input .zing_txt.error:focus {
+    border-color: #ffb668;
+}
+.zing-input .zing_txt + label {
+    position: absolute;
+    font-size: 15px;
+    left: 21px;
+    top: 16px;
+    color: #848484;
+    pointer-events: none;
+    -ms-transition:		opacity .05s ease-out 0s;
+    -moz-transition:	opacity .05s ease-out 0s;
+    -webkit-transition: opacity .05s ease-out 0s;
+    transition:			opacity .05s ease-out 0s;
+}
+.zing-input .zing_txt.not-empty + label,
+.zing-input .zing_txt[type="tel"]:focus + label{
+    opacity: 0;
+}
+.zing-input .skyblue {
+    font-size: 1.1em;
+    top: 0;
+}
+/* checkbox */
+.zing_rules_wrp {
+    margin-top: 40px;
+}
+.zing-agreement-input {
+    position: absolute;
+    opacity: 0;
+}
+.zing-agreement-input + label {
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    color: #000;
+    padding-left: 55px;
+    line-height: 20px;
+    cursor: pointer;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.zing-agreement-input + label::before,
+.zing-agreement-input + label::after {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    content: '';
+}
+.zing-agreement-input + label::before {
+    left: 0;
+    top: 1px;
+    -ms-transition:		border-color .15s ease-out 0s;
+    -moz-transition:	border-color .15s ease-out 0s;
+    -webkit-transition: border-color .15s ease-out 0s;
+    transition:			border-color .15s ease-out 0s;
+    border: 1px solid #cccccc;
+    -ms-box-shadow: 0 1px 3px -1px #bfbfbf;
+    -moz-box-shadow: 0 1px 3px -1px #bfbfbf;
+    -webkit-box-shadow: 0 1px 3px -1px #bfbfbf;
+    box-shadow: 0 1px 3px -1px #bfbfbf;
+}
+.zing-agreement-input + label::after {
+    background: url("/media/img_new/question-sprite.png") no-repeat scroll -154px 0;
+    left: 14px;
+    top: 14px;
+    width: 13px;
+    opacity: 0;
+    -ms-transition:		opacity .15s ease-out 0s;
+    -moz-transition:	opacity .15s ease-out 0s;
+    -webkit-transition: opacity .15s ease-out 0s;
+    transition:			opacity .15s ease-out 0s;
+}
+.zing-agreement-input:checked + label::after {
+    opacity: 1;
+}
+.zing-agreement-input:checked:hover + label::after {
+    opacity: .75;
+}
+.zing-agreement-input.error:not(:checked) + label::before {
+    border-color: #ff5668;
+}
+.zing-agreement-input.error:hover:not(:checked) + label::before {
+    border-color: #ffb668;
+}
+.zing_rules_wrp .zing-show-rules:hover {
+    text-decoration: underline;
+}
+.zing-submit-wrap {
+    margin-top: 40px;
+}
+/* button */
+.zing-submit-wrap .zing-submit,
+.zing-submit-wrap .zing-news-submit {
+    display: inline-block;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-transition:		background .15s ease-out 0s, color .15s ease-out 0s, border-color .15s ease-out 0s;
+    -moz-transition:	background .15s ease-out 0s, color .15s ease-out 0s, border-color .15s ease-out 0s;
+    -webkit-transition: background .15s ease-out 0s, color .15s ease-out 0s, border-color .15s ease-out 0s;
+    transition:			background .15s ease-out 0s, color .15s ease-out 0s, border-color .15s ease-out 0s;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background: #268dcf;
+    border: 1px solid #268dcf;
+    outline: none;
+    cursor: pointer;
+    padding: 18px 48px;
+    height: auto;
+}
+.zing-submit-wrap .zing-submit:hover {
+    /* 	color: #268dcf; */
+    background: #2aaafc;
+    border-color: #2aaafc;
+}
+.zing-submit-wrap .zing-submit:hover:active {
+    /* 	color: #0071AF; */
+    background: #0066a9;
+    border-color: #0066a9;
+}
+.zing-submit-wrap .zing-submit:active {
+
+}
+.zing-submit-wrap .zing-submit.disabled {
+    background: #c9c9c9;
+    border-color: #c9c9c9;
+    color: #6a6a6a;
+    pointer-events: none;
+    opacity: 1;
+}
+.zing_form_content {
+    padding: 65px 70px 0;
+}
+/* close btn */
+.modalCloseImg.zing_close {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+    pointer-events: none;
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+.zing_close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 48px;
+    height: 48px;
+    z-index: 15;
+    background: #268dcf;
+}
+.zing_close::after {
+    display: block;
+    width: 48px;
+    height: 48px;
+    background: url("/media/images/flat/close-x.png") repeat center center;
+    overflow: hidden;
+    content: '';
+}
+.zing_close:hover::after {
+    background-position: 0 0;
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -ms-transition:		transform .4s;
+    -webkit-transition: transform .4s;
+    -moz-transition:	transform .4s;
+    transition:			transform .4s;
+}
+
+
+.zing-agreement-popup-wrapper {
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1100;
+}
+.zing-agreement-popup {
+    background: #fff;
+    position: absolute;
+    width: 940px;
+    height: 550px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: -275px auto 0;
+    z-index: 150;
+    box-sizing: border-box;
+}
+.zing-agreement-popup {
+    padding: 45px 55px;
+}
+.zing-agreement-popup .zing-agreement-header {
+    font-family: "HyundaiSansHead";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 25px;
+    color: #268DCF;
+}
+.zing-agreement-popup .zing-agreement-text:after {
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    zoom: 1;
+}
+.zing-agreement-popup .zing-agreement-text__col{
+    font-size: 13px;
+    font-family: "Arial", sans-serif;
+    width: 380px;
+    color: #505050;
+    line-height: 1.385;
+    text-align: left;
+    float: left;
+}
+.zing-agreement-popup .zing-agreement-text__col strong{
+    font-weight: 800;
+}
+.zing-agreement-popup .zing-agreement-text__col:last-child{
+    margin-left: 70px;
+}
+.zing-agreement-close, .go_check_close {
+    background: #9a9a9a none repeat scroll 0 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 32px;
+    height: 48px;
+    padding: 0 0 0 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 48px;
+    z-index: 155;
+    transition: background 200ms;
+    -webkit-transition: background 200ms;
+}
+.zing-agreement-close:hover,
+.go_check_close:hover {
+    background: #1a85ca;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.zing-agreement-text-wrapper {
+    border-top: 0 solid #e4e4e4;
+    border-bottom: 0 solid #e4e4e4;
+    padding: 0;
+    margin-top: 0;
+    opacity: 0;
+    overflow: hidden;
+    max-height: 0;
+    -ms-transition:		all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition:	all .5s;
+    transition:			all .5s;
+}
+.is-agreement-expanded .zing-agreement-text-wrapper {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 20px 0;
+    margin-top: 28px;
+    opacity: 1;
+    max-height: 242px;
+}
+.zing-agreement-text-wrapper .zing-agreement-text {
+    height: 200px;
+    overflow: scroll;
+}
+.zing-agreement-text-wrapper .this-title {
+    font-size: 12px;
+    color: #147abc;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    display: block;
+}
+.zing-agreement-text-wrapper .this-text {
+    color: #505050;
+    font-size: 13px;
+    display: block;
+    padding-right: 15px;
+}
+.ui-widget.ui-datepicker {
+    background: #fff;
+    display: none;
+    text-align: center;
+    width: 405px;
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+}
+.ui-widget.ui-datepicker .ui-datepicker-calendar {
+    height: 160px;
+    table-layout: fixed;
+    width: 100%;
+}
+.ui-widget.ui-datepicker td:not(.ui-datepicker-unselectable):hover {
+    background-color: #268dcf;
+}
+.ui-widget.ui-datepicker td:not(.ui-datepicker-unselectable):hover a {
+    color: #fff;
+}
+.ui-widget.ui-datepicker .ui-datepicker-header {
+    margin: 10px 0 15px;
+}
+.ui-widget.ui-datepicker .ui-datepicker-header select {
+    padding: 5px 15px;
+    border: 1px solid #c9c9c9;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 5px 15px;
+    margin: 0 5px;
+}
+/* olds */
+.zing_pers_rules_wrp {
+    background: #64c0e3 none repeat scroll 0 0;
+    bottom: 105px;
+    color: #fff;
+    display: none;
+    font-size: 12px;
+    left: 0;
+    overflow: auto;
+    padding: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.zing_ok {
+    background-color: #caeaff;
+    color: #333;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    height: 28px;
+    line-height: 20px;
+    margin-top: 5px;
+    outline: medium none;
+    width: 100%;
+}
+#ui-datepicker-div a, #ui-datepicker-div a:hover {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+}
+.ui-datepicker-current-day {
+    background-color: #268dcf;
+}
+.ui-datepicker-current-day a {
+    color: #fff;
+}
+.ui-datepicker-prev, .ui-datepicker-next {
+    display: none !important;
+}
+.dealer-icons {
+    margin: 0 0 15px;
+    overflow: hidden;
+    text-align: center;
+    width: 200px;
+}
+.dealer-icons-test-drive {
+    margin: 0;
+}
+a.zingaya_button1370324828422 {
+    display: block;
+    float: none !important;
+    margin: 0 auto 10px !important;
+}
+.simplemodal-container {
+    line-height: 19px;
+}
+.zing_form_toggler, .newsletter_form_toggler {
+    cursor: pointer;
+}
+/* newsletter */
+#newsletter {
+    height: 665px;
+}
+.newsletter_form .zing-news-submit {
+    margin-top: 5px;
+    outline: medium none;
+    width: 100%;
+    width: 100%;
+}
+.newsletter_form label.error {
+    display:none;
+}
+.newsletter_form .zing_pers_rules_wrp {
+    bottom:125px;
+}
+.newsletter_form .message {
+    display: none;
+    font-family: HyundaiSansHead;
+    font-size: 2em;
+    font-weight: 400;
+    padding: 270px 0 !important;
+    text-align: center;
+}
+.zing_form label.error::after, .zing_form label.error::before {
+    border: medium solid transparent;
+    content: " ";
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    width: 0;
+}
+.zing_form label.error::before {
+    border-color: rgba(204, 235, 254, 0) #ccebfe rgba(204, 235, 254, 0) rgba(204, 235, 254, 0);
+    border-width: 8px;
+    margin-top: -8px;
+}
+.zing_form label.error::after {
+    border-color: rgba(107, 195, 227, 0) #6bc3e3 rgba(107, 195, 227, 0) rgba(107, 195, 227, 0);
+    border-width: 5px;
+    margin-top: -5px;
+}
+.zing_form label.error {
+    background: #6bc3e3 none repeat scroll 0 0;
+    border: 2px solid #ccebfe;
+    box-shadow: 0 0 5px #0b698b;
+    left: 108%;
+    margin-left: -18px;
+    padding: 2px 5px;
+    position: absolute;
+    width: 225px;
+    top: 0;
+    color: #fff !important;
+}
+.brochure_go_check_email {
+    display: none;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1100;
+}
+.brochure_go_check_email-content {
+    background: #fff url("/media/img_new/check.jpg") no-repeat scroll center 45px;
+    bottom: 0;
+    box-sizing: border-box;
+    height: 260px;
+    left: 0;
+    margin: auto;
+    padding: 110px 0 40px;
+    right: 0;
+    top: 0;
+    width: 465px;
+    z-index: 150;
+    position: absolute;
+}
+.brochure_go_check_email p {
+    font-family: "HyundaiSans";
+    font-size: 1.5em;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.brochure_go_check_email #brochure_email {
+    font-weight: bold;
+}
+
+
+
+#simplemodal-overlay {
+    left: 0;
+    right: 0;
+    width: auto !important;
+}
+#simplemodal-container {
+    width: auto !important;
+}
+
+
+/* // ZING */
