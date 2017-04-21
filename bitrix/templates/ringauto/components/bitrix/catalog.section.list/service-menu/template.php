@@ -36,7 +36,7 @@ $this->setFrameMode(true);
 	<?endif;?>
 <?endforeach;?>
 
-	<div class="content-wrap">
+	<div class="content-wrap" style="width: 1100px">
 
 	<ul class="service-menu">
 		<?foreach ($arResult['SECTIONS'] as &$arSection):?>

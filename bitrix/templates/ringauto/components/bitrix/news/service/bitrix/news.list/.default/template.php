@@ -265,7 +265,7 @@ $propSection = getPropertySection(11,$arResult['SECTION']['PATH'][0]['ID'],array
 							<img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" alt="" class="insection-offer-unit__back-img">
 							<div class="insection-offer-unit__info">
 								<span class="name"><?=$arItem['NAME']?></span>
-								<span class="addinfo"></span>
+								<span class="addinfo">Подробнее &#8250;</span>
 							</div>
 						</a>
 					</div>
