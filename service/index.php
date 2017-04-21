@@ -51,7 +51,7 @@ $APPLICATION->SetTitle("service");
 			1 => "",
 		),
 		"LIST_PROPERTY_CODE" => array(
-			0 => "",
+			0 => "LINK",
 			1 => "",
 		),
 		"MESSAGE_404" => "",

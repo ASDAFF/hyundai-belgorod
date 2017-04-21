@@ -261,7 +261,7 @@ $propSection = getPropertySection(11,$arResult['SECTION']['PATH'][0]['ID'],array
 				<?foreach($arResult["ITEMS"] as $arItem):?>
 
 					<div class="insection-offer-unit">
-						<a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="insection-offer-unit__link">
+						<a href="<?if(empty($arItem['PROPERTIES']['LINK']['VALUE'])){print $arItem["DETAIL_PAGE_URL"];}else{print $arItem['PROPERTIES']['LINK']['VALUE'];}?>" class="insection-offer-unit__link">
 							<img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" alt="" class="insection-offer-unit__back-img">
 							<div class="insection-offer-unit__info">
 								<span class="name"><?=$arItem['NAME']?></span>
