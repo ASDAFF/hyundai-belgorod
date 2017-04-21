@@ -71,7 +71,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link showroom-open" href="#gnbShowroom">Модельный ряд</a></li>
 					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/hpromise/avtomobili-s-probegom/">Автомобили с пробегом</a></li>
 					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="#gnbShopping">Покупка</a></li>
-					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="#gnbServices">Сервис</a></li>
+					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/service/spetspredlozheniya/">Сервис</a></li>
 					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/configurator">Конфигуратор</a></li>
 				</ul>
 			</nav>
