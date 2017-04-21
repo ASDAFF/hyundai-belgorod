@@ -211,19 +211,10 @@ $propSection = getPropertySection(11,$arResult['SECTION']['PATH'][0]['ID'],array
 
 	<?
 	if($APPLICATION->GetCurPage() == '/service/'){$propSection['UF_SERVICE_LEFT_MENU'] = 0;}
-	if($propSection['UF_SERVICE_LEFT_MENU'] == 0):
 	?>
-		<div class="service-left-block">
-			<ul class="">
-				<?foreach($arResult["ITEMS"] as $arItem):?>
-				<li><a href="<?=$arItem["DETAIL_PAGE_URL"]?>"><?=$arItem['NAME']?></a></li>
-				<?endforeach;?>
-			</ul>
-		</div>
-	<?endif;?>
 
 
-		<div class="service-right-block" style="<?if($propSection['UF_SERVICE_LEFT_MENU'] == 1):?>width:100%<?endif;?>">
+		<div class="service-right-block" style="width:100%">
 
 
 
@@ -262,21 +253,31 @@ $propSection = getPropertySection(11,$arResult['SECTION']['PATH'][0]['ID'],array
 
 
 
+			<? if($APPLICATION->GetCurPage() == '/service/spetspredlozheniya/'): ?>
+			<h1 class="offers_divider__content__title">Спецпредложения</h1>
+			<?endif;?>
+			<div class="offers_divider__content__offers-grid-section clearfix">
 
+				<?foreach($arResult["ITEMS"] as $arItem):?>
 
+					<div class="insection-offer-unit">
+						<a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="insection-offer-unit__link">
+							<img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" alt="" class="insection-offer-unit__back-img">
+							<div class="insection-offer-unit__info">
+								<span class="name"><?=$arItem['NAME']?></span>
+								<span class="addinfo"></span>
+							</div>
+						</a>
+					</div>
 
+				<?endforeach;?>
 
-			<?foreach($arResult["ITEMS"] as $arItem):?>
-			<div class="service-content">
-				<a href="<?=$arItem["DETAIL_PAGE_URL"]?>"><img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"></a>
-				<div class="desc">
-					<h1><a href="<?=$arItem["DETAIL_PAGE_URL"]?>"><?=$arItem['NAME']?></a></h1>
-					<p><?echo $arItem["PREVIEW_TEXT"];?></p>
-				</div>
-
-				<div class="service-line"></div>
 			</div>
-			<?endforeach;?>
+
+
+
+
+
 
 		</div>
 
