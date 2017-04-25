@@ -3538,7 +3538,7 @@ iframe[height="13"] {display: none;}
     background: #fff;
     color: #2f2f2f;
     display: none;
-    height: 660px;
+    min-height: 660px;
     width: 545px;
     left: 50%;
     margin: 0 0 0 -273px;

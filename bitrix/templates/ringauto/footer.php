@@ -122,6 +122,18 @@ IncludeTemplateLangFile(__FILE__); ?>
                     maxlength	= "50">
                 <label for="zing_first_name">Имя<sup class="skyblue">*</sup></label>
             </div>
+
+            <? if(!preg_match('/avtomobili-s-probegom/',$APPLICATION->GetCurPage(),$preg)):?>
+
+            <div class="zing-input">
+                <input type="text" class="zing_middle_name zing_txt" name="zing_middle_name" id="zing_middle_name" maxlength="50">
+                <label for="zing_middle_name">Отчество<sup class="skyblue">*</sup></label>
+            </div>
+
+            <? endif; ?>
+
+
+
             <!--
             <div class="zing-input">
                 <input
@@ -151,6 +163,15 @@ IncludeTemplateLangFile(__FILE__); ?>
                     maxlength	= "50">
                 <label for="zing_mobile">Телефон<sup class="skyblue">*</sup></label>
             </div>
+
+            <? if(!preg_match('/avtomobili-s-probegom/',$APPLICATION->GetCurPage(),$preg)):?>
+
+            <div class="zing-input">
+                <input readonly="" type="text" class="zing_birthdate zing_txt " name="zing_birthdate" id="zing_birthdate" maxlength="10">
+                <label for="zing_birthdate">Дата рождения</label>
+            </div>
+
+            <? endif; ?>
 
             <!--
             <div class="zing-input">

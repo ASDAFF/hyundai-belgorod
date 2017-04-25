@@ -154,7 +154,7 @@ $(document).ready(function() {
 		$(this).parent().parent().css('display','none');
 	});
 	$.fn.sanitize_spaces = function() {
-		return this.val().replace(/^\s+|\s+$/g, "").substr(0, 50);
+		return this.val();
 	}
 	$.fn.sanitize_zing_mobile = function() {
 		return this.val().replace(/^\s+|\s+$/g, "").replace("+7", "").replace(/[^0-9]/g, "").substr(0, 50);
@@ -203,7 +203,7 @@ $(document).ready(function() {
 			post_data = {
 				last_name: $this.find(".zing_last_name").sanitize_spaces(),
 				first_name: $this.find(".zing_first_name").sanitize_spaces(),
-				//middle_name: $this.find(".zing_middle_name").sanitize_spaces(),
+				middle_name: $this.find(".zing_middle_name").sanitize_spaces(),
 				email: $this.find(".zing_email").sanitize_spaces(),
 				mobile: $this.find(".zing_mobile").sanitize_zing_mobile(),
 				birthdate: $this.find(".zing_birthdate").sanitize_zing_date(),
