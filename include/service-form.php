@@ -62,27 +62,8 @@
                             <span class="mileage-control-scale__item">90</span>
                         </div>
                     </div>
-                    <div class="calc-controls-city-dealer clearfix">
-                        <div id="dealer-city" class="dealer-city drop-down drop-down--dealer-city" tabindex="0" data-current="71">
-                            <div class="drop-down-active-item"></div>
-                            <div class="drop-down-list has-scrollbar">
-                                <ul class="drop-down-items" style="margin-right: -17px;">
-                                    <li class="drop-down-item" data-value="84">Воронеж</li>
-                                </ul>
-                                <div class="custom-nano-pane" style="opacity: 1; visibility: visible;"><div class="custom-nano-slider" style="height: 47px; transform: translate(0px, 0px);"></div></div></div>
-                        </div>
-                        <div id="dealers" class="dealers drop-down drop-down--dealers" tabindex="0" data-current="C40AF01054">
-                            <div class="drop-down-active-item"></div>
-                            <div class="drop-down-list has-scrollbar">
-                                <ul class="drop-down-items" style="margin-right: -17px;">
-                                    <li class="drop-down-item selected" data-value="C40AF01054"></li>
-                                </ul>
-                                <div class="custom-nano-pane" style="opacity: 1; visibility: visible; display: none;">
-                                    <div class="custom-nano-slider" style="height: 47px; transform: translate(0px, 0px);"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+                    
                     <div class="total">
                         <span class="total-default">Выберите<br>дилера</span>
                         <span class="calc-total-value"></span>
@@ -242,3 +223,5 @@
         <div class="zing-agreement-close">×</div>
     </div>
 </div>
+
+
