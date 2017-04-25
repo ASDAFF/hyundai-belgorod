@@ -40,7 +40,9 @@ $this->setFrameMode(true);
 
 	<ul class="service-menu">
 		<?foreach ($arResult['SECTIONS'] as &$arSection):?>
+			<? if($arSection['UF_HIDDEN'] == NULL): ?>
 		<li class="<?if($APPLICATION->GetCurPage() == $arSection['SECTION_PAGE_URL']):?>active<?endif?>"><a class="" href="<? echo $arSection['SECTION_PAGE_URL']; ?>" data-service-img="<? echo $arSection['PICTURE']['SRC']; ?>"><? echo $arSection['NAME']; ?></a></li>
+			<? endif;?>
 		<?endforeach;?>
 	</ul>
 

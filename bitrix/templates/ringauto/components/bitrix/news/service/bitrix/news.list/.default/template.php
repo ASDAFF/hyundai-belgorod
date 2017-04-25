@@ -36,7 +36,7 @@ $propSection = getPropertySection(11,$arResult['SECTION']['PATH'][0]['ID'],array
 			"SECTION_URL" => "",	// URL, ведущий на страницу с содержимым раздела
 			"SECTION_USER_FIELDS" => array(	// Свойства разделов
 				0 => "",
-				1 => "",
+				1 => "UF_HIDDEN",
 			),
 			"SHOW_PARENT_NAME" => "Y",	// Показывать название раздела
 			"TOP_DEPTH" => "2",	// Максимальная отображаемая глубина разделов
