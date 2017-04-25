@@ -214,7 +214,7 @@ IncludeTemplateLangFile(__FILE__); ?>
 
             <div class="zing-submit-wrap">
                 <input type="hidden" name="now_url" class="now_url" value="<?='http://hyundai-ringauto.ru'.$APPLICATION->GetCurPage();?>">
-                <input type="submit" value="Отправить" class="zing-submit">
+                <input type="submit" class="zing_ok zing-submit">
             </div>
         </div>
     </form>
@@ -223,6 +223,16 @@ IncludeTemplateLangFile(__FILE__); ?>
     <div class="zing-agreement-popup" style="padding: 80px 55px;width: 500px;height: 200px;top:50%">
         <h2 class="zing-agreement-header">Сообщение отправлено!</h2>
         <div class="zing-agreement-close">×</div>
+    </div>
+</div>
+
+<div id="brochure_go_check_email" class="brochure_go_check_email">
+    <div class="brochure_go_check_email-content">
+        <div class="go_check_close">×</div>
+        <p>На электронный адрес</p>
+        <p id="brochure_email"></p>
+        <p>отправлено письмо для&nbsp;подтверждения.</p>
+        <p>Пожалуйста, проверьте почту</p>
     </div>
 </div>
 

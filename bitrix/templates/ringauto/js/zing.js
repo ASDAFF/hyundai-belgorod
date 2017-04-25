@@ -10,7 +10,7 @@ $(document).ready(function() {
 		$zing_form.children(".zing_form").first().attr("for", what);
 		switch (what) {
 			case "brochures_request":
-				$zing_form.find(".zing_ok").first().val("РџРѕР»СѓС‡РёС‚СЊ Р±СЂРѕС€СЋСЂСѓ Рѕ " + $(this).attr("data-model"));
+				$zing_form.find(".zing_ok").first().val("Получить брошюру о " + $(this).attr("data-model"));
 				$zing_form.children(".zing_form").first().attr("data-for-model", $(this).attr("data-model"));
 
 				var _rutarget = window._rutarget || [];
@@ -23,7 +23,7 @@ $(document).ready(function() {
 				$zing_form.find(".zing_ok").first().val("РџРѕР·РІРѕРЅРёС‚СЊ РґРёР»РµСЂСѓ");
 				break;
 			case "zing_hotline_btn":
-				$zing_form.find(".zing_ok").first().val("Позвонить в Службу поддержки Hyundai");
+				$zing_form.find(".zing_ok").first().val("Отправить");
 				break;
 			case "newslist":
 				$zing_form.find(".zing_ok").first().val("РџРѕРґРїРёСЃР°С‚СЊСЃСЏ РЅР° РЅРѕРІРѕСЃС‚Рё Hyundai");
@@ -230,7 +230,8 @@ $(document).ready(function() {
 					'value': 'paper_service'
 				});
 				// // RuTarget
-				ajax_url = "/request/request_brochure";
+
+				ajax_url = "http://www.hyundai.ru/request/request_brochure";
 				post_data.model = $(this).attr("data-for-model");
 				$("#brochure_email").text(post_data.email);
 

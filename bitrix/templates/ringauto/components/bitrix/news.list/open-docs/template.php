@@ -48,6 +48,13 @@ $this->setFrameMode(true);
 					</a>
 				</div>
 			<?}?>
+
+				<div class="avaible-document-wrap grid-el grid-el-33">
+					<a href="#" for="brochures_request" data-model="<?=str_replace(' ','_',$arItem['NAME'])?>" class="avaible-document avaible-document--brochure zing_form_toggler">
+						<div class="avaible-document-title">брошюра</div>
+						<div class="avaible-document-model"><?=$arItem['NAME']?></div>
+					</a>
+				</div>
 			</div>
 		</div>
 		<?}?>
