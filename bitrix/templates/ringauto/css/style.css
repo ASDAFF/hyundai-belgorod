@@ -3750,7 +3750,7 @@ iframe[height="13"] {display: none;}
     opacity: 1;
 }
 .zing_form_content {
-    padding: 65px 70px 0;
+    padding: 65px 70px 40px;
 }
 /* close btn */
 .modalCloseImg.zing_close {
