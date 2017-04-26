@@ -63,7 +63,7 @@
                         </div>
                     </div>
 
-                    
+
                     <div class="total">
                         <span class="total-default">Выберите<br>дилера</span>
                         <span class="calc-total-value"></span>
