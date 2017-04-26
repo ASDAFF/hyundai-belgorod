@@ -894,6 +894,7 @@
 
 .promo-slider_wrap .promo-slider_cut .promo-slider li .promo-slider-link img{
 	width: 125px!important;
+	height: 100px;
 	margin: 20px 0 5px 0px!important;
 	opacity: 1;
 	-o-transition: opacity 0.2s ease-in-out 0s;
@@ -905,4 +906,9 @@
 .promo-slider_wrap .promo-slider_cut .promo-slider li .promo-slider-link{
 	text-align: center;
 }
-
+.promo-slider_wrap{
+	height: 260px!important;
+}
+.promo-slider_wrap .promo-slider_cut{
+	height: 250px!important;
+}
