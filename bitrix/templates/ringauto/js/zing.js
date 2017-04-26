@@ -347,6 +347,7 @@ $(document).ready(function() {
 			success: function(msg) {
 				if(msg == 'ok') {
 					$('.dark-cover-all').css('display','block');
+					$('.message-send').css('display','block');
 					$('.message-send').insertAfter('#simplemodal-container').fadeIn(500).on('click', function (e) {
 						if ($(e.target).closest('.zing-agreement-popup').length === 0 || $(e.target).is('.zing-agreement-close')) {
 							$('.dark-cover-all').css('display','none');
