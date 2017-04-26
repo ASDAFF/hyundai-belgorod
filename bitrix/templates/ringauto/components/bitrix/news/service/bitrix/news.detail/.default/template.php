@@ -20,11 +20,14 @@ $this->setFrameMode(true);
 	?>
 
 	<div class="service-top-baner" style="background: url(<?=$arResult['DETAIL_PICTURE']['SRC']?>) no-repeat center bottom/cover;">
-		<!--
+
 		<div class="service-top-content">
-			<span>fsfsgdfhhgdfghdfgh</span>
+			<p><?=$arResult['PROPERTIES']['TOP_BANNER_TEXT_1']['VALUE']?></p>
+			<p class="blue"><?=$arResult['PROPERTIES']['TOP_BANNER_TEXT_2']['VALUE']?></p>
+			<p class="smole"><?=$arResult['PROPERTIES']['TOP_BANNER_TEXT_3']['VALUE']?></p>
+			<a href="" class="zing_form_toggler_spec" for="newslist"><?=$arResult['PROPERTIES']['TOP_BANNER_TEXT_LINK']['VALUE']?></a>
 		</div>
-		-->
+
 	</div>
 
 	<div class="content-wrap">

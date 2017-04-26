@@ -3,6 +3,88 @@ String.prototype.capitalize = function() {
 	return this.charAt(0).toUpperCase() + this.slice(1);
 }
 $(document).ready(function() {
+	$(document).on("click", ".zing_form_toggler_spec", function(e) {
+		e.preventDefault();
+		var $zing_form = $("#blabla-spec"),
+			what = $(this).attr("for");
+		$zing_form.children(".zing_form").first().attr("for", what);
+		switch (what) {
+			case "brochures_request":
+				$zing_form.find(".zing_ok").first().val("Получить брошюру о " + $(this).attr("data-model"));
+				$zing_form.children(".zing_form").first().attr("data-for-model", $(this).attr("data-model"));
+
+				var _rutarget = window._rutarget || [];
+				_rutarget.push({'event': 'thankYou', 'conv_id': 'brochure', 'sku': $(this).attr("data-model")});
+				_rutarget.push({'event': 'addToSegment', 'name': 'hyundai', 'value': 'paper_service'});
+
+				break;
+			case "zing_dealer_btn":
+				$parent = $(this).parents('.call-to-dealer');
+				$zing_form.find(".zing_ok").first().val("РџРѕР·РІРѕРЅРёС‚СЊ РґРёР»РµСЂСѓ");
+				break;
+			case "zing_hotline_btn":
+				$zing_form.find(".zing_ok").first().val("Отправить");
+				break;
+			case "newslist":
+				$zing_form.find(".zing_ok").first().val("Отправить");
+				break;
+			default:
+				$zing_form.find(".zing_ok").first().val("РџРѕР·РІРѕРЅРёС‚СЊ");
+		}
+		$zing_form.modal({
+			closeClass: "zing_close",
+			persist: true,
+			autoResize: true,
+			overlayCss: {
+				background: "#000"
+			},
+			containerCss: {
+				'maxHeight': '100%',
+				'height': '100%',
+				'bottom': '0',
+				'top': '0',
+				'left': '0',
+				'right': '0',
+				'overflow': 'auto'
+			},
+			zIndex: 500,
+			onOpen: function(dialog) {
+				dialog.data.show();
+				dialog.overlay.stop().fadeIn();
+				dialog.container.stop().fadeIn()
+				if (dialog.data.outerHeight() > dialog.container.height()) {
+					$('body').css('overflow', 'hidden');
+				} else {
+					dialog.wrap.css({
+						'top': (dialog.container.height() / 2) - (dialog.data.height() / 2)
+					});
+				}
+			},
+			onShow: function(dialog) {
+				dialog.container.on('click.modal', function(e) {
+					if ($(e.target).closest('.simplemodal-wrap').length == 0) {
+						$.modal.close();
+						dialog.container.off('click.modal');
+					}
+				});
+			},
+			onClose: function(dialog) {
+				dialog.data.stop().fadeOut(function() {
+					dialog.container.hide();
+					dialog.wrap.css('top', '');
+				});
+				dialog.overlay.stop().fadeOut(function() {
+					$.modal.close();
+				});
+				if ($('body').css('overflow') === 'hidden') {
+					$('body').css('overflow', '');
+				}
+				if ($('.zing-agreement-popup-wrapper').is(':visible')) {
+					$('.zing-agreement-popup-wrapper').fadeOut(500);
+				}
+			}
+		});
+	});
 	$(document).on("click", ".zing_form_toggler", function(e) {
 		e.preventDefault();
 		var $zing_form = $("#blabla"),
@@ -248,7 +330,7 @@ $(document).ready(function() {
 
 				break;
 			case "newslist":
-				ajax_url = "/request/newslist";
+				ajax_url = "/ajax/zing_spec_form.php";
 				break;
 			default:
 				ajax_url = "/ajax/zing_hotline_btn.php";
@@ -257,6 +339,7 @@ $(document).ready(function() {
 				} else $("#" + what).trigger("click");
 				console.log($("#" + what).attr('class'));
 		}
+		console.log(ajax_url);
 		$.ajax({
 			url: ajax_url,
 			type: "POST",

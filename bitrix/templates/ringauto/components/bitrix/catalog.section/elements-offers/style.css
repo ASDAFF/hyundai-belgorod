@@ -893,8 +893,8 @@
 
 
 .promo-slider_wrap .promo-slider_cut .promo-slider li .promo-slider-link img{
-	width: 125px!important;
-	height: 100px;
+	width: 180px!important;
+	height: 135px!important;
 	margin: 20px 0 5px 0px!important;
 	opacity: 1;
 	-o-transition: opacity 0.2s ease-in-out 0s;
@@ -907,8 +907,12 @@
 	text-align: center;
 }
 .promo-slider_wrap{
-	height: 260px!important;
+	height: 285px!important;
 }
 .promo-slider_wrap .promo-slider_cut{
-	height: 250px!important;
+	height: 275px!important;
+}
+.promo-slider_wrap .promo-slider_cut .promo-slider li{
+	width: 182px!important;
+	height: 230px!important;
 }

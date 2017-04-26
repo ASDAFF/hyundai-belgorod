@@ -1020,3 +1020,34 @@ input.error {
 	margin-bottom: 25px;
 }
 
+.service-top-content p{
+	margin-bottom: 15px;
+	font-size: 40px;
+	color: #61676A;
+	font-weight: bold;
+}
+.service-top-content p.blue{
+	color: #0086CB;
+}
+.service-top-content p.smole{
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 50px;
+}
+
+.service-top-content a{
+	font-family: 'Arial Black', 'Arial', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 46px;
+	background: rgba(255,255,255,0);
+	border: 3px solid #0085CB;
+	font-weight: bolder;
+	width: 200px;
+	-moz-transition: background .15s ease-out 0s, color .15s ease-out 0s;
+	-webkit-transition: background .15s ease-out 0s, color .15s ease-out 0s;
+	-o-transition: background .15s ease-out 0s, color .15s ease-out 0s;
+	transition: background .15s ease-out 0s, color .15s ease-out 0s;
+	color: #0085CB;
+	padding: 15px;
+}
