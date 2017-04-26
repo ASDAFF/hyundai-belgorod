@@ -15,112 +15,199 @@ $this->setFrameMode(true);
 
 <div class="container">
 
+	<?
+	//var_dump($arResult);
+	?>
 
-
-
-
-		<?$APPLICATION->IncludeComponent("bitrix:catalog.section.list", "service-menu", Array(
-			"ADD_SECTIONS_CHAIN" => "Y",	// Включать раздел в цепочку навигации
-			"CACHE_GROUPS" => "Y",	// Учитывать права доступа
-			"CACHE_TIME" => "36000000",	// Время кеширования (сек.)
-			"CACHE_TYPE" => "N",	// Тип кеширования
-			"COUNT_ELEMENTS" => "Y",	// Показывать количество элементов в разделе
-			"IBLOCK_ID" => "11",	// Инфоблок
-			"IBLOCK_TYPE" => "products",	// Тип инфоблока
-			"SECTION_CODE" => "",	// Код раздела
-			"SECTION_FIELDS" => array(	// Поля разделов
-				0 => "",
-				1 => "",
-			),
-			"SECTION_ID" => $_REQUEST["SECTION_ID"],	// ID раздела
-			"SECTION_URL" => "",	// URL, ведущий на страницу с содержимым раздела
-			"SECTION_USER_FIELDS" => array(	// Свойства разделов
-				0 => "",
-				1 => "UF_HIDDEN",
-			),
-			"SHOW_PARENT_NAME" => "Y",	// Показывать название раздела
-			"TOP_DEPTH" => "2",	// Максимальная отображаемая глубина разделов
-			"VIEW_MODE" => "LINE",	// Вид списка подразделов
-			"NOW_ID" => $arResult['IBLOCK_SECTION_ID']
-		),
-			false
-		);?>
+	<div class="service-top-baner" style="background: url(<?=$arResult['DETAIL_PICTURE']['SRC']?>) no-repeat center bottom/cover;">
+		<!--
+		<div class="service-top-content">
+			<span>fsfsgdfhhgdfghdfgh</span>
+		</div>
+		-->
+	</div>
 
 	<div class="content-wrap">
 
-		<?$APPLICATION->IncludeComponent("bitrix:news.list", "service-list", Array(
-			"ACTIVE_DATE_FORMAT" => "d.m.Y",	// Формат показа даты
-			"ADD_SECTIONS_CHAIN" => "Y",	// Включать раздел в цепочку навигации
-			"AJAX_MODE" => "N",	// Включить режим AJAX
-			"AJAX_OPTION_ADDITIONAL" => "",	// Дополнительный идентификатор
-			"AJAX_OPTION_HISTORY" => "N",	// Включить эмуляцию навигации браузера
-			"AJAX_OPTION_JUMP" => "N",	// Включить прокрутку к началу компонента
-			"AJAX_OPTION_STYLE" => "Y",	// Включить подгрузку стилей
-			"CACHE_FILTER" => "N",	// Кешировать при установленном фильтре
-			"CACHE_GROUPS" => "Y",	// Учитывать права доступа
-			"CACHE_TIME" => "36000000",	// Время кеширования (сек.)
-			"CACHE_TYPE" => "A",	// Тип кеширования
-			"CHECK_DATES" => "Y",	// Показывать только активные на данный момент элементы
-			"DETAIL_URL" => "",	// URL страницы детального просмотра (по умолчанию - из настроек инфоблока)
-			"DISPLAY_BOTTOM_PAGER" => "Y",	// Выводить под списком
-			"DISPLAY_DATE" => "Y",	// Выводить дату элемента
-			"DISPLAY_NAME" => "Y",	// Выводить название элемента
-			"DISPLAY_PICTURE" => "Y",	// Выводить изображение для анонса
-			"DISPLAY_PREVIEW_TEXT" => "Y",	// Выводить текст анонса
-			"DISPLAY_TOP_PAGER" => "N",	// Выводить над списком
-			"FIELD_CODE" => array(	// Поля
-				0 => "",
-				1 => "",
-			),
-			"FILTER_NAME" => "",	// Фильтр
-			"HIDE_LINK_WHEN_NO_DETAIL" => "N",	// Скрывать ссылку, если нет детального описания
-			"IBLOCK_ID" => "11",	// Код информационного блока
-			"IBLOCK_TYPE" => "products",	// Тип информационного блока (используется только для проверки)
-			"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",	// Включать инфоблок в цепочку навигации
-			"INCLUDE_SUBSECTIONS" => "Y",	// Показывать элементы подразделов раздела
-			"MESSAGE_404" => "",	// Сообщение для показа (по умолчанию из компонента)
-			"NEWS_COUNT" => "20",	// Количество новостей на странице
-			"PAGER_BASE_LINK_ENABLE" => "N",	// Включить обработку ссылок
-			"PAGER_DESC_NUMBERING" => "N",	// Использовать обратную навигацию
-			"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",	// Время кеширования страниц для обратной навигации
-			"PAGER_SHOW_ALL" => "N",	// Показывать ссылку "Все"
-			"PAGER_SHOW_ALWAYS" => "N",	// Выводить всегда
-			"PAGER_TEMPLATE" => ".default",	// Шаблон постраничной навигации
-			"PAGER_TITLE" => "Новости",	// Название категорий
-			"PARENT_SECTION" => $arResult['IBLOCK_SECTION_ID'],	// ID раздела
-			"PARENT_SECTION_CODE" => "",	// Код раздела
-			"PREVIEW_TRUNCATE_LEN" => "",	// Максимальная длина анонса для вывода (только для типа текст)
-			"PROPERTY_CODE" => array(	// Свойства
-				0 => "",
-				1 => "",
-			),
-			"SET_BROWSER_TITLE" => "Y",	// Устанавливать заголовок окна браузера
-			"SET_LAST_MODIFIED" => "N",	// Устанавливать в заголовках ответа время модификации страницы
-			"SET_META_DESCRIPTION" => "Y",	// Устанавливать описание страницы
-			"SET_META_KEYWORDS" => "Y",	// Устанавливать ключевые слова страницы
-			"SET_STATUS_404" => "N",	// Устанавливать статус 404
-			"SET_TITLE" => "Y",	// Устанавливать заголовок страницы
-			"SHOW_404" => "N",	// Показ специальной страницы
-			"SORT_BY1" => "ACTIVE_FROM",	// Поле для первой сортировки новостей
-			"SORT_BY2" => "SORT",	// Поле для второй сортировки новостей
-			"SORT_ORDER1" => "DESC",	// Направление для первой сортировки новостей
-			"SORT_ORDER2" => "ASC",	// Направление для второй сортировки новостей
+		<div class="news-line"></div>
 
-		),
-			false
-		);?>
-
-
-		<div class="service-right-block">
-
-			<h1><?=$arResult["NAME"]?></h1>
-			<p><?echo $arResult["DETAIL_TEXT"];?></p>
-
+		<div class="name-detali">
+			<h1><?=$arResult['NAME']?></h1>
+			<span></span>
 		</div>
+
+
+
 
 		<div class="clear"></div>
 	</div>
 
+	<script type="text/javascript" src="/media/js_new/service-pages.js"></script>
 
+
+
+
+	<div class="maintenance-slider loaded">
+		<div class="slide_nav-wrap">
+			<div class="views-title"><?=$arResult['PROPERTIES']['NAME_SLIDER']['VALUE']?></div>
+			<div class="slide_nav">
+				<div class="slider-prev"></div>
+				<span class="paginator"></span>
+				<div class="slider-next"></div>
+			</div>
+		</div>
+		<div class="maintenance-slider-cut">
+			<ul class="views clearfix" style="">
+				<?foreach($arResult['PROPERTIES']["SLIDER"]['VALUE'] as $key => $arItem):?>
+					<li class="view view1 alive" style="width: 1903px;">
+						<img src="<?=CFile::GetPath($arItem)?>" class="view-image">
+						<div class="view-inner">
+							<div class="view-text">
+								<?echo $arResult['PROPERTIES']["SLIDER"]['DESCRIPTION'][$key];?>
+							</div>
+						</div>
+					</li>
+				<?endforeach;?>
+			</ul>
+		</div>
+	</div>
+
+
+
+	<div class="parts-slide-text">
+		<div class="parts-slide-text-heading">РџСЂРµРёРјСѓС‰РµСЃС‚РІР°</div>
+		<div class="parts-slide-text-wrapper clearfix">
+			<div class="parts-slide-text-item">
+				<img src="/media/img_new/service-pages/parts/parts-slider-text-ic-left.png" class="parts-slide-text-item__ic" alt="">
+				<div class="parts-slide-text-item__title">РћСЂРёРіРёРЅР°Р»</div>
+				<div class="parts-slide-text-item__text">
+					<ul>
+						<?foreach($arResult['PROPERTIES']["PREMIUM_ORIG"]['VALUE'] as $key => $arItem):?>
+						<li><?=$arItem?></li>
+						<?endforeach;?>
+					</ul>
+				</div>
+			</div>
+			<div class="parts-slide-text-item">
+				<img src="/media/img_new/service-pages/parts/parts-slider-text-ic-right.png" class="parts-slide-text-item__ic" alt="">
+				<div class="parts-slide-text-item__title">РџРѕРґРґРµР»РєР°</div>
+				<div class="parts-slide-text-item__text">
+					<ul>
+						<?foreach($arResult['PROPERTIES']["PREMIUM_FAKE"]['VALUE'] as $key => $arItem):?>
+						<li><?=$arItem?></li>
+						<?endforeach;?>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="vin-check" style="background: url('<?=CFile::GetPath($arResult['PROPERTIES']["IMG_BANER"]['VALUE'])?>') no-repeat center center/cover;">
+		<div class="vin-check-content">
+			<div class="vin-check-heading"><?=$arResult['PROPERTIES']["BOTTOM_BANER_TEXT"]['VALUE']?></div>
+			<div class="vin-check-form-wrap">
+				<a href="<?=$arResult['PROPERTIES']['BOTTOM_BANER_LINK']['VALUE']?>"><?=$arResult['PROPERTIES']['BOTTOM_BANER_LINK_TEXT']['VALUE']?></a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="content-wrap">
+
+	<?$APPLICATION->IncludeComponent("bitrix:catalog.section", "elements-offers", Array(
+		"ACTION_VARIABLE" => "action",	// РќР°Р·РІР°РЅРёРµ РїРµСЂРµРјРµРЅРЅРѕР№, РІ РєРѕС‚РѕСЂРѕР№ РїРµСЂРµРґР°РµС‚СЃСЏ РґРµР№СЃС‚РІРёРµ
+		"ADD_PICT_PROP" => "-",	// Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РєР°СЂС‚РёРЅРєР° РѕСЃРЅРѕРІРЅРѕРіРѕ С‚РѕРІР°СЂР°
+		"ADD_PROPERTIES_TO_BASKET" => "Y",	// Р”РѕР±Р°РІР»СЏС‚СЊ РІ РєРѕСЂР·РёРЅСѓ СЃРІРѕР№СЃС‚РІР° С‚РѕРІР°СЂРѕРІ Рё РїСЂРµРґР»РѕР¶РµРЅРёР№
+		"ADD_SECTIONS_CHAIN" => "N",	// Р’РєР»СЋС‡Р°С‚СЊ СЂР°Р·РґРµР» РІ С†РµРїРѕС‡РєСѓ РЅР°РІРёРіР°С†РёРё
+		"AJAX_MODE" => "N",	// Р’РєР»СЋС‡РёС‚СЊ СЂРµР¶РёРј AJAX
+		"AJAX_OPTION_ADDITIONAL" => "",	// Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
+		"AJAX_OPTION_HISTORY" => "N",	// Р’РєР»СЋС‡РёС‚СЊ СЌРјСѓР»СЏС†РёСЋ РЅР°РІРёРіР°С†РёРё Р±СЂР°СѓР·РµСЂР°
+		"AJAX_OPTION_JUMP" => "N",	// Р’РєР»СЋС‡РёС‚СЊ РїСЂРѕРєСЂСѓС‚РєСѓ Рє РЅР°С‡Р°Р»Сѓ РєРѕРјРїРѕРЅРµРЅС‚Р°
+		"AJAX_OPTION_STYLE" => "Y",	// Р’РєР»СЋС‡РёС‚СЊ РїРѕРґРіСЂСѓР·РєСѓ СЃС‚РёР»РµР№
+		"BACKGROUND_IMAGE" => "-",	// РЈСЃС‚Р°РЅРѕРІРёС‚СЊ С„РѕРЅРѕРІСѓСЋ РєР°СЂС‚РёРЅРєСѓ РґР»СЏ С€Р°Р±Р»РѕРЅР° РёР· СЃРІРѕР№СЃС‚РІР°
+		"BASKET_URL" => "/personal/basket.php",	// URL, РІРµРґСѓС‰РёР№ РЅР° СЃС‚СЂР°РЅРёС†Сѓ СЃ РєРѕСЂР·РёРЅРѕР№ РїРѕРєСѓРїР°С‚РµР»СЏ
+		"BROWSER_TITLE" => "-",	// РЈСЃС‚Р°РЅРѕРІРёС‚СЊ Р·Р°РіРѕР»РѕРІРѕРє РѕРєРЅР° Р±СЂР°СѓР·РµСЂР° РёР· СЃРІРѕР№СЃС‚РІР°
+		"CACHE_FILTER" => "N",	// РљРµС€РёСЂРѕРІР°С‚СЊ РїСЂРё СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕРј С„РёР»СЊС‚СЂРµ
+		"CACHE_GROUPS" => "Y",	// РЈС‡РёС‚С‹РІР°С‚СЊ РїСЂР°РІР° РґРѕСЃС‚СѓРїР°
+		"CACHE_TIME" => "36000000",	// Р’СЂРµРјСЏ РєРµС€РёСЂРѕРІР°РЅРёСЏ (СЃРµРє.)
+		"CACHE_TYPE" => "N",	// РўРёРї РєРµС€РёСЂРѕРІР°РЅРёСЏ
+		"DETAIL_URL" => "",	// URL, РІРµРґСѓС‰РёР№ РЅР° СЃС‚СЂР°РЅРёС†Сѓ СЃ СЃРѕРґРµСЂР¶РёРјС‹Рј СЌР»РµРјРµРЅС‚Р° СЂР°Р·РґРµР»Р°
+		"DISABLE_INIT_JS_IN_COMPONENT" => "N",	// РќРµ РїРѕРґРєР»СЋС‡Р°С‚СЊ js-Р±РёР±Р»РёРѕС‚РµРєРё РІ РєРѕРјРїРѕРЅРµРЅС‚Рµ
+		"DISPLAY_BOTTOM_PAGER" => "Y",	// Р’С‹РІРѕРґРёС‚СЊ РїРѕРґ СЃРїРёСЃРєРѕРј
+		"DISPLAY_TOP_PAGER" => "N",	// Р’С‹РІРѕРґРёС‚СЊ РЅР°Рґ СЃРїРёСЃРєРѕРј
+		"ELEMENT_SORT_FIELD" => "sort",	// РџРѕ РєР°РєРѕРјСѓ РїРѕР»СЋ СЃРѕСЂС‚РёСЂСѓРµРј СЌР»РµРјРµРЅС‚С‹
+		"ELEMENT_SORT_FIELD2" => "id",	// РџРѕР»Рµ РґР»СЏ РІС‚РѕСЂРѕР№ СЃРѕСЂС‚РёСЂРѕРІРєРё СЌР»РµРјРµРЅС‚РѕРІ
+		"ELEMENT_SORT_ORDER" => "asc",	// РџРѕСЂСЏРґРѕРє СЃРѕСЂС‚РёСЂРѕРІРєРё СЌР»РµРјРµРЅС‚РѕРІ
+		"ELEMENT_SORT_ORDER2" => "desc",	// РџРѕСЂСЏРґРѕРє РІС‚РѕСЂРѕР№ СЃРѕСЂС‚РёСЂРѕРІРєРё СЌР»РµРјРµРЅС‚РѕРІ
+		"FILTER_NAME" => "arrFilter",	// РРјСЏ РјР°СЃСЃРёРІР° СЃРѕ Р·РЅР°С‡РµРЅРёСЏРјРё С„РёР»СЊС‚СЂР° РґР»СЏ С„РёР»СЊС‚СЂР°С†РёРё СЌР»РµРјРµРЅС‚РѕРІ
+		"IBLOCK_ID" => "11",	// РРЅС„РѕР±Р»РѕРє
+		"IBLOCK_TYPE" => "products",	// РўРёРї РёРЅС„РѕР±Р»РѕРєР°
+		"INCLUDE_SUBSECTIONS" => "Y",	// РџРѕРєР°Р·С‹РІР°С‚СЊ СЌР»РµРјРµРЅС‚С‹ РїРѕРґСЂР°Р·РґРµР»РѕРІ СЂР°Р·РґРµР»Р°
+		"LABEL_PROP" => "-",	// РЎРІРѕР№СЃС‚РІРѕ РјРµС‚РѕРє С‚РѕРІР°СЂР°
+		"LINE_ELEMENT_COUNT" => "3",	// РљРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РІС‹РІРѕРґРёРјС‹С… РІ РѕРґРЅРѕР№ СЃС‚СЂРѕРєРµ С‚Р°Р±Р»РёС†С‹
+		"MESSAGE_404" => "",	// РЎРѕРѕР±С‰РµРЅРёРµ РґР»СЏ РїРѕРєР°Р·Р° (РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ РёР· РєРѕРјРїРѕРЅРµРЅС‚Р°)
+		"MESS_BTN_ADD_TO_BASKET" => "Р’ РєРѕСЂР·РёРЅСѓ",	// РўРµРєСЃС‚ РєРЅРѕРїРєРё "Р”РѕР±Р°РІРёС‚СЊ РІ РєРѕСЂР·РёРЅСѓ"
+		"MESS_BTN_BUY" => "РљСѓРїРёС‚СЊ",	// РўРµРєСЃС‚ РєРЅРѕРїРєРё "РљСѓРїРёС‚СЊ"
+		"MESS_BTN_DETAIL" => "РџРѕРґСЂРѕР±РЅРµРµ",	// РўРµРєСЃС‚ РєРЅРѕРїРєРё "РџРѕРґСЂРѕР±РЅРµРµ"
+		"MESS_BTN_SUBSCRIBE" => "РџРѕРґРїРёСЃР°С‚СЊСЃСЏ",	// РўРµРєСЃС‚ РєРЅРѕРїРєРё "РЈРІРµРґРѕРјРёС‚СЊ Рѕ РїРѕСЃС‚СѓРїР»РµРЅРёРё"
+		"MESS_NOT_AVAILABLE" => "РќРµС‚ РІ РЅР°Р»РёС‡РёРё",	// РЎРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС‚СЃСѓС‚СЃС‚РІРёРё С‚РѕРІР°СЂР°
+		"META_DESCRIPTION" => "-",	// РЈСЃС‚Р°РЅРѕРІРёС‚СЊ РѕРїРёСЃР°РЅРёРµ СЃС‚СЂР°РЅРёС†С‹ РёР· СЃРІРѕР№СЃС‚РІР°
+		"META_KEYWORDS" => "-",	// РЈСЃС‚Р°РЅРѕРІРёС‚СЊ РєР»СЋС‡РµРІС‹Рµ СЃР»РѕРІР° СЃС‚СЂР°РЅРёС†С‹ РёР· СЃРІРѕР№СЃС‚РІР°
+		"OFFERS_LIMIT" => "5",	// РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРµРґР»РѕР¶РµРЅРёР№ РґР»СЏ РїРѕРєР°Р·Р° (0 - РІСЃРµ)
+		"PAGER_BASE_LINK_ENABLE" => "N",	// Р’РєР»СЋС‡РёС‚СЊ РѕР±СЂР°Р±РѕС‚РєСѓ СЃСЃС‹Р»РѕРє
+		"PAGER_DESC_NUMBERING" => "N",	// РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РѕР±СЂР°С‚РЅСѓСЋ РЅР°РІРёРіР°С†РёСЋ
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",	// Р’СЂРµРјСЏ РєРµС€РёСЂРѕРІР°РЅРёСЏ СЃС‚СЂР°РЅРёС† РґР»СЏ РѕР±СЂР°С‚РЅРѕР№ РЅР°РІРёРіР°С†РёРё
+		"PAGER_SHOW_ALL" => "N",	// РџРѕРєР°Р·С‹РІР°С‚СЊ СЃСЃС‹Р»РєСѓ "Р’СЃРµ"
+		"PAGER_SHOW_ALWAYS" => "N",	// Р’С‹РІРѕРґРёС‚СЊ РІСЃРµРіРґР°
+		"PAGER_TEMPLATE" => ".default",	// РЁР°Р±Р»РѕРЅ РїРѕСЃС‚СЂР°РЅРёС‡РЅРѕР№ РЅР°РІРёРіР°С†РёРё
+		"PAGER_TITLE" => "РўРѕРІР°СЂС‹",	// РќР°Р·РІР°РЅРёРµ РєР°С‚РµРіРѕСЂРёР№
+		"PAGE_ELEMENT_COUNT" => "100",	// РљРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РЅР° СЃС‚СЂР°РЅРёС†Рµ
+		"PARTIAL_PRODUCT_PROPERTIES" => "N",	// Р Р°Р·СЂРµС€РёС‚СЊ РґРѕР±Р°РІР»СЏС‚СЊ РІ РєРѕСЂР·РёРЅСѓ С‚РѕРІР°СЂС‹, Сѓ РєРѕС‚РѕСЂС‹С… Р·Р°РїРѕР»РЅРµРЅС‹ РЅРµ РІСЃРµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё
+		"PRICE_CODE" => "",	// РўРёРї С†РµРЅС‹
+		"PRICE_VAT_INCLUDE" => "Y",	// Р’РєР»СЋС‡Р°С‚СЊ РќР”РЎ РІ С†РµРЅСѓ
+		"PRODUCT_ID_VARIABLE" => "id",	// РќР°Р·РІР°РЅРёРµ РїРµСЂРµРјРµРЅРЅРѕР№, РІ РєРѕС‚РѕСЂРѕР№ РїРµСЂРµРґР°РµС‚СЃСЏ РєРѕРґ С‚РѕРІР°СЂР° РґР»СЏ РїРѕРєСѓРїРєРё
+		"PRODUCT_PROPERTIES" => "",	// РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‚РѕРІР°СЂР°
+		"PRODUCT_PROPS_VARIABLE" => "prop",	// РќР°Р·РІР°РЅРёРµ РїРµСЂРµРјРµРЅРЅРѕР№, РІ РєРѕС‚РѕСЂРѕР№ РїРµСЂРµРґР°СЋС‚СЃСЏ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‚РѕРІР°СЂР°
+		"PRODUCT_QUANTITY_VARIABLE" => "",	// РќР°Р·РІР°РЅРёРµ РїРµСЂРµРјРµРЅРЅРѕР№, РІ РєРѕС‚РѕСЂРѕР№ РїРµСЂРµРґР°РµС‚СЃСЏ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
+		"PROPERTY_CODE" => array(	// РЎРІРѕР№СЃС‚РІР°
+			0 => "",
+			1 => "",
+		),
+		"SECTION_CODE" => "spetspredlozheniya",	// РљРѕРґ СЂР°Р·РґРµР»Р°
+		"SECTION_ID" => "",	// ID СЂР°Р·РґРµР»Р°
+		"SECTION_ID_VARIABLE" => "SECTION_ID",	// РќР°Р·РІР°РЅРёРµ РїРµСЂРµРјРµРЅРЅРѕР№, РІ РєРѕС‚РѕСЂРѕР№ РїРµСЂРµРґР°РµС‚СЃСЏ РєРѕРґ РіСЂСѓРїРїС‹
+		"SECTION_URL" => "",	// URL, РІРµРґСѓС‰РёР№ РЅР° СЃС‚СЂР°РЅРёС†Сѓ СЃ СЃРѕРґРµСЂР¶РёРјС‹Рј СЂР°Р·РґРµР»Р°
+		"SECTION_USER_FIELDS" => array(	// РЎРІРѕР№СЃС‚РІР° СЂР°Р·РґРµР»Р°
+			0 => "",
+			1 => "UF_SERVICE_LEFT_MENU",
+			2 => "UF_SERVICE_TABS",
+			3 => "UF_ENABLE_VIN",
+			4 => "UF_SERVICE_CALC",
+			5 => "UF_SLIDER_SERVICE",
+			6 => "UF_BIG_SLIDER",
+			7 => "UF_OPEN_DOCS",
+			8 => "UF_HIDDEN",
+			9 => "",
+		),
+		"SEF_MODE" => "N",	// Р’РєР»СЋС‡РёС‚СЊ РїРѕРґРґРµСЂР¶РєСѓ Р§РџРЈ
+		"SET_BROWSER_TITLE" => "Y",	// РЈСЃС‚Р°РЅР°РІР»РёРІР°С‚СЊ Р·Р°РіРѕР»РѕРІРѕРє РѕРєРЅР° Р±СЂР°СѓР·РµСЂР°
+		"SET_LAST_MODIFIED" => "N",	// РЈСЃС‚Р°РЅР°РІР»РёРІР°С‚СЊ РІ Р·Р°РіРѕР»РѕРІРєР°С… РѕС‚РІРµС‚Р° РІСЂРµРјСЏ РјРѕРґРёС„РёРєР°С†РёРё СЃС‚СЂР°РЅРёС†С‹
+		"SET_META_DESCRIPTION" => "Y",	// РЈСЃС‚Р°РЅР°РІР»РёРІР°С‚СЊ РѕРїРёСЃР°РЅРёРµ СЃС‚СЂР°РЅРёС†С‹
+		"SET_META_KEYWORDS" => "Y",	// РЈСЃС‚Р°РЅР°РІР»РёРІР°С‚СЊ РєР»СЋС‡РµРІС‹Рµ СЃР»РѕРІР° СЃС‚СЂР°РЅРёС†С‹
+		"SET_STATUS_404" => "N",	// РЈСЃС‚Р°РЅР°РІР»РёРІР°С‚СЊ СЃС‚Р°С‚СѓСЃ 404
+		"SET_TITLE" => "Y",	// РЈСЃС‚Р°РЅР°РІР»РёРІР°С‚СЊ Р·Р°РіРѕР»РѕРІРѕРє СЃС‚СЂР°РЅРёС†С‹
+		"SHOW_404" => "N",	// РџРѕРєР°Р· СЃРїРµС†РёР°Р»СЊРЅРѕР№ СЃС‚СЂР°РЅРёС†С‹
+		"SHOW_ALL_WO_SECTION" => "N",	// РџРѕРєР°Р·С‹РІР°С‚СЊ РІСЃРµ СЌР»РµРјРµРЅС‚С‹, РµСЃР»Рё РЅРµ СѓРєР°Р·Р°РЅ СЂР°Р·РґРµР»
+		"SHOW_PRICE_COUNT" => "1",	// Р’С‹РІРѕРґРёС‚СЊ С†РµРЅС‹ РґР»СЏ РєРѕР»РёС‡РµСЃС‚РІР°
+		"TEMPLATE_THEME" => "blue",	// Р¦РІРµС‚РѕРІР°СЏ С‚РµРјР°
+		"USE_MAIN_ELEMENT_SECTION" => "N",	// РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РѕСЃРЅРѕРІРЅРѕР№ СЂР°Р·РґРµР» РґР»СЏ РїРѕРєР°Р·Р° СЌР»РµРјРµРЅС‚Р°
+		"USE_PRICE_COUNT" => "N",	// РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РІС‹РІРѕРґ С†РµРЅ СЃ РґРёР°РїР°Р·РѕРЅР°РјРё
+		"USE_PRODUCT_QUANTITY" => "N",	// Р Р°Р·СЂРµС€РёС‚СЊ СѓРєР°Р·Р°РЅРёРµ РєРѕР»РёС‡РµСЃС‚РІР° С‚РѕРІР°СЂР°
+	),
+		false
+	);?>
+
+	</div>
 
 </div>

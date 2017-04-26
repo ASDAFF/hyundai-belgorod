@@ -32,7 +32,8 @@ $APPLICATION->SetTitle("service");
 		"DETAIL_PAGER_TITLE" => "Страница",
 		"DETAIL_PROPERTY_CODE" => array(
 			0 => "",
-			1 => "",
+			1 => "SLIDER",
+			2 => "",
 		),
 		"DETAIL_SET_CANONICAL_URL" => "N",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
