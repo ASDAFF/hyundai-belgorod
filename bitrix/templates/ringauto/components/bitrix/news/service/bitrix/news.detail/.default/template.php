@@ -110,7 +110,7 @@ $this->setFrameMode(true);
 		<div class="vin-check-content">
 			<div class="vin-check-heading"><?=$arResult['PROPERTIES']["BOTTOM_BANER_TEXT"]['VALUE']?></div>
 			<div class="vin-check-form-wrap">
-				<a href="<?=$arResult['PROPERTIES']['BOTTOM_BANER_LINK']['VALUE']?>"><?=$arResult['PROPERTIES']['BOTTOM_BANER_LINK_TEXT']['VALUE']?></a>
+				<a href="<?=$arResult['PROPERTIES']['BOTTOM_BANER_LINK']['VALUE']?>" class="zing_form_toggler_spec" for="newslist" ><?=$arResult['PROPERTIES']['BOTTOM_BANER_LINK_TEXT']['VALUE']?></a>
 			</div>
 		</div>
 	</div>
