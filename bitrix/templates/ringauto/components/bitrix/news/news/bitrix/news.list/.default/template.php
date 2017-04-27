@@ -24,7 +24,7 @@ $this->setFrameMode(true);
 				<ul class="">
 					<li class="on" style=""><a href="/news">Новости компании</a></li>
 					<!--                     <li class="off" style=""><a href="/press-release">Пресс-релизы</a></li> -->
-					<li class="" style=""><a href="#">Журнал Hyundai Motor CIS</a></li>
+					<!--<li class="" style=""><a href="#">Журнал Hyundai Motor CIS</a></li>-->
 					<li class="" style=""><a href="/awards">Награды</a></li>
 					<!-- <li class="" style=""><a href="/FIFA">FIFA</a></li> -->
 				</ul>
@@ -46,6 +46,7 @@ $this->setFrameMode(true);
 
 
 			<div class="b-fullsize-container">
+				<!--
 				<form class="b-search__form" method="GET" action="/SearchCategory" enctype="multipart/form-data">
 
 
@@ -65,6 +66,7 @@ $this->setFrameMode(true);
 
 
 				</form>
+				-->
 				<!--  add datepicker script  -->
 
 				<script type="text/javascript">
@@ -121,29 +123,6 @@ $this->setFrameMode(true);
 				<?if($arParams["DISPLAY_BOTTOM_PAGER"]):?>
 					<br /><?=$arResult["NAV_STRING"]?>
 				<?endif;?>
-				<div class="b-news-pagination"><p class="pagination">
-
-						<span class="pagination_prev disable">Предыдущая</span>
-
-
-						<strong class="pagination-item current">35</strong>
-
-
-						<a class="pagination-item" href="/news/2">34</a>
-
-
-						<a class="pagination-item" href="/news/3">33</a>
-
-
-						<a class="pagination-item" href="/news/35">1</a>
-
-
-						<a class="pagination_next" href="/news/2" rel="next">Следующая</a>
-
-
-					</p><!-- .pagination --></div>
-
-
 
 			</div>
 
