@@ -4130,3 +4130,25 @@ a.zingaya_button1370324828422 {
     z-index: 9999999;
     width: 1903px;
 }
+
+.content-wrap.text-index-block{
+    background: #fff;
+    padding: 15px;
+}
+
+.content-wrap.text-index-block h1{
+    font-weight: bold;
+    font-size: 1.8em;
+    margin: 25px 0 15px;
+}
+
+.content-wrap.text-index-block h2{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 25px 0 15px;
+
+}
+.content-wrap.text-index-block ul, ol, li{
+    list-style: disc!important;
+    margin-left: 20px;
+}

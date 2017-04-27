@@ -438,7 +438,7 @@ $APPLICATION->SetTitle("Мебельная компания");
 				</div>
 			</nav>
 
-			<div class="content-wrap">
+			<div class="content-wrap text-index-block">
 
 				<?$APPLICATION->IncludeComponent(
 					"bitrix:main.include",

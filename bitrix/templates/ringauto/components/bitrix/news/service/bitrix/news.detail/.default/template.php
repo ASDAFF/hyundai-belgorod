@@ -82,7 +82,7 @@ $this->setFrameMode(true);
 		<div class="parts-slide-text-wrapper clearfix">
 			<div class="parts-slide-text-item">
 				<img src="/media/img_new/service-pages/parts/parts-slider-text-ic-left.png" class="parts-slide-text-item__ic" alt="">
-				<div class="parts-slide-text-item__title">Оригинал</div>
+				<div class="parts-slide-text-item__title">При обслуживание у официального дилера</div>
 				<div class="parts-slide-text-item__text">
 					<ul>
 						<?foreach($arResult['PROPERTIES']["PREMIUM_ORIG"]['VALUE'] as $key => $arItem):?>
@@ -93,7 +93,7 @@ $this->setFrameMode(true);
 			</div>
 			<div class="parts-slide-text-item">
 				<img src="/media/img_new/service-pages/parts/parts-slider-text-ic-right.png" class="parts-slide-text-item__ic" alt="">
-				<div class="parts-slide-text-item__title">Подделка</div>
+				<div class="parts-slide-text-item__title">При обслуживание в стороннем сервисе</div>
 				<div class="parts-slide-text-item__text">
 					<ul>
 						<?foreach($arResult['PROPERTIES']["PREMIUM_FAKE"]['VALUE'] as $key => $arItem):?>
