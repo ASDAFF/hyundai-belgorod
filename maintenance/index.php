@@ -74,7 +74,7 @@ $APPLICATION->SetTitle("maintenance");
                         <tbody>
                         <!-- Двигатель -->
                         <tr>
-                            <td rowspan="6" class="grey">Моторное масло<div class="shellhelix"><noindex><a href="http://www.shell.com.ru/products-services/on-the-road/consumer-lubricants-tpkg/cars/helix-range.html" target="_blank" rel="nofollow"><img src="/media/img/shellhelix.png"></a></noindex></div></td>
+                            <td rowspan="6" class="grey">Моторное масло<div class="shellhelix"><noindex><a href="http://www.shell.com.ru/products-services/on-the-road/consumer-lubricants-tpkg/cars/helix-range.html" target="_blank" rel="nofollow"><img style="max-width: 150px;" src="/media/img/shellhelix.png"></a></noindex></div></td>
                             <td rowspan="3" class="grey">Для бензиновых двигателей</td>
                             <td rowspan="2" colspan="2">API SL и выше или ACEA A3</td>
                             <td>SAE 0W-40<br>SAE 0W-30 (выше -35°C)</td>
