@@ -674,7 +674,7 @@ html[xmlns] .content_wrap .content_area {display:block;padding-bottom:40px}
 .content_wrap .content_area .side_menu ul.menu li.on ul {display:block}
 .content_wrap .content_area .side_menu ul.menu li.on ul li a {color:#8f8f91}
 .content_wrap .content_area .side_menu ul.menu li.on ul li.on a {color:#333;text-decoration:none}
-.content_wrap .content_area .contents {float:right;width:641px;padding:48px 0 20px}
+.content_wrap .content_area .contents {/*float:right;width:641px;*/padding:48px 0 20px}
 .content_wrap .content_area .contents.wide {width:700px}
 .content_wrap .contents .main_title {padding-bottom:10px;font-size:18px;line-height:20px;font-weight:700;color:#333}
 .content_wrap .contents .title {padding-bottom:10px;font-size:18px;line-height:20px;font-weight:700;color:#333}
