@@ -5,6 +5,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
 ?>
 
 
+
     <script type='text/javascript' src="/media/js/sc_jquery_ui_ipad.js"></script>
     <script type='text/javascript' src="/media/js_new/sc_wwpip_flat.js"></script>
     <link rel="stylesheet" type="text/css" href="/media/css_new/css_style_ru.css"/>
@@ -95,22 +96,20 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                         <? price_to_url($APPLICATION->GetCurPage()); ?>
                                         <a href="http://www.hyundai.ru/configurator/?car_id=12&calc_open=1" class="title-price-notice">В кредит от 37 622 <span class="rouble">p</span> / месяц</a>
                                     </div>
-                                    <a href="/all-offers/" class="btn-flat">Все предложения</a>
+                                    <a href="/all-offers/grand_santa_fe" class="btn-flat">Все предложения</a>
                                     <div class="title-list">
-
                                         <ul>
                                             <li>Система полного<br>привода</li>
                                             <li>Макс. мощность<br><strong>249 л.с.</strong></li>
                                         </ul>
-
                                         <ul>
                                             <li>Функциональный<br>руль</li>
                                             <li>Большой список<br>опций</li>
                                         </ul>
-
                                     </div>
+
                                 </div>
-                                <!--
+                                <!-- 						<img src="/media/images/flat/GSF/elements/info_car_pic.png" class="info-car-pic"/> -->
                                 <div class="view-360_wrap">
                                     <!-- progress preview + progress loading ring -->
                                     <img class="progress-last-frame" alt="" src="/media/images/common/transparent.gif"/>
@@ -1259,7 +1258,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
                         </div>
                     </div>
                     <div class="detailedSpecLink">
-                        <a href="/configurator?car_id=150&compl_id=336#desc">Подробные характеристики</a>
+                        <a href="/configurator/car?car_id=12#desc" onClick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
                     </div>
                     <div class="spec_message">
                         <div>
@@ -1326,7 +1325,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
 					Для вас всегда есть удобные программы<br>
 					кредитования и другие предложения Drive Hyundai.
 					</span>
-                            <a href="#" class="btn-flat">Пройти тест-драйв</a>
+                            <a href="/test-drive?old_car_id=12" class="btn-flat">Пройти тест-драйв</a>
                         </div>
                         <img src="/media/images/flat/GSF/elements/promo_pic.png" width="587" height="331" alt="Тест драйв Хендай Гранд Санта Фе">
                     </div>
