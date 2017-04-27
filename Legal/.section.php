@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Legal";
+$arDirProperties = Array(
+
+);
+?>

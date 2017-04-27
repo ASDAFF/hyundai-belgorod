@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Privacy";
+$arDirProperties = Array(
+
+);
+?>

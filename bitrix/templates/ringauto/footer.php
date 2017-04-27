@@ -70,13 +70,13 @@ IncludeTemplateLangFile(__FILE__); ?>
         <div class="footer-center-line"></div>
         <div class="footer-center-foot clearfix">
             <nav class="footer-center-foot-nav">
-                <a class="footer-center-foot-nav-item" href="#">Карта сайта</a>
+                <a class="footer-center-foot-nav-item" href="/Sitemap">Карта сайта</a>
                 <span class="footer-center-foot-nav-sep">|</span>
-                <a class="footer-center-foot-nav-item" href="#">Юридическая информация</a>
+                <a class="footer-center-foot-nav-item" href="/Legal">Юридическая информация</a>
                 <span class="footer-center-foot-nav-sep">|</span>
-                <a class="footer-center-foot-nav-item" href="#">Конфиденциальность</a>
+                <a class="footer-center-foot-nav-item" href="/Privacy">Конфиденциальность</a>
                 <span class="footer-center-foot-nav-sep">|</span>
-                <a class="footer-cener-foot-nav-item" href="#">Авторские права</a>
+                <a class="footer-cener-foot-nav-item" href="/TermsConditions">Авторские права</a>
             </nav>
             <div class="footer-center-foot-left">
                 <a class="lang" target="_blank" href="http://worldwide.hyundai.com/WW/Worldwide/Worldwide/index.html" rel="nofollow">

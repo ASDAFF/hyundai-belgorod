@@ -1,0 +1,6 @@
+<?
+$sSectionName = "TermsConditions";
+$arDirProperties = Array(
+
+);
+?>

@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Sitemap";
+$arDirProperties = Array(
+
+);
+?>
