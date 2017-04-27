@@ -437,6 +437,23 @@ $APPLICATION->SetTitle("Мебельная компания");
 					</div>
 				</div>
 			</nav>
+
+			<div class="content-wrap">
+
+				<?$APPLICATION->IncludeComponent(
+					"bitrix:main.include",
+					"",
+					Array(
+						"AREA_FILE_SHOW" => "file",
+						"AREA_FILE_SUFFIX" => "inc",
+						"EDIT_TEMPLATE" => "",
+						"PATH" => "/include/index_text.php"
+					)
+				);?>
+
+			</div>
+
+
 		</div><!--content-->
 
 
