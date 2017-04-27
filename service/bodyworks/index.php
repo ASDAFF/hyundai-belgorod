@@ -176,11 +176,26 @@ $APPLICATION->SetTitle("bodyworks");
                 <div class="bodyworks-insurance-footer" role="contentinfo">
                     <div class="content-inner clearfix">
                         <div class="bodyworks-insurance-footer__text">Воспользуйтесь страховым полисом для&nbsp;ремонта вашего автомобиля</div>
-                        <a href="/service-request" class="bodyworks-insurance__btn" role="button">записаться на сервис</a>
+                        <a href="#" class="bodyworks-insurance__btn zing_form_toggler" for="zing_hotline_btn" role="button">записаться на сервис</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+
+    <div class="bodyworks-popup" id="bodyworks-osago-rules">
+        <div class="bodyworks-popup-body">
+            <a href="#" class="bodyworks-popup__close" role="button"></a>
+            <div class="bodyworks-popup__title">Что необходимо для обращения по ОСАГО?</div>
+            <div class="bodyworks-popup__content">
+                <ul class="bodyworks-popup-ul">
+                    <li class="bodyworks-popup-li">Выбрать официального дилера Хендэ и назначить дату&nbsp;и&nbsp;время визита</li>
+                    <li class="bodyworks-popup-li">Предоставить поврежденное транспортное средство</li>
+                    <li class="bodyworks-popup-li">Заключить договор на проведение восстановительного ремонта автомобиля, в объеме выплат Страховой Компании по ОСАГО</li>
+                    <li class="bodyworks-popup-li">Предоставить документы, подтверждающие факт урегулирования Страховой Компанией страхового случая по ОСАГО</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
