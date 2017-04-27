@@ -224,4 +224,12 @@ $APPLICATION->SetTitle("brochures");
 
     </div>
 
+<style>
+    .content_wrap .content_area .contents {
+        float: right;
+        width: 641px;
+    }
+
+</style>
+
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
