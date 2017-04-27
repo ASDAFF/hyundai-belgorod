@@ -97,6 +97,73 @@ IncludeTemplateLangFile(__FILE__); ?>
     </div>
 </footer><!--footer-->
 
+<div class="zing_form_wrp" id="newsletter">
+    <form class="js-newsletter_form newsletter_form zing_form" action="/ajax/request_add_newsletter" for="newsletter_hotline_btn">
+        <div class="zing_form_content">
+            <a class="closePopup zing_close" href="javascript:;"></a>
+            <p class="js-form-message message">Вы подписались на новости</p>
+            <div class="js-form-wrap">
+
+                <p class="zing-heading">Пожалуйста, укажите Ваши контактные данные.</p>
+                <p class="zing-p zing-p--note"><i class="ic-note-31"></i>Поля, отмеченные &laquo;<sup class="skyblue">*</sup>&raquo;, обязательны для заполнения.</p>
+
+                <div class="zing-input">
+                    <input
+                        type		= "text"
+                        class		= "zing_last_name zing_txt"
+                        name		= "last_name"
+                        id			= "zing_last_name_news"
+                        maxlength	= "50">
+                    <label for="zing_last_name_news">Фамилия<sup class="skyblue">*</sup></label>
+                </div>
+
+                <div class="zing-input">
+                    <input
+                        type		= "text"
+                        class		= "zing_first_name zing_txt"
+                        name		= "first_name"
+                        id			= "zing_first_name_news"
+                        maxlength	= "50">
+                    <label for="zing_first_name_news">Имя<sup class="skyblue">*</sup></label>
+                </div>
+
+                <div class="zing-input">
+                    <input
+                        type		= "email"
+                        class		= "zing_email zing_txt"
+                        name		= "email"
+                        id			= "zing_email_news"
+                        maxlength	= "50">
+                    <label for="zing_email_news">E-mail<sup class="skyblue">*</sup></label>
+                </div>
+
+                <div class="zing-input">
+                    <input
+                        type		= "tel"
+                        class		= "zing_mobile zing_txt"
+                        name		= "mobile"
+                        id			= "zing_mobile_news"
+                        maxlength	= "50">
+                    <label for="zing_mobile_news">Телефон<sup class="skyblue">*</sup></label>
+                </div>
+
+                <div class="zing_rules_wrp">
+                    <input
+                        type	= "checkbox"
+                        class	= "zing_rules_agree_cb zing-agreement-input"
+                        name	= "agree"
+                        id		= "zing_rules_agree_news">
+                    <label for="zing_rules_agree_news">Я прочитал <a class="skyblue zing-show-rules" href="javascript:;">правила</a> и даю свое согласие<br>на обработку персональных данных</label>
+                </div>
+                <div class="zing-submit-wrap">
+                    <input type="submit" value="OK" class="btn js-submit zing-news-submit">
+                </div>
+
+            </div>
+        </div>
+    </form>
+</div>
+
 
 <div class="zing_form_wrp" id="blabla-spec" style="display: none;height: 580px">
     <form class="zing_form" action="#" for="newslist">

@@ -361,9 +361,10 @@ $(document).ready(function() {
 	});
 	$(document).on('click', '.newsletter_form_toggler', function(a) {
 		function b() {
+			console.log(d.serialize());
 			$.ajax({
 				type: 'POST',
-				url: '/ajax/request_add_newsletter',
+				url: 'http://www.hyundai.ru/ajax/request_add_newsletter',
 				data: d.serialize(),
 				dataType: 'json',
 				success: function(a) {
