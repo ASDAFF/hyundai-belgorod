@@ -139,7 +139,7 @@ $APPLICATION->SetTitle("bodyworks");
                     </div>
                     <div class="bw-views-links">
                         <a href="#" class="bw-views-link zing_form_toggler" for="zing_hotline_btn" role="button">записаться на сервис</a>
-                        <a href="/service/parts" class="bw-views-link">оригинальные запчасти</a>
+                        <a href="/service/originalnye-zapchasti/" class="bw-views-link">оригинальные запчасти</a>
                     </div>
                 </div>
             </div>
