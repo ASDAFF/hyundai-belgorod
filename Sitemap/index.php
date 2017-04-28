@@ -16,29 +16,21 @@ $APPLICATION->SetTitle("Sitemap");
                     <div class="sitemap_menu sitemap_menu1">
                         <h2>Модельный ряд</h2>
                         <ul class="list_site">
-                            <li><a href="/NewSolaris" title="НОВЫЙ SOLARIS">НОВЫЙ SOLARIS</a></li>
-                            <li><a href="/Solaris" title="Solaris">Solaris</a></li>
-                            <li><a href="/i30" title="i30">i30</a></li>
-                            <li><a href="/Elantra" title="Elantra">Elantra</a></li>
-                            <li><a href="/i40" title="i40">i40</a></li>
-                            <li><a href="/i40-Wagon" title="i40 Универсал">i40 Универсал</a></li>
-                            <li><a href="/Creta" title="Creta">Creta</a></li>
-                            <li><a href="/Tucson" title="Tucson">Tucson</a></li>
-                            <li><a href="/SantaFe" title="Santa Fe">Santa Fe</a></li>
-                            <li><a href="/GrandSantaFe" title="Grand Santa Fe">Grand Santa Fe</a></li>
-                            <li><a href="/H1" title="H-1">H-1</a></li>
+                            <?
+                            if(CModule::IncludeModule('iblock')):
+                            $arSelect = Array("ID", "NAME", "DATE_ACTIVE_FROM","CODE");
+                            $arFilter = Array("IBLOCK_ID" => 7, "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y");
+                            $res = CIBlockElement::GetList(Array(), $arFilter, false, Array(), $arSelect);
+                            while($ob = $res->GetNextElement())
+                            {
+                                $arFields = $ob->GetFields();
+                                ?>
+                                <li><a href="/<?=$arFields['CODE']?>" title="<?=$arFields['NAME']?>"><?=$arFields['NAME']?></a></li>
+                                <?
 
-                            <!--
-                                                    <li><a href="/Solaris" title=" Hyundai Solaris">Solaris</a></li>
-                                                    <li><a href="/i30" title=" i30">i30</a></li>
-                                                    <li><a href="/Elantra" title=" Elantra">Elantra</a></li>
-                                                    <li><a href="/i40" title=" i40 Sedan">i40</a></li>
-                                                    <li><a href="/i40-Wagon" title=" i40 универсал">i40 универсал</a></li>
-                                                    <li><a href="/Tucson" title=" ">Tucson</a></li>
-                                                    <li><a href="/SantaFe" title=" ">Santa Fe</a></li>
-                                                    <li><a href="/GrandSantaFe" title=" ">Grand Santa Fe</a></li>
-                                                    <li><a href="/H1" title=" H-1">H-1</a></li>
-                            -->
+                            }
+                             endif;
+                            ?>
                         </ul>
                     </div>
 
