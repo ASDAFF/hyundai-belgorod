@@ -19,7 +19,7 @@ $APPLICATION->SetTitle("Sitemap");
                             <?
                             if(CModule::IncludeModule('iblock')):
                             $arSelect = Array("ID", "NAME","CODE");
-                            $arFilter = Array("IBLOCK_ID" => 7);
+                            $arFilter = Array("IBLOCK_ID" => 7, "ACTIVE"=>"Y");
                             $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
                             while($ob = $res->GetNextElement())
                             {
