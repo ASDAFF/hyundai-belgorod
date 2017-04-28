@@ -51,11 +51,11 @@ IncludeTemplateLangFile(__FILE__); ?>
 				Ринг Авто Липецк — <span class="footer-center-call-text-phone">7 (4742) 72-7777</span>
 			</span>
 
-            <a class="footer-center-call-right-btn zing_form_toggler" for="zing_hotline_btn">
+            <a class="footer-center-call-right-btn" onclick="PRZV.helpers.showWidget(1)" >
                 <span class="footer-center-call-right-btn-item"><i class="i-0009-phone-icon"></i> позвонить онлайн</span>
                 <span class="footer-center-call-right-btn-item"><i class="i-0009-phone-icon"></i> позвонить онлайн</span>
             </a>
-            <a class="footer-center-call-right-btn" href="#">
+            <a class="footer-center-call-right-btn zing_form_toggler" for="zing_hotline_btn" href="#">
                 <span class="footer-center-call-right-btn-item"><i class="i-0008-mail-icon"></i> обратная связь</span>
                 <span class="footer-center-call-right-btn-item"><i class="i-0008-mail-icon"></i> обратная связь</span>
             </a>
