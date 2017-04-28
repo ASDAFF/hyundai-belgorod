@@ -412,7 +412,7 @@ $APPLICATION->SetTitle("Мебельная компания");
 						</a>
 					</div>
 					<div class="site-nav-center-item">
-						<a class="site-nav-center-item-link" href="#">
+						<a class="site-nav-center-item-link zing_form_toggler_spec" for="newslist" href="#">
 							<div class="site-nav-center-item-link-item">
 								<div class="site-nav-center-item-link-item-pic"><i class="i-0011-icon-3"></i></div>
 								<div>Пройти тест-драйв</div>

@@ -171,15 +171,30 @@ IncludeTemplateLangFile(__FILE__); ?>
             <a class="closePopup  zing_close" href="javascript:;"></a>
             <p class="zing-heading">Пожалуйста, укажите Ваши контактные данные.</p>
             <p class="zing-p zing-p--note"><i class="ic-note-31"></i>Поля, отмеченные &laquo;<sup class="skyblue">*</sup>&raquo;, обязательны для заполнения.</p>
-            <div class="zing-input">
-                <input
-                    type		= "text"
-                    class		= "zing_last_name zing_txt"
-                    name		= "zing_last_name"
-                    id			= "zing_last_name"
-                    maxlength	= "50">
-                <label for="zing_last_name">марка + модель<sup class="skyblue">*</sup></label>
+            <div class="zing-select">
+
+                <select  class = "zing_last_name zing_txt"  name ="zing_last_name" id ="zing_last_name" maxlength = "50">
+                    <?
+                    if(CModule::IncludeModule('iblock')):
+                        $arSelect = Array("ID", "NAME","CODE");
+                        $arFilter = Array("IBLOCK_ID" => 7, "ACTIVE"=>"Y");
+                        $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
+                        while($ob = $res->GetNextElement())
+                        {
+                            $arFields = $ob->GetFields();
+                            ?>
+                            <option value="<?=$arFields['NAME']?>"><?=$arFields['NAME']?></option>
+                            <?
+
+                        }
+                    endif;
+                    ?>
+
+                </select>
+
+
             </div>
+
 
             <div class="zing-input">
                 <input

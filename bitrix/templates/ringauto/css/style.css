@@ -3604,6 +3604,30 @@ iframe[height="13"] {display: none;}
     -webkit-transition: border-color .15s ease-out 0s;
     transition:			border-color .15s ease-out 0s;
 }
+.zing-select {
+    position: relative;
+    margin-bottom: 20px;
+}
+.zing-select .zing_txt {
+    outline: none !important;
+    width: 100%;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #c9c9c9;
+    display: block;
+    padding: 15px 20px;
+    font-size: 15px;
+    color: #000 !important;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    -ms-transition:		border-color .15s ease-out 0s;
+    -moz-transition:	border-color .15s ease-out 0s;
+    -webkit-transition: border-color .15s ease-out 0s;
+    transition:			border-color .15s ease-out 0s;
+}
 .zing-input .zing_txt:focus {
     -ms-box-shadow: none;
     -moz-box-shadow: none;
