@@ -18,9 +18,9 @@ $APPLICATION->SetTitle("Sitemap");
                         <ul class="list_site">
                             <?
                             if(CModule::IncludeModule('iblock')):
-                            $arSelect = Array("ID", "NAME", "DATE_ACTIVE_FROM","CODE");
-                            $arFilter = Array("IBLOCK_ID" => 7, "ACTIVE"=>"Y");
-                            $res = CIBlockElement::GetList(Array(), $arFilter, false, Array(), $arSelect);
+                            $arSelect = Array("ID", "NAME","CODE");
+                            $arFilter = Array("IBLOCK_ID" => 7);
+                            $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
                             while($ob = $res->GetNextElement())
                             {
                                 $arFields = $ob->GetFields();
