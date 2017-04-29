@@ -73,4 +73,16 @@ $APPLICATION->SetTitle("utilization");
 
     </div>
 
+    <style>
+
+
+
+        .content_wrap .content_area .contents {
+            float: right;
+            width: 641px;
+            padding: 48px 0 20px;
+        }
+
+    </style>
+
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

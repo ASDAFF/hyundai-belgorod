@@ -114,4 +114,14 @@ $APPLICATION->SetTitle("service-policy");
             </div></div>
 
     </div>
+    <style>
+
+
+
+        .content_wrap .content_area .contents {
+            float: right;
+            width: 670px;
+        }
+
+    </style>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
