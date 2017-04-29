@@ -180,6 +180,10 @@ $this->setFrameMode(true);
 											Двигатель: <?=$arItem['PROPERTIES']['ENGINE']['VALUE']?><br>
 										<?endif;?>
 
+										<?if($arItem['PROPERTIES']['POWER']['VALUE']):?>
+											Мощность: <?=$arItem['PROPERTIES']['POWER']['VALUE']?><br>
+										<?endif;?>
+
 			<? foreach($arItem['PROPERTIES']['STANDART']['VALUE'] as $key => $u){?>
 							<?=$u?>
 							<?
