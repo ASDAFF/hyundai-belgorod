@@ -4176,3 +4176,10 @@ a.zingaya_button1370324828422 {
     list-style: disc!important;
     margin-left: 20px;
 }
+
+.zing-select .arrow-down {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #544f4f;
+}

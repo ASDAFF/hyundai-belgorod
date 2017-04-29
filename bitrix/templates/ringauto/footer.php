@@ -291,6 +291,7 @@ IncludeTemplateLangFile(__FILE__); ?>
                     ?>
 
                 </select>
+                <div class="arrow-down">▼</div>
 
 
             </div>
