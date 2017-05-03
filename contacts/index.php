@@ -1,57 +1,102 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Контакты");
-?>
-<p>Обратитесь к нашим специалистам и получите профессиональную консультацию по вопросам создания и покупки мебели (от дизайна, разработки технического задания до доставки мебели к Вам домой).</p>
-
-<p>Вы можете обратиться к нам по телефону, по электронной почте или договориться о встрече в нашем офисе. Будем рады помочь вам и ответить на все ваши вопросы. </p>
-
-<h2>Телефоны</h2>
-
-<ul> 
-	<li>Телефон/факс:
-		<ul> 
-			<li><b>(495) 212-85-06</b></li>
-		</ul>
-	</li>
- 
-	<li>Телефоны:
-		<ul> 
-			<li><b>(495) 212-85-07</b></li>
-			<li><b>(495) 212-85-08</b></li>
-		</ul>
-	</li>
-</ul>
-
-<h2>Email</h2>
-
-<ul> 
-  <li><a href="mailto:info@example.ru">info@example.ru</a> &mdash; общие вопросы</li>
-  <li><a href="mailto:sales@example.ru">sales@example.ru</a> &mdash; приобретение продукции</li>
-  <li><a href="mailto:marketing@example.ru">marketing@example.ru</a> &mdash; маркетинг/мероприятия/PR</li>
-</ul>
-
-<h2>Офис в Москве</h2>
-<p><?$APPLICATION->IncludeComponent("bitrix:map.google.view", ".default", array(
-	"KEY" => "ABQIAAAAOSNukcWVjXaGbDo6npRDcxS1yLxjXbTnpHav15fICwCqFS-qhhSby0EyD6rK_qL4vuBSKpeCz5cOjw",
-	"INIT_MAP_TYPE" => "NORMAL",
-	"MAP_DATA" => "a:3:{s:10:\"google_lat\";s:7:\"55.7383\";s:10:\"google_lon\";s:7:\"37.5946\";s:12:\"google_scale\";i:13;}",
-	"MAP_WIDTH" => "600",
-	"MAP_HEIGHT" => "500",
-	"CONTROLS" => array(
-		0 => "LARGE_MAP_CONTROL",
-		1 => "MINIMAP",
-		2 => "HTYPECONTROL",
-		3 => "SCALELINE",
-	),
-	"OPTIONS" => array(
-		0 => "ENABLE_SCROLL_ZOOM",
-		1 => "ENABLE_DBLCLICK_ZOOM",
-		2 => "ENABLE_DRAGGING",
-	),
-	"MAP_ID" => ""
+?><?$APPLICATION->IncludeComponent(
+	"bitrix:news", 
+	"contacts", 
+	array(
+		"ADD_ELEMENT_CHAIN" => "N",
+		"ADD_SECTIONS_CHAIN" => "Y",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"BROWSER_TITLE" => "-",
+		"CACHE_FILTER" => "N",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"CHECK_DATES" => "Y",
+		"DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",
+		"DETAIL_DISPLAY_TOP_PAGER" => "N",
+		"DETAIL_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"DETAIL_PAGER_SHOW_ALL" => "Y",
+		"DETAIL_PAGER_TEMPLATE" => "",
+		"DETAIL_PAGER_TITLE" => "Страница",
+		"DETAIL_PROPERTY_CODE" => array(
+			0 => "",
+			1 => "STRET",
+			2 => "MAP",
+			3 => "BUS",
+			4 => "WORK",
+			5 => "PHONE",
+			6 => "",
+		),
+		"DETAIL_SET_CANONICAL_URL" => "N",
+		"DISPLAY_BOTTOM_PAGER" => "Y",
+		"DISPLAY_DATE" => "Y",
+		"DISPLAY_NAME" => "Y",
+		"DISPLAY_PICTURE" => "Y",
+		"DISPLAY_PREVIEW_TEXT" => "Y",
+		"DISPLAY_TOP_PAGER" => "N",
+		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+		"IBLOCK_ID" => "20",
+		"IBLOCK_TYPE" => "altasib_feedback",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+		"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"LIST_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"LIST_PROPERTY_CODE" => array(
+			0 => "",
+			1 => "STRET",
+			2 => "MAP",
+			3 => "BUS",
+			4 => "WORK",
+			5 => "PHONE",
+			6 => "",
+		),
+		"MESSAGE_404" => "",
+		"META_DESCRIPTION" => "-",
+		"META_KEYWORDS" => "-",
+		"NEWS_COUNT" => "20",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"PAGER_DESC_NUMBERING" => "N",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "N",
+		"PAGER_SHOW_ALWAYS" => "N",
+		"PAGER_TEMPLATE" => ".default",
+		"PAGER_TITLE" => "Новости",
+		"PREVIEW_TRUNCATE_LEN" => "",
+		"SEF_MODE" => "Y",
+		"SET_LAST_MODIFIED" => "N",
+		"SET_STATUS_404" => "N",
+		"SET_TITLE" => "Y",
+		"SHOW_404" => "N",
+		"SORT_BY1" => "ACTIVE_FROM",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER1" => "DESC",
+		"SORT_ORDER2" => "ASC",
+		"USE_CATEGORIES" => "N",
+		"USE_FILTER" => "N",
+		"USE_PERMISSIONS" => "N",
+		"USE_RATING" => "N",
+		"USE_RSS" => "N",
+		"USE_SEARCH" => "N",
+		"USE_SHARE" => "N",
+		"COMPONENT_TEMPLATE" => "contacts",
+		"SEF_FOLDER" => "/contacts/",
+		"SEF_URL_TEMPLATES" => array(
+			"news" => "",
+			"section" => "",
+			"detail" => "#ELEMENT_CODE#/",
+		)
 	),
 	false
-);?></p>
-
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
