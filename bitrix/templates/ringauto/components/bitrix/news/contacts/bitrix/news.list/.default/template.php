@@ -25,7 +25,7 @@ $this->setFrameMode(true);
 				</ul>
 			</div>
 
-			<h1 class="title">Награды</h1>
+			<h1 class="title"><?=$arResult["NAME"]?></h1>
 		</div>
 
 		<div class="content_area">
