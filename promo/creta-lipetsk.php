@@ -176,7 +176,7 @@
         </div>
         <div class="col-md-5">
             <div class="box-two-two-section">
-                <h1>от 749 900 р</h1>
+                <h1>от 789 900 р</h1>
                 <p>В кредит от 7000 р /месяц</p>
                 <a href="http://configurator.hyundai.ru/price_list/Creta.pdf" target="_blank">ВСЕ ПРЕДЛОЖЕНИЯ ></a>
             </div>

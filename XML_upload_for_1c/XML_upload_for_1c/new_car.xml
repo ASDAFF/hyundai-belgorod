@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
+		<Date>29.04.2017</Date>
+		<Time>10:20:42</Time>
+	</Export>
+	<ContractList>
+		<Contract>
+			<VIN>KMHDG41CBCU282551</VIN>
+			<BrandId>Hyundai</BrandId>
+			<ModelId>Elantra NEW</ModelId>
+			<IsNew>yes</IsNew>
+			<EngineVolume/>
+			<EnginePower/>
+			<FuelConsumption/>
+			<EngineTypeId/>
+			<TransmissionTypeId/>
+			<TransmissionCount/>
+			<Color>белый</Color>
+			<ColorOrig>белый</ColorOrig>
+			<SpecName>SDS4D261FDG932</SpecName>
+			<SpecId>ЦБ000386</SpecId>
+			<Description/>
+			<Options>
+				<Summ>63 120</Summ>
+				<OptionsList>
+					<Option>СИРЕНА  ALFA пр. 20W</Option>
+					<Option>ДОРОЖНЫЙ НАБОР HYUNDAI (ЛЮКС) С НАБОРОМ ПЕРВОЙ ПОМОЩИ</Option>
+					<Option>Автошина 205/55 R16  NORDMAN 4  ШИП</Option>
+					<Option>НАБОР ДЛЯ УСТАНОВКИ  ДОПОБОРУДОВАНИЯ</Option>
+					<Option>НАБОР ДЛЯ ШИНОМОНТАЖА</Option>
+					<Option>КОВРИК БАГАЖНОГО ОТСЕКА ELANTRA 2012</Option>
+					<Option>КОВРИК САЛОНА ПОЛИУРЕТАНОВЫЙ, КОМПЛЕКТ, 4ШТ. ELANTRA</Option>
+					<Option>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ, СТАЛЬНАЯ ELANTRA 2011(NEW)</Option>
+					<Option>СИГНАЛИЗАЦИЯ StarLine Twage A61 Diallog</Option>
+					<Option>Шумоизоляционный материал Вибропласт Gold</Option>
+					<Option>Шумоизоляционный материал Сплэн 3008</Option>
+					<Option>Dinitrol  479(5л)  антикор.материал для днища</Option>
+					<Option>Cнятие и установка металлической защиты картера двигателя</Option>
+					<Option>Сигнализация с обратной связью</Option>
+					<Option>Шиномонтаж 4-х колес 16``  </Option>
+					<Option>Шиномонтаж ОДНОГО колес 16``</Option>
+					<Option>Проклейка подкрылок шумоизоляционным материалом</Option>
+					<Option>Антикоррозийная обработка днища</Option>
+					<Option>Шиномонтаж 4-х колес 15``  </Option>
+				</OptionsList>
+			</Options>
+			<StandartSpecs>
+				<Specs/>
+			</StandartSpecs>
+			<Price>63 120</Price>
+			<PriceDiscount>63 120</PriceDiscount>
+			<Discount>0</Discount>
+			<FileList/>
+		</Contract>
+		<Contract>
+			<VIN>Z94CU41DBBR004388</VIN>
+			<BrandId>Hyundai</BrandId>
+			<ModelId>Solaris</ModelId>
+			<IsNew>yes</IsNew>
+			<EngineVolume/>
+			<EnginePower/>
+			<FuelConsumption/>
+			<EngineTypeId/>
+			<TransmissionTypeId/>
+			<TransmissionCount/>
+			<Color>бежево-серый</Color>
+			<ColorOrig>бежево-серый</ColorOrig>
+			<SpecName>Family 1.6 AT</SpecName>
+			<SpecId>ЦБ000196</SpecId>
+			<Description/>
+			<Options>
+				<Summ>0</Summ>
+				<OptionsList/>
+			</Options>
+			<StandartSpecs>
+				<Specs/>
+			</StandartSpecs>
+			<Price>0</Price>
+			<PriceDiscount>0</PriceDiscount>
+			<Discount>0</Discount>
+			<FileList/>
+		</Contract>
+	</ContractList>
+</Root>
