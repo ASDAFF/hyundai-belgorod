@@ -66,7 +66,7 @@ $this->setFrameMode(true);
 						<img src="<?=CFile::GetPath($arItem)?>" class="view-image">
 						<div class="view-inner">
 							<div class="view-text">
-								<?echo $arResult['PROPERTIES']["SLIDER"]['DESCRIPTION'][$key];?>
+								<?echo $arResult['PROPERTIES']["DESCRIPTION_SLIDER"]['VALUE'][$key];?>
 							</div>
 						</div>
 					</li>
