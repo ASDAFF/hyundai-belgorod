@@ -17,6 +17,89 @@ $APPLICATION->SetTitle("all-offers");
 
             <!-- just offers ok let's go -->
             <div class="offers_divider__content__offers-grid-section clearfix">
+                <?
+                if(CModule::IncludeModule("iblock")) {
+                    $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PREVIEW_PICTURE", "CODE", "PROPERTY_ENABLE_SPEC");
+                    $arFilter = Array("IBLOCK_ID" => 5, "ACTIVE" => "Y");
+                    $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
+                    while ($ob = $res->GetNextElement()) {
+                        $arFields = $ob->GetFields();
+                        $arProps = $ob->GetProperties();
+                        if($arProps['ENABLE_SPEC']['VALUE'] == 'Y'){
+                            ?>
+                            <div class="insection-offer-unit">
+                                <a href="<?= $arFields['CODE'] ?>" class="insection-offer-unit__link">
+                                    <img src="<?= CFile::GetPath($arFields['PREVIEW_PICTURE']); ?>" alt=""
+                                         class="insection-offer-unit__back-img">
+
+                                    <div class="insection-offer-unit__info">
+                                        <span class="name"><?= $arFields['NAME'] ?></span>
+                                        <span class="addinfo"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <?
+                        }
+                    }
+                }
+                ?>
+
+                <?
+                if(CModule::IncludeModule("iblock")) {
+                    $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PREVIEW_PICTURE", "CODE", "PROPERTY_ENABLE_SPEC");
+                    $arFilter = Array("IBLOCK_ID" => 10, "ACTIVE" => "Y");
+                    $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
+                    while ($ob = $res->GetNextElement()) {
+                        $arFields = $ob->GetFields();
+                        $arProps = $ob->GetProperties();
+                        if($arProps['ENABLE_SPEC']['VALUE'] == 'Y'){
+                            ?>
+                            <div class="insection-offer-unit">
+                                <a href="<?= $arFields['CODE'] ?>" class="insection-offer-unit__link">
+                                    <img src="<?= CFile::GetPath($arFields['PREVIEW_PICTURE']); ?>" alt=""
+                                         class="insection-offer-unit__back-img">
+
+                                    <div class="insection-offer-unit__info">
+                                        <span class="name"><?= $arFields['NAME'] ?></span>
+                                        <span class="addinfo"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <?
+                        }
+                    }
+                }
+                ?>
+
+                <?
+                if(CModule::IncludeModule("iblock")) {
+                    $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PREVIEW_PICTURE", "CODE", "PROPERTY_ENABLE_SPEC");
+                    $arFilter = Array("IBLOCK_ID" => 11, "SECTION_ID" => 16, "ACTIVE" => "Y");
+                    $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
+                    while ($ob = $res->GetNextElement()) {
+                        $arFields = $ob->GetFields();
+                        $arProps = $ob->GetProperties();
+                        if($arProps['ENABLE_SPEC']['VALUE'] == 'Y'){
+                            ?>
+                            <div class="insection-offer-unit">
+                                <a href="<?= $arFields['CODE'] ?>" class="insection-offer-unit__link">
+                                    <img src="<?= CFile::GetPath($arFields['PREVIEW_PICTURE']); ?>" alt=""
+                                         class="insection-offer-unit__back-img">
+
+                                    <div class="insection-offer-unit__info">
+                                        <span class="name"><?= $arFields['NAME'] ?></span>
+                                        <span class="addinfo"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <?
+                        }
+                    }
+                }
+                ?>
+
+
+
 
                 <div class="insection-offer-unit">
                     <a href="http://hyundai-ringauto.ru/promo/solaris-special-offer/" class="insection-offer-unit__link">
@@ -88,47 +171,7 @@ $APPLICATION->SetTitle("all-offers");
                     </a>
                 </div>
 
-<!--
-                <div class="insection-offer-unit">
-                    <a href="/promo/special_offer_all_cars" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/215c298beaa8b6f3e5894d29675d0588_Kredit.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Кредит без КАСКО!</span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
 
-                <div class="insection-offer-unit">
-                    <a href="https://hpromise.hyundai.ru/trade-in/" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/69e5172855dfa06ff2aa57e2777253c9_SantaFe_programma.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Программа лояльности Hyundai</span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="insection-offer-unit">
-                    <a href="/promo/solaris_credit_offer" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/d0509115c7c4aff6601d7c729a4c10e3_Solaris_kredit.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Hyundai Solaris.<br>Кредит от 6.7%</span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="insection-offer-unit">
-                    <a href="/promo/i40_offer" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/c57f7977eef188f54edca3d10853670f_I40.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Hyundai i40.<br>Кредит от 7.7%</span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
--->
             </div>
             <!-- service stuff next -->
             <!-- not fully offers -->
