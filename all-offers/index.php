@@ -19,7 +19,7 @@ $APPLICATION->SetTitle("all-offers");
             <div class="offers_divider__content__offers-grid-section clearfix">
                 <?
                 if(CModule::IncludeModule("iblock")) {
-                    $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PREVIEW_PICTURE", "CODE", "PROPERTY_ENABLE_SPEC");
+                    $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DETAIL_PICTURE", "CODE", "PROPERTY_ENABLE_SPEC");
                     $arFilter = Array("IBLOCK_ID" => 5, "ACTIVE" => "Y");
                     $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
                     while ($ob = $res->GetNextElement()) {
@@ -29,7 +29,7 @@ $APPLICATION->SetTitle("all-offers");
                             ?>
                             <div class="insection-offer-unit">
                                 <a href="<?= $arFields['CODE'] ?>" class="insection-offer-unit__link">
-                                    <img src="<?= CFile::GetPath($arFields['PREVIEW_PICTURE']); ?>" alt=""
+                                    <img src="<?= CFile::GetPath($arFields['DETAIL_PICTURE']); ?>" alt=""
                                          class="insection-offer-unit__back-img">
 
                                     <div class="insection-offer-unit__info">
@@ -46,7 +46,7 @@ $APPLICATION->SetTitle("all-offers");
 
                 <?
                 if(CModule::IncludeModule("iblock")) {
-                    $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PREVIEW_PICTURE", "CODE", "PROPERTY_ENABLE_SPEC");
+                    $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DETAIL_PICTURE", "CODE", "PROPERTY_ENABLE_SPEC");
                     $arFilter = Array("IBLOCK_ID" => 10, "ACTIVE" => "Y");
                     $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
                     while ($ob = $res->GetNextElement()) {
@@ -56,7 +56,7 @@ $APPLICATION->SetTitle("all-offers");
                             ?>
                             <div class="insection-offer-unit">
                                 <a href="<?= $arFields['CODE'] ?>" class="insection-offer-unit__link">
-                                    <img src="<?= CFile::GetPath($arFields['PREVIEW_PICTURE']); ?>" alt=""
+                                    <img src="<?= CFile::GetPath($arFields['DETAIL_PICTURE']); ?>" alt=""
                                          class="insection-offer-unit__back-img">
 
                                     <div class="insection-offer-unit__info">
