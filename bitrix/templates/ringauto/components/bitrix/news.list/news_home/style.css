@@ -27,6 +27,7 @@ div.news-list img.preview_picture
 	margin: 60px 0 60px;
 	text-transform: uppercase;
 	text-align: center;
+	display: block;
 }
 
 .content-wrap .title-lev01:before {

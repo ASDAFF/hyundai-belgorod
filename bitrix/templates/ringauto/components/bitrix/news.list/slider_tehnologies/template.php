@@ -17,7 +17,7 @@ $this->setFrameMode(true);
 <div class="technologies">
 
 	<div class="technologies-controls">
-		<div class="news-center-head news-center-head--mb"><h3>Технологии</h3></div>
+		<div class="news-center-head news-center-head--mb"><span>Технологии</span></div>
 		<div  id="technologies-controls" class="technologies-item-content-center-right-tabs-menu clearfix">
 			<?foreach($arResult["ITEMS"] as $arItem):?>
 			<span class="technologies-item-content-center-right-tabs-menu-item active"><?echo $arItem["NAME"];?></span>

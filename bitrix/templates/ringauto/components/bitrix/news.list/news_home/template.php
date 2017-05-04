@@ -16,9 +16,9 @@ $this->setFrameMode(true);
 <div class="news">
 
 	<div class="content-wrap">
-		<h1 class="title-lev01">
+		<span class="title-lev01">
 			<?=$arResult['NAME'];?>
-		</h1>
+		</span>
 
 		<ul class="news-list-lg">
 			<li class="news-item">

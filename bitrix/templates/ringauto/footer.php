@@ -220,7 +220,7 @@ IncludeTemplateLangFile(__FILE__); ?>
 
             <div class="zing-agreement-popup-wrapper" style="display: none;">
                 <div class="zing-agreement-popup">
-                    <h2 class="zing-agreement-header">Правила обработки<br>персональных данных</h2>
+                    <span class="zing-agreement-header">Правила обработки<br>персональных данных</span>
                     <div class="zing-agreement-text">
                         <p class="zing-agreement-text__col">
                             Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.09 <strong>№152-ФЗ</strong> «О персональных данных» даю свое согласие лично, своей волей и в своем интересе
@@ -337,7 +337,7 @@ IncludeTemplateLangFile(__FILE__); ?>
 
             <div class="zing-agreement-popup-wrapper" style="display: none;">
                 <div class="zing-agreement-popup">
-                    <h2 class="zing-agreement-header">Правила обработки<br>персональных данных</h2>
+                    <span class="zing-agreement-header">Правила обработки<br>персональных данных</span>
                     <div class="zing-agreement-text">
                         <p class="zing-agreement-text__col">
                             Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.09 <strong>№152-ФЗ</strong> «О персональных данных» даю свое согласие лично, своей волей и в своем интересе
@@ -490,7 +490,7 @@ IncludeTemplateLangFile(__FILE__); ?>
 
             <div class="zing-agreement-popup-wrapper" style="display: none;">
                 <div class="zing-agreement-popup">
-                    <h2 class="zing-agreement-header">Правила обработки<br>персональных данных</h2>
+                    <span class="zing-agreement-header">Правила обработки<br>персональных данных</span>
                     <div class="zing-agreement-text">
                         <p class="zing-agreement-text__col">
                             Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.09 <strong>№152-ФЗ</strong> «О персональных данных» даю свое согласие лично, своей волей и в своем интересе
@@ -530,7 +530,7 @@ IncludeTemplateLangFile(__FILE__); ?>
 
 <div class="message-send" style="display: none">
     <div class="zing-agreement-popup" style="padding: 80px 55px;width: 500px;height: 200px;top:50%">
-        <h2 class="zing-agreement-header">Сообщение отправлено!</h2>
+        <span class="zing-agreement-header">Сообщение отправлено!</span>
         <div class="zing-agreement-close">×</div>
     </div>
 </div>

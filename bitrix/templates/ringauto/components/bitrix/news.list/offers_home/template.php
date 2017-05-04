@@ -22,7 +22,7 @@ $this->setFrameMode(true);
 
 	<div class="news-line"></div>
 	<div class="news-center no-padding clearfix">
-		<h1 class="h1-offer"><?=$arResult['NAME']?></h1>
+		<span class="h1-offer"><?=$arResult['NAME']?></span>
 	</div>
 	<div class="news-line mt14"></div>
 
