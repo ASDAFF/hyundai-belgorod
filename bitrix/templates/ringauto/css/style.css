@@ -4184,3 +4184,5 @@ a.zingaya_button1370324828422 {
     right: 15px;
     color: #544f4f;
 }
+
+@keyframes Gradient{0%{background-position:9% 0%}50%{background-position:92% 100%}100%{background-position:9% 0%}}

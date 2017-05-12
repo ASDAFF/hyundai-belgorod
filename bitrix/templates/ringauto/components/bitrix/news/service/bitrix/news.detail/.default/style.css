@@ -223,6 +223,12 @@ div.news-list img.preview_picture
 	width: 16.5%;
 	cursor: pointer;
 }
+.service-menu li:last-child{
+	background: linear-gradient(141deg, #1D88CD, #1D88CD, #1D88CD, #b1d6ed, #1D88CD, #1D88CD, #1D88CD);
+	background-size: 1000% 1000%;
+	animation: Gradient 6s ease infinite;
+}
+
 
 .service-menu li:hover{
 	background: #489DD5;
