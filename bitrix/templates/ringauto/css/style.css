@@ -900,6 +900,7 @@ textarea.input-text{
     margin-right: 0px;
 }
 .header-center-right-btn{
+    margin-top: 2px;
     display: inline-block;
     text-decoration: none;
     color: #1d88cd;
@@ -907,7 +908,6 @@ textarea.input-text{
     font-family: 'Arial Black', Arial, sans-serif;
     height: 30px;
     overflow: hidden;
-    margin-left: 13px;
     opacity: 1;
       -webkit-transition: opacity 0.2s ease-out;
     -moz-transition: opacity 0.2s ease-out;
@@ -941,11 +941,12 @@ textarea.input-text{
 }
 
 
-.header-center-left{
+.header-center-right{
     color: #a6a6a6;
     font-size: 14px;
     padding: 0 0;
     font-family: "HyundaiSans",sans-serif;
+    margin: 5px 0px;
 }
 .header-center-left-btn{
      display: inline-block;

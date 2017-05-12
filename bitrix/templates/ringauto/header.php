@@ -50,16 +50,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div id="wrapper">
 	<header id="header">
+
 		<div class="header-center clearfix">
 			<div class="header-center-right">
-				<!--<a class="header-center-right-btn" href="/configurator">
-					<i class="i-0030-auto-icon"></i> Конфигуратор
-				</a> -->
-			</div>
-			<div class="header-center-left">
 				г. Воронеж, ул. Изыскателей, 39, корп. 2 — <b>+7 473 261-7777</b>
 				<span class="header-center-left-sep">|</span>
 				г. Липецк, ул. 50 лет НЛМК, 24 — <b>+7 4742 72-7777</b>
+			</div>
+			<div class="header-center-left">
+				<a class="header-center-right-btn" href="/offer">
+					<i class="i-spec-offers-icon"></i> Cпецпредложения
+				</a>
 			</div>
 		</div>
 
