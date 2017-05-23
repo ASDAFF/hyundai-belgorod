@@ -19,7 +19,7 @@ if(CModule::IncludeModule("iblock")):
     }
 
 
-$xml = file_get_contents('/XML_upload_for_1c/new_car.xml',true);
+$xml = file_get_contents('http://hyundai-ringauto.ru/XML_upload_for_1c/new_car.xml',true);
 $xml = new SimpleXMLElement($xml);
 foreach($xml->ContractList->Contract as $cont){
 
