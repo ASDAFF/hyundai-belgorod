@@ -19,12 +19,10 @@ if(CModule::IncludeModule("iblock")):
     }
 
 
-<<<<<<< HEAD
-$xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/new_car.xml',true);
 
-=======
 $xml = file_get_contents('http://hyundai-ringauto.ru/XML_upload_for_1c/new_car.xml',true);
->>>>>>> 4e9809cf4b1683d5af4991b68492d17c95545825
+
+
 $xml = new SimpleXMLElement($xml);
 foreach($xml->ContractList->Contract as $cont){
 
