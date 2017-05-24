@@ -86,7 +86,7 @@ $this->setFrameMode(true);
 						<td><?=$arResult['PROPERTIES']['TRANSMISS']['VALUE']?></td>
 					</tr>
 					<tr>
-						<td>Тип двигателя</td>
+						<td>Тип топлива</td>
 						<td><?=$arResult['PROPERTIES']['FUEL_TYPE']['VALUE']?></td>
 					</tr>
 					<tr>
