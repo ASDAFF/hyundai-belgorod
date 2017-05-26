@@ -162,7 +162,7 @@ $this->setFrameMode(true);
 											<span class="car-list_cell-inner">
 												<i class="car-list__img-holder">
 													<a class="car-list__img-link fancycarframe" href="<?=$arItem['DETAIL_PAGE_URL']?>">
-														<img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" alt="">
+														<img src="<?=$arItem['PROPERTIES']['SLIDER']['VALUE'][0]?>" alt="">
 													</a>
 												</i>
 
