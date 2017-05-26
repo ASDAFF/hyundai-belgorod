@@ -97,7 +97,7 @@ IncludeTemplateLangFile(__FILE__); ?>
     </div>
 </footer><!--footer-->
 
-<div class="zing_form_wrp" id="newsletter">
+<div class="zing_form_wrp" id="newsletter" style="display: none">
     <form class="js-newsletter_form newsletter_form zing_form" action="/ajax/request_add_newsletter" for="newsletter_hotline_btn">
         <div class="zing_form_content">
             <a class="closePopup zing_close" href="javascript:;"></a>
@@ -535,7 +535,7 @@ IncludeTemplateLangFile(__FILE__); ?>
     </div>
 </div>
 
-<div id="brochure_go_check_email" class="brochure_go_check_email">
+<div id="brochure_go_check_email" class="brochure_go_check_email" style="display: none">
     <div class="brochure_go_check_email-content">
         <div class="go_check_close">×</div>
         <p>На электронный адрес</p>
