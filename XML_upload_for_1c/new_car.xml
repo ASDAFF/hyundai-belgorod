@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>23.05.2017</Date>
-		<Time>21:34:18</Time>
+		<Date>24.05.2017</Date>
+		<Time>21:34:20</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -22,6 +22,8 @@
 			<SpecName>Comfort 1,6 6МТ(123 л.с)</SpecName>
 			<SpecId>H5S4D2617DD142</SpecId>
 			<Description/>
+			<OLD_PRICE>769 900</OLD_PRICE>
+			<NEW_PRICE>649 104</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -77,9 +79,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>120 796</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -99,6 +99,8 @@
 			<SpecName>Comfort 2.0 4 WD  6AT</SpecName>
 			<SpecId>D7W52G61GGGEP7</SpecId>
 			<Description/>
+			<OLD_PRICE>1 613 000</OLD_PRICE>
+			<NEW_PRICE>1 573 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -153,9 +155,7 @@
 				<value>Система мониторинга давления в шинах</value>
 				<value>Легкосплавные диски 17" с шинами 225/60 R17</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>40 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -175,12 +175,12 @@
 			<SpecName>Comfort+Расширенный+Зимний+Безопасность1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>DRS4D2617DD128</SpecId>
 			<Description/>
+			<OLD_PRICE>835 300</OLD_PRICE>
+			<NEW_PRICE>782 688</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>52 612</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -200,6 +200,8 @@
 			<SpecName>COMFORT 2.0 6МT (149 л.с.)</SpecName>
 			<SpecId>F2S42G617GGAM1</SpecId>
 			<Description/>
+			<OLD_PRICE>1 174 900</OLD_PRICE>
+			<NEW_PRICE>1 134 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -278,9 +280,7 @@
 				<value>Воздуховоды для задних пассажиров в центральной консоли</value>
 				<value>Регулировка сиденья пассажира по высоте</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>40 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -300,6 +300,8 @@
 			<SpecName>Elegance 1,6 6МТ( 123 л.с.)</SpecName>
 			<SpecId>H5S4D2617GG103</SpecId>
 			<Description/>
+			<OLD_PRICE>859 900</OLD_PRICE>
+			<NEW_PRICE>769 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -368,9 +370,7 @@
 				<value>Светодиодные  ходовые огни</value>
 				<value>Задние дисковые тормоза</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -390,12 +390,12 @@
 			<SpecName>Comfort+Расширенный+Зимний1,6 6АТ (123л.с.)</SpecName>
 			<SpecId>H5S4D261FDD145</SpecId>
 			<Description/>
+			<OLD_PRICE>879 900</OLD_PRICE>
+			<NEW_PRICE>789 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -415,6 +415,8 @@
 			<SpecName>Comfort+Зимний1,6 6АТ (123л.с.)</SpecName>
 			<SpecId>H5S4D261FDD144</SpecId>
 			<Description/>
+			<OLD_PRICE>849 900</OLD_PRICE>
+			<NEW_PRICE>759 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -476,9 +478,7 @@
 				<value>Подогрев форсунок стеклоомывателя</value>
 				<value>Подогрев задних сидений</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -498,6 +498,8 @@
 			<SpecName>COMFORT 1,4 AT</SpecName>
 			<SpecId>ЦБ000664</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>9 329,74</OPTION_SUMM>
 			<OPTION_EQU>
 				<value>ЗАЩИТА КАРТЕРА , СТАЛЬНАЯ (SOLARIS)</value>
@@ -507,8 +509,6 @@
 				<value>Установка защиты картера</value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>9 329,74</OLD_PRICE>
-			<NEW_PRICE>9 329,74</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -529,6 +529,8 @@
 			<SpecName>Comfort 2.0 4 WD  6AT</SpecName>
 			<SpecId>D7W52G61GGGEP7</SpecId>
 			<Description/>
+			<OLD_PRICE>1 613 000</OLD_PRICE>
+			<NEW_PRICE>1 462 350</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -583,9 +585,7 @@
 				<value>Система мониторинга давления в шинах</value>
 				<value>Легкосплавные диски 17" с шинами 225/60 R17</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>150 650</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -605,6 +605,8 @@
 			<SpecName>Optima 1.6 MT</SpecName>
 			<SpecId>ЦБ000188</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>34 749</OPTION_SUMM>
 			<OPTION_EQU>
 				<value>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ (СТАЛЬНАЯ) SOLARIS RIVA</value>
@@ -619,8 +621,6 @@
 				<value>Исполнительный механизм</value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>34 749</OLD_PRICE>
-			<NEW_PRICE>34 749</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -641,6 +641,8 @@
 			<SpecName>Comfort+ Безопасность1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>DRS4D2617DD123</SpecId>
 			<Description/>
+			<OLD_PRICE>794 900</OLD_PRICE>
+			<NEW_PRICE>703 904</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -691,9 +693,7 @@
 				<value>Зеркала с электроприводом и обогревом</value>
 				<value>Задние дисковые тормоза</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 996</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -713,6 +713,8 @@
 			<SpecName>Comfort 1,6 6АТ(123 л.с)</SpecName>
 			<SpecId>H5S4D261FDD142</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -768,8 +770,6 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -790,6 +790,8 @@
 			<SpecName>Elegance1,6 6МT(123л.с.)</SpecName>
 			<SpecId>DRS4D2617GG312</SpecId>
 			<Description/>
+			<OLD_PRICE>821 400</OLD_PRICE>
+			<NEW_PRICE>769 344</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -849,9 +851,7 @@
 				<value>Задние дисковые тормоза</value>
 				<value>Крышка багажника с хромированными элементами</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>52 056</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -871,6 +871,8 @@
 			<SpecName>BASE 1.6 6МТ(128л.с)</SpecName>
 			<SpecId>F2S4D2617DD894</SpecId>
 			<Description/>
+			<OLD_PRICE>1 030 000</OLD_PRICE>
+			<NEW_PRICE>990 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -928,9 +930,7 @@
 				<value>Кожаная отделка руля и рукоятки коробки передач</value>
 				<value>Шумоизоляция капота</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>40 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -950,6 +950,8 @@
 			<SpecName>Comfort+ Безопасность1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>DRS4D2617DD123</SpecId>
 			<Description/>
+			<OLD_PRICE>794 900</OLD_PRICE>
+			<NEW_PRICE>703 904</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -1000,9 +1002,7 @@
 				<value>Зеркала с электроприводом и обогревом</value>
 				<value>Задние дисковые тормоза</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 996</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -1022,6 +1022,8 @@
 			<SpecName>SDS4N361FGI125</SpecName>
 			<SpecId>ЦБ000518</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>8 100</OPTION_SUMM>
 			<OPTION_EQU>
 				<value>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ, СТАЛЬНАЯ ELANTRA 2011(NEW)</value>
@@ -1030,8 +1032,6 @@
 				<value>Установка защиты картера</value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>8 100</OLD_PRICE>
-			<NEW_PRICE>8 100</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -1052,6 +1052,8 @@
 			<SpecName>Comfort+ Расширенный 1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>H5S4D2617DD143</SpecId>
 			<Description/>
+			<OLD_PRICE>799 900</OLD_PRICE>
+			<NEW_PRICE>677 904</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -1110,9 +1112,7 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>121 996</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -1132,6 +1132,8 @@
 			<SpecName>Comfort 2,0D 4WD  6АТ</SpecName>
 			<SpecId>D7W52EC5GGGEP7</SpecId>
 			<Description/>
+			<OLD_PRICE>1 815 000</OLD_PRICE>
+			<NEW_PRICE>1 654 250</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -1186,9 +1188,7 @@
 				<value>Система мониторинга давления в шинах</value>
 				<value>Легкосплавные диски 17" с шинами 225/60 R17</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>160 750</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -1208,6 +1208,8 @@
 			<SpecName>High -Tech 2,2D 6АТ(200л.с.)</SpecName>
 			<SpecId>B8WC2FC5GGG587</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -1290,8 +1292,6 @@
 				<value>Навигация Navteq** (сенсорный дисплей 8", MP3, FM/AM+ премиум звук Infinity: 10</value>
 				<value>Электропривод двери багажника с автоматическим открыванием</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -1312,6 +1312,8 @@
 			<SpecName>Comfort 1.4 AT</SpecName>
 			<SpecId>ЦБ000193</SpecId>
 			<Description/>
+			<OLD_PRICE>584 900</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>6 650</OPTION_SUMM>
 			<OPTION_EQU>
 				<value>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ (СТАЛЬНАЯ) SOLARIS RIVA</value>
@@ -1319,9 +1321,7 @@
 				<value>Установка защиты картера</value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>6 650</OLD_PRICE>
-			<NEW_PRICE>6 650</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>584 900</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -1341,6 +1341,8 @@
 			<SpecName>Elegance+Престиж+Стиль 1,6 6МТ( 123 л.с.)</SpecName>
 			<SpecId>H5S4D2617GG106</SpecId>
 			<Description/>
+			<OLD_PRICE>935 900</OLD_PRICE>
+			<NEW_PRICE>808 464</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -1417,9 +1419,7 @@
 				<value>Отделка хромом наружных дверных ручек</value>
 				<value>Светодиодные задние фонари</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>127 436</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -1439,6 +1439,8 @@
 			<SpecName>Elegance1,6 6МT(123л.с.)</SpecName>
 			<SpecId>DRS4D2617GG312</SpecId>
 			<Description/>
+			<OLD_PRICE>821 400</OLD_PRICE>
+			<NEW_PRICE>729 344</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -1498,9 +1500,7 @@
 				<value>Задние дисковые тормоза</value>
 				<value>Крышка багажника с хромированными элементами</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>92 056</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -1520,6 +1520,8 @@
 			<SpecName>Comfort+ Специальный1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>DRS4D2617DD130</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>18 250</OPTION_SUMM>
 			<OPTION_EQU>
 				<value>СИГНАЛИЗАЦИЯ STARLINE A36</value>
@@ -1576,8 +1578,6 @@
 				<value>Зеркала с электроприводом и обогревом</value>
 				<value>Фары проекционного типа с задержкой отключения и функцией "приветствия"</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>18 250</OLD_PRICE>
-			<NEW_PRICE>18 250</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -1598,6 +1598,8 @@
 			<SpecName>Comfort+ Расширенный 1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>H5S4D2617DD143</SpecId>
 			<Description/>
+			<OLD_PRICE>799 900</OLD_PRICE>
+			<NEW_PRICE>709 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -1656,9 +1658,7 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -1678,6 +1678,8 @@
 			<SpecName>Comfort+Зимний1,6 6АТ (123л.с.)</SpecName>
 			<SpecId>H5S4D261FDD144</SpecId>
 			<Description/>
+			<OLD_PRICE>849 900</OLD_PRICE>
+			<NEW_PRICE>759 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -1739,9 +1741,7 @@
 				<value>Подогрев форсунок стеклоомывателя</value>
 				<value>Подогрев задних сидений</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -1761,6 +1761,8 @@
 			<SpecName>Elegance1,6 6МT(123л.с.)</SpecName>
 			<SpecId>DRS4D2617GG312</SpecId>
 			<Description/>
+			<OLD_PRICE>821 400</OLD_PRICE>
+			<NEW_PRICE>769 344</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -1820,9 +1822,7 @@
 				<value>Задние дисковые тормоза</value>
 				<value>Крышка багажника с хромированными элементами</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>52 056</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -1842,6 +1842,8 @@
 			<SpecName>Limited Edition 2,2D AT(200 л.с.)</SpecName>
 			<SpecId>DMW52FC5GGGBN6</SpecId>
 			<Description/>
+			<OLD_PRICE>2 264 000</OLD_PRICE>
+			<NEW_PRICE>2 014 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -1905,9 +1907,7 @@
 				<value>Передние датчики парковки</value>
 				<value>Рейлинги на крыше</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>250 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -1927,6 +1927,8 @@
 			<SpecName>Active Plus 1,6 6MТ (123 л.с.)</SpecName>
 			<SpecId>H5S4D2617DD141</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -1971,8 +1973,6 @@
 				<value>Зеркала с электроприводом и обогревом</value>
 				<value>Аудиосистема, радио</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -1993,6 +1993,8 @@
 			<SpecName>COMFORT+ADVANCED 1.6 2WD 6MT</SpecName>
 			<SpecId>CTW5D2617DD084</SpecId>
 			<Description/>
+			<OLD_PRICE>1 069 900</OLD_PRICE>
+			<NEW_PRICE>1 004 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -2052,9 +2054,7 @@
 				<value>VSM (система управления стабилизацией)</value>
 				<value>Электропривод и подогрев наружных зеркал</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>65 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -2074,12 +2074,12 @@
 			<SpecName>SUPER SERIES-IV 1,6 МТ</SpecName>
 			<SpecId>ЦБ001021</SpecId>
 			<Description/>
+			<OLD_PRICE>845 000</OLD_PRICE>
+			<NEW_PRICE>752 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>93 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -2099,6 +2099,8 @@
 			<SpecName>Comfort+ Расширенный 1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>H5S4D2617DD143</SpecId>
 			<Description/>
+			<OLD_PRICE>799 900</OLD_PRICE>
+			<NEW_PRICE>709 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -2157,9 +2159,7 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -2179,6 +2179,8 @@
 			<SpecName>Advance 3.0(249 л.с.)</SpecName>
 			<SpecId>B1S4J7A1KGG105</SpecId>
 			<Description/>
+			<OLD_PRICE>2 659 000</OLD_PRICE>
+			<NEW_PRICE>2 322 870</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -2245,9 +2247,7 @@
 				<value>Легкосплавные диски 18" с шинами 245/45 R18</value>
 				<value>Отделка потолка, солнцезащитных козырьков и передних стоек замшей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>336 130</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -2267,6 +2267,8 @@
 			<SpecName>High -Tech 2,2D 6АТ (200л.с.)</SpecName>
 			<SpecId>B8WC2FC5GGG745</SpecId>
 			<Description/>
+			<OLD_PRICE>2 754 000</OLD_PRICE>
+			<NEW_PRICE>2 694 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -2349,9 +2351,7 @@
 				<value>Система автоматической парковки и передние датчики парковки</value>
 				<value>Легкосплавные диски 19" с шинами 235/55 R19</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>60 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -2371,6 +2371,8 @@
 			<SpecName>Comfort 2.0 4 WD  6AT</SpecName>
 			<SpecId>D7W52G61GGGEP7</SpecId>
 			<Description/>
+			<OLD_PRICE>1 625 000</OLD_PRICE>
+			<NEW_PRICE>1 473 750</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -2425,44 +2427,7 @@
 				<value>Система мониторинга давления в шинах</value>
 				<value>Легкосплавные диски 17" с шинами 225/60 R17</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>TMAJU81EDEJ557263</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>ix35</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY/>
-			<POWER/>
-			<fuel_consumption/>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount/>
-			<Color>серый</Color>
-			<ColorCode>ZAR</ColorCode>
-			<ColorOrig>серый</ColorOrig>
-			<SpecName>ITW52G61GGJ609</SpecName>
-			<SpecId>ЦБ000606</SpecId>
-			<Description/>
-			<OPTION_SUMM>50 859</OPTION_SUMM>
-			<OPTION_EQU>
-				<value>ЗАЩИТА КАРТЕРА С КОМПЛЕКТОМ КРЕПЕЖА</value>
-				<value>КОВРИКИ САЛОНА IX-35 (АНАЛОГИ 2YF13AQ000)</value>
-				<value>КОВРИК БАГАЖНОГО ОТСЕКА ix35</value>
-				<value>СИГНАЛИЗАЦИЯ SCHER-KHАN LOGICAR 2,BP-2</value>
-				<value>НАБОР ДЛЯ УСТАНОВКИ  ДОПОБОРУДОВАНИЯ</value>
-				<value>БОКОВЫЕ ПОДНОЖКИ (BMW X5 STYLE)</value>
-				<value>Установка защиты картера</value>
-				<value>Сигнализация с обратной связью</value>
-				<value>Пороги</value>
-			</OPTION_EQU>
-			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>50 859</OLD_PRICE>
-			<NEW_PRICE>50 859</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>151 250</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -2482,12 +2447,12 @@
 			<SpecName>Comfort+Расширенный+Зимний1,6 6АТ (123л.с.)</SpecName>
 			<SpecId>H5S4D261FDD145</SpecId>
 			<Description/>
+			<OLD_PRICE>879 900</OLD_PRICE>
+			<NEW_PRICE>789 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -2507,6 +2472,8 @@
 			<SpecName>Comfort+ Расширенный 1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>H5S4D2617DD143</SpecId>
 			<Description/>
+			<OLD_PRICE>799 900</OLD_PRICE>
+			<NEW_PRICE>677 904</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -2565,9 +2532,7 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>121 996</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -2587,6 +2552,8 @@
 			<SpecName>Comfort+ Расширенный 1,4 6АТ (100л.с.)</SpecName>
 			<SpecId>H5S4K461FDD143</SpecId>
 			<Description/>
+			<OLD_PRICE>839 900</OLD_PRICE>
+			<NEW_PRICE>716 304</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -2645,9 +2612,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>123 596</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -2667,12 +2632,12 @@
 			<SpecName>SUPER SERIES-IV 1,6 МТ</SpecName>
 			<SpecId>ЦБ001021</SpecId>
 			<Description/>
+			<OLD_PRICE>845 000</OLD_PRICE>
+			<NEW_PRICE>792 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>53 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -2692,6 +2657,8 @@
 			<SpecName>Elegance+Престиж1,6 6AT(123л.с.)</SpecName>
 			<SpecId>DRS4D261FGG315</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -2752,8 +2719,6 @@
 				<value>Задние дисковые тормоза</value>
 				<value>Крышка багажника с хромированными элементами</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -2774,6 +2739,8 @@
 			<SpecName>Comfort+ Расширенный 1,4 6МТ (100л.с.)</SpecName>
 			<SpecId>H5S4K4617DD143</SpecId>
 			<Description/>
+			<OLD_PRICE>774 900</OLD_PRICE>
+			<NEW_PRICE>653 904</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -2832,9 +2799,7 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>120 996</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -2854,6 +2819,8 @@
 			<SpecName>Comfort+ Расширенный 1,6 6АТ(123л.с.)</SpecName>
 			<SpecId>H5S4D261FDD143</SpecId>
 			<Description/>
+			<OLD_PRICE>839 900</OLD_PRICE>
+			<NEW_PRICE>749 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -2912,9 +2879,7 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -2934,6 +2899,8 @@
 			<SpecName>Travel 1,6 4WD  7DCT</SpecName>
 			<SpecId>D7W5D2G1XGGEP9</SpecId>
 			<Description/>
+			<OLD_PRICE>1 842 900</OLD_PRICE>
+			<NEW_PRICE>1 699 184</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -2998,9 +2965,7 @@
 				<value>Подогрев задних сидений</value>
 				<value>Рейлинги на крыше</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>143 716</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -3020,6 +2985,8 @@
 			<SpecName>Elegance+Безопасность 1,6 6МT(123л.с.)</SpecName>
 			<SpecId>H5S4D2617GG104</SpecId>
 			<Description/>
+			<OLD_PRICE>899 900</OLD_PRICE>
+			<NEW_PRICE>773 904</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -3092,9 +3059,7 @@
 				<value>Боковые подушки безопасности водителя и переднего пассажира</value>
 				<value>Боковые шторки безопасности</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>125 996</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -3114,6 +3079,8 @@
 			<SpecName>Elegance1,6 6МT(123л.с.)</SpecName>
 			<SpecId>DRS4D2617GG312</SpecId>
 			<Description/>
+			<OLD_PRICE>821 400</OLD_PRICE>
+			<NEW_PRICE>769 344</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -3173,9 +3140,7 @@
 				<value>Задние дисковые тормоза</value>
 				<value>Крышка багажника с хромированными элементами</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>52 056</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -3195,6 +3160,8 @@
 			<SpecName>Elegance 1,6 6МТ( 123 л.с.)</SpecName>
 			<SpecId>H5S4D2617GG103</SpecId>
 			<Description/>
+			<OLD_PRICE>859 900</OLD_PRICE>
+			<NEW_PRICE>769 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -3263,9 +3230,7 @@
 				<value>Светодиодные  ходовые огни</value>
 				<value>Задние дисковые тормоза</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -3285,6 +3250,8 @@
 			<SpecName>Comfort+ Зимний+Безопасность1,6 6АТ(123л.с)</SpecName>
 			<SpecId>H5S4D261FDD146</SpecId>
 			<Description/>
+			<OLD_PRICE>889 900</OLD_PRICE>
+			<NEW_PRICE>799 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -3350,9 +3317,7 @@
 				<value>Подогрев задних сидений</value>
 				<value>Боковые подушки безопасности водителя и переднего пассажира</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -3372,6 +3337,8 @@
 			<SpecName>Prime 2,0 4WD  6АТ</SpecName>
 			<SpecId>D7W52G61GGGEPC</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -3444,8 +3411,6 @@
 				<value>Электропривод двери багажника с системой автоматического открывания</value>
 				<value>Система мониторинга слепых зон</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -3466,6 +3431,8 @@
 			<SpecName>Comfort+ Расширенный 1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>H5S4D2617DD143</SpecId>
 			<Description/>
+			<OLD_PRICE>799 900</OLD_PRICE>
+			<NEW_PRICE>709 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -3524,9 +3491,7 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -3546,6 +3511,8 @@
 			<SpecName>Limited Edition 2,2D AT(200 л.с.)</SpecName>
 			<SpecId>DMW52FC5GGGBN6</SpecId>
 			<Description/>
+			<OLD_PRICE>2 264 000</OLD_PRICE>
+			<NEW_PRICE>2 014 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -3609,9 +3576,7 @@
 				<value>Передние датчики парковки</value>
 				<value>Рейлинги на крыше</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>250 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -3631,6 +3596,8 @@
 			<SpecName>Comfort 2.0 4 WD  6AT</SpecName>
 			<SpecId>D7W52G61GGGEP7</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -3685,8 +3652,6 @@
 				<value>Система мониторинга давления в шинах</value>
 				<value>Легкосплавные диски 17" с шинами 225/60 R17</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -3707,6 +3672,8 @@
 			<SpecName>COMFORT+High-Tech 2.0 6АT (149 л.с.)</SpecName>
 			<SpecId>F2S42G61FGGA77</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -3795,8 +3762,6 @@
 				<value>Выбор режима движения (Drive mode select)</value>
 				<value>Самозатемняющееся внутрисалонное зеркало</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -3817,6 +3782,8 @@
 			<SpecName>Comfort Plus + Advanced 2.0 2WD, 6AT</SpecName>
 			<SpecId>CTW52G61FDD103</SpecId>
 			<Description/>
+			<OLD_PRICE>1 174 900</OLD_PRICE>
+			<NEW_PRICE>1 109 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -3879,9 +3846,7 @@
 				<value>Электропривод и подогрев наружных зеркал</value>
 				<value>Светодиодные дневные ходовые огни</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>65 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -3901,6 +3866,8 @@
 			<SpecName>Comfort 1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>DRS4D2617DD121</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>29 000</OPTION_SUMM>
 			<OPTION_EQU>
 				<value>НАБОР ДЛЯ УСТАНОВКИ  ДОПОБОРУДОВАНИЯ</value>
@@ -3953,8 +3920,6 @@
 				<value>Подогрев передних сидений</value>
 				<value>Зеркала с электроприводом и обогревом</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>29 000</OLD_PRICE>
-			<NEW_PRICE>29 000</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -3975,6 +3940,8 @@
 			<SpecName>Comfort+ Расширенный 1,6 6АТ(123л.с.)</SpecName>
 			<SpecId>H5S4D261FDD143</SpecId>
 			<Description/>
+			<OLD_PRICE>839 900</OLD_PRICE>
+			<NEW_PRICE>716 304</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -4033,9 +4000,7 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>123 596</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -4055,12 +4020,185 @@
 			<SpecName>High-tech 2.0 6 АТ(149.6л.с.)</SpecName>
 			<SpecId>DFS42G61FGG205</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>Z94K341CAJR018495</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris  (17 MY)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6МТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>серебристый</Color>
+			<ColorCode>RHM</ColorCode>
+			<ColorOrig>серебристый</ColorOrig>
+			<SpecName>Elegance 1,6 6МТ( 123 л.с.)</SpecName>
+			<SpecId>H5S4D2617GG103</SpecId>
+			<Description/>
 			<OLD_PRICE>0</OLD_PRICE>
 			<NEW_PRICE>0</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Климат-контроль</value>
+				<value>Навигационная система** с интеграцией со смартфонами и информацией о "пробках"</value>
+				<value>Датчик света</value>
+				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
+				<value>Футляр для очков в потолочной консоли</value>
+				<value>Центральный задний подголовник</value>
+				<value>Фары проекционного типа со статичной подсветкой поворотов</value>
+				<value>Передние противотуманные фары</value>
+				<value>Хромированная отделка подоконной линии и решетки радиатора</value>
+				<value>Легкосплавные диски 15" с шинами 185/65 R15 и полноразмерное запасное колесо на</value>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Кондиционер</value>
+				<value>Подогрев передних сидений</value>
+				<value>Пульт управления центральным замком в ключе + сигнализация</value>
+				<value>Регулировка рулевой колонки по вылету</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Подогрев руля</value>
+				<value>Панель приборов Supervision</value>
+				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антипробуксовочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Аудиосистема, радио</value>
+				<value>Управление телефоном на руле</value>
+				<value>Датчик низкого уровня омывающей жидкости</value>
+				<value>Отделка дверей тканью</value>
+				<value>Отделка руля кожей</value>
+				<value>Датчики парковки сзади</value>
+				<value>Светодиодные  ходовые огни</value>
+				<value>Задние дисковые тормоза</value>
+			</DEFAULT_COMPLIT>
 			<CREDIT>0</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>Z94K241CBJR013639</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris  (17 MY)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6АТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>серебристый</Color>
+			<ColorCode>RHM</ColorCode>
+			<ColorOrig>серебристый</ColorOrig>
+			<SpecName>Comfort+ Расширенный 1,6 6АТ(123л.с.)</SpecName>
+			<SpecId>H5S4D261FDD143</SpecId>
+			<Description/>
+			<OLD_PRICE>839 900</OLD_PRICE>
+			<NEW_PRICE>749 900</NEW_PRICE>
+			<OPTION_SUMM>4 300</OPTION_SUMM>
+			<OPTION_EQU>
+				<value>Защита картера Солярис 2017</value>
+				<value>Установка защиты картера</value>
+			</OPTION_EQU>
+			<DEFAULT_COMPLIT>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Кондиционер</value>
+				<value>Подогрев передних сидений</value>
+				<value>Пульт управления центральным замком в ключе + сигнализация</value>
+				<value>Климат-контроль</value>
+				<value>Регулировка рулевой колонки по вылету</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Подогрев руля</value>
+				<value>Панель приборов Supervision</value>
+				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антипробуксовочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Аудиосистема, радио</value>
+				<value>Управление телефоном на руле</value>
+				<value>Датчик низкого уровня омывающей жидкости</value>
+				<value>Датчики парковки сзади</value>
+				<value>Отделка дверей тканью</value>
+				<value>Отделка руля кожей</value>
+				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -4080,6 +4218,8 @@
 			<SpecName>SDS4N361FGI125</SpecName>
 			<SpecId>ЦБ000518</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>8 100</OPTION_SUMM>
 			<OPTION_EQU>
 				<value>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ, СТАЛЬНАЯ ELANTRA 2011(NEW)</value>
@@ -4088,9 +4228,64 @@
 				<value>Установка защиты картера</value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>8 100</OLD_PRICE>
-			<NEW_PRICE>8 100</NEW_PRICE>
 			<CREDIT>0</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>KMHWH81KAHU867889</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>H-1</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>2.5 CRDI WGT (116 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6МТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>синий</Color>
+			<ColorCode>W9U</ColorCode>
+			<ColorOrig>синий</ColorOrig>
+			<SpecName>Comfort D 2,5 6МТ (116л.с.)</SpecName>
+			<SpecId>GDB86B857GGJJK</SpecId>
+			<Description/>
+			<OLD_PRICE>1 974 000</OLD_PRICE>
+			<NEW_PRICE>1 924 000</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Регулировка руля по высоте</value>
+				<value>Подогрев сиденья водителя</value>
+				<value>Электростеклоподъемники</value>
+				<value>Аккумуляторная батарея повышенной емкости</value>
+				<value>Ручки дверей в цвет кузова</value>
+				<value>Обивка сидений тканью</value>
+				<value>Подушка безопасности водителя</value>
+				<value>Подушка безопасности переднего пассажира</value>
+				<value>Иммобилайзер</value>
+				<value>Гудроусилитель руля</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>EBD (электронная система распределения тормозных усилий)</value>
+				<value>Фильтр салона</value>
+				<value>Преднатяжители передних ремней безопасности</value>
+				<value>ABS (антиблокировочная система тормозов)</value>
+				<value>Подогрев топливного фильтра</value>
+				<value>Пульт управления ЦЗ в раскладном ключе + сигнализация*</value>
+				<value>Аудиосистема 2 DIN (Радио/CD/MP3) с 6 динамиками</value>
+				<value>Система Bluetooth</value>
+				<value>Блок управления магнитолой на руле</value>
+				<value>Разъемы USB, AUX</value>
+				<value>Отделка центральной консоли под металл</value>
+				<value>Раздельные кресла переднего ряда</value>
+				<value>Ручка на передней левой стойке в салоне</value>
+				<value>Дополнительный стоп-сигнал</value>
+				<value>Легкосплавные диски 16" с шинами 215/70 R16</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Маршрутный компьютер</value>
+				<value>Дополнительный отопитель салона</value>
+				<value>Плафон освещения задней части салона</value>
+				<value>Кондиционер с раздельным управлением (кабина/салон)</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>50 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -4110,6 +4305,8 @@
 			<SpecName>Comfort Plus 1.6 2WD 6MT</SpecName>
 			<SpecId>CTW5D2617DD100</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -4163,8 +4360,6 @@
 				<value>Передние противотуманные фары</value>
 				<value>Светодиодные дневные ходовые огни</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -4185,6 +4380,8 @@
 			<SpecName>Comfort+ Расширенный 1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>H5S4D2617DD143</SpecId>
 			<Description/>
+			<OLD_PRICE>799 900</OLD_PRICE>
+			<NEW_PRICE>709 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -4243,9 +4440,7 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -4265,6 +4460,8 @@
 			<SpecName>High-Tech 2.2D 6 АT (200 л.с.)</SpecName>
 			<SpecId>DMW52FC5GGG862</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -4344,8 +4541,6 @@
 				<value>Навигация Navteq** (сенсорный дисплей 8", MP3, FM/AM+ премиум звук Infinity: 10</value>
 				<value>Электропривод двери багажника с автоматическим открыванием</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -4366,6 +4561,8 @@
 			<SpecName>Comfort 1,6 6АТ(123 л.с)</SpecName>
 			<SpecId>H5S4D261FDD142</SpecId>
 			<Description/>
+			<OLD_PRICE>809 900</OLD_PRICE>
+			<NEW_PRICE>687 504</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -4421,9 +4618,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>122 396</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -4443,6 +4638,8 @@
 			<SpecName>Advance 3.0(249 л.с.)</SpecName>
 			<SpecId>B1S4J7A1KGG105</SpecId>
 			<Description/>
+			<OLD_PRICE>2 659 000</OLD_PRICE>
+			<NEW_PRICE>2 322 870</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -4509,9 +4706,7 @@
 				<value>Легкосплавные диски 18" с шинами 245/45 R18</value>
 				<value>Отделка потолка, солнцезащитных козырьков и передних стоек замшей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>336 130</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -4531,6 +4726,8 @@
 			<SpecName>Classic1.6 6МТ(130 л.с.)</SpecName>
 			<SpecId>A6S6D2617DDAFJ</SpecId>
 			<Description/>
+			<OLD_PRICE>939 900</OLD_PRICE>
+			<NEW_PRICE>877 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -4578,9 +4775,7 @@
 				<value>Полноразмерное запасное колесо</value>
 				<value>Электропривод складывания наружных зеркал</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>62 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -4600,11 +4795,11 @@
 			<SpecName>GDB86B857GJ094</SpecName>
 			<SpecId>ЦБ000564</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -4625,6 +4820,8 @@
 			<SpecName>COMFORT+High-Tech 2.0 6АT(149 л.с.)</SpecName>
 			<SpecId>F2S42G61FGGBAL</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -4713,8 +4910,6 @@
 				<value>Выбор режима движения (Drive mode select)</value>
 				<value>Самозатемняющееся внутрисалонное зеркало</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -4735,6 +4930,8 @@
 			<SpecName>ACTIVE1.6 6МТ (128л.с)</SpecName>
 			<SpecId>F2S4D2617GGAM0</SpecId>
 			<Description/>
+			<OLD_PRICE>1 064 900</OLD_PRICE>
+			<NEW_PRICE>1 024 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -4801,9 +4998,7 @@
 				<value>Переносная пепельница и прикуриватель</value>
 				<value>Регулировка сиденья пассажира по высоте</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>40 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -4823,6 +5018,8 @@
 			<SpecName>Travel 2,0D 4WD  6АТ</SpecName>
 			<SpecId>D7W52EC5GGGEM6</SpecId>
 			<Description/>
+			<OLD_PRICE>2 005 000</OLD_PRICE>
+			<NEW_PRICE>1 834 750</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -4887,9 +5084,7 @@
 				<value>Подогрев задних сидений</value>
 				<value>Система мониторинга давления в шинах</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>170 250</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -4909,6 +5104,8 @@
 			<SpecName>Comfort+Зимний1,6 6АТ (123л.с.)</SpecName>
 			<SpecId>H5S4D261FDD144</SpecId>
 			<Description/>
+			<OLD_PRICE>849 900</OLD_PRICE>
+			<NEW_PRICE>759 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -4970,9 +5167,7 @@
 				<value>Подогрев форсунок стеклоомывателя</value>
 				<value>Подогрев задних сидений</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -4992,6 +5187,8 @@
 			<SpecName>Comfort+ Зимний+Безопасность1,6 6МТ(123л.с.)</SpecName>
 			<SpecId>H5S4D2617DD146</SpecId>
 			<Description/>
+			<OLD_PRICE>849 900</OLD_PRICE>
+			<NEW_PRICE>725 904</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -5057,9 +5254,32 @@
 				<value>Боковые подушки безопасности водителя и переднего пассажира</value>
 				<value>Боковые шторки безопасности</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>123 996</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>Z94G2813BHR042983</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Сreta (2016-)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>2.0 (149.6 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6АТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>оранжевый</Color>
+			<ColorCode>SN4</ColorCode>
+			<ColorOrig>оранжевый</ColorOrig>
+			<SpecName>COMFORT+ADVANCED</SpecName>
+			<SpecId>CTW52G61FDD108</SpecId>
+			<Description/>
+			<OLD_PRICE>1 179 900</OLD_PRICE>
+			<NEW_PRICE>1 114 900</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>65 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -5079,6 +5299,8 @@
 			<SpecName>Comfort+ Расширенный 1,4 6МТ (100л.с.)</SpecName>
 			<SpecId>H5S4K4617DD143</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -5137,8 +5359,6 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -5159,6 +5379,8 @@
 			<SpecName>Elegance1,6 6МT(123л.с.)</SpecName>
 			<SpecId>DRS4D2617GG312</SpecId>
 			<Description/>
+			<OLD_PRICE>821 400</OLD_PRICE>
+			<NEW_PRICE>729 344</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -5218,9 +5440,7 @@
 				<value>Задние дисковые тормоза</value>
 				<value>Крышка багажника с хромированными элементами</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>92 056</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -5240,11 +5460,11 @@
 			<SpecName>D2S4J5G1KGG171</SpecName>
 			<SpecId>ЦБ001010</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -5265,6 +5485,8 @@
 			<SpecName>Comfort 1,6 6МТ(123 л.с)</SpecName>
 			<SpecId>H5S4D2617DD142</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -5320,8 +5542,6 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -5342,6 +5562,8 @@
 			<SpecName>Comfort Plus + Advanced 1.6 4WD, 6AT</SpecName>
 			<SpecId>CTW5D261GDD101</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -5404,8 +5626,6 @@
 				<value>Электропривод и подогрев наружных зеркал</value>
 				<value>Светодиодные дневные ходовые огни</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -5426,6 +5646,8 @@
 			<SpecName>Comfort 1,4 6МТ (100 л.с.)</SpecName>
 			<SpecId>H5S4K4617DD142</SpecId>
 			<Description/>
+			<OLD_PRICE>744 900</OLD_PRICE>
+			<NEW_PRICE>654 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -5481,9 +5703,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -5503,6 +5723,8 @@
 			<SpecName>START 1.6 6МТ(128л.с.)</SpecName>
 			<SpecId>F2S4D2617DD893</SpecId>
 			<Description/>
+			<OLD_PRICE>957 000</OLD_PRICE>
+			<NEW_PRICE>917 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -5553,9 +5775,7 @@
 				<value>Складывающаяся спинка заднего сиденья в пропорции 6:4</value>
 				<value>Карманы в дверях спереди и сзади</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>40 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -5575,6 +5795,8 @@
 			<SpecName>High-Tech 3,0 6АТ(249л.с.)</SpecName>
 			<SpecId>B8WCJ7A1GGG591</SpecId>
 			<Description/>
+			<OLD_PRICE>2 789 000</OLD_PRICE>
+			<NEW_PRICE>2 539 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -5657,9 +5879,7 @@
 				<value>Навигация Navteq** (сенсорный дисплей 8", MP3, FM/AM+ премиум звук Infinity: 10</value>
 				<value>Электропривод двери багажника с автоматическим открыванием</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>250 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -5679,11 +5899,11 @@
 			<SpecName/>
 			<SpecId/>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -5704,6 +5924,8 @@
 			<SpecName>BASE 1.6 6МТ (128л.с)</SpecName>
 			<SpecId>F2S4D2617DD444</SpecId>
 			<Description/>
+			<OLD_PRICE>994 900</OLD_PRICE>
+			<NEW_PRICE>954 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -5761,9 +5983,7 @@
 				<value>Кожаная отделка руля и рукоятки коробки передач</value>
 				<value>Регулировка сиденья пассажира по высоте</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>40 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -5783,6 +6003,8 @@
 			<SpecName>Comfort+ Расширенный 1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>H5S4D2617DD143</SpecId>
 			<Description/>
+			<OLD_PRICE>799 900</OLD_PRICE>
+			<NEW_PRICE>709 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -5841,9 +6063,7 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -5863,6 +6083,8 @@
 			<SpecName>Comfort Plus 1.6 4WD, 6AT</SpecName>
 			<SpecId>CTW5D261GDD100</SpecId>
 			<Description/>
+			<OLD_PRICE>1 144 900</OLD_PRICE>
+			<NEW_PRICE>1 079 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -5916,9 +6138,7 @@
 				<value>Электропривод и подогрев наружных зеркал</value>
 				<value>Светодиодные дневные ходовые огни</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>65 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -5938,6 +6158,8 @@
 			<SpecName>Comfort Plus 1.6 4WD, 6AT</SpecName>
 			<SpecId>CTW5D261GDD100</SpecId>
 			<Description/>
+			<OLD_PRICE>1 144 900</OLD_PRICE>
+			<NEW_PRICE>1 079 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -5991,9 +6213,7 @@
 				<value>Электропривод и подогрев наружных зеркал</value>
 				<value>Светодиодные дневные ходовые огни</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>65 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -6013,6 +6233,8 @@
 			<SpecName>Comfort 1,6 6МТ(123 л.с)</SpecName>
 			<SpecId>H5S4D2617DD142</SpecId>
 			<Description/>
+			<OLD_PRICE>769 900</OLD_PRICE>
+			<NEW_PRICE>649 104</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -6068,100 +6290,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>XWELC41CBH0010734</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>i40</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>2.0 (149.6 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6АТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>серый</Color>
-			<ColorCode>T6S</ColorCode>
-			<ColorOrig>серый</ColorOrig>
-			<SpecName>Limited Edition 2.0 6 АТ(149.6л.с.)</SpecName>
-			<SpecId>DFS42G61FGG840</SpecId>
-			<Description/>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Вставки на внутренней отделке дверей (искуcственная кожа)</value>
-				<value>Подушка безопасности водителя и переднего пассажира (отключаемая)</value>
-				<value>Коленная подушка безопасности водителя</value>
-				<value>Передние боковые подушки безопасности + шторки безопасности</value>
-				<value>Преднатяжители передних ремней безопасности+регулировка крепления по высоте</value>
-				<value>Активные подголовники передних сидений***</value>
-				<value>Крепления ISOFIX слева и справа на заднем диване</value>
-				<value>ABS (антиблокировочная система тормозов)</value>
-				<value>BAS (система помощи при торможении)</value>
-				<value>HAC (система помощи при старте в горку)</value>
-				<value>ESS (система предупреждения водителей сзади при экстренном торможении)</value>
-				<value>ESC (электронная система стабилизации курсовой устойчивости)</value>
-				<value>VSM (система управления стабилизацией)</value>
-				<value>Светодиодные дневные ходовые и габаритные огни</value>
-				<value>Светодиодные повторители указателей поворота в зеркалах заднего вида</value>
-				<value>Задние фонари со светодиодами</value>
-				<value>Датчик света</value>
-				<value>Регулировка руля по высоте и вылету</value>
-				<value>Регулировка водительского сиденья по высоте</value>
-				<value>Подогрев передних сидений с тремя режимами</value>
-				<value>Подрулевые переключатели КПП (только для AT и 7DCT)</value>
-				<value>EPB (электронный стояночный тормоз с режимом автоматического удержания)</value>
-				<value>Электростеклоподъемники с автоматическим и безопасным режимом</value>
-				<value>Электропривод и подогрев наружных зеркал</value>
-				<value>Центральный подлокотник водителя</value>
-				<value>Центральный подлокотник с подстаканниками на заднем диване</value>
-				<value>Воздуховоды климатической системы для задних пассажиров</value>
-				<value>Маршрутный компьютер</value>
-				<value>Подсветка замка зажигания или кнопки START/STOP (при наличии)</value>
-				<value>Бокс для очков</value>
-				<value>Автоблокировка/разблокировка дверных замков на скорости</value>
-				<value>Разъемы USB+AUX для подключения внешних устройств</value>
-				<value>Блок управления магнитолой на руле (кроме 1.6 GDI)</value>
-				<value>Отделка руля и рукоятки КПП кожей</value>
-				<value>Отделка передних стоек тканью</value>
-				<value>Ручки дверей и зеркала в цвет кузова</value>
-				<value>Брызговики</value>
-				<value>Обогрев лобового стекла в зоне покоя стеклоочистителей</value>
-				<value>Передние стеклоочистители аэродинамической формы</value>
-				<value>Фары головного света проекционного типа (галогеновые)</value>
-				<value>Пульт управления центральным замком в раскладном ключе + сигнализация**</value>
-				<value>Панель приборов Supervision с монохромным дисплеем</value>
-				<value>Аудиосистема (RDS радио, 6 динамиков, CD/MP3, FM/AM)</value>
-				<value>Легкосплавные диски 16" с шинами 205/60 R16</value>
-				<value>Полноразмерное запасное колесо с легкосплавным диском</value>
-				<value>Bluetooth с системой распознавания голоса</value>
-				<value>Хромированные патрубки выхлопной системы, разнесённые по двум сторонам</value>
-				<value>Электрорегулировка сиденья водителя</value>
-				<value>Электрорегулировка поясничного подпора сиденья водителя</value>
-				<value>Регулировка переднего пассажирского сиденья по высоте</value>
-				<value>Двухзонный климат-контроль+функция антизапотевания лобового стекла</value>
-				<value>Круиз-контроль + ограничитель скорости с управлением на руле</value>
-				<value>Датчик дождя</value>
-				<value>Самозатемняющееся внутрисалонное зеркало</value>
-				<value>Вставки на передней консоли с покрытием под металл</value>
-				<value>Решётка радиатора с дополнительными горизонтальными хромированными элементами</value>
-				<value>Комбинация натуральной и искусственной кожи в отделке сидений</value>
-				<value>Цвета салона коричневый</value>
-				<value>Ручки дверей с хромированной отделкой</value>
-				<value>Светодиодные противотуманные фары</value>
-				<value>Аудиосистема с 4,3" сенсорным дисплеем (RDS радио, 6 динамиков, CD/MP3, FM/AM)</value>
-				<value>Камера заднего вида+визуальный помощник парковки</value>
-				<value>Ксеноновые лампы ближнего и дальнего света + омыватели фар + автокорректор фар</value>
-				<value>Система "Smart key" — доступ без ключа+кнопка START/STOP</value>
-				<value>Подогрев руля</value>
-			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>120 796</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -6181,6 +6310,8 @@
 			<SpecName>Comfort 1,6 6МТ(123 л.с)</SpecName>
 			<SpecId>H5S4D2617DD142</SpecId>
 			<Description/>
+			<OLD_PRICE>769 900</OLD_PRICE>
+			<NEW_PRICE>679 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -6236,9 +6367,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -6258,6 +6387,8 @@
 			<SpecName>Comfort 1,6 6АТ(123 л.с)</SpecName>
 			<SpecId>H5S4D261FDD142</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -6313,8 +6444,6 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -6335,6 +6464,8 @@
 			<SpecName>Advance 3.0(249 л.с.)</SpecName>
 			<SpecId>B1S4J7A1KGG105</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -6401,8 +6532,6 @@
 				<value>Легкосплавные диски 18" с шинами 245/45 R18</value>
 				<value>Отделка потолка, солнцезащитных козырьков и передних стоек замшей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -6423,6 +6552,8 @@
 			<SpecName>Elegance1,6 6МT(123л.с.)</SpecName>
 			<SpecId>DRS4D2617GG312</SpecId>
 			<Description/>
+			<OLD_PRICE>821 400</OLD_PRICE>
+			<NEW_PRICE>729 344</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -6482,9 +6613,7 @@
 				<value>Задние дисковые тормоза</value>
 				<value>Крышка багажника с хромированными элементами</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>92 056</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -6504,6 +6633,8 @@
 			<SpecName>ACTIVE 1.6 4WD 6МТ</SpecName>
 			<SpecId>CTW5D2618DD087</SpecId>
 			<Description/>
+			<OLD_PRICE>969 900</OLD_PRICE>
+			<NEW_PRICE>904 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -6548,9 +6679,7 @@
 				<value>Электропривод и подогрев наружных зеркал</value>
 				<value>Стальные диски 16" с шинами 205/65 R16</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>65 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -6570,6 +6699,8 @@
 			<SpecName>Comfort+ Зимний1,6 6МТ(123л.с.)</SpecName>
 			<SpecId>H5S4D2617DD144</SpecId>
 			<Description/>
+			<OLD_PRICE>809 900</OLD_PRICE>
+			<NEW_PRICE>687 504</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -6631,9 +6762,7 @@
 				<value>Подогрев форсунок стеклоомывателя</value>
 				<value>Подогрев задних сидений</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>122 396</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -6653,6 +6782,8 @@
 			<SpecName>Comfort+ Специальный1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>DRS4D2617DD130</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>17 600</OPTION_SUMM>
 			<OPTION_EQU>
 				<value>КОВРИК БАГАЖНОГО ОТСЕКА SOLARIS седан</value>
@@ -6710,8 +6841,6 @@
 				<value>Зеркала с электроприводом и обогревом</value>
 				<value>Фары проекционного типа с задержкой отключения и функцией "приветствия"</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>17 600</OLD_PRICE>
-			<NEW_PRICE>17 600</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -6732,6 +6861,8 @@
 			<SpecName>Comfort+ Расширенный 1,6 6АТ(123л.с.)</SpecName>
 			<SpecId>H5S4D261FDD143</SpecId>
 			<Description/>
+			<OLD_PRICE>839 900</OLD_PRICE>
+			<NEW_PRICE>749 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -6790,9 +6921,7 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -6812,12 +6941,12 @@
 			<SpecName>D2S4J5G1KGG171</SpecName>
 			<SpecId>ЦБ001010</SpecId>
 			<Description/>
+			<OLD_PRICE>5 450 000</OLD_PRICE>
+			<NEW_PRICE>4 864 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>586 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -6837,6 +6966,8 @@
 			<SpecName>Elegance1,6 6МT(123л.с.)</SpecName>
 			<SpecId>DRS4D2617GG312</SpecId>
 			<Description/>
+			<OLD_PRICE>821 400</OLD_PRICE>
+			<NEW_PRICE>729 344</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -6896,9 +7027,7 @@
 				<value>Задние дисковые тормоза</value>
 				<value>Крышка багажника с хромированными элементами</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>92 056</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -6918,11 +7047,11 @@
 			<SpecName>ETS4J6A1JGS672</SpecName>
 			<SpecId>ЦБ000894</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -6943,6 +7072,8 @@
 			<SpecName>Comfort 1,6 6АТ(123 л.с)</SpecName>
 			<SpecId>H5S4D261FDD142</SpecId>
 			<Description/>
+			<OLD_PRICE>809 900</OLD_PRICE>
+			<NEW_PRICE>719 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -6998,9 +7129,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -7020,12 +7149,12 @@
 			<SpecName>SUPER SERIES-IV 1,6 МТ</SpecName>
 			<SpecId>ЦБ001021</SpecId>
 			<Description/>
+			<OLD_PRICE>845 000</OLD_PRICE>
+			<NEW_PRICE>752 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>93 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -7045,12 +7174,12 @@
 			<SpecName>Comfort+Расширенный+Зимний+Безопасность1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>DRS4D2617DD128</SpecId>
 			<Description/>
+			<OLD_PRICE>835 300</OLD_PRICE>
+			<NEW_PRICE>782 688</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>52 612</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -7070,6 +7199,8 @@
 			<SpecName>Comfort 1,4 6АТ (100 л.с.)</SpecName>
 			<SpecId>H5S4K461FDD142</SpecId>
 			<Description/>
+			<OLD_PRICE>784 900</OLD_PRICE>
+			<NEW_PRICE>694 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -7125,9 +7256,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -7147,6 +7276,8 @@
 			<SpecName>COMFORT+ADVANCED 2.0 4WD 6AT</SpecName>
 			<SpecId>CTW52G61GDD086</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -7206,8 +7337,6 @@
 				<value>VSM (система управления стабилизацией)</value>
 				<value>Электропривод и подогрев наружных зеркал</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -7228,6 +7357,8 @@
 			<SpecName>ELEG STYL+SAF+PRES 1,6 6АТ</SpecName>
 			<SpecId>H5S4D261FGG102</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -7308,8 +7439,6 @@
 				<value>Светодиодные задние фонари</value>
 				<value>Боковые подушки безопасности водителя и переднего пассажира</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -7330,6 +7459,8 @@
 			<SpecName>Comfort 1,4 6МТ (100 л.с.)</SpecName>
 			<SpecId>H5S4K4617DD142</SpecId>
 			<Description/>
+			<OLD_PRICE>744 900</OLD_PRICE>
+			<NEW_PRICE>654 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -7385,9 +7516,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -7407,6 +7536,8 @@
 			<SpecName>ACTIVE1.6 6АТ (128л.с)</SpecName>
 			<SpecId>F2S4D261FGGAKL</SpecId>
 			<Description/>
+			<OLD_PRICE>1 119 900</OLD_PRICE>
+			<NEW_PRICE>1 079 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -7473,9 +7604,7 @@
 				<value>Переносная пепельница и прикуриватель</value>
 				<value>Регулировка сиденья пассажира по высоте</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>40 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -7495,6 +7624,8 @@
 			<SpecName>Dynamic 2.4 6 AT (171 л.с.)</SpecName>
 			<SpecId>DMW5L661GGG861</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -7565,8 +7696,6 @@
 				<value>Система "Smart key" — доступ без ключа+кнопка START/STOP + сигнализация*</value>
 				<value>Панель приборов Supervision с цветным TFT-дисплеем</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -7587,6 +7716,8 @@
 			<SpecName>Comfort+ Зимний+Безопасность1,6 6АТ(123л.с)</SpecName>
 			<SpecId>H5S4D261FDD146</SpecId>
 			<Description/>
+			<OLD_PRICE>889 900</OLD_PRICE>
+			<NEW_PRICE>764 304</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -7652,9 +7783,7 @@
 				<value>Подогрев задних сидений</value>
 				<value>Боковые подушки безопасности водителя и переднего пассажира</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>125 596</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -7674,6 +7803,8 @@
 			<SpecName>Elegance 1,6 6МТ( 123 л.с.)</SpecName>
 			<SpecId>H5S4D2617GG103</SpecId>
 			<Description/>
+			<OLD_PRICE>859 900</OLD_PRICE>
+			<NEW_PRICE>769 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -7742,9 +7873,7 @@
 				<value>Светодиодные  ходовые огни</value>
 				<value>Задние дисковые тормоза</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -7764,6 +7893,8 @@
 			<SpecName>Comfort+ Безопасность1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>DRS4D2617DD123</SpecId>
 			<Description/>
+			<OLD_PRICE>794 900</OLD_PRICE>
+			<NEW_PRICE>675 104</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -7814,9 +7945,7 @@
 				<value>Зеркала с электроприводом и обогревом</value>
 				<value>Задние дисковые тормоза</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>119 796</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -7836,6 +7965,8 @@
 			<SpecName>Comfort 2.0 4 WD  6AT</SpecName>
 			<SpecId>D7W52G61GGGEP7</SpecId>
 			<Description/>
+			<OLD_PRICE>1 613 000</OLD_PRICE>
+			<NEW_PRICE>1 462 350</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -7890,9 +8021,7 @@
 				<value>Система мониторинга давления в шинах</value>
 				<value>Легкосплавные диски 17" с шинами 225/60 R17</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>150 650</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -7912,6 +8041,8 @@
 			<SpecName>Active Plus 1,6 6MТ (123 л.с.)</SpecName>
 			<SpecId>H5S4D2617DD141</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -7956,8 +8087,6 @@
 				<value>Зеркала с электроприводом и обогревом</value>
 				<value>Аудиосистема, радио</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -7978,6 +8107,8 @@
 			<SpecName>Elegance 1,6 6МТ( 123 л.с.)</SpecName>
 			<SpecId>H5S4D2617GG103</SpecId>
 			<Description/>
+			<OLD_PRICE>859 900</OLD_PRICE>
+			<NEW_PRICE>769 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -8046,9 +8177,7 @@
 				<value>Светодиодные  ходовые огни</value>
 				<value>Задние дисковые тормоза</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -8068,6 +8197,8 @@
 			<SpecName>Business 2,0 8 АТ (245 л.с.)</SpecName>
 			<SpecId>B1S4L8G1KGG887</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -8134,8 +8265,6 @@
 				<value>Запасное колесо для временного пользования (легкосплавный диск)</value>
 				<value>Ксеноновые фары с автокорректором, омывателем и отдельной лампой</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -8156,6 +8285,8 @@
 			<SpecName>Active Plus 1,6 6MТ (123 л.с.)</SpecName>
 			<SpecId>H5S4D2617DD141</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -8200,8 +8331,6 @@
 				<value>Зеркала с электроприводом и обогревом</value>
 				<value>Аудиосистема, радио</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -8222,6 +8351,8 @@
 			<SpecName>Comfort+ Зимний+Безопасность1,6 6МТ(123л.с.)</SpecName>
 			<SpecId>H5S4D2617DD146</SpecId>
 			<Description/>
+			<OLD_PRICE>849 900</OLD_PRICE>
+			<NEW_PRICE>759 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -8287,9 +8418,7 @@
 				<value>Боковые подушки безопасности водителя и переднего пассажира</value>
 				<value>Боковые шторки безопасности</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -8309,6 +8438,8 @@
 			<SpecName>Comfort+ Безопасность1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>DRS4D2617DD123</SpecId>
 			<Description/>
+			<OLD_PRICE>794 900</OLD_PRICE>
+			<NEW_PRICE>703 904</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -8359,9 +8490,7 @@
 				<value>Зеркала с электроприводом и обогревом</value>
 				<value>Задние дисковые тормоза</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 996</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -8381,6 +8510,8 @@
 			<SpecName>Luxury 2,0 8 АТ (245 л.с.)</SpecName>
 			<SpecId>B1S4L8G1KGG872</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -8475,8 +8606,6 @@
 				<value>Интеллектуальный круиз-контроль</value>
 				<value>Остекление с дополнительной шумоизоляцией</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -8497,6 +8626,8 @@
 			<SpecName>Comfort 1,6 6АТ(123 л.с)</SpecName>
 			<SpecId>H5S4D261FDD142</SpecId>
 			<Description/>
+			<OLD_PRICE>809 900</OLD_PRICE>
+			<NEW_PRICE>687 504</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -8552,9 +8683,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>122 396</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -8574,6 +8703,8 @@
 			<SpecName>Business 3.0(249 л.с.)</SpecName>
 			<SpecId>B1S4J7A1KGA783</SpecId>
 			<Description/>
+			<OLD_PRICE>2 429 000</OLD_PRICE>
+			<NEW_PRICE>2 108 970</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -8635,9 +8766,7 @@
 				<value>Панель приборов Supervision + дисплей  4,3”</value>
 				<value>Отделка потолка, солнцезащитных козырьков и передних стоек замшей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>320 030</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -8657,11 +8786,11 @@
 			<SpecName>ELEGANCE престиж +безопас +свет1,6 AT</SpecName>
 			<SpecId>ЦБ000720</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -8682,6 +8811,8 @@
 			<SpecName>Comfort 1,4 6МТ (100 л.с.)</SpecName>
 			<SpecId>H5S4K4617DD142</SpecId>
 			<Description/>
+			<OLD_PRICE>744 900</OLD_PRICE>
+			<NEW_PRICE>654 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -8737,9 +8868,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -8759,6 +8888,8 @@
 			<SpecName>Limited Edition 2,2D AT(200 л.с.)</SpecName>
 			<SpecId>DMW52FC5GGGBN6</SpecId>
 			<Description/>
+			<OLD_PRICE>2 264 000</OLD_PRICE>
+			<NEW_PRICE>2 014 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -8822,9 +8953,7 @@
 				<value>Передние датчики парковки</value>
 				<value>Рейлинги на крыше</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>250 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -8844,6 +8973,8 @@
 			<SpecName>Business 2,5  5АТ (170л.с.)</SpecName>
 			<SpecId>GDB86B85DGGJJE</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -8890,8 +9021,6 @@
 				<value>Автоматическая блокировка заднего дифференциала</value>
 				<value>Круиз-контроль</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -8912,6 +9041,8 @@
 			<SpecName>Comfort 2.0 4 WD  6AT</SpecName>
 			<SpecId>D7W52G61GGGEP7</SpecId>
 			<Description/>
+			<OLD_PRICE>1 625 000</OLD_PRICE>
+			<NEW_PRICE>1 473 750</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -8966,9 +9097,7 @@
 				<value>Система мониторинга давления в шинах</value>
 				<value>Легкосплавные диски 17" с шинами 225/60 R17</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>151 250</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -8988,6 +9117,8 @@
 			<SpecName>SDS4N361FGI125</SpecName>
 			<SpecId>ЦБ000518</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>8 100</OPTION_SUMM>
 			<OPTION_EQU>
 				<value>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ, СТАЛЬНАЯ ELANTRA 2011(NEW)</value>
@@ -8996,8 +9127,6 @@
 				<value>Установка защиты картера</value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>8 100</OLD_PRICE>
-			<NEW_PRICE>8 100</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -9018,11 +9147,11 @@
 			<SpecName>A6S6D2617GH085</SpecName>
 			<SpecId>ЦБ000528</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -9043,6 +9172,8 @@
 			<SpecName>Comfort+ Расширенный 1,6 6АТ(123л.с.)</SpecName>
 			<SpecId>H5S4D261FDD143</SpecId>
 			<Description/>
+			<OLD_PRICE>839 900</OLD_PRICE>
+			<NEW_PRICE>716 304</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -9101,9 +9232,7 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>123 596</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -9123,6 +9252,8 @@
 			<SpecName>High-Tech 2.2D 6 АT (200 л.с.)</SpecName>
 			<SpecId>DMW52FC5GGG862</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -9202,8 +9333,6 @@
 				<value>Навигация Navteq** (сенсорный дисплей 8", MP3, FM/AM+ премиум звук Infinity: 10</value>
 				<value>Электропривод двери багажника с автоматическим открыванием</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -9224,6 +9353,8 @@
 			<SpecName>COMFORT 1,4 MT</SpecName>
 			<SpecId>ЦБ000722</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>23 500</OPTION_SUMM>
 			<OPTION_EQU>
 				<value>ЗАЩИТА КАРТЕРА , СТАЛЬНАЯ (SOLARIS)</value>
@@ -9234,8 +9365,6 @@
 				<value>Шиномонтаж 4-х колес 15``  </value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>23 500</OLD_PRICE>
-			<NEW_PRICE>23 500</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -9256,11 +9385,11 @@
 			<SpecName>GDB86B85DGJ095</SpecName>
 			<SpecId>ЦБ000520</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -9281,6 +9410,8 @@
 			<SpecName>Comfort+ Расширенный 1,4 6АТ (100л.с.)</SpecName>
 			<SpecId>H5S4K461FDD143</SpecId>
 			<Description/>
+			<OLD_PRICE>814 900</OLD_PRICE>
+			<NEW_PRICE>724 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -9339,9 +9470,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -9361,6 +9490,8 @@
 			<SpecName>Comfort 2,0D 4WD  6АТ</SpecName>
 			<SpecId>D7W52EC5GGGEP7</SpecId>
 			<Description/>
+			<OLD_PRICE>1 815 000</OLD_PRICE>
+			<NEW_PRICE>1 654 250</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -9415,9 +9546,7 @@
 				<value>Система мониторинга давления в шинах</value>
 				<value>Легкосплавные диски 17" с шинами 225/60 R17</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>160 750</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -9437,6 +9566,8 @@
 			<SpecName>ACTIVE1.6 6АТ(128л.с)</SpecName>
 			<SpecId>F2S4D261FGGBAI</SpecId>
 			<Description/>
+			<OLD_PRICE>1 155 000</OLD_PRICE>
+			<NEW_PRICE>1 115 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -9503,9 +9634,7 @@
 				<value>Переносная пепельница и прикуриватель</value>
 				<value>Регулировка сиденья пассажира по высоте</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>40 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -9525,6 +9654,8 @@
 			<SpecName>Comfort+ Расширенный+Зимний1,6 6МТ(123л.с.)</SpecName>
 			<SpecId>H5S4D2617DD145</SpecId>
 			<Description/>
+			<OLD_PRICE>839 900</OLD_PRICE>
+			<NEW_PRICE>716 304</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -9589,9 +9720,7 @@
 				<value>Датчики парковки сзади</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>123 596</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -9611,6 +9740,8 @@
 			<SpecName>Elegance1,6 6МT(123л.с.)</SpecName>
 			<SpecId>DRS4D2617GG312</SpecId>
 			<Description/>
+			<OLD_PRICE>821 400</OLD_PRICE>
+			<NEW_PRICE>769 344</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -9670,9 +9801,7 @@
 				<value>Задние дисковые тормоза</value>
 				<value>Крышка багажника с хромированными элементами</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>52 056</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -9692,12 +9821,12 @@
 			<SpecName>SUPER SERIES-IV 1,6 МТ</SpecName>
 			<SpecId>ЦБ001021</SpecId>
 			<Description/>
+			<OLD_PRICE>845 000</OLD_PRICE>
+			<NEW_PRICE>752 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>93 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -9717,6 +9846,8 @@
 			<SpecName>Elegance1,6 6МT(123л.с.)</SpecName>
 			<SpecId>DRS4D2617GG312</SpecId>
 			<Description/>
+			<OLD_PRICE>821 400</OLD_PRICE>
+			<NEW_PRICE>729 344</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -9776,9 +9907,7 @@
 				<value>Задние дисковые тормоза</value>
 				<value>Крышка багажника с хромированными элементами</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>92 056</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -9798,6 +9927,8 @@
 			<SpecName>Comfort+ Расширенный 1,6 6АТ(123л.с.)</SpecName>
 			<SpecId>H5S4D261FDD143</SpecId>
 			<Description/>
+			<OLD_PRICE>839 900</OLD_PRICE>
+			<NEW_PRICE>716 304</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -9856,9 +9987,7 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>123 596</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -9878,6 +10007,8 @@
 			<SpecName>Comfort 1,6 6АТ(123 л.с)</SpecName>
 			<SpecId>H5S4D261FDD142</SpecId>
 			<Description/>
+			<OLD_PRICE>809 900</OLD_PRICE>
+			<NEW_PRICE>719 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -9933,9 +10064,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -9955,6 +10084,8 @@
 			<SpecName>COMFORT 1,4 MT</SpecName>
 			<SpecId>ЦБ000663</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>24 810</OPTION_SUMM>
 			<OPTION_EQU>
 				<value>КОВРИКИ САЛОНА  резиновый SOLARIS</value>
@@ -9965,8 +10096,6 @@
 				<value>Установка защиты картера</value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>24 810</OLD_PRICE>
-			<NEW_PRICE>24 810</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -9987,6 +10116,8 @@
 			<SpecName>COMFORT 1,4 AT</SpecName>
 			<SpecId>ЦБ000664</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>38 220</OPTION_SUMM>
 			<OPTION_EQU>
 				<value>СИГНАЛИЗАЦИЯ SCHER-KHАN LOGICAR 2,BP-2</value>
@@ -9999,8 +10130,6 @@
 				<value>Перестановка шин                                                                                    </value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>38 220</OLD_PRICE>
-			<NEW_PRICE>38 220</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -10021,12 +10150,12 @@
 			<SpecName>F2S42G61FGGBAJ</SpecName>
 			<SpecId>ЦБ001065</SpecId>
 			<Description/>
+			<OLD_PRICE>1 325 000</OLD_PRICE>
+			<NEW_PRICE>1 285 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>40 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -10046,6 +10175,8 @@
 			<SpecName>Comfort+ Расширенный 1,4 6АТ (100л.с.)</SpecName>
 			<SpecId>H5S4K461FDD143</SpecId>
 			<Description/>
+			<OLD_PRICE>814 900</OLD_PRICE>
+			<NEW_PRICE>692 304</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -10104,9 +10235,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>122 596</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -10126,6 +10255,8 @@
 			<SpecName>Elegance1,6 6МT(123л.с.)</SpecName>
 			<SpecId>DRS4D2617GG312</SpecId>
 			<Description/>
+			<OLD_PRICE>821 400</OLD_PRICE>
+			<NEW_PRICE>769 344</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -10185,9 +10316,7 @@
 				<value>Задние дисковые тормоза</value>
 				<value>Крышка багажника с хромированными элементами</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>52 056</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -10207,6 +10336,8 @@
 			<SpecName>BASE 1.6 6МТ(128л.с)</SpecName>
 			<SpecId>F2S4D2617DD894</SpecId>
 			<Description/>
+			<OLD_PRICE>1 030 000</OLD_PRICE>
+			<NEW_PRICE>990 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -10264,9 +10395,7 @@
 				<value>Кожаная отделка руля и рукоятки коробки передач</value>
 				<value>Шумоизоляция капота</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>40 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -10286,6 +10415,8 @@
 			<SpecName>Comfort+ Зимний+Безопасность1,6 6АТ(123л.с)</SpecName>
 			<SpecId>H5S4D261FDD146</SpecId>
 			<Description/>
+			<OLD_PRICE>889 900</OLD_PRICE>
+			<NEW_PRICE>799 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -10351,9 +10482,7 @@
 				<value>Подогрев задних сидений</value>
 				<value>Боковые подушки безопасности водителя и переднего пассажира</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -10373,6 +10502,8 @@
 			<SpecName>SDS4N361FGL974</SpecName>
 			<SpecId>ЦБ000614</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>9 880</OPTION_SUMM>
 			<OPTION_EQU>
 				<value>Дорожный набор hyundai</value>
@@ -10382,8 +10513,6 @@
 				<value>Установка защиты картера</value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
-			<OLD_PRICE>9 880</OLD_PRICE>
-			<NEW_PRICE>9 880</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -10404,6 +10533,8 @@
 			<SpecName>Comfort+ Расширенный 1,6 6МТ (123л.с.)</SpecName>
 			<SpecId>H5S4D2617DD143</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -10462,8 +10593,6 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -10484,6 +10613,8 @@
 			<SpecName>COMFORT+STYLE 2.0 4WD 6AT</SpecName>
 			<SpecId>CTW52G61GGG003</SpecId>
 			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -10556,8 +10687,6 @@
 				<value>Два дополнительных высокочастотных динамика</value>
 				<value>Повторители поворота в корпусах наружных зеркал</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
 			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
@@ -10578,6 +10707,8 @@
 			<SpecName>Comfort 2,0 2WD  6АТ</SpecName>
 			<SpecId>D7W52G61FGGEP7</SpecId>
 			<Description/>
+			<OLD_PRICE>1 505 900</OLD_PRICE>
+			<NEW_PRICE>1 360 605</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -10632,156 +10763,7 @@
 				<value>Обивка сидений тканью</value>
 				<value>Легкосплавные диски 17" с шинами 225/60 R17</value>
 			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>Z94K341CAJR018495</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris  (17 MY)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>серебристый</Color>
-			<ColorCode>RHM</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
-			<SpecName>Elegance 1,6 6МТ( 123 л.с.)</SpecName>
-			<SpecId>H5S4D2617GG103</SpecId>
-			<Description/>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Климат-контроль</value>
-				<value>Навигационная система** с интеграцией со смартфонами и информацией о "пробках"</value>
-				<value>Датчик света</value>
-				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
-				<value>Футляр для очков в потолочной консоли</value>
-				<value>Центральный задний подголовник</value>
-				<value>Фары проекционного типа со статичной подсветкой поворотов</value>
-				<value>Передние противотуманные фары</value>
-				<value>Хромированная отделка подоконной линии и решетки радиатора</value>
-				<value>Легкосплавные диски 15" с шинами 185/65 R15 и полноразмерное запасное колесо на</value>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Электронная система распределения тормозных усилий (EBD)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Дневные ходовые огни в бампере</value>
-				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Брызговики спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка рулевой колонки по высоте</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
-				<value>Управление аудиосистемой на руле</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Стальные диски 15" с шинами 185/65 R15</value>
-				<value>Аудиоподготовка 4 динамика, антенна</value>
-				<value>Кондиционер</value>
-				<value>Подогрев передних сидений</value>
-				<value>Пульт управления центральным замком в ключе + сигнализация</value>
-				<value>Регулировка рулевой колонки по вылету</value>
-				<value>Электроусилитель руля</value>
-				<value>Система управления стабилизацией (VSM)</value>
-				<value>Подогрев руля</value>
-				<value>Панель приборов Supervision</value>
-				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
-				<value>Система помощи при старте в горку (НАС)</value>
-				<value>Антипробуксовочная система (TCS)</value>
-				<value>Антипробуксовочная система тормозов (АВS)</value>
-				<value>Иммобилайзер</value>
-				<value>Центральный замок</value>
-				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
-				<value>Крепления ISOFIX сзади</value>
-				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
-				<value>Датчик наружной температуры</value>
-				<value>Воздуховоды к ногам задних пассажиров</value>
-				<value>Карман в спинке кресла переднего пассажира</value>
-				<value>Карманы в задних дверях</value>
-				<value>Увеличенный до 160 мм дорожный просвет</value>
-				<value>Внутренняя обшивка крышки багажника</value>
-				<value>Воздушный фильтр салона</value>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>Аудиосистема, радио</value>
-				<value>Управление телефоном на руле</value>
-				<value>Датчик низкого уровня омывающей жидкости</value>
-				<value>Отделка дверей тканью</value>
-				<value>Отделка руля кожей</value>
-				<value>Датчики парковки сзади</value>
-				<value>Светодиодные  ходовые огни</value>
-				<value>Задние дисковые тормоза</value>
-			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>KMHWH81KAHU867889</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>H-1</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>2.5 CRDI WGT (116 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>синий</Color>
-			<ColorCode>W9U</ColorCode>
-			<ColorOrig>синий</ColorOrig>
-			<SpecName>Comfort D 2,5 6МТ (116л.с.)</SpecName>
-			<SpecId>GDB86B857GGJJK</SpecId>
-			<Description/>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Регулировка руля по высоте</value>
-				<value>Подогрев сиденья водителя</value>
-				<value>Электростеклоподъемники</value>
-				<value>Аккумуляторная батарея повышенной емкости</value>
-				<value>Ручки дверей в цвет кузова</value>
-				<value>Обивка сидений тканью</value>
-				<value>Подушка безопасности водителя</value>
-				<value>Подушка безопасности переднего пассажира</value>
-				<value>Иммобилайзер</value>
-				<value>Гудроусилитель руля</value>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>EBD (электронная система распределения тормозных усилий)</value>
-				<value>Фильтр салона</value>
-				<value>Преднатяжители передних ремней безопасности</value>
-				<value>ABS (антиблокировочная система тормозов)</value>
-				<value>Подогрев топливного фильтра</value>
-				<value>Пульт управления ЦЗ в раскладном ключе + сигнализация*</value>
-				<value>Аудиосистема 2 DIN (Радио/CD/MP3) с 6 динамиками</value>
-				<value>Система Bluetooth</value>
-				<value>Блок управления магнитолой на руле</value>
-				<value>Разъемы USB, AUX</value>
-				<value>Отделка центральной консоли под металл</value>
-				<value>Раздельные кресла переднего ряда</value>
-				<value>Ручка на передней левой стойке в салоне</value>
-				<value>Дополнительный стоп-сигнал</value>
-				<value>Легкосплавные диски 16" с шинами 215/70 R16</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Маршрутный компьютер</value>
-				<value>Дополнительный отопитель салона</value>
-				<value>Плафон освещения задней части салона</value>
-				<value>Кондиционер с раздельным управлением (кабина/салон)</value>
-			</DEFAULT_COMPLIT>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CREDIT>0</CREDIT>
+			<CREDIT>145 295</CREDIT>
 			<SLIDER/>
 		</Contract>
 	</ContractList>
