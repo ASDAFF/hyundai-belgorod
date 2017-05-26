@@ -29,9 +29,10 @@ $this->setFrameMode(true);
 			<div class="w-60 f-row-item">
 
 				<ul id="imageGallery" class="gallery list-unstyled">
-					<? foreach($arResult['PROPERTIES']['GALERY']['VALUE'] as $img): ?>
-						<li data-thumb="<?=CFile::GetPath($img);?>" data-src="<?=CFile::GetPath($img);?>">
-							<img src="<?=CFile::GetPath($img);?>" style="max-width: 544px"/>
+
+					<? foreach($arResult['PROPERTIES']['SLIDER']['VALUE'] as $img):?>
+						<li data-thumb="<?=$img;?>" data-src="<?=$img;?>">
+							<img src="<?=$img;?>" style="max-width: 544px"/>
 						</li>
 					<? endforeach; ?>
 				</ul>
