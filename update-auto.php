@@ -88,7 +88,7 @@ if(CModule::IncludeModule("iblock")):
     }
     $adminEmail = COption::GetOptionString('main', 'email_from');
 
-    mail($adminEmail, $SERVER_NAME, 'Нет директории: '.implode(",", $not_vin),
+    mail($adminEmail, $SERVER_NAME, 'Нет директории: '.implode("<br>", $not_vin),
         "From: webmaster@$SERVER_NAME\r\n"
         ."Reply-To: webmaster@$SERVER_NAME\r\n"
         ."Content-type: text/html; charset=utf-8\r\n"
