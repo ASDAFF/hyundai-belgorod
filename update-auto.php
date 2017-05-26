@@ -60,6 +60,12 @@ if(CModule::IncludeModule("iblock")):
             $not_vin[] = (string)$cont->VIN;
         }
 
+        if((string)$cont->MARK == 'Hyundai'){
+            $active = 'Y';
+        }else{
+            $active = 'N';
+        }
+
 
         $arLoadProductArray = Array(
             "IBLOCK_SECTION_ID" => false,          // элемент лежит в корне раздела
@@ -67,7 +73,7 @@ if(CModule::IncludeModule("iblock")):
             "PROPERTY_VALUES"=> $PROP,
             "NAME"           => (string)$cont->MARK.' '.(string)$cont->MODEL,
             "CODE"           => (string)$cont->VIN,
-            "ACTIVE"         => "Y"            // активен
+            "ACTIVE"         => $active            // активен
         );
 
 
@@ -85,7 +91,7 @@ if(CModule::IncludeModule("iblock")):
     mail($adminEmail, $SERVER_NAME, 'Нет директории: '.implode(",", $not_vin),
         "From: webmaster@$SERVER_NAME\r\n"
         ."Reply-To: webmaster@$SERVER_NAME\r\n"
-        ."charset=utf-8\r\n"
+        ."Content-type: text/html; charset=utf-8\r\n"
         ."X-Mailer: PHP/" . phpversion());
 
 
