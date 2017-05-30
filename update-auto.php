@@ -66,6 +66,9 @@ if(CModule::IncludeModule("iblock")):
             $active = 'N';
         }
 
+        $PROP['STREET'] = Array("VALUE" => 55 );
+        $PROP['PHONE'] = Array("VALUE" => 57 );
+
 
         $arLoadProductArray = Array(
             "IBLOCK_SECTION_ID" => false,          // элемент лежит в корне раздела
