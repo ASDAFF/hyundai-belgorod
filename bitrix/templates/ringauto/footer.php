@@ -1,6 +1,15 @@
 <? if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 IncludeTemplateLangFile(__FILE__); ?>
 
+<?
+$ar = desc_model_to_url($APPLICATION->GetCurPage());
+if(!empty($ar['IMG_SLIDE'])){
+    $APPLICATION->IncludeFile("/include/model-slider-all.php", Array(
+        "RESULT" => $ar
+));
+}
+?>
+
 <footer id="footer">
     <div class="footer-center clearfix">
         <nav class="footer-center-nav f-row">
