@@ -25,7 +25,7 @@ function desc_model_to_url($url){
         $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
         while ($ob = $res->GetNextElement()) {
             $arProps = $ob->GetProperties();
-            $arResult['DESC_SLIDE'] = $arProps['DESC_SLIDE']['VALUE'];
+            $arResult['DESC_SLIDE'] = $arProps['DESC_SLIDE']['~VALUE'];
             $arResult['IMG_SLIDE'] = $arProps['IMG_SLIDE']['VALUE'];
         }
     }
