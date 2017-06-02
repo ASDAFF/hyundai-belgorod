@@ -941,13 +941,14 @@ textarea.input-text{
 }
 
 
-.header-center-right{
+.header-center-right,.header-center-left{
     color: #a6a6a6;
     font-size: 14px;
     padding: 0 0;
     font-family: "HyundaiSans",sans-serif;
     margin: 5px 0px;
 }
+
 .header-center-left-btn{
      display: inline-block;
     text-decoration: none;

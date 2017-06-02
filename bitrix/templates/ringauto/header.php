@@ -52,16 +52,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<header id="header">
 
 		<div class="header-center clearfix">
-			<div class="header-center-right">
+			<div class="header-center-left">
 				г. Воронеж, ул. Изыскателей, 39, корп. 2 — <b>+7 473 261-7777</b>
 				<span class="header-center-left-sep">|</span>
 				г. Липецк, ул. 50 лет НЛМК, 24 — <b>+7 4742 72-7777</b>
 			</div>
+			<!--
 			<div class="header-center-left">
 				<a class="header-center-right-btn" href="/offer">
 					<i class="i-spec-offers-icon"></i> Cпецпредложения
 				</a>
 			</div>
+			-->
 		</div>
 
 		<div class="user-bar clearfix">
@@ -70,8 +72,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<nav class="user-bar-nav">
 				<ul class="reset gnb">
 					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link showroom-open" href="#gnbShowroom">Модельный ряд</a></li>
+					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/offer/">Cпецпредложения</a></li>
 					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/hpromise/avtomobili-s-probegom/">Автомобили с пробегом</a></li>
-					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="#gnbShopping">Покупка</a></li>
+					<!-- <li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="#gnbShopping">Покупка</a></li> -->
 					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/service/spetspredlozheniya/">Сервис</a></li>
 					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/configurator">Конфигуратор</a></li>
 					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/contacts">Контакты</a></li>
