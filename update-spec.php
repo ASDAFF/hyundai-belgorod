@@ -20,7 +20,7 @@ if(CModule::IncludeModule("iblock")):
 
 
 
-$xml = file_get_contents('http://hyundai-ringauto.ru/XML_upload_for_1c/new_car.xml',true);
+$xml = file_get_contents('http://hyundai-ringauto.ru/XML_upload_for_1c/voronezh/new_car.xml',true);
 
 
 $xml = new SimpleXMLElement($xml);
@@ -40,6 +40,7 @@ foreach($xml->ContractList->Contract as $cont){
   //  $PROP['folder_id'] = (string)$cont->TRANSMISS;
   //  $PROP['folder_id'] = (string)$cont->TransmissionCount;
     $PROP['color'] = (string)$cont->Color;
+    $PROP['color_code'] = (string)$cont->ColorCode;
  //   $PROP['folder_id'] = (string)$cont->SpecName;
     $PROP['SpecId'] = (string)$cont->SpecId;
  //   $PROP['folder_id'] = (string)$cont->Description;
@@ -57,23 +58,50 @@ foreach($xml->ContractList->Contract as $cont){
     $PROP['CREDIT'] = (string)$cont->CREDIT;
   //  $PROP['SLIDER'] = (string)$cont->SLIDER;
 
+    $dir = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new/'),array('.','..'));
+    foreach($dir as $d){
+        $spec = explode('.',$d);
+        $specId = explode('+',$spec[1]);
+
+        if (in_array((string)$cont->SpecId, $specId)) {
+
+            $path = $_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new/'.$d;
+            $dirId = array_diff( scandir($path),array('.','..'));
+            foreach($dirId as $c){
+                $colorCode = explode('.',$c);
+                if($colorCode[0] == (string)$cont->ColorCode){
+                    $img = array_diff( scandir($path.'/'.$c),array('.','..'));
+                    foreach($img as $i){
+                        $PROP['SLIDER'][] = '/XML_upload_for_1c/voronezh/new/'.$d.'/'.$c.'/'.$i;
+                    }
+
+                }
+            }
+        }
+    }
+    if(!empty($PROP['SLIDER'])){
+        print '<a href="/offer/'.(string)$cont->VIN.'/">'.(string)$cont->SpecName.'</a><br>';
+    }
+
 
     $arLoadProductArray = Array(
         "IBLOCK_SECTION_ID" => false,          // элемент лежит в корне раздела
         "IBLOCK_ID"      => 8,
         "PROPERTY_VALUES"=> $PROP,
         "NAME"           => (string)$cont->MARK.' '.(string)$cont->SpecName,
-        "CODE"           => translit((string)$cont->SpecName.(string)$cont->VIN),
+        "CODE"           => translit((string)$cont->VIN),
         "ACTIVE"         => "Y"            // активен
     );
 
 
 
-    //var_dump(translit((string)$cont->SpecName.(string)$cont->VIN));
-    if($PRODUCT_ID = $el->Add($arLoadProductArray))
-        echo "New ID: ".$PRODUCT_ID;
-    else
+
+    if($PRODUCT_ID = $el->Add($arLoadProductArray)){
+//        echo "New ID: ".$PRODUCT_ID;
+    }else{
         echo "Error: ".$el->LAST_ERROR;
+    }
+
 
 
 

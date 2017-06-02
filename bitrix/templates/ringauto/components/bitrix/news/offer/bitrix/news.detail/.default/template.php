@@ -20,7 +20,7 @@ $this->setFrameMode(true);
 		<?foreach($arResult["PROPERTIES"]["SLIDER"]["VALUE"] as $key => $arItem):?>
 			<div class="main-slideshow-item">
 				<div class="main-slideshow-item-content ls-slide">
-					<a href="<?=$arResult["PROPERTIES"]["SLIDER"]["DESCRIPTION"][$key]?>"><img src="<?=CFile::GetPath($arItem);?>" alt=""/></a>
+					<a href="<?=$arResult["PROPERTIES"]["SLIDER"]["DESCRIPTION"][$key]?>"><img src="<?=$arItem;?>" alt=""/></a>
 				</div>
 			</div>
 		<?endforeach;?>
