@@ -111,7 +111,7 @@ foreach($xml->ContractList->Contract as $cont){
 }
     $adminEmail = COption::GetOptionString('main', 'email_from');
 
-    mail($adminEmail, $SERVER_NAME, 'Нет фото VIN:<br> '.implode("<br>", $arNoImg),
+    mail($adminEmail, 'Нет фото в спецпредложениях '.$SERVER_NAME, 'Нет фото VIN:<br> '.implode("<br>", $arNoImg),
         "From: webmaster@$SERVER_NAME\r\n"
         ."Reply-To: webmaster@$SERVER_NAME\r\n"
         ."Content-type: text/html; charset=utf-8\r\n"
