@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>25.05.2017</Date>
-		<Time>21:34:16</Time>
+		<Date>01.06.2017</Date>
+		<Time>21:34:47</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -100,7 +100,7 @@
 			<SpecId>D7W52G61GGGEP7</SpecId>
 			<Description/>
 			<OLD_PRICE>1 613 000</OLD_PRICE>
-			<NEW_PRICE>1 573 000</NEW_PRICE>
+			<NEW_PRICE>1 533 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -155,7 +155,7 @@
 				<value>Система мониторинга давления в шинах</value>
 				<value>Легкосплавные диски 17" с шинами 225/60 R17</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>40 000</CREDIT>
+			<CREDIT>80 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -184,72 +184,6 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
-			<VIN>Z94K241BAJR024789</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris  (17 MY)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.4 (100 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>белый</Color>
-			<ColorCode>PGU</ColorCode>
-			<ColorOrig>белый</ColorOrig>
-			<SpecName>Active Plus 1,4 6MТ (100 л.с.)</SpecName>
-			<SpecId>H5S4K4617DD141</SpecId>
-			<Description/>
-			<OLD_PRICE>699 900</OLD_PRICE>
-			<NEW_PRICE>634 900</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>Подогрев передних сидений</value>
-				<value>Управление аудиосистемой на руле</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Кондиционер</value>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Электронная система распределения тормозных усилий (EBD)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Дневные ходовые огни в бампере</value>
-				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Брызговики спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка рулевой колонки по высоте</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Стальные диски 15" с шинами 185/65 R15</value>
-				<value>Аудиоподготовка 4 динамика, антенна</value>
-				<value>Электроусилитель руля</value>
-				<value>Система управления стабилизацией (VSM)</value>
-				<value>Система помощи при старте в горку (НАС)</value>
-				<value>Антипробуксовочная система (TCS)</value>
-				<value>Антипробуксовочная система тормозов (АВS)</value>
-				<value>Иммобилайзер</value>
-				<value>Центральный замок</value>
-				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
-				<value>Крепления ISOFIX сзади</value>
-				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
-				<value>Датчик наружной температуры</value>
-				<value>Воздуховоды к ногам задних пассажиров</value>
-				<value>Карман в спинке кресла переднего пассажира</value>
-				<value>Карманы в задних дверях</value>
-				<value>Увеличенный до 160 мм дорожный просвет</value>
-				<value>Внутренняя обшивка крышки багажника</value>
-				<value>Воздушный фильтр салона</value>
-				<value>Аудиосистема, радио</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>65 000</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
 			<VIN>Z94G2811BHR044354</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Сreta (2016-)</MODEL>
@@ -266,7 +200,7 @@
 			<SpecName>ACTIVE + WINTER 1.6 2WD 6AТ</SpecName>
 			<SpecId>CTW5D261FDD088</SpecId>
 			<Description/>
-			<OLD_PRICE>969 900</OLD_PRICE>
+			<OLD_PRICE>869 900</OLD_PRICE>
 			<NEW_PRICE>904 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
@@ -316,7 +250,7 @@
 				<value>Электропривод и подогрев наружных зеркал</value>
 				<value>Стальные диски 16" с шинами 205/65 R16</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>65 000</CREDIT>
+			<CREDIT>-35 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -427,11 +361,11 @@
 			<SpecId>H5S4D261FDD145</SpecId>
 			<Description/>
 			<OLD_PRICE>879 900</OLD_PRICE>
-			<NEW_PRICE>789 900</NEW_PRICE>
+			<NEW_PRICE>779 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<CREDIT>90 000</CREDIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -452,7 +386,7 @@
 			<SpecId>H5S4D261FDD144</SpecId>
 			<Description/>
 			<OLD_PRICE>849 900</OLD_PRICE>
-			<NEW_PRICE>759 900</NEW_PRICE>
+			<NEW_PRICE>749 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -514,7 +448,108 @@
 				<value>Подогрев форсунок стеклоомывателя</value>
 				<value>Подогрев задних сидений</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
+			<CREDIT>100 000</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>XWESU81CDH0001165</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Santa Fe (2015-)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>2.4 (171 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6АТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>PW6</ColorCode>
+			<ColorOrig>белый</ColorOrig>
+			<SpecName>High - tech 2.4 AT</SpecName>
+			<SpecId>DMW7L661GGGBMT</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>XWEJC813BH0001100</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Tucson (2015 -)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>2.0 (149.6 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6АТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>коричневый</Color>
+			<ColorCode>XN3</ColorCode>
+			<ColorOrig>коричневый</ColorOrig>
+			<SpecName>Comfort 2,0 2WD  6АТ</SpecName>
+			<SpecId>D7W52G61FGGEP7</SpecId>
+			<Description/>
+			<OLD_PRICE>1 517 900</OLD_PRICE>
+			<NEW_PRICE>1 437 900</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Передние боковые подушки безопасности</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Преднатяжители передних ремней безопасности</value>
+				<value>ABS + EBD (система распределения тормозных усилий)</value>
+				<value>Система помощи при экстренном торможении</value>
+				<value>ESC (система стабилизации) с функцией помощи при старте в гору и спуска с горы</value>
+				<value>VSM (система управления стабилизацией)</value>
+				<value>Регулировка руля по высоте и вылету</value>
+				<value>Подогрев передних сидений</value>
+				<value>Электростеклоподъемник двери водителя с автоматическим опусканием</value>
+				<value>Электропривод и подогрев наружных зеркал</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Маршрутный компьютер</value>
+				<value>Разъемы USB, AUX</value>
+				<value>Управление магнитолой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Регулировка угла наклона спинок сидений второго ряда</value>
+				<value>Шторка багажника</value>
+				<value>Светодиодные дневные ходовые огни</value>
+				<value>Ручки дверей и зеркала в цвет кузова</value>
+				<value>Светодиодные дневные ходовые огни</value>
+				<value>Пепельница и прикуриватель</value>
+				<value>Задний спойлер</value>
+				<value>Противотуманные фары</value>
+				<value>Полноразмерное запасное колесо с легкосплавным диском</value>
+				<value>Брызговики</value>
+				<value>Аудиосистема (Радио, 6 динамиков)</value>
+				<value>Датчик света</value>
+				<value>Датчик света с автоматическим включением фар</value>
+				<value>Повторители поворота в корпусах наружных зеркал</value>
+				<value>Круиз-контроль с управлением на руле</value>
+				<value>Датчик дождя</value>
+				<value>Двухзонный климат-контроль</value>
+				<value>Система антизапотевания стекол</value>
+				<value>Датчики парковки сзади</value>
+				<value>Сетка для багажа</value>
+				<value>Безопасный доводчик стекла водителя</value>
+				<value>Охлаждаемый перчаточный ящик</value>
+				<value>Отделка руля и рукоятки КПП кожей</value>
+				<value>Самозатемняющееся внутрисалонное зеркало</value>
+				<value>Подогрев руля</value>
+				<value>Регулировка поясничного подпора сиденья водителя с электроприводом</value>
+				<value>Теплозащитные лобовое и передние боковые стекла, тонированные задние боковые и с</value>
+				<value>Подогрев лобового стекла в зоне покоя стеклоочистителей</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Пульт управления центральным замком в раскладном ключе + сигнализация**</value>
+				<value>Bluetooth с системой распознавания голоса</value>
+				<value>Обивка сидений тканью</value>
+				<value>Легкосплавные диски 17" с шинами 225/60 R17</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>80 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -908,7 +943,7 @@
 			<SpecId>F2S4D2617DD894</SpecId>
 			<Description/>
 			<OLD_PRICE>1 030 000</OLD_PRICE>
-			<NEW_PRICE>990 000</NEW_PRICE>
+			<NEW_PRICE>960 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -965,6 +1000,74 @@
 				<value>Лёгкая тонировка стекол</value>
 				<value>Кожаная отделка руля и рукоятки коробки передач</value>
 				<value>Шумоизоляция капота</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>70 000</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>KMHWH81KBHU870766</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>H-1</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>2.5 CRDI VGT (170 л.с.)</FUEL_TYPE>
+			<TRANSMISS>5AT</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>черный</Color>
+			<ColorCode>PB5</ColorCode>
+			<ColorOrig>черный</ColorOrig>
+			<SpecName>Business 2,5  5АТ (170л.с.)</SpecName>
+			<SpecId>GDB86B85DGGJJE</SpecId>
+			<Description/>
+			<OLD_PRICE>2 224 000</OLD_PRICE>
+			<NEW_PRICE>2 184 000</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Плафон освещения задней части салона</value>
+				<value>Кондиционер с раздельным управлением (кабина/салон)</value>
+				<value>Обивка сидений тканью</value>
+				<value>Подушка безопасности водителя</value>
+				<value>Подушка безопасности переднего пассажира</value>
+				<value>Преднатяжители передних ремней безопасности</value>
+				<value>ABS (антиблокировочная система тормозов)</value>
+				<value>EBD (электронная система распределения тормозных усилий)</value>
+				<value>Иммобилайзер</value>
+				<value>Регулировка руля по высоте</value>
+				<value>Подогрев сиденья водителя</value>
+				<value>Гудроусилитель руля</value>
+				<value>Электростеклоподъемники</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Фильтр салона</value>
+				<value>Аккумуляторная батарея повышенной емкости</value>
+				<value>Подогрев топливного фильтра</value>
+				<value>Пульт управления ЦЗ в раскладном ключе + сигнализация*</value>
+				<value>Аудиосистема 2 DIN (Радио/CD/MP3) с 6 динамиками</value>
+				<value>Система Bluetooth</value>
+				<value>Блок управления магнитолой на руле</value>
+				<value>Разъемы USB, AUX</value>
+				<value>Отделка центральной консоли под металл</value>
+				<value>Раздельные кресла переднего ряда</value>
+				<value>Ручка на передней левой стойке в салоне</value>
+				<value>Ручки дверей в цвет кузова</value>
+				<value>Дополнительный стоп-сигнал</value>
+				<value>Легкосплавные диски 16" с шинами 215/70 R16</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Маршрутный компьютер</value>
+				<value>Дополнительный отопитель салона</value>
+				<value>ESP (электронная система стабилизации)</value>
+				<value>Датчик парковки сзади</value>
+				<value>Подогрев руля</value>
+				<value>Дневные ходовые огни</value>
+				<value>Охлаждаемый перчаточный ящик</value>
+				<value>Комбинация натуральной и искусственной кожи в отделке сидений (бежевый цвет)</value>
+				<value>Плафон освещения задней части салона на светодиодах (6 цветов)</value>
+				<value>Двухцветная окраска кузова</value>
+				<value>Боковой защитный молдинг</value>
+				<value>Автоматическая блокировка заднего дифференциала</value>
+				<value>Круиз-контроль</value>
 			</DEFAULT_COMPLIT>
 			<CREDIT>40 000</CREDIT>
 			<SLIDER/>
@@ -1069,86 +1172,6 @@
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
 			<CREDIT>0</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>Z94K241CAJR012864</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris  (17 MY)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>белый</Color>
-			<ColorCode>PGU</ColorCode>
-			<ColorOrig>белый</ColorOrig>
-			<SpecName>Comfort+ Расширенный 1,6 6МТ (123л.с.)</SpecName>
-			<SpecId>H5S4D2617DD143</SpecId>
-			<Description/>
-			<OLD_PRICE>799 900</OLD_PRICE>
-			<NEW_PRICE>677 904</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Электронная система распределения тормозных усилий (EBD)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Дневные ходовые огни в бампере</value>
-				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Брызговики спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка рулевой колонки по высоте</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
-				<value>Управление аудиосистемой на руле</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Стальные диски 15" с шинами 185/65 R15</value>
-				<value>Аудиоподготовка 4 динамика, антенна</value>
-				<value>Кондиционер</value>
-				<value>Подогрев передних сидений</value>
-				<value>Пульт управления центральным замком в ключе + сигнализация</value>
-				<value>Климат-контроль</value>
-				<value>Регулировка рулевой колонки по вылету</value>
-				<value>Электроусилитель руля</value>
-				<value>Система управления стабилизацией (VSM)</value>
-				<value>Подогрев руля</value>
-				<value>Панель приборов Supervision</value>
-				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
-				<value>Система помощи при старте в горку (НАС)</value>
-				<value>Антипробуксовочная система (TCS)</value>
-				<value>Антипробуксовочная система тормозов (АВS)</value>
-				<value>Иммобилайзер</value>
-				<value>Центральный замок</value>
-				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
-				<value>Крепления ISOFIX сзади</value>
-				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
-				<value>Датчик наружной температуры</value>
-				<value>Воздуховоды к ногам задних пассажиров</value>
-				<value>Карман в спинке кресла переднего пассажира</value>
-				<value>Карманы в задних дверях</value>
-				<value>Увеличенный до 160 мм дорожный просвет</value>
-				<value>Внутренняя обшивка крышки багажника</value>
-				<value>Воздушный фильтр салона</value>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>Аудиосистема, радио</value>
-				<value>Управление телефоном на руле</value>
-				<value>Датчик низкого уровня омывающей жидкости</value>
-				<value>Датчики парковки сзади</value>
-				<value>Отделка дверей тканью</value>
-				<value>Отделка руля кожей</value>
-				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>121 996</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -1635,7 +1658,7 @@
 			<SpecId>H5S4D2617DD143</SpecId>
 			<Description/>
 			<OLD_PRICE>799 900</OLD_PRICE>
-			<NEW_PRICE>709 900</NEW_PRICE>
+			<NEW_PRICE>699 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -1694,7 +1717,7 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -1715,7 +1738,7 @@
 			<SpecId>H5S4D261FDD144</SpecId>
 			<Description/>
 			<OLD_PRICE>849 900</OLD_PRICE>
-			<NEW_PRICE>759 900</NEW_PRICE>
+			<NEW_PRICE>749 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -1777,7 +1800,7 @@
 				<value>Подогрев форсунок стеклоомывателя</value>
 				<value>Подогрев задних сидений</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -1944,72 +1967,6 @@
 				<value>Рейлинги на крыше</value>
 			</DEFAULT_COMPLIT>
 			<CREDIT>250 000</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>Z94K241CAJR008316</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris  (17 MY)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>черный</Color>
-			<ColorCode>MZH</ColorCode>
-			<ColorOrig>черный</ColorOrig>
-			<SpecName>Active Plus 1,6 6MТ (123 л.с.)</SpecName>
-			<SpecId>H5S4D2617DD141</SpecId>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Электронная система распределения тормозных усилий (EBD)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Дневные ходовые огни в бампере</value>
-				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Брызговики спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка рулевой колонки по высоте</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Управление аудиосистемой на руле</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Стальные диски 15" с шинами 185/65 R15</value>
-				<value>Аудиоподготовка 4 динамика, антенна</value>
-				<value>Кондиционер</value>
-				<value>Подогрев передних сидений</value>
-				<value>Электроусилитель руля</value>
-				<value>Система управления стабилизацией (VSM)</value>
-				<value>Система помощи при старте в горку (НАС)</value>
-				<value>Антипробуксовочная система (TCS)</value>
-				<value>Антипробуксовочная система тормозов (АВS)</value>
-				<value>Иммобилайзер</value>
-				<value>Центральный замок</value>
-				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
-				<value>Крепления ISOFIX сзади</value>
-				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
-				<value>Датчик наружной температуры</value>
-				<value>Воздуховоды к ногам задних пассажиров</value>
-				<value>Карман в спинке кресла переднего пассажира</value>
-				<value>Карманы в задних дверях</value>
-				<value>Увеличенный до 160 мм дорожный просвет</value>
-				<value>Внутренняя обшивка крышки багажника</value>
-				<value>Воздушный фильтр салона</value>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>Аудиосистема, радио</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -2199,6 +2156,85 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
+			<VIN>XWEDB41CBH0000759</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Elantra AD</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.6 (128 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6АТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>WAW</ColorCode>
+			<ColorOrig>белый</ColorOrig>
+			<SpecName>BASE 1.6 6АТ(128л.с)</SpecName>
+			<SpecId>F2S4D261FDD895</SpecId>
+			<Description/>
+			<OLD_PRICE>1 065 000</OLD_PRICE>
+			<NEW_PRICE>995 000</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>ABS (антиблокировочная система тормозов)</value>
+				<value>EBD (система распределения тормозных усилий)</value>
+				<value>ESP (электронная система стабилизации курсовой усточивости)</value>
+				<value>HAC (cистема помощи при трогании на подъеме)</value>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Преднатяжители передних ремней безопасности</value>
+				<value>Напоминание о непристегнутом ремне безопасности водителя</value>
+				<value>3-х точечные ремни безопасности для 5-ти пассажиров</value>
+				<value>Крепления детских сидений Isofix</value>
+				<value>Детский замок</value>
+				<value>Автоматическое отпирание дверей в случае аварии</value>
+				<value>Передние (2) и задние (3) подголовники, регулируемые по высоте</value>
+				<value>Дисковые тормоза спереди и сзади</value>
+				<value>Центральный замок</value>
+				<value>Иммобилайзер</value>
+				<value>Электроусилитель рулевого управления</value>
+				<value>Ручная регулировка руля по высоте и вылету</value>
+				<value>Управление магнитолой на руле</value>
+				<value>Маршрутный компьютер</value>
+				<value>Датчик давления в шинах</value>
+				<value>Ручки дверей, бампера и зеркала в цвет кузова</value>
+				<value>Брызговики</value>
+				<value>Электропривод и подогрев наружных зеркал</value>
+				<value>Передние фары прожекторного типа</value>
+				<value>Механический корректор фар</value>
+				<value>Задние противотуманные фонари</value>
+				<value>Дополнительный стоп-сигнал</value>
+				<value>Электростеклоподъемники передние и задние</value>
+				<value>Разъемы USB, AUX</value>
+				<value>Розетка 12V</value>
+				<value>Подлокотник с боксом</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Лампы для чтения для 1-го ряда с футляром для очков</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Центральный задний подлокотник с подстаканниками</value>
+				<value>Складывающаяся спинка заднего сиденья в пропорции 6:4</value>
+				<value>Карманы в дверях спереди и сзади</value>
+				<value>Обивка сидений тканью</value>
+				<value>Стальные диски 15" с шинами 195/65 R15</value>
+				<value>Временное запасное колесо со стальным диском</value>
+				<value>Кондиционер</value>
+				<value>Передние дневные ходовые огни</value>
+				<value>Аудиосистема (Радио/CD/MP3) с 4 динамиками</value>
+				<value>Bluetooth</value>
+				<value>Пульт управления центральным замком в раскладном ключе</value>
+				<value>Подогрев передних сидений</value>
+				<value>Сетка для фиксации багажа</value>
+				<value>Лёгкая тонировка стекол</value>
+				<value>Шумоизоляция капота</value>
+				<value>Передние противотуманные фары</value>
+				<value>Кожаная отделка руля и рукоятки коробки передач</value>
+				<value>Регулировка сиденья пассажира по высоте</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>70 000</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
 			<VIN>XWEGN41CDG0000118</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>GENESIS (2014-)</MODEL>
@@ -2304,7 +2340,7 @@
 			<SpecId>B8WC2FC5GGG745</SpecId>
 			<Description/>
 			<OLD_PRICE>2 754 000</OLD_PRICE>
-			<NEW_PRICE>2 694 000</NEW_PRICE>
+			<NEW_PRICE>2 374 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -2387,174 +2423,7 @@
 				<value>Система автоматической парковки и передние датчики парковки</value>
 				<value>Легкосплавные диски 19" с шинами 235/55 R19</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>60 000</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>XWEJC813DJ0003645</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Tucson (2015 -)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>2.0 (149.6 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>черный</Color>
-			<ColorCode>PAE</ColorCode>
-			<ColorOrig>черный</ColorOrig>
-			<SpecName>Comfort 2.0 4 WD  6AT</SpecName>
-			<SpecId>D7W52G61GGGEP7</SpecId>
-			<Description/>
-			<OLD_PRICE>1 625 000</OLD_PRICE>
-			<NEW_PRICE>1 473 750</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Преднатяжители передних ремней безопасности</value>
-				<value>ABS + EBD (система распределения тормозных усилий)</value>
-				<value>Брызговики</value>
-				<value>Управление магнитолой на руле</value>
-				<value>Обивка сидений тканью</value>
-				<value>Датчик света</value>
-				<value>Светодиодные дневные ходовые огни</value>
-				<value>Передние боковые подушки безопасности</value>
-				<value>Система помощи при экстренном торможении</value>
-				<value>ESC (система стабилизации) с функцией помощи при старте в гору и спуска с горы</value>
-				<value>VSM (система управления стабилизацией)</value>
-				<value>Регулировка руля по высоте и вылету</value>
-				<value>Подогрев передних сидений</value>
-				<value>Электростеклоподъемник двери водителя с автоматическим опусканием</value>
-				<value>Электропривод и подогрев наружных зеркал</value>
-				<value>Маршрутный компьютер</value>
-				<value>Разъемы USB, AUX</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Регулировка угла наклона спинок сидений второго ряда</value>
-				<value>Шторка багажника</value>
-				<value>Светодиодные дневные ходовые огни</value>
-				<value>Ручки дверей и зеркала в цвет кузова</value>
-				<value>Задний спойлер</value>
-				<value>Противотуманные фары</value>
-				<value>Полноразмерное запасное колесо с легкосплавным диском</value>
-				<value>Пульт управления центральным замком в раскладном ключе + сигнализация**</value>
-				<value>Аудиосистема (Радио, 6 динамиков)</value>
-				<value>Bluetooth с системой распознавания голоса</value>
-				<value>Датчик света с автоматическим включением фар</value>
-				<value>Повторители поворота в корпусах наружных зеркал</value>
-				<value>Круиз-контроль с управлением на руле</value>
-				<value>Датчик дождя</value>
-				<value>Двухзонный климат-контроль</value>
-				<value>Система антизапотевания стекол</value>
-				<value>Датчики парковки сзади</value>
-				<value>Сетка для багажа</value>
-				<value>Безопасный доводчик стекла водителя</value>
-				<value>Охлаждаемый перчаточный ящик</value>
-				<value>Отделка руля и рукоятки КПП кожей</value>
-				<value>Самозатемняющееся внутрисалонное зеркало</value>
-				<value>Подогрев руля</value>
-				<value>Регулировка поясничного подпора сиденья водителя с электроприводом</value>
-				<value>Теплозащитные лобовое и передние боковые стекла, тонированные задние боковые и с</value>
-				<value>Подогрев лобового стекла в зоне покоя стеклоочистителей</value>
-				<value>Пепельница и прикуриватель</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Легкосплавные диски 17" с шинами 225/60 R17</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>151 250</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>Z94G2813BHR044372</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Сreta (2016-)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>2.0 (149.6 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6АТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>черный</Color>
-			<ColorCode>MZH</ColorCode>
-			<ColorOrig>черный</ColorOrig>
-			<SpecName>COMFORT+ADVANCED</SpecName>
-			<SpecId>CTW52G61FDD108</SpecId>
-			<Description/>
-			<OLD_PRICE>1 179 900</OLD_PRICE>
-			<NEW_PRICE>1 114 900</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>65 000</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>Z94G2811CHR043671</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Сreta (2016-)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.6 (121л.с.)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>синий</Color>
-			<ColorCode>N4U</ColorCode>
-			<ColorOrig>синий</ColorOrig>
-			<SpecName>ACTIVE 1.6 4WD 6МТ</SpecName>
-			<SpecId>CTW5D2618DD087</SpecId>
-			<Description/>
-			<OLD_PRICE>974 900</OLD_PRICE>
-			<NEW_PRICE>909 900</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Преднатяжители передних ремней безопасности</value>
-				<value>ABS + EBD (система распределения тормозных усилий)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Дневные ходовые огни</value>
-				<value>Ручки дверей в цвет кузова</value>
-				<value>Полноразмерное запасное колесо на стальном диске</value>
-				<value>Брызговики</value>
-				<value>Дисковые тормоза спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка руля по высоте</value>
-				<value>Передний подлокотник с боксом</value>
-				<value>Маршрутный компьютер</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Bluetooth</value>
-				<value>Управление магнитолой на руле</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Электростеклоподъемники передних и задних дверей</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Обивка сидений тканью</value>
-				<value>4 подголовника</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Футляр для очков в потолочной консоли</value>
-				<value>Пластиковые накладки на порогах дверей</value>
-				<value>Антенна на крыше ("плавник")</value>
-				<value>Аудиосистема (Радио, 4 динамика)</value>
-				<value>Гидроусилитель рулевого управления</value>
-				<value>Кондиционер</value>
-				<value>Внешние зеркала заднего вида в цвет кузова</value>
-				<value>Подогрев передних сидений с тремя режимами</value>
-				<value>Пульт управления центральным замком в ключе</value>
-				<value>Крючки для фиксации груза в багажнике</value>
-				<value>Дополнительный органайзер под полом багажника</value>
-				<value>Полка багажника</value>
-				<value>ESC (система стабилизации) с функцией помощи при старте в гору и спуска с горы</value>
-				<value>Электропривод и подогрев наружных зеркал</value>
-				<value>Стальные диски 16" с шинами 205/65 R16</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>65 000</CREDIT>
+			<CREDIT>380 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -2575,11 +2444,11 @@
 			<SpecId>H5S4D261FDD145</SpecId>
 			<Description/>
 			<OLD_PRICE>879 900</OLD_PRICE>
-			<NEW_PRICE>789 900</NEW_PRICE>
+			<NEW_PRICE>779 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<CREDIT>90 000</CREDIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -2850,81 +2719,6 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
-			<VIN>Z94G2813DHR043202</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Сreta (2016-)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>2.0 (149.6 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6АТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>серебристый</Color>
-			<ColorCode>RHM</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
-			<SpecName>Comfort Plus 2.0 4WD, 6AT</SpecName>
-			<SpecId>CTW52G61GDD102</SpecId>
-			<Description/>
-			<OLD_PRICE>1 204 900</OLD_PRICE>
-			<NEW_PRICE>1 139 900</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Фары проекционного типа со статичными лампами подсветки поворота руля</value>
-				<value>Передние противотуманные фары</value>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Преднатяжители передних ремней безопасности</value>
-				<value>ABS + EBD (система распределения тормозных усилий)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Дневные ходовые огни</value>
-				<value>Ручки дверей в цвет кузова</value>
-				<value>Полноразмерное запасное колесо на стальном диске</value>
-				<value>Брызговики</value>
-				<value>Дисковые тормоза спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка руля по высоте</value>
-				<value>Передний подлокотник с боксом</value>
-				<value>Маршрутный компьютер</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Bluetooth</value>
-				<value>Управление магнитолой на руле</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Электростеклоподъемники передних и задних дверей</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Обивка сидений тканью</value>
-				<value>4 подголовника</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Футляр для очков в потолочной консоли</value>
-				<value>Пластиковые накладки на порогах дверей</value>
-				<value>Антенна на крыше ("плавник")</value>
-				<value>Аудиосистема (Радио, 4 динамика)</value>
-				<value>Внешние зеркала заднего вида в цвет кузова</value>
-				<value>Подогрев передних сидений с тремя режимами</value>
-				<value>Пульт управления центральным замком в ключе</value>
-				<value>Крючки для фиксации груза в багажнике</value>
-				<value>Дополнительный органайзер под полом багажника</value>
-				<value>Полка багажника</value>
-				<value>Климат-контроль</value>
-				<value>Боковые подушки безопасности</value>
-				<value>Шторки безопасности</value>
-				<value>Электроусилитель рулевого управления</value>
-				<value>Рейлинги на крыше</value>
-				<value>Задние датчики парковки</value>
-				<value>Металлизированная отделка внутренних дверных ручек</value>
-				<value>Легкосплавные диски 16" с шинами 205/65 R16</value>
-				<value>ESC (система стабилизации) с функцией помощи при старте в гору и спуска с горы</value>
-				<value>VSM (система управления стабилизацией)</value>
-				<value>Электропривод и подогрев наружных зеркал</value>
-				<value>Светодиодные дневные ходовые огни</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>65 000</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
 			<VIN>Z94K241BAJR001846</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Solaris  (17 MY)</MODEL>
@@ -3022,7 +2816,7 @@
 			<SpecId>H5S4D261FDD143</SpecId>
 			<Description/>
 			<OLD_PRICE>839 900</OLD_PRICE>
-			<NEW_PRICE>749 900</NEW_PRICE>
+			<NEW_PRICE>739 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -3081,7 +2875,7 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -3168,6 +2962,72 @@
 				<value>Рейлинги на крыше</value>
 			</DEFAULT_COMPLIT>
 			<CREDIT>143 716</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>Z94K241BBJR026026</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris  (17 MY)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.4 (100 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6АТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>темно-серый</Color>
+			<ColorCode>U4G</ColorCode>
+			<ColorOrig>темно-серый</ColorOrig>
+			<SpecName>Active Plus 1,4 6АТ (100 л.с.)</SpecName>
+			<SpecId>H5S4K461FDD141</SpecId>
+			<Description/>
+			<OLD_PRICE>739 900</OLD_PRICE>
+			<NEW_PRICE>639 900</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Кондиционер</value>
+				<value>Подогрев передних сидений</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антипробуксовочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Аудиосистема, радио</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -3453,7 +3313,7 @@
 			<SpecId>H5S4D261FDD146</SpecId>
 			<Description/>
 			<OLD_PRICE>889 900</OLD_PRICE>
-			<NEW_PRICE>799 900</NEW_PRICE>
+			<NEW_PRICE>789 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -3519,7 +3379,7 @@
 				<value>Подогрев задних сидений</value>
 				<value>Боковые подушки безопасности водителя и переднего пассажира</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -4261,60 +4121,28 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
-			<VIN>KMHWH81KAHU867889</VIN>
+			<VIN>Z94G3813DHR044670</VIN>
 			<MARK>Hyundai</MARK>
-			<MODEL>H-1</MODEL>
+			<MODEL>Сreta (2016-)</MODEL>
 			<IsNew>yes</IsNew>
 			<CAPACITY>0</CAPACITY>
 			<POWER>0</POWER>
 			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>2.5 CRDI WGT (116 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
+			<FUEL_TYPE>2.0</FUEL_TYPE>
+			<TRANSMISS>6АТ</TRANSMISS>
 			<TransmissionCount>0</TransmissionCount>
-			<Color>синий</Color>
-			<ColorCode>W9U</ColorCode>
-			<ColorOrig>синий</ColorOrig>
-			<SpecName>Comfort D 2,5 6МТ (116л.с.)</SpecName>
-			<SpecId>GDB86B857GGJJK</SpecId>
+			<Color>серебристый</Color>
+			<ColorCode>RHM</ColorCode>
+			<ColorOrig>серебристый</ColorOrig>
+			<SpecName>STYLE</SpecName>
+			<SpecId>CTW52G61GGG011</SpecId>
 			<Description/>
-			<OLD_PRICE>1 974 000</OLD_PRICE>
-			<NEW_PRICE>1 924 000</NEW_PRICE>
+			<OLD_PRICE>1 314 900</OLD_PRICE>
+			<NEW_PRICE>1 249 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Регулировка руля по высоте</value>
-				<value>Подогрев сиденья водителя</value>
-				<value>Электростеклоподъемники</value>
-				<value>Аккумуляторная батарея повышенной емкости</value>
-				<value>Ручки дверей в цвет кузова</value>
-				<value>Обивка сидений тканью</value>
-				<value>Подушка безопасности водителя</value>
-				<value>Подушка безопасности переднего пассажира</value>
-				<value>Иммобилайзер</value>
-				<value>Гудроусилитель руля</value>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>EBD (электронная система распределения тормозных усилий)</value>
-				<value>Фильтр салона</value>
-				<value>Преднатяжители передних ремней безопасности</value>
-				<value>ABS (антиблокировочная система тормозов)</value>
-				<value>Подогрев топливного фильтра</value>
-				<value>Пульт управления ЦЗ в раскладном ключе + сигнализация*</value>
-				<value>Аудиосистема 2 DIN (Радио/CD/MP3) с 6 динамиками</value>
-				<value>Система Bluetooth</value>
-				<value>Блок управления магнитолой на руле</value>
-				<value>Разъемы USB, AUX</value>
-				<value>Отделка центральной консоли под металл</value>
-				<value>Раздельные кресла переднего ряда</value>
-				<value>Ручка на передней левой стойке в салоне</value>
-				<value>Дополнительный стоп-сигнал</value>
-				<value>Легкосплавные диски 16" с шинами 215/70 R16</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Маршрутный компьютер</value>
-				<value>Дополнительный отопитель салона</value>
-				<value>Плафон освещения задней части салона</value>
-				<value>Кондиционер с раздельным управлением (кабина/салон)</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>50 000</CREDIT>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>65 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -4395,6 +4223,94 @@
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
 			<CREDIT>90 000</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>XWEDC41CAH0000359</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Elantra AD</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.6 (128 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6МТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>серебристый</Color>
+			<ColorCode>T8S</ColorCode>
+			<ColorOrig>серебристый</ColorOrig>
+			<SpecName>ACTIVE1.6 6МТ(128л.с)</SpecName>
+			<SpecId>F2S4D2617GGBAM</SpecId>
+			<Description/>
+			<OLD_PRICE>1 100 000</OLD_PRICE>
+			<NEW_PRICE>1 030 000</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Легкосплавные диски 16" с шинами 205/55 R16</value>
+				<value>Двухзонный климат-контроль</value>
+				<value>Система антизапотевания с ионизатором воздуха</value>
+				<value>Передние боковые подушки безопасности + шторки безопасности</value>
+				<value>Датчики парковки сзади</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>ABS (антиблокировочная система тормозов)</value>
+				<value>EBD (система распределения тормозных усилий)</value>
+				<value>ESP (электронная система стабилизации курсовой усточивости)</value>
+				<value>HAC (cистема помощи при трогании на подъеме)</value>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Преднатяжители передних ремней безопасности</value>
+				<value>Напоминание о непристегнутом ремне безопасности водителя</value>
+				<value>3-х точечные ремни безопасности для 5-ти пассажиров</value>
+				<value>Крепления детских сидений Isofix</value>
+				<value>Детский замок</value>
+				<value>Автоматическое отпирание дверей в случае аварии</value>
+				<value>Передние (2) и задние (3) подголовники, регулируемые по высоте</value>
+				<value>Дисковые тормоза спереди и сзади</value>
+				<value>Центральный замок</value>
+				<value>Иммобилайзер</value>
+				<value>Электроусилитель рулевого управления</value>
+				<value>Ручная регулировка руля по высоте и вылету</value>
+				<value>Управление магнитолой на руле</value>
+				<value>Маршрутный компьютер</value>
+				<value>Датчик давления в шинах</value>
+				<value>Ручки дверей, бампера и зеркала в цвет кузова</value>
+				<value>Брызговики</value>
+				<value>Электропривод и подогрев наружных зеркал</value>
+				<value>Передние фары прожекторного типа</value>
+				<value>Механический корректор фар</value>
+				<value>Задние противотуманные фонари</value>
+				<value>Дополнительный стоп-сигнал</value>
+				<value>Электростеклоподъемники передние и задние</value>
+				<value>Разъемы USB, AUX</value>
+				<value>Розетка 12V</value>
+				<value>Подлокотник с боксом</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Лампы для чтения для 1-го ряда с футляром для очков</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Центральный задний подлокотник с подстаканниками</value>
+				<value>Складывающаяся спинка заднего сиденья в пропорции 6:4</value>
+				<value>Карманы в дверях спереди и сзади</value>
+				<value>Обивка сидений тканью</value>
+				<value>Передние дневные ходовые огни</value>
+				<value>Bluetooth</value>
+				<value>Пульт управления центральным замком в раскладном ключе</value>
+				<value>Подогрев передних сидений</value>
+				<value>Сетка для фиксации багажа</value>
+				<value>Лёгкая тонировка стекол</value>
+				<value>Шумоизоляция капота</value>
+				<value>Передние противотуманные фары</value>
+				<value>Кожаная отделка руля и рукоятки коробки передач</value>
+				<value>Регулировка сиденья пассажира по высоте</value>
+				<value>Аудиосистема (Радио/CD/MP3) с 6 динамиками</value>
+				<value>Полноразмерное запасное колесо с легкосплавным диском</value>
+				<value>Датчик дождя</value>
+				<value>Подогрев задних сидений</value>
+				<value>Молдинги на дверях покрытые хромом</value>
+				<value>Автоматический режим опускания стекла водителя</value>
+				<value>Карман в спинке переднего пассажирского сидения</value>
+				<value>Переносная пепельница и прикуриватель</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>70 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -4499,6 +4415,100 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
+			<VIN>XWELB81CBH0000881</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>i40 WGN</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>2.0 (149.6 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6АТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>PDW</ColorCode>
+			<ColorOrig>белый</ColorOrig>
+			<SpecName>COMFORT FL</SpecName>
+			<SpecId>DFW52G61</SpecId>
+			<Description/>
+			<OLD_PRICE>1 304 000</OLD_PRICE>
+			<NEW_PRICE>1 224 000</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>80 000</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>Z94G2811CHR043775</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Сreta (2016-)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6МТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>PGU</ColorCode>
+			<ColorOrig>белый</ColorOrig>
+			<SpecName>ACTIVE + WINTER 1.6 4WD 6МТ</SpecName>
+			<SpecId>CTW5D2618DD088</SpecId>
+			<Description/>
+			<OLD_PRICE>994 900</OLD_PRICE>
+			<NEW_PRICE>929 900</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Подогрев рулевого колеса</value>
+				<value>Подогрев задних сидений с двумя режимами</value>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Преднатяжители передних ремней безопасности</value>
+				<value>ABS + EBD (система распределения тормозных усилий)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Дневные ходовые огни</value>
+				<value>Ручки дверей в цвет кузова</value>
+				<value>Полноразмерное запасное колесо на стальном диске</value>
+				<value>Брызговики</value>
+				<value>Дисковые тормоза спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка руля по высоте</value>
+				<value>Передний подлокотник с боксом</value>
+				<value>Маршрутный компьютер</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Bluetooth</value>
+				<value>Управление магнитолой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Электростеклоподъемники передних и задних дверей</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Обивка сидений тканью</value>
+				<value>4 подголовника</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Футляр для очков в потолочной консоли</value>
+				<value>Пластиковые накладки на порогах дверей</value>
+				<value>Антенна на крыше ("плавник")</value>
+				<value>Аудиосистема (Радио, 4 динамика)</value>
+				<value>Гидроусилитель рулевого управления</value>
+				<value>Кондиционер</value>
+				<value>Внешние зеркала заднего вида в цвет кузова</value>
+				<value>Подогрев передних сидений с тремя режимами</value>
+				<value>Пульт управления центральным замком в ключе</value>
+				<value>Крючки для фиксации груза в багажнике</value>
+				<value>Дополнительный органайзер под полом багажника</value>
+				<value>Полка багажника</value>
+				<value>Кожаная отделка рулевого колеса</value>
+				<value>ESC (система стабилизации) с функцией помощи при старте в гору и спуска с горы</value>
+				<value>Электропривод и подогрев наружных зеркал</value>
+				<value>Стальные диски 16" с шинами 205/65 R16</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>65 000</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
 			<VIN>XWEGN41CDG0000595</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>GENESIS (2014-)</MODEL>
@@ -4584,75 +4594,6 @@
 				<value>Отделка потолка, солнцезащитных козырьков и передних стоек замшей</value>
 			</DEFAULT_COMPLIT>
 			<CREDIT>336 130</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>TMAD251BAHJ357760</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>i30</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,4</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.4 CVVT (100 л,с)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>черный</Color>
-			<ColorCode>PAE</ColorCode>
-			<ColorOrig>черный</ColorOrig>
-			<SpecName>Classic1.6 6МТ(130 л.с.)</SpecName>
-			<SpecId>A6S6D2617DDAFJ</SpecId>
-			<Description/>
-			<OLD_PRICE>939 900</OLD_PRICE>
-			<NEW_PRICE>877 900</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Подушка безопасности водителя</value>
-				<value>Подушка безопасности переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Преднатяжители передних ремней безопасности</value>
-				<value>Индикатор непристегнутого ремня безопасности</value>
-				<value>Регулировка передних подголовников</value>
-				<value>Задние дисковые тормоза</value>
-				<value>ABS (антиблокировочная система тормозов)</value>
-				<value>ESS (система предупреждения водителей сзади при экстренном торможении)</value>
-				<value>Иммобилайзер</value>
-				<value>Корректор фар</value>
-				<value>Регулировка руля по высоте и вылету</value>
-				<value>Электроусилитель рулевого управления</value>
-				<value>Подогрев передних сидений</value>
-				<value>Регулировка по высоте водительского сиденья</value>
-				<value>Электростеклоподъемники передние</value>
-				<value>Бортовой компьютер</value>
-				<value>Автоблокировка дверных замков на скорости</value>
-				<value>Складывающаяся спинка заднего сиденья</value>
-				<value>Зеркала в цвет кузова</value>
-				<value>Брызговики</value>
-				<value>Дополнительный стоп-сигнал</value>
-				<value>Ручки дверей в цвет кузова</value>
-				<value>Кондиционер</value>
-				<value>Лёгкая тонировка стёкол</value>
-				<value>Стальные диски 15" с шинами 195/65 R15</value>
-				<value>Статичные лампочки подсветки поворота при повороте руля</value>
-				<value>Обивка сидений тканью</value>
-				<value>Передние боковые подушки безопасности</value>
-				<value>Шторки безопасности</value>
-				<value>Противотуманные фары</value>
-				<value>Пульт управления центральным замком в раскладном ключе + сигнализация**</value>
-				<value>Электростеклоподъемники передние и задние</value>
-				<value>Центральный подлокотник водителя с боксом</value>
-				<value>Крючки и электророзетка 12В в багажном отсеке</value>
-				<value>Лоток под полом багажника + "ровный пол" при сложенной спинке заднего сиденья</value>
-				<value>Разъемы USB+AUX для подключения внешних устройств</value>
-				<value>Магнитола (Радио + СD+ MP3 + 6 динамиков)</value>
-				<value>Блок управления магнитолой на руле</value>
-				<value>Очечник</value>
-				<value>Портативная пепельница + прикуриватель</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Электропривод складывания наружных зеркал</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>62 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -5135,44 +5076,6 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
-			<VIN>Z94G2813BHR042983</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Сreta (2016-)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>2.0 (149.6 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6АТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>оранжевый</Color>
-			<ColorCode>SN4</ColorCode>
-			<ColorOrig>оранжевый</ColorOrig>
-			<SpecName>COMFORT+ADVANCED</SpecName>
-			<SpecId>CTW52G61FDD108</SpecId>
-			<Description/>
-			<OLD_PRICE>1 179 900</OLD_PRICE>
-			<NEW_PRICE>1 114 900</NEW_PRICE>
-			<OPTION_SUMM>65 000</OPTION_SUMM>
-			<OPTION_EQU>
-				<value>СИГНАЛИЗАЦИЯ StarLine E91 CAN V1 совм. со START/STOP</value>
-				<value>НАБОР ДЛЯ УСТАНОВКИ  ДОПОБОРУДОВАНИЯ</value>
-				<value>Защита картера Creta</value>
-				<value>КОВРИК САЛОНА РЕЗИНОВЫЙ, КОМПЛЕКТ, 4ШТ. CRETA</value>
-				<value>КОВРИК БАГАЖНОГО ОТСЕКА, РЕЗИНОВЫЙ  CRETA</value>
-				<value>МАСТИКА ЗАЩИТНАЯ ЧЁРНАЯ 1000мл.</value>
-				<value>СЕТКА ЧЕРНАЯ 10/40/100</value>
-				<value>Сигнализация с обратной связью</value>
-				<value>Подключение функции автозапуска</value>
-				<value>Установка защиты картера</value>
-				<value>Антикоррозийная обработка днища и подкрылок</value>
-				<value>Сетка переднего бампера установить</value>
-			</OPTION_EQU>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>65 000</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
 			<VIN>Z94K241BAJR006497</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Solaris  (17 MY)</MODEL>
@@ -5359,83 +5262,6 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
-			<VIN>Z94K241CAJR007690</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris  (17 MY)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>синий</Color>
-			<ColorCode>N4U</ColorCode>
-			<ColorOrig>синий</ColorOrig>
-			<SpecName>Comfort 1,6 6МТ(123 л.с)</SpecName>
-			<SpecId>H5S4D2617DD142</SpecId>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Электронная система распределения тормозных усилий (EBD)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Дневные ходовые огни в бампере</value>
-				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Брызговики спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка рулевой колонки по высоте</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
-				<value>Управление аудиосистемой на руле</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Стальные диски 15" с шинами 185/65 R15</value>
-				<value>Аудиоподготовка 4 динамика, антенна</value>
-				<value>Кондиционер</value>
-				<value>Подогрев передних сидений</value>
-				<value>Пульт управления центральным замком в ключе + сигнализация</value>
-				<value>Регулировка рулевой колонки по вылету</value>
-				<value>Электроусилитель руля</value>
-				<value>Система управления стабилизацией (VSM)</value>
-				<value>Подогрев руля</value>
-				<value>Панель приборов Supervision</value>
-				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
-				<value>Система помощи при старте в горку (НАС)</value>
-				<value>Антипробуксовочная система (TCS)</value>
-				<value>Антипробуксовочная система тормозов (АВS)</value>
-				<value>Иммобилайзер</value>
-				<value>Центральный замок</value>
-				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
-				<value>Крепления ISOFIX сзади</value>
-				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
-				<value>Датчик наружной температуры</value>
-				<value>Воздуховоды к ногам задних пассажиров</value>
-				<value>Карман в спинке кресла переднего пассажира</value>
-				<value>Карманы в задних дверях</value>
-				<value>Увеличенный до 160 мм дорожный просвет</value>
-				<value>Внутренняя обшивка крышки багажника</value>
-				<value>Воздушный фильтр салона</value>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>Аудиосистема, радио</value>
-				<value>Управление телефоном на руле</value>
-				<value>Датчик низкого уровня омывающей жидкости</value>
-				<value>Отделка дверей тканью</value>
-				<value>Отделка руля кожей</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>0</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
 			<VIN>Z94G2811DHR038776</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Сreta (2016-)</MODEL>
@@ -5537,7 +5363,7 @@
 			<SpecId>H5S4K4617DD142</SpecId>
 			<Description/>
 			<OLD_PRICE>744 900</OLD_PRICE>
-			<NEW_PRICE>654 900</NEW_PRICE>
+			<NEW_PRICE>644 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -5593,7 +5419,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -5666,110 +5492,6 @@
 				<value>Карманы в дверях спереди и сзади</value>
 			</DEFAULT_COMPLIT>
 			<CREDIT>40 000</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>XWESN81DDH0000037</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Santa Fe GRAND</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>3</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>3.0 V6 GDI(249 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6АТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>черный</Color>
-			<ColorCode>RB5</ColorCode>
-			<ColorOrig>черный</ColorOrig>
-			<SpecName>High-Tech 3,0 6АТ(249л.с.)</SpecName>
-			<SpecId>B8WCJ7A1GGG591</SpecId>
-			<Description/>
-			<OLD_PRICE>2 789 000</OLD_PRICE>
-			<NEW_PRICE>2 539 000</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Подушки безопасности: фронтальные для водителя и пассажира, передние боковые, шт</value>
-				<value>Датчики давления в шинах</value>
-				<value>Электростеклоподъемники всех дверей с безопасным режимом</value>
-				<value>Пепельница и прикуриватель</value>
-				<value>Блок управления аудиосистемой на руле</value>
-				<value>Продольная регулировка и регулировка наклона спинок сидений второго ряда</value>
-				<value>Светодиодные дневные ходовые огни</value>
-				<value>Задний спойлер</value>
-				<value>Обивка стоек крыши изнутри тканью</value>
-				<value>Инвертер (розетка 220V)</value>
-				<value>Подсветка наружных дверных ручек</value>
-				<value>Самозатемняющееся зеркало заднего вида с компасом</value>
-				<value>Система камер кругового обзора</value>
-				<value>Система адаптивного освещения</value>
-				<value>Система автоматической парковки и передние датчики парковки</value>
-				<value>Отдельный кондиционер для пассажиров 3-го ряда</value>
-				<value>Панорамная крыша с люком</value>
-				<value>Шторки на окнах задних дверей</value>
-				<value>Легкосплавные диски 19" с шинами 235/55 R19</value>
-				<value>Складные сиденья третьего ряда</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Преднатяжители передних ремней безопасности</value>
-				<value>VSM (система управления стабилизацией)</value>
-				<value>HAC (система помощи при старте в гору)</value>
-				<value>DBC (система помощи при спуске с горы)</value>
-				<value>ABS + EBD (система распределения тормозных усилий)</value>
-				<value>Система помощи при экстренном торможении</value>
-				<value>ESC (cистема стабилизации с двухступенчатым отключением)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Иммобилайзер</value>
-				<value>Регулировка руля по высоте и вылету</value>
-				<value>Подогрев передних сидений</value>
-				<value>Выбор режима движения(Drive mode select): Эко, Обычный или Спорт</value>
-				<value>Электропривод и подогрев наружных зеркал</value>
-				<value>Двухзонный климат-контроль с системой ионизации воздуха ( + дефлекторы обдува п</value>
-				<value>Подлокотник водителя с боксом для хранения</value>
-				<value>Круиз-контроль</value>
-				<value>Датчик дождя</value>
-				<value>Обогрев зоны покоя стеклоочистителей</value>
-				<value>Разъемы USB, AUX</value>
-				<value>Отделка руля и рукоятки КПП кожей</value>
-				<value>Выбор цвета салона черный/серый/бежевый</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 4:2:4)</value>
-				<value>Складывание спинки второго ряда сидений одним нажатием из багажника</value>
-				<value>Шторка багажника</value>
-				<value>Отсек для хранения под полом багажника</value>
-				<value>Светодиодные передние габаритные огни</value>
-				<value>Защита порогов от загрязнения</value>
-				<value>Повторители указателей поворота в зеркалах заднего вида</value>
-				<value>Противотуманные фары</value>
-				<value>Полноразмерное запасное колесо с легкосплавным диском</value>
-				<value>Подогрев задних сидений</value>
-				<value>Электропривод складывания зеркал</value>
-				<value>Датчик света</value>
-				<value>Задние датчики парковки</value>
-				<value>Подогрев руля</value>
-				<value>Тонировка стекол задней части салона</value>
-				<value>Комбинация натуральной и искусственной кожи в отделке сидений и дверей</value>
-				<value>Аудиосистема с цветным TFT дисплеем 5" (Радио, СD/MP3, эквалайзер, 6 динамиков,</value>
-				<value>Камера заднего вида</value>
-				<value>Ксеноновые фары ближнего света с омывателем и автокорректором</value>
-				<value>Светодиодные задние фонари</value>
-				<value>Электрорегулировка сиденья водителя</value>
-				<value>Подсветка околодверного пространства</value>
-				<value>Система мониторинга слепых зон</value>
-				<value>Теплозащитные стекла (лобовое и передние боковые)</value>
-				<value>Легкосплавные диски 18" с шинами 235/60 R18</value>
-				<value>Рейлинги на крыше</value>
-				<value>Система "Smart key" — доступ без ключа+кнопка START/STOP + сигнализация*</value>
-				<value>Панель приборов Supervision с цветным TFT-дисплеем</value>
-				<value>Коленная подушка безопасности водителя</value>
-				<value>EPB (электронный стояночный тормоз с режимом автоматического удержания)</value>
-				<value>Электрорегулировка сиденья пассажира</value>
-				<value>Память настроек для двух водителей (сиденье, внешние зеркала)</value>
-				<value>Вентиляция передних сидений</value>
-				<value>Навигация Navteq** (сенсорный дисплей 8", MP3, FM/AM+ премиум звук Infinity: 10</value>
-				<value>Электропривод двери багажника с автоматическим открыванием</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>250 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -5875,81 +5597,6 @@
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
 			<CREDIT>90 000</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>Z94G2811DHR039193</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Сreta (2016-)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>черный</Color>
-			<ColorCode>MZH</ColorCode>
-			<ColorOrig>черный</ColorOrig>
-			<SpecName>Comfort Plus 1.6 4WD, 6AT</SpecName>
-			<SpecId>CTW5D261GDD100</SpecId>
-			<Description/>
-			<OLD_PRICE>1 144 900</OLD_PRICE>
-			<NEW_PRICE>1 079 900</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Фары проекционного типа со статичными лампами подсветки поворота руля</value>
-				<value>Передние противотуманные фары</value>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Преднатяжители передних ремней безопасности</value>
-				<value>ABS + EBD (система распределения тормозных усилий)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Дневные ходовые огни</value>
-				<value>Ручки дверей в цвет кузова</value>
-				<value>Полноразмерное запасное колесо на стальном диске</value>
-				<value>Брызговики</value>
-				<value>Дисковые тормоза спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка руля по высоте</value>
-				<value>Передний подлокотник с боксом</value>
-				<value>Маршрутный компьютер</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Bluetooth</value>
-				<value>Управление магнитолой на руле</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Электростеклоподъемники передних и задних дверей</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Обивка сидений тканью</value>
-				<value>4 подголовника</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Футляр для очков в потолочной консоли</value>
-				<value>Пластиковые накладки на порогах дверей</value>
-				<value>Антенна на крыше ("плавник")</value>
-				<value>Аудиосистема (Радио, 4 динамика)</value>
-				<value>Внешние зеркала заднего вида в цвет кузова</value>
-				<value>Подогрев передних сидений с тремя режимами</value>
-				<value>Пульт управления центральным замком в ключе</value>
-				<value>Крючки для фиксации груза в багажнике</value>
-				<value>Дополнительный органайзер под полом багажника</value>
-				<value>Полка багажника</value>
-				<value>Климат-контроль</value>
-				<value>Боковые подушки безопасности</value>
-				<value>Шторки безопасности</value>
-				<value>Электроусилитель рулевого управления</value>
-				<value>Рейлинги на крыше</value>
-				<value>Задние датчики парковки</value>
-				<value>Металлизированная отделка внутренних дверных ручек</value>
-				<value>Легкосплавные диски 16" с шинами 205/65 R16</value>
-				<value>ESC (система стабилизации) с функцией помощи при старте в гору и спуска с горы</value>
-				<value>VSM (система управления стабилизацией)</value>
-				<value>Электропривод и подогрев наружных зеркал</value>
-				<value>Светодиодные дневные ходовые огни</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>65 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -6422,6 +6069,72 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
+			<VIN>Z94K241BBJR026721</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris  (17 MY)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.4 (100 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6АТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>PGU</ColorCode>
+			<ColorOrig>белый</ColorOrig>
+			<SpecName>Active Plus 1,4 6АТ (100 л.с.)</SpecName>
+			<SpecId>H5S4K461FDD141</SpecId>
+			<Description/>
+			<OLD_PRICE>739 900</OLD_PRICE>
+			<NEW_PRICE>639 900</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Кондиционер</value>
+				<value>Подогрев передних сидений</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антипробуксовочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Аудиосистема, радио</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>100 000</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
 			<VIN>Z94CU41DAHR534903</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Solaris (16/17 MY)</MODEL>
@@ -6569,164 +6282,6 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
-			<VIN>Z94G2811AHR044378</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Сreta (2016-)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>синий</Color>
-			<ColorCode>N4U</ColorCode>
-			<ColorOrig>синий</ColorOrig>
-			<SpecName>Comfort Plus 1.6 2WD 6MT</SpecName>
-			<SpecId>CTW5D2617DD100</SpecId>
-			<Description/>
-			<OLD_PRICE>1 014 900</OLD_PRICE>
-			<NEW_PRICE>949 900</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Преднатяжители передних ремней безопасности</value>
-				<value>ABS + EBD (система распределения тормозных усилий)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Дневные ходовые огни</value>
-				<value>Ручки дверей в цвет кузова</value>
-				<value>Полноразмерное запасное колесо на стальном диске</value>
-				<value>Брызговики</value>
-				<value>Дисковые тормоза спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка руля по высоте</value>
-				<value>Передний подлокотник с боксом</value>
-				<value>Маршрутный компьютер</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Bluetooth</value>
-				<value>Управление магнитолой на руле</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Электростеклоподъемники передних и задних дверей</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Обивка сидений тканью</value>
-				<value>4 подголовника</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Футляр для очков в потолочной консоли</value>
-				<value>Пластиковые накладки на порогах дверей</value>
-				<value>Антенна на крыше ("плавник")</value>
-				<value>Аудиосистема (Радио, 4 динамика)</value>
-				<value>Внешние зеркала заднего вида в цвет кузова</value>
-				<value>Подогрев передних сидений с тремя режимами</value>
-				<value>Пульт управления центральным замком в ключе</value>
-				<value>Крючки для фиксации груза в багажнике</value>
-				<value>Дополнительный органайзер под полом багажника</value>
-				<value>Полка багажника</value>
-				<value>Электроусилитель рулевого управления</value>
-				<value>Легкосплавные диски 16" с шинами 205/65 R16</value>
-				<value>ESC (система стабилизации) с функцией помощи при старте в гору и спуска с горы</value>
-				<value>VSM (система управления стабилизацией)</value>
-				<value>Электропривод и подогрев наружных зеркал</value>
-				<value>Климат-контроль</value>
-				<value>Боковые подушки безопасности</value>
-				<value>Шторки безопасности</value>
-				<value>Рейлинги на крыше</value>
-				<value>Задние датчики парковки</value>
-				<value>Металлизированная отделка внутренних дверных ручек</value>
-				<value>Фары проекционного типа со статичными лампами подсветки поворота руля</value>
-				<value>Передние противотуманные фары</value>
-				<value>Светодиодные дневные ходовые огни</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>65 000</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>Z94K241CAJR008236</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris  (17 MY)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>серебристый</Color>
-			<ColorCode>RHM</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
-			<SpecName>Comfort+ Зимний1,6 6МТ(123л.с.)</SpecName>
-			<SpecId>H5S4D2617DD144</SpecId>
-			<Description/>
-			<OLD_PRICE>809 900</OLD_PRICE>
-			<NEW_PRICE>687 504</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Электронная система распределения тормозных усилий (EBD)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Дневные ходовые огни в бампере</value>
-				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Брызговики спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка рулевой колонки по высоте</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
-				<value>Управление аудиосистемой на руле</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Стальные диски 15" с шинами 185/65 R15</value>
-				<value>Аудиоподготовка 4 динамика, антенна</value>
-				<value>Кондиционер</value>
-				<value>Подогрев передних сидений</value>
-				<value>Пульт управления центральным замком в ключе + сигнализация</value>
-				<value>Регулировка рулевой колонки по вылету</value>
-				<value>Электроусилитель руля</value>
-				<value>Система управления стабилизацией (VSM)</value>
-				<value>Подогрев руля</value>
-				<value>Панель приборов Supervision</value>
-				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
-				<value>Система помощи при старте в горку (НАС)</value>
-				<value>Антипробуксовочная система (TCS)</value>
-				<value>Антипробуксовочная система тормозов (АВS)</value>
-				<value>Иммобилайзер</value>
-				<value>Центральный замок</value>
-				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
-				<value>Крепления ISOFIX сзади</value>
-				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
-				<value>Датчик наружной температуры</value>
-				<value>Воздуховоды к ногам задних пассажиров</value>
-				<value>Карман в спинке кресла переднего пассажира</value>
-				<value>Карманы в задних дверях</value>
-				<value>Увеличенный до 160 мм дорожный просвет</value>
-				<value>Внутренняя обшивка крышки багажника</value>
-				<value>Воздушный фильтр салона</value>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>Аудиосистема, радио</value>
-				<value>Управление телефоном на руле</value>
-				<value>Датчик низкого уровня омывающей жидкости</value>
-				<value>Отделка дверей тканью</value>
-				<value>Отделка руля кожей</value>
-				<value>Фары проекционного типа со статичной подсветкой поворотов</value>
-				<value>Светодиодные  ходовые огни</value>
-				<value>Передние противотуманные фары</value>
-				<value>Подогрев лобового стекла</value>
-				<value>Подогрев форсунок стеклоомывателя</value>
-				<value>Подогрев задних сидений</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>122 396</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
 			<VIN>Z94CT41DAHR535378</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Solaris (16/17 MY)</MODEL>
@@ -6806,6 +6361,72 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
+			<VIN>Z94K241BBJR026941</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris  (17 MY)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.4 (100 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6АТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>PGU</ColorCode>
+			<ColorOrig>белый</ColorOrig>
+			<SpecName>Active Plus 1,4 6АТ (100 л.с.)</SpecName>
+			<SpecId>H5S4K461FDD141</SpecId>
+			<Description/>
+			<OLD_PRICE>739 900</OLD_PRICE>
+			<NEW_PRICE>639 900</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Кондиционер</value>
+				<value>Подогрев передних сидений</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антипробуксовочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Аудиосистема, радио</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>100 000</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
 			<VIN>Z94K241CBJR015375</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Solaris  (17 MY)</MODEL>
@@ -6823,7 +6444,7 @@
 			<SpecId>H5S4D261FDD143</SpecId>
 			<Description/>
 			<OLD_PRICE>839 900</OLD_PRICE>
-			<NEW_PRICE>749 900</NEW_PRICE>
+			<NEW_PRICE>739 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -6882,7 +6503,7 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -6911,84 +6532,78 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
-			<VIN>Z94CU41DAHR535627</VIN>
+			<VIN>Z94G2811DHR044037</VIN>
 			<MARK>Hyundai</MARK>
-			<MODEL>Solaris (16/17 MY)</MODEL>
+			<MODEL>Сreta (2016-)</MODEL>
 			<IsNew>yes</IsNew>
-			<CAPACITY/>
-			<POWER/>
-			<fuel_consumption/>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount/>
-			<Color>коричневый</Color>
-			<ColorCode>VC5</ColorCode>
-			<ColorOrig>коричневый</ColorOrig>
-			<SpecName>Elegance1,6 6МT(123л.с.)</SpecName>
-			<SpecId>DRS4D2617GG312</SpecId>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6АТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>темно-серый</Color>
+			<ColorCode>U4G</ColorCode>
+			<ColorOrig>темно-серый</ColorOrig>
+			<SpecName>Comfort Plus 1.6 4WD, 6AT</SpecName>
+			<SpecId>CTW5D261GDD100</SpecId>
 			<Description/>
-			<OLD_PRICE>821 400</OLD_PRICE>
-			<NEW_PRICE>729 344</NEW_PRICE>
+			<OLD_PRICE>1 144 900</OLD_PRICE>
+			<NEW_PRICE>1 079 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Фары проекционного типа со статичными лампами подсветки поворота руля</value>
+				<value>Передние противотуманные фары</value>
 				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>ABS Антиблокировочная система тормозов</value>
-				<value>EBD Электронная система распределения тормозных усилий</value>
-				<value>Иммобилайзер</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Центральный замок</value>
-				<value>Сигнал о низком уровне омывающей жидкости</value>
 				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Аудиоподготовка 4 динамика, антенна</value>
-				<value>Легкая тонировка стёкол</value>
-				<value>Брызговики спереди и сзади</value>
-				<value>Гидроусилитель руля</value>
-				<value>Тройное мигание поворотников при неполном нажатии рычага</value>
+				<value>Преднатяжители передних ремней безопасности</value>
+				<value>ABS + EBD (система распределения тормозных усилий)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Дневные ходовые огни</value>
+				<value>Ручки дверей в цвет кузова</value>
+				<value>Полноразмерное запасное колесо на стальном диске</value>
+				<value>Брызговики</value>
+				<value>Дисковые тормоза спереди и сзади</value>
 				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Воздушный фильтр салона</value>
-				<value>Дневные ходовые огни в бампере</value>
-				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
-				<value>Карманы в задних дверях</value>
-				<value>Датчик наружной температуры</value>
-				<value>Шумоизоляция капота и внутренняя обшивка крышки багажника</value>
-				<value>Воздуховоды к ногам задних пассажиров</value>
-				<value>Макияжные зеркальца в солнцезащитных козырьках с крышками</value>
-				<value>Портативная пепельница и прикуриватель</value>
-				<value>Карман в спинке кресла переднего пассажира</value>
-				<value>Складывающаяся по частям спинка заднего сиденья 6:4</value>
-				<value>Увеличенный до 160мм дорожный просвет</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
-				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием, без</value>
-				<value>Пульт управления центральным замком в ключе</value>
-				<value>Подогрев зоны покоя стеклоочистителей</value>
-				<value>Подогрев форсунок стеклоомывателя</value>
-				<value>Подогрев руля</value>
-				<value>Климат-контроль</value>
-				<value>Аудиосистема CD/MP3, радио</value>
-				<value>USB, AUX разъемы для подключения внешних устройств</value>
-				<value>Управление аудиосистемой на руле</value>
-				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
-				<value>Два дополнительных высокочастотных динамика</value>
-				<value>Управление телефоном на руле</value>
-				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
+				<value>Регулировка руля по высоте</value>
+				<value>Передний подлокотник с боксом</value>
+				<value>Маршрутный компьютер</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Bluetooth</value>
+				<value>Управление магнитолой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Электростеклоподъемники передних и задних дверей</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Обивка сидений тканью</value>
+				<value>4 подголовника</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
 				<value>Футляр для очков в потолочной консоли</value>
-				<value>Глянцевая отделка передней консоли</value>
-				<value>Подлокотники дверей из мягкого материала</value>
-				<value>Отделка руля и ручки КПП кожей</value>
-				<value>Панель приборов Supervision</value>
-				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
-				<value>Легкосплавные диски 15" с шинами 185/65 R15 и полноразмерное запасное колесо для</value>
-				<value>Датчики парковки сзади</value>
-				<value>Регулировка рулевой колонки по вылету</value>
-				<value>Кондиционер</value>
-				<value>Подогрев передних сидений</value>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>Задние дисковые тормоза</value>
-				<value>Крышка багажника с хромированными элементами</value>
+				<value>Пластиковые накладки на порогах дверей</value>
+				<value>Антенна на крыше ("плавник")</value>
+				<value>Аудиосистема (Радио, 4 динамика)</value>
+				<value>Внешние зеркала заднего вида в цвет кузова</value>
+				<value>Подогрев передних сидений с тремя режимами</value>
+				<value>Пульт управления центральным замком в ключе</value>
+				<value>Крючки для фиксации груза в багажнике</value>
+				<value>Дополнительный органайзер под полом багажника</value>
+				<value>Полка багажника</value>
+				<value>Климат-контроль</value>
+				<value>Боковые подушки безопасности</value>
+				<value>Шторки безопасности</value>
+				<value>Электроусилитель рулевого управления</value>
+				<value>Рейлинги на крыше</value>
+				<value>Задние датчики парковки</value>
+				<value>Металлизированная отделка внутренних дверных ручек</value>
+				<value>Легкосплавные диски 16" с шинами 205/65 R16</value>
+				<value>ESC (система стабилизации) с функцией помощи при старте в гору и спуска с горы</value>
+				<value>VSM (система управления стабилизацией)</value>
+				<value>Электропривод и подогрев наружных зеркал</value>
+				<value>Светодиодные дневные ходовые огни</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>92 056</CREDIT>
+			<CREDIT>65 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -7014,6 +6629,72 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<CREDIT>0</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>Z94K241BBJR026087</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris  (17 MY)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.4 (100 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6АТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>PGU</ColorCode>
+			<ColorOrig>белый</ColorOrig>
+			<SpecName>Active Plus 1,4 6АТ (100 л.с.)</SpecName>
+			<SpecId>H5S4K461FDD141</SpecId>
+			<Description/>
+			<OLD_PRICE>739 900</OLD_PRICE>
+			<NEW_PRICE>639 900</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Кондиционер</value>
+				<value>Подогрев передних сидений</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антипробуксовочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Аудиосистема, радио</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -7067,6 +6748,72 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
+			<VIN>Z94K241BAJR026695</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris  (17 MY)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.4 (100 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6МТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>синий</Color>
+			<ColorCode>N4U</ColorCode>
+			<ColorOrig>синий</ColorOrig>
+			<SpecName>Active Plus 1,4 6MТ (100 л.с.)</SpecName>
+			<SpecId>H5S4K4617DD141</SpecId>
+			<Description/>
+			<OLD_PRICE>699 900</OLD_PRICE>
+			<NEW_PRICE>599 900</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Подогрев передних сидений</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Кондиционер</value>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антипробуксовочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Аудиосистема, радио</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>100 000</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
 			<VIN>Z94K241BBJR017501</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Solaris  (17 MY)</MODEL>
@@ -7084,7 +6831,7 @@
 			<SpecId>H5S4K461FDD142</SpecId>
 			<Description/>
 			<OLD_PRICE>784 900</OLD_PRICE>
-			<NEW_PRICE>694 900</NEW_PRICE>
+			<NEW_PRICE>684 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -7140,7 +6887,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -7344,7 +7091,7 @@
 			<SpecId>H5S4K4617DD142</SpecId>
 			<Description/>
 			<OLD_PRICE>744 900</OLD_PRICE>
-			<NEW_PRICE>654 900</NEW_PRICE>
+			<NEW_PRICE>644 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -7400,95 +7147,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>XWEDC41CBH0000725</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Elantra AD</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.6 CVVT (128 л,с)</FUEL_TYPE>
-			<TRANSMISS>5AT</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>красный</Color>
-			<ColorCode>PR2</ColorCode>
-			<ColorOrig>красный</ColorOrig>
-			<SpecName>ACTIVE1.6 6АТ (128л.с)</SpecName>
-			<SpecId>F2S4D261FGGAKL</SpecId>
-			<Description/>
-			<OLD_PRICE>1 119 900</OLD_PRICE>
-			<NEW_PRICE>1 079 900</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>ABS (антиблокировочная система тормозов)</value>
-				<value>EBD (система распределения тормозных усилий)</value>
-				<value>ESP (электронная система стабилизации курсовой усточивости)</value>
-				<value>HAC (cистема помощи при трогании на подъеме)</value>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Преднатяжители передних ремней безопасности</value>
-				<value>Напоминание о непристегнутом ремне безопасности водителя</value>
-				<value>3-х точечные ремни безопасности для 5-ти пассажиров</value>
-				<value>Крепления детских сидений Isofix</value>
-				<value>Детский замок</value>
-				<value>Автоматическое отпирание дверей в случае аварии</value>
-				<value>Передние (2) и задние (3) подголовники, регулируемые по высоте</value>
-				<value>Дисковые тормоза спереди и сзади</value>
-				<value>Центральный замок</value>
-				<value>Иммобилайзер</value>
-				<value>Электроусилитель рулевого управления</value>
-				<value>Ручная регулировка руля по высоте и вылету</value>
-				<value>Управление магнитолой на руле</value>
-				<value>Маршрутный компьютер</value>
-				<value>Датчик давления в шинах</value>
-				<value>Ручки дверей, бампера и зеркала в цвет кузова</value>
-				<value>Брызговики</value>
-				<value>Электропривод и подогрев наружных зеркал</value>
-				<value>Передние фары прожекторного типа</value>
-				<value>Механический корректор фар</value>
-				<value>Задние противотуманные фонари</value>
-				<value>Дополнительный стоп-сигнал</value>
-				<value>Электростеклоподъемники передние и задние</value>
-				<value>Разъемы USB, AUX</value>
-				<value>Розетка 12V</value>
-				<value>Подлокотник с боксом</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Лампы для чтения для 1-го ряда с футляром для очков</value>
-				<value>Воздушный фильтр салона</value>
-				<value>Центральный задний подлокотник с подстаканниками</value>
-				<value>Складывающаяся спинка заднего сиденья в пропорции 6:4</value>
-				<value>Карманы в дверях спереди и сзади</value>
-				<value>Обивка сидений тканью</value>
-				<value>Передние дневные ходовые огни</value>
-				<value>Bluetooth</value>
-				<value>Пульт управления центральным замком в раскладном ключе</value>
-				<value>Подогрев передних сидений</value>
-				<value>Сетка для фиксации багажа</value>
-				<value>Лёгкая тонировка стекол</value>
-				<value>Шумоизоляция капота</value>
-				<value>Аудиосистема (Радио/CD/MP3) с 6 динамиками</value>
-				<value>Легкосплавные диски 16" с шинами 205/55 R16</value>
-				<value>Полноразмерное запасное колесо с легкосплавным диском</value>
-				<value>Молдинги на дверях покрытые хромом</value>
-				<value>Передние боковые подушки безопасности + шторки безопасности</value>
-				<value>Передние противотуманные фары</value>
-				<value>Датчики парковки сзади</value>
-				<value>Двухзонный климат-контроль</value>
-				<value>Система антизапотевания с ионизатором воздуха</value>
-				<value>Датчик дождя</value>
-				<value>Подогрев задних сидений</value>
-				<value>Кожаная отделка руля и рукоятки коробки передач</value>
-				<value>Автоматический режим опускания стекла водителя</value>
-				<value>Карман в спинке переднего пассажирского сидения</value>
-				<value>Переносная пепельница и прикуриватель</value>
-				<value>Регулировка сиденья пассажира по высоте</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>40 000</CREDIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -7584,6 +7243,162 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
+			<VIN>Z94K341CBJR026438</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris  (17 MY)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6АТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>темно-серый</Color>
+			<ColorCode>U4G</ColorCode>
+			<ColorOrig>темно-серый</ColorOrig>
+			<SpecName>Elegance1,6 6AT (123л.с.)</SpecName>
+			<SpecId>H5S4D261FGG103</SpecId>
+			<Description/>
+			<OLD_PRICE>899 900</OLD_PRICE>
+			<NEW_PRICE>799 900</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Футляр для очков в потолочной консоли</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Кондиционер</value>
+				<value>Подогрев передних сидений</value>
+				<value>Пульт управления центральным замком в ключе + сигнализация</value>
+				<value>Климат-контроль</value>
+				<value>Регулировка рулевой колонки по вылету</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Фары проекционного типа со статичной подсветкой поворотов</value>
+				<value>Передние противотуманные фары</value>
+				<value>Светодиодные  ходовые огни</value>
+				<value>Подогрев руля</value>
+				<value>Панель приборов Supervision</value>
+				<value>Датчик света</value>
+				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
+				<value>Центральный задний подголовник</value>
+				<value>Легкосплавные диски 15" с шинами 185/65 R15 и полноразмерное запасное колесо на</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антипробуксовочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Аудиосистема, радио</value>
+				<value>Управление телефоном на руле</value>
+				<value>Датчик низкого уровня омывающей жидкости</value>
+				<value>Навигационная система** с интеграцией со смартфонами и информацией о "пробках"</value>
+				<value>Датчики парковки сзади</value>
+				<value>Отделка дверей тканью</value>
+				<value>Отделка руля кожей</value>
+				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
+				<value>Хромированная отделка подоконной линии и решетки радиатора</value>
+				<value>Задние дисковые тормоза</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>100 000</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>Z94G2811CHR044619</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Сreta (2016-)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.6 (121л.с.)</FUEL_TYPE>
+			<TRANSMISS>6МТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>синий</Color>
+			<ColorCode>N4U</ColorCode>
+			<ColorOrig>синий</ColorOrig>
+			<SpecName>ACTIVE 1.6 4WD 6МТ</SpecName>
+			<SpecId>CTW5D2618DD087</SpecId>
+			<Description/>
+			<OLD_PRICE>974 900</OLD_PRICE>
+			<NEW_PRICE>909 900</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Преднатяжители передних ремней безопасности</value>
+				<value>ABS + EBD (система распределения тормозных усилий)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Дневные ходовые огни</value>
+				<value>Ручки дверей в цвет кузова</value>
+				<value>Полноразмерное запасное колесо на стальном диске</value>
+				<value>Брызговики</value>
+				<value>Дисковые тормоза спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка руля по высоте</value>
+				<value>Передний подлокотник с боксом</value>
+				<value>Маршрутный компьютер</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Bluetooth</value>
+				<value>Управление магнитолой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Электростеклоподъемники передних и задних дверей</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Обивка сидений тканью</value>
+				<value>4 подголовника</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Футляр для очков в потолочной консоли</value>
+				<value>Пластиковые накладки на порогах дверей</value>
+				<value>Антенна на крыше ("плавник")</value>
+				<value>Аудиосистема (Радио, 4 динамика)</value>
+				<value>Гидроусилитель рулевого управления</value>
+				<value>Кондиционер</value>
+				<value>Внешние зеркала заднего вида в цвет кузова</value>
+				<value>Подогрев передних сидений с тремя режимами</value>
+				<value>Пульт управления центральным замком в ключе</value>
+				<value>Крючки для фиксации груза в багажнике</value>
+				<value>Дополнительный органайзер под полом багажника</value>
+				<value>Полка багажника</value>
+				<value>ESC (система стабилизации) с функцией помощи при старте в гору и спуска с горы</value>
+				<value>Электропривод и подогрев наружных зеркал</value>
+				<value>Стальные диски 16" с шинами 205/65 R16</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>65 000</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
 			<VIN>Z94K241CBJR004080</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Solaris  (17 MY)</MODEL>
@@ -7671,37 +7486,32 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
-			<VIN>Z94K341CAJR018799</VIN>
+			<VIN>Z94K241BAJR026731</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Solaris  (17 MY)</MODEL>
 			<IsNew>yes</IsNew>
 			<CAPACITY>0</CAPACITY>
 			<POWER>0</POWER>
 			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
+			<FUEL_TYPE>1.4 (100 л.с.)</FUEL_TYPE>
 			<TRANSMISS>6МТ</TRANSMISS>
 			<TransmissionCount>0</TransmissionCount>
 			<Color>серебристый</Color>
 			<ColorCode>RHM</ColorCode>
 			<ColorOrig>серебристый</ColorOrig>
-			<SpecName>Elegance 1,6 6МТ( 123 л.с.)</SpecName>
-			<SpecId>H5S4D2617GG103</SpecId>
+			<SpecName>Active Plus 1,4 6MТ (100 л.с.)</SpecName>
+			<SpecId>H5S4K4617DD141</SpecId>
 			<Description/>
-			<OLD_PRICE>859 900</OLD_PRICE>
-			<NEW_PRICE>769 900</NEW_PRICE>
+			<OLD_PRICE>699 900</OLD_PRICE>
+			<NEW_PRICE>599 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
-				<value>Климат-контроль</value>
-				<value>Навигационная система** с интеграцией со смартфонами и информацией о "пробках"</value>
-				<value>Датчик света</value>
-				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
-				<value>Футляр для очков в потолочной консоли</value>
-				<value>Центральный задний подголовник</value>
-				<value>Фары проекционного типа со статичной подсветкой поворотов</value>
-				<value>Передние противотуманные фары</value>
-				<value>Хромированная отделка подоконной линии и решетки радиатора</value>
-				<value>Легкосплавные диски 15" с шинами 185/65 R15 и полноразмерное запасное колесо на</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Подогрев передних сидений</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Кондиционер</value>
 				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
 				<value>Регулировка передних ремней безопасности по высоте</value>
 				<value>Электронная система распределения тормозных усилий (EBD)</value>
@@ -7713,25 +7523,14 @@
 				<value>Брызговики спереди и сзади</value>
 				<value>Регулировка сиденья водителя по высоте</value>
 				<value>Регулировка рулевой колонки по высоте</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
-				<value>Управление аудиосистемой на руле</value>
 				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
 				<value>Система мониторинга давления в шинах</value>
 				<value>Две 12v розетки на центральной консоли</value>
 				<value>Зеркала в противосолнечных козырьках</value>
 				<value>Стальные диски 15" с шинами 185/65 R15</value>
 				<value>Аудиоподготовка 4 динамика, антенна</value>
-				<value>Кондиционер</value>
-				<value>Подогрев передних сидений</value>
-				<value>Пульт управления центральным замком в ключе + сигнализация</value>
-				<value>Регулировка рулевой колонки по вылету</value>
 				<value>Электроусилитель руля</value>
 				<value>Система управления стабилизацией (VSM)</value>
-				<value>Подогрев руля</value>
-				<value>Панель приборов Supervision</value>
-				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
 				<value>Система помощи при старте в горку (НАС)</value>
 				<value>Антипробуксовочная система (TCS)</value>
 				<value>Антипробуксовочная система тормозов (АВS)</value>
@@ -7747,89 +7546,9 @@
 				<value>Увеличенный до 160 мм дорожный просвет</value>
 				<value>Внутренняя обшивка крышки багажника</value>
 				<value>Воздушный фильтр салона</value>
-				<value>Зеркала с электроприводом и обогревом</value>
 				<value>Аудиосистема, радио</value>
-				<value>Управление телефоном на руле</value>
-				<value>Датчик низкого уровня омывающей жидкости</value>
-				<value>Отделка дверей тканью</value>
-				<value>Отделка руля кожей</value>
-				<value>Датчики парковки сзади</value>
-				<value>Светодиодные  ходовые огни</value>
-				<value>Задние дисковые тормоза</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>Z94CT41DAHR537129</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris (16/17 MY)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY/>
-			<POWER/>
-			<fuel_consumption/>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount/>
-			<Color>тёмно-синий</Color>
-			<ColorCode>ZD6</ColorCode>
-			<ColorOrig>тёмно-синий</ColorOrig>
-			<SpecName>Comfort+ Безопасность1,6 6МТ (123л.с.)</SpecName>
-			<SpecId>DRS4D2617DD123</SpecId>
-			<Description/>
-			<OLD_PRICE>794 900</OLD_PRICE>
-			<NEW_PRICE>675 104</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>ABS Антиблокировочная система тормозов</value>
-				<value>EBD Электронная система распределения тормозных усилий</value>
-				<value>Иммобилайзер</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Центральный замок</value>
-				<value>Сигнал о низком уровне омывающей жидкости</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Аудиоподготовка 4 динамика, антенна</value>
-				<value>Легкая тонировка стёкол</value>
-				<value>Брызговики спереди и сзади</value>
-				<value>Гидроусилитель руля</value>
-				<value>Тройное мигание поворотников при неполном нажатии рычага</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Воздушный фильтр салона</value>
-				<value>Дневные ходовые огни в бампере</value>
-				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
-				<value>Стальные диски 15" с шинами 185/65 R15</value>
-				<value>Карманы в задних дверях</value>
-				<value>Датчик наружной температуры</value>
-				<value>Шумоизоляция капота и внутренняя обшивка крышки багажника</value>
-				<value>Воздуховоды к ногам задних пассажиров</value>
-				<value>Макияжные зеркальца в солнцезащитных козырьках с крышками</value>
-				<value>Портативная пепельница и прикуриватель</value>
-				<value>Карман в спинке кресла переднего пассажира</value>
-				<value>Складывающаяся по частям спинка заднего сиденья 6:4</value>
-				<value>Увеличенный до 160мм дорожный просвет</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
-				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием, без</value>
-				<value>Пульт управления центральным замком в ключе</value>
-				<value>Подогрев зоны покоя стеклоочистителей</value>
-				<value>Подогрев форсунок стеклоомывателя</value>
-				<value>Аудиосистема CD/MP3, радио</value>
-				<value>USB, AUX разъемы для подключения внешних устройств</value>
-				<value>Управление аудиосистемой на руле</value>
-				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
-				<value>Легкосплавные диски 15" с шинами 185/65 R15 и полноразмерное запасное колесо для</value>
-				<value>Боковые подушки безопасности водителя и переднего пассажира</value>
-				<value>Боковые шторки безопасности</value>
-				<value>ESC Электронная система стабилизации,</value>
-				<value>TCS антипробуксовочная система</value>
-				<value>Кондиционер</value>
-				<value>Подогрев передних сидений</value>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>Задние дисковые тормоза</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>119 796</CREDIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -8153,72 +7872,6 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
-			<VIN>Z94K241CAJR008967</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris  (17 MY)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>серебристый</Color>
-			<ColorCode>RHM</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
-			<SpecName>Active Plus 1,6 6MТ (123 л.с.)</SpecName>
-			<SpecId>H5S4D2617DD141</SpecId>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Электронная система распределения тормозных усилий (EBD)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Дневные ходовые огни в бампере</value>
-				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Брызговики спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка рулевой колонки по высоте</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Управление аудиосистемой на руле</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Стальные диски 15" с шинами 185/65 R15</value>
-				<value>Аудиоподготовка 4 динамика, антенна</value>
-				<value>Кондиционер</value>
-				<value>Подогрев передних сидений</value>
-				<value>Электроусилитель руля</value>
-				<value>Система управления стабилизацией (VSM)</value>
-				<value>Система помощи при старте в горку (НАС)</value>
-				<value>Антипробуксовочная система (TCS)</value>
-				<value>Антипробуксовочная система тормозов (АВS)</value>
-				<value>Иммобилайзер</value>
-				<value>Центральный замок</value>
-				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
-				<value>Крепления ISOFIX сзади</value>
-				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
-				<value>Датчик наружной температуры</value>
-				<value>Воздуховоды к ногам задних пассажиров</value>
-				<value>Карман в спинке кресла переднего пассажира</value>
-				<value>Карманы в задних дверях</value>
-				<value>Увеличенный до 160 мм дорожный просвет</value>
-				<value>Внутренняя обшивка крышки багажника</value>
-				<value>Воздушный фильтр салона</value>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>Аудиосистема, радио</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>0</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
 			<VIN>Z94K241CAJR011811</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Solaris  (17 MY)</MODEL>
@@ -8301,72 +7954,6 @@
 				<value>Подогрев задних сидений</value>
 				<value>Боковые подушки безопасности водителя и переднего пассажира</value>
 				<value>Боковые шторки безопасности</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>Z94K241BAJR025199</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris  (17 MY)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.4 (100 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>белый</Color>
-			<ColorCode>PGU</ColorCode>
-			<ColorOrig>белый</ColorOrig>
-			<SpecName>Active Plus 1,4 6MТ (100 л.с.)</SpecName>
-			<SpecId>H5S4K4617DD141</SpecId>
-			<Description/>
-			<OLD_PRICE>699 900</OLD_PRICE>
-			<NEW_PRICE>609 900</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>Подогрев передних сидений</value>
-				<value>Управление аудиосистемой на руле</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Кондиционер</value>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Электронная система распределения тормозных усилий (EBD)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Дневные ходовые огни в бампере</value>
-				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Брызговики спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка рулевой колонки по высоте</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Стальные диски 15" с шинами 185/65 R15</value>
-				<value>Аудиоподготовка 4 динамика, антенна</value>
-				<value>Электроусилитель руля</value>
-				<value>Система управления стабилизацией (VSM)</value>
-				<value>Система помощи при старте в горку (НАС)</value>
-				<value>Антипробуксовочная система (TCS)</value>
-				<value>Антипробуксовочная система тормозов (АВS)</value>
-				<value>Иммобилайзер</value>
-				<value>Центральный замок</value>
-				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
-				<value>Крепления ISOFIX сзади</value>
-				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
-				<value>Датчик наружной температуры</value>
-				<value>Воздуховоды к ногам задних пассажиров</value>
-				<value>Карман в спинке кресла переднего пассажира</value>
-				<value>Карманы в задних дверях</value>
-				<value>Увеличенный до 160 мм дорожный просвет</value>
-				<value>Внутренняя обшивка крышки багажника</value>
-				<value>Воздушный фильтр салона</value>
-				<value>Аудиосистема, радио</value>
 			</DEFAULT_COMPLIT>
 			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
@@ -8668,24 +8255,24 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
-			<VIN>Z94G2811AHR043852</VIN>
+			<VIN>Z94G2811CHR044677</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Сreta (2016-)</MODEL>
 			<IsNew>yes</IsNew>
 			<CAPACITY>0</CAPACITY>
 			<POWER>0</POWER>
 			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
+			<FUEL_TYPE>1.6 (121л.с.)</FUEL_TYPE>
 			<TRANSMISS>6МТ</TRANSMISS>
 			<TransmissionCount>0</TransmissionCount>
-			<Color>белый</Color>
-			<ColorCode>PGU</ColorCode>
-			<ColorOrig>белый</ColorOrig>
-			<SpecName>Comfort Plus 1.6 2WD 6MT</SpecName>
-			<SpecId>CTW5D2617DD100</SpecId>
+			<Color>серебристый</Color>
+			<ColorCode>RHM</ColorCode>
+			<ColorOrig>серебристый</ColorOrig>
+			<SpecName>ACTIVE 1.6 4WD 6МТ</SpecName>
+			<SpecId>CTW5D2618DD087</SpecId>
 			<Description/>
-			<OLD_PRICE>1 009 900</OLD_PRICE>
-			<NEW_PRICE>944 900</NEW_PRICE>
+			<OLD_PRICE>974 900</OLD_PRICE>
+			<NEW_PRICE>909 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -8718,105 +8305,19 @@
 				<value>Пластиковые накладки на порогах дверей</value>
 				<value>Антенна на крыше ("плавник")</value>
 				<value>Аудиосистема (Радио, 4 динамика)</value>
+				<value>Гидроусилитель рулевого управления</value>
+				<value>Кондиционер</value>
 				<value>Внешние зеркала заднего вида в цвет кузова</value>
 				<value>Подогрев передних сидений с тремя режимами</value>
 				<value>Пульт управления центральным замком в ключе</value>
 				<value>Крючки для фиксации груза в багажнике</value>
 				<value>Дополнительный органайзер под полом багажника</value>
 				<value>Полка багажника</value>
-				<value>Электроусилитель рулевого управления</value>
-				<value>Легкосплавные диски 16" с шинами 205/65 R16</value>
 				<value>ESC (система стабилизации) с функцией помощи при старте в гору и спуска с горы</value>
-				<value>VSM (система управления стабилизацией)</value>
 				<value>Электропривод и подогрев наружных зеркал</value>
-				<value>Климат-контроль</value>
-				<value>Боковые подушки безопасности</value>
-				<value>Шторки безопасности</value>
-				<value>Рейлинги на крыше</value>
-				<value>Задние датчики парковки</value>
-				<value>Металлизированная отделка внутренних дверных ручек</value>
-				<value>Фары проекционного типа со статичными лампами подсветки поворота руля</value>
-				<value>Передние противотуманные фары</value>
-				<value>Светодиодные дневные ходовые огни</value>
+				<value>Стальные диски 16" с шинами 205/65 R16</value>
 			</DEFAULT_COMPLIT>
 			<CREDIT>65 000</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>Z94K241BAJR017065</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris  (17 MY)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.4 (100 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>серебристый</Color>
-			<ColorCode>RHM</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
-			<SpecName>Comfort 1,4 6МТ (100 л.с.)</SpecName>
-			<SpecId>H5S4K4617DD142</SpecId>
-			<Description/>
-			<OLD_PRICE>744 900</OLD_PRICE>
-			<NEW_PRICE>654 900</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Электронная система распределения тормозных усилий (EBD)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Дневные ходовые огни в бампере</value>
-				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Брызговики спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка рулевой колонки по высоте</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
-				<value>Управление аудиосистемой на руле</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Стальные диски 15" с шинами 185/65 R15</value>
-				<value>Аудиоподготовка 4 динамика, антенна</value>
-				<value>Кондиционер</value>
-				<value>Подогрев передних сидений</value>
-				<value>Пульт управления центральным замком в ключе + сигнализация</value>
-				<value>Регулировка рулевой колонки по вылету</value>
-				<value>Электроусилитель руля</value>
-				<value>Система управления стабилизацией (VSM)</value>
-				<value>Подогрев руля</value>
-				<value>Панель приборов Supervision</value>
-				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
-				<value>Система помощи при старте в горку (НАС)</value>
-				<value>Антипробуксовочная система (TCS)</value>
-				<value>Антипробуксовочная система тормозов (АВS)</value>
-				<value>Иммобилайзер</value>
-				<value>Центральный замок</value>
-				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
-				<value>Крепления ISOFIX сзади</value>
-				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
-				<value>Датчик наружной температуры</value>
-				<value>Воздуховоды к ногам задних пассажиров</value>
-				<value>Карман в спинке кресла переднего пассажира</value>
-				<value>Карманы в задних дверях</value>
-				<value>Увеличенный до 160 мм дорожный просвет</value>
-				<value>Внутренняя обшивка крышки багажника</value>
-				<value>Воздушный фильтр салона</value>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>Аудиосистема, радио</value>
-				<value>Управление телефоном на руле</value>
-				<value>Датчик низкого уровня омывающей жидкости</value>
-				<value>Отделка дверей тканью</value>
-				<value>Отделка руля кожей</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -8973,138 +8474,7 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
-			<VIN>XWEJC813DJ0003552</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Tucson (2015 -)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>2.0 (149.6 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6АТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>серебристый</Color>
-			<ColorCode>U3S</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
-			<SpecName>Comfort 2.0 4 WD  6AT</SpecName>
-			<SpecId>D7W52G61GGGEP7</SpecId>
-			<Description/>
-			<OLD_PRICE>1 625 000</OLD_PRICE>
-			<NEW_PRICE>1 473 750</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Преднатяжители передних ремней безопасности</value>
-				<value>ABS + EBD (система распределения тормозных усилий)</value>
-				<value>Брызговики</value>
-				<value>Управление магнитолой на руле</value>
-				<value>Обивка сидений тканью</value>
-				<value>Датчик света</value>
-				<value>Светодиодные дневные ходовые огни</value>
-				<value>Передние боковые подушки безопасности</value>
-				<value>Система помощи при экстренном торможении</value>
-				<value>ESC (система стабилизации) с функцией помощи при старте в гору и спуска с горы</value>
-				<value>VSM (система управления стабилизацией)</value>
-				<value>Регулировка руля по высоте и вылету</value>
-				<value>Подогрев передних сидений</value>
-				<value>Электростеклоподъемник двери водителя с автоматическим опусканием</value>
-				<value>Электропривод и подогрев наружных зеркал</value>
-				<value>Маршрутный компьютер</value>
-				<value>Разъемы USB, AUX</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Регулировка угла наклона спинок сидений второго ряда</value>
-				<value>Шторка багажника</value>
-				<value>Светодиодные дневные ходовые огни</value>
-				<value>Ручки дверей и зеркала в цвет кузова</value>
-				<value>Задний спойлер</value>
-				<value>Противотуманные фары</value>
-				<value>Полноразмерное запасное колесо с легкосплавным диском</value>
-				<value>Пульт управления центральным замком в раскладном ключе + сигнализация**</value>
-				<value>Аудиосистема (Радио, 6 динамиков)</value>
-				<value>Bluetooth с системой распознавания голоса</value>
-				<value>Датчик света с автоматическим включением фар</value>
-				<value>Повторители поворота в корпусах наружных зеркал</value>
-				<value>Круиз-контроль с управлением на руле</value>
-				<value>Датчик дождя</value>
-				<value>Двухзонный климат-контроль</value>
-				<value>Система антизапотевания стекол</value>
-				<value>Датчики парковки сзади</value>
-				<value>Сетка для багажа</value>
-				<value>Безопасный доводчик стекла водителя</value>
-				<value>Охлаждаемый перчаточный ящик</value>
-				<value>Отделка руля и рукоятки КПП кожей</value>
-				<value>Самозатемняющееся внутрисалонное зеркало</value>
-				<value>Подогрев руля</value>
-				<value>Регулировка поясничного подпора сиденья водителя с электроприводом</value>
-				<value>Теплозащитные лобовое и передние боковые стекла, тонированные задние боковые и с</value>
-				<value>Подогрев лобового стекла в зоне покоя стеклоочистителей</value>
-				<value>Пепельница и прикуриватель</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Легкосплавные диски 17" с шинами 225/60 R17</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>151 250</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>KMHDH41EBDU969404</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Elantra NEW</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY/>
-			<POWER/>
-			<fuel_consumption/>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount/>
-			<Color>белый</Color>
-			<ColorCode>NCW</ColorCode>
-			<ColorOrig>белый</ColorOrig>
-			<SpecName>SDS4N361FGI125</SpecName>
-			<SpecId>ЦБ000518</SpecId>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<OPTION_SUMM>8 100</OPTION_SUMM>
-			<OPTION_EQU>
-				<value>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ, СТАЛЬНАЯ ELANTRA 2011(NEW)</value>
-				<value>КОВРИК БАГАЖНОГО ОТСЕКА ELANTRA 2012</value>
-				<value>КОВРИК САЛОНА ПОЛИУРЕТАНОВЫЙ, КОМПЛЕКТ, 4ШТ. ELANTRA</value>
-				<value>Установка защиты картера</value>
-			</OPTION_EQU>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>0</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>TMAD351BAEJ165157</VIN>
-			<MARK/>
-			<MODEL>i30 (2012-)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY/>
-			<POWER/>
-			<fuel_consumption/>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount/>
-			<Color>серебристый</Color>
-			<ColorCode>RAH</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
-			<SpecName>A6S6D2617GH085</SpecName>
-			<SpecId>ЦБ000528</SpecId>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>0</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
-			<VIN>Z94K241CBJR007650</VIN>
+			<VIN>Z94K241CAJR015882</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Solaris  (17 MY)</MODEL>
 			<IsNew>yes</IsNew>
@@ -9112,16 +8482,16 @@
 			<POWER>0</POWER>
 			<fuel_consumption>0</fuel_consumption>
 			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6АТ</TRANSMISS>
+			<TRANSMISS>6МТ</TRANSMISS>
 			<TransmissionCount>0</TransmissionCount>
-			<Color>темно-серый</Color>
-			<ColorCode>U4G</ColorCode>
-			<ColorOrig>темно-серый</ColorOrig>
-			<SpecName>Comfort+ Расширенный 1,6 6АТ(123л.с.)</SpecName>
-			<SpecId>H5S4D261FDD143</SpecId>
+			<Color>белый</Color>
+			<ColorCode>PGU</ColorCode>
+			<ColorOrig>белый</ColorOrig>
+			<SpecName>Comfort+ Расширенный 1,6 6МТ (123л.с.)</SpecName>
+			<SpecId>H5S4D2617DD143</SpecId>
 			<Description/>
-			<OLD_PRICE>839 900</OLD_PRICE>
-			<NEW_PRICE>716 304</NEW_PRICE>
+			<OLD_PRICE>799 900</OLD_PRICE>
+			<NEW_PRICE>699 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -9180,7 +8550,62 @@
 				<value>Отделка руля кожей</value>
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>123 596</CREDIT>
+			<CREDIT>100 000</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>KMHDH41EBDU969404</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Elantra NEW</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY/>
+			<POWER/>
+			<fuel_consumption/>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount/>
+			<Color>белый</Color>
+			<ColorCode>NCW</ColorCode>
+			<ColorOrig>белый</ColorOrig>
+			<SpecName>SDS4N361FGI125</SpecName>
+			<SpecId>ЦБ000518</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<OPTION_SUMM>8 100</OPTION_SUMM>
+			<OPTION_EQU>
+				<value>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ, СТАЛЬНАЯ ELANTRA 2011(NEW)</value>
+				<value>КОВРИК БАГАЖНОГО ОТСЕКА ELANTRA 2012</value>
+				<value>КОВРИК САЛОНА ПОЛИУРЕТАНОВЫЙ, КОМПЛЕКТ, 4ШТ. ELANTRA</value>
+				<value>Установка защиты картера</value>
+			</OPTION_EQU>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>TMAD351BAEJ165157</VIN>
+			<MARK/>
+			<MODEL>i30 (2012-)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY/>
+			<POWER/>
+			<fuel_consumption/>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount/>
+			<Color>серебристый</Color>
+			<ColorCode>RAH</ColorCode>
+			<ColorOrig>серебристый</ColorOrig>
+			<SpecName>A6S6D2617GH085</SpecName>
+			<SpecId>ЦБ000528</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>0</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -9359,7 +8784,7 @@
 			<SpecId>H5S4K461FDD143</SpecId>
 			<Description/>
 			<OLD_PRICE>814 900</OLD_PRICE>
-			<NEW_PRICE>724 900</NEW_PRICE>
+			<NEW_PRICE>714 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -9418,7 +8843,7 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -9500,6 +8925,166 @@
 				<value>Крышка багажника с хромированными элементами</value>
 			</DEFAULT_COMPLIT>
 			<CREDIT>0</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>Z94K241CBJR022398</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris  (17 MY)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6АТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>PGU</ColorCode>
+			<ColorOrig>белый</ColorOrig>
+			<SpecName>Comfort+Зимний1,6 6АТ (123л.с.)</SpecName>
+			<SpecId>H5S4D261FDD144</SpecId>
+			<Description/>
+			<OLD_PRICE>849 900</OLD_PRICE>
+			<NEW_PRICE>749 900</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Кондиционер</value>
+				<value>Подогрев передних сидений</value>
+				<value>Пульт управления центральным замком в ключе + сигнализация</value>
+				<value>Регулировка рулевой колонки по вылету</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Фары проекционного типа со статичной подсветкой поворотов</value>
+				<value>Передние противотуманные фары</value>
+				<value>Светодиодные  ходовые огни</value>
+				<value>Подогрев руля</value>
+				<value>Панель приборов Supervision</value>
+				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антипробуксовочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Аудиосистема, радио</value>
+				<value>Управление телефоном на руле</value>
+				<value>Датчик низкого уровня омывающей жидкости</value>
+				<value>Отделка дверей тканью</value>
+				<value>Отделка руля кожей</value>
+				<value>Подогрев лобового стекла</value>
+				<value>Подогрев форсунок стеклоомывателя</value>
+				<value>Подогрев задних сидений</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>100 000</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>Z94K241CAJR018787</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris  (17 MY)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6МТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>PGU</ColorCode>
+			<ColorOrig>белый</ColorOrig>
+			<SpecName>Comfort 1,6 6МТ(123 л.с)</SpecName>
+			<SpecId>H5S4D2617DD142</SpecId>
+			<Description/>
+			<OLD_PRICE>769 900</OLD_PRICE>
+			<NEW_PRICE>669 900</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Кондиционер</value>
+				<value>Подогрев передних сидений</value>
+				<value>Пульт управления центральным замком в ключе + сигнализация</value>
+				<value>Регулировка рулевой колонки по вылету</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Подогрев руля</value>
+				<value>Панель приборов Supervision</value>
+				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антипробуксовочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Аудиосистема, радио</value>
+				<value>Управление телефоном на руле</value>
+				<value>Датчик низкого уровня омывающей жидкости</value>
+				<value>Отделка дверей тканью</value>
+				<value>Отделка руля кожей</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -9965,73 +9550,135 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
-			<VIN>Z94G2811BHR043973</VIN>
+			<VIN>Z94K241BAJR026819</VIN>
 			<MARK>Hyundai</MARK>
-			<MODEL>Сreta (2016-)</MODEL>
+			<MODEL>Solaris  (17 MY)</MODEL>
 			<IsNew>yes</IsNew>
 			<CAPACITY>0</CAPACITY>
 			<POWER>0</POWER>
 			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6АТ</TRANSMISS>
+			<FUEL_TYPE>1.4 (100 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6МТ</TRANSMISS>
 			<TransmissionCount>0</TransmissionCount>
-			<Color>черный</Color>
-			<ColorCode>MZH</ColorCode>
-			<ColorOrig>черный</ColorOrig>
-			<SpecName>ACTIVE + WINTER 1.6 2WD 6AТ</SpecName>
-			<SpecId>CTW5D261FDD088</SpecId>
+			<Color>серебристый</Color>
+			<ColorCode>RHM</ColorCode>
+			<ColorOrig>серебристый</ColorOrig>
+			<SpecName>Active Plus 1,4 6MТ (100 л.с.)</SpecName>
+			<SpecId>H5S4K4617DD141</SpecId>
 			<Description/>
-			<OLD_PRICE>969 900</OLD_PRICE>
-			<NEW_PRICE>904 900</NEW_PRICE>
+			<OLD_PRICE>699 900</OLD_PRICE>
+			<NEW_PRICE>599 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
-				<value>Подогрев рулевого колеса</value>
-				<value>Подогрев задних сидений с двумя режимами</value>
-				<value>Кожаная отделка рулевого колеса</value>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Подогрев передних сидений</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Кондиционер</value>
 				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
 				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Преднатяжители передних ремней безопасности</value>
-				<value>ABS + EBD (система распределения тормозных усилий)</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
 				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Дневные ходовые огни</value>
-				<value>Ручки дверей в цвет кузова</value>
-				<value>Полноразмерное запасное колесо на стальном диске</value>
-				<value>Брызговики</value>
-				<value>Дисковые тормоза спереди и сзади</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
 				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка руля по высоте</value>
-				<value>Передний подлокотник с боксом</value>
-				<value>Маршрутный компьютер</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Bluetooth</value>
-				<value>Управление магнитолой на руле</value>
+				<value>Регулировка рулевой колонки по высоте</value>
 				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Электростеклоподъемники передних и задних дверей</value>
 				<value>Система мониторинга давления в шинах</value>
-				<value>Обивка сидений тканью</value>
-				<value>4 подголовника</value>
 				<value>Две 12v розетки на центральной консоли</value>
 				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Футляр для очков в потолочной консоли</value>
-				<value>Пластиковые накладки на порогах дверей</value>
-				<value>Антенна на крыше ("плавник")</value>
-				<value>Аудиосистема (Радио, 4 динамика)</value>
-				<value>Кондиционер</value>
-				<value>Внешние зеркала заднего вида в цвет кузова</value>
-				<value>Подогрев передних сидений с тремя режимами</value>
-				<value>Пульт управления центральным замком в ключе</value>
-				<value>Крючки для фиксации груза в багажнике</value>
-				<value>Дополнительный органайзер под полом багажника</value>
-				<value>Полка багажника</value>
-				<value>Электроусилитель рулевого управления</value>
-				<value>ESC (система стабилизации) с функцией помощи при старте в гору и спуска с горы</value>
-				<value>VSM (система управления стабилизацией)</value>
-				<value>Электропривод и подогрев наружных зеркал</value>
-				<value>Стальные диски 16" с шинами 205/65 R16</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антипробуксовочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Аудиосистема, радио</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>65 000</CREDIT>
+			<CREDIT>100 000</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>Z94K241BAJR024862</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris  (17 MY)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.4 (100 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6МТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>PGU</ColorCode>
+			<ColorOrig>белый</ColorOrig>
+			<SpecName>Active Plus 1,4 6MТ (100 л.с.)</SpecName>
+			<SpecId>H5S4K4617DD141</SpecId>
+			<Description/>
+			<OLD_PRICE>699 900</OLD_PRICE>
+			<NEW_PRICE>599 900</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Подогрев передних сидений</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Кондиционер</value>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антипробуксовочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Аудиосистема, радио</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -10132,7 +9779,7 @@
 			<SpecId>H5S4D261FDD142</SpecId>
 			<Description/>
 			<OLD_PRICE>809 900</OLD_PRICE>
-			<NEW_PRICE>719 900</NEW_PRICE>
+			<NEW_PRICE>709 900</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
@@ -10188,7 +9835,84 @@
 				<value>Отделка дверей тканью</value>
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
+			<CREDIT>100 000</CREDIT>
+			<SLIDER/>
+		</Contract>
+		<Contract>
+			<VIN>Z94K241CBJR023457</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris  (17 MY)</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6АТ</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>синий</Color>
+			<ColorCode>N4U</ColorCode>
+			<ColorOrig>синий</ColorOrig>
+			<SpecName>Comfort 1,6 6АТ(123 л.с)</SpecName>
+			<SpecId>H5S4D261FDD142</SpecId>
+			<Description/>
+			<OLD_PRICE>809 900</OLD_PRICE>
+			<NEW_PRICE>709 900</NEW_PRICE>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Кондиционер</value>
+				<value>Подогрев передних сидений</value>
+				<value>Пульт управления центральным замком в ключе + сигнализация</value>
+				<value>Регулировка рулевой колонки по вылету</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Подогрев руля</value>
+				<value>Панель приборов Supervision</value>
+				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антипробуксовочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Аудиосистема, радио</value>
+				<value>Управление телефоном на руле</value>
+				<value>Датчик низкого уровня омывающей жидкости</value>
+				<value>Отделка дверей тканью</value>
+				<value>Отделка руля кожей</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>100 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 		<Contract>
@@ -10641,86 +10365,6 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
-			<VIN>Z94K241CAJR007614</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris  (17 MY)</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>1.6 (123 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6МТ</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>белый</Color>
-			<ColorCode>PGU</ColorCode>
-			<ColorOrig>белый</ColorOrig>
-			<SpecName>Comfort+ Расширенный 1,6 6МТ (123л.с.)</SpecName>
-			<SpecId>H5S4D2617DD143</SpecId>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Электронная система распределения тормозных усилий (EBD)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Дневные ходовые огни в бампере</value>
-				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Брызговики спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка рулевой колонки по высоте</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
-				<value>Управление аудиосистемой на руле</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Стальные диски 15" с шинами 185/65 R15</value>
-				<value>Аудиоподготовка 4 динамика, антенна</value>
-				<value>Кондиционер</value>
-				<value>Подогрев передних сидений</value>
-				<value>Пульт управления центральным замком в ключе + сигнализация</value>
-				<value>Климат-контроль</value>
-				<value>Регулировка рулевой колонки по вылету</value>
-				<value>Электроусилитель руля</value>
-				<value>Система управления стабилизацией (VSM)</value>
-				<value>Подогрев руля</value>
-				<value>Панель приборов Supervision</value>
-				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
-				<value>Система помощи при старте в горку (НАС)</value>
-				<value>Антипробуксовочная система (TCS)</value>
-				<value>Антипробуксовочная система тормозов (АВS)</value>
-				<value>Иммобилайзер</value>
-				<value>Центральный замок</value>
-				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
-				<value>Крепления ISOFIX сзади</value>
-				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
-				<value>Датчик наружной температуры</value>
-				<value>Воздуховоды к ногам задних пассажиров</value>
-				<value>Карман в спинке кресла переднего пассажира</value>
-				<value>Карманы в задних дверях</value>
-				<value>Увеличенный до 160 мм дорожный просвет</value>
-				<value>Внутренняя обшивка крышки багажника</value>
-				<value>Воздушный фильтр салона</value>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>Аудиосистема, радио</value>
-				<value>Управление телефоном на руле</value>
-				<value>Датчик низкого уровня омывающей жидкости</value>
-				<value>Датчики парковки сзади</value>
-				<value>Отделка дверей тканью</value>
-				<value>Отделка руля кожей</value>
-				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
-			</DEFAULT_COMPLIT>
-			<CREDIT>0</CREDIT>
-			<SLIDER/>
-		</Contract>
-		<Contract>
 			<VIN>Z94G3813DHR000442</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Сreta (2016-)</MODEL>
@@ -10815,79 +10459,60 @@
 			<SLIDER/>
 		</Contract>
 		<Contract>
-			<VIN>XWEJC813BH0001228</VIN>
+			<VIN>KMHWH81KAHU867889</VIN>
 			<MARK>Hyundai</MARK>
-			<MODEL>Tucson (2015 -)</MODEL>
+			<MODEL>H-1</MODEL>
 			<IsNew>yes</IsNew>
 			<CAPACITY>0</CAPACITY>
 			<POWER>0</POWER>
 			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>2.0 (149.6 л.с.)</FUEL_TYPE>
-			<TRANSMISS>6АТ</TRANSMISS>
+			<FUEL_TYPE>2.5 CRDI WGT (116 л.с.)</FUEL_TYPE>
+			<TRANSMISS>6МТ</TRANSMISS>
 			<TransmissionCount>0</TransmissionCount>
-			<Color>белый</Color>
-			<ColorCode>PYW</ColorCode>
-			<ColorOrig>белый</ColorOrig>
-			<SpecName>Comfort 2,0 2WD  6АТ</SpecName>
-			<SpecId>D7W52G61FGGEP7</SpecId>
+			<Color>синий</Color>
+			<ColorCode>W9U</ColorCode>
+			<ColorOrig>синий</ColorOrig>
+			<SpecName>Comfort D 2,5 6МТ (116л.с.)</SpecName>
+			<SpecId>GDB86B857GGJJK</SpecId>
 			<Description/>
-			<OLD_PRICE>1 505 900</OLD_PRICE>
-			<NEW_PRICE>1 360 605</NEW_PRICE>
+			<OLD_PRICE>1 974 000</OLD_PRICE>
+			<NEW_PRICE>1 924 000</NEW_PRICE>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Передние боковые подушки безопасности</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Преднатяжители передних ремней безопасности</value>
-				<value>ABS + EBD (система распределения тормозных усилий)</value>
-				<value>Система помощи при экстренном торможении</value>
-				<value>ESC (система стабилизации) с функцией помощи при старте в гору и спуска с горы</value>
-				<value>VSM (система управления стабилизацией)</value>
-				<value>Регулировка руля по высоте и вылету</value>
-				<value>Подогрев передних сидений</value>
-				<value>Электростеклоподъемник двери водителя с автоматическим опусканием</value>
-				<value>Электропривод и подогрев наружных зеркал</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Маршрутный компьютер</value>
-				<value>Разъемы USB, AUX</value>
-				<value>Управление магнитолой на руле</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Регулировка угла наклона спинок сидений второго ряда</value>
-				<value>Шторка багажника</value>
-				<value>Светодиодные дневные ходовые огни</value>
-				<value>Ручки дверей и зеркала в цвет кузова</value>
-				<value>Светодиодные дневные ходовые огни</value>
-				<value>Пепельница и прикуриватель</value>
-				<value>Задний спойлер</value>
-				<value>Противотуманные фары</value>
-				<value>Полноразмерное запасное колесо с легкосплавным диском</value>
-				<value>Брызговики</value>
-				<value>Аудиосистема (Радио, 6 динамиков)</value>
-				<value>Датчик света</value>
-				<value>Датчик света с автоматическим включением фар</value>
-				<value>Повторители поворота в корпусах наружных зеркал</value>
-				<value>Круиз-контроль с управлением на руле</value>
-				<value>Датчик дождя</value>
-				<value>Двухзонный климат-контроль</value>
-				<value>Система антизапотевания стекол</value>
-				<value>Датчики парковки сзади</value>
-				<value>Сетка для багажа</value>
-				<value>Безопасный доводчик стекла водителя</value>
-				<value>Охлаждаемый перчаточный ящик</value>
-				<value>Отделка руля и рукоятки КПП кожей</value>
-				<value>Самозатемняющееся внутрисалонное зеркало</value>
-				<value>Подогрев руля</value>
-				<value>Регулировка поясничного подпора сиденья водителя с электроприводом</value>
-				<value>Теплозащитные лобовое и передние боковые стекла, тонированные задние боковые и с</value>
-				<value>Подогрев лобового стекла в зоне покоя стеклоочистителей</value>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Пульт управления центральным замком в раскладном ключе + сигнализация**</value>
-				<value>Bluetooth с системой распознавания голоса</value>
+				<value>Регулировка руля по высоте</value>
+				<value>Подогрев сиденья водителя</value>
+				<value>Электростеклоподъемники</value>
+				<value>Аккумуляторная батарея повышенной емкости</value>
+				<value>Ручки дверей в цвет кузова</value>
 				<value>Обивка сидений тканью</value>
-				<value>Легкосплавные диски 17" с шинами 225/60 R17</value>
+				<value>Подушка безопасности водителя</value>
+				<value>Подушка безопасности переднего пассажира</value>
+				<value>Иммобилайзер</value>
+				<value>Гудроусилитель руля</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>EBD (электронная система распределения тормозных усилий)</value>
+				<value>Фильтр салона</value>
+				<value>Преднатяжители передних ремней безопасности</value>
+				<value>ABS (антиблокировочная система тормозов)</value>
+				<value>Подогрев топливного фильтра</value>
+				<value>Пульт управления ЦЗ в раскладном ключе + сигнализация*</value>
+				<value>Аудиосистема 2 DIN (Радио/CD/MP3) с 6 динамиками</value>
+				<value>Система Bluetooth</value>
+				<value>Блок управления магнитолой на руле</value>
+				<value>Разъемы USB, AUX</value>
+				<value>Отделка центральной консоли под металл</value>
+				<value>Раздельные кресла переднего ряда</value>
+				<value>Ручка на передней левой стойке в салоне</value>
+				<value>Дополнительный стоп-сигнал</value>
+				<value>Легкосплавные диски 16" с шинами 215/70 R16</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Маршрутный компьютер</value>
+				<value>Дополнительный отопитель салона</value>
+				<value>Плафон освещения задней части салона</value>
+				<value>Кондиционер с раздельным управлением (кабина/салон)</value>
 			</DEFAULT_COMPLIT>
-			<CREDIT>145 295</CREDIT>
+			<CREDIT>50 000</CREDIT>
 			<SLIDER/>
 		</Contract>
 	</ContractList>
