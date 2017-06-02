@@ -13,17 +13,23 @@
 $this->setFrameMode(true);
 //var_dump($arResult);
 ?>
+<script type="text/javascript" src="/js/readmore.js"></script>
 <div class="slider">
 
 	<div class="main-slideshow">
 
-		<?foreach($arResult["PROPERTIES"]["SLIDER"]["VALUE"] as $key => $arItem):?>
+		<?foreach($arResult["PROPERTIES"]["SLIDER"]["VALUE"] as $key => $arItem):
+			if(!preg_match('/preview/',$arItem,$preg)):
+		?>
 			<div class="main-slideshow-item">
 				<div class="main-slideshow-item-content ls-slide">
 					<a href="<?=$arResult["PROPERTIES"]["SLIDER"]["DESCRIPTION"][$key]?>"><img src="<?=$arItem;?>" alt=""/></a>
 				</div>
 			</div>
-		<?endforeach;?>
+		<?
+			endif;
+		endforeach;
+		?>
 
 	</div>
 
@@ -304,4 +310,13 @@ $this->setFrameMode(true);
 	false
 );?>
 
-
+<script>
+	$(function(){
+		$('.setting-offer').readmore({
+			speed: 75,
+			maxHeight: 840,
+			moreLink: '<a href="#" style="color:#7BB3E8">[Показать полностью]</a>',
+			lessLink: '<a href="#" style="color:#7BB3E8">[Скрыть текст]</a>'
+		});
+	});
+</script>

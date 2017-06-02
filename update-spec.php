@@ -33,11 +33,11 @@ foreach($xml->ContractList->Contract as $cont){
     $PROP['mark_id'] = (string)$cont->MARK;
     $PROP['folder_id'] = (string)$cont->MODEL;
   //  $PROP['folder_id'] = (string)$cont->IsNew;
-  //  $PROP['folder_id'] = (string)$cont->CAPACITY;
+    $PROP['CAPACITY'] = (string)$cont->CAPACITY;
   //  $PROP['folder_id'] = (string)$cont->POWER;
   //  $PROP['folder_id'] = (string)$cont->fuel_consumption;
  //   $PROP['folder_id'] = (string)$cont->FUEL_TYPE;
-  //  $PROP['folder_id'] = (string)$cont->TRANSMISS;
+    $PROP['TRANSMISS'] = (string)$cont->TRANSMISS;
   //  $PROP['folder_id'] = (string)$cont->TransmissionCount;
     $PROP['color'] = (string)$cont->Color;
     $PROP['color_code'] = (string)$cont->ColorCode;
@@ -81,6 +81,8 @@ foreach($xml->ContractList->Contract as $cont){
     }
     if(!empty($PROP['SLIDER'])){
         print '<a href="/offer/'.(string)$cont->VIN.'/">'.(string)$cont->SpecName.'</a><br>';
+    }else{
+        $arNoImg[] = (string)$cont->VIN;
     }
 
 
@@ -107,6 +109,13 @@ foreach($xml->ContractList->Contract as $cont){
 
 
 }
+    $adminEmail = COption::GetOptionString('main', 'email_from');
+
+    mail($adminEmail, $SERVER_NAME, 'Нет фото VIN:<br> '.implode("<br>", $arNoImg),
+        "From: webmaster@$SERVER_NAME\r\n"
+        ."Reply-To: webmaster@$SERVER_NAME\r\n"
+        ."Content-type: text/html; charset=utf-8\r\n"
+        ."X-Mailer: PHP/" . phpversion());
 
 
 endif;

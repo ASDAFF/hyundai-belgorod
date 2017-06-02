@@ -31,19 +31,34 @@ $this->setFrameMode(true);
 
 <?
 foreach($arResult["ITEMS"] as $arItem) {
+
+	$img = '';
+	if(!empty($arItem["PROPERTIES"]["SLIDER"]['VALUE'])){
+		foreach($arItem["PROPERTIES"]["SLIDER"]['VALUE'] as $src){
+			if(preg_match('/preview/',$src,$preg)){
+				$img = $src;
+			}
+		}
+	}
+
+
+
+
 	?>
 	<div class="super-offer-slide-giant">
 		<div class="item" id="bx_<?=$arItem['ID']?>">
 			<a href="<?=$arItem['DETAIL_PAGE_URL']?>">
 
 
-				<img data-lazy="<?=$arItem['PREVIEW_PICTURE']['SRC']?>" alt="<?=$arItem['NAME']?>"/>
+				<img data-lazy="<?=$img?>" alt="<?=$arItem['NAME']?>"/>
 
 			</a>
 
 			<div class="mCarListCards_Item_Info">
 				<div class="mCarListCards_Item_Info_Name">
-					<a href="<?=$arItem['DETAIL_PAGE_URL']?>"><?=$arItem['NAME']?></a>
+					<a href="<?=$arItem['DETAIL_PAGE_URL']?>">
+						<?=$arItem['PROPERTIES']['mark_id']['VALUE'].' '.$arItem['PROPERTIES']['CAPACITY']['VALUE'].' '.$arItem['PROPERTIES']['TRANSMISS']['VALUE']?>
+					</a>
 				</div>
 
 				<div class="offer-sale">
