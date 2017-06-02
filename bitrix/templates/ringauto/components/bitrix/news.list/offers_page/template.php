@@ -48,7 +48,7 @@ foreach($arResult["ITEMS"] as $arItem) {
 			<div class="mCarListCards_Item_Info">
 				<div class="mCarListCards_Item_Info_Name">
 					<a href="<?=$arItem['DETAIL_PAGE_URL']?>">
-						<?=$arItem['PROPERTIES']['mark_id']['VALUE'].' '.$arItem['PROPERTIES']['CAPACITY']['VALUE'].' '.$arItem['PROPERTIES']['TRANSMISS']['VALUE']?>
+						<?=$arItem['PROPERTIES']['mark_id']['VALUE'].' '.$arItem['PROPERTIES']['CAPACITY']['VALUE'].' / '.$arItem['PROPERTIES']['TRANSMISS']['VALUE']?>
 					</a>
 				</div>
 
