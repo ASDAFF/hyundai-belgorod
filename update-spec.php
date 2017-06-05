@@ -28,23 +28,37 @@ foreach($xml->ContractList->Contract as $cont){
 
     $el = new CIBlockElement;
 
+    /*
+     *
+     Нет полей спецпредложения - new_car
+    IsNew
+    POWER
+    fuel_consumption
+    FUEL_TYPE
+    TransmissionCount
+    ColorOrig
+    SpecName(используеться только в названии)
+    Description
+    OPTION_SUMM
+    ---
+    CUZOV
+    Comment
+    STREET
+    number
+
+      */
+
     $PROP = array();
     $PROP['vin'] = (string)$cont->VIN;
     $PROP['mark_id'] = (string)$cont->MARK;
     $PROP['folder_id'] = (string)$cont->MODEL;
-  //  $PROP['folder_id'] = (string)$cont->IsNew;
     $PROP['CAPACITY'] = (string)$cont->CAPACITY;
-  //  $PROP['folder_id'] = (string)$cont->POWER;
-  //  $PROP['folder_id'] = (string)$cont->fuel_consumption;
- //   $PROP['folder_id'] = (string)$cont->FUEL_TYPE;
     $PROP['TRANSMISS'] = (string)$cont->TRANSMISS;
-  //  $PROP['folder_id'] = (string)$cont->TransmissionCount;
     $PROP['color'] = (string)$cont->Color;
     $PROP['color_code'] = (string)$cont->ColorCode;
- //   $PROP['folder_id'] = (string)$cont->SpecName;
     $PROP['SpecId'] = (string)$cont->SpecId;
- //   $PROP['folder_id'] = (string)$cont->Description;
- //   $PROP['folder_id'] = (string)$cont->OPTION_SUMM;
+
+
 
     foreach($cont->OPTION_EQU->value as $equ){
         $PROP['OPTION_EQU'][] = (string)$equ;
@@ -56,7 +70,7 @@ foreach($xml->ContractList->Contract as $cont){
     $PROP['OLD_PRICE'] = (string)$cont->OLD_PRICE;
     $PROP['NEW_PRICE'] = (string)$cont->NEW_PRICE;
     $PROP['CREDIT'] = (string)$cont->CREDIT;
-  //  $PROP['SLIDER'] = (string)$cont->SLIDER;
+
 
     $dir = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new/'),array('.','..'));
     foreach($dir as $d){

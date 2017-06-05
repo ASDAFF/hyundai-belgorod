@@ -28,6 +28,26 @@ if(CModule::IncludeModule("iblock")):
 
         $el = new CIBlockElement;
 
+        /*
+
+        Нет полей авто с пробегом - used_car
+        IsNew
+        fuel_consumption
+        TransmissionCount
+        ColorOrig
+        SpecName
+        SpecId
+        OLD_PRICE
+        OPTION_SUMM
+        OPTION_EQU
+        DEFAULT_COMPLIT
+        CREDIT
+        ---
+        CUZOV
+        Comment
+
+          */
+
 
         $PROP = array();
         $PROP['vin'] = (string)$cont->VIN;
@@ -35,16 +55,12 @@ if(CModule::IncludeModule("iblock")):
         $PROP['MODEL'] = (string)$cont->MODEL;
         $PROP['CAPACITY'] = (string)$cont->CAPACITY;
         $PROP['POWER'] = (string)$cont->POWER;
-        //  $PROP['fuel_consumption'] = (string)$cont->fuel_consumption;
         $PROP['FUEL_TYPE'] = (string)$cont->FUEL_TYPE;
         $PROP['TRANSMISS'] = (string)$cont->TRANSMISS;
-        //  $PROP['TransmissionCount'] = (string)$cont->TransmissionCount;
         $PROP['COLOR'] = (string)$cont->Color;
         $PROP['color_code'] = (string)$cont->ColorCode;
         $PROP['Description'] = (string)$cont->Description;
         $PROP['NEW_PRICE'] = (string)$cont->NEW_PRICE;
-        //   $PROP['folder_id'] = (string)$cont->SpecId;
-        //   $PROP['folder_id'] = (string)$cont->OPTION_SUMM;
 
         if (in_array((string)$cont->VIN, $files)) {
             $dir_img = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/used/'.(string)$cont->VIN),array('.','..'));
@@ -66,8 +82,8 @@ if(CModule::IncludeModule("iblock")):
             $active = 'N';
         }
 
-        $PROP['STREET'] = Array("VALUE" => 55 );
-        $PROP['PHONE'] = Array("VALUE" => 57 );
+        $PROP['STREET'] = (string)$cont->STREET;
+        $PROP['PHONE'] = (string)$cont->number;
 
 
         $arLoadProductArray = Array(
