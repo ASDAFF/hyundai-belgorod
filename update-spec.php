@@ -41,11 +41,7 @@ foreach($xml->ContractList->Contract as $cont){
     Description
     OPTION_SUMM
     ---
-    CUZOV
     Comment
-    STREET
-    number
-
       */
 
     $PROP = array();
@@ -57,6 +53,9 @@ foreach($xml->ContractList->Contract as $cont){
     $PROP['color'] = (string)$cont->Color;
     $PROP['color_code'] = (string)$cont->ColorCode;
     $PROP['SpecId'] = (string)$cont->SpecId;
+    $PROP['CUZOV'] = (string)$cont->CUZOV;
+    $PROP['STREET'] = (string)$cont->STREET;
+    $PROP['number'] = (string)$cont->number;
 
 
 

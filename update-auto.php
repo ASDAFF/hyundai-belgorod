@@ -43,7 +43,6 @@ if(CModule::IncludeModule("iblock")):
         DEFAULT_COMPLIT
         CREDIT
         ---
-        CUZOV
         Comment
 
           */
@@ -61,6 +60,7 @@ if(CModule::IncludeModule("iblock")):
         $PROP['color_code'] = (string)$cont->ColorCode;
         $PROP['Description'] = (string)$cont->Description;
         $PROP['NEW_PRICE'] = (string)$cont->NEW_PRICE;
+        $PROP['CUZOV'] = (string)$cont->CUZOV;
 
         if (in_array((string)$cont->VIN, $files)) {
             $dir_img = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/used/'.(string)$cont->VIN),array('.','..'));
