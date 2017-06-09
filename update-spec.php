@@ -99,6 +99,9 @@ foreach($xml->ContractList->Contract as $cont){
     }
 
 
+
+
+
     $arLoadProductArray = Array(
         "IBLOCK_SECTION_ID" => false,          // элемент лежит в корне раздела
         "IBLOCK_ID"      => 8,
@@ -109,13 +112,30 @@ foreach($xml->ContractList->Contract as $cont){
     );
 
 
-
-
-    if($PRODUCT_ID = $el->Add($arLoadProductArray)){
-//        echo "New ID: ".$PRODUCT_ID;
-    }else{
-        echo "Error: ".$el->LAST_ERROR;
+    $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","PROPERTY_*");
+    $arFilter = Array("IBLOCK_ID" => 8);
+    $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
+    $arValue = array();
+    while($ob = $res->GetNextElement()){
+        $arProps = $ob->GetProperties();
+        $arValue['SpecId'][] = $arProps['SpecId']['VALUE'];
+        $arValue['color_code'][] = $arProps['color_code']['VALUE'];
+        $arValue['NEW_PRICE'][] = $arProps['NEW_PRICE']['VALUE'];
     }
+
+    
+
+    if (!in_array((string)$cont->SpecId, $arValue['SpecId']) and !in_array((string)$cont->ColorCode, $arValue['color_code']) and !in_array((string)$cont->NEW_PRICE, $arValue['NEW_PRICE'])) {
+
+        if($PRODUCT_ID = $el->Add($arLoadProductArray)){
+//        echo "New ID: ".$PRODUCT_ID;
+        }else{
+            echo "Error: ".$el->LAST_ERROR;
+        }
+    }
+
+
+
 
 
 
