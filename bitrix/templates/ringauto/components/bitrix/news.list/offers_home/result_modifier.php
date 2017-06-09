@@ -26,9 +26,4 @@ foreach($arResult["ITEMS"] as $key => $arItem) {
             unset($arResult["ITEMS"][$Delite]);
         }
 
-
-
-
-
-
 }
