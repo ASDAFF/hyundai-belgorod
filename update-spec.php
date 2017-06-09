@@ -128,7 +128,7 @@ foreach($xml->ContractList->Contract as $cont){
         }else{
             $arNoImg[] = (string)$cont->VIN.' - '.(string)$cont->SpecId.' - '.(string)$cont->ColorCode;
         }
-        
+
         if($PRODUCT_ID = $el->Add($arLoadProductArray)){
 //        echo "New ID: ".$PRODUCT_ID;
         }else{

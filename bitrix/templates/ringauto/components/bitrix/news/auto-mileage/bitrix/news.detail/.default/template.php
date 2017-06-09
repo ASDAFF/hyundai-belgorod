@@ -162,6 +162,7 @@ $this->setFrameMode(true);
 				"PROPERTY_CODE" => array(	// Свойства
 					0 => "",
 					1 => "NEW_PRICE",
+					2 => "SLIDER",
 				),
 				"SET_BROWSER_TITLE" => "Y",	// Устанавливать заголовок окна браузера
 				"SET_LAST_MODIFIED" => "N",	// Устанавливать в заголовках ответа время модификации страницы
