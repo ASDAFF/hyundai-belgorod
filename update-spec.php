@@ -92,11 +92,7 @@ foreach($xml->ContractList->Contract as $cont){
             }
         }
     }
-    if(!empty($PROP['SLIDER'])){
-        print '<a href="/offer/'.(string)$cont->VIN.'/">'.(string)$cont->SpecName.'</a><br>';
-    }else{
-        $arNoImg[] = (string)$cont->VIN.' - '.(string)$cont->SpecId.' - '.(string)$cont->ColorCode;
-    }
+
 
 
 
@@ -123,10 +119,16 @@ foreach($xml->ContractList->Contract as $cont){
         $arValue['NEW_PRICE'][] = $arProps['NEW_PRICE']['VALUE'];
     }
 
-    
+
 
     if (!in_array((string)$cont->SpecId, $arValue['SpecId']) and !in_array((string)$cont->ColorCode, $arValue['color_code']) and !in_array((string)$cont->NEW_PRICE, $arValue['NEW_PRICE'])) {
 
+        if(!empty($PROP['SLIDER'])){
+            print '<a href="/offer/'.(string)$cont->VIN.'/">'.(string)$cont->SpecName.'</a><br>';
+        }else{
+            $arNoImg[] = (string)$cont->VIN.' - '.(string)$cont->SpecId.' - '.(string)$cont->ColorCode;
+        }
+        
         if($PRODUCT_ID = $el->Add($arLoadProductArray)){
 //        echo "New ID: ".$PRODUCT_ID;
         }else{
