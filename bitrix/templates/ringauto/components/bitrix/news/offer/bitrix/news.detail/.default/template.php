@@ -162,7 +162,7 @@ $this->setFrameMode(true);
 
 <div class="offer-form" id="offer-form" style="background-image: url('<?=CFile::GetPath($arResult["PROPERTIES"]['IMAGES_FON_2']['VALUE'])?>')">
 
-	<h1>Мы сделаем вам самое выгодное предложение на покупку hyundai в России</h1>
+	<h1>Мы сделаем вам самое выгодное предложение на покупку Hyundai в России</h1>
 
 	<div class="news-center no-padding">
 
@@ -315,8 +315,8 @@ $this->setFrameMode(true);
 		$('.setting-offer').readmore({
 			speed: 75,
 			maxHeight: 840,
-			moreLink: '<a href="#" style="color:#7BB3E8">[Показать полностью]</a>',
-			lessLink: '<a href="#" style="color:#7BB3E8">[Скрыть текст]</a>'
+			moreLink: '<a href="#" class="btn offer-setting" style="width: 209px;height: 50px;padding: 15px 0px;text-align: center;">Показать полностью</a>',
+			lessLink: '<a href="#" class="btn offer-setting" style="width: 209px;height: 50px;padding: 15px 0px;text-align: center;">Скрыть текст</a>'
 		});
 	});
 </script>
