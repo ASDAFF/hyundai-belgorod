@@ -43,14 +43,26 @@ $this->setFrameMode(true);
 					<li><?=$arResult['NAME']?></li>
 					<li>В наличии в "РИНГАВТО"</li>
 					<li class="price"><?=$arResult['PROPERTIES']['NEW_PRICE']['VALUE']?></li>
-					<li>Год производства <?=$arResult['PROPERTIES']['YEAR']['VALUE']?></li>
-					<li>Пробег <?=$arResult['PROPERTIES']['MILEAGE']['VALUE']?></li>
-					<li>Цвет кузова <?=$arResult['PROPERTIES']['COLOR']['VALUE']?></li>
-<!--					<li>Цвет салона --><?//=$arResult['PROPERTIES']['COLOR_SALON']['VALUE']?><!--</li>-->
-<!--					<li>Тип салона --><?//=$arResult['PROPERTIES']['TYPE_SALON']['VALUE']?><!--</li>-->
+					<!--					<li>Цвет салона --><?//=$arResult['PROPERTIES']['COLOR_SALON']['VALUE']?><!--</li>-->
+					<!--					<li>Тип салона --><?//=$arResult['PROPERTIES']['TYPE_SALON']['VALUE']?><!--</li>-->
 					<li></li>
 				</ul>
+				<table>
+					<tr>
+						<td>Год производства</td>
+						<td><?=$arResult['PROPERTIES']['YEAR']['VALUE']?></td>
+					</tr>
+					<tr>
+						<td>Пробег</td>
+						<td><?=$arResult['PROPERTIES']['MILEAGE']['VALUE']?></td>
+					</tr>
+					<tr>
+						<td>Цвет кузова</td>
+						<td><?=$arResult['PROPERTIES']['COLOR']['VALUE']?></td>
+					</tr>
 
+
+				</table>
 				<div class="detal-btn-auto">
 					<a href="#" class="zing_form_toggler" for="zing_hotline_btn">Забронировать</a>
 					<a href="#" onclick="PRZV.helpers.showWidget(1)">Заказать звонок</a>
