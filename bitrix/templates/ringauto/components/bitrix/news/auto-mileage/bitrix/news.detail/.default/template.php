@@ -49,15 +49,15 @@ $this->setFrameMode(true);
 				</ul>
 				<table style="margin-bottom: 30px">
 					<tr>
-						<td>Год производства</td>
+						<td style="width: 50%">Год производства</td>
 						<td><?=$arResult['PROPERTIES']['YEAR']['VALUE']?></td>
 					</tr>
 					<tr>
-						<td>Пробег</td>
+						<td style="width: 50%">Пробег</td>
 						<td><?=$arResult['PROPERTIES']['MILEAGE']['VALUE']?></td>
 					</tr>
 					<tr>
-						<td>Цвет кузова</td>
+						<td style="width: 50%">Цвет кузова</td>
 						<td><?=$arResult['PROPERTIES']['COLOR']['VALUE']?></td>
 					</tr>
 
