@@ -47,7 +47,7 @@ $this->setFrameMode(true);
 					<!--					<li>Тип салона --><?//=$arResult['PROPERTIES']['TYPE_SALON']['VALUE']?><!--</li>-->
 					<li></li>
 				</ul>
-				<table>
+				<table style="margin-bottom: 30px">
 					<tr>
 						<td>Год производства</td>
 						<td><?=$arResult['PROPERTIES']['YEAR']['VALUE']?></td>
