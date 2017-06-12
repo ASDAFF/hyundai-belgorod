@@ -46,8 +46,8 @@ $this->setFrameMode(true);
 					<li>Год производства <?=$arResult['PROPERTIES']['YEAR']['VALUE']?></li>
 					<li>Пробег <?=$arResult['PROPERTIES']['MILEAGE']['VALUE']?></li>
 					<li>Цвет кузова <?=$arResult['PROPERTIES']['COLOR']['VALUE']?></li>
-					<li>Цвет салона <?=$arResult['PROPERTIES']['COLOR_SALON']['VALUE']?></li>
-					<li>Тип салона <?=$arResult['PROPERTIES']['TYPE_SALON']['VALUE']?></li>
+<!--					<li>Цвет салона --><?//=$arResult['PROPERTIES']['COLOR_SALON']['VALUE']?><!--</li>-->
+<!--					<li>Тип салона --><?//=$arResult['PROPERTIES']['TYPE_SALON']['VALUE']?><!--</li>-->
 					<li></li>
 				</ul>
 
@@ -99,7 +99,7 @@ $this->setFrameMode(true);
 						<td><?=$arResult['PROPERTIES']['POWER']['VALUE']?></td>
 					</tr>
 					<tr>
-						<td>Тип привода</td>
+						<td><!-- Тип привода --> </td>
 						<td><?=$arResult['PROPERTIES']['GRAR_TYPE']['VALUE']?></td>
 					</tr>
 				</table>
