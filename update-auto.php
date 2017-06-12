@@ -61,6 +61,8 @@ if(CModule::IncludeModule("iblock")):
         $PROP['Description'] = (string)$cont->Description;
         $PROP['NEW_PRICE'] = (string)$cont->NEW_PRICE;
         $PROP['CUZOV'] = (string)$cont->CUZOV;
+        $PROP['MILEAGE'] = (string)$cont->run;
+        $PROP['YEAR'] = (string)$cont->year;
 
         if (in_array((string)$cont->VIN, $files)) {
             $dir_img = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/used/'.(string)$cont->VIN),array('.','..'));

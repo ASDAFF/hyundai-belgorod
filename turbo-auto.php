@@ -32,6 +32,8 @@ if(CModule::IncludeModule("iblock")):
             $xml .= '<Description>'.$arResult['Description']['VALUE'].'</Description>';
             $xml .= '<NEW_PRICE>'.$arResult['NEW_PRICE']['VALUE'].'</NEW_PRICE>';
             $xml .= '<CUZOV>'.$arResult['CUZOV']['VALUE'].'</CUZOV>';
+            $xml .= '<run>'.$arResult['MILEAGE']['VALUE'].'</run>';
+            $xml .= '<year>'.$arResult['YEAR']['VALUE'].'</year>';
 
             $xml .= '<SLIDER>';
                 foreach($arResult['SLIDER']['VALUE'] as $v){
