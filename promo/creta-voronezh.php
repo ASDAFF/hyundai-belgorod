@@ -240,37 +240,9 @@
     </div>
 
 
-</div> <!-- /container -->
+</div> 
 
-<hr>
-
-<div class="container">
-
-    <div class="row">
-            <h1>Дополнительное оборудование</h1>
-
-        <div class="col-md-3">
-            <img src="img/rule.jpg">
-            <p>Ковры в багажник</p>
-        </div>
-        <div class="col-md-3">
-            <img src="img/bagaje.jpg">
-            <p>Бырзговики задние</p>
-        </div>
-        <div class="col-md-3">
-            <img src="img/korb.jpg">
-            <p>Защита картера</p>
-        </div>
-        <div class="col-md-3">
-            <img src="img/gallery.jpg">
-            <p>Нано обработка кузова</p>
-        </div>
-
-
-    </div>
-
-
-</div> <!-- /container -->
+ <!-- /container -->
 
 <hr>
 

@@ -14,18 +14,13 @@ foreach($arResult["ITEMS"] as $key => $arItem) {
     }
 
 
-    foreach($arItem["PROPERTIES"]["SLIDER"]['VALUE'] as $src) {
-        if (!preg_match('/preview/', $src, $preg)) {
-            $Delite = $key;
-        }else{
-            $Delite = false;
-        }
-    }
-
-    if($Delite){
-        unset($arResult["ITEMS"][$Delite]);
-    }
-
+	if($arItem["PROPERTIES"]["SLIDER"]['VALUE']){
+		$prw = implode(",", $arItem["PROPERTIES"]["SLIDER"]['VALUE']);
+	
+		 if (!preg_match('/preview/', $prw, $preg)) {
+			 unset($arResult["ITEMS"][$key]);
+		 }
+	}
 
 
 
