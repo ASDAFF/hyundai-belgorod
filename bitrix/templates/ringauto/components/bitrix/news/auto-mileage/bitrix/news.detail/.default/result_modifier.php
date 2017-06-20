@@ -16,5 +16,3 @@ if (preg_match('/preview/', $prw, $preg)) {
     }
 
 }
-
-var_dump($arResult["PROPERTIES"]["SLIDER"]['VALUE']);
