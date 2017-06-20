@@ -136,9 +136,9 @@ $this->setFrameMode(true);
 
 <div class="paralax-offer">
 
-	<? if(strlen($arResult["PROPERTIES"]['SLIDER_IMAGE_ONE']['VALUE']) >= 1){ ?>
-	<img src="<?=CFile::GetPath($arResult["PROPERTIES"]["SLIDER"]["VALUE"][$arResult["PROPERTIES"]['SLIDER_IMAGE_ONE']['VALUE']])?>">
-	<?}?>
+
+	<img src="<?=$arResult["PROPERTIES"]["SLIDER"]["VALUE"][0]?>">
+
 
 	<div class="box-price-absolute-left">
 		<div class="box-price">
