@@ -120,7 +120,9 @@ $this->setFrameMode(true);
 
 
 <div class="news-line"></div>
-
+<?
+if($arResult["PROPERTIES"]["OPTION_EQU"]["VALUE"]):
+?>
 <div class="news-center">
 	<div class="setting-offer">
 		<h1>Дополнительное оборудование</h1>
@@ -133,6 +135,7 @@ $this->setFrameMode(true);
 	</div>
 
 </div>
+<? endif; ?>
 
 <div class="paralax-offer">
 
