@@ -315,8 +315,8 @@ $this->setFrameMode(true);
 		$('.setting-offer').readmore({
 			speed: 75,
 			maxHeight: 840,
-			moreLink: '<a href="#" class="btn offer-setting" style="width: 209px;height: 50px;padding: 15px 0px;text-align: center;">Показать полностью</a>',
-			lessLink: '<a href="#" class="btn offer-setting" style="width: 209px;height: 50px;padding: 15px 0px;text-align: center;">Скрыть текст</a>'
+			moreLink: '<a href="#" class="btn offer-setting" style="float:left;width: 209px;height: 50px;padding: 15px 0px;text-align: center;">Показать полностью</a>',
+			lessLink: '<a href="#" class="btn offer-setting" style="float:left;width: 209px;height: 50px;padding: 15px 0px;text-align: center;">Скрыть текст</a>'
 		});
 	});
 </script>
