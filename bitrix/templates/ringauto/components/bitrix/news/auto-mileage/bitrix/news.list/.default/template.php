@@ -113,7 +113,22 @@ $this->setFrameMode(true);
 											<span class="car-list_cell-inner">
 												<i class="car-list__img-holder">
 													<a class="car-list__img-link fancycarframe" href="<?=$arItem['DETAIL_PAGE_URL']?>">
-														<img src="<?=$arItem['PROPERTIES']['SLIDER']['VALUE'][0]?>" alt="">
+														<?
+														$prw = implode(",", $arItem["PROPERTIES"]["SLIDER"]['VALUE']);
+														if (preg_match('/preview/', $prw, $preg)) {
+															?>
+															<? foreach($arItem['PROPERTIES']['SLIDER']['VALUE'] as $img):
+																if(preg_match('/preview/', $img, $preg)){
+																	?>
+																	<img src="<?=$img?>" alt="">
+																	<?
+																}
+																?>
+															<?endforeach;?>
+															<?
+														}else{?>
+															<img src="<?=$arItem['PROPERTIES']['SLIDER']['VALUE'][0]?>" alt="">
+														<?}?>
 													</a>
 												</i>
 
