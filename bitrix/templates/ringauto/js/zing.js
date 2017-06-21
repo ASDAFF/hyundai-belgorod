@@ -25,11 +25,14 @@ $(document).ready(function() {
 			case "zing_hotline_btn":
 				$zing_form.find(".zing_ok").first().val("Отправить");
 				break;
+			case "zing_cuzov_btn":
+				$zing_form.find(".zing_ok").first().val("Отправить");
+				break;
 			case "newslist":
 				$zing_form.find(".zing_ok").first().val("Отправить");
 				break;
 			default:
-				$zing_form.find(".zing_ok").first().val("РџРѕР·РІРѕРЅРёС‚СЊ");
+				$zing_form.find(".zing_ok").first().val("Отправить");
 		}
 		$zing_form.modal({
 			closeClass: "zing_close",
@@ -397,6 +400,12 @@ $(document).ready(function() {
 				break;
 			case "newslist":
 				ajax_url = "/ajax/zing_spec_form.php";
+				break;
+			case "testdrive":
+				ajax_url = "/ajax/testdrive.php";
+				break;
+			case "zing_cuzov_btn":
+				ajax_url = "/ajax/zing_cuzov_btn.php";
 				break;
 			case "feedback_home":
 				ajax_url = "/ajax/feedback.php";

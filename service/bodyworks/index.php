@@ -138,7 +138,7 @@ $APPLICATION->SetTitle("bodyworks");
                         </div>
                     </div>
                     <div class="bw-views-links">
-                        <a href="#" class="bw-views-link zing_form_toggler" for="zing_hotline_btn" role="button">записаться на сервис</a>
+                        <a href="#" class="bw-views-link zing_form_toggler" for="zing_cuzov_btn" role="button">записаться на сервис</a>
                         <a href="/service/originalnye-zapchasti/" class="bw-views-link">оригинальные запчасти</a>
                     </div>
                 </div>
@@ -176,7 +176,7 @@ $APPLICATION->SetTitle("bodyworks");
                 <div class="bodyworks-insurance-footer" role="contentinfo">
                     <div class="content-inner clearfix">
                         <div class="bodyworks-insurance-footer__text">Воспользуйтесь страховым полисом для&nbsp;ремонта вашего автомобиля</div>
-                        <a href="#" class="bodyworks-insurance__btn zing_form_toggler" for="zing_hotline_btn" role="button">записаться на сервис</a>
+                        <a href="#" class="bodyworks-insurance__btn zing_form_toggler" for="zing_cuzov_btn" role="button">записаться на сервис</a>
                     </div>
                 </div>
             </div>
