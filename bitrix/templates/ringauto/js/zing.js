@@ -114,7 +114,7 @@ $(document).ready(function() {
 				$zing_form.find(".zing_ok").first().val("РџРѕРґРїРёСЃР°С‚СЊСЃСЏ РЅР° РЅРѕРІРѕСЃС‚Рё Hyundai");
 				break;
 			default:
-				$zing_form.find(".zing_ok").first().val("РџРѕР·РІРѕРЅРёС‚СЊ");
+				$zing_form.find(".zing_ok").first().val("Отправить");
 		}
 		$zing_form.modal({
 			closeClass: "zing_close",
