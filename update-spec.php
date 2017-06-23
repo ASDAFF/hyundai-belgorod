@@ -24,7 +24,7 @@ $xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/
 
 
 $xml = new SimpleXMLElement($xml);
-foreach($xml->ContractList->Contract as $cont){
+foreach($xml->ContractList->Contract as $key => $cont){
 
     $el = new CIBlockElement;
 
@@ -106,40 +106,31 @@ foreach($xml->ContractList->Contract as $cont){
         "CODE"           => translit((string)$cont->VIN),
         "ACTIVE"         => "Y"            // активен
     );
+	
+	
 
+	
+	$arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
+	$arFilter = Array("IBLOCK_ID"=>8, "PROPERTY_SpecId" => (string)$cont->SpecId,"PROPERTY_color_code" => (string)$cont->ColorCode,"PROPERTY_NEW_PRICE" => (string)$cont->NEW_PRICE);
+	$res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
+	if ($arItem = $res->GetNext())
+		{
+			var_dump((string)$cont->ColorCode);
+		}else{
+			
+				if(!empty($PROP['SLIDER'])){
+						print '<a href="/offer/'.(string)$cont->VIN.'/">'.(string)$cont->SpecName.'</a><br>';
+					}else{
+						$arNoImg[] = (string)$cont->VIN.' - '.(string)$cont->SpecId.' - '.(string)$cont->ColorCode;
+					}
 
-    $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","PROPERTY_*");
-    $arFilter = Array("IBLOCK_ID" => 8);
-    $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
-    $arValue = array();
-    while($ob = $res->GetNextElement()){
-        $arProps = $ob->GetProperties();
-        $arValue['SpecId'][] = $arProps['SpecId']['VALUE'];
-        $arValue['color_code'][] = $arProps['color_code']['VALUE'];
-        $arValue['NEW_PRICE'][] = $arProps['NEW_PRICE']['VALUE'];
-    }
-
-
-
-    if (!in_array((string)$cont->SpecId, $arValue['SpecId']) and !in_array((string)$cont->ColorCode, $arValue['color_code']) and !in_array((string)$cont->NEW_PRICE, $arValue['NEW_PRICE'])) {
-
-        if(!empty($PROP['SLIDER'])){
-            print '<a href="/offer/'.(string)$cont->VIN.'/">'.(string)$cont->SpecName.'</a><br>';
-        }else{
-            $arNoImg[] = (string)$cont->VIN.' - '.(string)$cont->SpecId.' - '.(string)$cont->ColorCode;
-        }
-
-        if($PRODUCT_ID = $el->Add($arLoadProductArray)){
-//        echo "New ID: ".$PRODUCT_ID;
-        }else{
-            echo "Error: ".$el->LAST_ERROR;
-        }
-    }
-
-
-
-
-
+					if($PRODUCT_ID = $el->Add($arLoadProductArray)){
+			//        echo "New ID: ".$PRODUCT_ID;
+					}else{
+						echo "Error: ".$el->LAST_ERROR;
+					}
+			
+		}
 
 
 
