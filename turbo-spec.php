@@ -61,7 +61,10 @@ if(CModule::IncludeModule("iblock")):
 
         $xml .= '<SLIDER>';
         foreach($arResult['SLIDER']['VALUE'] as $v){
-            $xml .= '<VALUE>'.htmlspecialchars((string)$_SERVER['SERVER_NAME'].$v).'</VALUE>';
+            if(!preg_match('/preview/',$v,$preg)){
+                $xml .= '<VALUE>'.htmlspecialchars((string)$_SERVER['SERVER_NAME'].$v).'</VALUE>';
+            }
+
         }
         $xml .= '</SLIDER>';
 
