@@ -32,20 +32,27 @@ foreach($xml->ContractList->Contract as $key => $cont){
      *
      Нет полей спецпредложения - new_car
     IsNew
-    POWER
+
     fuel_consumption
-    FUEL_TYPE
-    TransmissionCount
+
+
     ColorOrig
     SpecName(используеться только в названии)
     Description
-    OPTION_SUMM
+
     ---
     Comment
       */
 
     $PROP = array();
     $PROP['vin'] = (string)$cont->VIN;
+    $PROP['POWER'] = (string)$cont->POWER;
+    $PROP['FUEL_TYPE'] = (string)$cont->FUEL_TYPE;
+    $PROP['GRAR_TYPE'] = (string)$cont->GRAR_TYPE;
+    $PROP['OPTION_SUMM'] = (string)$cont->OPTION_SUMM;
+    $PROP['run'] = (string)$cont->run;
+    $PROP['year'] = (string)$cont->year;
+    $PROP['TransmissionCount'] = (string)$cont->TransmissionCount;
     $PROP['mark_id'] = (string)$cont->MARK;
     $PROP['folder_id'] = (string)$cont->MODEL;
     $PROP['CAPACITY'] = (string)$cont->CAPACITY;
@@ -102,7 +109,7 @@ foreach($xml->ContractList->Contract as $key => $cont){
         "IBLOCK_SECTION_ID" => false,          // элемент лежит в корне раздела
         "IBLOCK_ID"      => 8,
         "PROPERTY_VALUES"=> $PROP,
-        "NAME"           => (string)$cont->MARK.' '.(string)$cont->SpecName,
+        "NAME"           => (string)$cont->MARK.' '.(string)$cont->MODEL.' '.(string)$cont->SpecName,
         "CODE"           => translit((string)$cont->VIN),
         "ACTIVE"         => "Y"            // активен
     );
@@ -129,7 +136,6 @@ foreach($xml->ContractList->Contract as $key => $cont){
 					}else{
 						echo "Error: ".$el->LAST_ERROR;
 					}
-			
 		}
 
 

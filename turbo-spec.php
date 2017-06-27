@@ -21,6 +21,13 @@ if(CModule::IncludeModule("iblock")):
 
 
         $xml .= '<vin>'.$arResult['vin']['VALUE'].'</vin>';
+        $xml .= '<POWER>'.$arResult['POWER']['VALUE'].'</POWER>';
+        $xml .= '<FUEL_TYPE>'.$arResult['FUEL_TYPE']['VALUE'].'</FUEL_TYPE>';
+        $xml .= '<GRAR_TYPE>'.$arResult['GRAR_TYPE']['VALUE'].'</GRAR_TYPE>';
+        $xml .= '<OPTION_SUMM>'.$arResult['OPTION_SUMM']['VALUE'].'</OPTION_SUMM>';
+        $xml .= '<run>'.$arResult['run']['VALUE'].'</run>';
+        $xml .= '<year>'.$arResult['year']['VALUE'].'</year>';
+        $xml .= '<TransmissionCount>'.$arResult['TransmissionCount']['VALUE'].'</TransmissionCount>';
         $xml .= '<mark_id>'.$arResult['mark_id']['VALUE'].'</mark_id>';
         $xml .= '<folder_id>'.$arResult['folder_id']['VALUE'].'</folder_id>';
         $xml .= '<CAPACITY>'.$arResult['CAPACITY']['VALUE'].'</CAPACITY>';
