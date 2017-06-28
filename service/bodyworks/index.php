@@ -83,15 +83,15 @@ $APPLICATION->SetTitle("bodyworks");
                                 </div>
                                 <div class="bw-view-pluses">
                                     <div class="bw-view-plus bw-view-plus--1 right">
-                                        <span class="bw-view-plus-descr">Капот <span class="bw-view-plus-descr-price">9047 <span class="rouble">7</span></span></span>
+                                        <span class="bw-view-plus-descr">Капот от 9000 <span class="bw-view-plus-descr-price">9047 <span class="rouble">7</span></span></span>
                                         <a href="#" class="bw-view-plus-icon"></a>
                                     </div>
                                     <div class="bw-view-plus bw-view-plus--2 right">
-                                        <span class="bw-view-plus-descr">Бампер передний <span class="bw-view-plus-descr-price">7231 <span class="rouble">7</span></span></span>
+                                        <span class="bw-view-plus-descr">Бампер передний от 6500 <span class="bw-view-plus-descr-price">7231 <span class="rouble">7</span></span></span>
                                         <a href="#" class="bw-view-plus-icon"></a>
                                     </div>
                                     <div class="bw-view-plus bw-view-plus--3 right">
-                                        <span class="bw-view-plus-descr">Крыло переднее <span class="bw-view-plus-descr-price">7597 <span class="rouble">7</span></span></span>
+                                        <span class="bw-view-plus-descr">Крыло переднее лев/прав от 6500<span class="bw-view-plus-descr-price">7597 <span class="rouble">7</span></span></span>
                                         <a href="#" class="bw-view-plus-icon"></a>
                                     </div>
                                     <div class="bw-view-plus bw-view-plus--4 right">
@@ -99,7 +99,7 @@ $APPLICATION->SetTitle("bodyworks");
                                         <a href="#" class="bw-view-plus-icon"></a>
                                     </div>
                                     <div class="bw-view-plus bw-view-plus--5 right">
-                                        <span class="bw-view-plus-descr">Дверь передняя <span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
+                                        <span class="bw-view-plus-descr">Дверь передняя лев/прав от 6500 <span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
                                         <a href="#" class="bw-view-plus-icon"></a>
                                     </div>
                                 </div>
@@ -110,23 +110,23 @@ $APPLICATION->SetTitle("bodyworks");
                                 </div>
                                 <div class="bw-view-pluses">
                                     <div class="bw-view-plus bw-view-plus--1 right">
-                                        <span class="bw-view-plus-descr">Крышка багажника <span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
+                                        <span class="bw-view-plus-descr">Крышка багажника от 8000<span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
                                         <a href="#" class="bw-view-plus-icon"></a>
                                     </div>
                                     <div class="bw-view-plus bw-view-plus--2 right">
-                                        <span class="bw-view-plus-descr">Бампер задний <span class="bw-view-plus-descr-price">2000 <span class="rouble">7</span></span></span>
+                                        <span class="bw-view-plus-descr">Бампер задний от 6500<span class="bw-view-plus-descr-price">2000 <span class="rouble">7</span></span></span>
                                         <a href="#" class="bw-view-plus-icon"></a>
                                     </div>
                                     <div class="bw-view-plus bw-view-plus--3 right">
-                                        <span class="bw-view-plus-descr">Крыша <span class="bw-view-plus-descr-price">5000 <span class="rouble">7</span></span></span>
+                                        <span class="bw-view-plus-descr">Крыша от 10000 <span class="bw-view-plus-descr-price">5000 <span class="rouble">7</span></span></span>
                                         <a href="#" class="bw-view-plus-icon"></a>
                                     </div>
                                     <div class="bw-view-plus bw-view-plus--4 right">
-                                        <span class="bw-view-plus-descr">Крыло заднее <span class="bw-view-plus-descr-price">3500 <span class="rouble">7</span></span></span>
+                                        <span class="bw-view-plus-descr">Крыло заднее лев/прав от  8000 <span class="bw-view-plus-descr-price">3500 <span class="rouble">7</span></span></span>
                                         <a href="#" class="bw-view-plus-icon"></a>
                                     </div>
                                     <div class="bw-view-plus bw-view-plus--5 right">
-                                        <span class="bw-view-plus-descr">Дверь задняя <span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
+                                        <span class="bw-view-plus-descr">Дверь задняя лев/прав от 6500 <span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
                                         <a href="#" class="bw-view-plus-icon"></a>
                                     </div>
                                 </div>

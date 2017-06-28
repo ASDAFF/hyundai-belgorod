@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>22.06.2017</Date>
-		<Time>21:37:44</Time>
+		<Date>27.06.2017</Date>
+		<Time>21:37:22</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -35,135 +35,6 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<CREDIT>-365 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94CU41DBFR439357</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY/>
-			<POWER/>
-			<fuel_consumption/>
-			<FUEL_TYPE/>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>коричневый</Color>
-			<ColorCode>VC5</ColorCode>
-			<ColorOrig>коричневый</ColorOrig>
-			<SpecName>ELEGANCE 1,6 AT</SpecName>
-			<SpecId>ЦБ000708</SpecId>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE/>
-			<run>15 000</run>
-			<year>2 015</year>
-			<OPTION_SUMM>45 000</OPTION_SUMM>
-			<OPTION_EQU>
-				<value>СИГНАЛИЗАЦИЯ SCHER-KHАN LOGICAR 2,BP-2</value>
-				<value>НАБОР ДЛЯ УСТАНОВКИ  ДОПОБОРУДОВАНИЯ</value>
-				<value>КЛЮЧ ЗАМКА ЗАЖИГАНИЯ SOLARIS (ДО РЕСТАЙЛ 2011-2015)</value>
-				<value>ЗАЩИТА КАРТЕРА , СТАЛЬНАЯ (SOLARIS)</value>
-				<value>КОМПЛЕКТ КОВРОВ САЛОНА ПОЛИУРЕТАНОВЫЙ SOLARIS</value>
-				<value>КОВРИК БАГАЖНОГО ОТСЕКА SOLARIS седан</value>
-				<value>ПОДКРЫЛОК ПЕРЕДНИЙ ПРАВЫЙ SOLARIS FL</value>
-				<value>ПОДКРЫЛОК ПЕРЕДНИЙ ЛЕВЫЙ SOLARIS FL</value>
-				<value>ПОДКРЫЛОК ЗАДНИЙ ПРАВЫЙ SOLARIS FL</value>
-				<value>ПОДКРЫЛОК ЗАДНИЙ ЛЕВЫЙ SOLARIS FL</value>
-				<value>НАКЛАДКИ НА ВНУТРЕННИЕ ПОРОГИ, СТАЛЬ, SOLARIS</value>
-				<value>Сигнализация с обратной связью и автозапуском</value>
-				<value>Модуль обхода штатного иммобилайзера</value>
-				<value>Установка защиты картера</value>
-				<value>Подкрылки</value>
-				<value>Накладки на пороги</value>
-			</OPTION_EQU>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>0</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>XWB3D31UD7A141907</VIN>
-			<MARK/>
-			<MODEL>Daewoo Nexia</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount/>
-			<Color>Песочный</Color>
-			<ColorCode>Песочный</ColorCode>
-			<ColorOrig>Песочный</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE/>
-			<run>138 000</run>
-			<year>2 007</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>0</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94CU41DBDR232791</VIN>
-			<MARK/>
-			<MODEL>Hyundai Solaris</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>123</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>4</TransmissionCount>
-			<Color>белый</Color>
-			<ColorCode>PGU</ColorCode>
-			<ColorOrig>белый</ColorOrig>
-			<SpecName>Comfort 1.6 AT безопасн</SpecName>
-			<SpecId>ЦБ000226</SpecId>
-			<Description/>
-			<OLD_PRICE>667 500</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE/>
-			<run>85 824</run>
-			<year>2 013</year>
-			<OPTION_SUMM>44 762,5</OPTION_SUMM>
-			<OPTION_EQU>
-				<value>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ (СТАЛЬНАЯ) SOLARIS RIVA</value>
-				<value>ПОДКРЫЛОК ПЕРЕДНИЙ ЛЕВЫЙ SOLARIS</value>
-				<value>ПОДКРЫЛОК ПЕРЕДНИЙ ПРАВЫЙ SOLARIS</value>
-				<value>ПОДКРЫЛОК ЗАДНИЙ ЛЕВЫЙ SOLARIS</value>
-				<value>ПОДКРЫЛОК ЗАДНИЙ ПРАВЫЙ SOLARIS</value>
-				<value>МОТОРНОЕ МАСЛО ШЕЛЛ ХЕЛИКС УЛЬТРА ECT  5W-30 209л </value>
-				<value>Диск 6.5j15  4/100  48 54,1  МУЛЕН РУЖ АЛМАЗ ЧЁРНЫЙ К иК</value>
-				<value>Автошина 185/65 R15 HANKOOK  шип W419</value>
-				<value>Установка защиты картера</value>
-				<value>Подкрылки</value>
-				<value>Замена масла в двигателе</value>
-				<value>Шиномонтаж 4-х колес 15``  </value>
-			</OPTION_EQU>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>667 500</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -488,39 +359,6 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
-			<VIN>KMHSU81CDDU078706</VIN>
-			<MARK/>
-			<MODEL>Hyundai Santa Fe 2.4 AT</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY/>
-			<POWER/>
-			<fuel_consumption/>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount/>
-			<Color>белый</Color>
-			<ColorCode>WW7</ColorCode>
-			<ColorOrig>белый</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>1 250 000</NEW_PRICE>
-			<CUZOV/>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE/>
-			<run>50 735</run>
-			<year>2 012</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>-1 250 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
 			<VIN>TMAJU81BACJ224089</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>ix35</MODEL>
@@ -708,6 +546,39 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
+			<VIN>XWB3K32EDCA247539</VIN>
+			<MARK/>
+			<MODEL>Daewoo Nexia</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>серо-перламутровый</Color>
+			<ColorCode>серо-перламутровый</ColorCode>
+			<ColorOrig>серо-перламутровый</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>127 600</run>
+			<year>2 012</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
 			<VIN>XTA219070G0396038</VIN>
 			<MARK/>
 			<MODEL>Lada 219070</MODEL>
@@ -803,39 +674,6 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<CREDIT>-480 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94CT41CABR002584</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY/>
-			<POWER/>
-			<fuel_consumption/>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount/>
-			<Color>серебристый</Color>
-			<ColorCode>M8S</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>320 000</NEW_PRICE>
-			<CUZOV/>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE/>
-			<run>134 900</run>
-			<year>2 011</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>-320 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -939,92 +777,6 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<CREDIT>-725 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94CT41CBDR288412</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,4</CAPACITY>
-			<POWER>107</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE/>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>4</TransmissionCount>
-			<Color>тёмно-синий</Color>
-			<ColorCode>WGM</ColorCode>
-			<ColorOrig>тёмно-синий</ColorOrig>
-			<SpecName>Optima 1.4 AT</SpecName>
-			<SpecId>ЦБ000189</SpecId>
-			<Description/>
-			<OLD_PRICE>537 900</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>21 070</run>
-			<year>2 014</year>
-			<OPTION_SUMM>41 696,88</OPTION_SUMM>
-			<OPTION_EQU>
-				<value>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ (СТАЛЬНАЯ) SOLARIS RIVA</value>
-				<value>СИГНАЛИЗАЦИЯ SCHER-KHАN  MAGICAR 11</value>
-				<value>ПОДКРЫЛОК ПЕРЕДНИЙ ПРАВЫЙ SOLARIS</value>
-				<value>ПОДКРЫЛОК ПЕРЕДНИЙ ЛЕВЫЙ SOLARIS</value>
-				<value>ПОДКРЫЛОК ЗАДНИЙ ПРАВЫЙ SOLARIS</value>
-				<value>ПОДКРЫЛОК ЗАДНИЙ ЛЕВЫЙ SOLARIS</value>
-				<value>АВТОМАГНИТОЛА  Pioneer DEH-1600 (КРАСНАЯ)</value>
-				<value>Установка защиты картера</value>
-				<value>Сигнализация с обратной связью</value>
-				<value>Исполнительный механизм</value>
-				<value>Подкрылки</value>
-				<value>Автомагнитола в автомобили с аудиоподготовкой</value>
-			</OPTION_EQU>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>537 900</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94CT41DAFR404280</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>123</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>коричневый</Color>
-			<ColorCode>VC5</ColorCode>
-			<ColorOrig>коричневый</ColorOrig>
-			<SpecName>COMFORT 1,6 MT</SpecName>
-			<SpecId>ЦБ000662</SpecId>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>47 000</run>
-			<year>2 015</year>
-			<OPTION_SUMM>22 710</OPTION_SUMM>
-			<OPTION_EQU>
-				<value>СИГНАЛИЗАЦИЯ StarLine A91 Diallog</value>
-				<value>НАБОР ДЛЯ УСТАНОВКИ  ДОПОБОРУДОВАНИЯ</value>
-				<value>КОВРИКИ САЛОНА  резиновый SOLARIS</value>
-				<value>ЗАЩИТА КАРТЕРА , СТАЛЬНАЯ (SOLARIS)</value>
-				<value>Сигнализация с обратной связью</value>
-				<value>Установка защиты картера</value>
-			</OPTION_EQU>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1227,6 +979,39 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
+			<VIN>X9FDXXEEBDBE77307</VIN>
+			<MARK/>
+			<MODEL>Форд Мондео</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>черный</Color>
+			<ColorCode>MBL</ColorCode>
+			<ColorOrig>черный</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>104 003</run>
+			<year>2 011</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
 			<VIN>KMHSU81XDDU102193</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Santa Fe</MODEL>
@@ -1300,68 +1085,35 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
-			<VIN>XTA219010D0138480</VIN>
-			<MARK/>
-			<MODEL>лада гранта</MODEL>
+			<VIN>XWELC41CBD0000087</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>i40</MODEL>
 			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>0</POWER>
+			<CAPACITY>2</CAPACITY>
+			<POWER>149,6</POWER>
 			<fuel_consumption>0</fuel_consumption>
 			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>серо-синий</Color>
-			<ColorCode>В1</ColorCode>
-			<ColorOrig>серо-синий</ColorOrig>
-			<SpecName/>
-			<SpecId/>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>темно-серый</Color>
+			<ColorCode>S6G</ColorCode>
+			<ColorOrig>темно-серый</ColorOrig>
+			<SpecName>DFS42G61FGD284</SpecName>
+			<SpecId>ЦБ000509</SpecId>
 			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>195 000</NEW_PRICE>
+			<OLD_PRICE>1 039 000</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
+			<TYPE_SALON>Кожа</TYPE_SALON>
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>120 000</run>
+			<run>102 842</run>
 			<year>2 013</year>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<CREDIT>-195 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>TMADC51DP9J019085</VIN>
-			<MARK/>
-			<MODEL>Hyundai I30 1.6 GLS MT</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>130</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>5</TransmissionCount>
-			<Color>красный</Color>
-			<ColorCode>NKA</ColorCode>
-			<ColorOrig>красный</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>365 000</NEW_PRICE>
-			<CUZOV>5-ти дверный хетчбек</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>77 000</run>
-			<year>2 009</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>-365 000</CREDIT>
+			<CREDIT>1 039 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1432,6 +1184,39 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
+			<VIN>Y6DSF6950C0002646</VIN>
+			<MARK/>
+			<MODEL>ЗАЗ VIDA SF6950</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>серебристый</Color>
+			<ColorCode>Y5</ColorCode>
+			<ColorOrig>серебристый</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON/>
+			<GRAR_TYPE/>
+			<run>85 000</run>
+			<year>2 012</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
 			<VIN>X9FFXXEEDF4Y39512</VIN>
 			<MARK/>
 			<MODEL>FORD Форд "Фокус"</MODEL>
@@ -1461,6 +1246,49 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<CREDIT>-180 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>TMAJT81BACJ265717</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>ix35</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>2</CAPACITY>
+			<POWER>150</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>TCW</ColorCode>
+			<ColorOrig>белый</ColorOrig>
+			<SpecName>ITW5L5615DD213</SpecName>
+			<SpecId>ЦБ000099</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Универсал</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>140 000</run>
+			<year>2 011</year>
+			<OPTION_SUMM>57 082,33</OPTION_SUMM>
+			<OPTION_EQU>
+				<value>КОВРИКИ САЛОНА IX-35 (АНАЛОГИ 2YF13AQ000)</value>
+				<value>КОВРИК БАГАЖНОГО ОТСЕКА ix35</value>
+				<value>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ, СТАЛЬНАЯ, (ix35 2010 MY)</value>
+				<value>СИГНАЛИЗАЦИЯ SCHER-KHАN 9</value>
+				<value>КОМПЛЕКТ ДЕФЛЕКТОРОВ БОКОВЫХ СТЕКОЛ (4 шт.) iх35 </value>
+				<value>Диск  7j*17  5/114.3  40  67.1  SLK1076   BFP (B4) IJITSU</value>
+				<value>Установка защиты картера</value>
+				<value>Сигнализация с обратной связью и автозапуском</value>
+				<value>Дефлекторы на все окна</value>
+			</OPTION_EQU>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1605,39 +1433,6 @@
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
 			<CREDIT>-1 420 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>KMHDU41BP8U414876</VIN>
-			<MARK/>
-			<MODEL>Hyundai Elantra 1.6 GLS MT</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>123</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>5</TransmissionCount>
-			<Color>серебристый</Color>
-			<ColorCode>YK</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>285 000</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>145 000</run>
-			<year>2 008</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>-285 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
