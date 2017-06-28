@@ -194,7 +194,7 @@ foreach($xml->ContractList->Contract as $key => $cont){
 
     $message = $xmlAll.'<br>'.$addAdmin.'<br>'.$noCorrectAdmin.'<br>'.$noCorrectAdminPhoto.'<br>---<br>'.$string.' <br>*********************<br>Нет фото VIN - SpecId - ColorCode:<br> '.implode("<br>", $arNoImg).'<br>'.implode("<br>", $arNoPrew);
 
-    var_dump($message);
+  //  var_dump($message);
     $adminEmail = COption::GetOptionString('main', 'email_from');
 
     mail($adminEmail, 'Недостающие данные в спецпредложениях '.$SERVER_NAME, $message,
