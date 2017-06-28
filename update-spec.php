@@ -157,7 +157,7 @@ foreach($xml->ContractList->Contract as $key => $cont){
 
 			
 				if(!empty($PROP['SLIDER'])){
-						//print '<a href="/offer/'.(string)$cont->VIN.'/">'.(string)$cont->SpecName.'</a><br>';
+						print '<a href="/offer/'.(string)$cont->VIN.'/">'.(string)$cont->SpecName.'</a><br>';
 					}else{
 						$arNoImg[] = (string)$cont->VIN.' - '.(string)$cont->SpecId.' - '.(string)$cont->ColorCode;
 					}
