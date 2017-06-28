@@ -25,6 +25,7 @@ $xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/
 
 $xml = new SimpleXMLElement($xml);
     $arPropsNo = array();
+    $arAddAdmin = array();
 foreach($xml->ContractList->Contract as $key => $cont){
 
     $el = new CIBlockElement;
@@ -100,7 +101,6 @@ foreach($xml->ContractList->Contract as $key => $cont){
                     foreach($img as $i){
                         $PROP['SLIDER'][] = '/XML_upload_for_1c/voronezh/new/'.$d.'/'.$c.'/'.$i;
                     }
-
                 }
             }
         }
@@ -115,30 +115,28 @@ foreach($xml->ContractList->Contract as $key => $cont){
         //var_dump((string)$cont->ColorCode);
     }else{
 
-        if(strlen((string)$cont->POWER) < 1 OR (string)$cont->POWER == "0"){$arPropsNo['POWER'][] = (string)$cont->VIN; $PROP['POWER'] = 'NaN';}
-        if(strlen((string)$cont->FUEL_TYPE) < 1 OR (string)$cont->FUEL_TYPE == "0"){$arPropsNo['FUEL_TYPE'][] = (string)$cont->VIN; $PROP['FUEL_TYPE'] = 'NaN';}
-        if(strlen((string)$cont->GRAR_TYPE) < 1 OR (string)$cont->GRAR_TYPE == "0"){$arPropsNo['GRAR_TYPE'][] = (string)$cont->VIN; $PROP['GRAR_TYPE'] = 'NaN';}
-        if(strlen((string)$cont->OPTION_SUMM) < 1 OR (string)$cont->OPTION_SUMM == "0"){$arPropsNo['OPTION_SUMM'][] = (string)$cont->VIN; $PROP['OPTION_SUMM'] = 'NaN';}
-        if(strlen((string)$cont->run) < 1 OR (string)$cont->run == "0"){$arPropsNo['run'][] = (string)$cont->VIN; $PROP['run'] = 'NaN';}
-        if(strlen((string)$cont->year) < 1 OR (string)$cont->year == "0"){$arPropsNo['year'][] = (string)$cont->VIN; $PROP['year'] = 'NaN';}
-        if(strlen((string)$cont->TransmissionCount) < 1 OR (string)$cont->TransmissionCount == "0"){$arPropsNo['TransmissionCount'][] = (string)$cont->VIN; $PROP['TransmissionCount'] = 'NaN';}
-        if(strlen((string)$cont->MARK) < 1 OR (string)$cont->MARK == "0"){$arPropsNo['MARK'][] = (string)$cont->VIN; $PROP['mark_id'] = 'NaN';}
-        if(strlen((string)$cont->MODEL) < 1 OR (string)$cont->MODEL == "0"){$arPropsNo['MODEL'][] = (string)$cont->VIN; $PROP['folder_id'] = 'NaN';}
-        if(strlen((string)$cont->CAPACITY) < 1 OR (string)$cont->CAPACITY == "0"){$arPropsNo['CAPACITY'][] = (string)$cont->VIN; $PROP['CAPACITY'] = 'NaN';}
-        if(strlen((string)$cont->TRANSMISS) < 1 OR (string)$cont->TRANSMISS == "0"){$arPropsNo['TRANSMISS'][] = (string)$cont->VIN; $PROP['TRANSMISS'] = 'NaN';}
-        if(strlen((string)$cont->Color) < 1 OR (string)$cont->Color == "0"){$arPropsNo['Color'][] = (string)$cont->VIN; $PROP['color'] = 'NaN';}
-        if(strlen((string)$cont->ColorCode) < 1 OR (string)$cont->ColorCode == "0"){$arPropsNo['ColorCode'][] = (string)$cont->VIN; $PROP['color_code'] = 'NaN';}
-        if(strlen((string)$cont->SpecId) < 1 OR (string)$cont->SpecId == "0"){$arPropsNo['SpecId'][] = (string)$cont->VIN; $PROP['SpecId'] = 'NaN';}
-        if(strlen((string)$cont->CUZOV) < 1 OR (string)$cont->CUZOV == "0"){$arPropsNo['CUZOV'][] = (string)$cont->VIN; $PROP['CUZOV'] = 'NaN';}
-        if(strlen((string)$cont->STREET) < 1 OR (string)$cont->STREET == "0"){$arPropsNo['STREET'][] = (string)$cont->VIN; $PROP['STREET'] = 'NaN';}
-        if(strlen((string)$cont->number) < 1 OR (string)$cont->number == "0"){$arPropsNo['number'][] = (string)$cont->VIN; $PROP['number'] = 'NaN';}
-        if(strlen((string)$cont->OLD_PRICE) < 1 OR (string)$cont->OLD_PRICE == "0"){$arPropsNo['OLD_PRICE'][] = (string)$cont->VIN; $PROP['OLD_PRICE'] = 'NaN';}
-        if(strlen((string)$cont->NEW_PRICE) < 1 OR (string)$cont->NEW_PRICE == "0"){$arPropsNo['NEW_PRICE'][] = (string)$cont->VIN; $PROP['NEW_PRICE'] = 'NaN';}
-        if(strlen((string)$cont->CREDIT) < 1 OR (string)$cont->CREDIT == "0"){$arPropsNo['CREDIT'][] = (string)$cont->VIN; $PROP['CREDIT'] = 'NaN';}
-        if(strlen((string)$cont->OPTION_EQU->value[0]) < 1 OR (string)$cont->OPTION_EQU->value[0] == "0"){$arPropsNo['OPTION_EQU'][] = (string)$cont->VIN; $PROP['OPTION_EQU'][] = 'NaN';}
-        if(strlen((string)$cont->DEFAULT_COMPLIT->value[0]) < 1 OR (string)$cont->DEFAULT_COMPLIT->value[0] == "0"){$arPropsNo['DEFAULT_COMPLIT'][] = (string)$cont->VIN; $PROP['DEFAULT_COMPLIT'][] = 'NaN';}
-
-
+        if(strlen((string)$cont->POWER) < 1 OR (string)$cont->POWER == "0"){$arPropsNo[(string)$cont->VIN][] = 'POWER (мощность двигателя)'; $PROP['POWER'] = 'NaN';}
+        if(strlen((string)$cont->FUEL_TYPE) < 1 OR (string)$cont->FUEL_TYPE == "0"){$arPropsNo[(string)$cont->VIN][] = 'FUEL_TYPE (тип двигателя )'; $PROP['FUEL_TYPE'] = 'NaN';}
+        if(strlen((string)$cont->GRAR_TYPE) < 1 OR (string)$cont->GRAR_TYPE == "0"){$arPropsNo[(string)$cont->VIN][] = 'GRAR_TYPE (Тип привода)'; $PROP['GRAR_TYPE'] = 'NaN';}
+      //  if(strlen((string)$cont->OPTION_SUMM) < 1 OR (string)$cont->OPTION_SUMM == "0"){$arPropsNo[(string)$cont->VIN][] = (string)$cont->VIN; $PROP['OPTION_SUMM'] = 'NaN';}
+      //  if(strlen((string)$cont->run) < 1 OR (string)$cont->run == "0"){$arPropsNo[(string)$cont->VIN][] = (string)$cont->VIN; $PROP['run'] = 'NaN';}
+        if(strlen((string)$cont->year) < 1 OR (string)$cont->year == "0"){$arPropsNo[(string)$cont->VIN][] = 'year (Год выпуска)'; $PROP['year'] = 'NaN';}
+        if(strlen((string)$cont->TransmissionCount) < 1 OR (string)$cont->TransmissionCount == "0"){$arPropsNo[(string)$cont->VIN][] = 'TransmissionCount (кол-во передач)'; $PROP['TransmissionCount'] = 'NaN';}
+        if(strlen((string)$cont->MARK) < 1 OR (string)$cont->MARK == "0"){$arPropsNo[(string)$cont->VIN][] = 'MARK (Наименование марки)'; $PROP['mark_id'] = 'NaN';}
+        if(strlen((string)$cont->MODEL) < 1 OR (string)$cont->MODEL == "0"){$arPropsNo[(string)$cont->VIN][] = 'MODEL (Наименование модели)'; $PROP['folder_id'] = 'NaN';}
+        if(strlen((string)$cont->CAPACITY) < 1 OR (string)$cont->CAPACITY == "0"){$arPropsNo[(string)$cont->VIN][] = 'CAPACITY (Объем двигателя)'; $PROP['CAPACITY'] = 'NaN';}
+        if(strlen((string)$cont->TRANSMISS) < 1 OR (string)$cont->TRANSMISS == "0"){$arPropsNo[(string)$cont->VIN][] = 'TRANSMISS (Трансмиссия)'; $PROP['TRANSMISS'] = 'NaN';}
+        if(strlen((string)$cont->Color) < 1 OR (string)$cont->Color == "0"){$arPropsNo[(string)$cont->VIN][] = 'Color (Цвет автомобиля)'; $PROP['color'] = 'NaN';}
+        if(strlen((string)$cont->ColorCode) < 1 OR (string)$cont->ColorCode == "0"){$arPropsNo[(string)$cont->VIN][] = 'ColorCode (Код цвета автомобиля по каталогу производителя)'; $PROP['color_code'] = 'NaN';}
+        if(strlen((string)$cont->SpecId) < 1 OR (string)$cont->SpecId == "0"){$arPropsNo[(string)$cont->VIN][] = 'SpecId (Специальный ID)'; $PROP['SpecId'] = 'NaN';}
+        if(strlen((string)$cont->CUZOV) < 1 OR (string)$cont->CUZOV == "0"){$arPropsNo[(string)$cont->VIN][] = 'CUZOV (Кузов)'; $PROP['CUZOV'] = 'NaN';}
+        if(strlen((string)$cont->STREET) < 1 OR (string)$cont->STREET == "0"){$arPropsNo[(string)$cont->VIN][] = 'STREET (Улица)'; $PROP['STREET'] = 'NaN';}
+        if(strlen((string)$cont->number) < 1 OR (string)$cont->number == "0"){$arPropsNo[(string)$cont->VIN][] = 'number (Телефон)'; $PROP['number'] = 'NaN';}
+        if(strlen((string)$cont->OLD_PRICE) < 1 OR (string)$cont->OLD_PRICE == "0"){$arPropsNo[(string)$cont->VIN][] = 'OLD_PRICE (Старая цена)'; $PROP['OLD_PRICE'] = 'NaN';}
+        if(strlen((string)$cont->NEW_PRICE) < 1 OR (string)$cont->NEW_PRICE == "0"){$arPropsNo[(string)$cont->VIN][] = 'NEW_PRICE (Цена продажи)'; $PROP['NEW_PRICE'] = 'NaN';}
+        if(strlen((string)$cont->CREDIT) < 1 OR (string)$cont->CREDIT == "0"){$arPropsNo[(string)$cont->VIN][] = 'CREDIT (Скидка)'; $PROP['CREDIT'] = 'NaN';}
+      //  if(strlen((string)$cont->OPTION_EQU->value[0]) < 1 OR (string)$cont->OPTION_EQU->value[0] == "0"){$arPropsNo['OPTION_EQU'][] = (string)$cont->VIN; $PROP['OPTION_EQU'][] = 'NaN';}
+        if(strlen((string)$cont->DEFAULT_COMPLIT->value[0]) < 1 OR (string)$cont->DEFAULT_COMPLIT->value[0] == "0"){$arPropsNo[(string)$cont->VIN][] = 'DEFAULT_COMPLIT (Стандартная комплектация)'; $PROP['DEFAULT_COMPLIT'][] = 'NaN';}
 
 
 
@@ -151,39 +149,55 @@ foreach($xml->ContractList->Contract as $key => $cont){
         "CODE"           => translit((string)$cont->VIN),
         "ACTIVE"         => "Y"            // активен
         );
+
+
 	
 	
 
 
 			
 				if(!empty($PROP['SLIDER'])){
-						print '<a href="/offer/'.(string)$cont->VIN.'/">'.(string)$cont->SpecName.'</a><br>';
+					//	print '<a href="/offer/'.(string)$cont->VIN.'/">'.(string)$cont->SpecName.'</a><br>';
+                    if(!preg_match('/preview/',implode($PROP['SLIDER']),$preg)){
+                        $arNoPrew[] = (string)$cont->VIN.' - '.(string)$cont->SpecId.' - '.(string)$cont->ColorCode . '(не найдено preview.jpg)';
+                    }
 					}else{
-						$arNoImg[] = (string)$cont->VIN.' - '.(string)$cont->SpecId.' - '.(string)$cont->ColorCode;
+						$arNoImg[] = (string)$cont->VIN.' - '.(string)$cont->SpecId.' - '.(string)$cont->ColorCode .'(не найдено фото)';
 					}
 
+
+
+
 					if($PRODUCT_ID = $el->Add($arLoadProductArray)){
+                        $arAddAdmin[] = $PRODUCT_ID;
 			//        echo "New ID: ".$PRODUCT_ID;
 					}else{
 						echo "Error: ".$el->LAST_ERROR;
 					}
+
 		}
-
-
 
 }
 
+
     $string = '';
     foreach($arPropsNo as $k => $v){
-        $string .= '<span style="color: red">тег xml: '.$k.'<br></span>';
-        foreach($arPropsNo[$k] as $vin){
-            $string .= $vin.'<br>';
-        }
+        $string .= '<br>vin: '.$k.'<br>';
+        $string .= implode("<br>", $v).'<br>';
+        $string .= '-----------------';
     }
+    $xmlAll = 'Поступило в выгрузку: '.count($xml->ContractList->Contract);
+    $addAdmin = 'Попало в админку: '.count($arAddAdmin);
+    $noCorrectAdmin = 'Из них некорректно оформлены свойства: '.count($arPropsNo);
+    $noCorrectAdminPhoto = 'Из них некорректно оформлены фото: '.count($arNoImg);
 
+
+    $message = $xmlAll.'<br>'.$addAdmin.'<br>'.$noCorrectAdmin.'<br>'.$noCorrectAdminPhoto.'<br>---<br>'.$string.' <br>*********************<br>Нет фото VIN - SpecId - ColorCode:<br> '.implode("<br>", $arNoImg).'<br>'.implode("<br>", $arNoPrew);
+
+    var_dump($message);
     $adminEmail = COption::GetOptionString('main', 'email_from');
 
-    mail($adminEmail, 'Нет фото в спецпредложениях '.$SERVER_NAME, 'Нет фото VIN - SpecId - ColorCode:<br> '.implode("<br>", $arNoImg).'<br><br><br>'.$string,
+    mail($adminEmail, 'Недостающие данные в спецпредложениях '.$SERVER_NAME, $message,
         "From: webmaster@$SERVER_NAME\r\n"
         ."Reply-To: webmaster@$SERVER_NAME\r\n"
         ."Content-type: text/html; charset=utf-8\r\n"
