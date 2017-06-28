@@ -76,12 +76,10 @@ $this->setFrameMode(true);
 	</div>
 
 	<? if((int)$arResult['ID'] == 155): ?>
-		
+
 	<link type="text/css" href="/media/css_new/service_styles.css" rel="stylesheet" />
-			<div class="bodyworks-views" id="bodyworks-views">
+			<div class="bodyworks-views" id="bodyworks-views" style="background: none">
 			<div class="content-inner content-inner--bodyworks-views">
-				<div class="bodyworks-views-heading">Ремонт элементов кузова</div>
-				<div class="bodyworks-views-descr">Каждый официальный дилерский центр Хендэ имеет свою кузовную станцию или официально сотрудничает с&nbsp;самыми передовыми станциями по кузовному ремонту.</div>
 				<div class="bw-views-cut">
 					<div class="bw-views">
 						<div class="bw-view bw-view--1 active">
