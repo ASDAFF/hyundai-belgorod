@@ -75,6 +75,83 @@ $this->setFrameMode(true);
 		</div>
 	</div>
 
+	<? if((int)$arResult['ID'] == 155): ?>
+		
+	<link type="text/css" href="/media/css_new/service_styles.css" rel="stylesheet" />
+			<div class="bodyworks-views" id="bodyworks-views">
+			<div class="content-inner content-inner--bodyworks-views">
+				<div class="bodyworks-views-heading">Ремонт элементов кузова</div>
+				<div class="bodyworks-views-descr">Каждый официальный дилерский центр Хендэ имеет свою кузовную станцию или официально сотрудничает с&nbsp;самыми передовыми станциями по кузовному ремонту.</div>
+				<div class="bw-views-cut">
+					<div class="bw-views">
+						<div class="bw-view bw-view--1 active">
+							<div class="bw-view-image">
+								<img src="/media/img_new/service-pages/bodyworks-view-1.png" class="bw-view-img" alt="">
+							</div>
+							<div class="bw-view-pluses">
+								<div class="bw-view-plus bw-view-plus--1 right">
+									<span class="bw-view-plus-descr">Капот от 9000 <span class="bw-view-plus-descr-price">9047 <span class="rouble">7</span></span></span>
+									<a href="#" class="bw-view-plus-icon"></a>
+								</div>
+								<div class="bw-view-plus bw-view-plus--2 right">
+									<span class="bw-view-plus-descr">Бампер передний от 6500 <span class="bw-view-plus-descr-price">7231 <span class="rouble">7</span></span></span>
+									<a href="#" class="bw-view-plus-icon"></a>
+								</div>
+								<div class="bw-view-plus bw-view-plus--3 right">
+									<span class="bw-view-plus-descr">Крыло переднее лев/прав от 6500<span class="bw-view-plus-descr-price">7597 <span class="rouble">7</span></span></span>
+									<a href="#" class="bw-view-plus-icon"></a>
+								</div>
+								<div class="bw-view-plus bw-view-plus--4 right">
+									<span class="bw-view-plus-descr">Крышка бокового зеркала <span class="bw-view-plus-descr-price">1500 <span class="rouble">7</span></span></span>
+									<a href="#" class="bw-view-plus-icon"></a>
+								</div>
+								<div class="bw-view-plus bw-view-plus--5 right">
+									<span class="bw-view-plus-descr">Дверь передняя лев/прав от 6500 <span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
+									<a href="#" class="bw-view-plus-icon"></a>
+								</div>
+							</div>
+						</div>
+						<div class="bw-view bw-view--2">
+							<div class="bw-view-image">
+								<img src="/media/img_new/service-pages/bodyworks-view-2.png" class="bw-view-img" alt="">
+							</div>
+							<div class="bw-view-pluses">
+								<div class="bw-view-plus bw-view-plus--1 right">
+									<span class="bw-view-plus-descr">Крышка багажника от 8000<span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
+									<a href="#" class="bw-view-plus-icon"></a>
+								</div>
+								<div class="bw-view-plus bw-view-plus--2 right">
+									<span class="bw-view-plus-descr">Бампер задний от 6500<span class="bw-view-plus-descr-price">2000 <span class="rouble">7</span></span></span>
+									<a href="#" class="bw-view-plus-icon"></a>
+								</div>
+								<div class="bw-view-plus bw-view-plus--3 right">
+									<span class="bw-view-plus-descr">Крыша от 10000 <span class="bw-view-plus-descr-price">5000 <span class="rouble">7</span></span></span>
+									<a href="#" class="bw-view-plus-icon"></a>
+								</div>
+								<div class="bw-view-plus bw-view-plus--4 right">
+									<span class="bw-view-plus-descr">Крыло заднее лев/прав от  8000 <span class="bw-view-plus-descr-price">3500 <span class="rouble">7</span></span></span>
+									<a href="#" class="bw-view-plus-icon"></a>
+								</div>
+								<div class="bw-view-plus bw-view-plus--5 right">
+									<span class="bw-view-plus-descr">Дверь задняя лев/прав от 6500 <span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
+									<a href="#" class="bw-view-plus-icon"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="bw-views-nav">
+						<a href="#" class="bw-views-nav-btn prev disabled" role="button">Вид спереди</a>
+						<a href="#" class="bw-views-nav-btn next" role="button">Вид сзади</a>
+					</div>
+				</div>
+				<div class="bw-views-links">
+					<a href="#" class="bw-views-link zing_form_toggler" for="zing_cuzov_btn" role="button">записаться на сервис</a>
+					<a href="/service/originalnye-zapchasti/" class="bw-views-link">оригинальные запчасти</a>
+				</div>
+			</div>
+		</div>
+
+	<?endif;?>
 
 
 	<div class="parts-slide-text">
