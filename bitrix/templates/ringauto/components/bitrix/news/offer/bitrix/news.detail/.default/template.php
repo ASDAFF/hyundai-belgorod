@@ -139,9 +139,11 @@ if($arResult["PROPERTIES"]["OPTION_EQU"]["VALUE"]):
 
 <div class="paralax-offer">
 
-
+	<? if(preg_match('/preview/',$arResult["PROPERTIES"]["SLIDER"]["VALUE"][0],$preg)){?>
+	<img src="<?=$arResult["PROPERTIES"]["SLIDER"]["VALUE"][1]?>">
+	<? }else{ ?>
 	<img src="<?=$arResult["PROPERTIES"]["SLIDER"]["VALUE"][0]?>">
-
+	<? } ?>
 
 	<div class="box-price-absolute-left">
 		<div class="box-price">
