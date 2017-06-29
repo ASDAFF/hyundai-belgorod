@@ -100,7 +100,7 @@ $this->setFrameMode(true);
 <div class="news-line"></div>
 
 
-<div class="offer-default-setting" style="background-image:url('<?=CFile::GetPath($arResult["PROPERTIES"]['IMAGES_FON_1']['VALUE'])?>')">
+<div class="offer-default-setting" style="background-image:url('/XML_upload_for_1c/fotobank/<?=str_replace(' ','-',$arResult["PROPERTIES"]['folder_id']['VALUE'])?>/1.png')">
 
 	<div class="news-center">
 		<div class="setting-offer">
@@ -163,7 +163,7 @@ if($arResult["PROPERTIES"]["OPTION_EQU"]["VALUE"]):
 </div>
 
 
-<div class="offer-form" id="offer-form" style="background-image: url('<?=CFile::GetPath($arResult["PROPERTIES"]['IMAGES_FON_2']['VALUE'])?>')">
+<div class="offer-form" id="offer-form" style="background-image: url('/XML_upload_for_1c/fotobank/<?=str_replace(' ','-',$arResult["PROPERTIES"]['folder_id']['VALUE'])?>/2.png')">
 
 	<h1>Мы сделаем вам самое выгодное предложение на покупку Hyundai в России</h1>
 
