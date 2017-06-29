@@ -78,7 +78,7 @@ $this->setFrameMode(true);
 
 			<div class="w-25 f-row-item">
 				<img src="/img/icons/speedometer.png">
-				<div>Мощность</div>
+				<div>Мощный двигатель</div>
 			</div>
 
 			<div class="w-25 f-row-item">
