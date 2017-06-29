@@ -65,33 +65,26 @@ $this->setFrameMode(true);
 	<div class="offer-slogan"><?=$arResult["PROPERTIES"]['SLOGAN']['VALUE']?></div>
 	<div class="news-center-body f-row">
 
-		<? if($arResult["PROPERTIES"]['ICON_GAS']['VALUE'] == 'Y'){ ?>
-		<div class="w-25 f-row-item">
-				<img src="/img/icons/gas.png">
-				<div><?=$arResult["PROPERTIES"]['TEXT_GAS']['VALUE']?></div>
-		</div>
-		<?}?>
 
-		<? if($arResult["PROPERTIES"]['ICON_REMEN']['VALUE'] == 'Y'){ ?>
+			<div class="w-25 f-row-item">
+					<img src="/img/icons/gas.png">
+					<div>Экономный расход</div>
+			</div>
+
 			<div class="w-25 f-row-item">
 				<img src="/img/icons/airbag.png">
-				<div><?=$arResult["PROPERTIES"]['TEXT_REMEN']['VALUE']?></div>
+				<div>Подушки безопасности</div>
 			</div>
-		<?}?>
 
-		<? if($arResult["PROPERTIES"]['ICON_PAZZL']['VALUE'] == 'Y'){ ?>
-			<div class="w-25 f-row-item">
-				<img src="/img/icons/puzle.png">
-				<div><?=$arResult["PROPERTIES"]['TEXT_PAZZL']['VALUE']?></div>
-			</div>
-		<?}?>
-
-		<? if($arResult["PROPERTIES"]['ICON_SPEED']['VALUE'] == 'Y'){ ?>
 			<div class="w-25 f-row-item">
 				<img src="/img/icons/speedometer.png">
-				<div><?=$arResult["PROPERTIES"]['TEXT_SPEED']['VALUE']?></div>
+				<div>Мощность</div>
 			</div>
-		<?}?>
+
+			<div class="w-25 f-row-item">
+				<img src="/img/icons/puzle.png">
+				<div>Большой список опций</div>
+			</div>
 
 	</div>
 </div>
