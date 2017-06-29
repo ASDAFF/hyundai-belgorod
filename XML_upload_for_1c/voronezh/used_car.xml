@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>27.06.2017</Date>
-		<Time>21:37:22</Time>
+		<Date>29.06.2017</Date>
+		<Time>10:47:07</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -35,6 +35,105 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<CREDIT>-365 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>Z94CT41CBFR363163</VIN>
+			<MARK/>
+			<MODEL>Hyundai Solaris</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,4</CAPACITY>
+			<POWER>107</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>4</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>GT</ColorCode>
+			<ColorOrig>белый</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>27 850</run>
+			<year>2 014</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>3N1BCAC11UK545833</VIN>
+			<MARK/>
+			<MODEL>Nissan Tiida</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>4</TransmissionCount>
+			<Color>светло-коричневый</Color>
+			<ColorCode>34</ColorCode>
+			<ColorOrig>беж</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Велюр</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>41 000</run>
+			<year>2 011</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>JTMBH31V205056585</VIN>
+			<MARK/>
+			<MODEL>Toyota RAV-4</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>2</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>черный</Color>
+			<ColorCode>RB5</ColorCode>
+			<ColorOrig>черный</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Универсал</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Полный</GRAR_TYPE>
+			<run>134 000</run>
+			<year>2 008</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -569,7 +668,7 @@
 			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>127 600</run>
+			<run>131 200</run>
 			<year>2 012</year>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
