@@ -2,7 +2,7 @@
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
 		<Date>29.06.2017</Date>
-		<Time>10:47:07</Time>
+		<Time>21:35:50</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -1345,6 +1345,39 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<CREDIT>-180 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>XU3178000BZ140484</VIN>
+			<MARK/>
+			<MODEL>FIAT ALBEA</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,4</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>особое вино</Color>
+			<ColorCode>21</ColorCode>
+			<ColorOrig>фиолетовый</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>94 120</run>
+			<year>2 011</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
