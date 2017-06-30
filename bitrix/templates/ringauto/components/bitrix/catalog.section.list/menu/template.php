@@ -68,6 +68,7 @@ foreach ($arResult['SECTIONS'] as &$arSection){
 				<? endif; ?>
 				</span>
 				<span class="menuPrice"><?=$arProps['PRICE']['VALUE']?></span>
+				<span class="menuPrice"><br><?=$arProps['PROFIT']['VALUE']?></span>
 			</a>
 		</li>
 		<?
