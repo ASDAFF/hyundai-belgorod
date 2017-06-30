@@ -4187,3 +4187,8 @@ a.zingaya_button1370324828422 {
 }
 
 @keyframes Gradient{0%{background-position:9% 0%}50%{background-position:92% 100%}100%{background-position:9% 0%}}
+
+
+a[href="javascript:void(0)"].title-price-notice:hover{
+    color: #0d75ba!important;
+}
