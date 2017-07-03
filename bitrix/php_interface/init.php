@@ -118,7 +118,8 @@ function offer_filter_auto($url){
             $arProps = $ob->GetProperties();
             $offer_models = $arProps['FOR_OFFER']['VALUE'];
         }
-        $GLOBALS['offer_filter_auto'] = array("PROPERTY_folder_id" => $offer_models);
+
+        $GLOBALS['offer_filter_auto'] = array("PROPERTY_folder_id" => $offer_models,"PROPERTY_SLIDER" => "%");
         $arOffer = array(
             "ACTIVE_DATE_FORMAT" => "d.m.Y",
             "ADD_SECTIONS_CHAIN" => "Y",
@@ -189,6 +190,7 @@ function offer_filter_auto($url){
             $arOffer,
             false
         );
+
 
         if (empty($offers)) {
             unset($arOffer['FILTER_NAME']);
