@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>29.06.2017</Date>
-		<Time>21:35:50</Time>
+		<Date>02.07.2017</Date>
+		<Time>21:35:11</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -35,39 +35,6 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<CREDIT>-365 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94CT41CBFR363163</VIN>
-			<MARK/>
-			<MODEL>Hyundai Solaris</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,4</CAPACITY>
-			<POWER>107</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE/>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>4</TransmissionCount>
-			<Color>белый</Color>
-			<ColorCode>GT</ColorCode>
-			<ColorOrig>белый</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>27 850</run>
-			<year>2 014</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -641,39 +608,6 @@
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
 			<CREDIT>-340 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>XWB3K32EDCA247539</VIN>
-			<MARK/>
-			<MODEL>Daewoo Nexia</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>серо-перламутровый</Color>
-			<ColorCode>серо-перламутровый</ColorCode>
-			<ColorOrig>серо-перламутровый</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>131 200</run>
-			<year>2 012</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1418,6 +1352,50 @@
 				<value>Установка защиты картера</value>
 				<value>Сигнализация с обратной связью и автозапуском</value>
 				<value>Дефлекторы на все окна</value>
+			</OPTION_EQU>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>KMHSU81XDEU281236</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Santa Fe</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY/>
+			<POWER/>
+			<fuel_consumption/>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount/>
+			<Color>серый</Color>
+			<ColorCode>T6S</ColorCode>
+			<ColorOrig>серый</ColorOrig>
+			<SpecName>DMW52FC5GGE079</SpecName>
+			<SpecId>ЦБ000621</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON/>
+			<GRAR_TYPE/>
+			<run>59 123</run>
+			<year>2 014</year>
+			<OPTION_SUMM>25 755,08</OPTION_SUMM>
+			<OPTION_EQU>
+				<value>КОВРЫ САЛОНА HYUNDAI SANTA FE DM</value>
+				<value>КОВРИК БАГАЖНОГО ОТСЕКА SANTA FE 2013 (5 МЕСТ)</value>
+				<value>КОМПЛЕКТ ДЕФЛЕКТОРОВ БОКОВЫХ СТЕКОЛ SANTA FE 2013 (4шт)</value>
+				<value>ЗАЩИТА КАРТЕРА SANTA  FE 2014</value>
+				<value>СЕТКА ЧЕРНАЯ 10/40/100</value>
+				<value>Дефлекторы на все окна</value>
+				<value>Установка защиты картера</value>
+				<value>Тонирование без передних стекол</value>
+				<value>Бампер передний с/у</value>
+				<value>Установка сетки в бампер</value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
 			<CREDIT>0</CREDIT>
