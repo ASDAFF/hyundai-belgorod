@@ -1258,6 +1258,7 @@ $APPLICATION->SetTitle("Solaris-5dr");
                     <div class="nextbtn"><a href="#"><img src="/media/img/blank.gif" alt="next"/></a><br/></div>
                     <div class="cube">&nbsp;</div>
                 </div>
+                <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
                 <script type='text/javascript'>
                     //
                     var cubeList = new Array();

@@ -173,6 +173,7 @@ $APPLICATION->SetTitle("Elantra");
                 </div>
             </div>
 
+            <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
             <!-- content -->
             <div class="content-type content-type__explore on" >
                 <div id="contents_highlights" class="contents_highlights pip">

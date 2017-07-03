@@ -258,6 +258,7 @@ $APPLICATION->SetTitle("H-1");
                 </div>
             </div>
             <div class="container">
+
                 <div class="cubebox" id="cubebox">
                     <div class="cubelist">
                         <div class="items ui-draggable" style="width: 300%;">
@@ -1264,7 +1265,10 @@ $APPLICATION->SetTitle("H-1");
                     <div class="prevbtn"><a href="#"><img src="/media/img/blank.gif" alt="previous"/></a><br/></div>
                     <div class="nextbtn"><a href="#"><img src="/media/img/blank.gif" alt="next"/></a><br/></div>
                     <div class="cube">&nbsp;</div>
+
                 </div>
+
+                <div class="" style="margin-top:100px"><? offer_filter_auto($APPLICATION->GetCurPage()); ?></div>
                 <script type='text/javascript'>
                     //
                     var cubeList = new Array();
@@ -1459,7 +1463,9 @@ $APPLICATION->SetTitle("H-1");
 
 
                 </div>
-                <input type="hidden" id="modelCode" name="modelCode" value="GD"/><input type="hidden" id="trakingModelCode"
+
+                <input type="hidden" id="modelCode" name="modelCode" value="GD"/>
+                <input type="hidden" id="trakingModelCode"
                                                                                         name="trakingModelCode" value="H-1"/><input
                     type="hidden" id="wwn_country_code" name="wwn_country_code" value="RU"/>
 

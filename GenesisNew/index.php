@@ -1128,6 +1128,8 @@ $APPLICATION->SetTitle("GenesisNew");
         <!-- <div class="prevbtn"><a href="#"><img src="/media/img/blank.gif" alt="previous"/></a><br/></div> -->
 
         <!-- <div class="nextbtn"><a href="#"><img src="/media/img/blank.gif" alt="next"/></a><br/></div> -->
+        <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
+        <style>.offers{padding: 50px 0;}</style>
 
         <div class="cube">&nbsp;</div>
         <!--     </div> -->

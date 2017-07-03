@@ -2,7 +2,20 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("i40-Wagon");
 ?>
-
+    <script>
+        dataLayer = [{
+            'countrycode': 'RU',
+            'pagename': 'models',
+            'carmodelname': 'i40'
+        }];
+    </script>
+    <script>
+        dataLayer2 = [{
+            'countrycode': 'RU',
+            'pagename': 'models',
+            'carmodelname': 'i40'
+        }];
+    </script>
 
 
 
@@ -107,6 +120,12 @@ $APPLICATION->SetTitle("i40-Wagon");
                                         </ul>
                                     </div>
                                 </div>
+                                <div class="view-360_wrap">
+                                    <img class="progress-last-frame" alt="" src=""/>
+                                    <div class="progress-ring-wrap"><canvas id="progress-ring" class="progress-ring" width="200" height="200"></canvas></div>
+                                    <div class="spritespin" data-model="i40w"></div>
+                                </div>
+                                <a class="view-360_toggler" href="#"></a>
                                 <img src="/media/images/flat/i40w/elements/info_car_pic.png" class="info-car-pic"/>
                             </div>
                         </div>
@@ -154,6 +173,7 @@ $APPLICATION->SetTitle("i40-Wagon");
             </div>
             <!-- // new template -->
 
+            <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
             <!-- content -->
             <div class="content-type content-type__explore on" >
                 <div id="contents_highlights" class="contents_highlights pip">

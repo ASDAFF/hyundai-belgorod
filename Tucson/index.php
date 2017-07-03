@@ -198,6 +198,7 @@ $APPLICATION->SetTitle("Tucson");
                     </div>
                 </div>
 
+                <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
                 <!-- content -->
                 <div class="content-type content-type__explore on">
                     <!-- // new template -->

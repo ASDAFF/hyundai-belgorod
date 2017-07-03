@@ -151,6 +151,7 @@ $APPLICATION->SetTitle("Solaris");
                 </div>
 
             </div>
+
             <!-- new sidemenu -->
             <div class="side-menu">
                 <div class="submenu">
@@ -190,7 +191,7 @@ $APPLICATION->SetTitle("Solaris");
                 </div>
             </div>
             <!-- // new template -->
-
+            <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
             <!-- content -->
             <div class="content-type content-type__explore on" >
                 <div id="contents_highlights" class="contents_highlights pip">

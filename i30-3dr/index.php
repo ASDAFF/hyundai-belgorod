@@ -75,6 +75,12 @@ $APPLICATION->SetTitle("i30-3dr");
                     <div class="items">
                         <div class="item">
                             <div class="item_wrap">
+                                <div class="view-360_wrap">
+                                    <img class="progress-last-frame" alt="" src=""/>
+                                    <div class="progress-ring-wrap"><canvas id="progress-ring" class="progress-ring" width="200" height="200"></canvas></div>
+                                    <div class="spritespin" data-model="i303dr"></div>
+                                </div>
+                                <a class="view-360_toggler" href="#"></a>
                                 <img class="info-car-pic" src="/media/images/flat/i303dr/elements/info_car_pic.png">
                                 <div class="main mkv">
                                     <div class="title">
@@ -141,6 +147,7 @@ $APPLICATION->SetTitle("i30-3dr");
                 </div>
             </div>
 
+            <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
             <!-- content -->
             <div class="content-type content-type__explore on" >
                 <div id="contents_highlights" class="contents_highlights pip">

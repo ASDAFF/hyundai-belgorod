@@ -12,13 +12,13 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 
-//
+if(!empty($arResult["ITEMS"])):
 ?>
 <link rel="stylesheet" type="text/css" href="/css/slick.css"/>
 <link rel="stylesheet" type="text/css" href="/css/slick-theme.css"/>
 <script type="text/javascript" src="/js/slick.min.js"></script>
 
-<div class="offers">
+<div class="offers" style="margin-bottom: 50px;text-align: center">
 
 	<div class="news-line"></div>
 	<div class="news-center no-padding clearfix">
@@ -82,11 +82,12 @@ foreach($arResult["ITEMS"] as $arItem) {
 	</div>
 	<?
 }
-?>
 
+?>
 
 	</div>
 
+	<a class="mtr-btn mtr-btn-blue mtr-btn-wide" style="margin-top: 40px;width: 260px;" href="/<?=$arResult['CODE']?>/">все предложения</a>
 
 	<script>
 		$(document).ready(function(){
@@ -120,6 +121,8 @@ foreach($arResult["ITEMS"] as $arItem) {
 	</script>
 
 </div>
+
+<? endif; ?>
 
 
 
