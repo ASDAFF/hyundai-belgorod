@@ -8,7 +8,29 @@ $xml .= '<cars>';
 if(CModule::IncludeModule("iblock")):
 
     $arSelect = Array("ID", "IBLOCK_ID","NAME","CODE", "DATE_ACTIVE_FROM","PROPERTY_*");
-    $arFilter = Array("IBLOCK_ID" => 8);
+    $arFilter = Array(
+        "IBLOCK_ID" => 8,
+        "PROPERTY_POWER" => "%",
+        "PROPERTY_FUEL_TYPE" => "%",
+        "PROPERTY_GRAR_TYPE" => "%",
+        "PROPERTY_year" => "%",
+        "PROPERTY_TransmissionCount" => "%",
+        "PROPERTY_mark_id" => "%",
+        "PROPERTY_folder_id" => "%",
+        "PROPERTY_CAPACITY" => "%",
+        "PROPERTY_TRANSMISS" => "%",
+        "PROPERTY_color" => "%",
+        "PROPERTY_color_code" => "%",
+        "PROPERTY_SpecId" => "%",
+        "PROPERTY_CUZOV" => "%",
+        "PROPERTY_STREET" => "%",
+        "PROPERTY_number" => "%",
+        "PROPERTY_OLD_PRICE" => "%",
+        "PROPERTY_NEW_PRICE" => "%",
+        "PROPERTY_CREDIT" => "%",
+        "PROPERTY_DEFAULT_COMPLIT" => "%",
+        "PROPERTY_SLIDER" => "%"
+    );
     $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
     var_dump($res->result->num_rows);
     while($ob = $res->GetNextElement())
