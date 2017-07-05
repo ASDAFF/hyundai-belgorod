@@ -10,6 +10,7 @@ if(CModule::IncludeModule("iblock")):
     $arSelect = Array("ID", "IBLOCK_ID","NAME","CODE", "DATE_ACTIVE_FROM","PROPERTY_*");
     $arFilter = Array("IBLOCK_ID" => 8);
     $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
+    var_dump($res->result->num_rows);
     while($ob = $res->GetNextElement())
     {
         $xml .= '<car>';
