@@ -2644,7 +2644,7 @@ only screen and (min-device-pixel-ratio: 1.5) {}
 	background-position: 0px 45px; }
 
 .gnb_layer .showroom .list li {
-	width: 150px;
+	width: 145px;
 	height: 130px;
 	list-style: none outside none;
 }
