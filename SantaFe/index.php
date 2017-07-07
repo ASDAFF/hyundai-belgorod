@@ -99,8 +99,8 @@ $APPLICATION->SetTitle("SantaFe");
                                         <span>Весь мир у ваших колес!</span>
                                     </div>
                                     <div class="title-price">
-                                        <? price_to_url($APPLICATION->GetCurPage()); ?>
-                                        <a href="javascript:void(0)" class="title-price-notice"><? profit_to_url($APPLICATION->GetCurPage()); ?> </a><br>
+                                        <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
+                                        <div class="title-price-sale"><? profit_to_url($APPLICATION->GetCurPage()); ?></div><br>
                                         <!-- 								от 1 769 000 &#8381; -->
                                         <a href="http://www.hyundai.ru/configurator/?car_id=29" class="title-price-notice">В кредит от 38 485 &#8381; / месяц</a>
                                     </div>

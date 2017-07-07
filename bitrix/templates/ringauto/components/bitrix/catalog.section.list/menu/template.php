@@ -63,12 +63,11 @@ foreach ($arResult['SECTIONS'] as &$arSection){
 			<a href="/<?=$arFields['CODE']?>" style="position: relative; display: inline;">
 				<img alt="" src="<?=CFile::GetPath($arFields["PREVIEW_PICTURE"]);?>"><br>
 				<span class="model"><?=$arFields['NAME']?>
-				<? if($arProps['PROMO']['VALUE'] == 'Y'):?>
-					<span class="sale">Промо</span>
+				<? if($arProps['PROFIT']['VALUE']):?>
+					<span class="sale"><?=$arProps['PROFIT']['VALUE']?></span>
 				<? endif; ?>
 				</span>
 				<span class="menuPrice"><?=$arProps['PRICE']['VALUE']?></span>
-				<span class="menuPrice"><br><?=$arProps['PROFIT']['VALUE']?></span>
 			</a>
 		</li>
 		<?
