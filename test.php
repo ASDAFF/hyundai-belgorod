@@ -4,10 +4,6 @@ $APPLICATION->SetPageProperty("title", "Hyundai Solaris купить в Воро
 $APPLICATION->SetTitle("NewSolaris");
 ?>
 
-<?
 
-offer_filter_auto($APPLICATION->GetCurPage());
-
-?>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

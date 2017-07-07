@@ -1,4 +1,4 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+  <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 /** @var array $arParams */
 /** @var array $arResult */
 /** @global CMain $APPLICATION */
@@ -14,9 +14,9 @@ $this->setFrameMode(true);
 
 //
 ?>
-<link rel="stylesheet" type="text/css" href="/css/slick.css"/>
-<link rel="stylesheet" type="text/css" href="/css/slick-theme.css"/>
-<script type="text/javascript" src="/js/slick.min.js"></script>
+
+
+
 
 <div class="offers">
 	<div class="news-line"></div>
@@ -26,7 +26,24 @@ $this->setFrameMode(true);
 	<div class="news-line mt14"></div>
 
 
-	<div class="super-offer-slider-giant">
+	<div class="content-wrap">
+
+		<div class="super-offer-slide-giant">
+			<div class="filter-box">
+				<div class="filter-header">
+					<p>Уточнить параметры</p>
+				</div>
+				<div class="filter-body">
+					<p><span>&#9650;</span> Модель</p>
+					<ul>
+					<?foreach($arResult['FOR_FILTER'] as $arItem):?>
+					<li><input type="radio" class="option-input radio" name="offer_model" value="<?=$arItem?>" <?if($_GET['offer-filter'] == $arItem):?>checked<?endif;?>> <?=$arItem?></li>
+					<?endforeach;?>
+					</ul>
+				</div>
+			</div>
+		</div>
+
 
 		<?
 		foreach($arResult["ITEMS"] as $arItem) {
@@ -46,7 +63,7 @@ $this->setFrameMode(true);
 					<a href="<?=$arItem['DETAIL_PAGE_URL']?>">
 
 
-						<img data-lazy="<?=$img?>" alt="<?=$arItem['NAME']?>"/>
+						<img data-lazy="<?=$img?>" src="<?=$img?>" alt="<?=$arItem['NAME']?>"/>
 
 					</a>
 
@@ -87,31 +104,18 @@ $this->setFrameMode(true);
 
 	<script>
 		$(document).ready(function(){
-
-			$('.super-offer-slider-giant').slick({
-				slidesToShow: 3,
-				slidesToScroll: 1,
-				speed: 500,
-				lazyLoad: 'ondemand',
-				autoplay: true,
-				autoplaySpeed: 6000,
-				pauseOnHover: false,
-				responsive: [
-					{
-						breakpoint: 1845,
-						settings: {
-							slidesToShow: 2,
-							slidesToScroll: 1,
-						}
-					},
-					{
-						breakpoint: 1250,
-						settings: {
-							slidesToShow: 1,
-							slidesToScroll: 1,
-						}
-					},
-				]
+			$('.super-offer-slide-giant .filter-box .filter-body p').click(function(){
+				$than = this;
+				$('.super-offer-slide-giant .filter-box .filter-body ul').slideToggle(function(){
+					if($(this).css('display') == 'none'){
+						$('span',$than).html('&#9660;');
+					}else{
+						$('span',$than).html('&#9650;');
+					}
+				});
+			});
+			$('.option-input.radio').click(function(){
+				window.location.href = "?offer-filter="+$(this).val();
 			});
 		});
 	</script>

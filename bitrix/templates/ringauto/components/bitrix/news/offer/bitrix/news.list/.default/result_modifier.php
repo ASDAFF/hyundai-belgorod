@@ -1,5 +1,5 @@
 <?php
-
+$forModelFilter = array();
 foreach($arResult["ITEMS"] as $key => $arItem) {
 
     if(stristr($arItem['PROPERTIES']['folder_id']['VALUE'], '(', true)){
@@ -22,9 +22,17 @@ foreach($arResult["ITEMS"] as $key => $arItem) {
 		 }
 	}
 
-
-
-
-
-
 }
+
+$arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","PROPERTY_*");
+$arFilter = Array("IBLOCK_ID"=> $arResult['ID'], "ACTIVE"=>"Y","PROPERTY_SLIDER" => "%");
+$res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
+while($ob = $res->GetNextElement()){
+    $arFields = $ob->GetFields();
+    $arProps = $ob->GetProperties();
+        $prw = implode(",", $arProps["SLIDER"]['VALUE']);
+        if (preg_match('/preview/', $prw, $preg)) {
+            $forModelFilter[] = $arProps['folder_id']['VALUE'];
+        }
+}
+$arResult['FOR_FILTER'] = array_unique($forModelFilter);

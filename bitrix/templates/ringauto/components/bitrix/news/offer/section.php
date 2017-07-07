@@ -11,6 +11,7 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
+
 ?>
 
 <?if($arParams["USE_RSS"]=="Y"):?>
@@ -33,6 +34,7 @@ $this->setFrameMode(true);
 );?>
 <br />
 <?endif?>
+
 <?if($arParams["USE_FILTER"]=="Y"):?>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:catalog.filter",
@@ -53,7 +55,8 @@ $this->setFrameMode(true);
 ?>
 <br />
 <?endif?>
-<?$APPLICATION->IncludeComponent(
+<?
+$APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"",
 	Array(
