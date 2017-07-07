@@ -110,7 +110,7 @@ $APPLICATION->SetTitle("i40");
                                     <div class="title-price">
 
                                         <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                        <div class="title-price-sale"><? profit_to_url($APPLICATION->GetCurPage()); ?></div><br>
+                                        <? profit_to_url($APPLICATION->GetCurPage()); ?>
                                         <a href="http://www.hyundai.ru/configurator/?car_id=21" class="title-price-notice">В кредит от 18 719 &#8381; / месяц</a>
                                     </div>
                                     <a href="/all-offers/i40" class="btn-flat">Все предложения</a>

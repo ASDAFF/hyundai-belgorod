@@ -105,7 +105,7 @@ $APPLICATION->SetTitle("i40-Wagon");
                                     </div>
                                     <div class="title-price">
                                         <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                        <div class="title-price-sale"><? profit_to_url($APPLICATION->GetCurPage()); ?></div><br>
+                                        <? profit_to_url($APPLICATION->GetCurPage()); ?>
                                         <a href="http://www.hyundai.ru/configurator/?car_id=22&calc_open=1" class="title-price-notice">В кредит от 20 294 <span class="rouble">p</span> / месяц</a>
                                     </div>
                                     <a href="/all-offers/i40_wagon" class="btn-flat">Все предложения</a>

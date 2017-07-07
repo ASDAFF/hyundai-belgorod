@@ -89,7 +89,7 @@ $APPLICATION->SetTitle("i30-3dr");
                                     </div>
                                     <div class="title-price">
                                         <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                        <div class="title-price-sale"><? profit_to_url($APPLICATION->GetCurPage()); ?></div><br>
+                                        <? profit_to_url($APPLICATION->GetCurPage()); ?><br>
                                         <a href="http://www.hyundai.ru/configurator/?car_id=25&calc_open=1" class="title-price-notice">В кредит от 13 150 <span class="rouble">p</span> / месяц</a>
                                     </div>
                                     <a href="/all-offers/" class="btn-flat">Все предложения</a>

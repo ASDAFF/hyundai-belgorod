@@ -92,7 +92,7 @@ $APPLICATION->SetTitle("Creta");
                                     </div>
                                     <div class="title-price" style="margin: 1em 0 3em;">
                                         <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                        <div class="title-price-sale"><? profit_to_url($APPLICATION->GetCurPage()); ?></div><br>
+                                        <? profit_to_url($APPLICATION->GetCurPage()); ?>
                                         <a href="/configurator/?car_id=150&compl_id=336&calc_open=1" class="title-price-notice">В кредит от 7 000 <span class="rouble">"</span> / месяц</a>
                                     </div>
                                     <div class="title-list">

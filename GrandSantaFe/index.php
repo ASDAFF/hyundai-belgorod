@@ -94,7 +94,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                     </div>
                                     <div class="title-price">
                                         <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                        <div class="title-price-sale"><? profit_to_url($APPLICATION->GetCurPage()); ?></div><br>
+                                        <? profit_to_url($APPLICATION->GetCurPage()); ?>
                                         <a href="http://www.hyundai.ru/configurator/?car_id=12&calc_open=1" class="title-price-notice">В кредит от 37 622 <span class="rouble">p</span> / месяц</a>
                                     </div>
                                     <a href="/all-offers/grand_santa_fe" class="btn-flat">Все предложения</a>

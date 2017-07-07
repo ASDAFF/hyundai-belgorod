@@ -28,9 +28,9 @@ function profit_to_url($url){
             $price = $arProps['PROFIT']['VALUE'];
         }
     }
-
-    return print $price;
-
+    if($price){
+        return print '<div class="title-price-sale">'.$price.'</div><br>';
+    }
 }
 
 function desc_model_to_url($url){

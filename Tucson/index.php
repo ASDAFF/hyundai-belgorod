@@ -120,7 +120,7 @@ $APPLICATION->SetTitle("Tucson");
                                         </div>
                                         <div class="title-price">
                                             <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                            <div class="title-price-sale"><? profit_to_url($APPLICATION->GetCurPage()); ?></div><br>
+                                            <? profit_to_url($APPLICATION->GetCurPage()); ?>
                                             <a href="/start?model=tucson" class="title-price-notice">В кредит от 10 000 <span class="rouble">"</span> / месяц</a>
                                         </div>
                                         <a href="/all-offers/tucson" class="btn-flat">Все предложения</a>

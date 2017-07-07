@@ -104,7 +104,7 @@ $APPLICATION->SetTitle("Solaris");
                                     </div>
                                     <div class="title-price">
                                         <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                        <div class="title-price-sale"><? profit_to_url($APPLICATION->GetCurPage()); ?> &#8381;</div>
+                                        <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
                                         <a href="http://www.hyundai.ru/configurator/?car_id=147" class="title-price-notice">В кредит от 11 857 &#8381; / месяц</a>
                                     </div>
                                     <a href="#" class="btn-flat">Все предложения</a>
