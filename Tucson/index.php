@@ -9,8 +9,8 @@ $APPLICATION->SetTitle("Tucson");
         <script type="text/javascript" src="http://www.hyundai.ru/media/js_new/sc_wwpip_flat.js"></script>
         <link rel="stylesheet" type="text/css" href="/media/css_new/css_style_ru.css">
         <script type="text/javascript" src="http://www.hyundai.ru/media/js/sc_ru_google.js"></script>
-        <script type="text/javascript" src="http://www.hyundai.ru/media/js_new/sc_gt_default.js"></script>
-        <script type="text/javascript" src="http://www.hyundai.ru/media/js_new/spritespin/spritespin.js"></script>
+        <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/sc_gt_default.js"></script>
+        <script type="text/javascript" src="http://www.hyundai.ru/media/js/libs/spritespin.js"></script>
         <script>
             function cubeMotionInit() {}
             function cubeMotionJS() {}
@@ -50,8 +50,9 @@ $APPLICATION->SetTitle("Tucson");
         <link rel="stylesheet" type="text/css" href="/media/css_new/styles_RU_.css">
         <link rel="stylesheet" type="text/css" href="/media/css_new/pip_flat_TL.css">
         <link rel="stylesheet" type="text/css" href="/media/css_new/pip_flat_spritespin.css">
-        <script type="text/javascript" src="http://www.hyundai.ru/media/js_new/pip_flat_TL.js"></script>
-        <script type="text/javascript" src="http://www.hyundai.ru/media/js_new/pip_flat_spritespin.js"></script>
+        <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/pip_flat_TL.js"></script>
+        <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/pip_flat_spritespin.js"></script>
+
 
         <style>
             /* parallax bg */
