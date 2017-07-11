@@ -51,7 +51,7 @@ Redirect 301 /company/vacancies.php /
 
 
 # скрыть трейд ин, по просьбы Константина от 23.06.2017 по телефону
-Redirect 301 /hpromise/avtomobili-s-probegom/ /
+# Redirect 301 /hpromise/avtomobili-s-probegom/ /
 
 
 <IfModule mod_rewrite.c>
