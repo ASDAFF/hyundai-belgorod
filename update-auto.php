@@ -55,11 +55,12 @@ if(CModule::IncludeModule("iblock")):
         $PROP['MODEL'] = (string)$cont->MODEL;
         $PROP['CAPACITY'] = (string)$cont->CAPACITY;
         $PROP['POWER'] = (string)$cont->POWER;
+        $PROP['GRAR_TYPE'] = (string)$cont->GRAR_TYPE;
         $PROP['FUEL_TYPE'] = (string)$cont->FUEL_TYPE;
         $PROP['TRANSMISS'] = (string)$cont->TRANSMISS;
         $PROP['COLOR'] = (string)$cont->Color;
         $PROP['color_code'] = (string)$cont->ColorCode;
-        $PROP['Description'] = (string)$cont->Description;
+        $PROP['description'] = (string)$cont->Description;
         $PROP['NEW_PRICE'] = (string)$cont->NEW_PRICE;
         $PROP['CUZOV'] = (string)$cont->CUZOV;
         $PROP['MILEAGE'] = (string)$cont->run;
@@ -89,9 +90,10 @@ if(CModule::IncludeModule("iblock")):
         $PROP['PHONE'] = (string)$cont->number;
 
 
+        if(strlen((string)$cont->Description) < 1 OR (string)$cont->Description == "0"){$arPropsNo[(string)$cont->VIN][] = 'description (Описание)';}
         if(strlen((string)$cont->POWER) < 1 OR (string)$cont->POWER == "0"){$arPropsNo[(string)$cont->VIN][] = 'POWER (мощность двигателя)';}
         if(strlen((string)$cont->FUEL_TYPE) < 1 OR (string)$cont->FUEL_TYPE == "0"){$arPropsNo[(string)$cont->VIN][] = 'FUEL_TYPE (тип двигателя )';}
-       // if(strlen((string)$cont->GRAR_TYPE) < 1 OR (string)$cont->GRAR_TYPE == "0"){$arPropsNo[(string)$cont->VIN][] = 'GRAR_TYPE (Тип привода)'; $PROP['GRAR_TYPE'] = 'NaN';}
+        if(strlen((string)$cont->GRAR_TYPE) < 1 OR (string)$cont->GRAR_TYPE == "0"){$arPropsNo[(string)$cont->VIN][] = 'GRAR_TYPE (Тип привода)'; $PROP['GRAR_TYPE'] = 'NaN';}
         if(strlen((string)$cont->year) < 1 OR (string)$cont->year == "0"){$arPropsNo[(string)$cont->VIN][] = 'YEAR (Год выпуска)';}
        // if(strlen((string)$cont->TransmissionCount) < 1 OR (string)$cont->TransmissionCount == "0"){$arPropsNo[(string)$cont->VIN][] = 'TransmissionCount (кол-во передач)'; $PROP['TransmissionCount'] = 'NaN';}
         if(strlen((string)$cont->MARK) < 1 OR (string)$cont->MARK == "0"){$arPropsNo[(string)$cont->VIN][] = 'MARK (Наименование марки)';}
@@ -145,7 +147,7 @@ if(CModule::IncludeModule("iblock")):
     $message = $xmlAll.'<br>'.$addAdmin.'<br>'.$noCorrectAdmin.'<br>'.$noCorrectAdminPhoto.'<br>---<br>'.$string.' <br>*********************<br>Нет фото VIN: <br> '.implode("<br>", $not_vin);
 
 
-    //print $message;
+    print $message;
 
     $adminEmail = COption::GetOptionString('main', 'email_from');
 

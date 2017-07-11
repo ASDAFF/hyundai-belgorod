@@ -14,11 +14,12 @@ if(CModule::IncludeModule("iblock")):
         "PROPERTY_MODEL" => "%",
         "PROPERTY_CAPACITY" => "%",
         "PROPERTY_POWER" => "%",
+        "PROPERTY_GRAR_TYPE" => "%",
         "PROPERTY_FUEL_TYPE" => "%",
         "PROPERTY_TRANSMISS" => "%",
         "PROPERTY_COLOR" => "%",
         "PROPERTY_color_code" => "%",
-        "PROPERTY_Description" => "%",
+        "PROPERTY_description" => "%",
         "PROPERTY_NEW_PRICE" => "%",
         "PROPERTY_CUZOV" => "%",
         "PROPERTY_MILEAGE" => "%",
@@ -44,11 +45,12 @@ if(CModule::IncludeModule("iblock")):
             $xml .= '<MODEL>'.$arResult['MODEL']['VALUE'].'</MODEL>';
             $xml .= '<CAPACITY>'.$arResult['CAPACITY']['VALUE'].'</CAPACITY>';
             $xml .= '<POWER>'.$arResult['POWER']['VALUE'].'</POWER>';
+            $xml .= '<GRAR_TYPE>'.$arResult['GRAR_TYPE']['VALUE'].'</GRAR_TYPE>';
             $xml .= '<FUEL_TYPE>'.$arResult['FUEL_TYPE']['VALUE'].'</FUEL_TYPE>';
             $xml .= '<TRANSMISS>'.$arResult['TRANSMISS']['VALUE'].'</TRANSMISS>';
             $xml .= '<COLOR>'.$arResult['COLOR']['VALUE'].'</COLOR>';
             $xml .= '<color_code>'.$arResult['color_code']['VALUE'].'</color_code>';
-            $xml .= '<Description>'.$arResult['Description']['VALUE'].'</Description>';
+            $xml .= '<Description>'.$arResult['description']['VALUE'].'</Description>';
             $xml .= '<NEW_PRICE>'.$arResult['NEW_PRICE']['VALUE'].'</NEW_PRICE>';
             $xml .= '<CUZOV>'.$arResult['CUZOV']['VALUE'].'</CUZOV>';
             $xml .= '<run>'.$arResult['MILEAGE']['VALUE'].'</run>';
