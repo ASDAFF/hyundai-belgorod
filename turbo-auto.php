@@ -26,7 +26,7 @@ if(CModule::IncludeModule("iblock")):
         "PROPERTY_YEAR" => "%",
         "PROPERTY_SLIDER" => "%",
         "PROPERTY_STREET" => "%",
-        "PROPERTY_PHONE" => "%"
+        "PROPERTY_PHONE" => "%",
     );
     $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
     var_dump($res->result->num_rows);
