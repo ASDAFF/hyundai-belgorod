@@ -29,7 +29,7 @@ if(CModule::IncludeModule("iblock")):
         "PROPERTY_NEW_PRICE" => "%",
         "PROPERTY_CREDIT" => "%",
         "PROPERTY_DEFAULT_COMPLIT" => "%",
-        "PROPERTY_SLIDER" => "%"
+        "PROPERTY_SLIDER" => "%",
     );
     $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
     var_dump($res->result->num_rows);
