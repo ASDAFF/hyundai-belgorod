@@ -306,7 +306,8 @@ $APPLICATION->SetTitle("NewSolaris");
         </div>
 
         <!-- container -->
-        <div class="container">
+        <div class="container" style="margin-top: 80px">
+
             <!--
             <div class="fast-menu" role="navigation">
                 <a href="#" role="button" class="fast-menu-button fast-menu-button--parent"><svg xmlns="http://www.w3.org/2000/svg" class="svg fast-menu-car"><use xlink:href="#fast-menu-car"></use></svg><svg xmlns="http://www.w3.org/2000/svg" class="svg fast-menu-close"><use xlink:href="#fast-menu-close"></use></svg></a>
@@ -316,7 +317,129 @@ $APPLICATION->SetTitle("NewSolaris");
             </div>
             -->
             <main class="pip-main">
-                <div class="hero" role="banner">
+                <style>
+                    /* Cube */
+                    .cubebox-no-js {height: 430px;margin-bottom: 30px;max-width: 1920px;overflow: hidden;width: 100%;}
+                    .cubebox-no-js .cubelist {width: 100%;height: 435px;}
+                    .cubebox-no-js .cubelist .items {width: 100%;height: 435px;}
+                    .cubebox-no-js .cubelist .items .item {width: 100%;height: 435px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap {position: relative;width: 960px;height: 435px;margin: 0 auto;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main {position: absolute;left: 10px;top: 35px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .title {margin-bottom: 23px}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .title img {margin: 5px 0;max-height: 30px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .title span {display: block;font-family: 'HyundaiSansHead';font-weight: 100;color: #929292;font-size: 21px;line-height: 1}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .title-price {font-size: 32px; font-family: Arial, sans-serif; color:#454545; margin-bottom: 21px; line-height: 18px; }
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .title-price .title-price-sale {background: #c7141c;color: #fff;display: inline-block;font-size: 15px;font-weight: bold;margin: 11px 0 -4px;padding: 5px 10px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .title-price .title-price-notice {color: #0d75ba; font-size: 15px; padding: 12px 0 0 0;display: block;font-weight: bold;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .title-price .title-price-notice:hover { text-decoration: none; color:#88c3e8}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .btn-flat {border: 2px solid #0D75BA;text-decoration: none;font-size: 12px;line-height: 46px;font-family: Arial,sans-serif;color: #0D75BA;display: block;background: transparent url("/media/images/flat/gt.png") no-repeat scroll 164px 18px;width: 200px;box-sizing: border-box;text-align: center;text-indent: -8px;font-weight: bold;text-transform: uppercase;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .btn-flat:hover {color: #fff; background: #0d75ba url("/media/images/flat/gt-w.png") no-repeat scroll 164px 18px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .title-list {margin-top: 44px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .title-list ul:first-child {margin-bottom: 25px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .title-list li {background: url("/media/images/flat/info-grid-hl.png") no-repeat scroll;display: inline-block;font-size: 13px;padding-left: 50px;width: 170px;line-height: 17px; box-sizing: content-box; }
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .title-list  ul li {background-position: -13px -176px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .title-list  ul li:first-child {background-position: -13px -62px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .title-list  ul:first-child li {background-position: -13px -115px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .title-list  ul:first-child li:first-child {background-position: -13px -1px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .btns {display: inline-block;background: #418ce5;padding: 0 9px 0 0;margin-left: 1px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .btns a {display: inline-block;padding: 6px 39px 5px 11px;font-family: 'HyundaiSans';color: #fff;font-size: 13px;font-size: 1.3rem;background: url("/media/images/flat/bg_btn_white.png") no-repeat right 10px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .award {padding: 60px 0 0 1px; overflow: hidden;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .award img {float: left;height: 40px;margin: 0 8px 0 6px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .main .award span {float: left;width: 200px;padding: 0;font-size: 11px;font-size: 1.1rem;color: #888;line-height: 13px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap img.car {left:480px;top:20px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .view-360_toggler {background: transparent url("/media/images/flat/360-icon.png") no-repeat scroll -108px 8px;bottom: 95px;display: block;height: 55px;position: absolute;right: 230px;width: 75px;cursor: default;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .view-360_toggler:hover {background: transparent url("/media/images/flat/360-icon.png") no-repeat scroll -108px 8px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .view-360_toggler.alive {background: transparent url("/media/images/flat/360-icon.png") no-repeat scroll -108px 8px;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .view-360_wrap {position: absolute;right: -80px;bottom: 130px; cursor: ew-resize;}
+                    /* 360 colors */
+                    .cubebox-no-js .cubelist .items .item .item_wrap .view-360-color-selector {font-family: 'HyundaiSans';font-weight: 600;font-size: 11px;text-align: center;position: absolute;bottom: 23px;left: 430px;width: 520px;-moz-user-select: none;-webkit-user-select: none;-ms-user-select: none;-o-user-select: none;user-select: none;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .view-360-color-selector ul {display: inline-block;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .view-360-color-selector .view-360-color-selector__item {font-size:0;position: relative;color: #454545;float: left;padding: 40px 0px 0px;cursor: pointer;text-align: center;margin: 0px 3px 0px 0px;width: 45px;line-height: 1.5rem;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .view-360-color-selector .view-360-color-selector__item:not(.current):hover {color: #0d75ba;-webkit-transition: color 0.2s ease-in-out;-moz-transition: color 0.2s ease-in-out;-ms-transition: color 0.2s ease-in-out;transition: color 0.2s ease-in-out;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .view-360-color-selector .view-360-color-selector__item.current {cursor: default;color: #0d75ba;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .view-360-color-selector .view-360-color-selector__item::before {
+                        background: #FFF;
+                        color: #454545;
+                        content: attr(data-title);
+                        position: absolute;
+                        white-space: nowrap;
+                        z-index: -1;
+                        text-align: center;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        padding: 5px 15px;
+                        opacity: 0;
+                        border-radius: 1px;
+                        font-family: 'HyundaiSans';
+                        font-weight: 400;
+                        font-size: 15px;
+                        bottom: -24px;
+                        box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1), 0px 2px 0px rgba(0, 0, 0, 0.02);
+                        border-top: 1px solid rgba(0, 0, 0, 0.05);
+                        -webkit-transition: border 0.2s ease-in-out, bottom 0.2s ease-in-out;-moz-transition: border 0.2s ease-in-out;-ms-transition: border 0.2s ease-in-out;transition: opacity 0.2s ease-in-out,  bottom 0.2s ease-in-out;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .view-360-color-selector .view-360-color-selector__item:hover::before {
+                        z-index: 20;
+                        bottom: -12px;
+                        opacity: 1;
+                    }
+                    .cubebox-no-js .cubelist .items .item .item_wrap .view-360-color-selector .view-360-color-selector__item span {display: block;position: absolute;border-radius: 2px;height: 30px;width: 30px;top: 0px;left: 5px;border: 2px solid rgba(34, 34, 34,0);box-sizing: content-box;-webkit-transition: border 0.2s ease-in-out;-moz-transition: border 0.2s ease-in-out;-ms-transition: border 0.2s ease-in-out;transition: border 0.2s ease-in-out;}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .view-360-color-selector .view-360-color-selector__item.current span {border: 2px solid rgba(34, 34, 34,1);}
+                    .cubebox-no-js .cubelist .items .item .item_wrap .view-360-color-selector .view-360-color-selector__item.current span::after {content: "";display: block;position: absolute;left: 0px;top: 0px;width: 30px;height: 30px;border: 2px solid #F0F0F0;border-radius: 1px;-webkit-transition: border 0.2s ease-in-out;-moz-transition: border 0.2s ease-in-out;-ms-transition: border 0.2s ease-in-out;transition: border 0.2s ease-in-out;}
+                    /* .cubebox .cubelist .items .item .item_wrap .spritespin-instance.loading {background: transparent url("/media/images/common/loading.gif") no-repeat scroll 50.5% 51%;} */
+
+                </style>
+
+                <? $height = "height:510px";?>
+                <div class="cubebox-no-js" id="" style="<?=$height?>">
+                    <div class="cubelist" current="1" style="<?=$height?>">
+                        <div class="items" style="margin-left: 0%;<?=$height?>" >
+                            <div class="item" style="<?=$height?>">
+                                <div class="item_wrap">
+                                    <div class="main mkv">
+                                        <div class="title">
+                                            <img src="/media/images/flat/SL/elements/logo.png" title="Solaris">
+                                            <span>Всегда что-то большее</span>
+                                        </div>
+                                        <div class="title-price">
+                                            <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
+                                            <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
+                                            <a href="http://www.hyundai.ru/configurator/?car_id=147" class="title-price-notice">В кредит от 11 857 ₽ / месяц</a>
+                                        </div>
+                                        <a href="#" class="btn-flat">Все предложения</a>
+                                        <div class="title-list">
+                                            <ul>
+                                                <li>Экономный расход <br>
+                                                    <strong>4.8 Л. НА 100 КМ<span class="add-blue-color">*<span></span></span></strong></li>
+                                                <li>Макс. мощность<br>
+                                                    <strong>123 л.с. </strong></li>
+                                            </ul>
+                                            <ul>
+                                                <li>Увеличенные внешние и внутренние габариты</li>
+                                                <li>Система D-CVVT повышает экономичность опций</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <div class="view-360_wrap" style="width: 700px; height: 316px;">
+                                        <img class="progress-last-frame" alt="" src="/media/images/360/solaris/Garnet/31.png" style="width: 700px;">
+                                        <div class="progress-ring-wrap"><canvas id="progress-ring" class="progress-ring" width="200" height="200"></canvas></div>
+                                        <div class="spritespin spritespin-instance with-canvas" data-model="solaris" unselectable="on" style="user-select: none; width: 700px; height: 316px; position: relative; overflow: hidden;"><div class="spritespin-stage" style="width: 100%; height: 100%; top: 0px; left: 0px; bottom: 0px; right: 0px; position: absolute; overflow: hidden; display: block; background-image: none;"></div><canvas class="spritespin-canvas" width="700" height="316" style="width: 100%; height: 100%; top: 0px; left: 0px; bottom: 0px; right: 0px; position: absolute; overflow: hidden; display: block;"></canvas></div>
+                                        <!-- <img alt="" class="car" src="/media/images/flat/SL/elements/info_car_pic.png"> -->
+                                    </div>
+                                    <div class="view-360-color-selector">
+                                        <ul>
+                                            <li data-title="Garnet" data-color="Garnet" class="view-360-color-selector__item current"><span style="background-color: #C64040;"></span>Garnet</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="hero" role="banner" style="display: none">
                     <div class="hero-content">
                         <div class="hero-title">
                             <div class="logo">Свой для каждого.</div>
@@ -331,7 +454,7 @@ $APPLICATION->SetTitle("NewSolaris");
                     </div>
                 </div>
                 <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
-                <div class="pip-primary-nav-pos" data-anchor="nav-pos">
+                <div class="pip-primary-nav-pos" data-anchor="nav-pos" style="top: 470px;">
                     <nav class="pip-primary-nav" role="navigation">
                         <div class="pip-primary-nav-w">
                             <ul class="pip-primary-nav-list">
