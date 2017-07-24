@@ -428,7 +428,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                     </div>
                                     <div class="view-360-color-selector">
                                         <ul>
-                                            <li data-title="Garnet" data-color="Garnet" class="view-360-color-selector__item current"><span style="background-color: #C64040;"></span>Garnet</li>
+<!--                                            <li data-title="Garnet" data-color="Garnet" class="view-360-color-selector__item current"><span style="background-color: #C64040;"></span>Garnet</li>-->
                                         </ul>
                                     </div>
 
