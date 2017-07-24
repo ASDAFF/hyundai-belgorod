@@ -1,0 +1,123 @@
+Reading from STDIN ...
+
+# 500ms user time, 50ms system time, 31.20M rss, 106.47M vsz
+# Current date: Fri Jul 14 15:24:07 2017
+# Hostname: wolf3.beget.ru
+# Files: STDIN
+# Overall: 7 total, 2 unique, 0.19 QPS, 156.58x concurrency ______________
+# Time range: 2017-07-14T15:22:07 to 2017-07-14T15:22:44
+# Attribute          total     min     max     avg     95%  stddev  median
+# ============     ======= ======= ======= ======= ======= ======= =======
+# Exec time          5794s   100ms   4468s    828s   4377s   1523s   100ms
+# Lock time              0       0       0       0       0       0       0
+# Query size        11.63k     558   4.46k   1.66k   4.27k   1.69k  537.02
+# id                91.31M  12.91M  13.07M  13.04M  12.46M    0.31  12.46M
+
+# Profile
+# Rank Query ID           Response time    Calls R/Call    V/M   Item
+# ==== ================== ================ ===== ========= ===== =========
+#    1 0x418B90D098908A11 5793.0000 100.0%     2 2896.5000 17... SELECT BE.ACTIVE_FROM b_iblock b_lang b_iblock_element b_iblock_property b_iblock_element_property
+# MISC 0xMISC                 0.5045  0.0%     5    0.1009   0.0 <1 ITEMS>
+
+# Query 1: 0 QPS, 0x concurrency, ID 0x418B90D098908A11 at byte 0 ________
+# This item is included in the report because it matches --limit.
+# Scores: V/M = 1705.24
+# Time range: all events occurred at 2017-07-14T15:22:07
+# Attribute    pct   total     min     max     avg     95%  stddev  median
+# ============ === ======= ======= ======= ======= ======= ======= =======
+# Count         28       2
+# Exec time     99   5793s   1325s   4468s   2896s   4468s   2222s   2896s
+# Lock time      0       0       0       0       0       0       0       0
+# Query size    76   8.91k   4.46k   4.46k   4.46k   4.46k       0   4.46k
+# id            28  25.94M  12.91M  13.03M  12.97M  13.03M  82.57k  12.97M
+# String:
+# Databases    ringauto_sajt
+# Hosts        localhost
+# Users        ringauto_sajt
+# Query_time distribution
+#   1us
+#  10us
+# 100us
+#   1ms
+#  10ms
+# 100ms
+#    1s
+#  10s+  ################################################################
+# Tables
+#    SHOW TABLE STATUS FROM `BE` LIKE 'ACTIVE_FROM'\G
+#    SHOW CREATE TABLE `BE`.`ACTIVE_FROM`\G
+#    SHOW TABLE STATUS FROM `ringauto_sajt` LIKE 'b_iblock'\G
+#    SHOW CREATE TABLE `ringauto_sajt`.`b_iblock`\G
+#    SHOW TABLE STATUS FROM `ringauto_sajt` LIKE 'b_lang'\G
+#    SHOW CREATE TABLE `ringauto_sajt`.`b_lang`\G
+#    SHOW TABLE STATUS FROM `ringauto_sajt` LIKE 'b_iblock_element'\G
+#    SHOW CREATE TABLE `ringauto_sajt`.`b_iblock_element`\G
+#    SHOW TABLE STATUS FROM `ringauto_sajt` LIKE 'b_iblock_property'\G
+#    SHOW CREATE TABLE `ringauto_sajt`.`b_iblock_property`\G
+#    SHOW TABLE STATUS FROM `ringauto_sajt` LIKE 'b_iblock_element_property'\G
+#    SHOW CREATE TABLE `ringauto_sajt`.`b_iblock_element_property`\G
+# EXPLAIN /*!50100 PARTITIONS*/
+SELECT DISTINCT BE.ID as ID,BE.IBLOCK_ID as IBLOCK_ID,BE.NAME as NAME,BE.CODE as CODE,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_FROM)>0, DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y')) as DATE_ACTIVE_FROM
+			FROM 
+			b_iblock B
+			INNER JOIN b_lang L ON B.LID=L.LID
+			INNER JOIN b_iblock_element BE ON BE.IBLOCK_ID = B.ID
+			INNER JOIN b_iblock_property FP0 ON FP0.IBLOCK_ID = B.ID AND  FP0.CODE='MARK'
+			INNER JOIN b_iblock_property FP1 ON FP1.IBLOCK_ID = B.ID AND  FP1.CODE='MODEL'
+			INNER JOIN b_iblock_property FP2 ON FP2.IBLOCK_ID = B.ID AND  FP2.CODE='CAPACITY'
+			INNER JOIN b_iblock_property FP3 ON FP3.IBLOCK_ID = B.ID AND  FP3.CODE='POWER'
+			INNER JOIN b_iblock_property FP4 ON FP4.IBLOCK_ID = B.ID AND  FP4.CODE='GRAR_TYPE'
+			INNER JOIN b_iblock_property FP5 ON FP5.IBLOCK_ID = B.ID AND  FP5.CODE='FUEL_TYPE'
+			INNER JOIN b_iblock_property FP6 ON FP6.IBLOCK_ID = B.ID AND  FP6.CODE='TRANSMISS'
+			INNER JOIN b_iblock_property FP7 ON FP7.IBLOCK_ID = B.ID AND  FP7.CODE='COLOR'
+			INNER JOIN b_iblock_property FP8 ON FP8.IBLOCK_ID = B.ID AND  FP8.CODE='COLOR_CODE'
+			INNER JOIN b_iblock_property FP9 ON FP9.IBLOCK_ID = B.ID AND  FP9.CODE='DESCRIPTION'
+			INNER JOIN b_iblock_property FP10 ON FP10.IBLOCK_ID = B.ID AND  FP10.CODE='NEW_PRICE'
+			INNER JOIN b_iblock_property FP11 ON FP11.IBLOCK_ID = B.ID AND  FP11.CODE='CUZOV'
+			INNER JOIN b_iblock_property FP12 ON FP12.IBLOCK_ID = B.ID AND  FP12.CODE='MILEAGE'
+			INNER JOIN b_iblock_property FP13 ON FP13.IBLOCK_ID = B.ID AND  FP13.CODE='YEAR'
+			INNER JOIN b_iblock_property FP14 ON FP14.IBLOCK_ID = B.ID AND  FP14.CODE='SLIDER'
+			INNER JOIN b_iblock_property FP15 ON FP15.IBLOCK_ID = B.ID AND  FP15.CODE='STREET'
+			INNER JOIN b_iblock_property FP16 ON FP16.IBLOCK_ID = B.ID AND  FP16.CODE='PHONE'
+			INNER JOIN b_iblock_element_property FPV0 ON FPV0.IBLOCK_PROPERTY_ID = FP0.ID AND FPV0.IBLOCK_ELEMENT_ID = BE.ID
+			INNER JOIN b_iblock_element_property FPV1 ON FPV1.IBLOCK_PROPERTY_ID = FP1.ID AND FPV1.IBLOCK_ELEMENT_ID = BE.ID
+			INNER JOIN b_iblock_element_property FPV2 ON FPV2.IBLOCK_PROPERTY_ID = FP2.ID AND FPV2.IBLOCK_ELEMENT_ID = BE.ID
+			INNER JOIN b_iblock_element_property FPV3 ON FPV3.IBLOCK_PROPERTY_ID = FP3.ID AND FPV3.IBLOCK_ELEMENT_ID = BE.ID
+			INNER JOIN b_iblock_element_property FPV4 ON FPV4.IBLOCK_PROPERTY_ID = FP4.ID AND FPV4.IBLOCK_ELEMENT_ID = BE.ID
+			INNER JOIN b_iblock_element_property FPV5 ON FPV5.IBLOCK_PROPERTY_ID = FP5.ID AND FPV5.IBLOCK_ELEMENT_ID = BE.ID
+			INNER JOIN b_iblock_element_property FPV6 ON FPV6.IBLOCK_PROPERTY_ID = FP6.ID AND FPV6.IBLOCK_ELEMENT_ID = BE.ID
+			INNER JOIN b_iblock_element_property FPV7 ON FPV7.IBLOCK_PROPERTY_ID = FP7.ID AND FPV7.IBLOCK_ELEMENT_ID = BE.ID
+			INNER JOIN b_iblock_element_property FPV8 ON FPV8.IBLOCK_PROPERTY_ID = FP8.ID AND FPV8.IBLOCK_ELEMENT_ID = BE.ID
+			INNER JOIN b_iblock_element_property FPV9 ON FPV9.IBLOCK_PROPERTY_ID = FP9.ID AND FPV9.IBLOCK_ELEMENT_ID = BE.ID
+			INNER JOIN b_iblock_element_property FPV10 ON FPV10.IBLOCK_PROPERTY_ID = FP10.ID AND FPV10.IBLOCK_ELEMENT_ID = BE.ID
+			INNER JOIN b_iblock_element_property FPV11 ON FPV11.IBLOCK_PROPERTY_ID = FP11.ID AND FPV11.IBLOCK_ELEMENT_ID = BE.ID
+			INNER JOIN b_iblock_element_property FPV12 ON FPV12.IBLOCK_PROPERTY_ID = FP12.ID AND FPV12.IBLOCK_ELEMENT_ID = BE.ID
+			INNER JOIN b_iblock_element_property FPV13 ON FPV13.IBLOCK_PROPERTY_ID = FP13.ID AND FPV13.IBLOCK_ELEMENT_ID = BE.ID
+			INNER JOIN b_iblock_element_property FPV14 ON FPV14.IBLOCK_PROPERTY_ID = FP14.ID AND FPV14.IBLOCK_ELEMENT_ID = BE.ID
+			INNER JOIN b_iblock_element_property FPV15 ON FPV15.IBLOCK_PROPERTY_ID = FP15.ID AND FPV15.IBLOCK_ELEMENT_ID = BE.ID
+			INNER JOIN b_iblock_element_property FPV16 ON FPV16.IBLOCK_PROPERTY_ID = FP16.ID AND FPV16.IBLOCK_ELEMENT_ID = BE.ID
+
+		
+			WHERE 1=1 
+			AND (
+			
+				((((BE.IBLOCK_ID = '16'))))
+				AND ((((FPV0.VALUE LIKE '%'))))
+				AND ((((FPV1.VALUE LIKE '%'))))
+				AND ((((FPV2.VALUE LIKE '%'))))
+				AND ((((FPV3.VALUE LIKE '%'))))
+				AND ((((FPV4.VALUE LIKE '%'))))
+				AND ((((FPV5.VALUE LIKE '%'))))
+				AND ((((FPV6.VALUE LIKE '%'))))
+				AND ((((FPV7.VALUE LIKE '%'))))
+				AND ((((FPV8.VALUE LIKE '%'))))
+				AND ((((FPV9.VALUE LIKE '%'))))
+				AND ((((FPV10.VALUE LIKE '%'))))
+				AND ((((FPV11.VALUE LIKE '%'))))
+				AND ((((FPV12.VALUE LIKE '%'))))
+				AND ((((FPV13.VALUE LIKE '%'))))
+				AND ((((FPV14.VALUE LIKE '%'))))
+				AND ((((FPV15.VALUE LIKE '%'))))
+				AND ((((FPV16.VALUE LIKE '%'))))
+			)
+			AND (((BE.WF_STATUS_ID=1 AND BE.WF_PARENT_ELEMENT_ID IS NULL)))\G

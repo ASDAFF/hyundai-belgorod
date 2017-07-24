@@ -1,0 +1,2 @@
+13:39:08.747497 restart_syscall(<... resuming interrupted poll ...>) = ?
+13:39:55.337602 +++ killed by SIGKILL +++
