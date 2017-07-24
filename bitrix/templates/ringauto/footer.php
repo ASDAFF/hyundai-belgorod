@@ -46,9 +46,9 @@ if(!empty($ar['IMG_SLIDE'])){
                     <li class="f-row-item-list-item"><a class="f-row-item-list-item-link" href="/AboutUs">Хендэ Мотор СНГ</a></li>
                     <li class="f-row-item-list-item"><a class="f-row-item-list-item-link" href="/IntroductoryRemarks">Социальная ответственность</a></li>
                     <li class="f-row-item-list-item"><a class="f-row-item-list-item-link" href="/XMMP">Завод ХММР</a></li>
-                    <li class="f-row-item-list-item"><a class="f-row-item-list-item-link" href="http://motorsport.hyundai.com/en/main" target="_blank">World Rally Championship</a></li>
-                    <li class="f-row-item-list-item"><a class="f-row-item-list-item-link" href="http://motorstudio.hyundai.ru/" target="_blank">Hyundai MotorStudio</a></li>
-                    <li class="f-row-item-list-item"><a class="f-row-item-list-item-link" href="http://worldwide.hyundai.com/" target="_blank">Worldwide</a></li>
+                    <li class="f-row-item-list-item"><noindex><a class="f-row-item-list-item-link" href="http://motorsport.hyundai.com/en/main" target="_blank">World Rally Championship</a></noindex></li>
+                    <li class="f-row-item-list-item"><noindex><a class="f-row-item-list-item-link" href="http://motorstudio.hyundai.ru/" target="_blank">Hyundai MotorStudio</a></noindex></li>
+                    <li class="f-row-item-list-item"><noindex><a class="f-row-item-list-item-link" href="http://worldwide.hyundai.com/" target="_blank">Worldwide</a></noindex></li>
                 </ul>
             </div>
         </nav>
