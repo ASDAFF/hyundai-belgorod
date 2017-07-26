@@ -421,7 +421,7 @@ $APPLICATION->SetTitle("NewSolaris");
 
                                     </div>
                                     <div class="view-360_wrap" style="width: 700px; height: 316px;">
-                                        <img class="progress-last-frame" alt="" src="/media/images/360/solaris/Garnet/31.png" style="width: 700px;">
+                                        <img class="progress-last-frame" alt="" src="/media/images/360/solaris/Solaris_new_2017.png" style="width: 700px;">
                                         <div class="progress-ring-wrap"><canvas id="progress-ring" class="progress-ring" width="200" height="200"></canvas></div>
                                         <div class="spritespin spritespin-instance with-canvas" data-model="solaris" unselectable="on" style="user-select: none; width: 700px; height: 316px; position: relative; overflow: hidden;"><div class="spritespin-stage" style="width: 100%; height: 100%; top: 0px; left: 0px; bottom: 0px; right: 0px; position: absolute; overflow: hidden; display: block; background-image: none;"></div><canvas class="spritespin-canvas" width="700" height="316" style="width: 100%; height: 100%; top: 0px; left: 0px; bottom: 0px; right: 0px; position: absolute; overflow: hidden; display: block;"></canvas></div>
                                         <!-- <img alt="" class="car" src="/media/images/flat/SL/elements/info_car_pic.png"> -->

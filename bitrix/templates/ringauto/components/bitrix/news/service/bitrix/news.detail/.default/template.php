@@ -88,7 +88,7 @@ $this->setFrameMode(true);
 							</div>
 							<div class="bw-view-pluses">
 								<div class="bw-view-plus bw-view-plus--1 right">
-									<span class="bw-view-plus-descr">Капот от 9000 <span class="bw-view-plus-descr-price">9047 <span class="rouble">7</span></span></span>
+									<span class="bw-view-plus-descr">Капот от 8000 <span class="bw-view-plus-descr-price">9047 <span class="rouble">7</span></span></span>
 									<a href="#" class="bw-view-plus-icon"></a>
 								</div>
 								<div class="bw-view-plus bw-view-plus--2 right">
@@ -100,7 +100,7 @@ $this->setFrameMode(true);
 									<a href="#" class="bw-view-plus-icon"></a>
 								</div>
 								<div class="bw-view-plus bw-view-plus--4 right">
-									<span class="bw-view-plus-descr">Крышка бокового зеркала <span class="bw-view-plus-descr-price">1500 <span class="rouble">7</span></span></span>
+									<span class="bw-view-plus-descr">Крышка бокового зеркала от 2500 <span class="bw-view-plus-descr-price">1500 <span class="rouble">7</span></span></span>
 									<a href="#" class="bw-view-plus-icon"></a>
 								</div>
 								<div class="bw-view-plus bw-view-plus--5 right">
@@ -115,7 +115,7 @@ $this->setFrameMode(true);
 							</div>
 							<div class="bw-view-pluses">
 								<div class="bw-view-plus bw-view-plus--1 right">
-									<span class="bw-view-plus-descr">Крышка багажника от 8000<span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
+									<span class="bw-view-plus-descr">Крышка багажника от 6500<span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
 									<a href="#" class="bw-view-plus-icon"></a>
 								</div>
 								<div class="bw-view-plus bw-view-plus--2 right">
@@ -127,7 +127,7 @@ $this->setFrameMode(true);
 									<a href="#" class="bw-view-plus-icon"></a>
 								</div>
 								<div class="bw-view-plus bw-view-plus--4 right">
-									<span class="bw-view-plus-descr">Крыло заднее лев/прав от  8000 <span class="bw-view-plus-descr-price">3500 <span class="rouble">7</span></span></span>
+									<span class="bw-view-plus-descr">Крыло заднее лев/прав от 7000 <span class="bw-view-plus-descr-price">3500 <span class="rouble">7</span></span></span>
 									<a href="#" class="bw-view-plus-icon"></a>
 								</div>
 								<div class="bw-view-plus bw-view-plus--5 right">
