@@ -40,7 +40,7 @@ foreach($xml->ContractList->Contract as $key => $cont){
 
     ColorOrig
     SpecName(используеться только в названии)
-    Description
+
 
     ---
     Comment
@@ -67,6 +67,7 @@ foreach($xml->ContractList->Contract as $key => $cont){
     $PROP['CUZOV'] = (string)$cont->CUZOV;
     $PROP['STREET'] = (string)$cont->STREET;
     $PROP['number'] = (string)$cont->number;
+    $PROP['Description'] = (string)$cont->Description;
 
 
     foreach($cont->OPTION_EQU->value as $equ){
@@ -115,6 +116,7 @@ foreach($xml->ContractList->Contract as $key => $cont){
         //var_dump((string)$cont->ColorCode);
     }else{
 
+        if(strlen((string)$cont->Description) < 1 OR (string)$cont->Description == "0"){$arPropsNo[(string)$cont->VIN][] = 'Description';}
         if(strlen((string)$cont->POWER) < 1 OR (string)$cont->POWER == "0"){$arPropsNo[(string)$cont->VIN][] = 'POWER (мощность двигателя)';}
         if(strlen((string)$cont->FUEL_TYPE) < 1 OR (string)$cont->FUEL_TYPE == "0"){$arPropsNo[(string)$cont->VIN][] = 'FUEL_TYPE (тип двигателя )';}
         if(strlen((string)$cont->GRAR_TYPE) < 1 OR (string)$cont->GRAR_TYPE == "0"){$arPropsNo[(string)$cont->VIN][] = 'GRAR_TYPE (Тип привода)';}

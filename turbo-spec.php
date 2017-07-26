@@ -30,6 +30,7 @@ if(CModule::IncludeModule("iblock")):
         "PROPERTY_CREDIT" => "%",
         "PROPERTY_DEFAULT_COMPLIT" => "%",
         "PROPERTY_SLIDER" => "%",
+     //   "PROPERTY_Description" => "%",
     );
     $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
     var_dump($res->result->num_rows);
@@ -61,6 +62,7 @@ if(CModule::IncludeModule("iblock")):
         $xml .= '<CUZOV>'.$arResult['CUZOV']['VALUE'].'</CUZOV>';
         $xml .= '<STREET>'.$arResult['STREET']['VALUE'].'</STREET>';
         $xml .= '<number>'.$arResult['number']['VALUE'].'</number>';
+        $xml .= '<Description>'.$arResult['Description']['VALUE'].'</Description>';
 
 
         $xml .= '<OPTION_EQU>';
