@@ -9,11 +9,12 @@ if(CModule::IncludeModule("iblock")):
 
     $arSelect = Array("ID", "IBLOCK_ID","NAME","CODE", "DATE_ACTIVE_FROM","PROPERTY_*");
     $arFilter = Array("IBLOCK_ID" => 8);
-    $arError = array();
+
     $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
     var_dump($res->result->num_rows);
     while($ob = $res->GetNextElement())
     {
+        $arError = array();
         $arFields = $ob->GetFields();
         $arProps = $ob->GetProperties();
         $arResult = array_merge($arFields, $arProps);
