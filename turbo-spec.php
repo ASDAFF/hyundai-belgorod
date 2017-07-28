@@ -69,7 +69,7 @@ if(CModule::IncludeModule("iblock")):
             $xml .= '<CUZOV>'.$arResult['CUZOV']['VALUE'].'</CUZOV>';
             $xml .= '<STREET>'.$arResult['STREET']['VALUE'].'</STREET>';
             $xml .= '<number>'.$arResult['number']['VALUE'].'</number>';
-            $xml .= '<Description>'.$arResult['Description']['VALUE'].'</Description>';
+            $xml .= '<Description>'.$arResult['Description']['VALUE'].' '.$arResult['CREDIT']['VALUE'].'</Description>';
 
 
             $xml .= '<OPTION_EQU>';
