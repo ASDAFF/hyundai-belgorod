@@ -87,7 +87,7 @@ foreach($arResult["ITEMS"] as $arItem) {
 
 	</div>
 
-	<a class="mtr-btn mtr-btn-blue mtr-btn-wide" style="margin-top: 40px;width: 260px;" href="/<?=$arResult['CODE']?>/">все предложения</a>
+	<a class="mtr-btn mtr-btn-blue mtr-btn-wide" style="width: 260px;" href="/<?=$arResult['CODE']?>/">все предложения</a>
 
 	<script>
 		$(document).ready(function(){

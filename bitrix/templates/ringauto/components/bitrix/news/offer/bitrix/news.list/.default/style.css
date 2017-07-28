@@ -155,35 +155,34 @@ div.news-list img.preview_picture
 }
 
 .mCarListCards_Item_Info_Props span{
-	display: block;
 	font-family: 'HyundaiSansHead',sans-serif;
 	font-weight: 400;
+	line-height: 40px;
 }
 .mCarListCards_Item_Info_Props{
-	margin: 20px 30px;
+	margin: 10px 0px;
 	text-align: left;
 }
 
 .mCarListCards_Item_Info_Props span.t1{
-	font-size: 15px;
+	font-size: 20px;
 	text-transform: uppercase;
-	line-height: 0px;
 }
 .mCarListCards_Item_Info_Props span.t2{
 	font-size: 25px;
 	color: #44A2DA;
 	font-weight: 300;
-	margin-bottom: 10px;
+	margin-left: 10px;
 }
 .mCarListCards_Item_Info_Props span.t3{
-	font-size: 25px;
+	font-size: 20px;
 	text-transform: uppercase;
-	line-height: 4px;
 }
 .mCarListCards_Item_Info_Props span.t4{
 	font-size: 40px;
 	font-weight: bold;
 	color: #0F578A;
+	margin-left: 20px;
 	background: linear-gradient(45deg, #0D4B79 20%, #228cff 66%, #8AA9D6);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -193,7 +192,7 @@ div.news-list img.preview_picture
 	overflow: hidden;
 	width: 300px;
 	height: 230px;
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 }
 .item > a img{
 	max-height: 230px;
