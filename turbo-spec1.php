@@ -12,6 +12,7 @@ if(CModule::IncludeModule("iblock")):
 
     $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
     var_dump($res->result->num_rows);
+    $count = array();
     while($ob = $res->GetNextElement())
     {
         $arError = array();
@@ -40,11 +41,13 @@ if(CModule::IncludeModule("iblock")):
         if(empty($arResult['CREDIT']['VALUE'])){ $arError[] = 'Пустое поле:CREDIT';}
         if(empty($arResult['DEFAULT_COMPLIT']['VALUE'])){ $arError[] = 'Пустое поле:DEFAULT_COMPLIT';}
         if(empty($arResult['SLIDER']['VALUE'])){ $arError[] = 'Пустое поле:SLIDER';}
+        if(empty($arResult['Description']['VALUE'])){ $arError[] = 'Пустое поле:Description';}
 
         var_dump($arResult['vin']['VALUE']);
         var_dump($arError);
 
         if(empty($arError)):
+        $count[] = $arResult['vin']['VALUE'];
 
         $xml .= '<car>';
 
@@ -110,6 +113,7 @@ endif;
 $xml .= '</cars>';
 $xml .= '</data>';
 
+var_dump(count($count));
 
 //echo $xml;
 
