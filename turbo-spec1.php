@@ -8,41 +8,44 @@ $xml .= '<cars>';
 if(CModule::IncludeModule("iblock")):
 
     $arSelect = Array("ID", "IBLOCK_ID","NAME","CODE", "DATE_ACTIVE_FROM","PROPERTY_*");
-    $arFilter = Array(
-        "IBLOCK_ID" => 8,
-        "PROPERTY_POWER" => "%",
-        "PROPERTY_FUEL_TYPE" => "%",
-        "PROPERTY_GRAR_TYPE" => "%",
-        "PROPERTY_year" => "%",
-        "PROPERTY_TransmissionCount" => "%",
-        "PROPERTY_mark_id" => "%",
-        "PROPERTY_folder_id" => "%",
-        "PROPERTY_CAPACITY" => "%",
-        "PROPERTY_TRANSMISS" => "%",
-        "PROPERTY_color" => "%",
-        "PROPERTY_color_code" => "%",
-        "PROPERTY_SpecId" => "%",
-        "PROPERTY_CUZOV" => "%",
-        "PROPERTY_STREET" => "%",
-        "PROPERTY_number" => "%",
-        "PROPERTY_OLD_PRICE" => "%",
-        "PROPERTY_NEW_PRICE" => "%",
-        "PROPERTY_CREDIT" => "%",
-        "PROPERTY_DEFAULT_COMPLIT" => "%",
-        "PROPERTY_SLIDER" => "%",
-       // "PROPERTY_Description" => "%",
-    );
+    $arFilter = Array("IBLOCK_ID" => 8);
+    $arError = array();
     $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
     var_dump($res->result->num_rows);
     while($ob = $res->GetNextElement())
     {
-        $xml .= '<car>';
-
         $arFields = $ob->GetFields();
         $arProps = $ob->GetProperties();
         $arResult = array_merge($arFields, $arProps);
 
 
+        if(empty($arResult['POWER']['VALUE'])){ $arError[] = 'Пустое поле:POWER';}
+        if(empty($arResult['FUEL_TYPE']['VALUE'])){ $arError[] = 'Пустое поле:FUEL_TYPE';}
+        if(empty($arResult['GRAR_TYPE']['VALUE'])){ $arError[] = 'Пустое поле:GRAR_TYPE';}
+        if(empty($arResult['year']['VALUE'])){ $arError[] = 'Пустое поле:year';}
+        if(empty($arResult['TransmissionCount']['VALUE'])){ $arError[] = 'Пустое поле:TransmissionCount';}
+        if(empty($arResult['mark_id']['VALUE'])){ $arError[] = 'Пустое поле:mark_id';}
+        if(empty($arResult['folder_id']['VALUE'])){ $arError[] = 'Пустое поле:folder_id';}
+        if(empty($arResult['CAPACITY']['VALUE'])){ $arError[] = 'Пустое поле:CAPACITY';}
+        if(empty($arResult['TRANSMISS']['VALUE'])){ $arError[] = 'Пустое поле:TRANSMISS';}
+        if(empty($arResult['color']['VALUE'])){ $arError[] = 'Пустое поле:color';}
+        if(empty($arResult['color_code']['VALUE'])){ $arError[] = 'Пустое поле:color_code';}
+        if(empty($arResult['SpecId']['VALUE'])){ $arError[] = 'Пустое поле:SpecId';}
+        if(empty($arResult['CUZOV']['VALUE'])){ $arError[] = 'Пустое поле:CUZOV';}
+        if(empty($arResult['STREET']['VALUE'])){ $arError[] = 'Пустое поле:STREET';}
+        if(empty($arResult['number']['VALUE'])){ $arError[] = 'Пустое поле:number';}
+        if(empty($arResult['OLD_PRICE']['VALUE'])){ $arError[] = 'Пустое поле:OLD_PRICE';}
+        if(empty($arResult['NEW_PRICE']['VALUE'])){ $arError[] = 'Пустое поле:NEW_PRICE';}
+        if(empty($arResult['CREDIT']['VALUE'])){ $arError[] = 'Пустое поле:CREDIT';}
+        if(empty($arResult['DEFAULT_COMPLIT']['VALUE'])){ $arError[] = 'Пустое поле:DEFAULT_COMPLIT';}
+        if(empty($arResult['SLIDER']['VALUE'])){ $arError[] = 'Пустое поле:SLIDER';}
+
+        var_dump($arResult['vin']['VALUE']);
+        var_dump($arError);
+
+        if(empty($arError)):
+
+        $xml .= '<car>';
 
         $xml .= '<vin>'.$arResult['vin']['VALUE'].'</vin>';
         $xml .= '<POWER>'.$arResult['POWER']['VALUE'].'</POWER>';
@@ -96,6 +99,7 @@ if(CModule::IncludeModule("iblock")):
 
         $xml .= '</car>';
 
+        endif;
 
 
     }
