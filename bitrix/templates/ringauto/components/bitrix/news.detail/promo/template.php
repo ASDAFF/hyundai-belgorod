@@ -36,6 +36,11 @@ $this->setFrameMode(true);
 	<link href="css/main.css" rel="stylesheet">
 
 
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/jquery.maskedinput.js"></script>
+
 
 	<!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NZBL9QH');</script><!-- End Google Tag Manager -->
 	<?$APPLICATION->ShowHead()?>
@@ -128,9 +133,12 @@ $this->setFrameMode(true);
 
 </div>
 
+
 <hr>
+<? offer_filter_auto($_REQUEST['ELEMENT_CODE']); ?>
 
 <div class="container">
+
 
 	<div class="row">
 		<div class="col-md-7">
@@ -360,10 +368,7 @@ $this->setFrameMode(true);
 	<!-- Bootstrap core JavaScript
     ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery-ui.js"></script>
-	<script src="js/jquery.maskedinput.js"></script>
+
 	<script>
 		jQuery( function($) {
 			$( "#accordion" ).accordion({

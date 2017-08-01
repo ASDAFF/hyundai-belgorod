@@ -110,6 +110,7 @@ function resize($image, $w_o = false, $h_o = false) {
 function offer_filter_auto($url){
 
     $url = str_replace('/','',$url);
+
     if(CModule::IncludeModule("iblock")) {
         $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
         $arFilter = Array("IBLOCK_ID" => 7, "CODE" => $url);

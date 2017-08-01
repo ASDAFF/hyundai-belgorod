@@ -35,6 +35,12 @@ body {
   .popup-form-block {
     width: 321px!important;
   }
+  .slick-slider {
+    margin-bottom: 90px!important;
+  }
+  .h1-offer {
+    font-size: 24px;
+  }
 }
 .navbar {
   min-height: 40px;
