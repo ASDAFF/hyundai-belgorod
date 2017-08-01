@@ -205,3 +205,58 @@ function offer_filter_auto($url){
     }
 
 }
+
+
+AddEventHandler('iblock', 'OnIBlockPropertyBuildList', array('IdListDoc', 'GetUserTypeDescription')); //построение списка свойств инфоблока
+class IdListDoc
+{
+
+    function GetUserTypeDescription()
+    {
+        return array(
+            "PROPERTY_TYPE" => "S",
+            "USER_TYPE" => "custom_table",
+            "DESCRIPTION" => 'Таблицы',
+            "GetPropertyFieldHtml" => array("IdListDoc", "GetPropertyFieldHtml"),
+            "ConvertToDB" => array("IdListDoc", "ConvertToDB"),
+            "ConvertFromDB" => array("IdListDoc", "ConvertFromDB"),
+        );
+    }
+
+    function GetPropertyFieldHtml($arProperty, $value, $strHTMLControlName)
+    {
+        $value = $value["VALUE"];
+        $field = '';
+        for($r = 0;$r < $arProperty['ROW_COUNT'];$r++) {
+            $field .= '<div style="display: flex">';
+            for ($i = 0; $i < $arProperty['COL_COUNT']; $i++) {
+                $field .= '<input type="text" name="' . $strHTMLControlName["VALUE"] . '['.$r.']['.$i.']" value="' . $value[$r][$i] . '">';
+            }
+            $field .= '</div>';
+            $field .= '<hr>';
+        }
+        return $field;
+    }
+
+    function ConvertToDB($arProperty, $value)
+    {
+        $return = false;
+        if(is_array($value)&& array_key_exists("VALUE", $value))
+        {
+            $return = array("VALUE" => serialize($value["VALUE"]),);
+        }
+        return $return;
+    }
+
+    function ConvertFromDB($arProperty, $value)
+    {
+        $return = false;
+        if(!is_array($value["VALUE"]))
+        {
+            $return = array("VALUE" => unserialize($value["VALUE"]));
+        }
+        return $return;
+    }
+
+}
+

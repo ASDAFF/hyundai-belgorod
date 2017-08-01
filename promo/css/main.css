@@ -1,6 +1,6 @@
 body {
-  min-height: 2000px;
-  min-width: 1200px!important;
+
+
 }
 
 
@@ -20,6 +20,20 @@ body {
   .navbar-nav > li > a {
      padding-top: 10px;
      padding-bottom: 0px;
+  }
+
+
+
+}
+@media (max-width: 768px) {
+  a.test{
+    font-size: 20px!important;
+  }
+  .form-box{
+    width: 270px!important;
+  }
+  .popup-form-block {
+    width: 321px!important;
   }
 }
 .navbar {
@@ -118,6 +132,10 @@ body {
 }
 .car-img{
   margin-bottom: 30px;
+  width: 100%;
+}
+.table-owerflow{
+  overflow: auto;
 }
 .box-two-two-section p{
   color: #0071BD;
@@ -179,7 +197,7 @@ body {
 }
 .banner-blue{
   background-repeat: no-repeat;
-  height: 440px;
+  padding: 50px 0px;
 }
 .text-blue-box h1{
   color: #fff;
