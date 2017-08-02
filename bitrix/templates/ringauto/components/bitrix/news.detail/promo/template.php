@@ -100,12 +100,12 @@ $this->setFrameMode(true);
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="logo-brand" href="#"><img src="img/logo.png"></a>
+			<a class="logo-brand" href="/"><img src="img/logo.png"></a>
 		</div>
 		<div class="navbar-collapse collapse">
 
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="http://www.hyundai-ringauto.ru/offer/" target="_blank">Модельный ряд</a></li>
+				<li><a href="http://www.hyundai-ringauto.ru/offer/" target="_blank">Спецпредложения</a></li>
 				<!--
                 <li><a href="#">Покупка</a></li>
                 -->
@@ -377,7 +377,7 @@ $this->setFrameMode(true);
 			$("#header-tel").mask("8 (999) 999-9999");
 			$("#popup-tel").mask("8 (999) 999-9999");
 
-			$('#test').click(function(){
+			$('.test').click(function(){
 				$('.popup').css('display','block');
 				return false;
 			});
