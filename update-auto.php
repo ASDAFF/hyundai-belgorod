@@ -153,7 +153,7 @@ if(CModule::IncludeModule("iblock")):
 
 
 
-    mail($adminEmail, 'Недостающие данные в авто с пробегом '.$SERVER_NAME, $message,
+    mail($adminEmail, 'Недостающие данные в авто с пробегом Воронеж'.$SERVER_NAME, $message,
         "From: webmaster@$SERVER_NAME\r\n"
         ."Reply-To: webmaster@$SERVER_NAME\r\n"
         ."Content-type: text/html; charset=utf-8\r\n"
