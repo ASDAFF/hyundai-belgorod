@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>27.07.2017</Date>
-		<Time>21:34:19</Time>
+		<Date>03.08.2017</Date>
+		<Time>21:33:38</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -18,7 +18,7 @@
 			<TransmissionCount>0</TransmissionCount>
 			<Color>черный</Color>
 			<ColorCode>RB5</ColorCode>
-			<ColorOrig>черный</ColorOrig>
+			<ColorOrig>Черный</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Продается автомобиль Toyota RAV-4 2008 года выпуска с пробегом 134000 км. 
@@ -44,7 +44,7 @@
 Позвоните нам и узнайте все об автомобиле!</Description>
 			<OLD_PRICE>0</OLD_PRICE>
 			<NEW_PRICE>733 000</NEW_PRICE>
-			<CUZOV>Универсал</CUZOV>
+			<CUZOV>Внедорожник</CUZOV>
 			<Comment>Продается автомобиль Toyota RAV-4 2008 года выпуска с пробегом 134000 км. 
 
 
@@ -91,7 +91,7 @@
 			<TransmissionCount>6</TransmissionCount>
 			<Color>черный</Color>
 			<ColorCode>TB7</ColorCode>
-			<ColorOrig>черный</ColorOrig>
+			<ColorOrig>Черный</ColorOrig>
 			<SpecName>HGS4L661FGV064</SpecName>
 			<SpecId>ЦБ000760</SpecId>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -141,7 +141,7 @@
 			<TransmissionCount>7</TransmissionCount>
 			<Color>белый</Color>
 			<ColorCode>GT</ColorCode>
-			<ColorOrig>белый</ColorOrig>
+			<ColorOrig>Белый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -177,109 +177,19 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
-			<VIN>KMHSU81XDDU102193</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Santa Fe</MODEL>
+			<VIN>JMZER893800230228</VIN>
+			<MARK/>
+			<MODEL>Mazda CX-7</MODEL>
 			<IsNew>no</IsNew>
-			<CAPACITY>2,2</CAPACITY>
-			<POWER>197</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Дизель</FUEL_TYPE>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>черный</Color>
-			<ColorCode>NKA</ColorCode>
-			<ColorOrig>черный</ColorOrig>
-			<SpecName>DMW52FC5GGA621</SpecName>
-			<SpecId>ЦБ000454</SpecId>
-			<Description>Продается автомобиль Hyundai Santa Fe 2012 года выпуска с пробегом 89000 км. 
-
-Паспорт транспортного средства выдан в феврале 2013 года.
-Куплен автомобиль в салоне официального дилера Hyundai компании "Ринг Авто" в марте 2013 года.
-
-
-На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами. 
-Данный автомобиль прошел полный комплекс предпродажной подготовки. 
-
-При покупке автомобиля в нашем дилерском центре Вы получаете: 
-
-- Скидку при обмене на Ваш автомобиль (trade-in); 
-- Гарантии юридической чистоты автомобиля и сделки; 
-- Положительные эмоции. 
-
-СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ ПРИ ПОКУПКЕ ДАННОГО АВТОМОБИЛЯ В КРЕДИТ - ДОПОЛНИТЕЛЬНЫЙ ДИСКОНТ В РАЗМЕРЕ 75.000 рублей!
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами: 
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту; 
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!; 
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО). 
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету; 
-
-Позвоните нам и узнайте все об автомобиле!</Description>
-			<OLD_PRICE>1 635 000</OLD_PRICE>
-			<NEW_PRICE>1 301 000</NEW_PRICE>
-			<CUZOV>Универсал</CUZOV>
-			<Comment>Продается автомобиль Hyundai Santa Fe 2012 года выпуска с пробегом 89000 км. 
-
-Паспорт транспортного средства выдан в феврале 2013 года.
-Куплен автомобиль в салоне официального дилера Hyundai компании "Ринг Авто" в марте 2013 года.
-
-
-На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами. 
-Данный автомобиль прошел полный комплекс предпродажной подготовки. 
-
-При покупке автомобиля в нашем дилерском центре Вы получаете: 
-
-- Скидку при обмене на Ваш автомобиль (trade-in); 
-- Гарантии юридической чистоты автомобиля и сделки; 
-- Положительные эмоции. 
-
-СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ ПРИ ПОКУПКЕ ДАННОГО АВТОМОБИЛЯ В КРЕДИТ - ДОПОЛНИТЕЛЬНЫЙ ДИСКОНТ В РАЗМЕРЕ 75.000 рублей!
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами: 
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту; 
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!; 
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО). 
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету; 
-
-Позвоните нам и узнайте все об автомобиле!</Comment>
-			<TYPE_SALON>Кожа</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Полный</GRAR_TYPE>
-			<run>89 371</run>
-			<year>2 012</year>
-			<OPTION_SUMM>29 782,5</OPTION_SUMM>
-			<OPTION_EQU>
-				<value>СИГНАЛИЗАЦИЯ SCHER-KHАN 9</value>
-				<value>КОВРЫ САЛОНА HYUNDAI SANTA FE DM</value>
-				<value>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ, (SANTA FE)</value>
-				<value>Сигнализация с обратной связью и автозапуском</value>
-				<value>Турботаймер</value>
-				<value>Установка защиты картера</value>
-			</OPTION_EQU>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>334 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>NLHPM81CP9Z050718</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Matrix 1.6 GL MT</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>103</POWER>
+			<CAPACITY>2,261</CAPACITY>
+			<POWER>238</POWER>
 			<fuel_consumption>0</fuel_consumption>
 			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
+			<TRANSMISS>АКП</TRANSMISS>
 			<TransmissionCount>5</TransmissionCount>
-			<Color>бежевый</Color>
-			<ColorCode>9G</ColorCode>
-			<ColorOrig>бежевый</ColorOrig>
+			<Color>черный</Color>
+			<ColorCode>RB5</ColorCode>
+			<ColorOrig>Черный</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -299,18 +209,18 @@
 
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>275 000</NEW_PRICE>
-			<CUZOV>5-ти дверный хетчбек</CUZOV>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Внедорожник</CUZOV>
 			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
+			<TYPE_SALON>Кожа</TYPE_SALON>
 			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>108 000</run>
-			<year>2 008</year>
+			<GRAR_TYPE>Полный</GRAR_TYPE>
+			<run>102 000</run>
+			<year>2 011</year>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<CREDIT>-275 000</CREDIT>
+			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -327,7 +237,7 @@
 			<TransmissionCount>5</TransmissionCount>
 			<Color>синий</Color>
 			<ColorCode>U6</ColorCode>
-			<ColorOrig>синий</ColorOrig>
+			<ColorOrig>Синий</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -363,6 +273,54 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
+			<VIN>SJNFAAJ10U2788656</VIN>
+			<MARK>Nissan</MARK>
+			<MODEL>Qashqai</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>117</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>Вариатор</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>черный</Color>
+			<ColorCode>T5K</ColorCode>
+			<ColorOrig>Черный</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>725 000</NEW_PRICE>
+			<CUZOV>Универсал</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>65 000</run>
+			<year>2 013</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>-725 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
 			<VIN>WBAVF11050A013021</VIN>
 			<MARK>BMW</MARK>
 			<MODEL>325XI</MODEL>
@@ -375,7 +333,7 @@
 			<TransmissionCount>6</TransmissionCount>
 			<Color>синий</Color>
 			<ColorCode>N4B</ColorCode>
-			<ColorOrig>синий</ColorOrig>
+			<ColorOrig>Синий</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -423,7 +381,7 @@
 			<TransmissionCount>5</TransmissionCount>
 			<Color>полярное-серебро</Color>
 			<ColorCode>997722</ColorCode>
-			<ColorOrig>полярное-серебро</ColorOrig>
+			<ColorOrig>Серый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Продается автомобиль Kia Rio 2007 года выпуска с пробегом 130 000 км.
@@ -492,7 +450,7 @@
 			<TransmissionCount>6</TransmissionCount>
 			<Color>коричневый</Color>
 			<ColorCode>N8N</ColorCode>
-			<ColorOrig>коричневый</ColorOrig>
+			<ColorOrig>Коричневый</ColorOrig>
 			<SpecName>DMW5L661GGA711</SpecName>
 			<SpecId>ЦБ000460</SpecId>
 			<Description>Продается автомобиль Hyundai Santa Fe 2012 года выпуска с пробегом 145000 км. 
@@ -519,7 +477,7 @@
 Позвоните нам и узнайте все об автомобиле!</Description>
 			<OLD_PRICE>0</OLD_PRICE>
 			<NEW_PRICE>1 301 000</NEW_PRICE>
-			<CUZOV>Универсал</CUZOV>
+			<CUZOV>Внедорожник</CUZOV>
 			<Comment>Продается автомобиль Hyundai Santa Fe 2012 года выпуска с пробегом 145000 км. 
 
 На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами. 
@@ -571,7 +529,7 @@
 			<TransmissionCount>8</TransmissionCount>
 			<Color>черный</Color>
 			<ColorCode>YB6</ColorCode>
-			<ColorOrig>черный</ColorOrig>
+			<ColorOrig>Черный</ColorOrig>
 			<SpecName>ETS4J6A1JGS675</SpecName>
 			<SpecId>ЦБ000579</SpecId>
 			<Description>Продается автомобиль Hyundai Equus 2014 года выпуска с пробегом 15000 км. 
@@ -653,7 +611,7 @@
 			<TransmissionCount>6</TransmissionCount>
 			<Color>серебристый</Color>
 			<ColorCode>RAH</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
+			<ColorOrig>Серый</ColorOrig>
 			<SpecName>ITW52G61FDK326</SpecName>
 			<SpecId>ЦБ000753</SpecId>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -674,7 +632,7 @@
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету;</Description>
 			<OLD_PRICE>0</OLD_PRICE>
 			<NEW_PRICE>950 000</NEW_PRICE>
-			<CUZOV>Универсал</CUZOV>
+			<CUZOV>Внедорожник</CUZOV>
 			<Comment>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
 Данный автомобиль прошел полный комплекс предпродажной подготовки.
 
@@ -727,7 +685,7 @@
 			<TransmissionCount>5</TransmissionCount>
 			<Color>белый</Color>
 			<ColorCode>NW</ColorCode>
-			<ColorOrig>белый</ColorOrig>
+			<ColorOrig>Белый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Продается автомобиль Citroen C-Elysee 2013 года выпуска с пробегом 46000 км. 
@@ -800,7 +758,7 @@
 			<TransmissionCount>0</TransmissionCount>
 			<Color>серебристый</Color>
 			<ColorCode>NCA</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
+			<ColorOrig>Серый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Продается автомобиль SUZUKI SX-4 2012 года выпуска с пробегом 83 000 км.
@@ -859,6 +817,68 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
+			<VIN>KMHSU81XDFU501981</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Santa Fe</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>2,2</CAPACITY>
+			<POWER>197</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Дизель</FUEL_TYPE>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>PW6</ColorCode>
+			<ColorOrig>Белый</ColorOrig>
+			<SpecName>DMW52FC5GGG423</SpecName>
+			<SpecId>ЦБ000837</SpecId>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>1 515 000</NEW_PRICE>
+			<CUZOV>Универсал</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Кожа</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Полный</GRAR_TYPE>
+			<run>62 907</run>
+			<year>2 015</year>
+			<OPTION_SUMM>56 630</OPTION_SUMM>
+			<OPTION_EQU>
+				<value>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ, (SANTA FE)</value>
+				<value>КОВРЫ САЛОНА HYUNDAI SANTA FE DM</value>
+				<value>КОВРИК БАГАЖНОГО ОТСЕКА SANTA FE 2013 (5 МЕСТ)</value>
+				<value>КОМПЛЕКТ ДЕФЛЕКТОРОВ БОКОВЫХ СТЕКОЛ SANTA FE 2013 (4шт)</value>
+				<value>СИГНАЛИЗАЦИЯ SCHER-KHАN 13</value>
+				<value>НАБОР ДЛЯ УСТАНОВКИ  ДОПОБОРУДОВАНИЯ</value>
+				<value>Комплекс обхода иммобилайзера 2-го поколения (c CAN)</value>
+				<value>Тонирование без передних стекол</value>
+				<value>Установка защиты картера</value>
+				<value>Дефлекторы на все окна</value>
+				<value>Сигнализация с обратной связью и автозапуском</value>
+				<value>Модуль обхода штатного иммобилайзера</value>
+				<value>Подключение функции турботаймера</value>
+			</OPTION_EQU>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>-1 515 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
 			<VIN>XU32230008Z301994</VIN>
 			<MARK>FIAT</MARK>
 			<MODEL>Doblo</MODEL>
@@ -871,7 +891,7 @@
 			<TransmissionCount>5</TransmissionCount>
 			<Color>красный</Color>
 			<ColorCode>YR7</ColorCode>
-			<ColorOrig>красный</ColorOrig>
+			<ColorOrig>Красный</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Автомобиль в хорошем состоянии.
@@ -929,7 +949,7 @@
 			<TransmissionCount>6</TransmissionCount>
 			<Color>серебристый</Color>
 			<ColorCode>YK</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
+			<ColorOrig>Серый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Продается автомобиль Lada Granta 2016 года выпуска с пробегом 30500 км. 
@@ -1002,7 +1022,7 @@
 			<TransmissionCount>5</TransmissionCount>
 			<Color>Голубой Перламутровый</Color>
 			<ColorCode>Goluboy</ColorCode>
-			<ColorOrig>Голубой Перламутровый</ColorOrig>
+			<ColorOrig>Синий</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Продается автомобиль Volvo S40 2005 года выпуска с пробегом 240 000 км. 
@@ -1071,7 +1091,7 @@
 			<TransmissionCount>5</TransmissionCount>
 			<Color>белый</Color>
 			<ColorCode>WW7</ColorCode>
-			<ColorOrig>белый</ColorOrig>
+			<ColorOrig>Белый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Продается автомобиль JAC S5 2014 года выпуска с пробегом 84000 км. 
@@ -1132,54 +1152,6 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
-			<VIN>XTA219110GY22948</VIN>
-			<MARK>Lada</MARK>
-			<MODEL>219110</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>87</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>5</TransmissionCount>
-			<Color>золотисто-коричневый</Color>
-			<ColorCode>456</ColorCode>
-			<ColorOrig>золотисто-коричневый</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>390 000</NEW_PRICE>
-			<CUZOV>Лифтбек</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>16 000</run>
-			<year>2 016</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>-390 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
 			<VIN>KMHSU81XDDU048111</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Santa Fe</MODEL>
@@ -1192,7 +1164,7 @@
 			<TransmissionCount>6</TransmissionCount>
 			<Color>серебристый</Color>
 			<ColorCode>N3S</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
+			<ColorOrig>Серый</ColorOrig>
 			<SpecName>DMW52FC5GGA621</SpecName>
 			<SpecId>ЦБ000454</SpecId>
 			<Description>Автомобиль в отличном состоянии.
@@ -1251,54 +1223,6 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
-			<VIN>WVWZZZ1HZWW176784</VIN>
-			<MARK>Volkswagen</MARK>
-			<MODEL>Golf</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,8</CAPACITY>
-			<POWER>90</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>зеленый</Color>
-			<ColorCode>TK</ColorCode>
-			<ColorOrig>зеленый</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>120 000</NEW_PRICE>
-			<CUZOV>5-ти дверный хетчбек</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Велюр</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>223 000</run>
-			<year>1 998</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>-120 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
 			<VIN>Z8T4C5FS9AM017841</VIN>
 			<MARK>Peugeot</MARK>
 			<MODEL>308</MODEL>
@@ -1311,7 +1235,7 @@
 			<TransmissionCount>4</TransmissionCount>
 			<Color>красный</Color>
 			<ColorCode>N8</ColorCode>
-			<ColorOrig>красный</ColorOrig>
+			<ColorOrig>Красный</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Продается автомобиль Peugeot 308 2011 года выпуска с пробегом 100000 км. 
@@ -1372,54 +1296,6 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
-			<VIN>XTA217250F0266275</VIN>
-			<MARK>Lada</MARK>
-			<MODEL>217250</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>106</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>5</TransmissionCount>
-			<Color>светло-серебристый</Color>
-			<ColorCode>VS</ColorCode>
-			<ColorOrig>светло-серебристый</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>325 000</NEW_PRICE>
-			<CUZOV>5-ти дверный хетчбек</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>49 000</run>
-			<year>2 015</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>-325 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
 			<VIN>Z8NHSNGA555186201</VIN>
 			<MARK>Nissan</MARK>
 			<MODEL>Terrano</MODEL>
@@ -1432,7 +1308,7 @@
 			<TransmissionCount>5</TransmissionCount>
 			<Color>белый</Color>
 			<ColorCode>WW7</ColorCode>
-			<ColorOrig>белый</ColorOrig>
+			<ColorOrig>Белый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Продается автомобиль Nissan Terrano 2016 года выпуска с пробегом 55000 км. 
@@ -1505,7 +1381,7 @@
 			<TransmissionCount>7</TransmissionCount>
 			<Color>серый</Color>
 			<ColorCode>T8T</ColorCode>
-			<ColorOrig>серый</ColorOrig>
+			<ColorOrig>Серый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Продается автомобиль SKODA YETI 2012 года выпуска с пробегом 68000 км. 
@@ -1578,7 +1454,7 @@
 			<TransmissionCount>0</TransmissionCount>
 			<Color>черный</Color>
 			<ColorCode>1K</ColorCode>
-			<ColorOrig>черный</ColorOrig>
+			<ColorOrig>Черный</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -1626,7 +1502,7 @@
 			<TransmissionCount>6</TransmissionCount>
 			<Color>белый</Color>
 			<ColorCode>WW7</ColorCode>
-			<ColorOrig>белый</ColorOrig>
+			<ColorOrig>Белый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Продается автомобиль Opel Mokka 2013 года выпуска с пробегом 99 000 км. 
@@ -1683,54 +1559,6 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
-			<VIN>XTA111960C0220322</VIN>
-			<MARK>Lada</MARK>
-			<MODEL>111960</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>98</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>серебристый</Color>
-			<ColorCode>YK</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>240 000</NEW_PRICE>
-			<CUZOV>5-ти дверный хетчбек</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>155 000</run>
-			<year>2 012</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>-240 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
 			<VIN>X9FDXXEEBDBE77307</VIN>
 			<MARK>Ford</MARK>
 			<MODEL>Мондео</MODEL>
@@ -1743,7 +1571,7 @@
 			<TransmissionCount>0</TransmissionCount>
 			<Color>черный</Color>
 			<ColorCode>MBL</ColorCode>
-			<ColorOrig>черный</ColorOrig>
+			<ColorOrig>Черный</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Продается автомобиль Ford Mondeo 2011 года выпуска с пробегом 102 000 км.
@@ -1812,7 +1640,7 @@
 			<TransmissionCount>5</TransmissionCount>
 			<Color>серо-синий</Color>
 			<ColorCode>В1</ColorCode>
-			<ColorOrig>серо-синий</ColorOrig>
+			<ColorOrig>Синий</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -1832,7 +1660,7 @@
 
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<NEW_PRICE>490 000</NEW_PRICE>
 			<CUZOV>5-ти дверный хетчбек</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Ткань</TYPE_SALON>
@@ -1843,24 +1671,24 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<CREDIT>0</CREDIT>
+			<CREDIT>-490 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
-			<VIN>XWB3L32EDCA249152</VIN>
-			<MARK>Daewoo</MARK>
-			<MODEL>Nexia</MODEL>
+			<VIN>WAUZZZ4BX2N089706</VIN>
+			<MARK>Audi</MARK>
+			<MODEL>А6</MODEL>
 			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>82</POWER>
+			<CAPACITY>23</CAPACITY>
+			<POWER>170</POWER>
 			<fuel_consumption>0</fuel_consumption>
 			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>5</TransmissionCount>
-			<Color>спелая вишня</Color>
-			<ColorCode>12</ColorCode>
-			<ColorOrig>спелая вишня</ColorOrig>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>серый</Color>
+			<ColorCode>T8T</ColorCode>
+			<ColorOrig>Серый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -1880,18 +1708,18 @@
 
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>190 000</NEW_PRICE>
+			<NEW_PRICE>230 000</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>120 000</run>
-			<year>2 012</year>
+			<GRAR_TYPE>Полный</GRAR_TYPE>
+			<run>254 000</run>
+			<year>2 002</year>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<CREDIT>-190 000</CREDIT>
+			<CREDIT>-230 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1908,7 +1736,7 @@
 			<TransmissionCount>4</TransmissionCount>
 			<Color>белый</Color>
 			<ColorCode>WW7</ColorCode>
-			<ColorOrig>белый</ColorOrig>
+			<ColorOrig>Белый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -1956,7 +1784,7 @@
 			<TransmissionCount>6</TransmissionCount>
 			<Color>черный</Color>
 			<ColorCode>MJB</ColorCode>
-			<ColorOrig>черный</ColorOrig>
+			<ColorOrig>Черный</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Автомобиль в отличном состоянии.
@@ -2027,7 +1855,7 @@
 			<TransmissionCount>0</TransmissionCount>
 			<Color>черный</Color>
 			<ColorCode>T5K</ColorCode>
-			<ColorOrig>черный</ColorOrig>
+			<ColorOrig>Черный</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Продается автомобиль Subaru Forester 2009 года выпуска с пробегом 179000 км. 
@@ -2100,7 +1928,7 @@
 			<TransmissionCount>5</TransmissionCount>
 			<Color>черный</Color>
 			<ColorCode>FR</ColorCode>
-			<ColorOrig>черный</ColorOrig>
+			<ColorOrig>Черный</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -2148,7 +1976,7 @@
 			<TransmissionCount>5</TransmissionCount>
 			<Color>темно-красный</Color>
 			<ColorCode>S3W</ColorCode>
-			<ColorOrig>темно-красный</ColorOrig>
+			<ColorOrig>Красный</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -2196,7 +2024,7 @@
 			<TransmissionCount>6</TransmissionCount>
 			<Color>черный</Color>
 			<ColorCode>AF</ColorCode>
-			<ColorOrig>черный</ColorOrig>
+			<ColorOrig>Черный</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -2244,7 +2072,7 @@
 			<TransmissionCount>6</TransmissionCount>
 			<Color>черный</Color>
 			<ColorCode>NKA</ColorCode>
-			<ColorOrig>черный</ColorOrig>
+			<ColorOrig>Черный</ColorOrig>
 			<SpecName>DMW52FC5GGF254</SpecName>
 			<SpecId>ЦБ000781</SpecId>
 			<Description>Продается автомобиль Hyundai Santa Fe 2014 года выпуска с пробегом 100000 км. 
@@ -2321,6 +2149,51 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
+			<VIN>LGWEE2A40DE659281</VIN>
+			<MARK>Great Wall</MARK>
+			<MODEL>Hover</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>14</CAPACITY>
+			<POWER>98</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>черный</Color>
+			<ColorCode>EB</ColorCode>
+			<ColorOrig>Черный</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>Автомобиль в хорошем состоянии. Покупался и обслуживался у дилера на период гарантии. Куплена не в кредит. Непрокуренный салон. Не участвовала в ДТП. Возможен ОБМЕН на Ваш автомобиль по системе TRADE-IN (в том числе принимаем "кредитные" автомобили). На все автомобили автосалон предоставляет гарантию юридической чистоты. Мы предоставляем кредит за ОДИН ЧАС всего по 2-м документам! Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 30% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки прямо в нашем автосалоне!
+
+- УСЛУГА TRADE-IN
+- примем Ваш автомобиль в зачет стоимости любого подержанного
+- продажа Вашего автомобиля по рыночной цене с нашей площадки
+- кредит на любой подержанный автомобиль на выгодных условиях
+- страхование автомобиля на месте ОСАГО и КАСКО</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>445 000</NEW_PRICE>
+			<CUZOV>Внедорожник</CUZOV>
+			<Comment>Автомобиль в хорошем состоянии. Покупался и обслуживался у дилера на период гарантии. Куплена не в кредит. Непрокуренный салон. Не участвовала в ДТП. Возможен ОБМЕН на Ваш автомобиль по системе TRADE-IN (в том числе принимаем "кредитные" автомобили). На все автомобили автосалон предоставляет гарантию юридической чистоты. Мы предоставляем кредит за ОДИН ЧАС всего по 2-м документам! Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 30% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки прямо в нашем автосалоне!
+
+- УСЛУГА TRADE-IN
+- примем Ваш автомобиль в зачет стоимости любого подержанного
+- продажа Вашего автомобиля по рыночной цене с нашей площадки
+- кредит на любой подержанный автомобиль на выгодных условиях
+- страхование автомобиля на месте ОСАГО и КАСКО</Comment>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>30 000</run>
+			<year>2 013</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>-445 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
 			<VIN>SJNFBAJ10U1155947</VIN>
 			<MARK>Nissan</MARK>
 			<MODEL>Qashqai</MODEL>
@@ -2333,7 +2206,7 @@
 			<TransmissionCount>6</TransmissionCount>
 			<Color>белый</Color>
 			<ColorCode>WAW</ColorCode>
-			<ColorOrig>белый</ColorOrig>
+			<ColorOrig>Белый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Автомобиль в отличном состоянии.
@@ -2404,7 +2277,7 @@
 			<TransmissionCount>4</TransmissionCount>
 			<Color>белый</Color>
 			<ColorCode>PGU</ColorCode>
-			<ColorOrig>белый</ColorOrig>
+			<ColorOrig>Белый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Продается автомобиль KIA RIO 2014 года выпуска с пробегом 75 000 км. 
@@ -2477,7 +2350,7 @@
 			<TransmissionCount>0</TransmissionCount>
 			<Color>серебристый</Color>
 			<ColorCode>M8S</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
+			<ColorOrig>Серый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -2525,7 +2398,7 @@
 			<TransmissionCount>0</TransmissionCount>
 			<Color>темно-серый</Color>
 			<ColorCode>2M</ColorCode>
-			<ColorOrig>темно-серый</ColorOrig>
+			<ColorOrig>Серый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Автомобиль в отличном состоянии. 
@@ -2596,7 +2469,7 @@
 			<TransmissionCount>4</TransmissionCount>
 			<Color>серебристый</Color>
 			<ColorCode>X2</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
+			<ColorOrig>Серый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -2644,7 +2517,7 @@
 			<TransmissionCount>6</TransmissionCount>
 			<Color>Белый Перламутр</Color>
 			<ColorCode>Белый Перламутр</ColorCode>
-			<ColorOrig>Белый Перламутр</ColorOrig>
+			<ColorOrig>Белый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -2692,7 +2565,7 @@
 			<TransmissionCount>5</TransmissionCount>
 			<Color>серебристый</Color>
 			<ColorCode>N5S</ColorCode>
-			<ColorOrig>серебристый</ColorOrig>
+			<ColorOrig>Серый</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>Продается автомобиль Ford Focus 2012 года выпуска с пробегом 110000 км. 
@@ -2753,57 +2626,6 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
-			<VIN>Z94CT41DADR273392</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>123</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>5</TransmissionCount>
-			<Color>черно-серый</Color>
-			<ColorCode>SAE</ColorCode>
-			<ColorOrig>черно-серый</ColorOrig>
-			<SpecName>new Optima 1.6 MT Audio расш пакет</SpecName>
-			<SpecId>ЦБ000293</SpecId>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>543 400</OLD_PRICE>
-			<NEW_PRICE>425 000</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>90 283</run>
-			<year>2 013</year>
-			<OPTION_SUMM>5 050</OPTION_SUMM>
-			<OPTION_EQU>
-				<value>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ (СТАЛЬНАЯ) SOLARIS RIVA</value>
-				<value>Установка защиты картера</value>
-			</OPTION_EQU>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>118 400</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
 			<VIN>W0L0SDL6884062912</VIN>
 			<MARK>Opel</MARK>
 			<MODEL>Corsa</MODEL>
@@ -2816,7 +2638,7 @@
 			<TransmissionCount>6</TransmissionCount>
 			<Color>красный</Color>
 			<ColorCode>TWR</ColorCode>
-			<ColorOrig>красный</ColorOrig>
+			<ColorOrig>Красный</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>При покупке автомобиля в нашем дилерском центре Вы получаете: 
