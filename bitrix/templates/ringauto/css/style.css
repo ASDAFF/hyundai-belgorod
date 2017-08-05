@@ -4192,3 +4192,9 @@ a.zingaya_button1370324828422 {
 a[href="javascript:void(0)"].title-price-notice:hover{
     color: #0d75ba!important;
 }
+
+@supports (-ms-ime-align: auto) {
+    .user-bar-nav {
+        margin: -45px 0px;
+    }
+}
