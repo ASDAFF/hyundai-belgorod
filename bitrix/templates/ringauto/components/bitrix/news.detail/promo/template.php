@@ -119,7 +119,7 @@ $this->setFrameMode(true);
 <div class="container-fluid">
 
 	<div class="row">
-		<div class="banner-blue" style="background: url('img/blue.jpg')">
+		<div class="banner-blue" style="background: url(<?=CFile::GetPath($arResult['PROPERTIES']['MAIN_IMG']['VALUE'])?>)">
 			<div class="container">
 				<div class="text-blue-box">
 					<? foreach($arResult['PROPERTIES']['H_ONE']['VALUE'] as $h1):?>
@@ -145,7 +145,7 @@ $this->setFrameMode(true);
 			<div class="box-two-one-section">
 				<img src="<?=CFile::GetPath($arResult['PROPERTIES']['IMG_MARK']['VALUE']);?>">
 				<h3 style="color: rgb(160,160,160);"><?=$arResult['PROPERTIES']['SLOGAN']['VALUE']?></h3>
-				<img class="car-img" src="img/car.png">
+				<img class="car-img" src="<?=CFile::GetPath($arResult['PROPERTIES']['IMG_CAR']['VALUE']);?>">
 				<img src="img/color.png">
 			</div>
 		</div>
@@ -192,23 +192,24 @@ $this->setFrameMode(true);
 
 
 <hr>
+<div class="img-car" style="background: url(<?=CFile::GetPath($arResult['PROPERTIES']['IMG_CAR_BACK']['VALUE'])?>)">
+	<div class="container">
 
-<div class="container img-car" style="background: url('img/pol.png')">
+		<div class="row">
+			<div class="col-md-7">
+				<h1>Стандартная комплектация</h1>
+				<ul>
+					<? foreach($arResult['PROPERTIES']['DEFAULT_COMPLIT']['VALUE'] as $default):?>
+					<li><span><?=$default?></span></li>
+					<? endforeach; ?>
+				</ul>
+			</div>
+			<div class="col-md-5"></div>
 
-	<div class="row">
-		<div class="col-md-7">
-			<h1>Стандартная комплектация</h1>
-			<ul>
-				<? foreach($arResult['PROPERTIES']['DEFAULT_COMPLIT']['VALUE'] as $default):?>
-				<li><span><?=$default?></span></li>
-				<? endforeach; ?>
-			</ul>
 		</div>
-		<div class="col-md-5"></div>
+
 
 	</div>
-
-
 </div>
 
 <!-- /container -->
@@ -218,7 +219,7 @@ $this->setFrameMode(true);
 <div class="container-fluid">
 
 	<div class="row">
-		<div class="banner-blue" style="background: url('img/blue.jpg')">
+		<div class="banner-blue" style="background: url(<?=CFile::GetPath($arResult['PROPERTIES']['MAIN_IMG']['VALUE'])?>)">
 			<div class="container">
 				<div class="text-blue-box">
 					<? foreach($arResult['PROPERTIES']['H_ONE']['VALUE'] as $h1):?>
@@ -241,7 +242,7 @@ $this->setFrameMode(true);
 		<? foreach($arResult['PROPERTIES']['MAIN_PLUS']['VALUE'] as $key => $img):?>
 		<div class="col-md-4 text-center">
 			<p><?=$arResult['PROPERTIES']['MAIN_PLUS']['DESCRIPTION'][$key]?></p>
-			<img src="<?=CFile::GetPath($img);?>">
+			<img class="option-img" src="<?=CFile::GetPath($img);?>">
 		</div>
 		<? endforeach; ?>
 
@@ -251,8 +252,7 @@ $this->setFrameMode(true);
 </div> <!-- /container -->
 
 <hr>
-
-<div class="container-fluid car-back">
+<div class="container-fluid car-back" style="background: url(<?=CFile::GetPath($arResult['PROPERTIES']['IMG_CAR_FORNT']['VALUE'])?>);background-repeat: no-repeat;">
 
 	<div class="row">
 
@@ -260,13 +260,13 @@ $this->setFrameMode(true);
 
 			<div class="table-owerflow">
 				<table style="width: 100%;font-size: 22px">
+					<? foreach($arResult['PROPERTIES']['TABLE_MOD']['VALUE'] as $key => $val): ?>
 					<tr>
-						<td>Модификации</td>
-						<td>1,6л - 6MT 2WD</td>
-						<td>1,6л - 6AT 2WD</td>
-						<td>2,0л - 6AT 2WD</td>
-						<td>2,0л - 6AT 4WD</td>
+						<? for($i = 0;$i < count($val);$i++): ?>
+							<td><?=$val[$i]?></td>
+						<? endfor; ?>
 					</tr>
+					<? endforeach; ?>
 				</table>
 			</div>
 

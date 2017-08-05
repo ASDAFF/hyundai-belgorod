@@ -190,7 +190,8 @@ body {
 
 .img-car{
   background-repeat: no-repeat!important;
-  background-position: 605px!important;
+  background-position: right 0px center!important;
+  min-height: 380px;
 }
 
 .container > .row > .col-md-3{
@@ -204,6 +205,7 @@ body {
 .banner-blue{
   background-repeat: no-repeat;
   padding: 50px 0px;
+  min-height: 465px;
 }
 .text-blue-box h1{
   color: #fff;
@@ -211,8 +213,11 @@ body {
   margin-top: 10px;
 }
 
+.option-img{
+  max-height: 195px;
+}
+
 .text-blue-box{
-  margin-top: 90px;
   margin-bottom: 50px;
 }
 .banner-blue a{
@@ -225,7 +230,8 @@ body {
 .col-md-4 p{
   color: #A0A0A0;
   font-size: 22px;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
+  min-height: 100px;
 }
 
 .ui-state-active > .pluse{
