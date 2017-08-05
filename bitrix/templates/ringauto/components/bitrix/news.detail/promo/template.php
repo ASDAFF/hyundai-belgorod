@@ -263,7 +263,9 @@ $this->setFrameMode(true);
 					<? foreach($arResult['PROPERTIES']['TABLE_MOD']['VALUE'] as $key => $val): ?>
 					<tr>
 						<? for($i = 0;$i < count($val);$i++): ?>
+							<? if($val[$i]): ?>
 							<td><?=$val[$i]?></td>
+							<? endif; ?>
 						<? endfor; ?>
 					</tr>
 					<? endforeach; ?>
@@ -277,7 +279,9 @@ $this->setFrameMode(true);
 						<? foreach($arResult['PROPERTIES']['TABLE_ENGINE']['VALUE'] as $key => $val): ?>
 							<tr>
 								<? for($i = 0;$i < count($val);$i++): ?>
+									<? if($val[$i]): ?>
 									<td><?=$val[$i]?></td>
+									<? endif; ?>
 								<? endfor; ?>
 							</tr>
 						<? endforeach; ?>
@@ -289,7 +293,9 @@ $this->setFrameMode(true);
 						<? foreach($arResult['PROPERTIES']['TABLE_DINAMIC']['VALUE'] as $key => $val): ?>
 							<tr>
 								<? for($i = 0;$i < count($val);$i++): ?>
+									<? if($val[$i]): ?>
 									<td><?=$val[$i]?></td>
+									<? endif; ?>
 								<? endfor; ?>
 							</tr>
 						<? endforeach; ?>
@@ -301,7 +307,9 @@ $this->setFrameMode(true);
 						<? foreach($arResult['PROPERTIES']['TABLE_GAS']['VALUE'] as $key => $val): ?>
 							<tr>
 								<? for($i = 0;$i < count($val);$i++): ?>
+									<? if($val[$i]): ?>
 									<td><?=$val[$i]?></td>
+									<? endif; ?>
 								<? endfor; ?>
 							</tr>
 						<? endforeach; ?>
@@ -313,7 +321,9 @@ $this->setFrameMode(true);
 					<? foreach($arResult['PROPERTIES']['TABLE_LINE']['VALUE'] as $key => $val):?>
 						<tr>
 							<? for($i = 0;$i < count($val);$i++): ?>
+								<? if($val[$i]): ?>
 								<td><?=$val[$i]?></td>
+								<? endif; ?>
 							<? endfor; ?>
 						</tr>
 					<? endforeach; ?>
