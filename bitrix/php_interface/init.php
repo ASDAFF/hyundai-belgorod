@@ -244,7 +244,7 @@ class IdListDoc
         $return = false;
         if(is_array($value)&& array_key_exists("VALUE", $value))
         {
-            $return = array("VALUE" => serialize($value["VALUE"]),);
+            $return = array("VALUE" => serialize(htmlspecialchars($value["VALUE"])),);
         }
         return $return;
     }
