@@ -264,7 +264,7 @@ $this->setFrameMode(true);
 					<tr>
 						<? for($i = 0;$i < count($val);$i++): ?>
 							<? if($val[$i]): ?>
-							<td><?=$val[$i]?></td>
+							<td><?=htmlspecialchars_decode($val[$i])?></td>
 							<? endif; ?>
 						<? endfor; ?>
 					</tr>
@@ -280,7 +280,7 @@ $this->setFrameMode(true);
 							<tr>
 								<? for($i = 0;$i < count($val);$i++): ?>
 									<? if($val[$i]): ?>
-									<td><?=$val[$i]?></td>
+									<td><?=htmlspecialchars_decode($val[$i])?></td>
 									<? endif; ?>
 								<? endfor; ?>
 							</tr>
@@ -294,7 +294,7 @@ $this->setFrameMode(true);
 							<tr>
 								<? for($i = 0;$i < count($val);$i++): ?>
 									<? if($val[$i]): ?>
-									<td><?=$val[$i]?></td>
+									<td><?=htmlspecialchars_decode($val[$i])?></td>
 									<? endif; ?>
 								<? endfor; ?>
 							</tr>
@@ -308,7 +308,7 @@ $this->setFrameMode(true);
 							<tr>
 								<? for($i = 0;$i < count($val);$i++): ?>
 									<? if($val[$i]): ?>
-									<td><?=$val[$i]?></td>
+									<td><?=htmlspecialchars_decode($val[$i])?></td>
 									<? endif; ?>
 								<? endfor; ?>
 							</tr>
@@ -322,7 +322,7 @@ $this->setFrameMode(true);
 						<tr>
 							<? for($i = 0;$i < count($val);$i++): ?>
 								<? if($val[$i]): ?>
-								<td><?=$val[$i]?></td>
+								<td><?=htmlspecialchars_decode($val[$i])?></td>
 								<? endif; ?>
 							<? endfor; ?>
 						</tr>
