@@ -244,7 +244,13 @@ class IdListDoc
         $return = false;
         if(is_array($value)&& array_key_exists("VALUE", $value))
         {
-            $return = array("VALUE" => serialize(htmlspecialchars($value["VALUE"])),);
+            $arValue = array();
+            foreach($value["VALUE"] as $key => $value){
+                foreach($value as $k => $val) {
+                    $arValue[$key][$k] = htmlspecialchars($val);
+                }
+            }
+            $return = array("VALUE" => serialize($arValue),);
         }
         return $return;
     }
@@ -254,7 +260,7 @@ class IdListDoc
         $return = false;
         if(!is_array($value["VALUE"]))
         {
-            $return = array("VALUE" => unserialize(htmlspecialchars_decode($value["VALUE"])));
+            $return = array("VALUE" => unserialize($value["VALUE"]));
         }
         return $return;
     }
