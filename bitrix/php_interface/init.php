@@ -254,7 +254,7 @@ class IdListDoc
         $return = false;
         if(!is_array($value["VALUE"]))
         {
-            $return = array("VALUE" => unserialize($value["VALUE"]));
+            $return = array("VALUE" => unserialize(htmlspecialchars_decode($value["VALUE"])));
         }
         return $return;
     }
