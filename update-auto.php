@@ -58,7 +58,7 @@ if(CModule::IncludeModule("iblock")):
         $PROP['GRAR_TYPE'] = (string)$cont->GRAR_TYPE;
         $PROP['FUEL_TYPE'] = (string)$cont->FUEL_TYPE;
         $PROP['TRANSMISS'] = (string)$cont->TRANSMISS;
-        $PROP['COLOR'] = (string)$cont->Color;
+        $PROP['COLOR'] = (string)$cont->ColorOrig;
         $PROP['color_code'] = (string)$cont->ColorCode;
         $PROP['description'] = (string)$cont->Description;
         $PROP['NEW_PRICE'] = (string)$cont->NEW_PRICE;
@@ -100,7 +100,7 @@ if(CModule::IncludeModule("iblock")):
         if(strlen((string)$cont->MODEL) < 1 OR (string)$cont->MODEL == "0"){$arPropsNo[(string)$cont->VIN][] = 'MODEL (Наименование модели)';}
         if(strlen((string)$cont->CAPACITY) < 1 OR (string)$cont->CAPACITY == "0"){$arPropsNo[(string)$cont->VIN][] = 'CAPACITY (Объем двигателя)';}
         if(strlen((string)$cont->TRANSMISS) < 1 OR (string)$cont->TRANSMISS == "0"){$arPropsNo[(string)$cont->VIN][] = 'TRANSMISS (Трансмиссия)';}
-        if(strlen((string)$cont->Color) < 1 OR (string)$cont->Color == "0"){$arPropsNo[(string)$cont->VIN][] = 'COLOR (Цвет автомобиля)';}
+        if(strlen((string)$cont->ColorOrig) < 1 OR (string)$cont->ColorOrig == "0"){$arPropsNo[(string)$cont->VIN][] = 'COLOR (Цвет автомобиля)';}
         if(strlen((string)$cont->ColorCode) < 1 OR (string)$cont->ColorCode == "0"){$arPropsNo[(string)$cont->VIN][] = 'color_code (Код цвета автомобиля по каталогу производителя)';}
        // if(strlen((string)$cont->SpecId) < 1 OR (string)$cont->SpecId == "0"){$arPropsNo[(string)$cont->VIN][] = 'SpecId (Специальный ID)'; $PROP['SpecId'] = 'NaN';}
         if(strlen((string)$cont->CUZOV) < 1 OR (string)$cont->CUZOV == "0"){$arPropsNo[(string)$cont->VIN][] = 'CUZOV (Кузов)';}
