@@ -94,6 +94,7 @@ if(CModule::IncludeModule("iblock")):
             $xml .= '<SLIDER>';
             foreach($arResult['SLIDER']['VALUE'] as $v){
                 if(!preg_match('/preview/',$v,$preg)){
+                    $v = str_replace(".jpg",'_resize.jpg',$v);
                     $xml .= '<VALUE>'.htmlspecialchars((string)$_SERVER['SERVER_NAME'].$v).'</VALUE>';
                 }
 

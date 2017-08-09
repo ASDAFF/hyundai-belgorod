@@ -100,6 +100,10 @@ foreach($xml->ContractList->Contract as $key => $cont){
                 if($colorCode[0] == (string)$cont->ColorCode){
                     $img = array_diff( scandir($path.'/'.$c),array('.','..'));
                     foreach($img as $i){
+                        $img_path = $_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new/'.$d.'/'.$c.'/'.$i;
+                        if(getimagesize($img_path)[0] > 600 and !preg_match("/_resize/",$img_path,$preg)) {
+                            crop($img_path, 400, 0, 1100, 600,"_resize"); // Вызываем функцию
+                        }
                         $PROP['SLIDER'][] = '/XML_upload_for_1c/voronezh/new/'.$d.'/'.$c.'/'.$i;
                     }
                 }
