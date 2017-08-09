@@ -415,7 +415,7 @@ input.error {
 }
 .header-center{
     position: relative;
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
     padding: 6px 0 3px;
 }
@@ -1303,7 +1303,7 @@ input.user-bar-search-input:focus{
     padding-bottom: 15px;
 }
 .news-center{
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
     padding: 49px 0 0;
 }
