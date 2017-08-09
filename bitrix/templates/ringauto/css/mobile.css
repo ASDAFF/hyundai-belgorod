@@ -1,6 +1,12 @@
 
 @media (max-width:768px) {
 
+    .main-slideshow{
+        display: none;
+    }
+    .technologies{
+        display: none;
+    }
     .user-bar{
         display: none;
     }
