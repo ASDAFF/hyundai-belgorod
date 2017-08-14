@@ -196,14 +196,13 @@ if(CModule::IncludeModule("iblock")):
 
     $message = $xmlAll.'<br>'.$addAdmin.'<br>'.$noCorrectAdmin.'<br>'.$noCorrectAdminPhoto.'<br>---<br>'.$string.' <br>*********************<br>Нет фото VIN - SpecId - ColorCode:<br> '.implode("<br>", $arNoImg).'<br>'.implode("<br>", $arNoPrew);
 
-    //var_dump($message);
-    $adminEmail = COption::GetOptionString('main', 'email_from');
 
-    mail($adminEmail, 'Недостающие данные в спецпредложениях Липецк '.$SERVER_NAME, $message,
-        "From: webmaster@$SERVER_NAME\r\n"
-        ."Reply-To: webmaster@$SERVER_NAME\r\n"
-        ."Content-type: text/html; charset=utf-8\r\n"
-        ."X-Mailer: PHP/" . phpversion());
+    $arEventFields = array(
+        "MESSAGE" => $message,
+    );
+    CEvent::Send("N_LP_SPEC", SITE_ID, $arEventFields);
+
+
 
 
 endif;
