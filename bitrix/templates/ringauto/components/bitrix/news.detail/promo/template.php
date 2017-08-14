@@ -110,7 +110,7 @@ $this->setFrameMode(true);
                 <li><a href="#">Покупка</a></li>
                 -->
 				<li><a href="http://www.hyundai-ringauto.ru/all-offers#service-offers" target="_blank">Сервис</a></li>
-				<li><a href="http://www.hyundai.ru/configurator/car?compl_id=336&packets=" target="_blank">Конфигуратор</a></li>
+				<li><a href="http://hyundai-ringauto.ru/configurator/" target="_blank">Конфигуратор</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>
@@ -153,7 +153,7 @@ $this->setFrameMode(true);
 			<div class="box-two-two-section">
 				<h1>от <?=$arResult['PROPERTIES']['PRICE']['VALUE']?> р</h1>
 				<p>В кредит от <?=$arResult['PROPERTIES']['CREDIT']['VALUE']?> р /месяц</p>
-				<a href="http://configurator.hyundai.ru/price_list/Creta.pdf" target="_blank">ВСЕ ПРЕДЛОЖЕНИЯ ></a>
+				<a href="http://hyundai-ringauto.ru/offer/" target="_blank">ВСЕ ПРЕДЛОЖЕНИЯ ></a>
 			</div>
 			<div class="row" style="margin-bottom: 15px;">
 				<div class="col-md-6">
@@ -347,11 +347,11 @@ $this->setFrameMode(true);
 
 			<ul class="nav navbar-nav">
 				<li><a href="http://hyundai-ringauto.ru/">Главная</a></li>
-				<li><a href="http://hyundai-ringauto.ru/about/hyundai-motor-sng/aboutcompany">О компании</a></li>
-				<li><a href="http://hyundai-ringauto.ru/about/hyundai-motor-sng/contacts-lipeck">Контакты</a></li>
-				<li><a href="http://hyundai-ringauto.ru/gallery">Фотогалерея</a></li>
-				<li><a href="http://hyundai-ringauto.ru/all-offers-lipeck#spec_service">Сервисные программы</a></li>
-				<li><a href="http://hyundai-ringauto.ru/shopping/help/insurance">Автострахование</a></li>
+				<li><a href="http://hyundai-ringauto.ru/AboutUs/">О компании</a></li>
+				<li><a href="http://hyundai-ringauto.ru/contacts/">Контакты</a></li>
+				<li><a href="http://hyundai-ringauto.ru/maintenance/">Обслуживание</a></li>
+				<li><a href="http://hyundai-ringauto.ru/service/spetspredlozheniya/">Сервисные программы</a></li>
+				<li><a href="http://hyundai-ringauto.ru/warranty/"> Гарантия</a></li>
 			</ul>
 
 		</div><!--/.nav-collapse -->
