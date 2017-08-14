@@ -149,15 +149,10 @@ if(CModule::IncludeModule("iblock")):
 
     print $message;
 
-    $adminEmail = COption::GetOptionString('main', 'email_from');
-
-
-
-    mail($adminEmail, 'Недостающие данные в авто с пробегом Липецк '.$SERVER_NAME, $message,
-        "From: webmaster@$SERVER_NAME\r\n"
-        ."Reply-To: webmaster@$SERVER_NAME\r\n"
-        ."Content-type: text/html; charset=utf-8\r\n"
-        ."X-Mailer: PHP/" . phpversion());
+    $arEventFields = array(
+        "MESSAGE" => $message,
+    );
+  $ok =  CEvent::Send("B_LP_AUTO", SITE_ID, $arEventFields);
 
 
 endif;
