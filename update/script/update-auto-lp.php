@@ -67,13 +67,13 @@ if(CModule::IncludeModule("iblock")):
         $PROP['YEAR'] = (string)$cont->year;
 
         if (in_array((string)$cont->VIN, $files)) {
-            $dir_img = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/used/'.(string)$cont->VIN),array('.','..'));
+            $dir_img = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/lipetsk/used/'.(string)$cont->VIN),array('.','..'));
             foreach($dir_img as $img){
-                $img_path = $_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/used/'.(string)$cont->VIN.'/'.$img;
+                $img_path = $_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/lipetsk/used/'.(string)$cont->VIN.'/'.$img;
                 if(getimagesize($img_path)[0] > 600) {
                     resize($img_path, 550);
                 }
-                $PROP['SLIDER'][] = '/XML_upload_for_1c/voronezh/used/'.(string)$cont->VIN.'/'.$img;
+                $PROP['SLIDER'][] = '/XML_upload_for_1c/lipetsk/used/'.(string)$cont->VIN.'/'.$img;
             }
             var_dump('ok');
         }else{

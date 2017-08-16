@@ -1,0 +1,112 @@
+.video_butt_popup_on_slider {
+   	background: transparent;
+	height: 1px;
+	width: 1px;
+	position: absolute;
+	z-index: 0;
+	margin: auto auto;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+}
+.video_link2 {
+	width: 232px;
+	height: 39px;
+	display: block;
+	background: transparent;
+	position: absolute;
+	left: -410px;
+	bottom: -177px;
+}
+.videoPopup {
+	display: none;
+	top: 0px;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1100 !important;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+/*
+.videoPopup .closeButton {
+	color: white;
+    font-size: 60px;
+    font-weight: 100;
+    position: absolute;
+    right: -60px;
+    text-decoration: none;
+    top: 40px;
+}
+*/
+.videoPopup .videoContainer {
+	max-width: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+.videoPopup .videoContainer iframe,
+.videoPopup .videoContainer object,
+.videoPopup .videoContainer embed {
+	max-width: 100%;
+}
+.videoPopup .videoContainer iframe {
+	position: relative;
+	top: 50px;
+	height: 560px;
+}
+/*500k added*/
+.video_link_500k {
+    position: absolute;
+    z-index: 10;
+}
+.video_link_500k__item-1 {
+	right: 264px;
+	transform: rotate(-9deg);
+	top: -36px;
+	width: 231px;
+	height: 251px;
+}
+.video_link_500k__item-2 {
+    right: 65px;
+    transform: rotate(8deg);
+    width: 185px;
+    top: 12px;
+    height: 200px;
+}
+.video_link_500k__item-3 {
+    right: -48px;
+    bottom: -54px;
+    width: 180px;
+    transform: rotate(-13deg);
+    height: 198px;
+    z-index: 15;
+}
+.video_link_500k__item-4 {
+    transform: rotate(-6deg);
+    left: -7px;
+    width: 179px;
+    height: 188px;
+    top: 12px;
+    z-index: 9;
+}
+.video_link_500k__item-5 {
+    left: 127px;
+    bottom: -64px;
+    transform: rotate(5deg);
+    width: 180px;
+    height: 200px;
+}
+.video_link_500k__item-6 {
+    left: 205px;
+    transform: rotate(11deg);
+    top: 19px;
+    width: 179px;
+    height: 193px;
+}
+.video_link_500k__item-7 {
+    left: 343px;
+    bottom: -79px;
+    transform: rotate(19deg);
+    width: 180px;
+    height: 198px;
+}
