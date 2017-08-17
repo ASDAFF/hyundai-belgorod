@@ -25,6 +25,7 @@ if(CModule::IncludeModule("iblock")):
 
     $xml = new SimpleXMLElement($xml);
     $arPropsNo = array();
+    $not_vin = array();
     foreach($xml->ContractList->Contract as $cont){
 
         $el = new CIBlockElement;
@@ -66,6 +67,7 @@ if(CModule::IncludeModule("iblock")):
         $PROP['MILEAGE'] = (string)$cont->run;
         $PROP['YEAR'] = (string)$cont->year;
 
+
         if (in_array((string)$cont->VIN, $files)) {
             $dir_img = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/lipetsk/used/'.(string)$cont->VIN),array('.','..'));
             foreach($dir_img as $img){
@@ -75,7 +77,7 @@ if(CModule::IncludeModule("iblock")):
                 }
                 $PROP['SLIDER'][] = '/XML_upload_for_1c/lipetsk/used/'.(string)$cont->VIN.'/'.$img;
             }
-            var_dump('ok');
+            //var_dump('ok');
         }else{
             $not_vin[] = (string)$cont->VIN;
         }

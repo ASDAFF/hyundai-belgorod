@@ -25,6 +25,7 @@ if(CModule::IncludeModule("iblock")):
 
     $xml = new SimpleXMLElement($xml);
     $arPropsNo = array();
+    $not_vin = array();
     foreach($xml->ContractList->Contract as $cont){
 
         $el = new CIBlockElement;
@@ -75,7 +76,7 @@ if(CModule::IncludeModule("iblock")):
                 }
                 $PROP['SLIDER'][] = '/XML_upload_for_1c/voronezh/used/'.(string)$cont->VIN.'/'.$img;
             }
-            var_dump('ok');
+            //var_dump('ok');
         }else{
             $not_vin[] = (string)$cont->VIN;
         }
