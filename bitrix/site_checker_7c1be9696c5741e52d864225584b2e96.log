@@ -1,18 +1,18 @@
-2017-Aug-16 11:42:58 Наличие необходимых модулей php (check_php_modules): Ok
+2017-Aug-17 11:43:09 Наличие необходимых модулей php (check_php_modules): Ok
 Все необходимые модули установлены
-2017-Aug-16 11:42:58 Обязательные параметры PHP (check_php_settings): Ok
+2017-Aug-17 11:43:09 Обязательные параметры PHP (check_php_settings): Ok
 Настройки правильные
-2017-Aug-16 11:42:58 Модули веб-сервера (check_security): Ok
+2017-Aug-17 11:43:09 Модули веб-сервера (check_security): Ok
 Конфликтов не выявлено
-2017-Aug-16 11:42:58 Значения переменных сервера (check_server_vars): Ok
+2017-Aug-17 11:43:09 Значения переменных сервера (check_server_vars): Ok
 Корректные
-2017-Aug-16 11:42:58 Сохранение сессии (check_session): Ok
+2017-Aug-17 11:43:09 Сохранение сессии (check_session): Ok
 50% done
-2017-Aug-16 11:42:58 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+2017-Aug-17 11:43:09 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
 Правильные. Сайт работает в UTF кодировке
-2017-Aug-16 11:42:58 Служебные скрипты в корне сайта (check_install_scripts): Ok
+2017-Aug-17 11:43:09 Служебные скрипты в корне сайта (check_install_scripts): Ok
 Отсутствуют
-2017-Aug-16 11:42:58 Работа с сокетами (check_socket): Ok
+2017-Aug-17 11:43:09 Работа с сокетами (check_socket): Ok
 Connection to hyundai-ringauto.ru:80	Success
 
 Успешно
