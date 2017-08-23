@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>16.08.2017</Date>
-		<Time>21:34:15</Time>
+		<Date>22.08.2017</Date>
+		<Time>21:34:44</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -60,6 +60,7 @@
 				<value>Антикоррозийная обработка днища и подкрылок</value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-299 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -108,6 +109,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-1 299 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -156,26 +158,27 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-720 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
-			<VIN>KMHFH41BBEA400552</VIN>
+			<VIN>KMHSU81XDDU207683</VIN>
 			<MARK>Hyundai</MARK>
-			<MODEL>Grandeur</MODEL>
+			<MODEL>Santa Fe</MODEL>
 			<IsNew>no</IsNew>
-			<CAPACITY>2,4</CAPACITY>
-			<POWER>180</POWER>
+			<CAPACITY>2,2</CAPACITY>
+			<POWER>197</POWER>
 			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<FUEL_TYPE>Дизель</FUEL_TYPE>
 			<TRANSMISS>АКП</TRANSMISS>
 			<TransmissionCount>6</TransmissionCount>
-			<Color>черный</Color>
-			<ColorCode>TB7</ColorCode>
-			<ColorOrig>Черный</ColorOrig>
-			<SpecName>HGS4L661FGV064</SpecName>
-			<SpecId>ЦБ000760</SpecId>
+			<Color>серебристый</Color>
+			<ColorCode>N3S</ColorCode>
+			<ColorOrig>Серый</ColorOrig>
+			<SpecName>DMW52FC5GGD155/C605</SpecName>
+			<SpecId>ЦБ000570</SpecId>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
 Данный автомобиль прошел полный комплекс предпродажной подготовки.
 
@@ -192,21 +195,27 @@
 - Оптимальные программы по автострахованию (КАСКО и ОСАГО).
 
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>1 150 000</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
+			<OLD_PRICE>1 665 000</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Внедорожник</CUZOV>
 			<Comment/>
-			<TYPE_SALON/>
+			<TYPE_SALON>Кожа</TYPE_SALON>
 			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>48 424</run>
-			<year>2 014</year>
-			<OPTION_SUMM>2 060</OPTION_SUMM>
+			<GRAR_TYPE>Полный</GRAR_TYPE>
+			<run>59 318</run>
+			<year>2 013</year>
+			<OPTION_SUMM>27 380</OPTION_SUMM>
 			<OPTION_EQU>
-				<value>Шиномонтаж 4-х колес 17``  </value>
+				<value>ЗАЩИТА КАРТЕРА (АЛЮМИНИЕВАЯ) SANTA FE 2014 RIVA</value>
+				<value>КОВРИК БАГАЖНОГО ОТСЕКА SANTA FE 2013 (5 МЕСТ)</value>
+				<value>КОВРЫ САЛОНА HYUNDAI SANTA FE DM</value>
+				<value>МПУ  ТИПТРОНИК Santa Fe NEW 2013</value>
+				<value>Установка защиты картера</value>
+				<value>ремонт Блокиратора на КПП</value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
-			<CREDIT>-1 150 000</CREDIT>
+			<EXT_COMPLIT/>
+			<CREDIT>1 665 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -254,6 +263,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-390 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -302,7 +312,57 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-715 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>Z94CB41AACR007047</VIN>
+			<MARK>Kia</MARK>
+			<MODEL>RIO</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,4</CAPACITY>
+			<POWER>107</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>5</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>YW6</ColorCode>
+			<ColorOrig>Белый</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>132 000</run>
+			<year>2 011</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -350,6 +410,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-725 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -398,7 +459,65 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-599 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>KMHST81XDEU274929</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Santa Fe</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>2,2</CAPACITY>
+			<POWER>197</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Дизель</FUEL_TYPE>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>серый</Color>
+			<ColorCode>T6S</ColorCode>
+			<ColorOrig>Серый</ColorOrig>
+			<SpecName>DMW52FC5GDC604</SpecName>
+			<SpecId>ЦБ000519</SpecId>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Внедорожник</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Полный</GRAR_TYPE>
+			<run>69 752</run>
+			<year>2 013</year>
+			<OPTION_SUMM>39 386,76</OPTION_SUMM>
+			<OPTION_EQU>
+				<value>ЗАЩИТА КАРТЕРА SANTA  FE 2014</value>
+				<value>КОВРИК БАГАЖНОГО ОТСЕКА SANTA FE 2013 (5 МЕСТ)</value>
+				<value>КОВРЫ САЛОНА HYUNDAI SANTA FE DM</value>
+				<value>СИГНАЛИЗАЦИЯ SCHER-KHАN  MAGICAR 11</value>
+				<value>Автошина 235/65 R17 104H N8000 NEXEN</value>
+				<value>Установка защиты картера</value>
+				<value>Сигнализация с обратной связью</value>
+			</OPTION_EQU>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -477,6 +596,7 @@
 				<value>Установка защиты картера</value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-1 301 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -576,6 +696,7 @@
 				<value>Полноразмерное запасное колесо</value>
 				<value>Электропривод складывания наружных зеркал</value>
 			</DEFAULT_COMPLIT>
+			<EXT_COMPLIT/>
 			<CREDIT>-750 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -624,6 +745,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-550 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -706,6 +828,7 @@
 				<value>Тонирование без передних стекол</value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-1 970 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -780,6 +903,7 @@
 				<value>Модуль обхода штатного иммобилайзера</value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-950 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -853,6 +977,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-370 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -924,6 +1049,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-545 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -972,6 +1098,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-599 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -1020,6 +1147,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-180 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -1078,6 +1206,7 @@
 				<value>Дефлекторы на все окна</value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-770 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -1136,14 +1265,15 @@
 				<value>Шиномонтаж 4-х колес 15``  </value>
 			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-325 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
 			<VIN>XWEHN512BD0000195</VIN>
-			<MARK/>
-			<MODEL>KIA ED</MODEL>
+			<MARK>Kia</MARK>
+			<MODEL>(Cee'd)</MODEL>
 			<IsNew>no</IsNew>
 			<CAPACITY>1,591</CAPACITY>
 			<POWER>129</POWER>
@@ -1184,6 +1314,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-635 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -1257,73 +1388,8 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-395 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94CT41CAFR386036</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,4</CAPACITY>
-			<POWER>107</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>белый</Color>
-			<ColorCode>PGU</ColorCode>
-			<ColorOrig>Белый</ColorOrig>
-			<SpecName>ACTIVE + A/C 1,4 MT</SpecName>
-			<SpecId>ЦБ000784</SpecId>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>445 000</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>79 000</run>
-			<year>2 014</year>
-			<OPTION_SUMM>70 920</OPTION_SUMM>
-			<OPTION_EQU>
-				<value>ПОДКРЫЛОК ПЕРЕДНИЙ ПРАВЫЙ SOLARIS</value>
-				<value>ПОДКРЫЛОК ПЕРЕДНИЙ ЛЕВЫЙ SOLARIS</value>
-				<value>ПОДКРЫЛОК ЗАДНИЙ ПРАВЫЙ SOLARIS</value>
-				<value>ПОДКРЫЛОК ЗАДНИЙ ЛЕВЫЙ SOLARIS</value>
-				<value>МАСТИКА ЗАЩИТНАЯ ЧЁРНАЯ 1000мл.</value>
-				<value>СИГНАЛИЗАЦИЯ SCHER-KHАN LOGICAR 2,BP-2</value>
-				<value>НАБОР ДЛЯ УСТАНОВКИ  ДОПОБОРУДОВАНИЯ</value>
-				<value>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ, (Solaris) RIVA</value>
-				<value>КОВРИКИ САЛОНА   SOLARIS текстиль</value>
-				<value>Автошина 185/65 R15  NORDMAN 4  ШИП</value>
-				<value>ДИСК КОЛЕСНЫЙ 6.0J*R15 4*100 KC685 Серебро</value>
-				<value>Подкрылки</value>
-				<value>Антикоррозийная обработка днища и подкрылок</value>
-				<value>Сигнализация с обратной связью</value>
-				<value>Установка защиты картера</value>
-				<value>Исполнительный механизм</value>
-				<value>Шиномонтаж 4-х колес 15``  </value>
-			</OPTION_EQU>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>-445 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1392,65 +1458,8 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-315 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>KMHSH81BDCU789572</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Santa Fe</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>2,4</CAPACITY>
-			<POWER>174</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>черный</Color>
-			<ColorCode>NKA</ColorCode>
-			<ColorOrig>Черный</ColorOrig>
-			<SpecName>BMW5L661GGTA19/TB28</SpecName>
-			<SpecId>ЦБ000320</SpecId>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>800 000</NEW_PRICE>
-			<CUZOV>Внедорожник</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Кожа</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Полный</GRAR_TYPE>
-			<run>170 000</run>
-			<year>2 011</year>
-			<OPTION_SUMM>64 929,16</OPTION_SUMM>
-			<OPTION_EQU>
-				<value>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ, СТАЛЬНАЯ, (Santa Fe)</value>
-				<value>МПУ SantaFe 2010 AКПП</value>
-				<value>Боковые подножки  овал Santa Fe 2012</value>
-				<value>СИГНАЛИЗАЦИЯ StarLine Twage A61 Diallog</value>
-				<value>Cнятие и установка металлической защиты картера двигателя</value>
-				<value>ремонт Блокиратора на КПП</value>
-				<value>Пороги</value>
-				<value>Сигнализация с обратной связью</value>
-				<value>Блокиратор на капот</value>
-			</OPTION_EQU>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>-800 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1523,6 +1532,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-460 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -1571,55 +1581,8 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-1 849 900</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>VF1LBVA0A40484378</VIN>
-			<MARK>Renault</MARK>
-			<MODEL>SYMBOL LE2 NRA</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,4</CAPACITY>
-			<POWER>97</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>4</TransmissionCount>
-			<Color>черный</Color>
-			<ColorCode>MJB</ColorCode>
-			<ColorOrig>Черный</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>255 000</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>148 500</run>
-			<year>2 008</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>-255 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1667,6 +1630,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-280 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -1715,55 +1679,8 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-855 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94CU41DBFR377985</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>123</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>синий</Color>
-			<ColorCode>WU8</ColorCode>
-			<ColorOrig>Синий</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>485 000</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>45 473</run>
-			<year>2 014</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>-485 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1836,7 +1753,57 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-395 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>XTA211440C5148532</VIN>
+			<MARK/>
+			<MODEL>Ваз 211440</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>82</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>GT</ColorCode>
+			<ColorOrig>Белый</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>5-ти дверный хетчбек</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>106 000</run>
+			<year>2 012</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1909,6 +1876,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-680 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -1957,6 +1925,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-305 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -2005,6 +1974,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-699 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -2074,13 +2044,14 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-705 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
 			<VIN>X7MSC81VP8A004682</VIN>
-			<MARK/>
+			<MARK>Hyundai</MARK>
 			<MODEL>Santa Fe</MODEL>
 			<IsNew>no</IsNew>
 			<CAPACITY>2</CAPACITY>
@@ -2122,6 +2093,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-480 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -2170,7 +2142,57 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-490 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>Z94CC51BAFR057081</VIN>
+			<MARK>Kia</MARK>
+			<MODEL>JB/RIO</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>123</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>PDW</ColorCode>
+			<ColorOrig>Белый</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>5-ти дверный хетчбек</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>45 000</run>
+			<year>2 015</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -2241,6 +2263,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-520 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -2314,6 +2337,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-610 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -2362,6 +2386,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-180 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -2410,107 +2435,8 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-1 250 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>LGWEE2A40DE659281</VIN>
-			<MARK>Great Wall</MARK>
-			<MODEL>Hover</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>14</CAPACITY>
-			<POWER>98</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>черный</Color>
-			<ColorCode>EB</ColorCode>
-			<ColorOrig>Черный</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>Автомобиль в хорошем состоянии. Покупался и обслуживался у дилера на период гарантии. Куплена не в кредит. Непрокуренный салон. Не участвовала в ДТП. Возможен ОБМЕН на Ваш автомобиль по системе TRADE-IN (в том числе принимаем "кредитные" автомобили). На все автомобили автосалон предоставляет гарантию юридической чистоты. Мы предоставляем кредит за ОДИН ЧАС всего по 2-м документам! Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 30% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки прямо в нашем автосалоне!
-
-- УСЛУГА TRADE-IN
-- примем Ваш автомобиль в зачет стоимости любого подержанного
-- продажа Вашего автомобиля по рыночной цене с нашей площадки
-- кредит на любой подержанный автомобиль на выгодных условиях
-- страхование автомобиля на месте ОСАГО и КАСКО</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>445 000</NEW_PRICE>
-			<CUZOV>Внедорожник</CUZOV>
-			<Comment>Автомобиль в хорошем состоянии. Покупался и обслуживался у дилера на период гарантии. Куплена не в кредит. Непрокуренный салон. Не участвовала в ДТП. Возможен ОБМЕН на Ваш автомобиль по системе TRADE-IN (в том числе принимаем "кредитные" автомобили). На все автомобили автосалон предоставляет гарантию юридической чистоты. Мы предоставляем кредит за ОДИН ЧАС всего по 2-м документам! Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 30% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки прямо в нашем автосалоне!
-
-- УСЛУГА TRADE-IN
-- примем Ваш автомобиль в зачет стоимости любого подержанного
-- продажа Вашего автомобиля по рыночной цене с нашей площадки
-- кредит на любой подержанный автомобиль на выгодных условиях
-- страхование автомобиля на месте ОСАГО и КАСКО</Comment>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>30 000</run>
-			<year>2 013</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>-445 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>TMAJ3811AGJ135454</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Tucson</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>132</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>коричневый</Color>
-			<ColorCode>XN3</ColorCode>
-			<ColorOrig>Коричневый</ColorOrig>
-			<SpecName>D7W5D2A17GGBDF</SpecName>
-			<SpecId>ЦБ000885</SpecId>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>Универсал</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE/>
-			<run>5</run>
-			<year>2 016</year>
-			<OPTION_SUMM>18 083,77</OPTION_SUMM>
-			<OPTION_EQU>
-				<value>ЗАЩИТА КАРТЕРА , СТАЛЬНАЯ (TUCSON)</value>
-				<value>КОВРИКИ САЛОНА РЕЗИНОВЫЕ TUCSON</value>
-				<value>КОВРИК БАГАЖНОГО ОТСЕКА TUCSON</value>
-				<value>МАСТИКА ЗАЩИТНАЯ ЧЁРНАЯ 1000мл.</value>
-				<value>Установка защиты картера</value>
-				<value>Антикоррозийная обработка днища и подкрылок</value>
-			</OPTION_EQU>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -2581,7 +2507,106 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-545 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>XWB3D31UD5A043551</VIN>
+			<MARK>Daewoo</MARK>
+			<MODEL>Nexia</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,498</CAPACITY>
+			<POWER>85</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Песочный</Color>
+			<ColorCode>Песочный</ColorCode>
+			<ColorOrig>Желтый</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>101 000</run>
+			<year>2 005</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>XTA217030C0349286</VIN>
+			<MARK/>
+			<MODEL>Lada 217030</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,596</CAPACITY>
+			<POWER>97,9</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>темно-вишневый</Color>
+			<ColorCode>5J</ColorCode>
+			<ColorOrig>Красный</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>102 000</run>
+			<year>2 012</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -2652,6 +2677,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-585 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -2700,7 +2726,57 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-1 300 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>Z8NAJL11055602015</VIN>
+			<MARK/>
+			<MODEL>Nissan almera</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>102</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>4</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>GT</ColorCode>
+			<ColorOrig>Белый</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>22 050</run>
+			<year>2 016</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -2773,6 +2849,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-490 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -2834,6 +2911,7 @@
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
 			<CREDIT>-235 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>

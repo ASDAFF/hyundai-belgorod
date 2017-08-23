@@ -10,7 +10,7 @@ $APPLICATION->SetTitle("santa_fe_offer");
             <!-- WARNING -->
             <!-- this checks only img src!! no checking by offer ID -->
 
-            <img class="promo-head" src="http://www.hyundai.ru/media/offers_image/3de038161518cace1fd9b827494dd104_1900x520px_new.jpg" style="">
+            <img class="promo-head" src="http://www.hyundai.ru/media/offers_image/adeb169c9694a13f8aa0e439bece5f0f_01.jpg" style="">
 
             <!-- old syntax: -->
             <!-- <img class="promo-head" src="http://www.hyundai.ru/media/offers_image/3b6b0e6d05c664a63fd2d85e9af37735_1900x520px_new_mini.jpg" style=""/> -->
@@ -37,13 +37,13 @@ $APPLICATION->SetTitle("santa_fe_offer");
                             <!--<h2 class="title-offer__lev02 multiple-cars">Hyundai Santa fe</h2>-->
                             <div class="row-inline__cell">
                                 <strong>Выгода до:</strong>
-                                <div class="offer-price-count ruble">300 000*</div>
+                                <div class="offer-price-count ruble">400 000*</div>
                             </div>
                         </div>
 
                         <div class="row-inline">
                             <p class="offer-terms__text">
-                                Выгода до 300 000* руб. на Hyundai Santa fe! Ознакомиться с ценами и рассчитать кредит вы можете в конфигураторе.<br><br>Отправьте сконфигурированный автомобиль с расчетом кредита или без него любому дилеру на последнем шаге создания конфигурации. Дилер перезвонит вам и вы сможете продолжить общение именно по той версии автомобиля, которую сконфигурировали для себя.
+                                Выгода до 400 000* руб. на Hyundai Santa fe! Ознакомиться с ценами и рассчитать кредит вы можете в конфигураторе.<br><br>Отправьте сконфигурированный автомобиль с расчетом кредита или без него любому дилеру на последнем шаге создания конфигурации. Дилер перезвонит вам и вы сможете продолжить общение именно по той версии автомобиля, которую сконфигурировали для себя.
                             </p>
                         </div>
 
@@ -84,7 +84,7 @@ $APPLICATION->SetTitle("santa_fe_offer");
 
                         <div class="tip-supscript ">
                             <p style="font-size: 10px;">
-                                *Выгода рассчитывается путем суммирования скидки 50 000 рублей (предоставляющейся от рекомендованной максимальной розничной цены с учетом НДС, приобретающим автомобиль Santa Fe 2016 производственного года), скидки 200 000 рублей по программе трейд-ин и скидки 50 000 рублей по программе трейд-ин для лояльных клиентов Hyundai.
+                                *Выгода рассчитывается путем суммирования скидки 100 000 рублей (предоставляющейся от рекомендованной максимальной розничной цены с учетом НДС, приобретающим автомобиль Santa Fe 2016 производственного года), скидки 200 000 рублей по программе трейд-ин и скидки 100 000 рублей по программе трейд-ин для лояльных клиентов Hyundai. Предложение действительно до 31.08.2017г.
                             </p>
                         </div>
 

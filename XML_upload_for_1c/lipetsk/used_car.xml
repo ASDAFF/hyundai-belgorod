@@ -1,72 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>16.08.2017</Date>
-		<Time>21:36:37</Time>
+		<Date>22.08.2017</Date>
+		<Time>21:36:11</Time>
 	</Export>
 	<ContractList>
 		<Contract>
-			<VIN>XTA210930X2560398</VIN>
-			<MARK/>
-			<MODEL>ВАЗ 21093</MODEL>
+			<VIN>3N1BCAC11UK550703</VIN>
+			<MARK>Nissan</MARK>
+			<MODEL>Tiida</MODEL>
 			<IsNew>no</IsNew>
-			<CAPACITY>1,5</CAPACITY>
-			<POWER>98</POWER>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>109</POWER>
 			<fuel_consumption>0</fuel_consumption>
 			<FUEL_TYPE>Бензин</FUEL_TYPE>
 			<TRANSMISS>МКП</TRANSMISS>
 			<TransmissionCount>5</TransmissionCount>
-			<Color>сине-зеленый</Color>
-			<ColorCode>uyf</ColorCode>
-			<ColorOrig/>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>5-ти дверный хетчбек</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>100 000</run>
-			<year>1 999</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>0</CREDIT>
-			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
-			<number>7 (4742) 727777</number>
-		</Contract>
-		<Contract>
-			<VIN>X9W214851G0000132</VIN>
-			<MARK/>
-			<MODEL>LIFAN 214851</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,5</CAPACITY>
-			<POWER>102</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>5</TransmissionCount>
-			<Color>белый</Color>
-			<ColorCode>NCW</ColorCode>
-			<ColorOrig>Белый</ColorOrig>
+			<Color>черный</Color>
+			<ColorCode>AF</ColorCode>
+			<ColorOrig>Черный</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -91,9 +43,105 @@
 			<Comment/>
 			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
-			<GRAR_TYPE/>
-			<run>15 000</run>
-			<year>2 016</year>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>133 063</run>
+			<year>2 011</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
+			<number>7 (4742) 727777</number>
+		</Contract>
+		<Contract>
+			<VIN>XTA219470F0067847</VIN>
+			<MARK>Lada</MARK>
+			<MODEL>219270 LADA KALINA</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>106</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>5</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>WW7</ColorCode>
+			<ColorOrig>Белый</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Универсал</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>47 774</run>
+			<year>2 015</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
+			<number>7 (4742) 727777</number>
+		</Contract>
+		<Contract>
+			<VIN>XTA210740A2925382</VIN>
+			<MARK>Lada</MARK>
+			<MODEL>210740</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>73</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>5</TransmissionCount>
+			<Color>темно-синий</Color>
+			<ColorCode>UEB</ColorCode>
+			<ColorOrig>Синий</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Задний</GRAR_TYPE>
+			<run>73 000</run>
+			<year>2 009</year>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
@@ -104,7 +152,7 @@
 		<Contract>
 			<VIN>X7MSC81VPBM018145</VIN>
 			<MARK>Hyundai</MARK>
-			<MODEL>SM</MODEL>
+			<MODEL>Santa Fe</MODEL>
 			<IsNew>no</IsNew>
 			<CAPACITY>2</CAPACITY>
 			<POWER>112</POWER>
@@ -152,7 +200,7 @@
 		<Contract>
 			<VIN>XU3S0A1KS7Z000151</VIN>
 			<MARK>Ssang Yong</MARK>
-			<MODEL>КУРОН</MODEL>
+			<MODEL>Kyron</MODEL>
 			<IsNew>no</IsNew>
 			<CAPACITY>2</CAPACITY>
 			<POWER>141</POWER>
@@ -394,10 +442,10 @@
 			<MARK>Citroen</MARK>
 			<MODEL>DS 4</MODEL>
 			<IsNew>no</IsNew>
-			<CAPACITY>1,5</CAPACITY>
+			<CAPACITY>1,6</CAPACITY>
 			<POWER>150</POWER>
 			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<FUEL_TYPE/>
 			<TRANSMISS>АКП</TRANSMISS>
 			<TransmissionCount>6</TransmissionCount>
 			<Color>коричневый</Color>
@@ -438,54 +486,6 @@
 			<number>7 (4742) 727777</number>
 		</Contract>
 		<Contract>
-			<VIN>VF1LZBR0546183694</VIN>
-			<MARK>Renault</MARK>
-			<MODEL>Fluence</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>106</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>5</TransmissionCount>
-			<Color>черный</Color>
-			<ColorCode>AF</ColorCode>
-			<ColorOrig>Черный</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>500 000</OLD_PRICE>
-			<NEW_PRICE>475 000</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>102 010</run>
-			<year>2 011</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<CREDIT>25 000</CREDIT>
-			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
-			<number>7 (4742) 727777</number>
-		</Contract>
-		<Contract>
 			<VIN>W0L0AHM7582010714</VIN>
 			<MARK>Opel</MARK>
 			<MODEL>Zafira</MODEL>
@@ -519,7 +519,7 @@
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>400 000</OLD_PRICE>
 			<NEW_PRICE>380 000</NEW_PRICE>
-			<CUZOV>5-ти дверный хетчбек</CUZOV>
+			<CUZOV>Минивен</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
@@ -711,7 +711,7 @@
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>515 000</OLD_PRICE>
 			<NEW_PRICE>495 000</NEW_PRICE>
-			<CUZOV>5-ти дверный хетчбек</CUZOV>
+			<CUZOV>внедорожник</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>

@@ -100,17 +100,7 @@ $APPLICATION->SetTitle("all-offers");
 
 
 
-
-                <div class="insection-offer-unit">
-                    <a href="http://hyundai-ringauto.ru/promo/solaris-special-offer/" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/d308a9d099eddef6dc761a31e85c9edc_banner_special_offer_preview.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Специальное предложение для владельцев Hyundai</span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
-
+<!--
                 <div class="insection-offer-unit">
                     <a href="http://hyundai-ringauto.ru/promo/santa-fe-offer/" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/3b6b0e6d05c664a63fd2d85e9af37735_1900x520px_new_mini.jpg" alt="" class="insection-offer-unit__back-img">
@@ -150,6 +140,7 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
+-->
 
                 <div class="insection-offer-unit">
                     <a href="http://hyundai-ringauto.ru/promo/major-leasing/" class="insection-offer-unit__link">
@@ -171,6 +162,16 @@ $APPLICATION->SetTitle("all-offers");
                     </a>
                 </div>
 
+                <div class="insection-offer-unit">
+                    <a href="http://hyundai-ringauto.ru/promo/solaris-special-offer/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/d308a9d099eddef6dc761a31e85c9edc_banner_special_offer_preview.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Специальное предложение для владельцев Hyundai</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
 
             </div>
             <!-- service stuff next -->
@@ -178,6 +179,8 @@ $APPLICATION->SetTitle("all-offers");
 
             <!-- title -->
             <a id="service-offers" style="padding-top: 30px;"></a>
+
+<!--
 
             <h2 class="offers_divider__content__title">Сервисные программы</h2>
             <div class="offers_divider__content__offers-grid-section clearfix">
@@ -203,7 +206,7 @@ $APPLICATION->SetTitle("all-offers");
 
             </div>
         </div>
-
+-->
         <!-- prefooter banners -->
         <!--
                 <div class="offers__prefooter-banner clearfix">
