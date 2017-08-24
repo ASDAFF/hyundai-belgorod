@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>22.08.2017</Date>
-		<Time>21:34:44</Time>
+		<Date>23.08.2017</Date>
+		<Time>21:34:26</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -1539,8 +1539,8 @@
 		</Contract>
 		<Contract>
 			<VIN>WDD2120551A928528</VIN>
-			<MARK>MERCEDES-BENZ</MARK>
-			<MODEL>E300</MODEL>
+			<MARK/>
+			<MODEL>Mersedes-Benz/E-Klasse</MODEL>
 			<IsNew>no</IsNew>
 			<CAPACITY>3,5</CAPACITY>
 			<POWER>249</POWER>
