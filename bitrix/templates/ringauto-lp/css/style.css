@@ -137,7 +137,7 @@ html, body {
 }
 
 body.main, body.main #wrapper {
-    background: #f5f5f5 !important;
+    background: #ffffff !important;
 }
 /* H Group
 -----------------------------------------------------------*/
@@ -412,6 +412,7 @@ input.error {
 -----------------------------------------------------------*/
 #header{
     background: #fff;
+    margin-bottom: 23px;
 }
 .header-center{
     position: relative;
@@ -983,7 +984,7 @@ textarea.input-text{
     width: 940px;
     position: absolute;
     top: 100%;
-    margin-top: 15px;
+    margin-top: 0px;
     background: #636669;
     left: 50%;
     margin-left: -470px;
