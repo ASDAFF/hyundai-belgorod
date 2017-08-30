@@ -21,4 +21,5 @@ $APPLICATION->SetTitle("configurator");
      });
 
     </script>
+    <div class="clear"></div>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

@@ -26,6 +26,8 @@
 
 	<link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/mobile/style.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/mobile/font-awesome/css/font-awesome.css" >
+	<link href="/home_style/css/style_new.css" rel="stylesheet" type="text/css">
+	<link href="/home_style/css/home.css" rel="stylesheet" type="text/css">
 
 	<link href="<?=SITE_TEMPLATE_PATH?>/css/mobile.css" rel="stylesheet" />
 

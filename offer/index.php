@@ -172,4 +172,8 @@ if(!empty($_GET['offer-filter'])){
 		)
 	),
 	false
-);?><br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?>
+
+<div class="clear"></div>
+
+	<br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
