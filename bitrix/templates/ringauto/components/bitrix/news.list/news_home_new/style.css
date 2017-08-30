@@ -1,0 +1,123 @@
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+
+.content-wrap {
+	position: relative;
+	width: 940px;
+	margin: auto;
+}
+
+.content-wrap .title-lev01 {
+	font-weight: 300;
+	position: relative;
+	font-family: 'HyundaiSansHead',sans-serif;
+	color: #888888;
+	font-size: 40px;
+	margin: 60px 0 60px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.content-wrap .title-lev01:before {
+	position: absolute;
+	top: 75px;
+	left: 50%;
+	width: 75px;
+	height: 1px;
+	margin-left: -37px;
+	content: '';
+	background: #0079b9;
+}
+.news-list-lg .news-item {
+	font-family: 'HyundaiSansHead',sans-serif;
+	position: relative;
+	height: 325px;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,.1);
+	box-shadow: 0 2px 4px rgba(0,0,0,.1);
+	background: #FFF;
+	padding-right: 25px;
+}
+.news-list-lg .cover {
+	float: left;
+	overflow: hidden;
+	width: 620px;
+	height: 325px;
+	margin-right: 40px;
+}
+.news-list-lg .descr {
+	font-size: 20px;
+	padding-top: 40px;
+	line-height: 140%;
+}
+.news-list-lg .date {
+	position: absolute;
+	bottom: 25px;
+	left: 660px;
+	font-size: 15px;
+	color: #b2b2b2;
+}
+
+.news-list-sm .news-item {
+	position: relative;
+	display: inline-block;
+	width: 300px;
+	height: 325px;
+	margin: 0 16px 20px 0;
+	vertical-align: top;
+	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,.1);
+	box-shadow: 0 2px 4px rgba(0,0,0,.1);
+	background: #FFF;
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+}
+.news-list-sm .cover {
+	display: block;
+	overflow: hidden;
+	width: 300px;
+	height: 175px;
+}
+.news-list-sm .cover img {
+	display: block;
+	width: 100%;
+	min-height: 100%;
+}
+.news-list-sm .descr {
+	font-size: 14px;
+	padding: 20px 20px 0;
+	line-height: 150%;
+}
+.news-list-sm .date {
+	position: absolute;
+	left: 20px;
+	bottom: 15px;
+	font-size: 12px;
+	color: #b2b2b2;
+}
+.news-list-sm {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: 'HyundaiSansHead',sans-serif;
+}
+.news-list-sm .news-item:nth-child(3n) {
+	margin-right: 0;
+}
+
+.news-item a:hover {
+	text-decoration: none!important;
+}

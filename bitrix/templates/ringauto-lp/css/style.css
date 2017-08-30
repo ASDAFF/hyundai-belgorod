@@ -1,117 +1,117 @@
 @font-face {
-	font-family: "HyundaiSans";
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Regular.eot");
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Regular.eot?#iefix") format("embedded-opentype"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Regular.woff2") format("woff2"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Regular.woff") format("woff"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Regular.ttf") format("truetype");
-	font-weight: normal;
-	font-style: normal;
+    font-family: "HyundaiSans";
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Regular.eot");
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Regular.eot?#iefix") format("embedded-opentype"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Regular.woff2") format("woff2"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Regular.woff") format("woff"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-	font-family: "HyundaiSans";
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Italic.eot");
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Italic.eot?#iefix") format("embedded-opentype"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Italic.woff2") format("woff2"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Italic.woff") format("woff"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Italic.ttf") format("truetype");
-	font-weight: normal;
-	font-style: italic;
+    font-family: "HyundaiSans";
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Italic.eot");
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Italic.eot?#iefix") format("embedded-opentype"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Italic.woff2") format("woff2"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Italic.woff") format("woff"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
 }
 @font-face {
-	font-family: "HyundaiSans";
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Medium.eot");
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Medium.eot?#iefix") format("embedded-opentype"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Medium.woff2") format("woff2"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Medium.woff") format("woff"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Medium.ttf") format("truetype");
-	font-weight: 500;
-	font-style: normal;
+    font-family: "HyundaiSans";
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Medium.eot");
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Medium.eot?#iefix") format("embedded-opentype"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Medium.woff2") format("woff2"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Medium.woff") format("woff"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
 }
 @font-face {
-	font-family: "HyundaiSans";
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-MediumItalic.eot");
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-MediumItalic.eot?#iefix") format("embedded-opentype"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-MediumItalic.woff2") format("woff2"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-MediumItalic.woff") format("woff"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-MediumItalic.ttf") format("truetype");
-	font-weight: 500;
-	font-style: italic;
+    font-family: "HyundaiSans";
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-MediumItalic.eot");
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-MediumItalic.woff2") format("woff2"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-MediumItalic.woff") format("woff"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
 }
 @font-face {
-	font-family: "HyundaiSans";
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Bold.eot");
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Bold.eot?#iefix") format("embedded-opentype"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Bold.woff2") format("woff2"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Bold.woff") format("woff"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Bold.ttf") format("truetype");
-	font-weight: 600;
-	font-style: normal;
+    font-family: "HyundaiSans";
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Bold.eot");
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Bold.eot?#iefix") format("embedded-opentype"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Bold.woff2") format("woff2"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Bold.woff") format("woff"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-Bold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
 }
 @font-face {
-	font-family: "HyundaiSans";
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-BoldItalic.eot");
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-BoldItalic.eot?#iefix") format("embedded-opentype"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-BoldItalic.woff2") format("woff2"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-BoldItalic.woff") format("woff"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-BoldItalic.ttf") format("truetype");
-	font-weight: 600;
-	font-style: italic;
+    font-family: "HyundaiSans";
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-BoldItalic.eot");
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-BoldItalic.woff2") format("woff2"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-BoldItalic.woff") format("woff"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-BoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
 }
 @font-face {
-	font-family: "HyundaiSansHead";
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Regular.eot");
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Regular.eot?#iefix") format("embedded-opentype"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Regular.woff2") format("woff2"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Regular.woff") format("woff"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Regular.ttf") format("truetype");
-	font-weight: normal;
-	font-style: normal;
+    font-family: "HyundaiSansHead";
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Regular.eot");
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Regular.eot?#iefix") format("embedded-opentype"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Regular.woff2") format("woff2"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Regular.woff") format("woff"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-	font-family: "HyundaiSansHead";
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Light.eot");
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Light.eot?#iefix") format("embedded-opentype"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Light.woff2") format("woff2"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Light.woff") format("woff"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Light.ttf") format("truetype");
-	font-weight: 300;
-	font-style: normal;
+    font-family: "HyundaiSansHead";
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Light.eot");
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Light.eot?#iefix") format("embedded-opentype"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Light.woff2") format("woff2"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Light.woff") format("woff"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
 }
 @font-face {
-	font-family: "HyundaiSansHead";
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Medium.eot");
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Medium.eot?#iefix") format("embedded-opentype"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Medium.woff2") format("woff2"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Medium.woff") format("woff"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Medium.ttf") format("truetype");
-	font-weight: 500;
-	font-style: normal;
+    font-family: "HyundaiSansHead";
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Medium.eot");
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Medium.eot?#iefix") format("embedded-opentype"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Medium.woff2") format("woff2"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Medium.woff") format("woff"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
 }
 @font-face {
-	font-family: "HyundaiSansHead";
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Bold.eot");
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Bold.eot?#iefix") format("embedded-opentype"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Bold.woff2") format("woff2"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Bold.woff") format("woff"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Bold.ttf") format("truetype");
-	font-weight: 700;
-	font-style: normal;
+    font-family: "HyundaiSansHead";
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Bold.eot");
+    src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Bold.eot?#iefix") format("embedded-opentype"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Bold.woff2") format("woff2"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Bold.woff") format("woff"),
+    url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
 }
 /* Copyright (c) 2009, ParaType Ltd. All Rights Reserved. */
 @font-face {
-	font-family: 'PTRoubleSans';
-	src: url('../fonts/PTRoubleSans/PTRoubleSans.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/PTRoubleSans/PTRoubleSans.otf') format('opentype'),
-		 url('../fonts/PTRoubleSans/PTRoubleSans.woff') format('woff'),
-		 url('../fonts/PTRoubleSans/PTRoubleSans.ttf')  format('truetype'),
-		 url('../fonts/PTRoubleSans/PTRoubleSans.svg#PTRoubleSans') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'PTRoubleSans';
+    src: url('../fonts/PTRoubleSans/PTRoubleSans.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PTRoubleSans/PTRoubleSans.otf') format('opentype'),
+    url('../fonts/PTRoubleSans/PTRoubleSans.woff') format('woff'),
+    url('../fonts/PTRoubleSans/PTRoubleSans.ttf')  format('truetype'),
+    url('../fonts/PTRoubleSans/PTRoubleSans.svg#PTRoubleSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 .rouble {
-	font-family: 'PTRoubleSans' !important;
-	text-transform: none;
+    font-family: 'PTRoubleSans' !important;
+    text-transform: none;
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -123,8 +123,8 @@ html, body {
     height:100%;
     width:100%;
     color: #333;
-/*     background: #f5f5f5; */
-	background:#efefed;
+    /*     background: #f5f5f5; */
+    background:#efefed;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust:none;
@@ -137,7 +137,7 @@ html, body {
 }
 
 body.main, body.main #wrapper {
-	background: #f5f5f5 !important;
+    background: #f5f5f5 !important;
 }
 /* H Group
 -----------------------------------------------------------*/
@@ -462,18 +462,9 @@ input.error {
     background:#808040;
     position: relative;
 }
-/* Footer
------------------------------------------------------------*/
-#footer{
-    margin:0 auto 0;
-    clear:both;
-}
-.footer-center{
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-    padding: 34px 0 0;
-}
+
+
+
 /* Style guide
 -----------------------------------------------------------*/
 .pic.f-left{
@@ -602,7 +593,7 @@ abbr{
     margin: 15px 0;
     border-left: 5px solid #eee
 }
-.blockquote .small, .blockquote footer, .blockquote small{
+.blockquote .small, .blockquote, .blockquote small{
     display: block;
     font-size: 80%;
     line-height: 1.42857143;
@@ -909,17 +900,17 @@ textarea.input-text{
     height: 30px;
     overflow: hidden;
     opacity: 1;
-      -webkit-transition: opacity 0.2s ease-out;
+    -webkit-transition: opacity 0.2s ease-out;
     -moz-transition: opacity 0.2s ease-out;
     -ms-transition: opacity 0.2s ease-out;
     -o-transition: opacity 0.2s ease-out;
     transition: opacity 0.2s ease-out;
 }
 .header-center-right-btn:hover{
-   /* color: #88c3e8;*/
+    /* color: #88c3e8;*/
     text-decoration: none;
     opacity: 0.5;
-     -webkit-transition: opacity 0.2s ease-out;
+    -webkit-transition: opacity 0.2s ease-out;
     -moz-transition: opacity 0.2s ease-out;
     -ms-transition: opacity 0.2s ease-out;
     -o-transition: opacity 0.2s ease-out;
@@ -950,7 +941,7 @@ textarea.input-text{
 }
 
 .header-center-left-btn{
-     display: inline-block;
+    display: inline-block;
     text-decoration: none;
     color: #555555;
     -webkit-transition: opacity 0.2s ease-out;
@@ -970,7 +961,7 @@ textarea.input-text{
     text-decoration: none;
     color: #555555;
     opacity: 1;
-      -webkit-transition: opacity 0.2s ease-out;
+    -webkit-transition: opacity 0.2s ease-out;
     -moz-transition: opacity 0.2s ease-out;
     -ms-transition: opacity 0.2s ease-out;
     -o-transition: opacity 0.2s ease-out;
@@ -1019,7 +1010,7 @@ textarea.input-text{
     height: 15px;
     width: 15px;
     overflow: hidden;
-     opacity: 1;
+    opacity: 1;
     -webkit-transition: opacity 0.2s ease-out;
     -moz-transition: opacity 0.2s ease-out;
     -ms-transition: opacity 0.2s ease-out;
@@ -1111,7 +1102,7 @@ input.user-bar-search-input:focus{
 }
 .user-bar-nav-item-link.active{
     cursor: default;
-     color: #a4a4a4;
+    color: #a4a4a4;
 }
 .main-slideshow{
     position: relative;
@@ -1177,23 +1168,23 @@ input.user-bar-search-input:focus{
     left: -80px;
     cursor: pointer;
     z-index:101;
-     overflow: hidden;
-     width:27px;
+    overflow: hidden;
+    width:27px;
     height: 45px;
     margin-top: -22px;
-   -webkit-transition: all 0.6s ease-out;
+    -webkit-transition: all 0.6s ease-out;
     -moz-transition: all 0.6s ease-out;
     -ms-transition: all 0.6s ease-out;
     -o-transition: all 0.6s ease-out;
     transition: all 0.6s ease-out;
 }
 .main-slideshow:hover .main-slideshow-prev{
-   -webkit-transition: all 0.6s ease-out;
+    -webkit-transition: all 0.6s ease-out;
     -moz-transition: all 0.6s ease-out;
     -ms-transition: all 0.6s ease-out;
     -o-transition: all 0.6s ease-out;
     transition: all 0.6s ease-out;
-     left: 35px;
+    left: 35px;
 }
 .main-slideshow-next{
     position: absolute;
@@ -1201,11 +1192,11 @@ input.user-bar-search-input:focus{
     right: -80px;
     cursor: pointer;
     z-index:101;
-     overflow: hidden;
-     width:27px;
+    overflow: hidden;
+    width:27px;
     height: 45px;
-     margin-top: -22px;
-   -webkit-transition: all 0.6s ease-out;
+    margin-top: -22px;
+    -webkit-transition: all 0.6s ease-out;
     -moz-transition: all 0.6s ease-out;
     -ms-transition: all 0.6s ease-out;
     -o-transition: all 0.6s ease-out;
@@ -1217,7 +1208,7 @@ input.user-bar-search-input:focus{
     -ms-transition: all 0.6s ease-out;
     -o-transition: all 0.6s ease-out;
     transition: all 0.6s ease-out;
-     right: 35px;
+    right: 35px;
 }
 .main-slideshow-prev-ico{
     vertical-align: middle;
@@ -1290,7 +1281,7 @@ input.user-bar-search-input:focus{
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-     -webkit-transition: opacity 0.2s ease-out;
+    -webkit-transition: opacity 0.2s ease-out;
     -moz-transition: opacity 0.2s ease-out;
     -ms-transition: opacity 0.2s ease-out;
     -o-transition: opacity 0.2s ease-out;
@@ -1330,7 +1321,7 @@ input.user-bar-search-input:focus{
     line-height: 22px;
     display: block;
     text-decoration: none;
-     -webkit-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
@@ -1394,7 +1385,7 @@ input.user-bar-search-input:focus{
     transition: all 0.2s ease-out;
     color: #fff;
     font-size: 12px;
-     font-family:'Arial Black',sans-serif;
+    font-family:'Arial Black',sans-serif;
     line-height: 16px;
     vertical-align: middle;
 }
@@ -1437,17 +1428,17 @@ input.user-bar-search-input:focus{
     height: 18px;
 }
 .all-link-item:first-child{
-/*     margin-top: -18px; */
+    /*     margin-top: -18px; */
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
-     -webkit-transition: opacity 0.2s ease-out;
+    -webkit-transition: opacity 0.2s ease-out;
     -moz-transition: opacity 0.2s ease-out;
     -ms-transition: opacity 0.2s ease-out;
     -o-transition: opacity 0.2s ease-out;
     transition: opacity 0.2s ease-out;
-     color: #88c3e8;
+    color: #88c3e8;
 }
 .all-link i{
     vertical-align: baseline;
@@ -1455,7 +1446,7 @@ input.user-bar-search-input:focus{
 }
 .all-link:hover{
     text-decoration: none;
-     -webkit-transition: opacity 0.2s ease-out;
+    -webkit-transition: opacity 0.2s ease-out;
     -moz-transition: opacity 0.2s ease-out;
     -ms-transition: opacity 0.2s ease-out;
     -o-transition: opacity 0.2s ease-out;
@@ -1464,7 +1455,7 @@ input.user-bar-search-input:focus{
     color: #1b8cd6;
 }
 .all-link--mod:hover{
-     opacity:1;
+    opacity:1;
     -webkit-transition: color 0.2s ease-out;
     -moz-transition: color 0.2s ease-out;
     -ms-transition: color 0.2s ease-out;
@@ -1475,7 +1466,7 @@ input.user-bar-search-input:focus{
 .all-link:hover .all-link-item:first-child{
     display: block;
     opacity: 1;
-     -webkit-transition: opacity 0.2s ease-out;
+    -webkit-transition: opacity 0.2s ease-out;
     -moz-transition: opacity 0.2s ease-out;
     -ms-transition: opacity 0.2s ease-out;
     -o-transition: opacity 0.2s ease-out;
@@ -1496,7 +1487,7 @@ input.user-bar-search-input:focus{
     padding: 44px 0 36px;
 }
 .events-center-head{
-	color: #fff;
+    color: #fff;
     font-family:'HyundaiSansHead',sans-serif;
     font-size: 42px;
     line-height: 1;
@@ -1527,7 +1518,7 @@ input.user-bar-search-input:focus{
     text-transform: uppercase;
     color: #fff;
     font-size: 12px;
-   font-family:'Arial Black',sans-serif;
+    font-family:'Arial Black',sans-serif;
     text-align: center;
 }
 .datepicker-head-left{
@@ -1591,7 +1582,7 @@ input.user-bar-search-input:focus{
     font-weight:normal;
 }
 .datepicker-body td{
-     text-align: center;
+    text-align: center;
     color: #fff;
     padding: 3px 5px 4px;
     vertical-align: middle;
@@ -1614,7 +1605,7 @@ input.user-bar-search-input:focus{
     cursor: default;
 }
 .changeday {
-	cursor: pointer !important;
+    cursor: pointer !important;
 }
 .datepicker-body-item--prev{
     border-color: #fff;
@@ -1646,7 +1637,7 @@ input.user-bar-search-input:focus{
     cursor: default !important;
 }
 .datepicker-body-item--active{
-     border-color: #1d88cd;
+    border-color: #1d88cd;
     background: #1d88cd;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -1657,7 +1648,7 @@ input.user-bar-search-input:focus{
     cursor: default;
 }
 .datepicker-body-item--next{
-     border-color: #1d82c5;
+    border-color: #1d82c5;
     cursor: pointer;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -1709,8 +1700,8 @@ input.user-bar-search-input:focus{
 }
 .events-item:hover{
     text-decoration: none;
-/*     color: #595959; */
-	color: #909090;
+    /*     color: #595959; */
+    color: #909090;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
@@ -1723,16 +1714,16 @@ input.user-bar-search-input:focus{
     font-size: 14px;
     line-height: 18px;
     font-family:'Arial Black',sans-serif;
-     -webkit-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
 .events-item:hover .events-item-head{
-/*     color: #0a4165; */
-	color: #1f567e;
-     -webkit-transition: all 0.2s ease-out;
+    /*     color: #0a4165; */
+    color: #1f567e;
+    -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
@@ -1746,15 +1737,15 @@ input.user-bar-search-input:focus{
     font-size: 13px;
     line-height: 18px;
     font-family:'Arial Black',sans-serif;
-     -webkit-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
 .events-item:hover .events-item-foot{
-/*     color: #5d5c5c; */
-	color: #707070;
+    /*     color: #5d5c5c; */
+    color: #707070;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
@@ -1770,9 +1761,9 @@ input.user-bar-search-input:focus{
     transition: all 0.2s ease-out;
 }
 .events-item:hover .events-item-foot .i-0019-clock-icon{
-/*    background-position: -2px -411px; */
-	opacity: 0.3;
-	-webkit-transition: all 0.2s ease-out;
+    /*    background-position: -2px -411px; */
+    opacity: 0.3;
+    -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
@@ -1924,7 +1915,7 @@ input.user-bar-search-input:focus{
     color: #fff;
 }
 .all-link--mod .all-link-item:first-child{
-     color: #fff;
+    color: #fff;
 }
 .technologies{
     position: relative;
@@ -1971,7 +1962,7 @@ input.user-bar-search-input:focus{
 }
 .btn-play .btn-play-item{
     display: block;
-     opacity: 0.7;
+    opacity: 0.7;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
@@ -1980,13 +1971,13 @@ input.user-bar-search-input:focus{
 }
 .btn-play .btn-play-item:first-child{
 
-/*
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-*/
+    /*
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -ms-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    */
 }
 .btn-play:hover .btn-play-item{
     opacity: 1;
@@ -2091,26 +2082,26 @@ input.user-bar-search-input:focus{
     overflow: hidden;
 }
 .technologies-prev{
-     cursor: pointer;
+    cursor: pointer;
     height: 42px;
     left: 35px;
     margin-top: -22px;
     overflow: hidden;
     position: absolute;
     top: 50%;
-/*     transition: all 0.6s ease-out 0s; */
+    /*     transition: all 0.6s ease-out 0s; */
     width: 23px;
     z-index: 101;
 }
 .technologies-next{
-     cursor: pointer;
+    cursor: pointer;
     height: 42px;
     right: 35px;
     margin-top: -22px;
     overflow: hidden;
     position: absolute;
     top: 50%;
-/*     transition: all 0.6s ease-out 0s; */
+    /*     transition: all 0.6s ease-out 0s; */
     width: 23px;
     z-index: 101;
 }
@@ -2122,22 +2113,22 @@ input.user-bar-search-input:focus{
     top: 0;
     left: 0;
     opacity: 0;
-     -webkit-transition: opacity 0.2s ease-out;
+    -webkit-transition: opacity 0.2s ease-out;
     -moz-transition: opacity 0.2s ease-out;
     -ms-transition: opacity 0.2s ease-out;
     -o-transition: opacity 0.2s ease-out;
     transition: opacity 0.2s ease-out;
-/*
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-*/
+    /*
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -ms-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    */
 }
 .technologies-prev:hover i:first-child, .technologies-next:hover i:first-child{
-   opacity: 1;
-     -webkit-transition: opacity 0.2s ease-out;
+    opacity: 1;
+    -webkit-transition: opacity 0.2s ease-out;
     -moz-transition: opacity 0.2s ease-out;
     -ms-transition: opacity 0.2s ease-out;
     -o-transition: opacity 0.2s ease-out;
@@ -2198,50 +2189,34 @@ input.user-bar-search-input:focus{
 .site-nav-center-item-link-item{
     height: 110px;
     position: relative;
-/*
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-*/
+    /*
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -ms-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    */
     padding-top: 23px;
 }
 .site-nav-center-item-link-item{
     padding-top: 23px;
 }
 .site-nav-center-item-link:hover .site-nav-center-item-link-item{
-     top: 0;
-/*
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-*/
+    top: 0;
+    /*
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -ms-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    */
 }
 .site-nav-center-item-link-item-pic{
     height: 46px;
 }
-.footer-center-nav-head{
-    text-transform: uppercase;
-    font-family:'HyundaiSans', sans-serif;
-    font-weight: 600;
-    color: #555555;
-    font-size: 14px;
-    margin-bottom: 14px;
-}
-.footer-center-nav-head a{
-   color: #555555;
-}
-.footer-center-nav-head a:hover{
-    text-decoration: none;
-    color: #0066a9;
-}
-.footer-center-nav{
-    padding:0 26px;
-    margin-bottom: 10px;
-}
+
+
+
 .f-row-item-list{
     margin: 0;
     padding: 0;
@@ -2258,19 +2233,8 @@ input.user-bar-search-input:focus{
     text-decoration: underline;
     color: #888888;
 }
-.footer-center-line{
-    clear: both;
-    margin: 10px 0 14px;
-    height: 1px;
-    overflow: hidden;
-    background: #e9e9e9;
-}
-.footer-center-call{
-    padding-left: 24px;
-    margin-bottom: 28px;
-    margin-top: 14px;
 
-}
+
 .lang .ico-arr-b-h{
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -2287,123 +2251,9 @@ input.user-bar-search-input:focus{
     transition: all 0.2s ease-out;
     opacity: 1;
 }
-.footer-center-call-right-btn{
-    color: #888888;
-    display: inline-block;
-    font-family: 'Arial Black',Arial,sans-serif;
-    font-size: 11px;
-    height: 32px;
-    line-height: 18px;
-    margin-right: 45px;
-    overflow: hidden;
-    text-decoration: none;
-    cursor: pointer;
-    text-transform: uppercase;
-    vertical-align: middle;
-     -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-}
-.footer-center-call-right-btn:hover{
-    color: #1d88cd;
-    text-decoration: none;
-     -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-}
-.footer-center-call-right-btn-item{
-    display: block;
-/*
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-*/
-    height:32px;
-}
-.footer-center-call-right-btn-item:first-child{
-}
-.footer-center-call-right-btn-item i{
-    margin-right: 5px;
-}
-.footer-center-call-right-btn:hover .footer-center-call-right-btn-item:first-child{
-    margin-top: 0;
-/*
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-*/
-}
-.footer-center-call-right{
-    position: relative;
-    float: right;
-}
-.footer-center-call-text{
-    margin-right: 63px;
-    font-family: "HyundaiSans",sans-serif;
-    color: #555555;
-    font-size: 14px;
-}
-.footer-center-call-text-phone{
-    font-size: 22px;
-}
-.footer-center-call-right-btn:last-child{
-    margin-right: 0;
-}
-.footer-center-banner{
-    margin: 22px 0;
-}
-.footer-center-banner img{
-    max-width: 100%;
-    vertical-align: middle;
-}
-.footer-center-copy{
-    font-size: 11px;
-    color: #b6b6b6;
-    margin: 22px 25px 25px;
-    line-height: 18px;
-    text-align: justify;
-}
-.footer-center-foot{
-    padding: 5px 25px 8px;
-}
-.footer-center-foot-nav{
-    position: relative;
-    float: right;
-    color: #a6a6a6;
-    font-size: 11px;
-}
-.footer-center-foot-nav-item{
-    color: #a6a6a6;
-/*
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-*/
-}
-.footer-center-foot-nav-item:hover{
-    color: #555555;
-    text-decoration: none;
-/*
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-*/
-}
-.footer-center-foot-nav-sep{
-    margin: 0 3px;
-}
+
+
+
 .ico-arr-b{
     display: inline-block;
     width: 7px;
@@ -2509,14 +2359,8 @@ input.user-bar-search-input:focus{
 .socialIconsHeader a span.vk {
     background-position: -24px 0px;
 }
-.footer-center-foot-left-social{
-    float: left;
-    margin-top: -6px;
-}
-.footer-center-foot-left{
-    float: left;
-    margin-right: 51px;
-}
+
+
 .socialIconsHeader a span:hover{
     background-position:0 24px;
 }
@@ -2562,7 +2406,7 @@ input.user-bar-search-input:focus{
 .i-0012-icon-2 { background-position: -2px -252px; width: 40px; height: 40px; }
 .i-0013-icon-1 { background-position: -44px -252px; width: 40px; height: 34px; }
 .i-0011-icon-3 { background-position: -44px -288px; width: 39px; height: 39px; }
-.i-0008-mail-icon { background-position: -86px -252px; width: 32px; height: 32px; }
+.i-0008-mail-icon { background-position: -86px -252px; width: 32px; height: 32px; margin-right: 10px;}
 .i-0009-phone-icon { background-position: -86px -286px; width: 32px; height: 32px; }
 .i-0010-icon-4 { background-position: -2px -294px; width: 31px; height: 39px; }
 .i-0001-test-drive-icon { background-position: -85px -320px; width: 30px; height: 30px; }
@@ -2591,9 +2435,9 @@ input.user-bar-search-input:focus{
 .i-0025-arrow-icon { background-position: -35px -316px; width: 6px; height: 9px; }
 /* 13th of may, 2016 */
 .i-spec-offers-icon {
-	background: url('/media/img_new/i-spec-offers-icon.png') no-repeat center top;
-	display: inline-block;
-	vertical-align: middle;
+    background: url('/media/img_new/i-spec-offers-icon.png') no-repeat center top;
+    display: inline-block;
+    vertical-align: middle;
     height: 30px;
     width: 30px;
 }
@@ -2616,7 +2460,7 @@ input.user-bar-search-input:focus{
 }
 
 @media only screen  and (max-width: 1180px){
-	.banners-item{
+    .banners-item{
         height: 230px;
         width: 50%;
     }
@@ -2640,42 +2484,42 @@ only screen and (min-device-pixel-ratio: 1.5) {}
 
 
 .gnb_layer .showroom .list > ul {
-	background: url(/media/img/vehicle-listing-bg.png);
-	background-position: 0px 45px; }
+    background: url(/media/img/vehicle-listing-bg.png);
+    background-position: 0px 45px; }
 
 .gnb_layer .showroom .list li {
-	width: 145px;
-	height: 130px;
-	list-style: none outside none;
+    width: 145px;
+    height: 130px;
+    list-style: none outside none;
 }
 
 .gnb_layer .showroom .list li img {
-	height: auto;
-	width: 176px;
-	margin-left: -20px;
-	margin-top: -6px;
+    height: auto;
+    width: 176px;
+    margin-left: -20px;
+    margin-top: -6px;
 }
 
 
 .showroom .tab {
-	display: none;
+    display: none;
 }
 
 #showroomAll li a span {
-	color: #888;
-	font-weight: bold;
-	-webkit-transition: 0.2s ease 0s;
-	-moz-transition: 0.2s ease 0s;
-	-o-transition: 0.2s ease 0s;
-	transition: 0.2s ease 0s;
+    color: #888;
+    font-weight: bold;
+    -webkit-transition: 0.2s ease 0s;
+    -moz-transition: 0.2s ease 0s;
+    -o-transition: 0.2s ease 0s;
+    transition: 0.2s ease 0s;
 }
 
 #showroomAll li a:hover span {
-	color: #000;
+    color: #000;
 }
 
 #gnbShowroom {
-	padding-bottom: 0px !important;
+    padding-bottom: 0px !important;
 }
 
 /* Стырено из большого старого файла стилей */
@@ -2934,71 +2778,71 @@ only screen and (min-device-pixel-ratio: 1.5) {}
 
 }
 .gnb_layer.gnb_layer--redesign .layer_body {
-	padding: 0 28px;
+    padding: 0 28px;
 }
 .gnb_layer.gnb_layer--redesign .services {
-	width: 100%;
+    width: 100%;
 }
 
 .gnb_layer.gnb_layer--redesign .ub-items {
-	width: 100%;
-	margin: 15px 0;
-	padding: 0;
-	display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 0;
+    display: block;
 }
 .gnb_layer.gnb_layer--redesign .ub-items::after {
-	clear: both;
-	content: "";
-	display: table;
+    clear: both;
+    content: "";
+    display: table;
 }
 .gnb_layer.gnb_layer--redesign .ub-item {
-	float: left;
-	width: 25%;
-	margin-bottom: 17px;
+    float: left;
+    width: 25%;
+    margin-bottom: 17px;
 }
 .gnb_layer.gnb_layer--redesign .ub-item-link {
-	text-decoration: none;
-	display: block;
-	height: 75px;
-	padding: 10px 0 10px 2px;
+    text-decoration: none;
+    display: block;
+    height: 75px;
+    padding: 10px 0 10px 2px;
 }
 .gnb_layer.gnb_layer--redesign .ub-item__name {
-	display: inline-block;
-	color: #2f2f2f;
-	font-size: 13px;
-	line-height: 20px;
-	letter-spacing: .5px;
-	font-family: 'HyundaiSans';
-	vertical-align: middle;
-	max-width: 135px;
+    display: inline-block;
+    color: #2f2f2f;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: .5px;
+    font-family: 'HyundaiSans';
+    vertical-align: middle;
+    max-width: 135px;
 }
 .gnb_layer.gnb_layer--redesign .ub-item__icon {
-	display: inline-block;
-	vertical-align: middle;
-	height: 54px;
-	width: 54px;
-	margin-right: 13px;
-	border-radius: 50%;
-	position: relative;
-	background-color: #f0f0f1;
-	-ms-transition:		background .1s ease-out 0s;
-	-moz-transition:	background .1s ease-out 0s;
-	-webkit-transition: background .1s ease-out 0s;
-	transition: 		background .1s ease-out 0s;
+    display: inline-block;
+    vertical-align: middle;
+    height: 54px;
+    width: 54px;
+    margin-right: 13px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #f0f0f1;
+    -ms-transition:		background .1s ease-out 0s;
+    -moz-transition:	background .1s ease-out 0s;
+    -webkit-transition: background .1s ease-out 0s;
+    transition: 		background .1s ease-out 0s;
 }
 .gnb_layer.gnb_layer--redesign .ub-item__icon::after {
-	content: '';
-	background: url('/media/img_new/user-bar-service.png') no-repeat 0 0;
-	overflow: hidden;
-	width: 30px;
-	height: 35px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-ms-transform:		translate(-50%, -50%);
-	-moz-transform:		translate(-50%, -50%);
-	-webkit-transform:	translate(-50%, -50%);
-	transform:			translate(-50%, -50%);
+    content: '';
+    background: url('/media/img_new/user-bar-service.png') no-repeat 0 0;
+    overflow: hidden;
+    width: 30px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform:		translate(-50%, -50%);
+    -moz-transform:		translate(-50%, -50%);
+    -webkit-transform:	translate(-50%, -50%);
+    transform:			translate(-50%, -50%);
 }
 .ub-item.ub-item--owners 		.ub-item__icon::after {background-position: 0 3px;}
 .ub-item.ub-item--warranty 		.ub-item__icon::after {background-position: -30px 3px;}
@@ -3022,47 +2866,20 @@ only screen and (min-device-pixel-ratio: 1.5) {}
 .ub-item.ub-item--best:hover 			.ub-item__icon::after {background-position: -242px -35px;}
 
 .gnb_layer.gnb_layer--redesign .ub-item:hover .ub-item-link {
-	text-decoration: none;
+    text-decoration: none;
 }
 .gnb_layer.gnb_layer--redesign .ub-item:hover .ub-item__icon {
-	background-color: #1d88cd;
+    background-color: #1d88cd;
 }
 .gnb_layer.gnb_layer--redesign .layer_foot {
-	width: 100%;
-	text-align: center;
-	height: auto;
+    width: 100%;
+    text-align: center;
+    height: auto;
 }
-.user-bar-footer-link {
-	color: #1d88cd;
-	font-family: 'Arial Black', sans-serif;
-	font-size: 11px;
-	display: inline-block;
-	text-transform: uppercase;
-	text-decoration: none;
-	-ms-transition:		color .1s ease-out 0s;
-	-moz-transition:	color .1s ease-out 0s;
-	-webkit-transition: color .1s ease-out 0s;
-	transition: 		color .1s ease-out 0s;
-	margin-bottom: 35px;
-	position: relative;
-}
-.user-bar-footer-link::after {
-	position: relative;
-	display: inline-block;
-	content: '';
-	width: 5px;
-	height: 8px;
-	margin-left: 5px;
-	background: url('/media/img_new/sprite.png') no-repeat 0 -464px;
-}
-.user-bar-footer-link:hover {
-	text-decoration: none;
-	color: #2aaafc;
-}
-.user-bar-footer-link:hover::after {
-	background-position: -5px -464px;
-}
-/* //new service user-bar */
+
+
+
+
 
 .menuPrice {
     font-size: 10px !important;
@@ -3173,7 +2990,7 @@ only screen and (min-device-pixel-ratio: 1.5) {}
     outline: none !important;
 }
 .zing_rules_agree_cb.error{
-	outline: none !important;
+    outline: none !important;
 }
 .zing_txt.valid {
     background-color: #eaffea;
@@ -3292,10 +3109,10 @@ a.zingaya_button1370324828422 {
     margin: 0 auto 10px !important;
 }
 .simplemodal-container {
-	line-height: 19px;
+    line-height: 19px;
 }
 .zing_form_toggler, .newsletter_form_toggler {
-	cursor: pointer;
+    cursor: pointer;
 }
 .newsletter_form .btn {
     background-color: #caeaff;
@@ -3310,16 +3127,16 @@ a.zingaya_button1370324828422 {
     width: 100%;
 }
 .newsletter_form label.error {
-	display:none;
+    display:none;
 }
 .newsletter_form .zing_pers_rules_wrp {
-	bottom:125px;
+    bottom:125px;
 }
 .newsletter_form .message {
-	font-weight:700;
-	display:none;
-	padding:100px 0!important;
-	text-align:center;
+    font-weight:700;
+    display:none;
+    padding:100px 0!important;
+    text-align:center;
 }
 .zing_form label.error::after, .zing_form label.error::before {
     border: medium solid transparent;
@@ -3369,26 +3186,21 @@ iframe[height="13"] {display: none;}
 .videoPopup .videoContainer object,
 .videoPopup .videoContainer embed {max-width: 100%;}
 .videoPopup .videoContainer iframe {position: relative;top: 50px;height: 560px;}
- /* // video popup */
+/* // video popup */
 
-.p_div {
-	color: #999;
-	font-size: 10px;
-	cursor: pointer;
-	float: left;
-	margin-left: 400px;
-}
+
+
 
 .p_div span {
-	display: none;
+    display: none;
 }
 
 .p_div > span:first-of-type {
-	display: inline;
+    display: inline;
 }
 
 .p_div.active span {
-	display: inline !important;
+    display: inline !important;
 }
 
 .technologies-controls{
@@ -3399,8 +3211,8 @@ iframe[height="13"] {display: none;}
 }
 
 .mt14 {
-	margin-top: 14px !important;
-	margin-bottom: 3px;
+    margin-top: 14px !important;
+    margin-bottom: 3px;
 }
 
 .news-center-table{
@@ -3422,24 +3234,24 @@ iframe[height="13"] {display: none;}
 }
 
 .sale {
-	font-size:10px;
-	display:inline-block;
-	padding:0 3px;
-	color:#FFF!important;
-	background:#C7141C;
+    font-size:10px;
+    display:inline-block;
+    padding:0 3px;
+    color:#FFF!important;
+    background:#C7141C;
 }
 
 .b-news-view a {
-	text-decoration: underline !important;
+    text-decoration: underline !important;
 }
 
 .b-news-view a:hover {
-	text-decoration: none !important;
+    text-decoration: none !important;
 }
 .favourite-block {
-	position: relative;
-	height: 46px;
-	background: url('/media/img_new/favourite-block-bg.jpg') repeat-x center center;
+    position: relative;
+    height: 46px;
+    background: url('/media/img_new/favourite-block-bg.jpg') repeat-x center center;
 }
 .favourite-block .favourite-block-container {
     color: #fff;
@@ -3450,7 +3262,7 @@ iframe[height="13"] {display: none;}
 }
 .favourite-block .favourite-block__txt,
 .favourite-block .favourite-block__img {
-	display: inline-block;
+    display: inline-block;
 }
 .favourite-block .favourite-block__img {
     padding: 0 0 0 15px;
@@ -3460,40 +3272,40 @@ iframe[height="13"] {display: none;}
 
 
 .car-year-logo {
-	position: absolute;
+    position: absolute;
 
-	left: 290px;
-	top: 104px;
-	width: 145px;
-	height: 51px;
-	background: url('/media/img_new/car_year_logo.png') no-repeat center center;
+    left: 290px;
+    top: 104px;
+    width: 145px;
+    height: 51px;
+    background: url('/media/img_new/car_year_logo.png') no-repeat center center;
 }
 
 #leftlink {
-	width: 250px;
-	height: 215px;
-	position: absolute;
-	left: 50%;
-	margin-left: -510px;
-	top: 135px;
-	cursor: pointer;
-	z-index: 100;
+    width: 250px;
+    height: 215px;
+    position: absolute;
+    left: 50%;
+    margin-left: -510px;
+    top: 135px;
+    cursor: pointer;
+    z-index: 100;
 }
 
 #rightlink {
-	width: 179px;
-	height: 50px;
-	position: absolute;
-	left: 50%;
-	top: 264px;
-	margin-left: 224px;
-	background: url(/media/img_new/banner-button.png) no-repeat center top;
-	cursor: pointer;
-	z-index: 100;
+    width: 179px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 264px;
+    margin-left: 224px;
+    background: url(/media/img_new/banner-button.png) no-repeat center top;
+    cursor: pointer;
+    z-index: 100;
 }
 
 #rightlink:hover {
-	background-position: center bottom;
+    background-position: center bottom;
 }
 
 
@@ -3517,11 +3329,11 @@ iframe[height="13"] {display: none;}
 }
 
 .i-0030-auto-icon.service {
-	background: url('/media/img_new/instruments_1.png') no-repeat center center;
+    background: url('/media/img_new/instruments_1.png') no-repeat center center;
 }
 
 .i-0030-auto-icon:hover.service {
-	background: url('/media/img_new/instruments_2.png') no-repeat center center;
+    background: url('/media/img_new/instruments_2.png') no-repeat center center;
 }
 
 
@@ -4160,6 +3972,8 @@ a.zingaya_button1370324828422 {
 .content-wrap.text-index-block{
     background: #fff;
     padding: 15px;
+    width: 940px;
+    margin: auto;
 }
 
 .content-wrap.text-index-block h1{
