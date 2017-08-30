@@ -6,7 +6,7 @@ $(document).ready(function(){
 		$.post('/requestnew/getCalendar', false, function(res){
 			$('#calendar').replaceWith(res);
 		});
-	
+
 	
 	
 	// Обработчик переключения месяца	
