@@ -7,11 +7,8 @@ $(document).ready(function(){
 			$('#calendar').replaceWith(res);
 		});
 
-<<<<<<< HEAD
-=======
 
 	
->>>>>>> 65e2384e4b50b2e771d9064744d8b8a0403576fc
 	
 	
 	// Обработчик переключения месяца	
