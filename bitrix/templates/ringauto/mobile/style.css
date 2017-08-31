@@ -20,7 +20,7 @@ em { font-style: italic }
 .no-bottom{margin-bottom:0px;}
 .no-padding{padding:0px;}
 .margin-t{margin-top:22px;}
-div { position:relative } 
+.mobile-menu div { position:relative }
 a{text-decoration:none;}
 a:hover{text-decoration:underline;}
 a:active,a:focus{outline: none;}
