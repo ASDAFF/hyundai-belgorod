@@ -334,7 +334,7 @@ $APPLICATION->SetTitle("NewSolaris");
             <div class="container">
                 <div class="fast-menu is-expanded" role="navigation">
                     <a href="#" role="button" class="fast-menu-button fast-menu-button--parent" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" class="svg fast-menu-car"><use xlink:href="#fast-menu-car"></use></svg><svg xmlns="http://www.w3.org/2000/svg" class="svg fast-menu-close"><use xlink:href="#fast-menu-close"></use></svg></a>
-                    <a href="/test-drive?old_car_id=200" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Тест-драйв</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-test-drive"></use></svg></a>
+                    <a href="/test-drive?old_car_id=200" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text zing_form_toggler_spec" for="testdrive">Тест-драйв</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-test-drive"></use></svg></a>
                     <a href="http://www.hyundai.ru/configurator/car?compl_id=379&packets=" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Конфигуратор</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-config"></use></svg></a>
                     <a href="/find-dealer" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Дилеры</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-dealers"></use></svg></a>
                 </div>
