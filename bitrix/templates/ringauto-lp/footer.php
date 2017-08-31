@@ -1,9 +1,10 @@
 <? if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 IncludeTemplateLangFile(__FILE__); ?>
 
+
 <?
 $ar = desc_model_to_url($APPLICATION->GetCurPage());
-if(!empty($ar['IMG_SLIDE'])){
+if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
     $APPLICATION->IncludeFile("/include/model-slider-all.php", Array(
         "RESULT" => $ar
     ));
