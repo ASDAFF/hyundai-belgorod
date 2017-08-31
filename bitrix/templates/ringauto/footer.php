@@ -18,87 +18,83 @@ if(!empty($ar['IMG_SLIDE'])){
             <nav class="footer-nv" role="navigation">
                 <ul class="footer-nv__cont">
                     <li class="footer-nv__c">
-                        <strong class="footer-nv__c-header">Финансы и услуги</strong>
+                        <strong class="footer-nv__c-header">Покупателю</strong>
                         <ul class="footer-nv__c-list">
-                            <li class="footer-nv__c-list-i"><a href="/finance/we-have/" class="footer-nv__c-list-lnk">Автомобили в наличии</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/callback/" class="footer-nv__c-list-lnk">Обратный звонок</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/finance/test-drive/" class="footer-nv__c-list-lnk">Тест-драйв</a></li>
+
                             <li class="footer-nv__c-list-i"><a href="/configurator/" class="footer-nv__c-list-lnk">Конфигуратор</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/finance/" class="footer-nv__c-list-lnk">Автострахование</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/finance/region_client/" class="footer-nv__c-list-lnk">Региональным клиентам</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/online/" class="footer-nv__c-list-lnk">Оцените Ваш автомобиль</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/credit/" class="footer-nv__c-list-lnk">Онлайн расчёт кредита</a></li>
+                            <li class="footer-nv__c-list-i"><a href="#" class="footer-nv__c-list-lnk models-open">Модельный ряд</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/configurator/" class="footer-nv__c-list-lnk">Расчет кредита</a></li>
+
                         </ul>
                     </li>
                     <li class="footer-nv__c">
                         <strong class="footer-nv__c-header">Сервис</strong>
                         <ul class="footer-nv__c-list">
-                            <li class="footer-nv__c-list-i"><a href="/service/warranty/" class="footer-nv__c-list-lnk">Гарантия</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/service/accessories/" class="footer-nv__c-list-lnk">Дополнительное оборудование</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/service/passage/" class="footer-nv__c-list-lnk">Техническое обслуживание</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/service/booking/" class="footer-nv__c-list-lnk">Запись на сервис</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/service/doverennost/" class="footer-nv__c-list-lnk">Доверенность</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/service/service-promo-1/" class="footer-nv__c-list-lnk">Лучшее для своих</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/specactions/service/" class="footer-nv__c-list-lnk">Специальные предложения сервиса</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/service/roadside-assistance/" class="footer-nv__c-list-lnk">Помощь на дороге</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/service/ckr/" class="footer-nv__c-list-lnk">Кузовной ремонт</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/all-offers/" class="footer-nv__c-list-lnk">Сервисные акции</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/warranty/" class="footer-nv__c-list-lnk">Гарантия</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/maintenance/" class="footer-nv__c-list-lnk">Обслуживание</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/HyundaiAssurance/" class="footer-nv__c-list-lnk">Premium Assurance</a></li>
                         </ul>
                     </li>
                     <li class="footer-nv__c">
-                        <strong class="footer-nv__c-header">Новости</strong>
+                        <strong class="footer-nv__c-header">Медиа-центр</strong>
                         <ul class="footer-nv__c-list">
-                            <li class="footer-nv__c-list-i"><a href="/news/" class="footer-nv__c-list-lnk">Новости Hyundai</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/specactions/service/" class="footer-nv__c-list-lnk">Специальные предложения сервиса</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/finance/we-have/" class="footer-nv__c-list-lnk">Автомобили в наличии</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/news/" class="footer-nv__c-list-lnk">Новости</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/press-release/" class="footer-nv__c-list-lnk">Пресс-релизы</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/HyundaiMotorWorldmagazine/" class="footer-nv__c-list-lnk">Hyundai Motor CIS</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/awards/" class="footer-nv__c-list-lnk">Награды</a></li>
                         </ul>
                     </li>
                     <li class="footer-nv__c">
-                        <strong class="footer-nv__c-header">О компании</strong>
+                        <strong class="footer-nv__c-header">О hyundai</strong>
                         <ul class="footer-nv__c-list">
-                            <li class="footer-nv__c-list-i"><a href="/company/" class="footer-nv__c-list-lnk">О компании</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/company/team/" class="footer-nv__c-list-lnk">Наша команда</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/company/history/" class="footer-nv__c-list-lnk">История Hyundai</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/company/contacts/" class="footer-nv__c-list-lnk">Контакты</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/company/vacancy/" class="footer-nv__c-list-lnk">Вакансии</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/AboutUs/" class="footer-nv__c-list-lnk">Хендэ Мотор СНГ</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/IntroductoryRemarks/" class="footer-nv__c-list-lnk">Социальная ответственность</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/XMMP/" class="footer-nv__c-list-lnk">Завод ХММР</a></li>
+                            <li class="footer-nv__c-list-i"><noindex><a href="http://motorsport.hyundai.com/en/main" class="footer-nv__c-list-lnk">World Rally Championship</a></noindex></li>
+                            <li class="footer-nv__c-list-i"><noindex><a href="http://motorstudio.hyundai.ru/" class="footer-nv__c-list-lnk">Hyundai MotorStudio</a></noindex></li>
+                            <li class="footer-nv__c-list-i"><noindex><a href="http://worldwide.hyundai.com/" class="footer-nv__c-list-lnk">Worldwide</a></noindex></li>
                         </ul>
                     </li>
                     <li class="footer-nv__c">
                         <strong class="footer-nv__c-header">Телефон для связи</strong>
-                        <a href="tel:+74725460022" class="footer-nv__c-phone">+7 4725 46-00-22</a>
+                        <a href="tel:+74732617777" class="footer-nv__c-phone">7 (473) 261-7777</a>
                         <a href="" class="footer-nv__c-mail zing_form_back_tel" for="feedback_home"><i class="i-0008-mail-icon"></i>Обратная связь</a>
-                        <div id="socialmedia" class="nofloat">	<ul class="socials-list socials-list--footer-primary">
-                                <li class="social-item">
-                                    <noindex>
-                                        <a rel="nofollow" target="_blank" href="https://www.facebook.com/hyundairussia" class="socials-link socials-link--tw" title="Страница Facebook" style="background-image: url(/_img/socialmedia/facebook.png);"></a>
-                                    </noindex>
-                                </li>
-                                <li class="social-item">
-                                    <noindex>
-                                        <a rel="nofollow" target="_blank" href="https://vk.com/hyundairussia" class="socials-link socials-link--tw" title="Страница Вконтакте" style="background-image: url(/_img/socialmedia/vk.png);"></a>
-                                    </noindex>
-                                </li>
-                                <li class="social-item">
-                                    <noindex>
-                                        <a rel="nofollow" target="_blank" href="https://twitter.com/HyundaiRussia" class="socials-link socials-link--tw" title="Канал в Twitter" style="background-image: url(/_img/socialmedia/twitter.png);"></a>
-                                    </noindex>
-                                </li>
-                                <li class="social-item">
-                                    <noindex>
-                                        <a rel="nofollow" target="_blank" href="http://instagram.com/hyundairussia" class="socials-link socials-link--tw" title="Канал в Instagram" style="background-image: url(/_img/socialmedia/instagram.png);"></a>
-                                    </noindex>
-                                </li>
-                                <li class="social-item">
-                                    <noindex>
-                                        <a rel="nofollow" target="_blank" href="http://www.youtube.com/hyundairussia" class="socials-link socials-link--tw" title="Канал в YouTube" style="background-image: url(/_img/socialmedia/youtube.png);"></a>
-                                    </noindex>
-                                </li>
-                                <li class="social-item">
-                                    <noindex>
-                                        <a rel="nofollow" target="_blank" href="/company/contacts/" class="socials-link socials-link--tw" title="Напишите нам" style="background-image: url(/_img/socialmedia/email.png);"></a>
-                                    </noindex>
-                                </li>
-                            </ul>
-                        </div>
+
+<!--                        <div id="socialmedia" class="nofloat">	-->
+<!--                            <ul class="socials-list socials-list--footer-primary">-->
+<!--                                <li class="social-item">-->
+<!--                                    <noindex>-->
+<!--                                        <a rel="nofollow" target="_blank" href="https://www.facebook.com/hyundairussia" class="socials-link socials-link--tw" title="Страница Facebook" style="background-image: url(/_img/socialmedia/facebook.png);"></a>-->
+<!--                                    </noindex>-->
+<!--                                </li>-->
+<!--                                <li class="social-item">-->
+<!--                                    <noindex>-->
+<!--                                        <a rel="nofollow" target="_blank" href="https://vk.com/hyundairussia" class="socials-link socials-link--tw" title="Страница Вконтакте" style="background-image: url(/_img/socialmedia/vk.png);"></a>-->
+<!--                                    </noindex>-->
+<!--                                </li>-->
+<!--                                <li class="social-item">-->
+<!--                                    <noindex>-->
+<!--                                        <a rel="nofollow" target="_blank" href="https://twitter.com/HyundaiRussia" class="socials-link socials-link--tw" title="Канал в Twitter" style="background-image: url(/_img/socialmedia/twitter.png);"></a>-->
+<!--                                    </noindex>-->
+<!--                                </li>-->
+<!--                                <li class="social-item">-->
+<!--                                    <noindex>-->
+<!--                                        <a rel="nofollow" target="_blank" href="http://instagram.com/hyundairussia" class="socials-link socials-link--tw" title="Канал в Instagram" style="background-image: url(/_img/socialmedia/instagram.png);"></a>-->
+<!--                                    </noindex>-->
+<!--                                </li>-->
+<!--                                <li class="social-item">-->
+<!--                                    <noindex>-->
+<!--                                        <a rel="nofollow" target="_blank" href="http://www.youtube.com/hyundairussia" class="socials-link socials-link--tw" title="Канал в YouTube" style="background-image: url(/_img/socialmedia/youtube.png);"></a>-->
+<!--                                    </noindex>-->
+<!--                                </li>-->
+<!--                                <li class="social-item">-->
+<!--                                    <noindex>-->
+<!--                                        <a rel="nofollow" target="_blank" href="/company/contacts/" class="socials-link socials-link--tw" title="Напишите нам" style="background-image: url(/_img/socialmedia/email.png);"></a>-->
+<!--                                    </noindex>-->
+<!--                                </li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
                     </li>
                 </ul>
             </nav>
@@ -108,28 +104,22 @@ if(!empty($ar['IMG_SLIDE'])){
                 </div>
             </div>	</div>	<div class="footer-primary__main">
             <div class="footer-global-navigation">
-<span rel="nofollow" class="footer-global-navigation__wwide">
-&copy; 2013-2017 ООО "Бизнес Лига". Все права защищены.
-</span>
+
                 <nav class="footer-global-navigation__cust-nav" role="navigation">
                     <ul class="cust-nav__list">
-                        <li class="cust-nav__item"><a href="/company/" class="cust-nav__link">О компании</a></li>
-                        <li class="cust-nav__item"><a href="/finance/we-have/" class="cust-nav__link">Автомобили в наличии</a></li>
-                        <li class="cust-nav__item"><a href="/company/contacts/" class="cust-nav__link">Контакты</a></li>
+                        <li class="cust-nav__item"><a href="/Sitemap/" class="cust-nav__link">Карта сайта</a></li>
+                        <li class="cust-nav__item"><a href="/Legal/" class="cust-nav__link">Юридическая информация</a></li>
+                        <li class="cust-nav__item"><a href="/Privacy/" class="cust-nav__link">Конфиденциальность</a></li>
+                        <li class="cust-nav__item"><a href="/TermsConditions/" class="cust-nav__link">Авторские права</a></li>
                     </ul>
                 </nav>
             </div>
+
             <div class="footer-copyright">
-                <h4>ООО "Бизнес Лига" - Официальный дилер Hyundai в Старом Осколе.</h4>
-                <p>Продавать хороший товар легко и приятно, особенно, когда это автомобили Hyundai. Нет нужды приукрашивать его динамические качества и просторность. Незачем называть заведомо недосягаемые в реальных условиях показатели расхода топлива, чтобы они не казались заоблачными. Любые приемы и ухищрения ни к чему, когда автомобиль действительно соответствует наивысшим ожиданиям покупателей. Hyundai сегодня - это один из наиболее передовых производителей автомобилей. По количеству премьер ведущий корейский бренд опережает многих конкурентов, активно внедряя программу высокотехнологичного прорыва. Давать покупателю больше всех, и еще немного - это миссия Hyundai, которую с честью несут новые модели, быстро завоевывающие лидерство в своих рыночных сегментах. Цель Hyundai - обеспечить максимум удовольствия от обладания автомобилем. Это касается не только самого авто, но и качественного, ответственного обслуживания и решения любых проблем владельца в автосалоне официального дилера Hyundai компанией РИНГ АВТО ОСКОЛ. Высокие стандарты технологического качества корейская корпорация переносит на заботу о клиенте, который сделал важный и правильный выбор - автомобиль Hyundai.</p>
-                <p>В автосалоне Hyundai компании РИНГ АВТО Вы можете купить новые автомобили Equus, Genesis, Genesis Coupe, i40, Elantra, i30, Solaris, H1, Santa Fe, ix35, Grand Santa Fe. Покупать автомобиль Hyundai легко и приятно. Убедитесь в этом сами, посетив дилерский центр "РИНГ АВТО". К нам приходят, от нас уезжают. С улыбкой и прекрасным настроением.</p>	</div>
-            <div class="footer-copyright">
-                <p>Вся представленная на сайте информация, касающаяся автомобилей и сервисного обслуживания, носит информационный характер и не является публичной офертой, определяемой положениями ст. 437 (2) ГК РФ. Для получения подробной информации просьба обращаться к ближайшему официальному дилеру ООО "Хендэ Мотор СНГ" Опубликованная на данном сайте информация может быть изменена в любое время без предварительного уведомления.</p>	</div>	<div>
-                <input type="checkbox" id="footer__checkbox" />
-                <label itemtype="http://schema.org/Organization" class="p_div" for="footer__checkbox"> 2017 &copy; ООО "<span itemprop="name">"Бизнес Лига</span>" - Официальный дилер Hyundai в Старом Осколе
-                    <div itemtype="http://schema.org/PostalAddress" itemprop="address"><span itemprop="addressLocality">Россия, 309516, Белгородская область</span><br /> <span itemprop="streetAddress">г. Старый Оскол, пр-т Алексея Угарова, 22</span></div>
-                    <span itemprop="telephone">Телефон: 4725 46-00-22</span> </label>
+                <p>Вся представленная на сайте информация, касающаяся автомобилей и сервисного обслуживания, носит информационный характер и не является публичной офертой, определяемой положениями ст. 437 (2) ГК РФ. Для получения подробной информации просьба обращаться к ближайшему официальному дилеру ООО "Хендэ Мотор СНГ" Опубликованная на данном сайте информация может быть изменена в любое время без предварительного уведомления.</p>
             </div>
+
+
             <div style="padding: 20px 50px; text-align: right;">
                 <p></p>
                 <!-- Yandex.Metrika informer -->
