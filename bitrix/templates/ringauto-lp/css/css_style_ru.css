@@ -4039,6 +4039,23 @@ a.offer-actions__description:hover {color:#fff;padding-left:15px;background-colo
     color: #647a95!important;
 }
 
+.footer-nv__c-list li a{
+    color: #647a95!important;
+    text-decoration: none;
+}
+.footer-nv__c-list li a:hover{
+    color: #ccc5b9!important;
+}
+.footer-nv__c-phone{
+    color: #ffffff;
+}
+.footer-nv__c-mail.zing_form_back_tel{
+    color: #ffffff;
+}
+.footer-global-navigation__cust-nav .cust-nav__list  .cust-nav__item a{
+    color: #ffffff;
+}
+
 .footer-nv__c-list-i {
     display: block
 }
