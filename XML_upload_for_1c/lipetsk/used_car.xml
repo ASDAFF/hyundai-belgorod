@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>29.08.2017</Date>
-		<Time>21:35:35</Time>
+		<Date>30.08.2017</Date>
+		<Time>21:36:29</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -102,19 +102,19 @@
 			<number>7 (4742) 727777</number>
 		</Contract>
 		<Contract>
-			<VIN>X7MSC81VPBM018145</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Santa Fe</MODEL>
+			<VIN>WF05XXWPD57J01493</VIN>
+			<MARK>Ford</MARK>
+			<MODEL>Focus</MODEL>
 			<IsNew>no</IsNew>
-			<CAPACITY>2</CAPACITY>
-			<POWER>112</POWER>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>115</POWER>
 			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Дизель</FUEL_TYPE>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
 			<TRANSMISS>МКП</TRANSMISS>
 			<TransmissionCount>5</TransmissionCount>
-			<Color>светло-бежевый</Color>
-			<ColorCode>Y3Y</ColorCode>
-			<ColorOrig>Бежевый</ColorOrig>
+			<Color>черный</Color>
+			<ColorCode>AF</ColorCode>
+			<ColorOrig>Черный</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -133,19 +133,19 @@
 - Оптимальные программы по автострахованию (КАСКО и ОСАГО).
 
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>475 000</OLD_PRICE>
-			<NEW_PRICE>455 000</NEW_PRICE>
-			<CUZOV>внедорожник</CUZOV>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
-			<GRAR_TYPE>Полный</GRAR_TYPE>
-			<run>182 234</run>
-			<year>2 011</year>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>173 268</run>
+			<year>2 007</year>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
-			<CREDIT>20 000</CREDIT>
+			<CREDIT>0</CREDIT>
 			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
 			<number>7 (4742) 727777</number>
 		</Contract>

@@ -180,15 +180,15 @@ $APPLICATION->SetTitle("all-offers");
             <!-- title -->
             <a id="service-offers" style="padding-top: 30px;"></a>
 
-<!--
+
 
             <h2 class="offers_divider__content__title">Сервисные программы</h2>
             <div class="offers_divider__content__offers-grid-section clearfix">
                 <div class="insection-offer-unit">
                     <a href="/promo/parts/" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/428fb4346f911f205e484e956314de54_Zapchasti.jpg" alt="" class="insection-offer-unit__back-img">
+                        <img src="/media/offers_image/ed4e-4f2a-92e3-a6a74829070d.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
-                            <span class="name">Запчасти Product Line 2</span>
+                            <span class="name">Запчасти Product Line 2<br>Теперь ещё дешевле!</span>
                             <span class="addinfo"></span>
                         </div>
                     </a>
@@ -196,7 +196,7 @@ $APPLICATION->SetTitle("all-offers");
 
                 <div class="insection-offer-unit">
                     <a href="/service/best/" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/f9c45be738044798df716ee341806265_luchsheei.jpg" alt="" class="insection-offer-unit__back-img">
+                        <img src="http://www.hyundai.ru/media/offers_image/8daaf07cffe4b6144d0a02729194ff7f_1.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
                             <span class="name">Лучшее для своих</span>
                             <span class="addinfo">Сервисная акция</span>
@@ -206,7 +206,7 @@ $APPLICATION->SetTitle("all-offers");
 
             </div>
         </div>
--->
+
         <!-- prefooter banners -->
         <!--
                 <div class="offers__prefooter-banner clearfix">

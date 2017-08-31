@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("best");
 ?>
 
-    <link type="text/css" href="/media/css_new/service_styles.css" rel="stylesheet" />
+<link type="text/css" href="/media/css_new/service_styles.css" rel="stylesheet" />
     <script type="text/javascript" src="/media/js_new/service-pages.js"></script>
 
     <div class="content-wrapper">

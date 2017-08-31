@@ -41,24 +41,24 @@ if(!empty($ar['IMG_SLIDE'])){
                         <ul class="footer-nv__c-list">
                             <li class="footer-nv__c-list-i"><a href="/news/" class="footer-nv__c-list-lnk">Новости</a></li>
 <!--                            <li class="footer-nv__c-list-i"><a href="/press-release/" class="footer-nv__c-list-lnk">Пресс-релизы</a></li>-->
-                            <li class="footer-nv__c-list-i"><a href="/HyundaiMotorWorldmagazine/" class="footer-nv__c-list-lnk">Hyundai Motor CIS</a></li>
+                            <li class="footer-nv__c-list-i"><a href="http://www.hyundai.ru/HyundaiMotorWorldmagazine" class="footer-nv__c-list-lnk" target="_blank">Hyundai Motor CIS</a></li>
                             <li class="footer-nv__c-list-i"><a href="/awards/" class="footer-nv__c-list-lnk">Награды</a></li>
                         </ul>
                     </li>
                     <li class="footer-nv__c">
-                        <strong class="footer-nv__c-header">о hyundai</strong>
+                        <strong class="footer-nv__c-header">О Hyundai</strong>
                         <ul class="footer-nv__c-list">
                             <li class="footer-nv__c-list-i"><a href="/AboutUs/" class="footer-nv__c-list-lnk">Хендэ Мотор СНГ</a></li>
                             <li class="footer-nv__c-list-i"><a href="/IntroductoryRemarks/" class="footer-nv__c-list-lnk">Социальная ответственность</a></li>
                             <li class="footer-nv__c-list-i"><a href="/XMMP/" class="footer-nv__c-list-lnk">Завод ХММР</a></li>
-                            <li class="footer-nv__c-list-i"><noindex><a href="http://motorsport.hyundai.com/en/main" class="footer-nv__c-list-lnk">World Rally Championship</a></noindex></li>
+                            <li class="footer-nv__c-list-i"><noindex><a href="https://motorsport.hyundai.com/" class="footer-nv__c-list-lnk">World Rally Championship</a></noindex></li>
                             <li class="footer-nv__c-list-i"><noindex><a href="http://motorstudio.hyundai.ru/" class="footer-nv__c-list-lnk">Hyundai MotorStudio</a></noindex></li>
-                            <li class="footer-nv__c-list-i"><noindex><a href="http://worldwide.hyundai.com/" class="footer-nv__c-list-lnk">Worldwide</a></noindex></li>
+                            <li class="footer-nv__c-list-i"><noindex><a href="https://www.hyundai.com/worldwide/en" class="footer-nv__c-list-lnk">Worldwide</a></noindex></li>
                         </ul>
                     </li>
                     <li class="footer-nv__c">
                         <strong class="footer-nv__c-header">Телефон для связи</strong>
-                        <a href="tel:+74742727777" class="footer-nv__c-phone">7 (4742) 72-7777</a>
+                        <a href="tel:+74742727777" class="footer-nv__c-phone">+7 (4742) 72-7777</a>
                         <a href="" class="footer-nv__c-mail zing_form_back_tel" for="feedback_home"><i class="i-0008-mail-icon"></i>Обратная связь</a>
 
                         <!--                        <div id="socialmedia" class="nofloat">	-->
