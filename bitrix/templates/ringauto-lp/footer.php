@@ -37,16 +37,16 @@ if(!empty($ar['IMG_SLIDE'])){
                         </ul>
                     </li>
                     <li class="footer-nv__c">
-                        <strong class="footer-nv__c-header">Медиа-центр</strong>
+                        <strong class="footer-nv__c-header">Пресс-центр</strong>
                         <ul class="footer-nv__c-list">
                             <li class="footer-nv__c-list-i"><a href="/news/" class="footer-nv__c-list-lnk">Новости</a></li>
-                            <li class="footer-nv__c-list-i"><a href="/press-release/" class="footer-nv__c-list-lnk">Пресс-релизы</a></li>
+<!--                            <li class="footer-nv__c-list-i"><a href="/press-release/" class="footer-nv__c-list-lnk">Пресс-релизы</a></li>-->
                             <li class="footer-nv__c-list-i"><a href="/HyundaiMotorWorldmagazine/" class="footer-nv__c-list-lnk">Hyundai Motor CIS</a></li>
                             <li class="footer-nv__c-list-i"><a href="/awards/" class="footer-nv__c-list-lnk">Награды</a></li>
                         </ul>
                     </li>
                     <li class="footer-nv__c">
-                        <strong class="footer-nv__c-header">О hyundai</strong>
+                        <strong class="footer-nv__c-header">о hyundai</strong>
                         <ul class="footer-nv__c-list">
                             <li class="footer-nv__c-list-i"><a href="/AboutUs/" class="footer-nv__c-list-lnk">Хендэ Мотор СНГ</a></li>
                             <li class="footer-nv__c-list-i"><a href="/IntroductoryRemarks/" class="footer-nv__c-list-lnk">Социальная ответственность</a></li>
