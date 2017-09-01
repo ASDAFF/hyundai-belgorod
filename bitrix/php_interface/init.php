@@ -139,13 +139,24 @@ function offer_filter_auto($url){
 
     $url = str_replace('/','',$url);
 
+    if($_SERVER['HTTP_HOST'] == 'hyundai-ringauto-lip.ru'){
+        $id_mod = 26;
+        $id_spec = 25;
+    }else{
+        $id_mod = 7;
+        $id_spec = 8;
+    }
+
     if(CModule::IncludeModule("iblock")) {
         $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
-        $arFilter = Array("IBLOCK_ID" => 7, "CODE" => $url);
+        $arFilter = Array("IBLOCK_ID" => $id_mod, "CODE" => $url);
         $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
         if($ob = $res->GetNextElement()) {
             $arProps = $ob->GetProperties();
             $offer_models = $arProps['FOR_OFFER']['VALUE'];
+        }
+        if(empty($arProps['FOR_OFFER']['VALUE'])){
+            $offer_models = $url;
         }
 
         $GLOBALS['offer_filter_auto'] = array("PROPERTY_folder_id" => $offer_models,"PROPERTY_SLIDER" => "%");
@@ -175,7 +186,7 @@ function offer_filter_auto($url){
             ),
             "FILTER_NAME" => "offer_filter_auto",
             "HIDE_LINK_WHEN_NO_DETAIL" => "N",
-            "IBLOCK_ID" => "8",
+            "IBLOCK_ID" => $id_spec,
             "IBLOCK_TYPE" => "products",
             "INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
             "INCLUDE_SUBSECTIONS" => "Y",
