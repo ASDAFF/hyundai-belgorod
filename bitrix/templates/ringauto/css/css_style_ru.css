@@ -4229,9 +4229,8 @@ a.offer-actions__description:hover {color:#fff;padding-left:15px;background-colo
 #footer__checkbox:checked ~ .p_div [itemprop=telephone] {
     display: block
 }
-#footer{
-    margin-top: 10px;
-}
+
+
 #socialmedia ul li a {
     width: 45px;
     height: 45px;
