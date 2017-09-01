@@ -34,10 +34,17 @@ function profit_to_url($url){
 }
 
 function desc_model_to_url($url){
+
+    if($_SERVER['HTTP_HOST'] == 'hyundai-ringauto-lip.ru'){
+        $id_mod = 26;
+    }else{
+        $id_mod = 7;
+    }
+
     $url = str_replace('/','',$url);
     if(CModule::IncludeModule("iblock")) {
         $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
-        $arFilter = Array("IBLOCK_ID" => 7, "CODE" => $url);
+        $arFilter = Array("IBLOCK_ID" => $id_mod, "CODE" => $url);
         $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
         while ($ob = $res->GetNextElement()) {
             $arProps = $ob->GetProperties();
