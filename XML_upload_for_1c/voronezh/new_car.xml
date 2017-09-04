@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>01.09.2017</Date>
-		<Time>12:04:13</Time>
+		<Date>04.09.2017</Date>
+		<Time>12:03:36</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -65,8 +65,20 @@
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>1</run>
 			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
+			<OPTION_SUMM>52 000</OPTION_SUMM>
+			<OPTION_EQU>
+				<value>Охранная система Scher-Khan Mobicar 1</value>
+				<value>НАБОР ДЛЯ УСТАНОВКИ  ДОПОБОРУДОВАНИЯ</value>
+				<value>ЗАЩИТА КАРТЕРА СТАЛЬ, CRETA</value>
+				<value>Модуль Mobicar M1</value>
+				<value>СИСТЕМА ПАРКОВКИ AVILINE (серебро)</value>
+				<value>Ковры багажника CRETA</value>
+				<value>Сигнализация с обратной связью</value>
+				<value>Установка защиты картера</value>
+				<value>Подключение функции автозапуска</value>
+				<value>Парктроники </value>
+				<value>Парктроники окрас</value>
+			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
 			<CREDIT>65 000</CREDIT>
@@ -91,7 +103,7 @@
 			<SpecId>DMW52FC5GGGBN4</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>2 464 000</OLD_PRICE>
-			<NEW_PRICE>2 364 000</NEW_PRICE>
+			<NEW_PRICE>2 134 000</NEW_PRICE>
 			<CUZOV>Универсал</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -179,7 +191,7 @@
 				<value>Электропривод двери багажника с автоматическим открыванием</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>100 000</CREDIT>
+			<CREDIT>330 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -200,7 +212,7 @@
 			<SpecName>ACTIVE 2.0 6AT</SpecName>
 			<SpecId>F2S42G61FGGBC6</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>1 195 000</OLD_PRICE>
+			<OLD_PRICE>1 035 000</OLD_PRICE>
 			<NEW_PRICE>1 095 000</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
@@ -213,7 +225,7 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>100 000</CREDIT>
+			<CREDIT>-60 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -327,6 +339,81 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
+			<VIN>Z94K241CAJR048864</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>123</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>серебристый</Color>
+			<ColorCode>RHM</ColorCode>
+			<ColorOrig>Серый</ColorOrig>
+			<SpecName>Active Plus   1,6 6MТ (123 л.с.)</SpecName>
+			<SpecId>H5S4D2617DD150</SpecId>
+			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>6</run>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Кондиционер</value>
+				<value>Подогрев передних сидений</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антиблокировочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Аудиосистема, радио</value>
+			</DEFAULT_COMPLIT>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
 			<VIN>Z94K241CAJR030163</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Solaris</MODEL>
@@ -377,7 +464,7 @@
 			<SpecName>ACTIVE 2.0 6AT</SpecName>
 			<SpecId>F2S42G61FGGBC6</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>1 185 000</OLD_PRICE>
+			<OLD_PRICE>1 025 000</OLD_PRICE>
 			<NEW_PRICE>1 085 000</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
@@ -390,7 +477,7 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>100 000</CREDIT>
+			<CREDIT>-60 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -567,7 +654,7 @@
 			<SpecId>H5S4K4617DD143</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>789 900</OLD_PRICE>
-			<NEW_PRICE>749 900</NEW_PRICE>
+			<NEW_PRICE>699 900</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -634,7 +721,7 @@
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>40 000</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -691,7 +778,7 @@
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>1 815 000</OLD_PRICE>
 			<NEW_PRICE>1 775 000</NEW_PRICE>
-			<CUZOV>Универсал</CUZOV>
+			<CUZOV>Внедорожник</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
 			<COLOR_SALON/>
@@ -785,7 +872,7 @@
 			<SpecId>H5S4D2617DD143</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>814 900</OLD_PRICE>
-			<NEW_PRICE>774 900</NEW_PRICE>
+			<NEW_PRICE>724 900</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -852,7 +939,7 @@
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>40 000</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -874,7 +961,7 @@
 			<SpecId>H5S4D2617DD146</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>864 900</OLD_PRICE>
-			<NEW_PRICE>824 900</NEW_PRICE>
+			<NEW_PRICE>774 900</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -948,7 +1035,7 @@
 				<value>Боковые шторки безопасности</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>40 000</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1088,7 +1175,7 @@
 			<SpecName>Limited Edition 2,2D AT(200 л.с.)</SpecName>
 			<SpecId>DMW52FC5GGGBN6</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>2 264 000</OLD_PRICE>
+			<OLD_PRICE>1 934 000</OLD_PRICE>
 			<NEW_PRICE>2 014 000</NEW_PRICE>
 			<CUZOV>Универсал</CUZOV>
 			<Comment/>
@@ -1161,7 +1248,7 @@
 				<value>Рейлинги на крыше</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>250 000</CREDIT>
+			<CREDIT>-80 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1183,7 +1270,7 @@
 			<SpecId>H5S4D261FGG119</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>919 900</OLD_PRICE>
-			<NEW_PRICE>879 900</NEW_PRICE>
+			<NEW_PRICE>829 900</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -1260,7 +1347,7 @@
 				<value>Задние дисковые тормоза</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>40 000</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1282,7 +1369,7 @@
 			<SpecId>H5S4D261FDD150</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>784 900</OLD_PRICE>
-			<NEW_PRICE>744 900</NEW_PRICE>
+			<NEW_PRICE>694 900</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -1335,93 +1422,7 @@
 				<value>Аудиосистема, радио</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>40 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94K241CBJR017120</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>123</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>красный</Color>
-			<ColorCode>R4R</ColorCode>
-			<ColorOrig>Красный</ColorOrig>
-			<SpecName>Comfort 1,6 6АТ(123 л.с)</SpecName>
-			<SpecId>H5S4D261FDD142</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>824 900</OLD_PRICE>
-			<NEW_PRICE>784 900</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>4</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Электронная система распределения тормозных усилий (EBD)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Дневные ходовые огни в бампере</value>
-				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Брызговики спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка рулевой колонки по высоте</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
-				<value>Управление аудиосистемой на руле</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Стальные диски 15" с шинами 185/65 R15</value>
-				<value>Аудиоподготовка 4 динамика, антенна</value>
-				<value>Кондиционер</value>
-				<value>Подогрев передних сидений</value>
-				<value>Пульт управления центральным замком в ключе + сигнализация</value>
-				<value>Регулировка рулевой колонки по вылету</value>
-				<value>Электроусилитель руля</value>
-				<value>Система управления стабилизацией (VSM)</value>
-				<value>Подогрев руля</value>
-				<value>Панель приборов Supervision</value>
-				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
-				<value>Система помощи при старте в горку (НАС)</value>
-				<value>Антипробуксовочная система (TCS)</value>
-				<value>Антиблокировочная система тормозов (АВS)</value>
-				<value>Иммобилайзер</value>
-				<value>Центральный замок</value>
-				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
-				<value>Крепления ISOFIX сзади</value>
-				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
-				<value>Датчик наружной температуры</value>
-				<value>Воздуховоды к ногам задних пассажиров</value>
-				<value>Карман в спинке кресла переднего пассажира</value>
-				<value>Карманы в задних дверях</value>
-				<value>Увеличенный до 160 мм дорожный просвет</value>
-				<value>Внутренняя обшивка крышки багажника</value>
-				<value>Воздушный фильтр салона</value>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>Аудиосистема, радио</value>
-				<value>Управление телефоном на руле</value>
-				<value>Датчик низкого уровня омывающей жидкости</value>
-				<value>Отделка дверей тканью</value>
-				<value>Отделка руля кожей</value>
-			</DEFAULT_COMPLIT>
-			<EXT_COMPLIT/>
-			<CREDIT>40 000</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1443,7 +1444,7 @@
 			<SpecId>F2S4D261FGGBAI</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>1 155 000</OLD_PRICE>
-			<NEW_PRICE>1 055 000</NEW_PRICE>
+			<NEW_PRICE>995 000</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -1518,7 +1519,7 @@
 				<value>Регулировка сиденья пассажира по высоте</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>100 000</CREDIT>
+			<CREDIT>160 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1649,8 +1650,8 @@
 			<SpecId>DMW52FC5GGGBN7</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>2 249 000</OLD_PRICE>
-			<NEW_PRICE>1 999 000</NEW_PRICE>
-			<CUZOV>Универсал</CUZOV>
+			<NEW_PRICE>1 919 000</NEW_PRICE>
+			<CUZOV>Внедорожник</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
 			<COLOR_SALON/>
@@ -1721,7 +1722,7 @@
 				<value>Передние датчики парковки</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>250 000</CREDIT>
+			<CREDIT>330 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1834,7 +1835,7 @@
 			<SpecName>ACTIVE1.6 6АТ(128л.с)</SpecName>
 			<SpecId>F2S4D261FGGBAI</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>1 155 000</OLD_PRICE>
+			<OLD_PRICE>995 000</OLD_PRICE>
 			<NEW_PRICE>1 055 000</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
@@ -1910,7 +1911,7 @@
 				<value>Регулировка сиденья пассажира по высоте</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>100 000</CREDIT>
+			<CREDIT>-60 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1932,7 +1933,7 @@
 			<SpecId>DMW52FC5GGGBN7</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>2 264 000</OLD_PRICE>
-			<NEW_PRICE>2 150 800</NEW_PRICE>
+			<NEW_PRICE>1 934 000</NEW_PRICE>
 			<CUZOV>Универсал</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -2004,7 +2005,7 @@
 				<value>Передние датчики парковки</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>113 200</CREDIT>
+			<CREDIT>330 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -2101,7 +2102,7 @@
 			<SpecId>H5S4K4617DD143</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>789 900</OLD_PRICE>
-			<NEW_PRICE>749 900</NEW_PRICE>
+			<NEW_PRICE>699 900</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -2168,7 +2169,7 @@
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>40 000</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -2190,7 +2191,7 @@
 			<SpecId>DMW52FC5GGG861</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>2 344 000</OLD_PRICE>
-			<NEW_PRICE>2 244 000</NEW_PRICE>
+			<NEW_PRICE>2 014 000</NEW_PRICE>
 			<CUZOV>Универсал</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -2269,7 +2270,7 @@
 				<value>Панель приборов Supervision с цветным TFT-дисплеем</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>100 000</CREDIT>
+			<CREDIT>330 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -2291,7 +2292,7 @@
 			<SpecId>H5S4D2617DD151</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>784 900</OLD_PRICE>
-			<NEW_PRICE>744 900</NEW_PRICE>
+			<NEW_PRICE>694 900</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -2355,7 +2356,7 @@
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>40 000</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -2462,7 +2463,7 @@
 			<SpecId>B8WC2FC5GGG742</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>2 439 000</OLD_PRICE>
-			<NEW_PRICE>2 319 000</NEW_PRICE>
+			<NEW_PRICE>2 089 000</NEW_PRICE>
 			<CUZOV>Универсал</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -2534,7 +2535,7 @@
 				<value>Пульт управления центральным замком в раскладном ключе + сигнализация*</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>120 000</CREDIT>
+			<CREDIT>350 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -2556,7 +2557,7 @@
 			<SpecId>F2S4D261FDD895</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>1 065 000</OLD_PRICE>
-			<NEW_PRICE>965 000</NEW_PRICE>
+			<NEW_PRICE>905 000</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -2622,7 +2623,7 @@
 				<value>Регулировка сиденья пассажира по высоте</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>100 000</CREDIT>
+			<CREDIT>160 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -2644,7 +2645,7 @@
 			<SpecId>H5S4K461FDD142</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>799 900</OLD_PRICE>
-			<NEW_PRICE>759 900</NEW_PRICE>
+			<NEW_PRICE>709 900</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -2708,7 +2709,7 @@
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>40 000</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -2730,7 +2731,7 @@
 			<SpecId>H5S4K461FDD143</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>829 900</OLD_PRICE>
-			<NEW_PRICE>789 900</NEW_PRICE>
+			<NEW_PRICE>739 900</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -2797,7 +2798,7 @@
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>40 000</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -2894,7 +2895,7 @@
 			<SpecId>DMW52FC5GGGBN3</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>2 344 000</OLD_PRICE>
-			<NEW_PRICE>2 094 000</NEW_PRICE>
+			<NEW_PRICE>2 014 000</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -2970,105 +2971,7 @@
 				<value>Панель приборов Supervision с цветным TFT-дисплеем</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>250 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>XWESU81XDH0002899</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Santa Fe</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>2,2</CAPACITY>
-			<POWER>200</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Дизель</FUEL_TYPE>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>белый</Color>
-			<ColorCode>PDW</ColorCode>
-			<ColorOrig>Белый</ColorOrig>
-			<SpecName>Dynamic 2.2 6AT( 200 л.с.)</SpecName>
-			<SpecId>DMW52FC5GGGBN3</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>2 329 000</OLD_PRICE>
-			<NEW_PRICE>2 079 000</NEW_PRICE>
-			<CUZOV>Универсал</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Полный</GRAR_TYPE>
-			<run>38</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Передние боковые подушки безопасности</value>
-				<value>Шторки безопасности</value>
-				<value>Преднатяжители передних ремней безопасности</value>
-				<value>Система предотвращения травм шеи при ударе сзади для водителя и переднего пасса</value>
-				<value>VSM (система управления стабилизацией)</value>
-				<value>HAC (система помощи при старте в гору)</value>
-				<value>DBC (система помощи при спуске с горы)</value>
-				<value>ABS + EBD (система распределения тормозных усилий)</value>
-				<value>Система помощи при экстренном торможении</value>
-				<value>ESC (cистема стабилизации с двухступенчатым отключением)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Иммобилайзер</value>
-				<value>Регулировка руля по высоте и вылету</value>
-				<value>Электрорегулировка сиденья водителя</value>
-				<value>Подогрев передних сидений</value>
-				<value>Выбор режима движения(Drive mode select): Эко, Обычный или Спорт</value>
-				<value>Электростеклоподъемники всех дверей с безопасным режимом</value>
-				<value>Электропривод и подогрев наружных зеркал</value>
-				<value>Двухзонный климат-контроль с системой ионизации воздуха ( + дефлекторы обдува п</value>
-				<value>Подлокотник водителя с боксом для хранения</value>
-				<value>Маршрутный компьютер</value>
-				<value>Круиз-контроль</value>
-				<value>Датчик дождя</value>
-				<value>Обогрев зоны покоя стеклоочистителей</value>
-				<value>Разъемы USB, AUX</value>
-				<value>Блок управления аудиосистемой на руле</value>
-				<value>Отделка руля и рукоятки КПП кожей</value>
-				<value>Выбор цвета салона черный/серый/бежевый</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 4:2:4)</value>
-				<value>Складывание спинки второго ряда сидений одним нажатием из багажника</value>
-				<value>Продольная регулировка и регулировка наклона спинок сидений второго ряда</value>
-				<value>Отсек для хранения под полом багажника</value>
-				<value>Сетка багажника</value>
-				<value>Светодиодные фары дневного света</value>
-				<value>Светодиодные передние габаритные огни</value>
-				<value>Задний спойлер</value>
-				<value>Защита порогов от загрязнения</value>
-				<value>Повторители указателей поворота в зеркалах заднего вида</value>
-				<value>Противотуманные фары</value>
-				<value>Полноразмерное запасное колесо с легкосплавным диском</value>
-				<value>Брызговики</value>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Подогрев задних сидений</value>
-				<value>Электропривод складывания зеркал</value>
-				<value>Датчик света</value>
-				<value>Задние датчики парковки</value>
-				<value>Подогрев руля</value>
-				<value>Тонировка стекол задней части салона</value>
-				<value>Комбинация натуральной и искусственной кожи в отделке сидений и дверей</value>
-				<value>Аудиосистема с цветным TFT дисплеем 5" (Радио, СD/MP3, эквалайзер, 6 динамиков,</value>
-				<value>Камера заднего вида</value>
-				<value>Ксеноновые фары ближнего света с омывателем и автокорректором</value>
-				<value>Светодиодные задние фонари</value>
-				<value>Подсветка околодверного пространства</value>
-				<value>Система мониторинга слепых зон</value>
-				<value>Теплозащитные стекла (лобовое и передние боковые)</value>
-				<value>Легкосплавные диски 18" с шинами 235/60 R18</value>
-				<value>Самозатемняющееся зеркало заднего вида с компасом</value>
-				<value>Передние датчики парковки</value>
-				<value>Рейлинги на крыше</value>
-				<value>Система "Smart key" — доступ без ключа+кнопка START/STOP + сигнализация*</value>
-				<value>Панель приборов Supervision с цветным TFT-дисплеем</value>
-			</DEFAULT_COMPLIT>
-			<EXT_COMPLIT/>
-			<CREDIT>250 000</CREDIT>
+			<CREDIT>330 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -3078,7 +2981,7 @@
 			<MODEL>Tucson</MODEL>
 			<IsNew>yes</IsNew>
 			<CAPACITY>2</CAPACITY>
-			<POWER>185</POWER>
+			<POWER>149,6</POWER>
 			<fuel_consumption>0</fuel_consumption>
 			<FUEL_TYPE>Бензин</FUEL_TYPE>
 			<TRANSMISS>АКП</TRANSMISS>
@@ -3091,7 +2994,7 @@
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>1 815 000</OLD_PRICE>
 			<NEW_PRICE>1 715 000</NEW_PRICE>
-			<CUZOV>Универсал</CUZOV>
+			<CUZOV>Внедорожник</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
 			<COLOR_SALON/>
@@ -3219,12 +3122,12 @@
 			<SpecId>DMW52FC5GDDAEM</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>2 214 000</OLD_PRICE>
-			<NEW_PRICE>1 964 000</NEW_PRICE>
-			<CUZOV>Универсал</CUZOV>
+			<NEW_PRICE>1 884 000</NEW_PRICE>
+			<CUZOV>Внедорожник</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
 			<COLOR_SALON/>
-			<GRAR_TYPE>Полный</GRAR_TYPE>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>8</run>
 			<year>2 017</year>
 			<OPTION_SUMM>0</OPTION_SUMM>
@@ -3288,7 +3191,7 @@
 				<value>Камера заднего вида</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>250 000</CREDIT>
+			<CREDIT>330 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -3310,7 +3213,7 @@
 			<SpecId>H5S4K4617DD150</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>719 900</OLD_PRICE>
-			<NEW_PRICE>691 104</NEW_PRICE>
+			<NEW_PRICE>629 900</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -3363,7 +3266,7 @@
 				<value>Аудиосистема, радио</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>28 796</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -3385,7 +3288,7 @@
 			<SpecId>F2S42G61FGGBC4</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>1 220 000</OLD_PRICE>
-			<NEW_PRICE>1 120 000</NEW_PRICE>
+			<NEW_PRICE>1 060 000</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -3474,7 +3377,7 @@
 				<value>Выбор режима движения (Drive mode select)</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>100 000</CREDIT>
+			<CREDIT>160 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -3649,6 +3552,126 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
+			<VIN>Z94G2813DJR057982</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Creta</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>2</CAPACITY>
+			<POWER>149</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>серый</Color>
+			<ColorCode>U4G</ColorCode>
+			<ColorOrig>Серый</ColorOrig>
+			<SpecName>Travel + Advanced 2.0   6AT (149 л.с.) 4WD</SpecName>
+			<SpecId>CTW52G61GDD144</SpecId>
+			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Внедорожник</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>8</run>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>Z94K241CAJR049010</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>123</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>синий</Color>
+			<ColorCode>N4U</ColorCode>
+			<ColorOrig>Синий</ColorOrig>
+			<SpecName>Comfort  1,6 6МТ(123 л.с)</SpecName>
+			<SpecId>H5S4D2617DD151</SpecId>
+			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>8</run>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Кондиционер</value>
+				<value>Подогрев передних сидений</value>
+				<value>Пульт управления центральным замком в ключе + сигнализация</value>
+				<value>Регулировка рулевой колонки по вылету</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Подогрев руля</value>
+				<value>Панель приборов Supervision</value>
+				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антиблокировочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Аудиосистема, радио</value>
+				<value>Управление телефоном на руле</value>
+				<value>Датчик низкого уровня омывающей жидкости</value>
+				<value>Отделка дверей тканью</value>
+				<value>Отделка руля кожей</value>
+			</DEFAULT_COMPLIT>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
 			<VIN>Z94K241CBJR024852</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Solaris</MODEL>
@@ -3666,7 +3689,7 @@
 			<SpecId>H5S4D261FDD142</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>824 900</OLD_PRICE>
-			<NEW_PRICE>784 900</NEW_PRICE>
+			<NEW_PRICE>734 900</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -3730,7 +3753,7 @@
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>40 000</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -3967,7 +3990,7 @@
 			<SpecName>BASE 1.6 6АТ(128л.с)</SpecName>
 			<SpecId>F2S4D261FDD895</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>1 075 000</OLD_PRICE>
+			<OLD_PRICE>915 000</OLD_PRICE>
 			<NEW_PRICE>1 045 000</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
@@ -4034,7 +4057,7 @@
 				<value>Регулировка сиденья пассажира по высоте</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>30 000</CREDIT>
+			<CREDIT>-130 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -4055,7 +4078,7 @@
 			<SpecName>BASE 1.6 6МТ(128л.с)</SpecName>
 			<SpecId>F2S4D2617DD894</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>1 030 000</OLD_PRICE>
+			<OLD_PRICE>870 000</OLD_PRICE>
 			<NEW_PRICE>1 000 000</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
@@ -4122,7 +4145,7 @@
 				<value>Шумоизоляция капота</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>30 000</CREDIT>
+			<CREDIT>-130 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -4157,6 +4180,81 @@
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
 			<CREDIT>65 900</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>Z94K241CBJR048893</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>123</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>серый</Color>
+			<ColorCode>U4G</ColorCode>
+			<ColorOrig>Серый</ColorOrig>
+			<SpecName>Active Plus  1,6 6АТ (123 л.с.)</SpecName>
+			<SpecId>H5S4D261FDD150</SpecId>
+			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>8</run>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Кондиционер</value>
+				<value>Подогрев передних сидений</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антиблокировочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Аудиосистема, радио</value>
+			</DEFAULT_COMPLIT>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -4212,7 +4310,7 @@
 			<SpecId>H5S4K461FDD143</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>829 900</OLD_PRICE>
-			<NEW_PRICE>789 900</NEW_PRICE>
+			<NEW_PRICE>739 900</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -4279,7 +4377,7 @@
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>40 000</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -4302,7 +4400,7 @@
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>1 625 000</OLD_PRICE>
 			<NEW_PRICE>1 525 000</NEW_PRICE>
-			<CUZOV>Универсал</CUZOV>
+			<CUZOV>Внедорожник</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
 			<COLOR_SALON/>
@@ -4420,7 +4518,7 @@
 			<SpecId>H5S4D261FDD142</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>824 900</OLD_PRICE>
-			<NEW_PRICE>784 900</NEW_PRICE>
+			<NEW_PRICE>734 900</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -4484,7 +4582,7 @@
 				<value>Отделка руля кожей</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>40 000</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -4506,7 +4604,7 @@
 			<SpecId>GDB86B857GGJJK</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>1 974 000</OLD_PRICE>
-			<NEW_PRICE>1 899 000</NEW_PRICE>
+			<NEW_PRICE>1 894 000</NEW_PRICE>
 			<CUZOV>Микроавтобус 8 мест</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -4550,7 +4648,82 @@
 				<value>Кондиционер с раздельным управлением (кабина/салон)</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>75 000</CREDIT>
+			<CREDIT>80 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>Z94K241CAJR048882</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>123</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>черный</Color>
+			<ColorCode>MZH</ColorCode>
+			<ColorOrig>Черный</ColorOrig>
+			<SpecName>Active Plus   1,6 6MТ (123 л.с.)</SpecName>
+			<SpecId>H5S4D2617DD150</SpecId>
+			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>8</run>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Кондиционер</value>
+				<value>Подогрев передних сидений</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антиблокировочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Аудиосистема, радио</value>
+			</DEFAULT_COMPLIT>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -4793,6 +4966,40 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
+			<VIN>Z94G2813DJR058315</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Creta</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>2</CAPACITY>
+			<POWER>149</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>серый</Color>
+			<ColorCode>U4G</ColorCode>
+			<ColorOrig>Серый</ColorOrig>
+			<SpecName>Travel + Advanced 2.0   6AT (149 л.с.) 4WD</SpecName>
+			<SpecId>CTW52G61GDD144</SpecId>
+			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Внедорожник</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>4</run>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
 			<VIN>XWEJC813DJ0005214</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Tucson</MODEL>
@@ -4980,7 +5187,7 @@
 			<SpecId>D2S4J5G1KGG171</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>5 450 000</OLD_PRICE>
-			<NEW_PRICE>5 000 000</NEW_PRICE>
+			<NEW_PRICE>4 750 000</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -5065,7 +5272,7 @@
 				<value>Беспроводная зарядка для смартфонов в задней центральной консоли</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>450 000</CREDIT>
+			<CREDIT>700 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -5325,6 +5532,81 @@
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
 			<CREDIT>90 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>Z94K241CAJR048907</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Solaris</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>123</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>синий</Color>
+			<ColorCode>N4U</ColorCode>
+			<ColorOrig>Синий</ColorOrig>
+			<SpecName>Active Plus   1,6 6MТ (123 л.с.)</SpecName>
+			<SpecId>H5S4D2617DD150</SpecId>
+			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>6</run>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Электронная система распределения тормозных усилий (EBD)</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни в бампере</value>
+				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Брызговики спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка рулевой колонки по высоте</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Управление аудиосистемой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Стальные диски 15" с шинами 185/65 R15</value>
+				<value>Аудиоподготовка 4 динамика, антенна</value>
+				<value>Кондиционер</value>
+				<value>Подогрев передних сидений</value>
+				<value>Электроусилитель руля</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Система помощи при старте в горку (НАС)</value>
+				<value>Антипробуксовочная система (TCS)</value>
+				<value>Антиблокировочная система тормозов (АВS)</value>
+				<value>Иммобилайзер</value>
+				<value>Центральный замок</value>
+				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
+				<value>Крепления ISOFIX сзади</value>
+				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
+				<value>Датчик наружной температуры</value>
+				<value>Воздуховоды к ногам задних пассажиров</value>
+				<value>Карман в спинке кресла переднего пассажира</value>
+				<value>Карманы в задних дверях</value>
+				<value>Увеличенный до 160 мм дорожный просвет</value>
+				<value>Внутренняя обшивка крышки багажника</value>
+				<value>Воздушный фильтр салона</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Аудиосистема, радио</value>
+			</DEFAULT_COMPLIT>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -5746,6 +6028,40 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
+			<VIN>Z94G2813BJR058177</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Creta</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>2</CAPACITY>
+			<POWER>149</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>серый</Color>
+			<ColorCode>U4G</ColorCode>
+			<ColorOrig>Серый</ColorOrig>
+			<SpecName>Travel 2.0  6AT (149.6 л.с.) 2WD</SpecName>
+			<SpecId>CTW52G61FDD138</SpecId>
+			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Внедорожник</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>6</run>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
 			<VIN>Z94K241BAJR026290</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Solaris</MODEL>
@@ -5865,8 +6181,16 @@
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>8</run>
 			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
+			<OPTION_SUMM>41 950</OPTION_SUMM>
+			<OPTION_EQU>
+				<value>СИГНАЛИЗАЦИЯ StarLine E91 CAN V1 совм. со START/STOP</value>
+				<value>НАБОР ДЛЯ УСТАНОВКИ  ДОПОБОРУДОВАНИЯ</value>
+				<value>СЕТКА ЧЕРНАЯ 10/40/100</value>
+				<value>КОВЕР САЛОНА, РЕЗИНОВЫЙ G80</value>
+				<value>Сигнализация с обратной связью</value>
+				<value>Подключение функции турботаймера</value>
+				<value>Сетка переднего бампера установить</value>
+			</OPTION_EQU>
 			<DEFAULT_COMPLIT>
 				<value>Ксеноновые фары с автокорректором, омывателем и отдельной лампой</value>
 				<value>Полностью светодиодные фары головного света с системой адаптивного</value>
@@ -6053,7 +6377,7 @@
 			<SpecName>Limited Edition 2,2D AT(200 л.с.)</SpecName>
 			<SpecId>DMW52FC5GGGBN6</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>2 264 000</OLD_PRICE>
+			<OLD_PRICE>1 934 000</OLD_PRICE>
 			<NEW_PRICE>2 014 000</NEW_PRICE>
 			<CUZOV>Универсал</CUZOV>
 			<Comment/>
@@ -6126,7 +6450,7 @@
 				<value>Рейлинги на крыше</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>250 000</CREDIT>
+			<CREDIT>-80 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -6156,100 +6480,22 @@
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>6</run>
 			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
+			<OPTION_SUMM>54 900</OPTION_SUMM>
+			<OPTION_EQU>
+				<value>СИГНАЛИЗАЦИЯ A39 CAN+LIN АЗ</value>
+				<value>НАБОР ДЛЯ УСТАНОВКИ  ДОПОБОРУДОВАНИЯ</value>
+				<value>ЗАЩИТА КАРТЕРА СТАЛЬ, CRETA</value>
+				<value>КОВРИКИ САЛОНА CRETA</value>
+				<value>СИСТЕМА ПАРКОВКИ AVILINE (серебро)</value>
+				<value>Сигнализация с обратной связью</value>
+				<value>Подключение функции автозапуска</value>
+				<value>Установка защиты картера</value>
+				<value>Парктроники </value>
+				<value>Парктроники окрас</value>
+			</OPTION_EQU>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
 			<CREDIT>65 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94K241BBJR025445</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,4</CAPACITY>
-			<POWER>100</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>серебристый</Color>
-			<ColorCode>RHM</ColorCode>
-			<ColorOrig>Серый</ColorOrig>
-			<SpecName>Comfort+ Расширенный 1,4 6АТ (100л.с.)</SpecName>
-			<SpecId>H5S4K461FDD143</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>829 900</OLD_PRICE>
-			<NEW_PRICE>789 900</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE/>
-			<run>8</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Климат-контроль</value>
-				<value>Датчики парковки сзади</value>
-				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Электронная система распределения тормозных усилий (EBD)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Дневные ходовые огни в бампере</value>
-				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Брызговики спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка рулевой колонки по высоте</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hand</value>
-				<value>Управление аудиосистемой на руле</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Электростеклоподъемники задние с подсветкой кнопок</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Стальные диски 15" с шинами 185/65 R15</value>
-				<value>Аудиоподготовка 4 динамика, антенна</value>
-				<value>Кондиционер</value>
-				<value>Подогрев передних сидений</value>
-				<value>Пульт управления центральным замком в ключе + сигнализация</value>
-				<value>Регулировка рулевой колонки по вылету</value>
-				<value>Электроусилитель руля</value>
-				<value>Система управления стабилизацией (VSM)</value>
-				<value>Подогрев руля</value>
-				<value>Панель приборов Supervision</value>
-				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
-				<value>Система помощи при старте в горку (НАС)</value>
-				<value>Антипробуксовочная система (TCS)</value>
-				<value>Антиблокировочная система тормозов (АВS)</value>
-				<value>Иммобилайзер</value>
-				<value>Центральный замок</value>
-				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
-				<value>Крепления ISOFIX сзади</value>
-				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
-				<value>Датчик наружной температуры</value>
-				<value>Воздуховоды к ногам задних пассажиров</value>
-				<value>Карман в спинке кресла переднего пассажира</value>
-				<value>Карманы в задних дверях</value>
-				<value>Увеличенный до 160 мм дорожный просвет</value>
-				<value>Внутренняя обшивка крышки багажника</value>
-				<value>Воздушный фильтр салона</value>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>Аудиосистема, радио</value>
-				<value>Управление телефоном на руле</value>
-				<value>Датчик низкого уровня омывающей жидкости</value>
-				<value>Отделка дверей тканью</value>
-				<value>Отделка руля кожей</value>
-			</DEFAULT_COMPLIT>
-			<EXT_COMPLIT/>
-			<CREDIT>40 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -6360,7 +6606,7 @@
 			<SpecId>DMW52FC5GGGBN3</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>2 344 000</OLD_PRICE>
-			<NEW_PRICE>2 094 000</NEW_PRICE>
+			<NEW_PRICE>2 104 000</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -6436,7 +6682,7 @@
 				<value>Панель приборов Supervision с цветным TFT-дисплеем</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>250 000</CREDIT>
+			<CREDIT>240 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -6458,7 +6704,7 @@
 			<SpecId>H5S4K4617DD143</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>789 900</OLD_PRICE>
-			<NEW_PRICE>749 900</NEW_PRICE>
+			<NEW_PRICE>699 900</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -6525,40 +6771,6 @@
 				<value>Центральный подлокотник с боксом и регулировкой по длине</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>40 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94K241BBJR046734</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,4</CAPACITY>
-			<POWER>100</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>белый</Color>
-			<ColorCode>PGU</ColorCode>
-			<ColorOrig>Белый</ColorOrig>
-			<SpecName>Comfort  1,4 6 AT  (100 л.с.)</SpecName>
-			<SpecId>H5S4K461FDD151</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>799 900</OLD_PRICE>
-			<NEW_PRICE>709 900</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>8</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
 			<CREDIT>90 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
@@ -6615,7 +6827,7 @@
 			<SpecId>DMW52FC5GGGBN3</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>2 344 000</OLD_PRICE>
-			<NEW_PRICE>1 944 000</NEW_PRICE>
+			<NEW_PRICE>2 014 000</NEW_PRICE>
 			<CUZOV>Универсал</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -6691,41 +6903,7 @@
 				<value>Панель приборов Supervision с цветным TFT-дисплеем</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>400 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94G2811AJR057515</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Creta</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>123</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>синий</Color>
-			<ColorCode>N4U</ColorCode>
-			<ColorOrig>Синий</ColorOrig>
-			<SpecName>Travel + Advanced 1.6  6MT (123 л.с.) 2WD</SpecName>
-			<SpecId>CTW5D2617DD143</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>1 089 900</OLD_PRICE>
-			<NEW_PRICE>1 024 900</NEW_PRICE>
-			<CUZOV>Внедорожник</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>5</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>65 000</CREDIT>
+			<CREDIT>330 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -6747,7 +6925,7 @@
 			<SpecId>DMW52FC5GGGBN3</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>2 344 000</OLD_PRICE>
-			<NEW_PRICE>2 094 000</NEW_PRICE>
+			<NEW_PRICE>2 014 000</NEW_PRICE>
 			<CUZOV>Универсал</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -6823,7 +7001,7 @@
 				<value>Панель приборов Supervision с цветным TFT-дисплеем</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>250 000</CREDIT>
+			<CREDIT>330 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -6833,7 +7011,7 @@
 			<MODEL>Tucson</MODEL>
 			<IsNew>yes</IsNew>
 			<CAPACITY>2</CAPACITY>
-			<POWER>185</POWER>
+			<POWER>149,6</POWER>
 			<fuel_consumption>0</fuel_consumption>
 			<FUEL_TYPE>Бензин</FUEL_TYPE>
 			<TRANSMISS>АКП</TRANSMISS>
@@ -6846,7 +7024,7 @@
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>1 625 000</OLD_PRICE>
 			<NEW_PRICE>1 525 000</NEW_PRICE>
-			<CUZOV>Универсал</CUZOV>
+			<CUZOV>Внедорожник</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
 			<COLOR_SALON/>
@@ -6909,115 +7087,6 @@
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
 			<CREDIT>100 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94G2813DJR057982</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Creta</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>2</CAPACITY>
-			<POWER>149</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>серый</Color>
-			<ColorCode>U4G</ColorCode>
-			<ColorOrig>Серый</ColorOrig>
-			<SpecName>Travel + Advanced 2.0   6AT (149 л.с.) 4WD</SpecName>
-			<SpecId>CTW52G61GDD144</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>Внедорожник</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run/>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94K241CAJR048864</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Solaris</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>123</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>серебристый</Color>
-			<ColorCode>RHM</ColorCode>
-			<ColorOrig>Серый</ColorOrig>
-			<SpecName>Active Plus   1,6 6MТ (123 л.с.)</SpecName>
-			<SpecId>H5S4D2617DD150</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run/>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT>
-				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
-				<value>Регулировка передних ремней безопасности по высоте</value>
-				<value>Электронная система распределения тормозных усилий (EBD)</value>
-				<value>Система предупреждения водителей сзади при экстренном торможении</value>
-				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
-				<value>Дневные ходовые огни в бампере</value>
-				<value>Ручки дверей и корпуса наружных зеркал в цвет кузова</value>
-				<value>Полноразмерное запасное колесо</value>
-				<value>Брызговики спереди и сзади</value>
-				<value>Регулировка сиденья водителя по высоте</value>
-				<value>Регулировка рулевой колонки по высоте</value>
-				<value>Разъемы USB и AUX</value>
-				<value>Управление аудиосистемой на руле</value>
-				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
-				<value>Система мониторинга давления в шинах</value>
-				<value>Две 12v розетки на центральной консоли</value>
-				<value>Зеркала в противосолнечных козырьках</value>
-				<value>Стальные диски 15" с шинами 185/65 R15</value>
-				<value>Аудиоподготовка 4 динамика, антенна</value>
-				<value>Кондиционер</value>
-				<value>Подогрев передних сидений</value>
-				<value>Электроусилитель руля</value>
-				<value>Система управления стабилизацией (VSM)</value>
-				<value>Система помощи при старте в горку (НАС)</value>
-				<value>Антипробуксовочная система (TCS)</value>
-				<value>Антиблокировочная система тормозов (АВS)</value>
-				<value>Иммобилайзер</value>
-				<value>Центральный замок</value>
-				<value>Тройное мигание поворотника при неполном нажатии на рычаг</value>
-				<value>Крепления ISOFIX сзади</value>
-				<value>Электростеклоподъемники передние с подсветкой кнопок</value>
-				<value>Датчик наружной температуры</value>
-				<value>Воздуховоды к ногам задних пассажиров</value>
-				<value>Карман в спинке кресла переднего пассажира</value>
-				<value>Карманы в задних дверях</value>
-				<value>Увеличенный до 160 мм дорожный просвет</value>
-				<value>Внутренняя обшивка крышки багажника</value>
-				<value>Воздушный фильтр салона</value>
-				<value>Зеркала с электроприводом и обогревом</value>
-				<value>Аудиосистема, радио</value>
-			</DEFAULT_COMPLIT>
-			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -7093,40 +7162,6 @@
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
 			<CREDIT>100 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94G2813BJR058177</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Creta</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>2</CAPACITY>
-			<POWER>149</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>серый</Color>
-			<ColorCode>U4G</ColorCode>
-			<ColorOrig>Серый</ColorOrig>
-			<SpecName>Travel 2.0  6AT (149.6 л.с.) 2WD</SpecName>
-			<SpecId>CTW52G61FDD138</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>Внедорожник</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run/>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -7309,40 +7344,6 @@
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
 			<CREDIT>100 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94G2813DJR058315</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Creta</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>2</CAPACITY>
-			<POWER>149</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>серый</Color>
-			<ColorCode>U4G</ColorCode>
-			<ColorOrig>Серый</ColorOrig>
-			<SpecName>Travel + Advanced 2.0   6AT (149 л.с.) 4WD</SpecName>
-			<SpecId>CTW52G61GDD144</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>Внедорожник</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run/>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
