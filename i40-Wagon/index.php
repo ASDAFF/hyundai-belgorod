@@ -2,20 +2,8 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("i40-Wagon");
 ?>
-    <script>
-        dataLayer = [{
-            'countrycode': 'RU',
-            'pagename': 'models',
-            'carmodelname': 'i40'
-        }];
-    </script>
-    <script>
-        dataLayer2 = [{
-            'countrycode': 'RU',
-            'pagename': 'models',
-            'carmodelname': 'i40'
-        }];
-    </script>
+
+
 
 
 

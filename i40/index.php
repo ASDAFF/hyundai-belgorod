@@ -5,22 +5,7 @@ $APPLICATION->SetTitle("i40");
 ?>
 
 
-    <!-- Begin of GTM DataLayer -->
-    <script>
-        dataLayer = [{
-            'countrycode': 'RU',
-            'pagename': 'models',
-            'carmodelname': 'i40'
-        }];
-    </script>
-    <script>
-        dataLayer2 = [{
-            'countrycode': 'RU',
-            'pagename': 'models',
-            'carmodelname': 'i40'
-        }];
-    </script>
-    <!-- End of GTM DataLayer -->
+
     <script type='text/javascript' src="/media/js/sc_jquery_ui_ipad.js"></script>
     <script type='text/javascript' src="/media/js_new/sc_wwpip_flat.js"></script>
     <link rel="stylesheet" type="text/css" href="/media/css_new/css_style_ru.css"/>
