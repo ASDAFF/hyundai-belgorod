@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>22.08.2017</Date>
-		<Time>18:57:19</Time>
+		<Date>04.09.2017</Date>
+		<Time>18:40:55</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -22,8 +22,8 @@
 			<SpecName>Superb Ambition 1.8 TSI (180 л.с.) авт.-7 (DSG)</SpecName>
 			<SpecId>3V33PD</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 973 800</OLD_PRICE>
+			<NEW_PRICE>1 973 800</NEW_PRICE>
 			<CUZOV/>
 			<Comment/>
 			<TYPE_SALON/>
@@ -35,43 +35,6 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
-			<VIN>XW8AC4NE8HH015872</VIN>
-			<MARK/>
-			<MODEL>Octavia</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,4</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>Серый Platinum металлик</Color>
-			<ColorCode>2R2R</ColorCode>
-			<ColorOrig/>
-			<SpecName>Ambition 1.4 DSG</SpecName>
-			<SpecId>NL33MD</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>HA Черный</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>1</run>
-			<year>2 016</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT>
-				<value>WRC</value>
-				<value>I8E</value>
-			</EXT_COMPLIT>
 			<CREDIT>0</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
@@ -93,8 +56,8 @@
 			<SpecName>Ambition 1.4 TSI ручн.-6</SpecName>
 			<SpecId>NL33M5</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 191 200</OLD_PRICE>
+			<NEW_PRICE>1 171 200</NEW_PRICE>
 			<CUZOV/>
 			<Comment/>
 			<TYPE_SALON/>
@@ -106,7 +69,7 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
+			<CREDIT>20 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -127,8 +90,8 @@
 			<SpecName>Ambition 1.6 (110 л.с.) 6-авт</SpecName>
 			<SpecId>5E53HC</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 442 800</OLD_PRICE>
+			<NEW_PRICE>1 352 800</NEW_PRICE>
 			<CUZOV/>
 			<Comment/>
 			<TYPE_SALON/>
@@ -140,79 +103,7 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
-			<VIN>XW8AC6NE5HH013668</VIN>
-			<MARK/>
-			<MODEL>Octavia</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY/>
-			<POWER/>
-			<fuel_consumption/>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount/>
-			<Color>Серебристый Brilliant металлик</Color>
-			<ColorCode>8E8E</ColorCode>
-			<ColorOrig/>
-			<SpecName>Style1.4 TSI 	авт.-7 (DSG)</SpecName>
-			<SpecId>NL34MD</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV/>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>HA Черный</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>2</run>
-			<year>2 016</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT>
-				<value>WRE</value>
-				<value>PH5</value>
-				<value>9WT</value>
-			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
-			<VIN>XW8LB65L4HH703230</VIN>
-			<MARK/>
-			<MODEL>Yeti</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY/>
-			<POWER/>
-			<fuel_consumption/>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount/>
-			<Color>Белый Pure</Color>
-			<ColorCode>0Q0Q</ColorCode>
-			<ColorOrig/>
-			<SpecName>Outdoor Ambition 1.8 (152 л.с.) DSG-62</SpecName>
-			<SpecId>677BPX 2           1</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV/>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>DR Черный Onyx</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>1</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -233,8 +124,8 @@
 			<SpecName>Active 1.6 (110 ) АКПП</SpecName>
 			<SpecId>NK32LC</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>811 300</OLD_PRICE>
+			<NEW_PRICE>751 300</NEW_PRICE>
 			<CUZOV/>
 			<Comment/>
 			<TYPE_SALON/>
@@ -246,41 +137,7 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
-			<VIN>XW8AC1NH4HK117701</VIN>
-			<MARK/>
-			<MODEL>Rapid</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>Красный Wild Cherry</Color>
-			<ColorCode>2K2K</ColorCode>
-			<ColorOrig/>
-			<SpecName>Active 1.6 (110 ) АКПП</SpecName>
-			<SpecId>NK32LC</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>EQ Черный</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>1</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
+			<CREDIT>60 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -328,42 +185,6 @@
 			<number>+7 (473) 2333303</number>
 		</Contract>
 		<Contract>
-			<VIN>XW8AN6NE8HH014436</VIN>
-			<MARK/>
-			<MODEL>Octavia</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY/>
-			<POWER/>
-			<fuel_consumption/>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount/>
-			<Color>Серебристый Brilliant металлик</Color>
-			<ColorCode>8E8E</ColorCode>
-			<ColorOrig/>
-			<SpecName>Octavia Active 1.6 (110 л.с.) авт. -6</SpecName>
-			<SpecId>NL32HC</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV/>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>HA Черный</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>4</run>
-			<year>2 016</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT>
-				<value>WR1</value>
-			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
 			<VIN>XW8AC4NEXJH008749</VIN>
 			<MARK/>
 			<MODEL>Octavia</MODEL>
@@ -380,8 +201,8 @@
 			<SpecName>Ambition 1.4 DSG</SpecName>
 			<SpecId>NL33MD</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 300 400</OLD_PRICE>
+			<NEW_PRICE>1 300 400</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -397,40 +218,6 @@
 				<value>RAC</value>
 				<value>WE8</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
-			<VIN>XW8LB65L4HH705107</VIN>
-			<MARK/>
-			<MODEL>Yeti</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,8</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>Красный Ruby металлик</Color>
-			<ColorCode>7H7H</ColorCode>
-			<ColorOrig/>
-			<SpecName>Outdoor Ambition 1.8 (152 л.с.) DSG-62</SpecName>
-			<SpecId>677BPX 2           1</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV/>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>DR Черный Onyx</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>1</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
 			<CREDIT>0</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
@@ -452,8 +239,8 @@
 			<SpecName>Ambition 1.6 (110) АКПП</SpecName>
 			<SpecId>NK33LC</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>939 300</OLD_PRICE>
+			<NEW_PRICE>879 300</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -468,7 +255,7 @@
 				<value>WFS</value>
 				<value>PHB</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>60 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -489,8 +276,8 @@
 			<SpecName>Style 1.8 (180 л.с.) DSG-7</SpecName>
 			<SpecId>NL34PD</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 458 400</OLD_PRICE>
+			<NEW_PRICE>1 368 400</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -506,7 +293,7 @@
 				<value>WRE</value>
 				<value>PCB</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -527,8 +314,8 @@
 			<SpecName>Ambition 1.8 мкпп</SpecName>
 			<SpecId>NL33P5</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 332 600</OLD_PRICE>
+			<NEW_PRICE>1 242 600</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -545,7 +332,7 @@
 				<value>PL6</value>
 				<value>8T6</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -566,8 +353,8 @@
 			<SpecName>Kodiaq Style 2.0 TSI (180 л.с.) авт.-7 (DSG) 4x4</SpecName>
 			<SpecId>NS74RZ</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>2 742 500</OLD_PRICE>
+			<NEW_PRICE>2 642 500</NEW_PRICE>
 			<CUZOV/>
 			<Comment/>
 			<TYPE_SALON/>
@@ -579,7 +366,7 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
+			<CREDIT>100 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -600,8 +387,8 @@
 			<SpecName>Outdoor Active 1.6 (110 л.с.) авт-6</SpecName>
 			<SpecId>677AHC1</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 179 200</OLD_PRICE>
+			<NEW_PRICE>969 200</NEW_PRICE>
 			<CUZOV/>
 			<Comment/>
 			<TYPE_SALON/>
@@ -615,7 +402,7 @@
 			<EXT_COMPLIT>
 				<value>WSA</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>210 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -636,8 +423,8 @@
 			<SpecName>Octavia Ambition 1.6 (110 л.с.) авт. -6</SpecName>
 			<SpecId>NL33HC</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 235 600</OLD_PRICE>
+			<NEW_PRICE>1 145 600</NEW_PRICE>
 			<CUZOV>хэтчбек</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -654,7 +441,7 @@
 				<value>PL6</value>
 				<value>8T6</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -675,8 +462,8 @@
 			<SpecName>Octavia Ambition 1.6 (110 л.с.) ручн.-5</SpecName>
 			<SpecId>NL33H4</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 145 700</OLD_PRICE>
+			<NEW_PRICE>1 055 700</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -692,7 +479,7 @@
 				<value>PFA</value>
 				<value>RAC</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -713,8 +500,8 @@
 			<SpecName>Ambition 1.4 DSG</SpecName>
 			<SpecId>NL33MD</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 290 600</OLD_PRICE>
+			<NEW_PRICE>1 200 600</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -731,7 +518,7 @@
 				<value>PL6</value>
 				<value>8T6</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -752,8 +539,8 @@
 			<SpecName>Active 1.6 (110 ) АКПП</SpecName>
 			<SpecId>NK32LC</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>828 600</OLD_PRICE>
+			<NEW_PRICE>768 600</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -770,7 +557,7 @@
 				<value>PW1</value>
 				<value>RAD</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>60 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -791,8 +578,8 @@
 			<SpecName>Active 1.6 (110 ) АКПП</SpecName>
 			<SpecId>NK32LC</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>841 900</OLD_PRICE>
+			<NEW_PRICE>781 900</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -809,7 +596,7 @@
 				<value>PW1</value>
 				<value>RAD</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>60 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -830,8 +617,8 @@
 			<SpecName>Active 1.6 (110 ) АКПП</SpecName>
 			<SpecId>NK32LC</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>823 300</OLD_PRICE>
+			<NEW_PRICE>763 300</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -846,7 +633,7 @@
 				<value>WR1</value>
 				<value>PW1</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>60 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -867,8 +654,8 @@
 			<SpecName>Ambition 1.6 (110) АКПП</SpecName>
 			<SpecId>NK33LC</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>944 800</OLD_PRICE>
+			<NEW_PRICE>884 800</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -884,7 +671,7 @@
 				<value>PHB</value>
 				<value>PJA</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>60 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -941,8 +728,8 @@
 			<SpecName>Outdoor Ambition 1.6 (110 л.с.) 5-мех</SpecName>
 			<SpecId>677BH4                1</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 271 300</OLD_PRICE>
+			<NEW_PRICE>1 061 300</NEW_PRICE>
 			<CUZOV/>
 			<Comment/>
 			<TYPE_SALON/>
@@ -956,7 +743,47 @@
 			<EXT_COMPLIT>
 				<value>PP4</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>210 000</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AD6NE1JH015825</VIN>
+			<MARK/>
+			<MODEL>Octavia</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,8</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Черный Deep перламутр</Color>
+			<ColorCode>2T2T</ColorCode>
+			<ColorOrig/>
+			<SpecName>Style 1.8 (180 л.с.) 6-мкпп</SpecName>
+			<SpecId>NL34P5</SpecId>
+			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
+			<OLD_PRICE>1 428 600</OLD_PRICE>
+			<NEW_PRICE>1 338 600</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>HA Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>4ZG</value>
+				<value>WWP</value>
+				<value>UG1</value>
+				<value>PCB</value>
+				<value>WRE</value>
+			</EXT_COMPLIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -977,8 +804,8 @@
 			<SpecName>Style 1.6 (110 л.с.) мех-5</SpecName>
 			<SpecId>NL34H4</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 246 300</OLD_PRICE>
+			<NEW_PRICE>1 156 300</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -994,7 +821,7 @@
 				<value>PH5</value>
 				<value>WRE</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -1015,8 +842,8 @@
 			<SpecName>Ambition 1.4 DSG</SpecName>
 			<SpecId>NL33MD</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 315 200</OLD_PRICE>
+			<NEW_PRICE>1 225 200</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -1034,7 +861,44 @@
 				<value>PL6</value>
 				<value>8T6</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AC4NEXJH015927</VIN>
+			<MARK/>
+			<MODEL>Octavia</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,4</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Синий Storm металлик</Color>
+			<ColorCode>8D8D</ColorCode>
+			<ColorOrig/>
+			<SpecName>Ambition 1.4 DSG</SpecName>
+			<SpecId>NL33MD</SpecId>
+			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
+			<OLD_PRICE>1 272 200</OLD_PRICE>
+			<NEW_PRICE>1 182 200</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>HA Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WE6</value>
+				<value>RAC</value>
+			</EXT_COMPLIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -1055,8 +919,8 @@
 			<SpecName>Ambition 1.8 мкпп</SpecName>
 			<SpecId>NL33P5</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 308 400</OLD_PRICE>
+			<NEW_PRICE>1 218 400</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -1070,7 +934,7 @@
 			<EXT_COMPLIT>
 				<value>WE6</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -1091,14 +955,14 @@
 			<SpecName>Ambition 1.4 TSI ручн.-6</SpecName>
 			<SpecId>NL33M5</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 236 700</OLD_PRICE>
+			<NEW_PRICE>1 146 700</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
 			<COLOR_SALON>HA Черный</COLOR_SALON>
 			<GRAR_TYPE/>
-			<run>1</run>
+			<run>3</run>
 			<year>2 017</year>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
@@ -1108,7 +972,7 @@
 				<value>WE6</value>
 				<value>RAC</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -1129,8 +993,8 @@
 			<SpecName>Octavia Active 1.4 TSI (150 л.с.) ручн.-6</SpecName>
 			<SpecId>NL32M5</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 069 000</OLD_PRICE>
+			<NEW_PRICE>979 000</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -1143,6 +1007,76 @@
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT>
 				<value>WR1</value>
+			</EXT_COMPLIT>
+			<CREDIT>90 000</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AG2NH6JK104528</VIN>
+			<MARK/>
+			<MODEL>Rapid</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Красный Tornado</Color>
+			<ColorCode>G2G2</ColorCode>
+			<ColorOrig/>
+			<SpecName>Active 1.6 (90 л.с.) мкпп</SpecName>
+			<SpecId>NK32D4</SpecId>
+			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>EQ Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AG2NH2JK104221</VIN>
+			<MARK/>
+			<MODEL>Rapid</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Коричневый Toffee Brown металлик</Color>
+			<ColorCode>4Q4Q</ColorCode>
+			<ColorOrig/>
+			<SpecName>Ambition 1.6 (90 л.с.) мех-5</SpecName>
+			<SpecId>NK33D4</SpecId>
+			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>AB Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>PJA</value>
 			</EXT_COMPLIT>
 			<CREDIT>0</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
@@ -1165,8 +1099,8 @@
 			<SpecName>Superb Ambition 1.4 TSI (150 л.с.) авт.-7 (DSG)</SpecName>
 			<SpecId>3V33KD</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 715 600</OLD_PRICE>
+			<NEW_PRICE>1 715 600</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -1252,12 +1186,46 @@
 			<SpecName>Outdoor Ambition 1.6 (110 л.с.) 5-мех</SpecName>
 			<SpecId>677BH4                1</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
+			<OLD_PRICE>1 266 000</OLD_PRICE>
+			<NEW_PRICE>1 056 000</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>DR Черный Onyx</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>210 000</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>TMBLJ9NS6J8023939</VIN>
+			<MARK/>
+			<MODEL>Kodiaq</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY/>
+			<POWER/>
+			<fuel_consumption/>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount/>
+			<Color>Синий Lava металлик</Color>
+			<ColorCode>0F0F</ColorCode>
+			<ColorOrig/>
+			<SpecName>Kodiaq 2,0 TDI (150л.с.) авт.-7 (DSG)</SpecName>
+			<SpecId>NS746Z</SpecId>
+			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
 			<OLD_PRICE>0</OLD_PRICE>
 			<NEW_PRICE>0</NEW_PRICE>
 			<CUZOV/>
 			<Comment/>
 			<TYPE_SALON/>
-			<COLOR_SALON>DR Черный Onyx</COLOR_SALON>
+			<COLOR_SALON>AD Черный</COLOR_SALON>
 			<GRAR_TYPE/>
 			<run>1</run>
 			<year>2 017</year>
@@ -1286,8 +1254,8 @@
 			<SpecName>Kodiaq Ambition 2.0 TDI (150 л.с.) авт.-7 (DSG) 4x4</SpecName>
 			<SpecId>NS736Z</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>2 423 500</OLD_PRICE>
+			<NEW_PRICE>2 323 500</NEW_PRICE>
 			<CUZOV/>
 			<Comment/>
 			<TYPE_SALON/>
@@ -1306,44 +1274,7 @@
 				<value>4ZB</value>
 				<value>5XH</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
-			<VIN>XW8AC1NH9HK124451</VIN>
-			<MARK/>
-			<MODEL>Rapid</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>Белый Pure</Color>
-			<ColorCode>0Q0Q</ColorCode>
-			<ColorOrig/>
-			<SpecName>Active 1.6 (110 ) АКПП</SpecName>
-			<SpecId>NK32LC</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>EQ Черный</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>1</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT>
-				<value>WA1</value>
-				<value>WR1</value>
-			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>100 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -1364,8 +1295,8 @@
 			<SpecName>Active 1.6 (110 ) АКПП</SpecName>
 			<SpecId>NK32LC</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>802 500</OLD_PRICE>
+			<NEW_PRICE>742 500</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -1380,7 +1311,7 @@
 				<value>WA1</value>
 				<value>WR1</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>60 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -1401,8 +1332,8 @@
 			<SpecName>Active 1.6 (110 ) АКПП</SpecName>
 			<SpecId>NK32LC</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>802 500</OLD_PRICE>
+			<NEW_PRICE>742 500</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -1417,7 +1348,7 @@
 				<value>WA1</value>
 				<value>WR1</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>60 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -1438,8 +1369,8 @@
 			<SpecName>Active 1.6 (110 ) АКПП</SpecName>
 			<SpecId>NK32LC</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>802 500</OLD_PRICE>
+			<NEW_PRICE>742 500</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -1454,7 +1385,7 @@
 				<value>WA1</value>
 				<value>WR1</value>
 			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
+			<CREDIT>60 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -1500,44 +1431,6 @@
 			<number>+7 (473) 2333303</number>
 		</Contract>
 		<Contract>
-			<VIN>XW8AG2NHXJK103267</VIN>
-			<MARK/>
-			<MODEL>Rapid</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>Оранжевый Copper металлик</Color>
-			<ColorCode>3J3J</ColorCode>
-			<ColorOrig/>
-			<SpecName>Ambition 1.6 (90 л.с.) мех-5</SpecName>
-			<SpecId>NK33D4</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>AB Черный</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>1</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT>
-				<value>PHB</value>
-				<value>9WT</value>
-				<value>PJA</value>
-			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
 			<VIN>XW8AD6NE6JH015318</VIN>
 			<MARK/>
 			<MODEL>Octavia</MODEL>
@@ -1554,8 +1447,8 @@
 			<SpecName>Style 1.8 (180 л.с.) DSG-7</SpecName>
 			<SpecId>NL34PD</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>1 454 600</OLD_PRICE>
+			<NEW_PRICE>1 364 600</NEW_PRICE>
 			<CUZOV>седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
@@ -1567,7 +1460,43 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
+			<CREDIT>90 000</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AC4NH2JK103870</VIN>
+			<MARK/>
+			<MODEL>Rapid</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Серебристый Brilliant металлик</Color>
+			<ColorCode>8E8E</ColorCode>
+			<ColorOrig/>
+			<SpecName>Rapid Style 1.6 (110 л.с.) авт.-6</SpecName>
+			<SpecId>NK34LC</SpecId>
+			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
+			<OLD_PRICE>968 100</OLD_PRICE>
+			<NEW_PRICE>908 100</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>AB Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WR8</value>
+			</EXT_COMPLIT>
+			<CREDIT>60 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
