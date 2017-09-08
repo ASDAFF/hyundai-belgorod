@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>06.09.2017</Date>
-		<Time>21:34:49</Time>
+		<Date>07.09.2017</Date>
+		<Time>21:34:41</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -383,7 +383,7 @@
 			<NEW_PRICE>0</NEW_PRICE>
 			<CUZOV>внедорожник</CUZOV>
 			<Comment/>
-			<TYPE_SALON/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run/>
@@ -1071,6 +1071,82 @@
 				<value>Шумоизоляция капота</value>
 			</DEFAULT_COMPLIT>
 			<CREDIT>160 000</CREDIT>
+			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
+			<number>7 (4742) 727777</number>
+		</Contract>
+		<Contract>
+			<VIN>KMHWH81KBHU868947</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>H-1</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>2,5</CAPACITY>
+			<POWER>170</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>5</TransmissionCount>
+			<Color>черный</Color>
+			<ColorCode>PB5</ColorCode>
+			<ColorOrig>Черный</ColorOrig>
+			<SpecName>Business 2,5  5АТ (170л.с.)</SpecName>
+			<SpecId>GDB86B85DGGJJE</SpecId>
+			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
+			<OLD_PRICE>2 224 000</OLD_PRICE>
+			<NEW_PRICE>2 144 000</NEW_PRICE>
+			<CUZOV>Микроавтобус</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Задний</GRAR_TYPE>
+			<run>5</run>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Кондиционер с раздельным управлением (кабина/салон)</value>
+				<value>Обивка сидений тканью</value>
+				<value>Подушка безопасности водителя</value>
+				<value>Подушка безопасности переднего пассажира</value>
+				<value>Преднатяжители передних ремней безопасности</value>
+				<value>Задние дисковые тормоза</value>
+				<value>ABS (антиблокировочная система тормозов)</value>
+				<value>EBD (электронная система распределения тормозных усилий)</value>
+				<value>Иммобилайзер</value>
+				<value>Регулировка руля по высоте</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Подогрев сиденья водителя</value>
+				<value>Гудроусилитель руля</value>
+				<value>Электростеклоподъемники</value>
+				<value>Зеркала с электроприводом и обогревом</value>
+				<value>Фильтр салона</value>
+				<value>Аккумуляторная батарея повышенной емкости</value>
+				<value>Подогрев топливного фильтра</value>
+				<value>Пульт управления ЦЗ в раскладном ключе + сигнализация*</value>
+				<value>Аудиосистема 2 DIN (Радио/CD/MP3) с 6 динамиками</value>
+				<value>Система Bluetooth</value>
+				<value>Блок управления магнитолой на руле</value>
+				<value>Разъемы USB, AUX</value>
+				<value>Отделка центральной консоли под металл</value>
+				<value>Раздельные кресла переднего ряда</value>
+				<value>Ручка на передней левой стойке в салоне</value>
+				<value>Ручки дверей в цвет кузова</value>
+				<value>Дополнительный стоп-сигнал</value>
+				<value>Передние противотуманные фары</value>
+				<value>Легкосплавные диски 16" с шинами 215/70 R16</value>
+				<value>Полноразмерное запасное колесо</value>
+				<value>Маршрутный компьютер</value>
+				<value>Дополнительный отопитель салона</value>
+				<value>Автоматическая блокировка заднего дифференциала</value>
+				<value>Охлаждаемый перчаточный ящик</value>
+				<value>Комбинация натуральной и искусственной кожи в отделке сидений (бежевый цвет)</value>
+				<value>Климат-контроль с раздельным управлением (кабина/салон)</value>
+				<value>Круиз-контроль (только для GDB86B85DGGJJE)</value>
+				<value>Сдвижное боковое окно (для 2-го ряда сидений)</value>
+				<value>Двухцветная окраска кузова</value>
+				<value>Боковой защитный молдинг</value>
+				<value>Плафон освещения задней части салона на светодиодах (6 цветов)</value>
+			</DEFAULT_COMPLIT>
+			<CREDIT>80 000</CREDIT>
 			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
 			<number>7 (4742) 727777</number>
 		</Contract>
@@ -2309,7 +2385,7 @@
 			<TYPE_SALON/>
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
-			<run/>
+			<run>4</run>
 			<year>2 017</year>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
