@@ -69,10 +69,10 @@ function handleComplete(evt) {
 					sRatio = Math.max(xRatio, yRatio);				
 				}			
 			}			
-			canvas.width = w*pRatio*sRatio;			
+			canvas.width = w*pRatio*sRatio;
 			canvas.height = h*pRatio*sRatio;
-			canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';				
-			canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
+		//	canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';
+		//	canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
 			stage.scaleX = pRatio*sRatio;			
 			stage.scaleY = pRatio*sRatio;			
 			lastW = iw; lastH = ih; lastS = sRatio;		
@@ -85,9 +85,9 @@ function handleComplete(evt) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1000px; height:685px">
-		<canvas id="canvas" width="630" height="520" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1000px; height:685px; position: absolute; left: 0px; top: 0px; display: block;">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:100%; height:685px">
+		<canvas id="canvas" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);max-width: 100%!important;"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:100%; height:685px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
 </body>
