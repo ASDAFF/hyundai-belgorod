@@ -332,10 +332,10 @@ $APPLICATION->SetTitle("NewSolaris");
 
             <div class="container">
                 <div class="fast-menu is-expanded" role="navigation">
-                    <a href="#" role="button" class="fast-menu-button fast-menu-button--parent" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" class="svg fast-menu-car"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fast-menu-car"></use></svg><svg xmlns="http://www.w3.org/2000/svg" class="svg fast-menu-close"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fast-menu-close"></use></svg></a>
-                    <a href="/test-drive?old_car_id=250" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Тест-драйв</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fast-menu-test-drive"></use></svg></a>
-                    <a href="/configurator/car/24/" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Конфигуратор</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fast-menu-config"></use></svg></a>
-                    <a href="/find-dealer" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Дилеры</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fast-menu-dealers"></use></svg></a>
+                    <a href="#" role="button" class="fast-menu-button fast-menu-button--parent" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" class="svg fast-menu-car"><use xlink:href="#fast-menu-car"></use></svg><svg xmlns="http://www.w3.org/2000/svg" class="svg fast-menu-close"><use xlink:href="#fast-menu-close"></use></svg></a>
+                    <a href="#" class="fast-menu-button fast-menu-button--child zing_form_toggler_spec" for="testdrive"><span class="fast-menu-button__text">Тест-драйв</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-test-drive"></use></svg></a>
+                    <a href="http://www.hyundai.ru/configurator/car?compl_id=379&packets=" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Конфигуратор</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-config"></use></svg></a>
+                    <a href="/contacts/" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Контакты</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-dealers"></use></svg></a>
                 </div>
                 <main class="pip-main">
 
@@ -422,7 +422,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                     <div class="item_wrap">
                                         <div class="main mkv">
                                             <div class="title">
-                                                <img src="http://www.hyundai.ru/media/images/flat/SL/elements/logo.png" title="Solaris">
+                                                <img src="sonata.png" title="sonata">
                                                 <span>Всегда что-то большее</span>
                                             </div>
                                             <div class="title-price">
@@ -446,7 +446,7 @@ $APPLICATION->SetTitle("NewSolaris");
 
                                         </div>
                                         <div class="view-360_wrap" style="width: 700px; height: 316px;">
-                                            <img class="progress-last-frame" alt="" src="http://hyundai-ringauto.ru/media/images/360/solaris/Solaris_new_2017.png" style="width: 700px; opacity: 1">
+                                            <img class="progress-last-frame" alt="" src="http://www.hyundai.ru/media/images/360/sonata/grand_blue/31.png" style="width: 700px; opacity: 1">
                                             <div class="progress-ring-wrap"><canvas id="progress-ring" class="progress-ring" width="200" height="200"></canvas></div>
                                             <div class="spritespin spritespin-instance with-canvas" data-model="sonata" unselectable="on" style="user-select: none; width: 700px; height: 316px; position: relative; overflow: hidden;">
                                                 <div class="spritespin-stage" style="width: 100%; height: 100%; top: 0px; left: 0px; bottom: 0px; right: 0px; position: absolute; overflow: hidden; display: block; background-image: none;"></div>
@@ -501,14 +501,14 @@ $APPLICATION->SetTitle("NewSolaris");
                             <div class="section-content section-content--fw section-content--configurator">
                                 <header class="section-header">
                                     <div class="section-header__subtitle">Создай свою<br> Sonata.</div>
-                                    <img src="/media/images/flat/SONATA/elements/360.png" class="view-360-ic" alt="Обзор 360">
+                                    <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/360.png" class="view-360-ic" alt="Обзор 360">
                                 </header>
 
                                 <div class="configurator">
                                     <div class="backstage">Sonata</div>
                                     <div class="img-w">
                                         <div class="view-360_wrap" style="width: 910px; height: 411px;">
-                                            <img class="progress-last-frame" src="/media/images/360/sonata/grand_blue/09.png" style="width: 910px;">
+                                            <img class="progress-last-frame" src="http://www.hyundai.ru/media/images/360/sonata/grand_blue/09.png" style="width: 910px;">
                                             <div class="progress-ring-wrap"><canvas id="progress-ring" class="progress-ring" width="200" height="200"></canvas></div>
                                             <div class="spritespin spritespin-instance with-canvas" data-model="sonata" data-width="910" data-height="411" data-init-frame="08" unselectable="on" style="user-select: none; position: relative; overflow: hidden; width: 910px; height: 411px;"><div class="spritespin-stage" style="width: 100%; height: 100%; top: 0px; left: 0px; bottom: 0px; right: 0px; position: absolute; overflow: hidden; background-image: none;"></div><canvas class="spritespin-canvas" width="910" height="411" style="width: 100%; height: 100%; top: 0px; left: 0px; bottom: 0px; right: 0px; position: absolute; overflow: hidden;"></canvas></div>
                                         </div>
@@ -551,13 +551,13 @@ $APPLICATION->SetTitle("NewSolaris");
                                     <div class="pip-slider pip-slider--video">
                                         <div class="pip-slide" data-slide="1" data-src="0IBskt7D3Kg" style="transition: transform 0.75s cubic-bezier(0.65, 0.05, 0.36, 1) 0s; transform: translate(0px, 0px); z-index: 5;" data-active="true">
                                             <div class="pip-slide__content">
-                                                <img src="/media/images/flat/SONATA/elements/video_preview_1.jpg" class="video-preview" alt="">
+                                                <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/video_preview_1.jpg" class="video-preview" alt="">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="svg play-svg-ic"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#play-svg-ic"></use></svg>
                                                 <iframe class="embedded_vd" width="100%" height="" src="" frameborder="0" allowfullscreen=""></iframe></div>
                                         </div>
                                         <div class="pip-slide" data-slide="2" data-src="um9uM5XH1nU" style="transition: none; transform: translate(100%, 0px);">
                                             <div class="pip-slide__content">
-                                                <img src="/media/images/flat/SONATA/elements/video_preview_2.jpg" class="video-preview" alt="">
+                                                <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/video_preview_2.jpg" class="video-preview" alt="">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="svg play-svg-ic"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#play-svg-ic"></use></svg>
                                                 <iframe class="embedded_vd" width="100%" height="" src="" frameborder="0" allowfullscreen=""></iframe></div>
                                         </div>
@@ -567,7 +567,7 @@ $APPLICATION->SetTitle("NewSolaris");
                         </section>
                         <section class="section section--brand-new" data-anchor="highlights">
                             <div class="section-parallax section-parallax--1">
-                                <div class="parallax-layer" data-parallax-speed="1" style="transform: translate(0px, 7.34365%);"></div>
+                                <div class="parallax-layer" data-parallax-speed="1" style="background-image:url('http://www.hyundai.ru/media/images/flat/SONATA/elements/parallax_1.jpg');transform: translate(0px, 7.34365%);"></div>
                                 <div class="section-parallax-content" data-parallax-speed="2" style="transform: translate(0px, 19.9046%);">
                                     <header class="section-header">
                                         <h2 class="section-header__title">Особенности</h2>
@@ -582,7 +582,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                 </header>
                                 <div class="section-main">
                                     <div class="img-w">
-                                        <img src="/media/images/flat/SONATA/elements/specs.png" class="img" alt="">
+                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/specs.png" class="img" alt="">
                                     </div>
                                     <div class="pip-specs">
                                         <div class="pip-specs-row">
@@ -624,7 +624,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                     <div class="pip-slider pip-slider--hlsl">
                                         <div class="pip-slides-holder">
                                             <div class="pip-slide" data-slide="1" data-active="active">
-                                                <div class="pip-slide-image"><img src="/media/images/flat/SONATA/elements/highlights_1.jpg" class="pip-slide-img" alt=""></div>
+                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_1.jpg" class="pip-slide-img" alt=""></div>
                                                 <div class="pip-slide-text">
                                                     <div class="pip-slide-subt">
                                                         Абсолютно новая и гармоничная.
@@ -635,7 +635,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                 </div>
                                             </div>
                                             <div class="pip-slide" data-slide="2" data-active="ready">
-                                                <div class="pip-slide-image"><img src="/media/images/flat/SONATA/elements/highlights_2.jpg" class="pip-slide-img" alt=""></div>
+                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_2.jpg" class="pip-slide-img" alt=""></div>
                                                 <div class="pip-slide-text">
                                                     <div class="pip-slide-subt">
                                                         Новые двигатели.
@@ -646,7 +646,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                 </div>
                                             </div>
                                             <div class="pip-slide" data-slide="3" data-active="ready">
-                                                <div class="pip-slide-image"><img src="/media/images/flat/SONATA/elements/highlights_3.jpg" class="pip-slide-img" alt=""></div>
+                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_3.jpg" class="pip-slide-img" alt=""></div>
                                                 <div class="pip-slide-text">
                                                     <div class="pip-slide-subt">
                                                         Комфорт и спокойствие.
@@ -657,7 +657,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                 </div>
                                             </div>
                                             <div class="pip-slide" data-slide="4" data-active="passive">
-                                                <div class="pip-slide-image"><img src="/media/images/flat/SONATA/elements/highlights_1.jpg" class="pip-slide-img" alt=""></div>
+                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_1.jpg" class="pip-slide-img" alt=""></div>
                                                 <div class="pip-slide-text">
                                                     <div class="pip-slide-subt">
                                                         Абсолютно новая и гармоничная.
@@ -668,7 +668,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                 </div>
                                             </div>
                                             <div class="pip-slide" data-slide="5" data-active="passive">
-                                                <div class="pip-slide-image"><img src="/media/images/flat/SONATA/elements/highlights_2.jpg" class="pip-slide-img" alt=""></div>
+                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_2.jpg" class="pip-slide-img" alt=""></div>
                                                 <div class="pip-slide-text">
                                                     <div class="pip-slide-subt">
                                                         Новые двигатели.
@@ -679,7 +679,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                 </div>
                                             </div>
                                             <div class="pip-slide" data-slide="6" data-active="passive">
-                                                <div class="pip-slide-image"><img src="/media/images/flat/SONATA/elements/highlights_3.jpg" class="pip-slide-img" alt=""></div>
+                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_3.jpg" class="pip-slide-img" alt=""></div>
                                                 <div class="pip-slide-text">
                                                     <div class="pip-slide-subt">
                                                         Уют и спокойствие.
@@ -700,7 +700,7 @@ $APPLICATION->SetTitle("NewSolaris");
                         </section>
                         <section class="section section--exterior" data-anchor="exterior">
                             <div class="section-parallax section-parallax--2">
-                                <div class="parallax-layer" data-parallax-speed="1"></div>
+                                <div class="parallax-layer" style="background-image: url('http://www.hyundai.ru/media/images/flat/SONATA/elements/parallax_2.jpg');" data-parallax-speed="1"></div>
                                 <div class="section-parallax-content" data-parallax-speed="2">
                                     <header class="section-header">
                                         <h2 class="section-header__title">Экстерьер</h2>
@@ -716,7 +716,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="pip-slide" data-slide="1" data-active="true">
                                                 <div class="pip-slide__content">
                                                     <div class="exterior-image-area">
-                                                        <img src="/media/images/flat/SONATA/elements/angle_1.png" class="exterior-angle" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/angle_1.png" class="exterior-angle" alt="">
                                                     </div>
                                                     <div class="exterior-plus-area">
                                                         <button class="plus" data-for="1"></button>
@@ -728,7 +728,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="pip-slide" data-slide="2" style="transition: none; transform: translate(100%, 0px);">
                                                 <div class="pip-slide__content">
                                                     <div class="exterior-image-area">
-                                                        <img src="/media/images/flat/SONATA/elements/angle_2.png" class="exterior-angle" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/angle_2.png" class="exterior-angle" alt="">
                                                     </div>
                                                     <div class="exterior-plus-area">
                                                         <button class="plus" data-for="4"></button>
@@ -738,13 +738,15 @@ $APPLICATION->SetTitle("NewSolaris");
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="pip-slider-controls pip-slider-controls--arrows"><button class="pip-slider-control pip-slider-control--arrow" data-role="prev"><svg xmlns="http://www.w3.org/2000/svg" class="svg arrow-left"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-left"></use></svg></button><button class="pip-slider-control pip-slider-control--arrow" data-role="next"><svg xmlns="http://www.w3.org/2000/svg" class="svg arrow-right"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use></svg></button></div><div class="pip-slider-controls pip-slider-controls--bullets"><button class="pip-slider-control pip-slider-control--bullet" data-active="true"></button><button class="pip-slider-control pip-slider-control--bullet"></button></div></div>
+
+
+                                    </div>
                                     <div class="pip-slider pip-slider--exterior-pluser" data-role="js-ext-pluser">
                                         <div class="pip-slides-holder">
                                             <div class="pip-slide" data-slide="1" data-active="true">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="/media/images/flat/SONATA/elements/exterior_1.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_1.jpg" class="pluser-img" alt="">
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Каскадная решётка радиатора.</strong>
@@ -755,7 +757,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="pip-slide" data-slide="2" style="transition: none; transform: translate(100%, 0px);">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="/media/images/flat/SONATA/elements/exterior_2.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_2.jpg" class="pluser-img" alt="">
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Светодиодные фары.</strong>
@@ -766,7 +768,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="pip-slide" data-slide="3" style="transition: none; transform: translate(100%, 0px);">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="/media/images/flat/SONATA/elements/exterior_3.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_3.jpg" class="pluser-img" alt="">
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Противотуманные фары и&nbsp;ходовые огни.</strong>
@@ -777,7 +779,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="pip-slide" data-slide="4" style="transition: none; transform: translate(100%, 0px);">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="/media/images/flat/SONATA/elements/exterior_6.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_6.jpg" class="pluser-img" alt="">
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Легкосплавные диски.</strong>
@@ -788,7 +790,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="pip-slide" data-slide="5" style="transition: none; transform: translate(100%, 0px);">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="/media/images/flat/SONATA/elements/exterior_5.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_5.jpg" class="pluser-img" alt="">
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Задние комбинированные фонари.</strong>
@@ -799,7 +801,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="pip-slide" data-slide="6" style="transition: none; transform: translate(100%, 0px);">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="/media/images/flat/SONATA/elements/exterior_4.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_4.jpg" class="pluser-img" alt="">
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Выхлопная система с двумя глушителями.</strong>
@@ -814,7 +816,7 @@ $APPLICATION->SetTitle("NewSolaris");
                         </section>
                         <section class="section section--interior" data-anchor="interior">
                             <div class="section-parallax section-parallax--3">
-                                <div class="parallax-layer" data-parallax-speed="1"></div>
+                                <div class="parallax-layer" style="background-image: url('http://www.hyundai.ru/media/images/flat/SONATA/elements/parallax_3.jpg');" data-parallax-speed="1"></div>
                                 <div class="section-parallax-content" data-parallax-speed="2">
                                     <header class="section-header">
                                         <h2 class="section-header__title">Интерьер</h2>
@@ -830,7 +832,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="pip-slide" data-slide="1" data-active="true">
                                                 <div class="pip-slide__content">
                                                     <div class="interior-image-area">
-                                                        <img src="/media/images/flat/SONATA/elements/interior_view.jpg" class="interior-view" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/interior_view.jpg" class="interior-view" alt="">
                                                     </div>
                                                     <div class="interior-plus-area">
                                                         <button class="plus" data-for="1"></button>
@@ -848,7 +850,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="pip-slide" data-slide="1" data-active="true">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="/media/images/flat/SONATA/elements/interior_2.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/interior_2.jpg" class="pluser-img" alt="">
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Система памяти настроек водительского сиденья (IMS).</strong>
@@ -859,7 +861,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="pip-slide" data-slide="2" style="transition: none; transform: translate(100%, 0px);">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="/media/images/flat/SONATA/elements/interior_4.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/interior_4.jpg" class="pluser-img" alt="">
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Подогрев передних и задних сидений.</strong>
@@ -870,7 +872,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="pip-slide" data-slide="3" style="transition: none; transform: translate(100%, 0px);">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="/media/images/flat/SONATA/elements/interior_3.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/interior_3.jpg" class="pluser-img" alt="">
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Двухзонный автоматический климат-контроль.</strong>
@@ -881,7 +883,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="pip-slide" data-slide="4" style="transition: none; transform: translate(100%, 0px);">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="/media/images/flat/SONATA/elements/interior_1.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/interior_1.jpg" class="pluser-img" alt="">
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Автоматический обдув лобового стекла.</strong>
@@ -896,7 +898,7 @@ $APPLICATION->SetTitle("NewSolaris");
                         </section>
                         <section class="section section--performance" data-anchor="performance">
                             <div class="section-parallax section-parallax--4">
-                                <div class="parallax-layer" data-parallax-speed="1"></div>
+                                <div class="parallax-layer" style="background-image: url('http://www.hyundai.ru/media/images/flat/SONATA/elements/parallax_4.jpg');" data-parallax-speed="1"></div>
                                 <div class="section-parallax-content" data-parallax-speed="2">
                                     <header class="section-header">
                                         <h2 class="section-header__title">Динамика</h2>
@@ -905,36 +907,39 @@ $APPLICATION->SetTitle("NewSolaris");
                                     </header>
                                 </div>
                             </div>
+
+
                             <div class="section-content section-content--fw section-content--graphics">
-                                <div class="section-main is-ready" data-role="js-graphics" data-watch-scroll="true">
+                                <div class="section-main" data-role="js-graphics" data-watch-scroll="true">
                                     <div class="tabs graphics-tabs">
                                         <ul class="tabs-w engine-selector" data-role="tabs-buttons">
-                                            <li class="tab is-active" data-for="1" data-power="188" data-toque="241" data-power-scale="75.1" data-toque-scale="25.1">2.4 GDi</li>
-                                            <li class="tab" data-for="2" data-power="150" data-toque="192" data-power-scale="80" data-toque-scale="25.1">2.0 MPi</li>
+                                            <li class="tab" data-for="1" data-power="188" data-toque="241" data-power-scale="75.1" data-toque-scale="25.1">2.4 GDi</li>
+                                            <li class="tab" onload="this.trigger('click');" data-for="2" data-power="150" data-toque="192" data-power-scale="80" data-toque-scale="25.1">2.0 MPi</li>
 
                                         </ul>
-                                        <ul class="tabs-c" data-role="tab-container" style="height: 112px;">
-                                            <li class="tab" data-tab="1" style="position: absolute; display: list-item;"><div class="engine-descr">Сочетание 6-ступенчатой коробки передач с&nbsp;экономичными двигателями 2.0 и 2.4 литра позволяет достичь повышенной плавности хода, а&nbsp;также снизить уровень шума во время движения.</div></li>
-                                            <li class="tab" data-tab="2" style="display: none; position: absolute;"><div class="engine-descr">Сочетание 6-ступенчатой коробки передач с&nbsp;экономичными двигателями 2.0 и 2.4 литра позволяет достичь повышенной плавности хода, а&nbsp;также снизить уровень шума во время движения.</div></li>
+                                        <ul class="tabs-c" data-role="tab-container">
+                                            <li class="tab" data-tab="1"><div class="engine-descr">Сочетание 6-ступенчатой коробки передач с&nbsp;экономичными двигателями 2.0 и 2.4 литра позволяет достичь повышенной плавности хода, а&nbsp;также снизить уровень шума во время движения.</div></li>
+                                            <li class="tab" data-tab="2"><div class="engine-descr">Сочетание 6-ступенчатой коробки передач с&nbsp;экономичными двигателями 2.0 и 2.4 литра позволяет достичь повышенной плавности хода, а&nbsp;также снизить уровень шума во время движения.</div></li>
                                         </ul>
-                                        <div class="graphics-scores">
-                                            <span class="graphics-scale-level">4000 об/мин</span>
-                                            <span class="graphics-scale-level">5000 об/мин</span>
-                                            <span class="graphics-scale-level">6000 об/мин</span>
-                                            <div class="graphics-score graphics-score--power">
-                                                <dl class="score-points">
-                                                    <dt class="points"><strong class="value">0</strong> <span class="units">л.с.</span></dt>
-                                                    <dd class="descr">мощность</dd>
-                                                </dl>
-                                                <div class="graphics-scale"><span class="_line"></span></div>
-                                            </div>
-                                            <div class="graphics-score graphics-score--toque">
-                                                <dl class="score-points">
-                                                    <dt class="points"><strong class="value">0</strong> <span class="units">Нм</span></dt>
-                                                    <dd class="descr">крутящий момент</dd>
-                                                </dl>
-                                                <div class="graphics-scale"><span class="_line"></span></div>
-                                            </div>
+                                       <div class="graphics-scores">
+									<span class="graphics-scale-level">4000 об/мин</span>
+									<span class="graphics-scale-level">5000 об/мин</span>
+									<span class="graphics-scale-level">6000 об/мин</span>
+									<div class="graphics-score graphics-score--power">
+										<dl class="score-points">
+											<dt class="points"><strong class="value">188</strong> <span class="units">л.с.</span></dt>
+											<dd class="descr">мощность</dd>
+										</dl>
+										<div class="graphics-scale"><span class="_line" style="width: 75.1%;"></span></div>
+									</div>
+									<div class="graphics-score graphics-score--toque">
+										<dl class="score-points">
+		                  <dt class="points"><strong class="value">241</strong> <span class="units">Нм</span></dt>
+											<dd class="descr">крутящий момент</dd>
+										</dl>
+										<div class="graphics-scale"><span class="_line" style="width: 25.1%;"></span></div>
+									</div>
+								</div>
                                         </div>
                                     </div>
                                 </div>
@@ -942,7 +947,7 @@ $APPLICATION->SetTitle("NewSolaris");
                         </section>
                         <section class="section section--safety" data-anchor="safety">
                             <div class="section-parallax section-parallax--5">
-                                <div class="parallax-layer" data-parallax-speed="1"></div>
+                                <div class="parallax-layer" style="background-image: url('http://www.hyundai.ru/media/images/flat/SONATA/elements/parallax_5.jpg');" data-parallax-speed="1"></div>
                                 <div class="section-parallax-content" data-parallax-speed="2">
                                     <header class="section-header">
                                         <h2 class="section-header__title">Безопасность</h2>
@@ -977,20 +982,20 @@ $APPLICATION->SetTitle("NewSolaris");
                                         <div class="dublay-ch dublay-ch--by-50" data-pip-subslide="right">
                                             <div class="pip-slides-holder">
                                                 <div class="pip-slide" data-slide="1" data-slide-type="mooving" data-active="true">
-                                                    <div class="pip-slide-image"><img src="/media/images/flat/SONATA/elements/safety_popup_1.jpg" class="pip-slide-img" alt=""></div>
+                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/safety_popup_1.jpg" class="pip-slide-img" alt=""></div>
                                                 </div>
                                                 <div class="pip-slide" data-slide="2" data-slide-type="mooving" style="transition: none; transform: translate(100%, 0px);">
-                                                    <div class="pip-slide-image"><img src="/media/images/flat/SONATA/elements/safety_popup_2.jpg" class="pip-slide-img" alt=""></div>
+                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/safety_popup_2.jpg" class="pip-slide-img" alt=""></div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="pip-slider-controls"><button class="pip-slider-control pip-slider-control--btn" data-active="true"></button><button class="pip-slider-control pip-slider-control--btn"></button></div></div>
+
                                 </div>
                             </div>
                         </section>
                         <section class="section section--convience" data-anchor="convience">
                             <div class="section-parallax section-parallax--6">
-                                <div class="parallax-layer" data-parallax-speed="1"></div>
+                                <div class="parallax-layer" style="background-image: url('http://www.hyundai.ru/media/images/flat/SONATA/elements/parallax_6.jpg');" data-parallax-speed="1"></div>
                                 <div class="section-parallax-content" data-parallax-speed="2">
                                     <header class="section-header">
                                         <h2 class="section-header__title">Комфорт</h2>
@@ -1005,7 +1010,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                         <div class="dublay-ch dublay-ch--by-50">
                                             <div class="convience-popup" data-for="1">
                                                 <div class="convience-popup-inner">
-                                                    <img src="/media/images/flat/SONATA/elements/convenience_1.jpg" class="convience-popup-img" alt="">
+                                                    <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_1.jpg" class="convience-popup-img" alt="">
                                                     <div class="convience-popup-title">Система помощи при&nbsp;парковке</div>
                                                     <button class="more-button"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#plus"></use></svg></button>
                                                 </div>
@@ -1014,7 +1019,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                         <div class="dublay-ch dublay-ch--by-50">
                                             <div class="convience-popup" data-for="2">
                                                 <div class="convience-popup-inner">
-                                                    <img src="/media/images/flat/SONATA/elements/convenience_2.jpg" class="convience-popup-img" alt="">
+                                                    <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_2.jpg" class="convience-popup-img" alt="">
                                                     <div class="convience-popup-title">Вентилируемые передние сиденья</div>
                                                     <button class="more-button"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#plus"></use></svg></button>
                                                 </div>
@@ -1026,7 +1031,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="pip-slide" data-slide="1" data-active="true">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="/media/images/flat/SONATA/elements/convenience_popup_1.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_popup_1.jpg" class="pluser-img" alt="">
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Система помощи при&nbsp;парковке</strong>
@@ -1037,7 +1042,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="pip-slide" data-slide="2" style="transition: none; transform: translate(100%, 0px);">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="/media/images/flat/SONATA/elements/convenience_popup_2.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_popup_2.jpg" class="pluser-img" alt="">
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Вентилируемые передние сиденья</strong>
@@ -1046,7 +1051,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="pip-slider-controls"><button class="pip-slider-control pip-slider-control--btn" data-role="prev"><svg xmlns="http://www.w3.org/2000/svg" class="svg corner-right"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#corner-left"></use></svg></button><button class="pip-slider-control pip-slider-control--btn" data-role="next"><svg xmlns="http://www.w3.org/2000/svg" class="svg corner-right"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#corner-right"></use></svg></button><span class="pip-slider-current"><strong data-role="_current">1</strong>/<span data-role="_all">2</span></span></div></div>
+
                                 </div>
                             </div>
                             <div class="section-content section-content--fw section-content--convience-slider">
@@ -1099,23 +1104,23 @@ $APPLICATION->SetTitle("NewSolaris");
                                         <div class="dublay-ch dublay-ch--by-50" data-pip-subslide="right">
                                             <div class="pip-slides-holder">
                                                 <div class="pip-slide" data-slide="1" data-slide-type="mooving" data-active="true">
-                                                    <div class="pip-slide-image"><img src="/media/images/flat/SONATA/elements/convenience_slider_1.jpg" class="pip-slide-img" alt=""></div>
+                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_slider_1.jpg" class="pip-slide-img" alt=""></div>
                                                 </div>
                                                 <div class="pip-slide" data-slide="2" data-slide-type="mooving" style="transition: none; transform: translate(100%, 0px);">
-                                                    <div class="pip-slide-image"><img src="/media/images/flat/SONATA/elements/convenience_slider_2.jpg" class="pip-slide-img" alt=""></div>
+                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_slider_2.jpg" class="pip-slide-img" alt=""></div>
                                                 </div>
                                                 <div class="pip-slide" data-slide="3" data-slide-type="mooving" style="transition: none; transform: translate(100%, 0px);">
-                                                    <div class="pip-slide-image"><img src="/media/images/flat/SONATA/elements/convenience_slider_3.jpg" class="pip-slide-img" alt=""></div>
+                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_slider_3.jpg" class="pip-slide-img" alt=""></div>
                                                 </div>
                                                 <div class="pip-slide" data-slide="4" data-slide-type="mooving" style="transition: none; transform: translate(100%, 0px);">
-                                                    <div class="pip-slide-image"><img src="/media/images/flat/SONATA/elements/convenience_slider_4.jpg" class="pip-slide-img" alt=""></div>
+                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_slider_4.jpg" class="pip-slide-img" alt=""></div>
                                                 </div>
                                                 <div class="pip-slide" data-slide="5" data-slide-type="mooving" style="transition: none; transform: translate(100%, 0px);">
-                                                    <div class="pip-slide-image"><img src="/media/images/flat/SONATA/elements/convenience_slider_5.jpg" class="pip-slide-img" alt=""></div>
+                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_slider_5.jpg" class="pip-slide-img" alt=""></div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="pip-slider-controls"><button class="pip-slider-control pip-slider-control--btn" data-active="true"></button><button class="pip-slider-control pip-slider-control--btn"></button><button class="pip-slider-control pip-slider-control--btn"></button><button class="pip-slider-control pip-slider-control--btn"></button><button class="pip-slider-control pip-slider-control--btn"></button></div></div>
+
                                 </div>
                             </div>
                         </section>
@@ -1304,19 +1309,19 @@ $APPLICATION->SetTitle("NewSolaris");
                                     </div>
                                 </div>
                                 <ul id="all-gallery-items" style="display: none;">
-                                    <li><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_01.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_01.jpg"></li>
-                                    <li><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_02.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_02.jpg"></li>
-                                    <li><img data-type="interior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_03.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_03.jpg"></li>
-                                    <li><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_04.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_04.jpg"></li>
-                                    <li><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_05.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_05.jpg"></li>
-                                    <li><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_06.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_06.jpg"></li>
-                                    <li><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_07.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_07.jpg"></li>
+                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_01.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_01.jpg"></li>
+                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_02.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_02.jpg"></li>
+                                    <li><img data-type="interior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_03.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_03.jpg"></li>
+                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_04.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_04.jpg"></li>
+                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_05.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_05.jpg"></li>
+                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_06.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_06.jpg"></li>
+                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_07.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_07.jpg"></li>
                                 </ul>
                                 <div class="gallery-body">
                                     <div class="gallery-list-wrap">
                                         <div class="gallery-list-holder">
                                             <div class="gallery-list-slider" style="width: 948px;">
-                                                <ul class="clearfix alive" style="display: block;"><li style=""><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_01.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_01.jpg"></li><li style=""><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_02.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_02.jpg"></li><li style=""><img data-type="interior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_03.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_03.jpg"></li><li style=""><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_04.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_04.jpg"></li><li style=""><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_05.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_05.jpg"></li><li style=""><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_06.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_06.jpg"></li><li style=""><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_07.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_07.jpg"></li></ul>
+                                                <ul class="clearfix alive" style="display: block;"><li style=""><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_01.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_01.jpg"></li><li style=""><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_02.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_02.jpg"></li><li style=""><img data-type="interior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_03.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_03.jpg"></li><li style=""><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_04.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_04.jpg"></li><li style=""><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_05.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_05.jpg"></li><li style=""><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_06.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_06.jpg"></li><li style=""><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_07.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_07.jpg"></li></ul>
                                             </div>
                                             <div class="slide-prev dead"></div>
                                             <div class="slide-next dead"></div>
@@ -1352,12 +1357,15 @@ $APPLICATION->SetTitle("NewSolaris");
                 _rutarget.push({'event': 'showOffer', 'sku': 'Sonata'});
             </script>
             <!--/RuTarget-->
+
+
         </div>
     </main>
 
     <!--
     Контент страницы закончится тут
     -->
+
 
     <script src="http://www.hyundai.ru/assets/js/common.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
@@ -1369,6 +1377,7 @@ $APPLICATION->SetTitle("NewSolaris");
     <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/solaris-2017.js"></script>
     <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/solaris-2017-scroll.js"></script>
     <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/solaris-2017-parallax.js"></script>
+
 
 
 
