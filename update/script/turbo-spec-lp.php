@@ -39,7 +39,7 @@ if(CModule::IncludeModule("iblock")):
         if(empty($arResult['OLD_PRICE']['VALUE'])){ $arError[] = 'Пустое поле:OLD_PRICE';}
         if(empty($arResult['NEW_PRICE']['VALUE'])){ $arError[] = 'Пустое поле:NEW_PRICE';}
         if(empty($arResult['CREDIT']['VALUE'])){ $arError[] = 'Пустое поле:CREDIT';}
-        if(empty($arResult['DEFAULT_COMPLIT']['VALUE'])){ $arError[] = 'Пустое поле:DEFAULT_COMPLIT';}
+   //     if(empty($arResult['DEFAULT_COMPLIT']['VALUE'])){ $arError[] = 'Пустое поле:DEFAULT_COMPLIT';}
         if(empty($arResult['SLIDER']['VALUE'])){ $arError[] = 'Пустое поле:SLIDER';}
         if(empty($arResult['Description']['VALUE'])){ $arError[] = 'Пустое поле:Description';}
 
@@ -94,6 +94,7 @@ if(CModule::IncludeModule("iblock")):
             $xml .= '<SLIDER>';
             foreach($arResult['SLIDER']['VALUE'] as $v){
                 if(!preg_match('/preview/',$v,$preg)){
+                    $v = str_replace(".jpg",'_resize.jpg',$v);
                     $xml .= '<VALUE>'.htmlspecialchars((string)$_SERVER['SERVER_NAME'].$v).'</VALUE>';
                 }
 

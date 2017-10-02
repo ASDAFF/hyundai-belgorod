@@ -1,0 +1,1708 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"/><![endif]-->
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<script type="text/javascript" data-skip-moving="true">(function(w, d) {var v = w.frameCacheVars = {'CACHE_MODE':'HTMLCACHE','storageBlocks':[],'dynamicBlocks':[],'AUTO_UPDATE':true,'AUTO_UPDATE_TTL':'3600'};var inv = false;if (v.AUTO_UPDATE === false){if (v.AUTO_UPDATE_TTL && v.AUTO_UPDATE_TTL > 0){var lm = Date.parse(d.lastModified);if (!isNaN(lm)){var td = new Date().getTime();if ((lm + v.AUTO_UPDATE_TTL * 1000) >= td){w.frameRequestStart = false;w.preventAutoUpdate = true;return;}inv = true;}}else{w.frameRequestStart = false;w.preventAutoUpdate = true;return;}}var r = w.XMLHttpRequest ? new XMLHttpRequest() : (w.ActiveXObject ? new w.ActiveXObject("Microsoft.XMLHTTP") : null);if (!r) { return; }w.frameRequestStart = true;var m = v.CACHE_MODE; var l = w.location; var x = new Date().getTime();var q = "?bxrand=" + x + (l.search.length > 0 ? "&" + l.search.substring(1) : "");var u = l.protocol + "//" + l.host + l.pathname + q;r.open("GET", u, true);r.setRequestHeader("BX-ACTION-TYPE", "get_dynamic");r.setRequestHeader("BX-CACHE-MODE", m);r.setRequestHeader("BX-CACHE-BLOCKS", v.dynamicBlocks ? JSON.stringify(v.dynamicBlocks) : "");if (inv){r.setRequestHeader("BX-INVALIDATE-CACHE", "Y");}try { r.setRequestHeader("BX-REF", d.referrer || "");} catch(e) {}if (m === "APPCACHE"){r.setRequestHeader("BX-APPCACHE-PARAMS", JSON.stringify(v.PARAMS));r.setRequestHeader("BX-APPCACHE-URL", v.PAGE_URL ? v.PAGE_URL : "");}r.onreadystatechange = function() {if (r.readyState != 4) { return; }var a = r.getResponseHeader("BX-RAND");var b = w.BX && w.BX.frameCache ? w.BX.frameCache : false;if (a != x || !((r.status >= 200 && r.status < 300) || r.status === 304 || r.status === 1223 || r.status === 0)){var f = {error:true, reason:a!=x?"bad_rand":"bad_status", url:u, xhr:r, status:r.status};if (w.BX && w.BX.ready){BX.ready(function() {setTimeout(function(){BX.onCustomEvent("onFrameDataRequestFail", [f]);}, 0);});}else{w.frameRequestFail = f;}return;}if (b){b.onFrameDataReceived(r.responseText);if (!w.frameUpdateInvoked){b.update(false);}w.frameUpdateInvoked = true;}else{w.frameDataString = r.responseText;}};r.send();})(window, document);</script>
+
+
+<link href="/bitrix/cache/css/s1/ringauto/kernel_main/kernel_main.css?150427070244417" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/ringauto/page_ab4986b059562f857eae30f4018fe263/page_ab4986b059562f857eae30f4018fe263.css?1504273625390" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/ringauto/template_69c6381979d5db947ca4689f601c33ae/template_69c6381979d5db947ca4689f601c33ae.css?15042705838221" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<script type="text/javascript">if(!window.BX)window.BX={message:function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/'});</script>
+
+
+<script type="text/javascript" src="/bitrix/cache/js/s1/ringauto/kernel_main/kernel_main.js?1504876095278939"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_db.min.js?14901026625048"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_frame_cache.min.js?149010266211191"></script>
+<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js?149010266273480','/bitrix/js/main/core/core_ajax.js?149010266221031','/bitrix/js/main/json/json2.min.js?14901026623467','/bitrix/js/main/core/core_ls.js?14901026627365','/bitrix/js/main/session.js?14901026622511','/bitrix/js/main/core/core_window.js?149010266274754','/bitrix/js/main/core/core_popup.js?149010266229812','/bitrix/js/main/core/core_date.js?149010266234241','/bitrix/js/main/utils.js?149010266219858','/bitrix/js/main/core/core_fx.js?14901026629592']); </script>
+<script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css?14901026622854','/bitrix/js/main/core/css/core_popup.css?149010266229699','/bitrix/js/main/core/css/core_date.css?14901026629657','/bitrix/templates/ringauto/components/bitrix/news/news/bitrix/news.list/.default/style.css?1490102663150','/bitrix/templates/ringauto/components/bitrix/news.list/menu-model/style.css?1502260883150','/bitrix/templates/ringauto/components/bitrix/catalog.section.list/menu/style.css?14901026637305','/bitrix/templates/ringauto/template_styles.css?1500305545182']); </script>
+<link rel="alternate" type="application/rss+xml" title="/news/" href="/news/" />
+
+
+
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "8e48ee53bd37fdb0b75b50b81c12635d"]); _ba.push(["host", "hyundai-ringauto.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+	<title>Новости компании Hyundai</title>
+	    
+    <script src="/media/js_new/device.min.js"></script>
+
+    <link rel="shortcut icon" href="/media/img/Favicon_02.ico"/>
+
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
+
+
+	<link href="/bitrix/templates/ringauto/css/style.css" rel="stylesheet" />
+
+	<link type="text/css" href="/bitrix/templates/ringauto/css/main.css" rel="stylesheet" />
+	<link type="text/css" href="/bitrix/templates/ringauto/css/css_style_ru.css" rel="stylesheet" />
+
+
+
+	<link rel="stylesheet" href="/bitrix/templates/ringauto/mobile/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="/bitrix/templates/ringauto/mobile/font-awesome/css/font-awesome.css" >
+	<link href="/home_style/css/style_new.css" rel="stylesheet" type="text/css">
+	<link href="/home_style/css/home.css" rel="stylesheet" type="text/css">
+
+
+	<link href="/bitrix/templates/ringauto/css/mobile.css" rel="stylesheet" />
+
+	<script src="/bitrix/templates/ringauto/js/jquerymin.js"></script>
+	<script src="/bitrix/templates/ringauto/js/jquery-ui.min.js"></script>
+	<script src="/bitrix/templates/ringauto/js/jquery.simplemodal.1.4.4.min.js"></script>
+	<script src="/bitrix/templates/ringauto/js/jquery.inputmask.bundle.min.js"></script>
+	<script src="/bitrix/templates/ringauto/js/jquery.lazyload.min.js"></script>
+    <script src="/bitrix/templates/ringauto/js/jquery.validate.js"></script>
+	<script src="/bitrix/templates/ringauto/js/jquery.main.js"></script>
+	<script src="/bitrix/templates/ringauto/js/zing.js"></script>
+	<script src="/bitrix/templates/ringauto/js/main.js"></script>
+	<script src="/bitrix/templates/ringauto/mobile/js/menu.js" type="text/javascript"></script>
+	
+	<script src="/bitrix/templates/ringauto/js/analytics.js"></script>
+	
+	<script type="text/javascript" src="/bitrix/templates/ringauto/js/call_online.js"></script>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-NZBL9QH');</script>
+	<!-- End Google Tag Manager -->
+</head>
+<body class="main">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZBL9QH"
+				  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div id="panel"></div>
+
+<div id="wrapper">
+	<header id="header">
+
+		<div class="header-center clearfix">
+			<div class="header-center-left">
+				г. Воронеж, ул. Изыскателей, 39, корп. 2 — <b>+7 473 261-7777</b>
+			</div>
+			<!--
+			<div class="header-center-left">
+				<a class="header-center-right-btn" href="/offer">
+					<i class="i-spec-offers-icon"></i> Cпецпредложения
+				</a>
+			</div>
+			-->
+		</div>
+
+		<a id="touch-menu" class="mobile-menu" href="#"><i class="icon-reorder"></i>Меню</a>
+		<nav class="mobile-menu-new">
+			<ul class="menu">
+
+				<li>
+					<a href="#">
+						Модельный ряд
+					</a>
+					<ul class="sub-menu">
+		<li><a href="/Elantra">Elantra</a></li>
+		<li><a href="/NewSolaris">Новый Solaris</a></li>
+		<li><a href="/H-1">H-1</a></li>
+		<li><a href="/GrandSantaFe">Grand Santa Fe</a></li>
+		<li><a href="/SantaFe">Santa Fe </a></li>
+		<li><a href="/Tucson">Tucson</a></li>
+		<li><a href="/i40-Wagon">i40 Универсал</a></li>
+		<li><a href="/i40">i40</a></li>
+		<li><a href="/i30">i30</a></li>
+		<li><a href="/i30-3dr">i30 3DR</a></li>
+		<li><a href="/Creta">Creta</a></li>
+		<li><a href="/i30-Wagon">i30 Универсал</a></li>
+	</ul>
+
+				</li>
+				<li><a href="/offer/">Cпецпредложения</a></li>
+				<li><a href="/hpromise/avtomobili-s-probegom/">Автомобили с пробегом</a></li>
+				<li><a href="/service/spetspredlozheniya/">Сервис</a></li>
+				<li><a href="/configurator">Конфигуратор</a></li>
+				<li><a href="/contacts">Контакты</a></li>
+			</ul>
+		</nav>
+
+		<div class="user-bar clearfix">
+			<div class="user-bar-logo"><a href="/"><img src="/bitrix/templates/ringauto/media/img/logo.png" alt="HYUNDAI"/></a></div>
+			<nav class="user-bar-nav">
+				<ul class="reset gnb">
+					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link showroom-open" href="#gnbShowroom">Модельный ряд</a></li>
+					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/offer/">Cпецпредложения</a></li>
+					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/hpromise/avtomobili-s-probegom/">Автомобили с пробегом</a></li>
+					<!-- <li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="#gnbShopping">Покупка</a></li> -->
+					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/service/spetspredlozheniya/">Сервис</a></li>
+					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/configurator">Конфигуратор</a></li>
+					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/contacts">Контакты</a></li>
+				</ul>
+			</nav>
+
+
+
+			<div class="gnb_layer" id="gnbShowroom" style="visibility: hidden; height: 0px; padding-bottom: 0px;">
+
+				<div class="layer_body">
+
+					<a href="#" class="btn_close">close gnb layer</a>
+					<div class="showroom">
+
+						<div class="tab">
+							<ul>
+								<li class="all"><a href="#showroomAll" class="on">ПОСМОТРЕТЬ ВСЕ</a></li>
+								<li class="cars"><a href="#showroomCars">ЛЕГКОВЫЕ</a></li>
+								<li class="suv"><a href="#showroomSUV">ВНЕДОРОЖНИКИ</a></li>
+								<li class="commercial"><a href="#showroomCommercial">КОММЕРЧЕСКИЕ</a></li>
+							</ul>
+						</div>
+
+						<div class="list">
+	<ul id="showroomAll" style="display:block;visibility:visible;height:auto;" class="">
+			<li>
+			<a href="/NewSolaris" style="position: relative; display: inline;">
+				<img alt="" src="/upload/iblock/c79/c79f7399745f2ce02e4b2317de4f7f92.png"><br>
+				<span class="model">Новый Solaris<br>
+									<span class="sale">Выгода до 65 000 ₽</span>
+								</span>
+				<span class="menuPrice">от  624 900  руб.</span>
+			</a>
+		</li>
+				<li>
+			<a href="/i30-3dr" style="position: relative; display: inline;">
+				<img alt="" src="/upload/iblock/5fc/5fcf9f49cecfc0149d4f9865df563f28.png"><br>
+				<span class="model">i30 3DR<br>
+								</span>
+				<span class="menuPrice">от  849 900  руб.</span>
+			</a>
+		</li>
+				<li>
+			<a href="/i30" style="position: relative; display: inline;">
+				<img alt="" src="/upload/iblock/528/528decc04bfc526c751ed422fa1e5752.png"><br>
+				<span class="model">i30<br>
+								</span>
+				<span class="menuPrice">от  869 900  руб.</span>
+			</a>
+		</li>
+				</ul>
+			<ul id="showroomAll" style="display:block;visibility:visible;height:auto;" class="">
+			<li>
+			<a href="/i30-Wagon" style="position: relative; display: inline;">
+				<img alt="" src="/upload/iblock/fc3/fc358662be04619744580286ba31c44b.png"><br>
+				<span class="model">i30 Универсал<br>
+								</span>
+				<span class="menuPrice">от  919 900  руб.</span>
+			</a>
+		</li>
+				<li>
+			<a href="/Elantra" style="position: relative; display: inline;">
+				<img alt="" src="/upload/iblock/79e/79ed10792d67c81d4282482402a5051f.png"><br>
+				<span class="model">Elantra<br>
+									<span class="sale">Выгода до 160 000 ₽</span>
+								</span>
+				<span class="menuPrice">от  909 900  руб.</span>
+			</a>
+		</li>
+				<li>
+			<a href="/i40" style="position: relative; display: inline;">
+				<img alt="" src="/upload/iblock/3a1/3a1ed1d6aba56176a6c56627d2afb304.png"><br>
+				<span class="model">i40<br>
+									<span class="sale">Выгода до 100 000 ₽</span>
+								</span>
+				<span class="menuPrice">от 1 124 000  руб.</span>
+			</a>
+		</li>
+				<li>
+			<a href="/i40-Wagon" style="position: relative; display: inline;">
+				<img alt="" src="/upload/iblock/654/6546e6e3f0034df7e0224d2a44b9dda6.png"><br>
+				<span class="model">i40 Универсал<br>
+									<span class="sale">Выгода до 100 000 ₽</span>
+								</span>
+				<span class="menuPrice">от 1 304 000  руб.</span>
+			</a>
+		</li>
+				</ul>
+			<ul id="showroomAll" style="display:block;visibility:visible;height:auto;" class="">
+			<li>
+			<a href="/Creta" style="position: relative; display: inline;">
+				<img alt="" src="/upload/iblock/7c3/7c3d5d1efe03494a6083258a2224d16f.png"><br>
+				<span class="model">Creta<br>
+									<span class="sale">Выгода до 65 000 ₽</span>
+								</span>
+				<span class="menuPrice">от  789 900  руб.</span>
+			</a>
+		</li>
+				<li>
+			<a href="/Tucson" style="position: relative; display: inline;">
+				<img alt="" src="/upload/iblock/a34/a344a17966848cfcdaf616e0b8eb3e57.png"><br>
+				<span class="model">Tucson<br>
+									<span class="sale">Выгода до 120 000 ₽</span>
+								</span>
+				<span class="menuPrice">от 1 505 900  руб.</span>
+			</a>
+		</li>
+				<li>
+			<a href="/SantaFe" style="position: relative; display: inline;">
+				<img alt="" src="/upload/iblock/fb0/fb0e08d1433fcb0b9cea7734075dff93.png"><br>
+				<span class="model">Santa Fe <br>
+									<span class="sale">Выгода до 330 000 ₽</span>
+								</span>
+				<span class="menuPrice">от 1 794 000  руб.</span>
+			</a>
+		</li>
+				<li>
+			<a href="/GrandSantaFe" style="position: relative; display: inline;">
+				<img alt="" src="/upload/iblock/773/773e1a96dd374a63a63ac8951d387e08.png"><br>
+				<span class="model">Grand Santa Fe<br>
+									<span class="sale">Выгода до 350 000 ₽</span>
+								</span>
+				<span class="menuPrice">от 2 374 000  руб.</span>
+			</a>
+		</li>
+				<li>
+			<a href="/H-1" style="position: relative; display: inline;">
+				<img alt="" src="/upload/iblock/ffd/ffda2fe96414ecd6b334e94c20eb7e6f.png"><br>
+				<span class="model">H-1<br>
+									<span class="sale">Выгода до 70 000 ₽</span>
+								</span>
+				<span class="menuPrice">от 1 949 000  руб.</span>
+			</a>
+		</li>
+				</ul>
+			<ul id="showroomAll" style="display:block;visibility:visible;height:auto;" class="">
+			</ul>
+		</div>
+
+
+
+						<div class="loadingbox" style="display:none;">
+							<img src="/media/img/loading.gif" alt="loading"><br>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="layer_foot"></div>
+				<div class="layer_foot"></div>
+
+			</div>
+
+			<div class="gnb_layer" id="gnbShopping" style="visibility: hidden; height: 0px; padding-bottom: 0px;"><div class="layer_body"><a href="#" class="btn_close">close gnb layer</a><div class="shopping" style=""><div class="tools"><strong class="title">
+								ПОМОЩЬ В ВЫБОРЕ
+							</strong>
+							<ul class="line1">
+
+								<li><a href="/configurator">Создать свою конфигурацию</a></li>
+
+								<li><a href="/corporate-clients" >Корпоративным клиентам</a></li>
+								<li><a href="/all-offers">Специальные предложения</a></li>
+							</ul>
+
+						</div>
+
+					</div></div><div class="layer_foot"></div>
+
+			</div>
+
+
+
+			<div class="gnb_layer gnb_layer--redesign" id="gnbServices" style="visibility: hidden; height: 0px; padding-bottom: 0px;">
+				<div class="layer_body">
+					<div class="services">
+						<ul class="ub-items">
+							<li class="ub-item ub-item--owners">
+								<a href="/service/roadside-assistance" class="ub-item-link">
+									<span class="ub-item__icon"></span>
+									<span class="ub-item__name">Владельцам</span>
+								</a>
+							</li>
+							<li class="ub-item ub-item--warranty">
+								<a href="/service/garantiya/" class="ub-item-link">
+									<span class="ub-item__icon"></span>
+									<span class="ub-item__name">Гарантия</span>
+								</a>
+							</li>
+							<li class="ub-item ub-item--maintenance">
+								<a href="/service/obsluzhivanie/" class="ub-item-link">
+									<span class="ub-item__icon"></span>
+									<span class="ub-item__name">Обслуживание</span>
+								</a>
+							</li>
+							<li class="ub-item ub-item--bodyworks">
+								<a href="/service/bodyworks" class="ub-item-link">
+									<span class="ub-item__icon"></span>
+									<span class="ub-item__name">Кузовной ремонт</span>
+								</a>
+							</li>
+							<li class="ub-item ub-item--parts">
+								<a href="/service/originalnye-zapchasti/" class="ub-item-link">
+									<span class="ub-item__icon"></span>
+									<span class="ub-item__name">Оригинальные запчасти</span>
+								</a>
+							</li>
+							<!--
+                                                <li class="ub-item ub-item--accessories">
+                                                    <a href="#" class="ub-item-link">
+                                                        <span class="ub-item__icon"></span>
+                                                        <span class="ub-item__name">Оригинальные аксессуары</span>
+                                                    </a>
+                                                </li>
+                            -->
+							<li class="ub-item ub-item--assurance">
+								<a href="/HyundaiAssurance" class="ub-item-link">
+									<span class="ub-item__icon"></span>
+									<span class="ub-item__name">Premium assurance</span>
+								</a>
+							</li>
+							<li class="ub-item ub-item--brochures">
+								<a href="/service/broshyury-i-rukovodstva/" class="ub-item-link">
+									<span class="ub-item__icon"></span>
+									<span class="ub-item__name">Руководства и&nbsp;брошюры</span>
+								</a>
+							</li>
+							<li class="ub-item ub-item--best">
+								<a href="/service/best" class="ub-item-link">
+									<span class="ub-item__icon"></span>
+									<span class="ub-item__name">Лучшее для своих</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="layer_foot">
+					<a href="/service/spetspredlozheniya/" class="user-bar-footer-link">сервисные акции</a>
+				</div>
+			</div>
+
+
+			<div id="user-bar-search" class="user-bar-search">
+				<form action="/search">
+					<input type="hidden" name="searchid" value="2249684"/>
+					<input type="hidden" name="web" value="0"/>
+					<input class="user-bar-search-input" type="text" name="text" placeholder="Я хочу найти..." value=""/>
+				</form>
+			</div>
+		</div>
+
+
+		<div style="display: none;">
+			<script type="text/javascript">
+
+				var pip_car_name ="";
+
+				$(function(){
+					$('.gnb_layer .carfinder .btn_reset').click(function(){
+						//2011-08-03 스크립트 삭제1
+						setGnbFinderValues();
+						return false;
+					});
+
+					/* GNB car finder slide values */
+					/* min : range minimum value */
+					/* maz : range maximum value */
+					/* values : initial value */
+					function setGnbFinderValues(){
+
+						$('.gnb_layer .category li').removeClass('select'); //2011-08-03
+						$('.gnb_layer .category .case1 input').attr('value','0');
+
+					}
+					setGnbFinderValues();
+
+
+					//2011-08-04
+					$('.gnb_layer .category li .check').each(function(i){
+						$(this).click(function(){
+							if($(this).parent().hasClass('select')) {
+								// 체크 안되었음
+								$(this).parent().removeClass('select');
+								$('#categoryGnb'+i).attr('value','0');
+							} else {
+								// 체크 되었음
+								$(this).parent().addClass('select');
+								$('#categoryGnb'+i).attr('value','1');
+							}
+						});
+					});
+
+					//Find a car AJax 처리 함수
+					$('.gnb_layer .showroom .tab .btn_finder').click(function(){
+						$('.gnb_layer .showroom .tab a').removeClass('on');
+						gnbToggle('.gnb_layer .showroom>.list ul','off');
+						gnbToggle('.gnb_layer .showroom .banners','off');
+						$(".gnb_layer .showroom>.list").hide();
+						$(".gnb_layer .showroom .banners").hide();
+						/* $('.gnb_layer .showroom>.list ul').hide();
+						 $('.gnb_layer .showroom .banners').hide(); */
+						$(this).addClass('on');
+
+						$('.gnb_layer .showroom .other_list').hide();
+
+						gnbToggle('.gnb_layer .showroom .carfinder','on');
+						/* $('.gnb_layer .showroom .carfinder').show(); */
+						gnbToggle('.header .gnb_layer .showroom .list ul','on');
+
+						var siteCode = $("#siteCode").val();
+						var siteLang = $("#siteLang").val();
+						var dataParam = "wwn_country_code=" + siteCode + "&pageFlag=GNB&" +"wwn_language_code="+ siteLang;
+						var finderUrl = "";
+
+						if(siteCode == "ES"){
+							finderUrl = "/wcm/front/builder/carFinderInitView.do";
+						}else{
+							finderUrl = "/wcm/"+siteCode.toLowerCase()+"/front/builder/carFinderInitView.do";
+						}
+
+						$(".showroom .loadingbox").show();
+
+						//2013-12-20
+						if(siteCode == 'RU' && '' == '11069'){
+
+						}else{
+							$.ajax({
+								url : finderUrl,
+								data : dataParam,
+								success : fn_generateFinder,
+								error : fn_errorFinder
+							});
+						}
+
+						return false;
+					});
+				});
+
+				function fn_generateFinder(xmlDoc){
+					$(".gnb_layer .showroom #gnb_carfinder").remove();
+					$(".gnb_layer .showroom").append(xmlDoc);
+					$(".showroom .loadingbox").hide();
+				}
+
+				function fn_errorFinder(){}
+
+			</script>
+
+
+			<input type="hidden" id="siteCode" value="RU">
+			<input type="hidden" id="siteLang" value="RU">
+
+
+
+			<!-- end gnb layer -->
+
+
+			<div class="gnb_layer" id="gnbShopping" style="visibility: hidden; height: 0px; padding-bottom: 0px;"><div class="layer_body"><a href="#" class="btn_close">close gnb layer</a><div class="shopping" style=""><div class="tools"><strong class="title">
+								ПОМОЩЬ В ВЫБОРЕ
+							</strong>
+							<ul class="line1">
+
+								<li><a href="/configurator">Создать свою конфигурацию</a></li>
+
+								<li><a href="/corporate-clients">Корпоративным клиентам</a></li>
+								<li><a href="/all-offers">Специальные предложения</a></li>
+							</ul>
+
+							<ul class="line2">
+
+							</ul>
+						</div>
+
+						<ul class="etc">
+
+							<li><a href="#"><strong>Найти <br>дилера</strong><span class="icon"><img src="/media/img/tr_ico_gnb_shopping_02.gif" alt="TR_ico_gnb_shopping_02"></span><span class="txt">
+															Детальная <br> информация об <br> официальных <br> дилерах Hyundai<br><img src="/media/img/btn_gnb_go.png" alt=""></span></a></li>
+
+
+
+						</ul></div></div><div class="layer_foot"></div>
+
+			</div>
+
+
+			<input type="hidden" value="" id="nUrl"></div>
+	</header><!--header-->
+
+
+
+
+		<a href="/news/" title="rss" target="_self"><img alt="RSS" src="/bitrix/templates/ringauto/components/bitrix/news/news/images/gif-light/feed-icon-16x16.gif" border="0" align="right" /></a>
+
+
+
+<div class="container">
+
+	<div class="content_wrap">
+		<div class="content_area">
+
+			<div class="menu_area 40000">
+				<div class="menu_title">Медиа-центр</div>
+				<ul class="">
+					<li class="on" style=""><a href="/news">Новости компании</a></li>
+					<!--                     <li class="off" style=""><a href="/press-release">Пресс-релизы</a></li> -->
+					<!--<li class="" style=""><a href="#">Журнал Hyundai Motor CIS</a></li>-->
+					<li class="" style=""><a href="/awards">Награды</a></li>
+					<!-- <li class="" style=""><a href="/FIFA">FIFA</a></li> -->
+				</ul>
+			</div>
+
+			<div class="title_area">
+				<div class="navigation">
+					<ul>
+						<li><a href="/">Hyundai</a> &gt;</li>
+						<li><span>Медиа-центр</span> &gt;</li>
+						<li>Новости компании</li>
+					</ul>
+				</div>
+				<h1 class="title">Новости компании</h1>
+
+			</div>
+
+
+
+
+			<div class="b-fullsize-container">
+				<!--
+				<form class="b-search__form" method="GET" action="/SearchCategory" enctype="multipart/form-data">
+
+
+					<input type="text" name="v_category" id="v_category" style="display: none;" value="News">
+					<div class="b-search__form-block">
+						<label for="wheres">Ключевые слова</label>
+						<input class="b-search__form-text" type="text" placeholder="Поиск..." name="wheres" id="wheres" value="">
+					</div>
+					<div class="b-search__form-block">
+						<label for="date_start">Опубликовано</label>
+						<input class="b-search__form-date hasDatepicker" type="text" placeholder="с" name="date_start" id="date_start" value="">
+						&nbsp;-&nbsp;
+						<input class="b-search__form-date hasDatepicker" type="text" placeholder="по" name="date_end" id="date_end" value="">
+					</div>
+
+					<input type="submit" class="b-search__form-submit" value="Показать">
+
+
+				</form>
+				-->
+				<!--  add datepicker script  -->
+
+				<script type="text/javascript">
+					$('#date_start').datepicker({
+						dateFormat: 'dd.mm.yy',
+						onSelect: function(selected) {
+							$("#date_end").datepicker("option","minDate", selected)
+						},
+						beforeShow: function(input, inst) {
+							$('#ui-datepicker-div').addClass('b-news-datepicker');
+						}
+					});
+
+					$('#date_end').datepicker({
+						dateFormat: 'dd.mm.yy',
+						onSelect: function(selected) {
+							$("#date_start").datepicker("option","maxDate", selected)
+						},
+						beforeShow: function(input, inst) {
+							$('#ui-datepicker-div').addClass('b-news-datepicker');
+						}
+					});
+				</script>
+
+				<br>
+				<br>
+
+				<div class="b-news__list">
+
+											
+					<div class="b-news__list-item">
+						<div class="b-news__list-item__photo">
+							<a href="/news/novyy-hyundai-solaris-za-polovinu-stoimosti/">
+								<img src="/upload/iblock/239/239bf27596b27721634868c6fa8eb31a.jpg" alt="" style="">
+							</a>
+						</div>
+						<h3 class="b-news__list-item__title">
+							<a href="/news/novyy-hyundai-solaris-za-polovinu-stoimosti/">Новый Hyundai Solaris за половину стоимости</a>
+						</h3>
+						<span class="b-news__list-item__date"> 25.07.2017 </span>
+					</div>
+
+											
+					<div class="b-news__list-item">
+						<div class="b-news__list-item__photo">
+							<a href="/news/izvestnyy-kaskader-ispytal-hyundai-solaris-na-prochnost/">
+								<img src="/upload/iblock/d6d/d6db0b6cd3e1845e92796c68f797b83c.jpg" alt="" style="">
+							</a>
+						</div>
+						<h3 class="b-news__list-item__title">
+							<a href="/news/izvestnyy-kaskader-ispytal-hyundai-solaris-na-prochnost/">Известный каскадер испытал Hyundai Solaris на прочность</a>
+						</h3>
+						<span class="b-news__list-item__date"> 21.07.2017 </span>
+					</div>
+
+											
+					<div class="b-news__list-item">
+						<div class="b-news__list-item__photo">
+							<a href="/news/hyundai-zapuskaet-spetsialnuyu-programmu-utilizatsii-dlya-dalnego-vostoka/">
+								<img src="/upload/iblock/53d/53d29943ec67ab6cfc1db1755696fdfa.jpg" alt="" style="">
+							</a>
+						</div>
+						<h3 class="b-news__list-item__title">
+							<a href="/news/hyundai-zapuskaet-spetsialnuyu-programmu-utilizatsii-dlya-dalnego-vostoka/">Hyundai запускает специальную программу утилизации для Дальнего Востока</a>
+						</h3>
+						<span class="b-news__list-item__date"> 05.07.2017 </span>
+					</div>
+
+											
+					<div class="b-news__list-item">
+						<div class="b-news__list-item__photo">
+							<a href="/news/-khende-motor-sng--obyavlyaet-rezultaty-raboty-za-iyun-i-za-pervoe-polugodie-2017-goda/">
+								<img src="/upload/iblock/277/2772c51960ee5148f74af9a8c375d9f6.jpg" alt="" style="">
+							</a>
+						</div>
+						<h3 class="b-news__list-item__title">
+							<a href="/news/-khende-motor-sng--obyavlyaet-rezultaty-raboty-za-iyun-i-za-pervoe-polugodie-2017-goda/">«Хендэ Мотор СНГ» объявляет результаты работы за июнь и за первое полугодие 2017 года</a>
+						</h3>
+						<span class="b-news__list-item__date"> 04.07.2017 </span>
+					</div>
+
+											
+					<div class="b-news__list-item">
+						<div class="b-news__list-item__photo">
+							<a href="/news/rossiyskiy-zavod-kompanii-hyundai-motor-uvelichil-obem-proizvodstva-v-1-polugodii-2017-goda/">
+								<img src="/upload/iblock/8c0/8c0337d90e7cbe3f07411faeb9c9fc03.jpg" alt="" style="">
+							</a>
+						</div>
+						<h3 class="b-news__list-item__title">
+							<a href="/news/rossiyskiy-zavod-kompanii-hyundai-motor-uvelichil-obem-proizvodstva-v-1-polugodii-2017-goda/">Российский завод компании Hyundai Motor увеличил объем производства в 1 полугодии 2017 года</a>
+						</h3>
+						<span class="b-news__list-item__date"> 04.07.2017 </span>
+					</div>
+
+											
+					<div class="b-news__list-item">
+						<div class="b-news__list-item__photo">
+							<a href="/news/hyundai-snizhaet-tseny-na-zapasnye-chasti/">
+								<img src="/upload/iblock/1c0/1c0d24edaa5f5e0dfd72307c5a8dc186.jpg" alt="" style="">
+							</a>
+						</div>
+						<h3 class="b-news__list-item__title">
+							<a href="/news/hyundai-snizhaet-tseny-na-zapasnye-chasti/">Hyundai снижает цены на запасные части</a>
+						</h3>
+						<span class="b-news__list-item__date"> 23.06.2017 </span>
+					</div>
+
+					
+
+				</div>
+
+
+									<br />
+<div class="b-news-pagination">
+	<p class="pagination">
+
+		<a class="pagination_prev" href="?PAGEN_5=2" rel="prev">Предыдущая</a>
+
+									<a class="pagination-item" href="/news/?page=6">1</a>
+															<a class="pagination-item" href="/news/?page=6&amp;PAGEN_5=2">2</a>
+															<strong class="pagination-item current">3</strong>
+															<a class="pagination-item" href="/news/?page=6&amp;PAGEN_5=4">4</a>
+															<a class="pagination-item" href="/news/?page=6&amp;PAGEN_5=5">5</a>
+								
+		<a class="pagination_next" href="?PAGEN_5=4" rel="next">Следующая</a>
+
+	</p><!-- .pagination -->
+</div>
+				
+			</div>
+
+		</div>
+
+
+	</div>
+
+
+</div>
+
+
+
+
+
+
+
+<div id="footer">
+    <footer class="footer-primary" role="contentinfo">
+        <div class="footer-primary__pre">
+            <nav class="footer-nv" role="navigation">
+                <ul class="footer-nv__cont">
+                    <li class="footer-nv__c">
+                        <strong class="footer-nv__c-header">Покупателю</strong>
+                        <ul class="footer-nv__c-list">
+
+                            <li class="footer-nv__c-list-i"><a href="/configurator/" class="footer-nv__c-list-lnk">Конфигуратор</a></li>
+                            <li class="footer-nv__c-list-i"><a href="#" class="footer-nv__c-list-lnk models-open">Модельный ряд</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/configurator/" class="footer-nv__c-list-lnk">Расчет кредита</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="footer-nv__c">
+                        <strong class="footer-nv__c-header">Сервис</strong>
+                        <ul class="footer-nv__c-list">
+                            <li class="footer-nv__c-list-i"><a href="/all-offers/" class="footer-nv__c-list-lnk">Сервисные акции</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/warranty/" class="footer-nv__c-list-lnk">Гарантия</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/maintenance/" class="footer-nv__c-list-lnk">Обслуживание</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/HyundaiAssurance/" class="footer-nv__c-list-lnk">Premium Assurance</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-nv__c">
+                        <strong class="footer-nv__c-header">Пресс-центр</strong>
+                        <ul class="footer-nv__c-list">
+                            <li class="footer-nv__c-list-i"><a href="/news/" class="footer-nv__c-list-lnk">Новости</a></li>
+<!--                            <li class="footer-nv__c-list-i"><a href="/press-release/" class="footer-nv__c-list-lnk">Пресс-релизы</a></li>-->
+                            <li class="footer-nv__c-list-i"><a href="http://www.hyundai.ru/HyundaiMotorWorldmagazine" class="footer-nv__c-list-lnk" target="_blank">Hyundai Motor CIS</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/awards/" class="footer-nv__c-list-lnk">Награды</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-nv__c">
+                        <strong class="footer-nv__c-header">О Hyundai</strong>
+                        <ul class="footer-nv__c-list">
+                            <li class="footer-nv__c-list-i"><a href="/AboutUs/" class="footer-nv__c-list-lnk">Хендэ Мотор СНГ</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/IntroductoryRemarks/" class="footer-nv__c-list-lnk">Социальная ответственность</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/XMMP/" class="footer-nv__c-list-lnk">Завод ХММР</a></li>
+                            <li class="footer-nv__c-list-i"><noindex><a href="https://motorsport.hyundai.com/" class="footer-nv__c-list-lnk">World Rally Championship</a></noindex></li>
+                            <li class="footer-nv__c-list-i"><noindex><a href="http://motorstudio.hyundai.ru/" class="footer-nv__c-list-lnk">Hyundai MotorStudio</a></noindex></li>
+                            <li class="footer-nv__c-list-i"><noindex><a href="https://www.hyundai.com/worldwide/en" class="footer-nv__c-list-lnk">Worldwide</a></noindex></li>
+                        </ul>
+                    </li>
+                    <li class="footer-nv__c">
+                        <strong class="footer-nv__c-header">Телефон для связи</strong>
+                        <a href="tel:+74732617777" class="footer-nv__c-phone">+7 (473) 261-7777</a>
+                        <a href="" class="footer-nv__c-mail zing_form_back_tel" for="feedback_home"><i class="i-0008-mail-icon"></i>Обратная связь</a>
+
+<!--                        <div id="socialmedia" class="nofloat">	-->
+<!--                            <ul class="socials-list socials-list--footer-primary">-->
+<!--                                <li class="social-item">-->
+<!--                                    <noindex>-->
+<!--                                        <a rel="nofollow" target="_blank" href="https://www.facebook.com/hyundairussia" class="socials-link socials-link--tw" title="Страница Facebook" style="background-image: url(/_img/socialmedia/facebook.png);"></a>-->
+<!--                                    </noindex>-->
+<!--                                </li>-->
+<!--                                <li class="social-item">-->
+<!--                                    <noindex>-->
+<!--                                        <a rel="nofollow" target="_blank" href="https://vk.com/hyundairussia" class="socials-link socials-link--tw" title="Страница Вконтакте" style="background-image: url(/_img/socialmedia/vk.png);"></a>-->
+<!--                                    </noindex>-->
+<!--                                </li>-->
+<!--                                <li class="social-item">-->
+<!--                                    <noindex>-->
+<!--                                        <a rel="nofollow" target="_blank" href="https://twitter.com/HyundaiRussia" class="socials-link socials-link--tw" title="Канал в Twitter" style="background-image: url(/_img/socialmedia/twitter.png);"></a>-->
+<!--                                    </noindex>-->
+<!--                                </li>-->
+<!--                                <li class="social-item">-->
+<!--                                    <noindex>-->
+<!--                                        <a rel="nofollow" target="_blank" href="http://instagram.com/hyundairussia" class="socials-link socials-link--tw" title="Канал в Instagram" style="background-image: url(/_img/socialmedia/instagram.png);"></a>-->
+<!--                                    </noindex>-->
+<!--                                </li>-->
+<!--                                <li class="social-item">-->
+<!--                                    <noindex>-->
+<!--                                        <a rel="nofollow" target="_blank" href="http://www.youtube.com/hyundairussia" class="socials-link socials-link--tw" title="Канал в YouTube" style="background-image: url(/_img/socialmedia/youtube.png);"></a>-->
+<!--                                    </noindex>-->
+<!--                                </li>-->
+<!--                                <li class="social-item">-->
+<!--                                    <noindex>-->
+<!--                                        <a rel="nofollow" target="_blank" href="/company/contacts/" class="socials-link socials-link--tw" title="Напишите нам" style="background-image: url(/_img/socialmedia/email.png);"></a>-->
+<!--                                    </noindex>-->
+<!--                                </li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer-primary__includes">
+                <div class="footer-primary__includes-cont">
+                    <img src="http://www.hyundai.ru/assets/img/home/fifa-partner.png" class="fifa-partner-image" alt="" />
+                </div>
+            </div>	</div>	<div class="footer-primary__main">
+            <div class="footer-global-navigation">
+
+                <nav class="footer-global-navigation__cust-nav" role="navigation">
+                    <ul class="cust-nav__list">
+                        <li class="cust-nav__item"><a href="/Sitemap/" class="cust-nav__link">Карта сайта</a></li>
+                        <li class="cust-nav__item"><a href="/Legal/" class="cust-nav__link">Юридическая информация</a></li>
+                        <li class="cust-nav__item"><a href="/Privacy/" class="cust-nav__link">Конфиденциальность</a></li>
+                        <li class="cust-nav__item"><a href="/TermsConditions/" class="cust-nav__link">Авторские права</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer-copyright">
+                <p>Вся представленная на сайте информация, касающаяся автомобилей и сервисного обслуживания, носит информационный характер и не является публичной офертой, определяемой положениями ст. 437 (2) ГК РФ. Для получения подробной информации просьба обращаться к ближайшему официальному дилеру ООО "Хендэ Мотор СНГ" Опубликованная на данном сайте информация может быть изменена в любое время без предварительного уведомления.</p>
+            </div>
+
+
+            <div style="padding: 20px 50px; text-align: right;">
+                <p></p>
+                <!-- Yandex.Metrika informer -->
+
+                <!-- /Yandex.Metrika informer -->
+                <!-- Yandex.Metrika counter -->
+                <script type="text/javascript">
+                    (function (d, w, c) {
+                        (w[c] = w[c] || []).push(function() {
+                            try {
+                                w.yaCounter16112620 = new Ya.Metrika({id:16112620,
+                                    webvisor:true,
+                                    clickmap:true,
+                                    trackLinks:true,
+                                    accurateTrackBounce:true});
+                            } catch(e) { }
+                        });
+                        var n = d.getElementsByTagName("script")[0],
+                            s = d.createElement("script"),
+                            f = function () { n.parentNode.insertBefore(s, n); };
+                        s.type = "text/javascript";
+                        s.async = true;
+                        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+                        if (w.opera == "[object Opera]") {
+                            d.addEventListener("DOMContentLoaded", f, false);
+                        } else { f(); }
+                    })(document, window, "yandex_metrika_callbacks");
+                </script>
+                <noscript><div><img src="//mc.yandex.ru/watch/16112620" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+                <!-- /Yandex.Metrika counter -->
+                <!-- Yandex.Metrika counter -->
+                <script type="text/javascript">
+                    (function (d, w, c) {
+                        (w[c] = w[c] || []).push(function() {
+                            try {
+                                w.yaCounter42192359 = new Ya.Metrika({
+                                    id:42192359,
+                                    clickmap:true,
+                                    trackLinks:true,
+                                    accurateTrackBounce:true
+                                });
+                            } catch(e) { }
+                        });
+                        var n = d.getElementsByTagName("script")[0],
+                            s = d.createElement("script"),
+                            f = function () { n.parentNode.insertBefore(s, n); };
+                        s.type = "text/javascript";
+                        s.async = true;
+                        s.src = "https://mc.yandex.ru/metrika/watch.js";
+                        if (w.opera == "[object Opera]") {
+                            d.addEventListener("DOMContentLoaded", f, false);
+                        } else { f(); }
+                    })(document, window, "yandex_metrika_callbacks");
+                </script>
+                <noscript><div><img src="https://mc.yandex.ru/watch/42192359"
+                                    style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+                <!-- /Yandex.Metrika counter --> </div>
+        </div>
+    </footer>
+</div>
+
+<div class="zing_form_wrp" id="newsletter" style="display: none">
+    <form class="js-newsletter_form newsletter_form zing_form" action="/ajax/request_add_newsletter" for="newsletter_hotline_btn">
+        <div class="zing_form_content">
+            <a class="closePopup zing_close" href="javascript:;"></a>
+            <p class="js-form-message message">Вы подписались на новости</p>
+            <div class="js-form-wrap">
+
+                <p class="zing-heading">Пожалуйста, укажите Ваши контактные данные.</p>
+                <p class="zing-p zing-p--note"><i class="ic-note-31"></i>Поля, отмеченные &laquo;<sup class="skyblue">*</sup>&raquo;, обязательны для заполнения.</p>
+
+                <div class="zing-input">
+                    <input
+                        type		= "text"
+                        class		= "zing_last_name zing_txt"
+                        name		= "last_name"
+                        id			= "zing_last_name_news"
+                        maxlength	= "50">
+                    <label for="zing_last_name_news">Фамилия<sup class="skyblue">*</sup></label>
+                </div>
+
+                <div class="zing-input">
+                    <input
+                        type		= "text"
+                        class		= "zing_first_name zing_txt"
+                        name		= "first_name"
+                        id			= "zing_first_name_news"
+                        maxlength	= "50">
+                    <label for="zing_first_name_news">Имя<sup class="skyblue">*</sup></label>
+                </div>
+
+                <div class="zing-input">
+                    <input
+                        type		= "email"
+                        class		= "zing_email zing_txt"
+                        name		= "email"
+                        id			= "zing_email_news"
+                        maxlength	= "50">
+                    <label for="zing_email_news">E-mail<sup class="skyblue">*</sup></label>
+                </div>
+
+                <div class="zing-input">
+                    <input
+                        type		= "tel"
+                        class		= "zing_mobile zing_txt"
+                        name		= "mobile"
+                        id			= "zing_mobile_news"
+                        maxlength	= "50">
+                    <label for="zing_mobile_news">Телефон<sup class="skyblue">*</sup></label>
+                </div>
+
+                <div class="zing_rules_wrp">
+                    <input
+                        type	= "checkbox"
+                        class	= "zing_rules_agree_cb zing-agreement-input"
+                        name	= "agree"
+                        id		= "zing_rules_agree_news">
+                    <label for="zing_rules_agree_news">Я прочитал <a class="skyblue zing-show-rules" href="javascript:;">правила</a> и даю свое согласие<br>на обработку персональных данных</label>
+                </div>
+                <div class="zing-submit-wrap">
+                    <input type="submit" value="OK" class="btn js-submit zing-news-submit">
+                </div>
+
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<div class="zing_form_wrp" id="blabla-back_tel" style="display: none">
+    <form class="zing_form" action="#" for="feedback_home">
+        <div class="zing_form_content">
+            <a class="closePopup  zing_close" href="javascript:;"></a>
+            <p class="zing-heading">Пожалуйста, укажите Ваши контактные данные.</p>
+            <p class="zing-p zing-p--note"><i class="ic-note-31"></i>Поля, отмеченные &laquo;<sup class="skyblue">*</sup>&raquo;, обязательны для заполнения.</p>
+            <div class="zing-input">
+                <input
+                    type		= "text"
+                    class		= "zing_last_name zing_txt"
+                    name		= "zing_last_name"
+                    id			= "zing_last_name"
+                    maxlength	= "50">
+                <label for="zing_last_name">ФИО<sup class="skyblue">*</sup></label>
+            </div>
+
+            <div class="zing-input">
+                <input
+                    type		= "tel"
+                    class		= "zing_mobile zing_txt"
+                    name		= "zing_mobile"
+                    id			= "zing_mobile"
+                    maxlength	= "50">
+                <label for="zing_mobile">Телефон<sup class="skyblue">*</sup></label>
+            </div>
+
+            <div class="zing-input">
+                <input
+                    type		= "text"
+                    class		= "zing_first_name zing_txt"
+                    name		= "first_name"
+                    id			= "zing_first_name_news"
+                    maxlength	= "50">
+                <label for="zing_first_name_news">Ваш вопрос<sup class="skyblue">*</sup></label>
+            </div>
+
+
+            <div class="zing_pers_rules_wrp">
+                <noindex>
+                    Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.2009 г. №152-ФЗ «О персональных данных» даю свое согласие лично, своей волей и в своем интересе на обработку (сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, распространение, передачу (включая трансграничную передачу), обезличивание, блокирование и уничтожение) моих персональных данных, в т.ч. с использованием средств автоматизации. Такое согласие мною даётся в отношении следующих персональных данных: фамилии, имя, отчество; контактный адрес электронной почты (e-mail); контактный телефон; -для определения потребностей в производственной мощности, мониторинга исполнения сервисными центрами гарантийной политики; ведения истории обращения в сервисные центры; проведения дилерами, дистрибьюторами, контрагентами маркетинговых исследований в области продаж, сервиса и послепродажного обслуживания; для рекламных, исследовательских, информационных, а также иных целей, в том числе, путем осуществления со мной прямых контактов по различным средствам связи. Согласие дается Hyundai Motor Company(Хёндэ Мотор Компани, 231 Янгджи-Донг, Сеочо-Гу, Сеул, 137-938, Республика Корея), ООО «Хендэ Мотор СНГ» (г. Москва, ул.Тестовская, д.10) ООО «Хендэ Мотор МануфактурингPус» (197706, Санкт-Петербург г, Сестрорецк г, Левашовскоеш, 20, литер А). Я даю свое согласие передавать мои персональные данные для обработки исследовательским агентствам: ООО «Международный институт маркетинговых и социальных исследований «ГФК-Русь» (г. Москва, 9-я Парковая улица, д.48, корп. 4), ЗАО «Бизнес Аналитика МК» (г. Москва, ул. Новослободская, 31, стр. 2); АО «АВТОАССИСТАНС» (г.Москва, ул. Обручева д. 52 стр.3), ООО «Ипсос» (г. Москва, Гамсоновскийпереулок, д. 5), а также любым другим третьим лицам, для целей, указанных в настоящем согласии.
+                </noindex>
+            </div>
+
+            <div class="zing_rules_wrp">
+                <input
+                    checked="checked"
+                    type	= "checkbox"
+                    class	= "zing_rules_agree_cb zing-agreement-input"
+                    id		= "zing_rules_agree_cb"
+                    name	= "zing_rules_agree_cb">
+                <label for="zing_rules_agree_cb">Я прочитал <a class="skyblue zing-show-rules" href="javascript:;">правила</a> и даю свое согласие<br>на обработку персональных данных</label>
+            </div>
+
+            <div class="zing-agreement-popup-wrapper" style="display: none;">
+                <div class="zing-agreement-popup">
+                    <span class="zing-agreement-header">Правила обработки<br>персональных данных</span>
+                    <div class="zing-agreement-text">
+                        <p class="zing-agreement-text__col">
+                            Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.09 <strong>№152-ФЗ</strong> «О персональных данных» даю свое согласие лично, своей волей и в своем интересе
+                            на обработку <i>(сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, распространение, передачу (включая трансграничную передачу), обезличивание, блокирование и уничтожение)</i> моих персональных данных, в том числе с использованием средств автоматизации.
+                            <br><br>
+                            Такое согласие мною даётся в отношении следующих персональных данных: фамилии, имя, отчество; контактный адрес электронной почты (e-mail); контактный телефон;
+                            для определения потребностей в производственной мощности, мониторинга исполнения сервисными центрами гарантийной политики; ведения истории обращения в сервисные центры; проведения дилерами, дистрибьюторами, контрагентами маркетинговых исследований в области продаж, сервиса и послепродажного обслуживания;
+                            для рекламных, исследовательских, информационных,
+                        </p>
+                        <p class="zing-agreement-text__col">
+                            а также иных целей, в том числе, путем осуществления
+                            со мной прямых контактов по различным средствам связи.
+                            <br><br>
+                            Согласие дается Hyundai Motor Company (Хёндэ Мотор Компани, 231 Янгджи-Донг, Сеочо-Гу, Сеул, 137-938, Республика Корея), ООО «Хендэ Мотор СНГ» (г. Москва, ул.Тестовская, д.10), ООО «Хендэ Мотор МануфактурингPус» (197706, Санкт-Петербург, г. Сестрорецк, Левашовское ш.,
+                            д. 20, литер А).
+                            <br><br>
+                            Я даю свое согласие передавать мои персональные данные для обработки исследовательским агентствам: ООО «Международный институт маркетинговых и социальных исследований «ГФК-Русь» (г. Москва, 9-я Парковая улица,
+                            д. 48, корп. 4), ЗАО «Бизнес Аналитика МК» (г. Москва,
+                            ул. Новослободская, д. 31, стр. 2); ЗАО «АвтоАссистанс»
+                            (г. Москва, 2-й Южнопортовый проезд, д.18 корп. 2),
+                            ООО «Ипсос» (г. Москва, Гамсоновскийпереулок, д. 5),
+                            а также любым другим третьим лицам, для целей, указанных в настоящем согласии.
+                        </p>
+                    </div>
+                    <div class="zing-agreement-close">×</div>
+                </div>
+            </div>
+
+            <div class="zing-submit-wrap">
+                <input
+                    type		= "hidden"
+                    class		= "zing_email zing_txt"
+                    value="test@mail.ru"
+                    name		= "zing_email"
+                    id			= "zing_email"
+                    maxlength	= "50">
+                <input type="hidden" name="now_url" class="now_url" value="http://hyundai-ringauto.ru/news/">
+                <input type="submit" class="zing_ok zing-submit">
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<div class="zing_form_wrp" id="blabla-spec" style="display: none;height: 580px">
+    <form class="zing_form" action="#" for="testdrive">
+        <div class="zing_form_content">
+            <a class="closePopup  zing_close" href="javascript:;"></a>
+            <p class="zing-heading">Пожалуйста, укажите Ваши контактные данные.</p>
+            <p class="zing-p zing-p--note"><i class="ic-note-31"></i>Поля, отмеченные &laquo;<sup class="skyblue">*</sup>&raquo;, обязательны для заполнения.</p>
+            <div class="zing-select">
+
+                <select  class = "zing_last_name zing_txt"  name ="zing_last_name" id ="zing_last_name" maxlength = "50">
+                                                <option value="Новый Solaris">Новый Solaris</option>
+                                                        <option value="i30 3DR">i30 3DR</option>
+                                                        <option value="i30">i30</option>
+                                                        <option value="i30 Универсал">i30 Универсал</option>
+                                                        <option value="Elantra">Elantra</option>
+                                                        <option value="i40">i40</option>
+                                                        <option value="i40 Универсал">i40 Универсал</option>
+                                                        <option value="Creta">Creta</option>
+                                                        <option value="Tucson">Tucson</option>
+                                                        <option value="Santa Fe ">Santa Fe </option>
+                                                        <option value="Grand Santa Fe">Grand Santa Fe</option>
+                                                        <option value="H-1">H-1</option>
+                            
+                </select>
+                <div class="arrow-down">▼</div>
+
+
+            </div>
+
+
+            <div class="zing-input">
+                <input
+                    type		= "text"
+                    class		= "zing_first_name zing_txt"
+                    name		= "zing_first_name"
+                    id			= "zing_first_name"
+                    maxlength	= "50">
+                <label for="zing_first_name">ФИО<sup class="skyblue">*</sup></label>
+            </div>
+
+
+            <div class="zing-input">
+                <input
+                    type		= "tel"
+                    class		= "zing_mobile zing_txt"
+                    name		= "zing_mobile"
+                    id			= "zing_mobile"
+                    maxlength	= "50">
+                <label for="zing_mobile">Телефон<sup class="skyblue">*</sup></label>
+            </div>
+
+
+            <div class="zing_pers_rules_wrp">
+                <noindex>
+                    Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.2009 г. №152-ФЗ «О персональных данных» даю свое согласие лично, своей волей и в своем интересе на обработку (сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, распространение, передачу (включая трансграничную передачу), обезличивание, блокирование и уничтожение) моих персональных данных, в т.ч. с использованием средств автоматизации. Такое согласие мною даётся в отношении следующих персональных данных: фамилии, имя, отчество; контактный адрес электронной почты (e-mail); контактный телефон; -для определения потребностей в производственной мощности, мониторинга исполнения сервисными центрами гарантийной политики; ведения истории обращения в сервисные центры; проведения дилерами, дистрибьюторами, контрагентами маркетинговых исследований в области продаж, сервиса и послепродажного обслуживания; для рекламных, исследовательских, информационных, а также иных целей, в том числе, путем осуществления со мной прямых контактов по различным средствам связи. Согласие дается Hyundai Motor Company(Хёндэ Мотор Компани, 231 Янгджи-Донг, Сеочо-Гу, Сеул, 137-938, Республика Корея), ООО «Хендэ Мотор СНГ» (г. Москва, ул.Тестовская, д.10) ООО «Хендэ Мотор МануфактурингPус» (197706, Санкт-Петербург г, Сестрорецк г, Левашовскоеш, 20, литер А). Я даю свое согласие передавать мои персональные данные для обработки исследовательским агентствам: ООО «Международный институт маркетинговых и социальных исследований «ГФК-Русь» (г. Москва, 9-я Парковая улица, д.48, корп. 4), ЗАО «Бизнес Аналитика МК» (г. Москва, ул. Новослободская, 31, стр. 2); АО «АВТОАССИСТАНС» (г.Москва, ул. Обручева д. 52 стр.3), ООО «Ипсос» (г. Москва, Гамсоновскийпереулок, д. 5), а также любым другим третьим лицам, для целей, указанных в настоящем согласии.
+                </noindex>
+            </div>
+
+            <div class="zing_rules_wrp">
+                <input
+                    checked="checked"
+                    type	= "checkbox"
+                    class	= "zing_rules_agree_cb zing-agreement-input"
+                    id		= "zing_rules_agree_cb"
+                    name	= "zing_rules_agree_cb">
+                <label for="zing_rules_agree_cb">Я прочитал <a class="skyblue zing-show-rules" href="javascript:;">правила</a> и даю свое согласие<br>на обработку персональных данных</label>
+            </div>
+
+            <div class="zing-agreement-popup-wrapper" style="display: none;">
+                <div class="zing-agreement-popup">
+                    <span class="zing-agreement-header">Правила обработки<br>персональных данных</span>
+                    <div class="zing-agreement-text">
+                        <p class="zing-agreement-text__col">
+                            Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.09 <strong>№152-ФЗ</strong> «О персональных данных» даю свое согласие лично, своей волей и в своем интересе
+                            на обработку <i>(сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, распространение, передачу (включая трансграничную передачу), обезличивание, блокирование и уничтожение)</i> моих персональных данных, в том числе с использованием средств автоматизации.
+                            <br><br>
+                            Такое согласие мною даётся в отношении следующих персональных данных: фамилии, имя, отчество; контактный адрес электронной почты (e-mail); контактный телефон;
+                            для определения потребностей в производственной мощности, мониторинга исполнения сервисными центрами гарантийной политики; ведения истории обращения в сервисные центры; проведения дилерами, дистрибьюторами, контрагентами маркетинговых исследований в области продаж, сервиса и послепродажного обслуживания;
+                            для рекламных, исследовательских, информационных,
+                        </p>
+                        <p class="zing-agreement-text__col">
+                            а также иных целей, в том числе, путем осуществления
+                            со мной прямых контактов по различным средствам связи.
+                            <br><br>
+                            Согласие дается Hyundai Motor Company (Хёндэ Мотор Компани, 231 Янгджи-Донг, Сеочо-Гу, Сеул, 137-938, Республика Корея), ООО «Хендэ Мотор СНГ» (г. Москва, ул.Тестовская, д.10), ООО «Хендэ Мотор МануфактурингPус» (197706, Санкт-Петербург, г. Сестрорецк, Левашовское ш.,
+                            д. 20, литер А).
+                            <br><br>
+                            Я даю свое согласие передавать мои персональные данные для обработки исследовательским агентствам: ООО «Международный институт маркетинговых и социальных исследований «ГФК-Русь» (г. Москва, 9-я Парковая улица,
+                            д. 48, корп. 4), ЗАО «Бизнес Аналитика МК» (г. Москва,
+                            ул. Новослободская, д. 31, стр. 2); ЗАО «АвтоАссистанс»
+                            (г. Москва, 2-й Южнопортовый проезд, д.18 корп. 2),
+                            ООО «Ипсос» (г. Москва, Гамсоновскийпереулок, д. 5),
+                            а также любым другим третьим лицам, для целей, указанных в настоящем согласии.
+                        </p>
+                    </div>
+                    <div class="zing-agreement-close">×</div>
+                </div>
+            </div>
+
+            <div class="zing-submit-wrap">
+                <input
+                    type		= "hidden"
+                    class		= "zing_email zing_txt"
+                    value="test@mail.ru"
+                    name		= "zing_email"
+                    id			= "zing_email"
+                    maxlength	= "50">
+                <input type="hidden" name="now_url" class="now_url" value="http://hyundai-ringauto.ru/news/">
+                <input type="submit" class="zing_ok zing-submit" value="Отправить">
+            </div>
+        </div>
+    </form>
+</div>
+<div class="zing_form_wrp" id="blabla-spec" style="display: none;height: 580px">
+    <form class="zing_form" action="#" for="newslist">
+        <div class="zing_form_content">
+            <a class="closePopup  zing_close" href="javascript:;"></a>
+            <p class="zing-heading">Пожалуйста, укажите Ваши контактные данные.</p>
+            <p class="zing-p zing-p--note"><i class="ic-note-31"></i>Поля, отмеченные &laquo;<sup class="skyblue">*</sup>&raquo;, обязательны для заполнения.</p>
+            <div class="zing-select">
+
+                <select  class = "zing_last_name zing_txt"  name ="zing_last_name" id ="zing_last_name" maxlength = "50">
+                                                <option value="Новый Solaris">Новый Solaris</option>
+                                                        <option value="i30 3DR">i30 3DR</option>
+                                                        <option value="i30">i30</option>
+                                                        <option value="i30 Универсал">i30 Универсал</option>
+                                                        <option value="Elantra">Elantra</option>
+                                                        <option value="i40">i40</option>
+                                                        <option value="i40 Универсал">i40 Универсал</option>
+                                                        <option value="Creta">Creta</option>
+                                                        <option value="Tucson">Tucson</option>
+                                                        <option value="Santa Fe ">Santa Fe </option>
+                                                        <option value="Grand Santa Fe">Grand Santa Fe</option>
+                                                        <option value="H-1">H-1</option>
+                            
+                </select>
+                <div class="arrow-down">▼</div>
+
+
+            </div>
+
+
+            <div class="zing-input">
+                <input
+                    type		= "text"
+                    class		= "zing_first_name zing_txt"
+                    name		= "zing_first_name"
+                    id			= "zing_first_name"
+                    maxlength	= "50">
+                <label for="zing_first_name">ФИО<sup class="skyblue">*</sup></label>
+            </div>
+
+
+            <div class="zing-input">
+                <input
+                    type		= "tel"
+                    class		= "zing_mobile zing_txt"
+                    name		= "zing_mobile"
+                    id			= "zing_mobile"
+                    maxlength	= "50">
+                <label for="zing_mobile">Телефон<sup class="skyblue">*</sup></label>
+            </div>
+
+
+            <div class="zing_pers_rules_wrp">
+                <noindex>
+                    Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.2009 г. №152-ФЗ «О персональных данных» даю свое согласие лично, своей волей и в своем интересе на обработку (сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, распространение, передачу (включая трансграничную передачу), обезличивание, блокирование и уничтожение) моих персональных данных, в т.ч. с использованием средств автоматизации. Такое согласие мною даётся в отношении следующих персональных данных: фамилии, имя, отчество; контактный адрес электронной почты (e-mail); контактный телефон; -для определения потребностей в производственной мощности, мониторинга исполнения сервисными центрами гарантийной политики; ведения истории обращения в сервисные центры; проведения дилерами, дистрибьюторами, контрагентами маркетинговых исследований в области продаж, сервиса и послепродажного обслуживания; для рекламных, исследовательских, информационных, а также иных целей, в том числе, путем осуществления со мной прямых контактов по различным средствам связи. Согласие дается Hyundai Motor Company(Хёндэ Мотор Компани, 231 Янгджи-Донг, Сеочо-Гу, Сеул, 137-938, Республика Корея), ООО «Хендэ Мотор СНГ» (г. Москва, ул.Тестовская, д.10) ООО «Хендэ Мотор МануфактурингPус» (197706, Санкт-Петербург г, Сестрорецк г, Левашовскоеш, 20, литер А). Я даю свое согласие передавать мои персональные данные для обработки исследовательским агентствам: ООО «Международный институт маркетинговых и социальных исследований «ГФК-Русь» (г. Москва, 9-я Парковая улица, д.48, корп. 4), ЗАО «Бизнес Аналитика МК» (г. Москва, ул. Новослободская, 31, стр. 2); АО «АВТОАССИСТАНС» (г.Москва, ул. Обручева д. 52 стр.3), ООО «Ипсос» (г. Москва, Гамсоновскийпереулок, д. 5), а также любым другим третьим лицам, для целей, указанных в настоящем согласии.
+                </noindex>
+            </div>
+
+            <div class="zing_rules_wrp">
+                <input
+                    checked="checked"
+                    type	= "checkbox"
+                    class	= "zing_rules_agree_cb zing-agreement-input"
+                    id		= "zing_rules_agree_cb"
+                    name	= "zing_rules_agree_cb">
+                <label for="zing_rules_agree_cb">Я прочитал <a class="skyblue zing-show-rules" href="javascript:;">правила</a> и даю свое согласие<br>на обработку персональных данных</label>
+            </div>
+
+            <div class="zing-agreement-popup-wrapper" style="display: none;">
+                <div class="zing-agreement-popup">
+                    <span class="zing-agreement-header">Правила обработки<br>персональных данных</span>
+                    <div class="zing-agreement-text">
+                        <p class="zing-agreement-text__col">
+                            Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.09 <strong>№152-ФЗ</strong> «О персональных данных» даю свое согласие лично, своей волей и в своем интересе
+                            на обработку <i>(сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, распространение, передачу (включая трансграничную передачу), обезличивание, блокирование и уничтожение)</i> моих персональных данных, в том числе с использованием средств автоматизации.
+                            <br><br>
+                            Такое согласие мною даётся в отношении следующих персональных данных: фамилии, имя, отчество; контактный адрес электронной почты (e-mail); контактный телефон;
+                            для определения потребностей в производственной мощности, мониторинга исполнения сервисными центрами гарантийной политики; ведения истории обращения в сервисные центры; проведения дилерами, дистрибьюторами, контрагентами маркетинговых исследований в области продаж, сервиса и послепродажного обслуживания;
+                            для рекламных, исследовательских, информационных,
+                        </p>
+                        <p class="zing-agreement-text__col">
+                            а также иных целей, в том числе, путем осуществления
+                            со мной прямых контактов по различным средствам связи.
+                            <br><br>
+                            Согласие дается Hyundai Motor Company (Хёндэ Мотор Компани, 231 Янгджи-Донг, Сеочо-Гу, Сеул, 137-938, Республика Корея), ООО «Хендэ Мотор СНГ» (г. Москва, ул.Тестовская, д.10), ООО «Хендэ Мотор МануфактурингPус» (197706, Санкт-Петербург, г. Сестрорецк, Левашовское ш.,
+                            д. 20, литер А).
+                            <br><br>
+                            Я даю свое согласие передавать мои персональные данные для обработки исследовательским агентствам: ООО «Международный институт маркетинговых и социальных исследований «ГФК-Русь» (г. Москва, 9-я Парковая улица,
+                            д. 48, корп. 4), ЗАО «Бизнес Аналитика МК» (г. Москва,
+                            ул. Новослободская, д. 31, стр. 2); ЗАО «АвтоАссистанс»
+                            (г. Москва, 2-й Южнопортовый проезд, д.18 корп. 2),
+                            ООО «Ипсос» (г. Москва, Гамсоновскийпереулок, д. 5),
+                            а также любым другим третьим лицам, для целей, указанных в настоящем согласии.
+                        </p>
+                    </div>
+                    <div class="zing-agreement-close">×</div>
+                </div>
+            </div>
+
+            <div class="zing-submit-wrap">
+                <input
+                    type		= "hidden"
+                    class		= "zing_email zing_txt"
+                    value="test@mail.ru"
+                    name		= "zing_email"
+                    id			= "zing_email"
+                    maxlength	= "50">
+                <input type="hidden" name="now_url" class="now_url" value="http://hyundai-ringauto.ru/news/">
+                <input type="submit" class="zing_ok zing-submit" value="Отправить">
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+
+<div class="zing_form_wrp" id="blabla" style="display: none">
+    <form class="zing_form" action="#" for="zing_cuzov_btn">
+        <div class="zing_form_content">
+            <a class="closePopup  zing_close" href="javascript:;"></a>
+            <p class="zing-heading">Пожалуйста, укажите Ваши контактные данные.</p>
+            <p class="zing-p zing-p--note"><i class="ic-note-31"></i>Поля, отмеченные &laquo;<sup class="skyblue">*</sup>&raquo;, обязательны для заполнения.</p>
+            <div class="zing-input">
+                <input
+                    type		= "text"
+                    class		= "zing_last_name zing_txt"
+                    name		= "zing_last_name"
+                    id			= "zing_last_name"
+                    maxlength	= "50">
+                <label for="zing_last_name">Фамилия<sup class="skyblue">*</sup></label>
+            </div>
+            <div class="zing-input">
+                <input
+                    type		= "text"
+                    class		= "zing_first_name zing_txt"
+                    name		= "zing_first_name"
+                    id			= "zing_first_name"
+                    maxlength	= "50">
+                <label for="zing_first_name">Имя<sup class="skyblue">*</sup></label>
+            </div>
+
+            
+                <div class="zing-input">
+                    <input type="text" class="zing_middle_name zing_txt" name="zing_middle_name" id="zing_middle_name" maxlength="50">
+                    <label for="zing_middle_name">Отчество<sup class="skyblue">*</sup></label>
+                </div>
+
+            
+
+
+            <!--
+            <div class="zing-input">
+                <input
+                    type		= "text"
+                    class		= "zing_middle_name zing_txt"
+                    name		= "zing_middle_name"
+                    id			= "zing_middle_name"
+                    maxlength	= "50">
+                <label for="zing_middle_name">Отчество<sup class="skyblue">*</sup></label>
+            </div>
+            -->
+            <div class="zing-input">
+                <input
+                    type		= "email"
+                    class		= "zing_email zing_txt"
+                    name		= "zing_email"
+                    id			= "zing_email"
+                    maxlength	= "50">
+                <label for="zing_email">E-mail<sup class="skyblue">*</sup></label>
+            </div>
+            <div class="zing-input">
+                <input
+                    type		= "tel"
+                    class		= "zing_mobile zing_txt"
+                    name		= "zing_mobile"
+                    id			= "zing_mobile"
+                    maxlength	= "50">
+                <label for="zing_mobile">Телефон<sup class="skyblue">*</sup></label>
+            </div>
+
+
+
+
+
+            <div class="zing_pers_rules_wrp">
+                <noindex>
+                    Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.2009 г. №152-ФЗ «О персональных данных» даю свое согласие лично, своей волей и в своем интересе на обработку (сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, распространение, передачу (включая трансграничную передачу), обезличивание, блокирование и уничтожение) моих персональных данных, в т.ч. с использованием средств автоматизации. Такое согласие мною даётся в отношении следующих персональных данных: фамилии, имя, отчество; контактный адрес электронной почты (e-mail); контактный телефон; -для определения потребностей в производственной мощности, мониторинга исполнения сервисными центрами гарантийной политики; ведения истории обращения в сервисные центры; проведения дилерами, дистрибьюторами, контрагентами маркетинговых исследований в области продаж, сервиса и послепродажного обслуживания; для рекламных, исследовательских, информационных, а также иных целей, в том числе, путем осуществления со мной прямых контактов по различным средствам связи. Согласие дается Hyundai Motor Company(Хёндэ Мотор Компани, 231 Янгджи-Донг, Сеочо-Гу, Сеул, 137-938, Республика Корея), ООО «Хендэ Мотор СНГ» (г. Москва, ул.Тестовская, д.10) ООО «Хендэ Мотор МануфактурингPус» (197706, Санкт-Петербург г, Сестрорецк г, Левашовскоеш, 20, литер А). Я даю свое согласие передавать мои персональные данные для обработки исследовательским агентствам: ООО «Международный институт маркетинговых и социальных исследований «ГФК-Русь» (г. Москва, 9-я Парковая улица, д.48, корп. 4), ЗАО «Бизнес Аналитика МК» (г. Москва, ул. Новослободская, 31, стр. 2); АО «АВТОАССИСТАНС» (г.Москва, ул. Обручева д. 52 стр.3), ООО «Ипсос» (г. Москва, Гамсоновскийпереулок, д. 5), а также любым другим третьим лицам, для целей, указанных в настоящем согласии.
+                </noindex>
+            </div>
+
+            <div class="zing_rules_wrp">
+                <input
+                    checked="checked"
+                    type	= "checkbox"
+                    class	= "zing_rules_agree_cb zing-agreement-input"
+                    id		= "zing_rules_agree_cb"
+                    name	= "zing_rules_agree_cb">
+                <label for="zing_rules_agree_cb">Я прочитал <a class="skyblue zing-show-rules" href="javascript:;">правила</a> и даю свое согласие<br>на обработку персональных данных</label>
+            </div>
+
+            <div class="zing-agreement-popup-wrapper" style="display: none;">
+                <div class="zing-agreement-popup">
+                    <span class="zing-agreement-header">Правила обработки<br>персональных данных</span>
+                    <div class="zing-agreement-text">
+                        <p class="zing-agreement-text__col">
+                            Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.09 <strong>№152-ФЗ</strong> «О персональных данных» даю свое согласие лично, своей волей и в своем интересе
+                            на обработку <i>(сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, распространение, передачу (включая трансграничную передачу), обезличивание, блокирование и уничтожение)</i> моих персональных данных, в том числе с использованием средств автоматизации.
+                            <br><br>
+                            Такое согласие мною даётся в отношении следующих персональных данных: фамилии, имя, отчество; контактный адрес электронной почты (e-mail); контактный телефон;
+                            для определения потребностей в производственной мощности, мониторинга исполнения сервисными центрами гарантийной политики; ведения истории обращения в сервисные центры; проведения дилерами, дистрибьюторами, контрагентами маркетинговых исследований в области продаж, сервиса и послепродажного обслуживания;
+                            для рекламных, исследовательских, информационных,
+                        </p>
+                        <p class="zing-agreement-text__col">
+                            а также иных целей, в том числе, путем осуществления
+                            со мной прямых контактов по различным средствам связи.
+                            <br><br>
+                            Согласие дается Hyundai Motor Company (Хёндэ Мотор Компани, 231 Янгджи-Донг, Сеочо-Гу, Сеул, 137-938, Республика Корея), ООО «Хендэ Мотор СНГ» (г. Москва, ул.Тестовская, д.10), ООО «Хендэ Мотор МануфактурингPус» (197706, Санкт-Петербург, г. Сестрорецк, Левашовское ш.,
+                            д. 20, литер А).
+                            <br><br>
+                            Я даю свое согласие передавать мои персональные данные для обработки исследовательским агентствам: ООО «Международный институт маркетинговых и социальных исследований «ГФК-Русь» (г. Москва, 9-я Парковая улица,
+                            д. 48, корп. 4), ЗАО «Бизнес Аналитика МК» (г. Москва,
+                            ул. Новослободская, д. 31, стр. 2); ЗАО «АвтоАссистанс»
+                            (г. Москва, 2-й Южнопортовый проезд, д.18 корп. 2),
+                            ООО «Ипсос» (г. Москва, Гамсоновскийпереулок, д. 5),
+                            а также любым другим третьим лицам, для целей, указанных в настоящем согласии.
+                        </p>
+                    </div>
+                    <div class="zing-agreement-close">×</div>
+                </div>
+            </div>
+
+            <div class="zing-submit-wrap">
+                <input type="hidden" name="now_url" class="now_url" value="http://hyundai-ringauto.ru/news/">
+                <input type="submit" class="zing_ok zing-submit">
+            </div>
+        </div>
+    </form>
+</div>
+<div class="zing_form_wrp" id="blabla" style="display: none">
+    <form class="zing_form" action="#" for="zing_hotline_btn">
+        <div class="zing_form_content">
+            <a class="closePopup  zing_close" href="javascript:;"></a>
+            <p class="zing-heading">Пожалуйста, укажите Ваши контактные данные.</p>
+            <p class="zing-p zing-p--note"><i class="ic-note-31"></i>Поля, отмеченные &laquo;<sup class="skyblue">*</sup>&raquo;, обязательны для заполнения.</p>
+            <div class="zing-input">
+                <input
+                    type		= "text"
+                    class		= "zing_last_name zing_txt"
+                    name		= "zing_last_name"
+                    id			= "zing_last_name"
+                    maxlength	= "50">
+                <label for="zing_last_name">Фамилия<sup class="skyblue">*</sup></label>
+            </div>
+            <div class="zing-input">
+                <input
+                    type		= "text"
+                    class		= "zing_first_name zing_txt"
+                    name		= "zing_first_name"
+                    id			= "zing_first_name"
+                    maxlength	= "50">
+                <label for="zing_first_name">Имя<sup class="skyblue">*</sup></label>
+            </div>
+
+            
+                <div class="zing-input">
+                    <input type="text" class="zing_middle_name zing_txt" name="zing_middle_name" id="zing_middle_name" maxlength="50">
+                    <label for="zing_middle_name">Отчество<sup class="skyblue">*</sup></label>
+                </div>
+
+            
+
+
+            <!--
+            <div class="zing-input">
+                <input
+                    type		= "text"
+                    class		= "zing_middle_name zing_txt"
+                    name		= "zing_middle_name"
+                    id			= "zing_middle_name"
+                    maxlength	= "50">
+                <label for="zing_middle_name">Отчество<sup class="skyblue">*</sup></label>
+            </div>
+            -->
+            <div class="zing-input">
+                <input
+                    type		= "email"
+                    class		= "zing_email zing_txt"
+                    name		= "zing_email"
+                    id			= "zing_email"
+                    maxlength	= "50">
+                <label for="zing_email">E-mail<sup class="skyblue">*</sup></label>
+            </div>
+            <div class="zing-input">
+                <input
+                    type		= "tel"
+                    class		= "zing_mobile zing_txt"
+                    name		= "zing_mobile"
+                    id			= "zing_mobile"
+                    maxlength	= "50">
+                <label for="zing_mobile">Телефон<sup class="skyblue">*</sup></label>
+            </div>
+
+            
+                <div class="zing-input">
+                    <input readonly="" type="text" class="zing_birthdate zing_txt " name="zing_birthdate" id="zing_birthdate" maxlength="10">
+                    <label for="zing_birthdate">Дата рождения</label>
+                </div>
+
+            
+            <!--
+            <div class="zing-input">
+                <input
+                    readonly
+                    type		= "text"
+                    class		= "zing_birthdate zing_txt ignore"
+                    name		= "zing_birthdate"
+                    id			= "zing_birthdate"
+                    maxlength	= "10">
+                <label for="zing_birthdate">Дата рождения</label>
+            </div>
+            -->
+
+            <div class="zing_pers_rules_wrp">
+                <noindex>
+                    Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.2009 г. №152-ФЗ «О персональных данных» даю свое согласие лично, своей волей и в своем интересе на обработку (сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, распространение, передачу (включая трансграничную передачу), обезличивание, блокирование и уничтожение) моих персональных данных, в т.ч. с использованием средств автоматизации. Такое согласие мною даётся в отношении следующих персональных данных: фамилии, имя, отчество; контактный адрес электронной почты (e-mail); контактный телефон; -для определения потребностей в производственной мощности, мониторинга исполнения сервисными центрами гарантийной политики; ведения истории обращения в сервисные центры; проведения дилерами, дистрибьюторами, контрагентами маркетинговых исследований в области продаж, сервиса и послепродажного обслуживания; для рекламных, исследовательских, информационных, а также иных целей, в том числе, путем осуществления со мной прямых контактов по различным средствам связи. Согласие дается Hyundai Motor Company(Хёндэ Мотор Компани, 231 Янгджи-Донг, Сеочо-Гу, Сеул, 137-938, Республика Корея), ООО «Хендэ Мотор СНГ» (г. Москва, ул.Тестовская, д.10) ООО «Хендэ Мотор МануфактурингPус» (197706, Санкт-Петербург г, Сестрорецк г, Левашовскоеш, 20, литер А). Я даю свое согласие передавать мои персональные данные для обработки исследовательским агентствам: ООО «Международный институт маркетинговых и социальных исследований «ГФК-Русь» (г. Москва, 9-я Парковая улица, д.48, корп. 4), ЗАО «Бизнес Аналитика МК» (г. Москва, ул. Новослободская, 31, стр. 2); АО «АВТОАССИСТАНС» (г.Москва, ул. Обручева д. 52 стр.3), ООО «Ипсос» (г. Москва, Гамсоновскийпереулок, д. 5), а также любым другим третьим лицам, для целей, указанных в настоящем согласии.
+                </noindex>
+            </div>
+
+            <div class="zing_rules_wrp">
+                <input
+                    checked="checked"
+                    type	= "checkbox"
+                    class	= "zing_rules_agree_cb zing-agreement-input"
+                    id		= "zing_rules_agree_cb"
+                    name	= "zing_rules_agree_cb">
+                <label for="zing_rules_agree_cb">Я прочитал <a class="skyblue zing-show-rules" href="javascript:;">правила</a> и даю свое согласие<br>на обработку персональных данных</label>
+            </div>
+
+            <div class="zing-agreement-popup-wrapper" style="display: none;">
+                <div class="zing-agreement-popup">
+                    <span class="zing-agreement-header">Правила обработки<br>персональных данных</span>
+                    <div class="zing-agreement-text">
+                        <p class="zing-agreement-text__col">
+                            Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.09 <strong>№152-ФЗ</strong> «О персональных данных» даю свое согласие лично, своей волей и в своем интересе
+                            на обработку <i>(сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, распространение, передачу (включая трансграничную передачу), обезличивание, блокирование и уничтожение)</i> моих персональных данных, в том числе с использованием средств автоматизации.
+                            <br><br>
+                            Такое согласие мною даётся в отношении следующих персональных данных: фамилии, имя, отчество; контактный адрес электронной почты (e-mail); контактный телефон;
+                            для определения потребностей в производственной мощности, мониторинга исполнения сервисными центрами гарантийной политики; ведения истории обращения в сервисные центры; проведения дилерами, дистрибьюторами, контрагентами маркетинговых исследований в области продаж, сервиса и послепродажного обслуживания;
+                            для рекламных, исследовательских, информационных,
+                        </p>
+                        <p class="zing-agreement-text__col">
+                            а также иных целей, в том числе, путем осуществления
+                            со мной прямых контактов по различным средствам связи.
+                            <br><br>
+                            Согласие дается Hyundai Motor Company (Хёндэ Мотор Компани, 231 Янгджи-Донг, Сеочо-Гу, Сеул, 137-938, Республика Корея), ООО «Хендэ Мотор СНГ» (г. Москва, ул.Тестовская, д.10), ООО «Хендэ Мотор МануфактурингPус» (197706, Санкт-Петербург, г. Сестрорецк, Левашовское ш.,
+                            д. 20, литер А).
+                            <br><br>
+                            Я даю свое согласие передавать мои персональные данные для обработки исследовательским агентствам: ООО «Международный институт маркетинговых и социальных исследований «ГФК-Русь» (г. Москва, 9-я Парковая улица,
+                            д. 48, корп. 4), ЗАО «Бизнес Аналитика МК» (г. Москва,
+                            ул. Новослободская, д. 31, стр. 2); ЗАО «АвтоАссистанс»
+                            (г. Москва, 2-й Южнопортовый проезд, д.18 корп. 2),
+                            ООО «Ипсос» (г. Москва, Гамсоновскийпереулок, д. 5),
+                            а также любым другим третьим лицам, для целей, указанных в настоящем согласии.
+                        </p>
+                    </div>
+                    <div class="zing-agreement-close">×</div>
+                </div>
+            </div>
+
+            <div class="zing-submit-wrap">
+                <input type="hidden" name="now_url" class="now_url" value="http://hyundai-ringauto.ru/news/">
+                <input type="submit" class="zing_ok zing-submit">
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="message-send" style="display: none">
+    <div class="zing-agreement-popup" style="padding: 80px 55px;width: 500px;height: 200px;top:50%">
+        <span class="zing-agreement-header">Сообщение отправлено!</span>
+        <div class="zing-agreement-close">×</div>
+    </div>
+</div>
+
+<div id="brochure_go_check_email" class="brochure_go_check_email" style="display: none">
+    <div class="brochure_go_check_email-content">
+        <div class="go_check_close">×</div>
+        <p>На электронный адрес</p>
+        <p id="brochure_email"></p>
+        <p>отправлено письмо для&nbsp;подтверждения.</p>
+        <p>Пожалуйста, проверьте почту</p>
+    </div>
+</div>
+
+
+
+<div style="display: none;">
+ <!--   <a href="http://zingaya.com/widget/7fa635d9bedd182ca122939b4d8769ba" onclick="typeof(_gat)=='undefined'?'':_gat._getTrackerByName()._setAllowLinker(true); window.open(typeof(_gat)=='undefined'?this.href+'?referrer='+escape(window.location.href)+'':_gat._getTrackerByName()._getLinkerUrl(this.href+'?referrer='+escape(window.location.href)+''), '_blank', 'width=236,height=220,resizable=no,toolbar=no,menubar=no,location=no,status=no'); return false" class="zingaya_button1373885756660 _zc2 zing_call_btn" id="zing_hotline_btn"></a> -->
+</div>
+
+
+
+<div class="scroll_me" style="display: block;"><a href="#wrapper"></a></div>
+
+</div><!--wrapper-->
+
+<!-- ************************************************************************************************************* -->
+
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "2883957", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div>
+<img src="//top-fwz1.mail.ru/counter?id=2883957;js=na" style="border:0;position:absolute;left:-9999px;" alt="" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter -->
+
+
+
+<!-- Yandex.Metrika counter --><script type="text/javascript">var yaParams = {/*Здесь параметры визита*/};</script><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter26763030 = new Ya.Metrika({id:26763030, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true,params:window.yaParams||{ }}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/26763030" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+
+
+<!-- StreamWood code -->
+<link href="https://clients.streamwood.ru/StreamWood/sw.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://clients.streamwood.ru/StreamWood/sw.js" charset="utf-8"></script>
+<script type="text/javascript">
+  swQ(document).ready(function(){
+    swQ().SW({
+      swKey: '76ff58d142adc795d56c0d51224093fd',
+      swDomainKey: '3b1971e77373033637f5152adf917bfc'
+    });
+    swQ('body').SW('load');
+  });
+</script>
+<!-- /StreamWood code -->
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 971037742;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/971037742/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<div id="carfinPrice"><!-- --></div>
+<script type="text/javascript">
+(function() {
+    var carfinParam = {
+        'partner': 402,
+        'htmlPrice': 'carfinPrice',
+        'positionAlign': 'left',
+        'positionTop': 50,
+        'tpl': 14
+    };
+    var carfinScript = document.createElement('script');
+    carfinScript.type = 'text/javascript';
+    carfinScript.async = true;
+    carfinScript.charset = 'utf-8';
+    carfinScript.src = (("https:" == document.location.protocol) ? "https://" : "http://") + 'car-fin.ru/widget/price.js';
+    var carfinScriptDone = false;
+    carfinScript.onload = carfinScript.onreadystatechange = function() {
+        if (!carfinScriptDone
+        && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")
+        && typeof(carfinCalculator) == 'object') {
+            carfinScriptDone = true;
+            carfinCalculator.run(carfinParam);
+        }
+    }
+    var firstScript = document.getElementsByTagName('script')[0];
+    firstScript.parentNode.insertBefore(carfinScript, firstScript);
+})();
+</script>
+<script type="text/javascript" src="//cdn.perezvoni.com/widget/js/przv.js?przv_code=4116-773dfffea-f2c47-c4713a9-47826773dfffea-26773dfffea" ></script>
+
+<!-- BEGIN CLICKTEX CODE {literal} -->
+<script type="text/javascript" charset="utf-8" async="async" src="//www.clicktex.ru/code/5883"></script>
+<!-- {/literal} END CLICKTEX CODE -->    <!-- scroll to top button -->
+    <style>
+        /* scroll to top button */
+        .scroll_me a{
+            width:50px;
+            height: 50px;
+            background: url("/media/img/to_top.png");
+            position: fixed;
+            bottom: 50px;
+            right: 21px;
+            z-index: 999;
+            cursor: pointer;
+            opacity: 0.7;
+            display: none;
+        }
+        .scroll_me a:hover{
+            opacity:1;
+        }
+        
+        .btn_area1>a>img{
+            max-width: 220px;
+        }
+        .btn_area1>a:hover{
+            opacity:.8;
+        }
+    </style>
+
+</body>
+    
+</html><!--e7d11e917066b22cd2ebe0a542c53841-->

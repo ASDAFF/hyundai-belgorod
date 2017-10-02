@@ -49,7 +49,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                 <select class="model__select" name="car">
                                     <option
                                         value="23"
-                                        data-tradein="50000"
+                                        data-tradein="25000"
                                         data-programm="40000"
                                         data-points="20000"
                                         >
@@ -122,7 +122,7 @@ $APPLICATION->SetTitle("NewSolaris");
                             <div class="so-calc__item-subsum">
                                 <div class="subsum__first">
                                     <div class="subsum__sum subsum__sum_tradein">
-                                        50 000
+                                        25 000
                                     </div>
                                     <div class="subsum__label">
                                         Hyundai Trade-In

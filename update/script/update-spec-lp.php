@@ -86,26 +86,31 @@ if(CModule::IncludeModule("iblock")):
 
 
 
-        $dir = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new/'),array('.','..'));
-        foreach($dir as $d){
-            $spec = explode('.',$d);
-            $specId = explode('+',$spec[1]);
+    $dir = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new/'),array('.','..'));
+    foreach($dir as $d){
+        $spec = explode('.',$d);
+        $specId = explode('+',$spec[1]);
 
-            if (in_array((string)$cont->SpecId, $specId)) {
+        if (in_array((string)$cont->SpecId, $specId)) {
 
-                $path = $_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new/'.$d;
-                $dirId = array_diff( scandir($path),array('.','..'));
-                foreach($dirId as $c){
-                    $colorCode = explode('.',$c);
-                    if($colorCode[0] == (string)$cont->ColorCode){
-                        $img = array_diff( scandir($path.'/'.$c),array('.','..'));
-                        foreach($img as $i){
-                            $PROP['SLIDER'][] = '/XML_upload_for_1c/voronezh/new/'.$d.'/'.$c.'/'.$i;
+            $path = $_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new/'.$d;
+            $dirId = array_diff( scandir($path),array('.','..'));
+            foreach($dirId as $c){
+                $colorCode = explode('.',$c);
+                if($colorCode[0] == (string)$cont->ColorCode){
+                    $img = array_diff( scandir($path.'/'.$c),array('.','..'));
+                    foreach($img as $i){
+                        $img_path = $_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new/'.$d.'/'.$c.'/'.$i;
+                        if(getimagesize($img_path)[0] > 600 and !preg_match("/_resize/",$img_path,$preg)) {
+                            crop($img_path, 400, 0, 1100, 600,"_resize"); // Вызываем функцию
                         }
+                        if(!preg_match('/_resize/',$i,$preg))
+                        $PROP['SLIDER'][] = '/XML_upload_for_1c/voronezh/new/'.$d.'/'.$c.'/'.$i;
                     }
                 }
             }
         }
+    }
 
 
         $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
