@@ -37,6 +37,7 @@ div.news-detail img.detail_picture
 	font-size: 25px;
 	color: #fff;
 	font-weight: 300;
+	padding: 10px;
 }
 .detal-btn-auto a:first-child{
 	background: #AA0F00;
@@ -108,4 +109,8 @@ table tr > td:first-child{
 	font-size: 22px;
 	color: #696A6D;
 	font-weight: 200;
+}
+
+.content_wrap .auto-white-back ul.detal-auto-text li{
+	margin-bottom: 20px;
 }
