@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Sonata";
+$arDirProperties = Array(
+
+);
+?>
