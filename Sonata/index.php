@@ -22,8 +22,6 @@ $APPLICATION->SetTitle("NewSolaris");
 
 
 
-
-
     <main class="main" data-model="home">
 
         <div class="svg-root" style="display: none">
@@ -33,11 +31,11 @@ $APPLICATION->SetTitle("NewSolaris");
                         <path fill="#FFFFFF" d="M167.9,230.9l-47-12.3c-2.6-0.7-5.3-1-8-1c-14.2,0-26.6,9.6-30.2,23.3c-0.7,2.6-1,5.3-1,8v12.3
 					c0,17.3,14,31.3,31.3,31.3h47.2c0,0,0,0,0,0c17.1,0,31.1-13.9,31.3-31.1C191.6,247,181.9,234.4,167.9,230.9z M115.2,240.6l47,12.3
 					c2.2,0.5,4.1,1.9,5.3,3.8c1.2,1.9,1.6,4.2,1,6.5c-0.9,3.9-4.3,6.6-8.3,6.6l-0.2,0h-47c-4.7,0-8.5-3.9-8.6-8.6v-12.3
-					c0-4.7,3.8-8.5,8.6-8.5l0-0.9l0,0.9C113.7,240.3,114.5,240.4,115.2,240.6z"></path>
+					c0-4.7,3.8-8.5,8.6-8.5l0-0.9l0,0.9C113.7,240.3,114.5,240.4,115.2,240.6z"/>
                         <path fill="#FFFFFF" d="M399.1,217.6c-2.7,0-5.4,0.3-8,1l-47,12.3c-16.7,4.3-26.8,21.3-22.6,38c3.5,13.9,16,23.5,30.3,23.5H399
 					c17.2,0,31.2-14.1,31.3-31.3v-12.3C430.3,231.6,416.3,217.6,399.1,217.6z M407.6,261.2c0,4.7-3.9,8.5-8.6,8.6l-47,0l-0.2,0
 					c-4.6,0-8.4-3.8-8.5-8.4c-0.1-4,2.7-7.6,6.6-8.5l47-12.3c0.7-0.2,1.4-0.3,2.2-0.3c1.9,0,3.7,0.6,5.2,1.8c2.1,1.6,3.4,4.1,3.4,6.8
-					V261.2z"></path>
+					V261.2z"/>
                         <path fill="#FFFFFF" d="M477,121.3h-9.9c-8.4,0.2-16.7,2.5-23.9,6.8c-8.9-21.4-23-53.6-33.2-68.2c-19.3-27.7-47-35.4-66-38.8
 					c-29.1-4.5-58.5-6.5-88-5.9c-29.4-0.6-58.7,1.3-87.8,5.7c-19.1,3.3-46.7,11-66,38.8C92.1,74.4,77.9,106.8,69,128
 					c-7.3-4.3-15.6-6.7-24-6.8h-9.8c-19.3,0.4-34.8,16-35.2,35.3v18.8c0.4,17.5,13.1,32.3,30.4,35.3c-9.2,17.7-13.7,37.5-13.3,57.5
@@ -50,7 +48,7 @@ $APPLICATION->SetTitle("NewSolaris");
 					c0-8.2,6.6-14.9,14.8-14.9h9c8.2,0.5,16,4,21.6,10c4.2,3.9,10.8,3.7,14.8-0.5c0.9-0.9,1.6-2,2.1-3.2c14.6-36.2,28.4-65.6,36.1-76.6
 					C134,51,155,44.8,171.5,41.8c27.9-4.2,56-5.9,84.2-5.2c28.2-0.7,56.3,1,84.2,5.2c16.7,2.9,37.8,9,52.2,30.1
 					c7.7,11.1,21.5,40.4,36.1,76.6c2.2,5.3,8.3,7.9,13.6,5.8c1.2-0.5,2.3-1.2,3.2-2.1c5.6-5.9,13.3-9.5,21.5-10h9.1
-					c8.2-0.3,15.2,6.2,15.5,14.4c0,0.2,0,0.4,0,0.5V174.7z"></path>
+					c8.2-0.3,15.2,6.2,15.5,14.4c0,0.2,0,0.4,0,0.5V174.7z"/>
                     </g>
                 </symbol>
                 <symbol id="fast-menu-config" viewBox="0 0 512 512">
@@ -58,15 +56,15 @@ $APPLICATION->SetTitle("NewSolaris");
                         <path fill="#FFFFFF" d="M117.6,216.2V61.7c0-6.9-5.6-12.5-12.5-12.5c-6.9,0-12.5,5.6-12.5,12.5v154.4
 					c-24.9,5.8-43.2,28.3-43.2,54.2s18.3,48.4,43.2,54.2v125.7c0,6.9,5.6,12.5,12.5,12.5c6.9,0,12.5-5.6,12.5-12.5V324.6
 					c24.9-5.8,43.2-28.3,43.2-54.2C160.8,244.5,142.5,221.9,117.6,216.2z M135.7,270.4c0,16.9-13.8,30.7-30.7,30.7
-					c-16.9,0-30.7-13.8-30.7-30.7c0-16.9,13.8-30.7,30.7-30.7C122,239.7,135.7,253.5,135.7,270.4z"></path>
+					c-16.9,0-30.7-13.8-30.7-30.7c0-16.9,13.8-30.7,30.7-30.7C122,239.7,135.7,253.5,135.7,270.4z"/>
                         <path fill="#FFFFFF" d="M268,309.7v-248c0-6.9-5.6-12.5-12.5-12.5S243,54.8,243,61.7v248c-24.9,5.8-43.2,28.3-43.2,54.2
 					c0,25.9,18.3,48.4,43.2,54.2v32.1c0,6.9,5.6,12.5,12.5,12.5s12.5-5.6,12.5-12.5v-32.1c24.9-5.8,43.2-28.3,43.2-54.2
 					C311.2,338,293,315.5,268,309.7z M286.2,363.9c0,16.9-13.8,30.7-30.7,30.7s-30.7-13.8-30.7-30.7c0-16.9,13.8-30.7,30.7-30.7
-					S286.2,347,286.2,363.9z"></path>
+					S286.2,347,286.2,363.9z"/>
                         <path fill="#FFFFFF" d="M418.5,108.3V61.7c0-6.9-5.6-12.5-12.5-12.5c-6.9,0-12.5,5.6-12.5,12.5v46.5c-24.9,5.8-43.2,28.3-43.2,54.2
 					c0,25.9,18.3,48.4,43.2,54.2v233.6c0,6.9,5.6,12.5,12.5,12.5c6.9,0,12.5-5.6,12.5-12.5V216.7c24.9-5.8,43.2-28.3,43.2-54.2
 					C461.7,136.5,443.4,114,418.5,108.3z M436.6,162.5c0,16.9-13.8,30.7-30.7,30.7c-16.9,0-30.7-13.8-30.7-30.7
-					c0-16.9,13.8-30.7,30.7-30.7C422.9,131.8,436.6,145.6,436.6,162.5z"></path>
+					c0-16.9,13.8-30.7,30.7-30.7C422.9,131.8,436.6,145.6,436.6,162.5z"/>
                     </g>
                 </symbol>
                 <symbol id="fast-menu-dealers" viewBox="0 0 512 512">
@@ -92,7 +90,7 @@ $APPLICATION->SetTitle("NewSolaris");
 					l0.9-0.4c0.3-0.1,0.6-0.2,1-0.4l0.3-0.1c4.4-1.8,9-3.5,14-5.1c9.1-2.9,18.7-5.2,28.6-6.8c1.1-0.2,2.2-0.3,3.3-0.5l0.4-0.1
 					c0.7-0.1,1.4-0.2,2.2-0.3c2.4-0.3,5.1-0.5,8-0.8c4.6-0.3,9.4-0.5,14.2-0.5l0.1,0c6.2,0,12.4,0.3,18.5,0.9c6,0.6,9.9,1.1,16.7,2.5
 					C302.2,42.7,313.7,46.1,324.9,50.6z M255.6,18.2C255.6,18.2,255.6,18.2,255.6,18.2l0-1.9L255.6,18.2z M255.6,16.2l0,2l0-2.3
-					L255.6,16.2z"></path>
+					L255.6,16.2z"/>
                         <path fill="#FFFFFF" d="M201.5,158.7c-20.5,16.9-31.7,44.2-29.4,71.2c2.4,27,17.8,51.5,41.3,65.3c12.4,7.3,27.4,11.4,42.2,11.4
 					l0.1,0l0.3,0c27-0.3,52.6-13.8,68.5-36.2c15.6-21.9,19.3-51.5,9.6-77.1c-9.6-25.3-30.9-44.7-56.9-51.7c-6.9-1.9-14-2.8-21.1-2.8
 					C236.3,138.9,217,145.9,201.5,158.7z M232.8,279.6l-0.3-0.1c-0.4-0.1-0.6-0.3-0.9-0.4c-0.5-0.2-0.9-0.4-1.4-0.6
@@ -109,7 +107,7 @@ $APPLICATION->SetTitle("NewSolaris");
 					c-2,1.4-4.3,2.8-6.9,4.2c-1.3,0.7-2.6,1.3-3.6,1.8l-0.3,0.1c-0.2,0.1-0.4,0.2-0.7,0.3l-0.1,0.1c-0.7,0.3-1.4,0.6-2.1,0.8
 					c-2.4,0.9-5,1.7-7.9,2.4c-1.2,0.3-2.4,0.5-4.1,0.8l-0.3,0c-0.2,0-0.5,0.1-0.8,0.1l-0.2,0c-0.8,0.1-1.6,0.2-2.4,0.2
 					c-1.7,0.2-3.5,0.2-5.7,0.3c-2.4,0-4.8-0.1-7.4-0.4l-0.4-0.1c-0.5-0.1-0.8-0.1-1-0.1c-0.5-0.1-1-0.2-1.5-0.3c-1.4-0.2-2.9-0.6-4.8-1
-					C238.2,281.4,235.6,280.6,232.8,279.6z"></path>
+					C238.2,281.4,235.6,280.6,232.8,279.6z"/>
                     </g>
                 </symbol>
                 <symbol id="fast-menu-test-drive" viewBox="0 0 512 512">
@@ -117,34 +115,34 @@ $APPLICATION->SetTitle("NewSolaris");
                         <path fill="#FFFFFF" d="M110.6,257.5c-7.8,0-15.6,0.8-23.2,2.4c-4.8,0.8-8.2,5.4-7.9,10.5c2.1,25.9,10.1,51.3,23.1,73.5
 					c27.8,48.3,75.6,79.9,131.1,86.8c0.4,0.1,0.8,0.1,1.2,0.1c4.9,0,9.2-3.8,9.9-8.8c0.6-5.3,0.9-11.1,0.9-18.6
 					C245.7,323,185.1,257.5,110.6,257.5z M110.6,277.3c63.7,0,115.5,56.5,115.5,126.1c0,1.7-0.1,3.5-0.2,5.7
-					c-45-8.6-83.7-35.9-106.3-75c-9.9-17.1-16.2-35.9-19-55.9C103.5,277.7,107.1,277.3,110.6,277.3z"></path>
+					c-45-8.6-83.7-35.9-106.3-75c-9.9-17.1-16.2-35.9-19-55.9C103.5,277.7,107.1,277.3,110.6,277.3z"/>
                         <path fill="#FFFFFF" d="M423.4,259.9c-8.7-1.6-16-2.4-22.8-2.4c-74.7,0-135.4,65.4-135.4,145.8c0,6.2,0.4,12.4,1.4,19
 					c0.7,4.6,5.1,8.4,10,8.4c0.2,0,0.4,0,0.7,0l0.3,0c23.4-3,45.7-10.5,66.2-22.3c50.2-28.9,83.1-80.5,87.8-138
 					C431.8,265.3,428.2,260.7,423.4,259.9z M400.6,277.3c3.4,0,6.7,0.4,9.9,0.8c-6.9,48-34.8,89.3-76.6,113.3
-					c-15,8.6-31.4,14.6-48.8,17.9c-0.2-2.3-0.3-4.2-0.3-5.9c0-33.8,12.1-65.6,34.1-89.4C340.8,290.3,369.8,277.3,400.6,277.3z"></path>
+					c-15,8.6-31.4,14.6-48.8,17.9c-0.2-2.3-0.3-4.2-0.3-5.9c0-33.8,12.1-65.6,34.1-89.4C340.8,290.3,369.8,277.3,400.6,277.3z"/>
                         <path fill="#FFFFFF" d="M464.2,135.7c-21.1-36.4-51.4-66.7-87.6-87.7c-35.2-20.3-75.3-31.6-116-32.6h-7.7
 					c-41.3,0.6-82,11.8-117.8,32.3C79.3,79.8,39.5,131.7,22.8,193.7c-16.7,62-8.1,126.8,24,182.4c43,74.2,123.1,120.3,209,120.3
 					c0,0,0,0,0,0c42,0,83.5-11.1,120.1-32.2c55.7-32.1,95.6-84,112.3-146C504.8,256.1,496.4,191.3,464.2,135.7z M469.4,312.7
 					c-15.3,57-52,104.7-103.4,134.2c-33.7,19.4-71.9,29.7-110.5,29.7c-78.7,0-152.1-42.3-191.5-110.4c-29.6-51.1-37.5-110.6-22.3-167.4
 					C56.9,141.9,93.5,94.3,144.8,64.8c33-19,70.4-29.3,108.1-29.6c0.9,0,1.8,0,2.7,0c0.8,0,1.6,0,2.3,0c0.7,0,1.4,0,2.1,0.1l0.2,0
-					c78,1.7,147.9,43,186.9,110.3C476.8,196.5,484.7,255.9,469.4,312.7z"></path>
+					c78,1.7,147.9,43,186.9,110.3C476.8,196.5,484.7,255.9,469.4,312.7z"/>
                         <path fill="#FFFFFF" d="M425.3,223.1c1.9-2.3,2.6-5.2,2.1-7.9l0-0.2c-4.1-17.1-10.5-33-18.9-47.2c-31.5-54.5-90.3-88.4-153.3-88.4
 					c-1.4,0-2.9,0-4.3,0.1c-29.5,0.9-58.4,9.1-83.7,23.7c-41.8,24.1-72.3,64.9-83.6,111.9l0,0.2c-0.5,2.8,0.3,5.7,2.2,8
 					c2,2.4,4.9,3.8,7.9,3.8c1.3,0,2.6-0.3,3.8-0.8c43.2-20,99.4-31.1,158-31.1c58.8,0,115,11.1,158.4,31.1
 					C417.7,227.9,422.5,226.5,425.3,223.1z M255.5,175.4c-52.3,0-102.7,8.6-146,25c12.7-33.9,36.6-62.3,67.5-80.2
 					c22.7-13.1,48.4-20.3,74.3-21c1.3,0,2.7-0.1,4-0.1c55.9,0,108,30.1,136.1,78.5c4.1,7.1,7.6,14.6,10.6,22.9
-					C358.8,184.1,308.2,175.4,255.5,175.4z"></path>
+					C358.8,184.1,308.2,175.4,255.5,175.4z"/>
                     </g>
 
                 </symbol>
                 <symbol id="fast-menu-close" viewBox="0 0 512 512">
-                    <polygon points="410.5,121.5 389.9,100.9 255.5,235.2 121.1,100.9 100.5,121.5 234.9,255.9 100.5,390.2 121.1,410.9 255.5,276.5 389.9,410.9 410.5,390.2 276.1,255.9 "></polygon>
+                    <polygon points="410.5,121.5 389.9,100.9 255.5,235.2 121.1,100.9 100.5,121.5 234.9,255.9 100.5,390.2 121.1,410.9 255.5,276.5 389.9,410.9 410.5,390.2 276.1,255.9 "/>
                 </symbol>
                 <symbol id="arrow-down" viewBox="0 0 512 512">
-                    <polygon points="512,165.8 445.1,101.9 256,282.2 66.9,101.9 0,165.8 256,409.8 "></polygon>
+                    <polygon points="512,165.8 445.1,101.9 256,282.2 66.9,101.9 0,165.8 256,409.8 "/>
                 </symbol>
                 <symbol id="arrow-right-w-tail" viewBox="0 0 512 512">
-                    <polygon points="0,223 391.1,223 283.6,110.7 328.3,63.9 512,256 328.3,448.1 283.6,401.3 391.3,288.7 0,288.7 "></polygon>
+                    <polygon points="0,223 391.1,223 283.6,110.7 328.3,63.9 512,256 328.3,448.1 283.6,401.3 391.3,288.7 0,288.7 "/>
                 </symbol>
                 <symbol id="arrow-dl" viewBox="0 0 512 512">
                     <g transform="translate(0,-982.36218)">
@@ -152,53 +150,53 @@ $APPLICATION->SetTitle("NewSolaris");
 					c13.4,1.3,23.2,13.2,21.9,26.6c-0.6,5.8-3.2,11.2-7.4,15.3L272.6,1414c-9.5,9.4-24.8,9.4-34.3,0l-121.9-121.9
 					c-9.8-9.3-10.2-24.7-0.9-34.5c9.3-9.8,24.7-10.2,34.5-0.9c0.2,0.2,0.5,0.5,0.7,0.7l80.4,80.4v-331
 					C231.1,993.3,242,982.4,255.5,982.4L255.5,982.4z M426.2,1445.6c13.5,0,24.4,10.9,24.4,24.4c0,13.5-10.9,24.4-24.4,24.4H84.8
-					c-13.5,0-24.4-10.9-24.4-24.4c0-13.5,10.9-24.4,24.4-24.4H426.2z"></path>
+					c-13.5,0-24.4-10.9-24.4-24.4c0-13.5,10.9-24.4,24.4-24.4H426.2z"/>
                     </g>
                 </symbol>
                 <symbol id="corner-left" viewBox="0 0 512 512">
                     <polygon fill-rule="evenodd" clip-rule="evenodd" points="345.7,0.5 388.4,43.2 175,256.5 388.4,469.8 345.7,512.5
-				89.7,256.5 "></polygon>
+				89.7,256.5 "/>
                 </symbol>
                 <symbol id="corner-right" viewBox="0 0 512 512">
                     <polygon fill-rule="evenodd" clip-rule="evenodd" points="166.3,0.5 123.6,43.2 337,256.5 123.6,469.8 166.3,512.5
-				422.3,256.5 "></polygon>
+				422.3,256.5 "/>
                 </symbol>
                 <symbol id="arrow-right" viewBox="0 0 512 512">
                     <polygon fill-rule="evenodd" clip-rule="evenodd" points="385,238.9 385,238.9 146,0 129,17.1 367.9,256 129,494.9
-				146,512 402,256 "></polygon>
+				146,512 402,256 "/>
                 </symbol>
                 <symbol id="arrow-left" viewBox="0 0 512 512">
                     <polygon fill-rule="evenodd" clip-rule="evenodd" points="127,238.9 127,238.9 366,0 383,17.1 144.1,256 383,494.9
-				366,512 110,256 "></polygon>
+				366,512 110,256 "/>
                 </symbol>
                 <symbol id="plus" viewBox="0 0 512 512">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M475.4,219.4H292.6V36.6C292.6,16.4,276.2,0,256,0
 				s-36.6,16.4-36.6,36.6v182.9H36.6C16.4,219.4,0,235.8,0,256c0,20.2,16.4,36.6,36.6,36.6h182.9v182.9c0,20.2,16.4,36.6,36.6,36.6
-				s36.6-16.4,36.6-36.6V292.6h182.9c20.2,0,36.6-16.4,36.6-36.6C512,235.8,495.6,219.4,475.4,219.4z"></path>
+				s36.6-16.4,36.6-36.6V292.6h182.9c20.2,0,36.6-16.4,36.6-36.6C512,235.8,495.6,219.4,475.4,219.4z"/>
                 </symbol>
                 <symbol id="arr-tail-sm-l" viewBox="0 0 512 512">
-                    <polygon points="512,288.7 120.7,288.7 228.4,401.3 183.7,448.1 0,256 183.7,63.9 228.4,110.7 120.9,223 512,223 "></polygon>
+                    <polygon points="512,288.7 120.7,288.7 228.4,401.3 183.7,448.1 0,256 183.7,63.9 228.4,110.7 120.9,223 512,223 "/>
                 </symbol>
                 <symbol id="arr-tail-sm-r" viewBox="0 0 512 512">
-                    <polygon points="0,223 391.1,223 283.6,110.7 328.3,63.9 512,256 328.3,448.1 283.6,401.3 391.3,288.7 0,288.7 "></polygon>
+                    <polygon points="0,223 391.1,223 283.6,110.7 328.3,63.9 512,256 328.3,448.1 283.6,401.3 391.3,288.7 0,288.7 "/>
                 </symbol>
                 <symbol id="light" viewBox="0 0 512 512">
-                    <polygon fill-rule="evenodd" clip-rule="evenodd" points="385,238.9 385,238.9 146,0 129,17.1 367.9,256 129,494.9 146,512 402,256 "></polygon>
+                    <polygon fill-rule="evenodd" clip-rule="evenodd" points="385,238.9 385,238.9 146,0 129,17.1 367.9,256 129,494.9 146,512 402,256 "/>
                 </symbol>
                 <symbol id="play-svg-ic" viewBox="0 0 512 512">
-                    <path d="M112.4,512c-1.2,0-2.4-0.3-3.5-0.9c-2.5-1.3-4-3.8-4-6.6V7.4c0-2.7,1.5-5.3,4-6.6c1.1-0.6,2.3-0.9,3.5-0.9 c1.5,0,2.9,0.4,4.1,1.3l370,248.6c2.1,1.4,3.3,3.7,3.3,6.2c0,2.5-1.2,4.8-3.3,6.2L116.6,510.7C115.4,511.6,113.9,512,112.4,512z M119.9,490.6L469.1,256L119.9,21.4V490.6z"></path>
+                    <path d="M112.4,512c-1.2,0-2.4-0.3-3.5-0.9c-2.5-1.3-4-3.8-4-6.6V7.4c0-2.7,1.5-5.3,4-6.6c1.1-0.6,2.3-0.9,3.5-0.9 c1.5,0,2.9,0.4,4.1,1.3l370,248.6c2.1,1.4,3.3,3.7,3.3,6.2c0,2.5-1.2,4.8-3.3,6.2L116.6,510.7C115.4,511.6,113.9,512,112.4,512z M119.9,490.6L469.1,256L119.9,21.4V490.6z"/>
                 </symbol>
                 <symbol id="ic-config" viewBox="0 0 512 512">
                     <g>
                         <path d="M266.1,296.4v-237h-21.2v237c-33,5.1-58.3,33.6-58.3,68s25.3,62.9,58.3,68v20.3h21.2v-20.3
 					c33-5.1,58.3-33.6,58.3-68C324.4,329.9,299.1,301.5,266.1,296.4z M255.5,412.1c-26.4,0-47.7-21.4-47.7-47.7
-					c0-26.4,21.4-47.7,47.7-47.8c26.4,0,47.7,21.4,47.7,47.8C303.2,390.7,281.8,412.1,255.5,412.1z"></path>
+					c0-26.4,21.4-47.7,47.7-47.8c26.4,0,47.7,21.4,47.7,47.8C303.2,390.7,281.8,412.1,255.5,412.1z"/>
                         <path d="M104,206.3v-147H82.8v147c-33,5.1-58.3,33.6-58.3,68c0,34.5,25.3,62.9,58.3,68v110.3H104V342.4
 					c33-5.1,58.3-33.5,58.3-68C162.3,239.9,137,211.5,104,206.3z M93.4,322.1c-26.3,0-47.7-21.4-47.7-47.7c0-26.3,21.4-47.7,47.7-47.7
-					c26.3,0,47.7,21.4,47.7,47.7C141.1,300.8,119.8,322.1,93.4,322.1z"></path>
+					c26.3,0,47.7,21.4,47.7,47.7C141.1,300.8,119.8,322.1,93.4,322.1z"/>
                         <path d="M428.2,99.7V59.4H407v40.3c-33.1,5.1-58.4,33.6-58.4,68c0,34.4,25.3,62.9,58.4,68v216.9h21.1V235.7
 					c33-5.1,58.3-33.6,58.3-68C486.5,133.3,461.2,104.8,428.2,99.7z M417.6,215.5c-26.4-0.1-47.7-21.4-47.8-47.7
-					c0.1-26.3,21.4-47.7,47.8-47.7c26.3,0,47.7,21.4,47.7,47.7C465.3,194.1,443.9,215.4,417.6,215.5z"></path>
+					c0.1-26.3,21.4-47.7,47.8-47.7c26.3,0,47.7,21.4,47.7,47.7C465.3,194.1,443.9,215.4,417.6,215.5z"/>
                     </g>
                 </symbol>
                 <symbol id="ic-credit" viewBox="0 0 512 512">
@@ -217,7 +215,7 @@ $APPLICATION->SetTitle("NewSolaris");
 				c-5.2,0-9.4-4-9.6-9.2c-0.2-5.3,3.9-9.9,9.2-10.1c0.2,0,0.3,0,0.5,0c0.2,0,0.3,0,0.5,0l99.3,0c5.3,0.1,9.6,4.5,9.5,9.8
 				c-0.1,5.2-4.4,9.5-9.6,9.5l-99.4,0l0,0C293.6,199.6,293.5,199.6,293.4,199.6z M293.4,144.6c-5.2,0-9.4-4-9.6-9.2
 				c-0.2-5.3,3.9-9.9,9.2-10.1c0.2,0,0.3,0,0.5,0c0.2,0,0.3,0,0.5,0l99.3,0c5.3,0.1,9.6,4.5,9.5,9.8c-0.1,5.2-4.4,9.5-9.6,9.5l-99.1,0
-				C293.8,144.6,293.6,144.6,293.4,144.6z"></path>
+				C293.8,144.6,293.6,144.6,293.4,144.6z"/>
                 </symbol>
                 <symbol id="ic-dealer" viewBox="0 0 512 512">
                     <g>
@@ -225,12 +223,12 @@ $APPLICATION->SetTitle("NewSolaris");
                             <path d="M255.5,478l-6.4-6c-4.2-3.9-102.6-97-133.8-135.9c-25.4-31.7-39.5-71.6-39.5-112.4
 						C75.8,124.6,156.4,44,255.5,44s179.7,80.6,179.7,179.7c0,40.7-14,80.6-39.5,112.4c-31.3,39-129.7,132-133.8,135.9L255.5,478z
 						 M255.5,62.6c-88.8,0-161.1,72.3-161.1,161.1c0,37.1,12.2,71.9,35.4,100.7c26,32.4,103,106.3,125.7,128
-						c22.7-21.7,99.7-95.6,125.7-128c23.1-28.8,35.4-63.7,35.4-100.7C416.6,134.9,344.3,62.6,255.5,62.6z"></path>
+						c22.7-21.7,99.7-95.6,125.7-128c23.1-28.8,35.4-63.7,35.4-100.7C416.6,134.9,344.3,62.6,255.5,62.6z"/>
                         </g>
                         <g>
                             <path d="M255.5,288.9c-35.9,0-65.2-29.2-65.2-65.2s29.2-65.2,65.2-65.2s65.2,29.2,65.2,65.2
 						S291.4,288.9,255.5,288.9z M255.5,177.1c-25.7,0-46.6,20.9-46.6,46.6s20.9,46.6,46.6,46.6c25.7,0,46.6-20.9,46.6-46.6
-						S281.2,177.1,255.5,177.1z"></path>
+						S281.2,177.1,255.5,177.1z"/>
                         </g>
                     </g>
                 </symbol>
@@ -239,7 +237,7 @@ $APPLICATION->SetTitle("NewSolaris");
                         <path d="M400.5,255.6c-2.4,0-4.8,0.3-7.2,0.9l-47.5,12.4c-7.3,1.9-13.5,6.5-17.3,12.9c-3.9,6.5-4.9,14.1-3.1,21.4
 					c3.2,12.5,14.4,21.3,27.4,21.3l47.7,0c15.6,0,28.2-12.7,28.2-28.2v-12.4c0-7.5-2.9-14.6-8.3-20
 					C415.2,258.6,408.1,255.6,400.5,255.6z M400.5,271.9c6.6,0,11.9,5.4,11.9,11.9v12.4c0,6.5-5.4,11.9-11.9,11.9l-47.7,0
-					c-6.4,0-11.8-5.2-11.9-11.7c-0.1-5.6,3.7-10.6,9.2-11.9l1.4-0.3l46.1-12C398.5,272.1,399.5,271.9,400.5,271.9z"></path>
+					c-6.4,0-11.8-5.2-11.9-11.7c-0.1-5.6,3.7-10.6,9.2-11.9l1.4-0.3l46.1-12C398.5,272.1,399.5,271.9,400.5,271.9z"/>
                         <path d="M479.1,157.5l-10,0c-8.1,0.2-16,2.4-23,6.6l-2.4,1.4l-1.1-2.5c-7.9-19.1-22.8-53.3-33.2-68.4
 					c-19-27.3-46.2-34.8-65-38.1c-25.7-4-52-6-78-6c-3.4,0-6.9,0-10.5,0.1c-3.7-0.1-7.4-0.1-11.1-0.1c-25.7,0-51.6,2-77,5.9
 					c-18.9,3.3-46.1,10.9-65.1,38.1c-7.7,11.1-18.9,34.1-33.2,68.4l-1.1,2.5l-2.4-1.4c-7-4.1-14.9-6.4-23-6.6l-9.9,0
@@ -254,11 +252,11 @@ $APPLICATION->SetTitle("NewSolaris");
 					c15.6-22.3,38.5-28.6,54.3-31.4c24.1-3.6,48.7-5.5,73.1-5.5c4.1,0,8.2,0.1,12.1,0.2c4.1-0.1,8.2-0.2,12.2-0.2
 					c24.4,0,49,1.8,73.2,5.5c17.3,3,39.2,9.3,54.3,31.4c7.9,11.4,22,41.2,36.7,77.8c1.3,3.1,4.2,5.1,7.6,5.1c1,0,2.1-0.2,3.1-0.6
 					c0.9-0.4,1.7-0.9,2.5-1.6c6.1-6.4,14.4-10.2,23.2-10.8l0.1,0l9.2,0c0.2,0,0.5,0,0.7,0c9.4,0,17.1,7.4,17.4,16.8c0,0.2,0,0.5,0,0.7
-					v17.7c0,10-8.2,18.2-18.2,18.2h-12.4C460.6,227.3,457,231,457,235.5z"></path>
+					v17.7c0,10-8.2,18.2-18.2,18.2h-12.4C460.6,227.3,457,231,457,235.5z"/>
                         <path d="M166.4,268.9l-47.5-12.4c-2.4-0.6-4.8-0.9-7.2-0.9c-12.8,0-24,8.7-27.3,21.1c-0.6,2.3-0.9,4.8-0.9,7.2v12.4
 					c0,15.6,12.7,28.3,28.3,28.3h47.7c15.5,0,28.1-12.6,28.2-28.1C187.7,283.5,179,272.2,166.4,268.9z M111.8,271.8l0,0.2
 					c1,0,2,0.1,3,0.4l47.4,12.4c3.1,0.7,5.7,2.6,7.4,5.4c1.7,2.7,2.2,5.9,1.4,9c-1.3,5.4-6.1,9.2-11.6,9.2l-47.7,0
-					c-6.6,0-11.9-5.4-11.9-11.9v-12.4c0-6.6,5.4-11.9,11.9-11.9V271.8L111.8,271.8z"></path>
+					c-6.6,0-11.9-5.4-11.9-11.9v-12.4c0-6.6,5.4-11.9,11.9-11.9V271.8L111.8,271.8z"/>
                     </g>
                 </symbol>
                 <symbol id="ic-access" viewBox="0 0 512 512">
@@ -267,12 +265,12 @@ $APPLICATION->SetTitle("NewSolaris");
 					c0,0.071,0.002,0.141,0.002,0.211c0,0.071-0.002,0.141-0.002,0.211c0,71.975,58.413,130.388,130.387,130.388
 					c71.975,0,130.388-58.413,130.388-130.388c0-0.07-0.003-0.14-0.003-0.211C300.431,161.171,300.434,161.101,300.434,161.03z
 					 M170.046,285.353c-68.626,0-124.206-55.512-124.32-124.112c0.114-68.6,55.693-124.112,124.32-124.112
-					c68.627,0,124.206,55.512,124.32,124.112C294.252,229.842,238.673,285.353,170.046,285.353z"></path>
+					c68.627,0,124.206,55.512,124.32,124.112C294.252,229.842,238.673,285.353,170.046,285.353z"/>
                         <path fill="#FFFFFF" d="M170.046,142.837c-10.012,0-18.193,8.182-18.193,18.193c0,0.071,0.005,0.141,0.005,0.211
 					c0,0.071-0.005,0.14-0.005,0.211c0,10.013,8.182,18.194,18.193,18.194c10.012,0,18.194-8.181,18.194-18.194
 					c0-0.071-0.004-0.14-0.005-0.211c0-0.07,0.005-0.14,0.005-0.211C188.24,151.018,180.059,142.837,170.046,142.837z M170.046,173.159
 					c-6.664,0-12.012-5.282-12.124-11.918c0.112-6.635,5.46-11.918,12.124-11.918c6.664,0,12.012,5.283,12.124,11.918
-					C182.058,167.877,176.71,173.159,170.046,173.159z"></path>
+					C182.058,167.877,176.71,173.159,170.046,173.159z"/>
                         <path fill="#FFFFFF" d="M170.046,73.094c-48.529,0-87.935,39.406-87.935,87.936c0,0.071,0.002,0.141,0.002,0.211
 					c0,0.071-0.002,0.141-0.002,0.211c0,48.53,39.406,87.936,87.935,87.936c48.53,0,87.936-39.406,87.936-87.936
 					c0-0.07-0.002-0.14-0.002-0.211c0-0.07,0.002-0.14,0.002-0.211C257.982,112.501,218.576,73.094,170.046,73.094z M199.706,123.032
@@ -298,24 +296,24 @@ $APPLICATION->SetTitle("NewSolaris");
 					c-0.012,2.774-0.241,5.432-0.756,8.034c-0.062,0.29-0.079,0.58-0.058,0.863c-0.087,1.349,0.734,2.618,2.048,3.064l34.561,11.804
 					C244.588,197.124,238.197,208.029,229.744,217.032z M250.022,178.655l-32.066-10.878c0.292-2.091,0.607-4.171,0.607-6.325
 					c0-0.071-0.003-0.142-0.004-0.212c0.001-0.07,0.004-0.139,0.004-0.209c0-2.163-0.314-4.313-0.607-6.419l31.972-10.878
-					c1.247,5.651,1.971,11.494,1.987,17.518C251.899,167.207,251.243,173.065,250.022,178.655z"></path>
+					c1.247,5.651,1.971,11.494,1.987,17.518C251.899,167.207,251.243,173.065,250.022,178.655z"/>
                     </g>
                 </symbol>
             </svg>
         </div>
 
-        <div class="wrap" id="wrap" style="width: 1903px; overflow: hidden;">
+        <div class="wrap" id="wrap">
 
             <div class="gallery-view-wrap">
                 <div class="gallery-view-holder">
                     <div class="gallery-view-slider">
-                        <ul><li class="alive" style="display: block;"><img src="/media/images/flat/SONATA/gallery/gallery_01.jpg"></li><li><img src="/media/images/flat/SONATA/gallery/gallery_02.jpg"></li><li><img src="/media/images/flat/SONATA/gallery/gallery_03.jpg"></li><li><img src="/media/images/flat/SONATA/gallery/gallery_04.jpg"></li><li><img src="/media/images/flat/SONATA/gallery/gallery_05.jpg"></li><li><img src="/media/images/flat/SONATA/gallery/gallery_06.jpg"></li><li><img src="/media/images/flat/SONATA/gallery/gallery_07.jpg"></li></ul>
+                        <ul></ul>
                     </div>
                     <div class="topline">
                         <span class="topline__name">Sonata</span>
                         <div class="pagination">
                             <span class="prev"></span>
-                            <span class="count">1 / 7</span>
+                            <span class="count"></span>
                             <span class="next"></span>
                         </div>
                         <a class="dl-img" href="#" target="_blank">Скачать</a>
@@ -325,8 +323,8 @@ $APPLICATION->SetTitle("NewSolaris");
             </div>
             <div class="videoPopup">
                 <div class="videoContainer">
-                    <a class="closeButton" href="#" title="Закрыть">×</a>
-                    <iframe class="videoFrame" width="100%" height="" src="" frameborder="0" allowfullscreen=""></iframe>
+                    <a class="closeButton" href="#" title="Закрыть">&times;</a>
+                    <iframe class="videoFrame" width="100%" height="" src="" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
 
@@ -422,7 +420,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                     <div class="item_wrap">
                                         <div class="main mkv">
                                             <div class="title">
-                                                <img src="sonata.png" title="sonata">
+                                                <img src="sonata.png" title="Solaris">
                                                 <span>Всегда что-то большее</span>
                                             </div>
                                             <div class="title-price">
@@ -434,19 +432,19 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="title-list">
                                                 <ul>
                                                     <li>Экономный расход <br>
-                                                        <strong>4.8 Л. НА 100 КМ<span class="add-blue-color">*<span></span></span></strong></li>
+                                                        <strong>7.8 Л. НА 100 КМ<span class="add-blue-color">*<span></span></span></strong></li>
                                                     <li>Макс. мощность<br>
-                                                        <strong>123 л.с. </strong></li>
+                                                        <strong>150 л.с. </strong></li>
                                                 </ul>
                                                 <ul>
-                                                    <li>Увеличенные внешние и внутренние габариты</li>
-                                                    <li>Система D-CVVT повышает экономичность опций</li>
+                                                    <li>Надежная система безопасности </li>
+                                                    <li>Большой список<br>  опций</li>
                                                 </ul>
                                             </div>
 
                                         </div>
                                         <div class="view-360_wrap" style="width: 700px; height: 316px;">
-                                            <img class="progress-last-frame" alt="" src="http://www.hyundai.ru/media/images/360/sonata/grand_blue/31.png" style="width: 700px; opacity: 1">
+                                            <img class="progress-last-frame" alt="" src="http://www.hyundai.ru/media/images/360/sonata/grand_blue/09.png" style="width: 700px; opacity: 1">
                                             <div class="progress-ring-wrap"><canvas id="progress-ring" class="progress-ring" width="200" height="200"></canvas></div>
                                             <div class="spritespin spritespin-instance with-canvas" data-model="sonata" unselectable="on" style="user-select: none; width: 700px; height: 316px; position: relative; overflow: hidden;">
                                                 <div class="spritespin-stage" style="width: 100%; height: 100%; top: 0px; left: 0px; bottom: 0px; right: 0px; position: absolute; overflow: hidden; display: block; background-image: none;"></div>
@@ -471,14 +469,15 @@ $APPLICATION->SetTitle("NewSolaris");
 
                     <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
 
+
                     <div class="pip-primary-nav-pos" data-anchor="nav-pos">
                         <nav class="pip-primary-nav" role="navigation">
                             <div class="pip-primary-nav-w">
                                 <ul class="pip-primary-nav-list">
-                                    <li class="pip-primary-nav-item pip-primary-nav-item--to-sub"><a href="#sub-nav" content-type="explore" data-active="true" class="pip-primary-nav-link">Обзор<span class="pip-primary-nav-current" style="">1. Твоя Sonata</span><svg xmlns="http://www.w3.org/2000/svg" class="svg arrow-down"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg></a></li>
+                                    <li class="pip-primary-nav-item pip-primary-nav-item--to-sub"><a href="#sub-nav" content-type="explore" data-active="true" class="pip-primary-nav-link">Обзор<span class="pip-primary-nav-current">1. Твоя Sonata</span><svg xmlns="http://www.w3.org/2000/svg" class="svg arrow-down"><use xlink:href="#arrow-down"></use></svg></a></li>
                                     <li class="pip-primary-nav-item pip-primary-nav-item--to-content"><a href="#" content-type="specs" class="pip-primary-nav-link">Характеристики</a></li>
                                     <li class="pip-primary-nav-item pip-primary-nav-item--to-content"><a href="#" content-type="gallery" class="pip-primary-nav-link">Фото</a></li>
-                                    <li class="pip-primary-nav-item pip-primary-nav-item--to-outside"><a href="/configurator/car/24/" class="pip-primary-nav-link">Цены и кредит<svg xmlns="http://www.w3.org/2000/svg" class="svg arrow-right-w-tail"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right-w-tail"></use></svg></a></li>
+                                    <li class="pip-primary-nav-item pip-primary-nav-item--to-outside"><a href="/configurator/" class="pip-primary-nav-link">Цены и кредит<svg xmlns="http://www.w3.org/2000/svg" class="svg arrow-right-w-tail"><use xlink:href="#arrow-right-w-tail"></use></svg></a></li>
                                 </ul>
                             </div>
                             <div class="pip-sub-nav-w">
@@ -501,16 +500,16 @@ $APPLICATION->SetTitle("NewSolaris");
                             <div class="section-content section-content--fw section-content--configurator">
                                 <header class="section-header">
                                     <div class="section-header__subtitle">Создай свою<br> Sonata.</div>
-                                    <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/360.png" class="view-360-ic" alt="Обзор 360">
+                                    <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/360.png" class="view-360-ic" alt="Обзор 360"/>
                                 </header>
 
                                 <div class="configurator">
                                     <div class="backstage">Sonata</div>
                                     <div class="img-w">
-                                        <div class="view-360_wrap" style="width: 910px; height: 411px;">
-                                            <img class="progress-last-frame" src="http://www.hyundai.ru/media/images/360/sonata/grand_blue/09.png" style="width: 910px;">
+                                        <div class="view-360_wrap">
+                                            <img class="progress-last-frame" src="http://www.hyundai.ru/media/images/common/transparent.gif"/>
                                             <div class="progress-ring-wrap"><canvas id="progress-ring" class="progress-ring" width="200" height="200"></canvas></div>
-                                            <div class="spritespin spritespin-instance with-canvas" data-model="sonata" data-width="910" data-height="411" data-init-frame="08" unselectable="on" style="user-select: none; position: relative; overflow: hidden; width: 910px; height: 411px;"><div class="spritespin-stage" style="width: 100%; height: 100%; top: 0px; left: 0px; bottom: 0px; right: 0px; position: absolute; overflow: hidden; background-image: none;"></div><canvas class="spritespin-canvas" width="910" height="411" style="width: 100%; height: 100%; top: 0px; left: 0px; bottom: 0px; right: 0px; position: absolute; overflow: hidden;"></canvas></div>
+                                            <div class="spritespin" data-model="sonata" data-width="910" data-height="411" data-init-frame="08"></div>
                                         </div>
                                     </div>
                                     <div class="configurator-controls dublay">
@@ -533,42 +532,42 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <span class="configurator-360-color-name view-360-color-name">Marina Blue</span>
                                         </div>
                                         <div class="configurator-control dublay-ch">
-                                            <a href="/configurator/car/24/" class="configurator-link">
+                                            <a href="/configurator/" class="configurator-link">
                                                 <div class="configurator-link-text">
-                                                    от <span class="configurator-price-val">1 245 000 </span> ₽
-                                                    <span class="configurator-credit">В кредит от <span class="configurator-credit-val">9000</span> ₽ в месяц</span>
+                                                    от <span class="configurator-price-val">1 245 000 </span> &#8381;
+                                                    <span class="configurator-credit">В кредит от <span class="configurator-credit-val">9000</span> &#8381; в месяц</span>
                                                 </div>
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="svg corner-right-light"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#light"></use></svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="svg corner-right-light"><use xlink:href="#light"></use></svg>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </section>
-                        <section class="section section--video" data-anchor="video">
+                        <section class="section section--video" style="background: url('http://www.hyundai.ru/media/images/flat/SONATA/elements/video_bgr.jpg') no-repeat center bottom/cover;">
                             <div class="section-content">
-                                <div class="video in-view" data-role="js-video" data-watch-scroll="true">
+                                <div class="video" data-role="js-video" data-watch-scroll="true">
                                     <div class="pip-slider pip-slider--video">
-                                        <div class="pip-slide" data-slide="1" data-src="0IBskt7D3Kg" style="transition: transform 0.75s cubic-bezier(0.65, 0.05, 0.36, 1) 0s; transform: translate(0px, 0px); z-index: 5;" data-active="true">
+                                        <div class="pip-slide" data-slide="1" data-src="0IBskt7D3Kg">
                                             <div class="pip-slide__content">
-                                                <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/video_preview_1.jpg" class="video-preview" alt="">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="svg play-svg-ic"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#play-svg-ic"></use></svg>
-                                                <iframe class="embedded_vd" width="100%" height="" src="" frameborder="0" allowfullscreen=""></iframe></div>
+                                                <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/video_preview_1.jpg" class="video-preview" alt=""/>
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="svg play-svg-ic"><use xlink:href="#play-svg-ic"></use></svg>
+                                            </div>
                                         </div>
-                                        <div class="pip-slide" data-slide="2" data-src="um9uM5XH1nU" style="transition: none; transform: translate(100%, 0px);">
+                                        <div class="pip-slide" data-slide="2" data-src="um9uM5XH1nU">
                                             <div class="pip-slide__content">
-                                                <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/video_preview_2.jpg" class="video-preview" alt="">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="svg play-svg-ic"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#play-svg-ic"></use></svg>
-                                                <iframe class="embedded_vd" width="100%" height="" src="" frameborder="0" allowfullscreen=""></iframe></div>
+                                                <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/video_preview_2.jpg" class="video-preview" alt=""/>
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="svg play-svg-ic"><use xlink:href="#play-svg-ic"></use></svg>
+                                            </div>
                                         </div>
-                                        <div class="pip-slider-controls"><button class="pip-slider-control pip-slider-control--btn" data-role="prev"><svg xmlns="http://www.w3.org/2000/svg" class="svg corner-right"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#corner-left"></use></svg></button><button class="pip-slider-control pip-slider-control--btn" data-role="next"><svg xmlns="http://www.w3.org/2000/svg" class="svg corner-right"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#corner-right"></use></svg></button><span class="pip-slider-current"><strong data-role="_current">1</strong>/<span data-role="_all">2</span></span></div></div>
+                                    </div>
                                 </div>
                             </div>
                         </section>
                         <section class="section section--brand-new" data-anchor="highlights">
                             <div class="section-parallax section-parallax--1">
-                                <div class="parallax-layer" data-parallax-speed="1" style="background-image:url('http://www.hyundai.ru/media/images/flat/SONATA/elements/parallax_1.jpg');transform: translate(0px, 7.34365%);"></div>
-                                <div class="section-parallax-content" data-parallax-speed="2" style="transform: translate(0px, 19.9046%);">
+                                <div class="parallax-layer" style="background-image: url('http://www.hyundai.ru/media/images/flat/SONATA/elements/parallax_1.jpg');" data-parallax-speed="1"></div>
+                                <div class="section-parallax-content" data-parallax-speed="2">
                                     <header class="section-header">
                                         <h2 class="section-header__title">Особенности</h2>
                                         <div class="section-header__subtitle">Легендарный седан <br>в&nbsp;новом&nbsp;исполнении.</div>
@@ -576,13 +575,13 @@ $APPLICATION->SetTitle("NewSolaris");
                                     </header>
                                 </div>
                             </div>
-                            <div class="section-content section-content--fw section-content--highlights-specs in-view" data-watch-scroll="true">
+                            <div class="section-content section-content--fw section-content--highlights-specs" data-watch-scroll="true">
                                 <header class="section-header">
                                     <div class="section-header__subtitle">Ключевые характеристики.</div>
                                 </header>
                                 <div class="section-main">
                                     <div class="img-w">
-                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/specs.png" class="img" alt="">
+                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/specs.png" class="img" alt=""/>
                                     </div>
                                     <div class="pip-specs">
                                         <div class="pip-specs-row">
@@ -616,15 +615,15 @@ $APPLICATION->SetTitle("NewSolaris");
                                             </div>
                                         </div>
                                     </div>
-                                    <a data-gtm-havas-model="sonata" href="#" data-model="Sonata" for="brochures_request" class="brochure-dl zing_form_toggler broshure">Скачать брошюру <i class="pip-ic"><svg xmlns="http://www.w3.org/2000/svg" class="svg arrow-dl"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-dl"></use></svg></i></a>
+                                    <a data-gtm-havas-model="sonata" href="#" data-model="Sonata" for="brochures_request" class="brochure-dl zing_form_toggler broshure">Скачать брошюру <i class="pip-ic"><svg xmlns="http://www.w3.org/2000/svg" class="svg arrow-dl"><use xlink:href="#arrow-dl"></use></svg></i></a>
                                 </div>
                             </div>
                             <div class="section-content section-content--fw section-content--highlights-slider">
                                 <div class="highlights" data-role="js-hlsl">
                                     <div class="pip-slider pip-slider--hlsl">
                                         <div class="pip-slides-holder">
-                                            <div class="pip-slide" data-slide="1" data-active="active">
-                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_1.jpg" class="pip-slide-img" alt=""></div>
+                                            <div class="pip-slide" data-slide="1">
+                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_1.jpg" class="pip-slide-img" alt=""/></div>
                                                 <div class="pip-slide-text">
                                                     <div class="pip-slide-subt">
                                                         Абсолютно новая и гармоничная.
@@ -634,8 +633,8 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slide" data-slide="2" data-active="ready">
-                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_2.jpg" class="pip-slide-img" alt=""></div>
+                                            <div class="pip-slide" data-slide="2">
+                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_2.jpg" class="pip-slide-img" alt=""/></div>
                                                 <div class="pip-slide-text">
                                                     <div class="pip-slide-subt">
                                                         Новые двигатели.
@@ -645,8 +644,8 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slide" data-slide="3" data-active="ready">
-                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_3.jpg" class="pip-slide-img" alt=""></div>
+                                            <div class="pip-slide" data-slide="3">
+                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_3.jpg" class="pip-slide-img" alt=""/></div>
                                                 <div class="pip-slide-text">
                                                     <div class="pip-slide-subt">
                                                         Комфорт и спокойствие.
@@ -656,8 +655,8 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slide" data-slide="4" data-active="passive">
-                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_1.jpg" class="pip-slide-img" alt=""></div>
+                                            <div class="pip-slide" data-slide="4">
+                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_1.jpg" class="pip-slide-img" alt=""/></div>
                                                 <div class="pip-slide-text">
                                                     <div class="pip-slide-subt">
                                                         Абсолютно новая и гармоничная.
@@ -667,8 +666,8 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slide" data-slide="5" data-active="passive">
-                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_2.jpg" class="pip-slide-img" alt=""></div>
+                                            <div class="pip-slide" data-slide="5">
+                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_2.jpg" class="pip-slide-img" alt=""/></div>
                                                 <div class="pip-slide-text">
                                                     <div class="pip-slide-subt">
                                                         Новые двигатели.
@@ -678,8 +677,8 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slide" data-slide="6" data-active="passive">
-                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_3.jpg" class="pip-slide-img" alt=""></div>
+                                            <div class="pip-slide" data-slide="6">
+                                                <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/highlights_3.jpg" class="pip-slide-img" alt=""/></div>
                                                 <div class="pip-slide-text">
                                                     <div class="pip-slide-subt">
                                                         Уют и спокойствие.
@@ -694,7 +693,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="dublay-ch dublay-ch--by-50" data-role="prev"></div>
                                             <div class="dublay-ch dublay-ch--by-50" data-role="next"></div>
                                         </div>
-                                        <div class="pip-slider-controls"><span class="pip-slider-current"><strong data-role="_current">1</strong> / <span data-role="_all">3</span></span></div></div>
+                                    </div>
                                 </div>
                             </div>
                         </section>
@@ -713,10 +712,10 @@ $APPLICATION->SetTitle("NewSolaris");
                                 <div class="exterior" data-role="js-exterior">
                                     <div class="pip-slider pip-slider--exterior">
                                         <div class="pip-slides-holder">
-                                            <div class="pip-slide" data-slide="1" data-active="true">
+                                            <div class="pip-slide" data-slide="1">
                                                 <div class="pip-slide__content">
                                                     <div class="exterior-image-area">
-                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/angle_1.png" class="exterior-angle" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/angle_1.png" class="exterior-angle" alt=""/>
                                                     </div>
                                                     <div class="exterior-plus-area">
                                                         <button class="plus" data-for="1"></button>
@@ -725,10 +724,10 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slide" data-slide="2" style="transition: none; transform: translate(100%, 0px);">
+                                            <div class="pip-slide" data-slide="2">
                                                 <div class="pip-slide__content">
                                                     <div class="exterior-image-area">
-                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/angle_2.png" class="exterior-angle" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/angle_2.png" class="exterior-angle" alt=""/>
                                                     </div>
                                                     <div class="exterior-plus-area">
                                                         <button class="plus" data-for="4"></button>
@@ -738,15 +737,13 @@ $APPLICATION->SetTitle("NewSolaris");
                                                 </div>
                                             </div>
                                         </div>
-
-
                                     </div>
                                     <div class="pip-slider pip-slider--exterior-pluser" data-role="js-ext-pluser">
                                         <div class="pip-slides-holder">
-                                            <div class="pip-slide" data-slide="1" data-active="true">
+                                            <div class="pip-slide" data-slide="1">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_1.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_1.jpg" class="pluser-img" alt=""/>
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Каскадная решётка радиатора.</strong>
@@ -754,10 +751,10 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slide" data-slide="2" style="transition: none; transform: translate(100%, 0px);">
+                                            <div class="pip-slide" data-slide="2">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_2.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_2.jpg" class="pluser-img" alt=""/>
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Светодиодные фары.</strong>
@@ -765,10 +762,10 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slide" data-slide="3" style="transition: none; transform: translate(100%, 0px);">
+                                            <div class="pip-slide" data-slide="3">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_3.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_3.jpg" class="pluser-img" alt=""/>
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Противотуманные фары и&nbsp;ходовые огни.</strong>
@@ -776,10 +773,10 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slide" data-slide="4" style="transition: none; transform: translate(100%, 0px);">
+                                            <div class="pip-slide" data-slide="4">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_6.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_6.jpg" class="pluser-img" alt=""/>
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Легкосплавные диски.</strong>
@@ -787,10 +784,10 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slide" data-slide="5" style="transition: none; transform: translate(100%, 0px);">
+                                            <div class="pip-slide" data-slide="5">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_5.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_5.jpg" class="pluser-img" alt=""/>
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Задние комбинированные фонари.</strong>
@@ -798,10 +795,10 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slide" data-slide="6" style="transition: none; transform: translate(100%, 0px);">
+                                            <div class="pip-slide" data-slide="6">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_4.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_4.jpg" class="pluser-img" alt=""/>
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Выхлопная система с двумя глушителями.</strong>
@@ -809,7 +806,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slider-controls"><button class="pip-slider-control pip-slider-control--btn" data-role="prev"><svg xmlns="http://www.w3.org/2000/svg" class="svg arr-tail-sm-l"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arr-tail-sm-l"></use></svg></button><button class="pip-slider-control pip-slider-control--btn" data-role="next"><svg xmlns="http://www.w3.org/2000/svg" class="svg arr-tail-sm-r"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arr-tail-sm-r"></use></svg></button><span class="pip-slider-current"><strong data-role="_current">1</strong>/<span data-role="_all">6</span></span></div></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -829,10 +826,10 @@ $APPLICATION->SetTitle("NewSolaris");
                                 <div class="interior" data-role="js-interior">
                                     <div class="pip-slider pip-slider--interior">
                                         <div class="pip-slides-holder">
-                                            <div class="pip-slide" data-slide="1" data-active="true">
+                                            <div class="pip-slide" data-slide="1">
                                                 <div class="pip-slide__content">
                                                     <div class="interior-image-area">
-                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/interior_view.jpg" class="interior-view" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/interior_view.jpg" class="interior-view" alt=""/>
                                                     </div>
                                                     <div class="interior-plus-area">
                                                         <button class="plus" data-for="1"></button>
@@ -847,10 +844,10 @@ $APPLICATION->SetTitle("NewSolaris");
                                     <div class="pip-slider pip-slider--interior-pluser" data-role="js-interior-pluser">
                                         <div class="pip-slides-holder">
 
-                                            <div class="pip-slide" data-slide="1" data-active="true">
+                                            <div class="pip-slide" data-slide="1">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/interior_2.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/interior_2.jpg" class="pluser-img" alt=""/>
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Система памяти настроек водительского сиденья (IMS).</strong>
@@ -858,10 +855,10 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slide" data-slide="2" style="transition: none; transform: translate(100%, 0px);">
+                                            <div class="pip-slide" data-slide="2">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/interior_4.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/interior_4.jpg" class="pluser-img" alt=""/>
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Подогрев передних и задних сидений.</strong>
@@ -869,10 +866,10 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slide" data-slide="3" style="transition: none; transform: translate(100%, 0px);">
+                                            <div class="pip-slide" data-slide="3">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/interior_3.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/interior_3.jpg" class="pluser-img" alt=""/>
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Двухзонный автоматический климат-контроль.</strong>
@@ -880,10 +877,10 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slide" data-slide="4" style="transition: none; transform: translate(100%, 0px);">
+                                            <div class="pip-slide" data-slide="4">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/interior_1.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/interior_1.jpg" class="pluser-img" alt=""/>
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Автоматический обдув лобового стекла.</strong>
@@ -891,7 +888,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slider-controls"><button class="pip-slider-control pip-slider-control--btn" data-role="prev"><svg xmlns="http://www.w3.org/2000/svg" class="svg arr-tail-sm-l"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arr-tail-sm-l"></use></svg></button><button class="pip-slider-control pip-slider-control--btn" data-role="next"><svg xmlns="http://www.w3.org/2000/svg" class="svg arr-tail-sm-r"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arr-tail-sm-r"></use></svg></button><span class="pip-slider-current"><strong data-role="_current">1</strong>/<span data-role="_all">4</span></span></div></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -907,39 +904,36 @@ $APPLICATION->SetTitle("NewSolaris");
                                     </header>
                                 </div>
                             </div>
-
-
                             <div class="section-content section-content--fw section-content--graphics">
                                 <div class="section-main" data-role="js-graphics" data-watch-scroll="true">
                                     <div class="tabs graphics-tabs">
                                         <ul class="tabs-w engine-selector" data-role="tabs-buttons">
-                                            <li class="tab" data-for="1" data-power="188" data-toque="241" data-power-scale="75.1" data-toque-scale="25.1">2.4 GDi</li>
-                                            <li class="tab" onload="this.trigger('click');" data-for="2" data-power="150" data-toque="192" data-power-scale="80" data-toque-scale="25.1">2.0 MPi</li>
+                                            <li class="tab is-active" data-for="1" data-power="188" data-toque="241" data-power-scale="75.1" data-toque-scale="25.1">2.4 GDi</li>
+                                            <li class="tab" data-for="2" data-power="150" data-toque="192" data-power-scale="80" data-toque-scale="25.1">2.0 MPi</li>
 
                                         </ul>
                                         <ul class="tabs-c" data-role="tab-container">
                                             <li class="tab" data-tab="1"><div class="engine-descr">Сочетание 6-ступенчатой коробки передач с&nbsp;экономичными двигателями 2.0 и 2.4 литра позволяет достичь повышенной плавности хода, а&nbsp;также снизить уровень шума во время движения.</div></li>
                                             <li class="tab" data-tab="2"><div class="engine-descr">Сочетание 6-ступенчатой коробки передач с&nbsp;экономичными двигателями 2.0 и 2.4 литра позволяет достичь повышенной плавности хода, а&nbsp;также снизить уровень шума во время движения.</div></li>
                                         </ul>
-                                       <div class="graphics-scores">
-									<span class="graphics-scale-level">4000 об/мин</span>
-									<span class="graphics-scale-level">5000 об/мин</span>
-									<span class="graphics-scale-level">6000 об/мин</span>
-									<div class="graphics-score graphics-score--power">
-										<dl class="score-points">
-											<dt class="points"><strong class="value">188</strong> <span class="units">л.с.</span></dt>
-											<dd class="descr">мощность</dd>
-										</dl>
-										<div class="graphics-scale"><span class="_line" style="width: 75.1%;"></span></div>
-									</div>
-									<div class="graphics-score graphics-score--toque">
-										<dl class="score-points">
-		                  <dt class="points"><strong class="value">241</strong> <span class="units">Нм</span></dt>
-											<dd class="descr">крутящий момент</dd>
-										</dl>
-										<div class="graphics-scale"><span class="_line" style="width: 25.1%;"></span></div>
-									</div>
-								</div>
+                                        <div class="graphics-scores">
+                                            <span class="graphics-scale-level">4000 об/мин</span>
+                                            <span class="graphics-scale-level">5000 об/мин</span>
+                                            <span class="graphics-scale-level">6000 об/мин</span>
+                                            <div class="graphics-score graphics-score--power">
+                                                <dl class="score-points">
+                                                    <dt class="points"><strong class="value">0</strong> <span class="units">л.с.</span></dt>
+                                                    <dd class="descr">мощность</dd>
+                                                </dl>
+                                                <div class="graphics-scale"><span class="_line"></span></div>
+                                            </div>
+                                            <div class="graphics-score graphics-score--toque">
+                                                <dl class="score-points">
+                                                    <dt class="points"><strong class="value">0</strong> <span class="units">Нм</span></dt>
+                                                    <dd class="descr">крутящий момент</dd>
+                                                </dl>
+                                                <div class="graphics-scale"><span class="_line"></span></div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -961,7 +955,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                     <div class="dublay pip-slider pip-slider--safety">
                                         <div class="dublay-ch dublay-ch--by-50" data-pip-subslide="left">
                                             <div class="pip-slides-holder">
-                                                <div class="pip-slide" data-slide="1" data-slide-type="static" data-active="true">
+                                                <div class="pip-slide" data-slide="1" data-slide-type="static">
                                                     <div class="pip-slide-subt">
                                                         Динамическая подсветка поворота (DBL).
                                                     </div>
@@ -969,7 +963,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                         Реагирует на поворот рулевого колеса, изменяя луч света и обеспечивая дополнительную боковую подсветку дороги при повороте.
                                                     </div>
                                                 </div>
-                                                <div class="pip-slide" data-slide="2" data-slide-type="static" style="transition: none; opacity: 0;">
+                                                <div class="pip-slide" data-slide="2" data-slide-type="static">
                                                     <div class="pip-slide-subt">
                                                         Система мониторинга слепых зон (BSD).
                                                     </div>
@@ -981,15 +975,15 @@ $APPLICATION->SetTitle("NewSolaris");
                                         </div>
                                         <div class="dublay-ch dublay-ch--by-50" data-pip-subslide="right">
                                             <div class="pip-slides-holder">
-                                                <div class="pip-slide" data-slide="1" data-slide-type="mooving" data-active="true">
-                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/safety_popup_1.jpg" class="pip-slide-img" alt=""></div>
+                                                <div class="pip-slide" data-slide="1" data-slide-type="mooving">
+                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/safety_popup_1.jpg" class="pip-slide-img" alt=""/></div>
                                                 </div>
-                                                <div class="pip-slide" data-slide="2" data-slide-type="mooving" style="transition: none; transform: translate(100%, 0px);">
-                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/safety_popup_2.jpg" class="pip-slide-img" alt=""></div>
+                                                <div class="pip-slide" data-slide="2" data-slide-type="mooving">
+                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/safety_popup_2.jpg" class="pip-slide-img" alt=""/></div>
                                                 </div>
                                             </div>
                                         </div>
-
+                                    </div>
                                 </div>
                             </div>
                         </section>
@@ -1000,7 +994,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                     <header class="section-header">
                                         <h2 class="section-header__title">Комфорт</h2>
                                         <div class="section-header__subtitle">Новые возможности.</div>
-                                        <span class="section-header__descr">Новая Hyundai Sonata <br> — синоним слова «комфорт».</span>
+                                        <span class="section-header__descr">Новая Hyundai Sonata <br> &mdash; синоним слова «комфорт».</span>
                                     </header>
                                 </div>
                             </div>
@@ -1010,28 +1004,28 @@ $APPLICATION->SetTitle("NewSolaris");
                                         <div class="dublay-ch dublay-ch--by-50">
                                             <div class="convience-popup" data-for="1">
                                                 <div class="convience-popup-inner">
-                                                    <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_1.jpg" class="convience-popup-img" alt="">
+                                                    <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_1.jpg" class="convience-popup-img" alt=""/>
                                                     <div class="convience-popup-title">Система помощи при&nbsp;парковке</div>
-                                                    <button class="more-button"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#plus"></use></svg></button>
+                                                    <button class="more-button"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#plus"></use></svg></button>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="dublay-ch dublay-ch--by-50">
                                             <div class="convience-popup" data-for="2">
                                                 <div class="convience-popup-inner">
-                                                    <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_2.jpg" class="convience-popup-img" alt="">
+                                                    <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_2.jpg" class="convience-popup-img" alt=""/>
                                                     <div class="convience-popup-title">Вентилируемые передние сиденья</div>
-                                                    <button class="more-button"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#plus"></use></svg></button>
+                                                    <button class="more-button"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#plus"></use></svg></button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="convience-popups-slider" data-role="js-convience-popups-slider">
                                         <div class="pip-slides-holder">
-                                            <div class="pip-slide" data-slide="1" data-active="true">
+                                            <div class="pip-slide" data-slide="1">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_popup_1.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_popup_1.jpg" class="pluser-img" alt=""/>
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Система помощи при&nbsp;парковке</strong>
@@ -1039,10 +1033,10 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pip-slide" data-slide="2" style="transition: none; transform: translate(100%, 0px);">
+                                            <div class="pip-slide" data-slide="2">
                                                 <div class="pip-slide__content">
                                                     <div class="pluser-image-area">
-                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_popup_2.jpg" class="pluser-img" alt="">
+                                                        <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_popup_2.jpg" class="pluser-img" alt=""/>
                                                     </div>
                                                     <div class="pluser-text-area">
                                                         <strong class="pluser-text-title">Вентилируемые передние сиденья</strong>
@@ -1051,7 +1045,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                 </div>
                                             </div>
                                         </div>
-
+                                    </div>
                                 </div>
                             </div>
                             <div class="section-content section-content--fw section-content--convience-slider">
@@ -1059,7 +1053,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                     <div class="dublay pip-slider pip-slider--convience">
                                         <div class="dublay-ch dublay-ch--by-50" data-pip-subslide="left">
                                             <div class="pip-slides-holder">
-                                                <div class="pip-slide" data-slide="1" data-slide-type="static" data-active="true">
+                                                <div class="pip-slide" data-slide="1" data-slide-type="static">
                                                     <div class="pip-slide-subt">
                                                         Поддержка Apple CarPlay и Android Auto.
                                                     </div>
@@ -1067,7 +1061,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                         Управляйте своим телефоном с экрана мультимедиа системы с помощью тач-скрина или голосом. Используйте установленные приложения. Наслаждайтесь.
                                                     </div>
                                                 </div>
-                                                <div class="pip-slide" data-slide="2" data-slide-type="static" style="transition: none; opacity: 0;">
+                                                <div class="pip-slide" data-slide="2" data-slide-type="static">
                                                     <div class="pip-slide-subt">
                                                         Приборная панель Supervision с цветным дисплеем диагональю 4.2 дюйма.
                                                     </div>
@@ -1075,7 +1069,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                         Отображает различную полезную информацию бортового компьютера, включая дальность поездки, максимальное расстояние до необходимой дозаправки и т.д.
                                                     </div>
                                                 </div>
-                                                <div class="pip-slide" data-slide="3" data-slide-type="static" style="transition: none; opacity: 0;">
+                                                <div class="pip-slide" data-slide="3" data-slide-type="static">
                                                     <div class="pip-slide-subt">
                                                         Беспроводная система зарядки.
                                                     </div>
@@ -1083,7 +1077,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                         Зарядка вашего смартфона теперь проще, чем когда-либо. Без неудобства. Без проводов.
                                                     </div>
                                                 </div>
-                                                <div class="pip-slide" data-slide="4" data-slide-type="static" style="transition: none; opacity: 0;">
+                                                <div class="pip-slide" data-slide="4" data-slide-type="static">
                                                     <div class="pip-slide-subt">
                                                         Шторка на заднем стекле с электроприводом.
                                                     </div>
@@ -1091,7 +1085,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                         Регулируйте затемнение заднего стекла с помощью электропривода шторки.
                                                     </div>
                                                 </div>
-                                                <div class="pip-slide" data-slide="5" data-slide-type="static" style="transition: none; opacity: 0;">
+                                                <div class="pip-slide" data-slide="5" data-slide-type="static">
                                                     <div class="pip-slide-subt">
                                                         Интеллектуальная система открывания багажника.
                                                     </div>
@@ -1103,24 +1097,24 @@ $APPLICATION->SetTitle("NewSolaris");
                                         </div>
                                         <div class="dublay-ch dublay-ch--by-50" data-pip-subslide="right">
                                             <div class="pip-slides-holder">
-                                                <div class="pip-slide" data-slide="1" data-slide-type="mooving" data-active="true">
-                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_slider_1.jpg" class="pip-slide-img" alt=""></div>
+                                                <div class="pip-slide" data-slide="1" data-slide-type="mooving">
+                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_slider_1.jpg" class="pip-slide-img" alt=""/></div>
                                                 </div>
-                                                <div class="pip-slide" data-slide="2" data-slide-type="mooving" style="transition: none; transform: translate(100%, 0px);">
-                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_slider_2.jpg" class="pip-slide-img" alt=""></div>
+                                                <div class="pip-slide" data-slide="2" data-slide-type="mooving">
+                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_slider_2.jpg" class="pip-slide-img" alt=""/></div>
                                                 </div>
-                                                <div class="pip-slide" data-slide="3" data-slide-type="mooving" style="transition: none; transform: translate(100%, 0px);">
-                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_slider_3.jpg" class="pip-slide-img" alt=""></div>
+                                                <div class="pip-slide" data-slide="3" data-slide-type="mooving">
+                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_slider_3.jpg" class="pip-slide-img" alt=""/></div>
                                                 </div>
-                                                <div class="pip-slide" data-slide="4" data-slide-type="mooving" style="transition: none; transform: translate(100%, 0px);">
-                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_slider_4.jpg" class="pip-slide-img" alt=""></div>
+                                                <div class="pip-slide" data-slide="4" data-slide-type="mooving">
+                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_slider_4.jpg" class="pip-slide-img" alt=""/></div>
                                                 </div>
-                                                <div class="pip-slide" data-slide="5" data-slide-type="mooving" style="transition: none; transform: translate(100%, 0px);">
-                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_slider_5.jpg" class="pip-slide-img" alt=""></div>
+                                                <div class="pip-slide" data-slide="5" data-slide-type="mooving">
+                                                    <div class="pip-slide-image"><img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_slider_5.jpg" class="pip-slide-img" alt=""/></div>
                                                 </div>
                                             </div>
                                         </div>
-
+                                    </div>
                                 </div>
                             </div>
                         </section>
@@ -1137,17 +1131,17 @@ $APPLICATION->SetTitle("NewSolaris");
                                     <ul class="specs-listing">
                                         <li class="head-line">
                                             <table>
-                                                <tbody><tr>
+                                                <tr>
                                                     <th>Модификации</th>
                                                     <td>2.0 - 6AT</td>
                                                     <td>2.4 - 6AT</td>
                                                 </tr>
-                                                </tbody></table>
+                                            </table>
                                         </li>
                                         <li class="listing-item">
                                             <div class="opened">Двигатель</div>
                                             <table>
-                                                <tbody><tr>
+                                                <tr>
                                                     <th>Мощность*</th>
                                                     <td>150 л.с.</td>
                                                     <td>188 л.с.</td>
@@ -1177,12 +1171,12 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     <td>70</td>
                                                     <td>70</td>
                                                 </tr>
-                                                </tbody></table>
+                                            </table>
                                         </li>
                                         <li class="listing-item">
                                             <div>Динамика</div>
                                             <table>
-                                                <tbody><tr>
+                                                <tr>
                                                     <th>Динамические характеристики</th>
                                                     <td>6АКПП</td>
                                                     <td>6АКПП</td>
@@ -1202,13 +1196,13 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     <td>205</td>
                                                     <td>210</td>
                                                 </tr>
-                                                </tbody></table>
+                                            </table>
                                         </li>
 
                                         <li class="listing-item">
                                             <div>Расход топлива</div>
                                             <table>
-                                                <tbody><tr>
+                                                <tr>
                                                     <th>Городской цикл, <br>л/100 км**</th>
                                                     <td>10.8</td>
                                                     <td>12.1</td>
@@ -1238,18 +1232,18 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     <td>182</td>
                                                     <td>194</td>
                                                 </tr>
-                                                </tbody></table>
+                                            </table>
                                         </li>
                                         <li class="listing-item">
                                             <div>Подвеска</div>
                                             <table>
-                                                <tbody><tr>
+                                                <tr>
                                                     <th>Колесная база</th>
                                                     <td>2805</td>
                                                     <td>2805</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>Минимальный дорожный<br>просвет, мм***</th>
+                                                    <th>Минимальный дорожный<br/>просвет, мм***</th>
                                                     <td>155</td>
                                                     <td>155</td>
                                                 </tr>
@@ -1283,16 +1277,16 @@ $APPLICATION->SetTitle("NewSolaris");
                                                     <td>Независимая, пружинная, <br>многорычажная, <br>со стабилизатором <br>поперечной устойчивости</td>
                                                     <td>Независимая, пружинная, <br>многорычажная, <br>со стабилизатором <br>поперечной устойчивости</td>
                                                 </tr>
-                                                </tbody></table>
+                                            </table>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="spec_message">
                                 <div>
-                                    <span class="add-blue-color">*</span> — Данные по максимальной мощности двигателя и крутящему моменту приведены согласно методике испытаний по Правилам ООН №85<br>
-                                    <span class="add-blue-color">**</span> — Показатели расхода топлива и массы выделяемого CO2 представлены согласно методике испытаний по Правилам ООН №83 и 101<br>
-                                    <span class="add-blue-color">***</span> — Согласно сертификату соответствия по Директиве ЕС 92/21/EEC представлено значение межосевого дорожного просвета<br>
+                                    <span class="add-blue-color">*</span> &mdash; Данные по максимальной мощности двигателя и крутящему моменту приведены согласно методике испытаний по Правилам ООН №85<br>
+                                    <span class="add-blue-color">**</span> &mdash; Показатели расхода топлива и массы выделяемого CO2 представлены согласно методике испытаний по Правилам ООН №83 и 101<br>
+                                    <span class="add-blue-color">***</span> &mdash; Согласно сертификату соответствия по Директиве ЕС 92/21/EEC представлено значение межосевого дорожного просвета<br>
                                 </div>
                             </div>
                         </div>
@@ -1309,24 +1303,24 @@ $APPLICATION->SetTitle("NewSolaris");
                                     </div>
                                 </div>
                                 <ul id="all-gallery-items" style="display: none;">
-                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_01.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_01.jpg"></li>
-                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_02.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_02.jpg"></li>
-                                    <li><img data-type="interior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_03.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_03.jpg"></li>
-                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_04.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_04.jpg"></li>
-                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_05.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_05.jpg"></li>
-                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_06.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_06.jpg"></li>
-                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_07.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_07.jpg"></li>
+                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_01.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_01.jpg"/></li>
+                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_02.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_02.jpg"/></li>
+                                    <li><img data-type="interior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_03.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_03.jpg"/></li>
+                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_04.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_04.jpg"/></li>
+                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_05.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_05.jpg"/></li>
+                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_06.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_06.jpg"/></li>
+                                    <li><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_07.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_07.jpg"/></li>
                                 </ul>
                                 <div class="gallery-body">
                                     <div class="gallery-list-wrap">
                                         <div class="gallery-list-holder">
-                                            <div class="gallery-list-slider" style="width: 948px;">
-                                                <ul class="clearfix alive" style="display: block;"><li style=""><img data-type="exterior" width="229" height="144" alt="" src="http://www.hyundai.ru/media/images/flat/SONATA/gallery/previews/gallery_01.jpg" data-href="http://www.hyundai.ru/media/images/flat/SONATA/gallery/gallery_01.jpg"></li><li style=""><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_02.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_02.jpg"></li><li style=""><img data-type="interior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_03.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_03.jpg"></li><li style=""><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_04.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_04.jpg"></li><li style=""><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_05.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_05.jpg"></li><li style=""><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_06.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_06.jpg"></li><li style=""><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/SONATA/gallery/previews/gallery_07.jpg" data-href="/media/images/flat/SONATA/gallery/gallery_07.jpg"></li></ul>
+                                            <div class="gallery-list-slider">
+                                                <ul class="clearfix"></ul>
                                             </div>
-                                            <div class="slide-prev dead"></div>
-                                            <div class="slide-next dead"></div>
+                                            <div class="slide-prev"></div>
+                                            <div class="slide-next"></div>
                                             <div class="slide-paginator">
-                                                <ul><li class="alive"><span></span></li></ul>
+                                                <ul></ul>
                                             </div>
                                         </div>
                                     </div>
@@ -1336,47 +1330,39 @@ $APPLICATION->SetTitle("NewSolaris");
                     </div>
                     <div class="prefooter">
                         <div class="prefooter-c">
-                            <ul class="prefooter-l">
-                                <li class="prefooter-l-i"><a href="/configurator/car/24/" class="prefooter-l-l"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-config"></use></svg><span class="prefooter-l-t">Конфигуратор</span></a></li>
-                                <li class="prefooter-l-i"><a href="/find-dealer" class="prefooter-l-l"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-dealer"></use></svg><span class="prefooter-l-t">Найти дилера</span></a></li>
-                                <!-- 						<li class="prefooter-l-i"><a href="http://www.hyundai.ru/media/downloads/accessoires/Sonata.pdf" class="prefooter-l-l"><img class="svg" src="/media/img/accessory.png"/><span class="prefooter-l-t">Каталог аксессуаров</span></a></li> -->
-                                <li class="prefooter-l-i"><a href="/configurator/car/24/" class="prefooter-l-l"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-credit"></use></svg><span class="prefooter-l-t">Расчет кредита</span></a></li>
-                            </ul>
-                            <!-- <p>*В 2017 году Hyundai Sonata стал первым из 39 автомобилей, набрав 16 баллов из 16 возможных в рейтинге пассивной безопасности ARCAP (Autoreview Car Assessment Program – Программа оценки автомобилей «Авторевю»), опубликованном автомобильным изданием «Авторевю». ARCAP - рейтинг пассивной безопасности автомобилей при фронтальном ударе, составляемый автомобильным изданием «Авторевю» по итогам краш – теста по методике ARCAP. С подробным описанием целей и методики ARCAP и результатами предыдущих испытаний можно ознакомиться на сайте <a href="http://www.autoreview.ru/arcap/">www.autoreview.ru/arcap/</a></p><br>
-                            <p>**Платеж рассчитан по программе Hyundai Старт, срок кредита 36 мес., процентная ставка 10,10% годовых для автомобилей Hyundai Sonata (с учетом государственной программы льготного автокредитования), исходя из цены Sonata 1.4 6MT Active (Актив) 624 900 р., первоначальный взнос 232 500 р., сумма кредита 392 400 р. Гарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 45% от цены на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. Предложение действует с 01.07.17 по 31.07.17, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.rusfinancebank.ru
-                                    0 руб. – первоначальный взнос по кредиту. Расчет кредита произведен исходя из стоимости автомобиля 624 900 рублей, первоначального взноса 0% от стоимости автомобиля, процентной ставки по кредиту на приобретение автомобиля 10,8% годовых, срока кредита 36 месяцев и остаточной стоимости (далее ОС) 281 205 рублей, по кредитной программе Хендэ Финанс с условием остаточной стоимости. ОС - задолженность клиента, выраженная в процентах от стоимости автотранспортного средства, подлежащая погашению клиентом в дату последнего ежемесячного платежа, указанную в договоре, в составе последнего ежемесячного платежа.
-                                    Условия кредитования по состоянию на 01.07.2017 года в рамках Программы: первоначальный взнос (ПВ) от 0% до 45% от стоимости приобретаемого автомобиля Hyundai Sonata; процентная ставка, с учетом государственного субсидирования автокредитования: тип программы «Классика», при ПВ 0%-45% - 10,8% годовых; тип программы «Экспресс», при ПВ 0%-45% - 10,8% годовых; гарантированная остаточная стоимость автомобиля 45% от цены на момент покупки; срок кредита 36 месяцев; валюта кредита – рубли РФ; сумма кредита от 100 000 до 3 000 000 руб.. Иные расходы - обязательное страхование автомобиля по КАСКО от рисков «Угон»/«Хищение» и «Полная гибель» на срок не менее одного года и на страховую сумму не менее размера обеспеченного залогом требования (если требования превышают стоимость автотранспортного средства – на его действительную стоимость), в соответствии с тарифами выбранной клиентом страховой компании, соответствующей требованиям Банка к страховым компаниям и страховым услугам. Указанное страхование обеспечивается в течение всего срока кредитования. Обеспечение по кредиту: залог приобретаемого автомобиля. Кредит погашается ежемесячными платежами. Количество месяцев срока кредита соответствует количеству платежных (процентных) периодов, значение которых приведено в Общих условиях банковского обслуживания физических лиц «Сетелем Банк» ООО. Расчет размера ежемесячных платежей производится с учетом того, что остаточная стоимость подлежит погашению в составе последнего ежемесячного платежа в дату последнего ежемесячного платежа. Вся информация и произведенные расчеты действительны на 01.07.2017 г. Указанные условия кредитования действуют в период с 01.07.2017 г. по 31.07.2017 г.. Банк вправе изменить условия кредитования в одностороннем порядке, без предварительного уведомления. Данные сведения носят информационный характер и не являются публичной офертой (ст. 437 ГК РФ). Кредит предоставляется «Сетелем Банк» ООО (поименован по тексту - «Банк»). Подробные условия кредитования, а также требования к условиям страхования и требования к заемщикам в дилерских центрах Hyundai или на www.cetelem.ru.</p><br/> -->
                         </div>
                     </div>
                 </main>
             </div>
 
             <!--RuTarget-->
-            <script type="text/javascript">
+            <script type="text/javascript" >
                 var _rutarget = window._rutarget || [];
                 _rutarget.push({'event': 'showOffer', 'sku': 'Sonata'});
             </script>
             <!--/RuTarget-->
-
-
-        </div>
     </main>
 
-    <!--
-    Контент страницы закончится тут
-    -->
 
 
-    <script src="http://www.hyundai.ru/assets/js/common.js"></script>
+
+
+
+<!--    <script src="http://www.hyundai.ru/assets/js/vendors.js?v=1"></script>-->
+	<script src="http://www.hyundai.ru/assets/js/common.js?v=2"></script>
+
+
+	<!-- ! specific stuff for current page only ! -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
     <script type="text/javascript" src="http://www.hyundai.ru/media/js/libs/spritespin.js"></script>
     <script type="text/javascript" src="http://www.hyundai.ru/media/js/libs/jquery.lazyload.min.js"></script>
     <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/sc_gt_default.js"></script>
     <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/transform.js"></script>
     <script type="text/javascript" src="pip_flat_spritespin.js"></script>
-    <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/solaris-2017.js"></script>
-    <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/solaris-2017-scroll.js"></script>
-    <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/solaris-2017-parallax.js"></script>
+    <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/pip_sonata.js"></script>
+    <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/pip_scroll.js"></script>
+    <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/pip_parallax.js"></script>
+
 
 
 
