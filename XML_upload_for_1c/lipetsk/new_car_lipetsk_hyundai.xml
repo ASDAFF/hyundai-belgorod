@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>01.10.2017</Date>
-		<Time>21:33:55</Time>
+		<Date>02.10.2017</Date>
+		<Time>21:33:39</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -3119,7 +3119,7 @@
 			<number>7 (4742) 727777</number>
 		</Contract>
 		<Contract>
-			<VIN>Z94G2811BJR063001</VIN>
+			<VIN>Z94G2811BJR062995</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>Creta</MODEL>
 			<IsNew>yes</IsNew>
@@ -3129,20 +3129,20 @@
 			<FUEL_TYPE>Бензин</FUEL_TYPE>
 			<TRANSMISS>АКП</TRANSMISS>
 			<TransmissionCount>6</TransmissionCount>
-			<Color>серый</Color>
-			<ColorCode>U4G</ColorCode>
-			<ColorOrig>Серый</ColorOrig>
+			<Color>белый</Color>
+			<ColorCode>PGU</ColorCode>
+			<ColorOrig>Белый</ColorOrig>
 			<SpecName>Travel1.6 2WD 6AT</SpecName>
 			<SpecId>CTW5D261FDD137</SpecId>
 			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>1 089 900</OLD_PRICE>
-			<NEW_PRICE>1 024 900</NEW_PRICE>
+			<OLD_PRICE>1 084 900</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
 			<CUZOV>внедорожник</CUZOV>
 			<Comment/>
 			<TYPE_SALON/>
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>4</run>
+			<run/>
 			<year>2 017</year>
 			<GENERATION/>
 			<MODIFICATION/>
@@ -3206,7 +3206,7 @@
 				<value>Светодиодные дневные ходовые огни</value>
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
-			<CREDIT>65 000</CREDIT>
+			<CREDIT>1 084 900</CREDIT>
 			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
 			<number>7 (4742) 727777</number>
 		</Contract>
@@ -3391,6 +3391,111 @@
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
 			<CREDIT>1 169 900</CREDIT>
+			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
+			<number>7 (4742) 727777</number>
+		</Contract>
+		<Contract>
+			<VIN>Z94G3813DJR062880</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>Creta</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>2</CAPACITY>
+			<POWER>149,6</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>PGU</ColorCode>
+			<ColorOrig>Белый</ColorOrig>
+			<SpecName>Travel + Advanced + Style2.0 4WD 6 AT</SpecName>
+			<SpecId>CTW52G61GGG013</SpecId>
+			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
+			<OLD_PRICE>1 349 900</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>внедорожник</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Полный</GRAR_TYPE>
+			<run/>
+			<year>2 017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT>
+				<value>Круиз-контроль</value>
+				<value>Фронтальные подушки безопасности водителя и переднего пассажира</value>
+				<value>Регулировка передних ремней безопасности по высоте</value>
+				<value>Преднатяжители передних ремней безопасности</value>
+				<value>ABS + EBD (система распределения тормозных усилий)</value>
+				<value>ESC (система стабилизации) с функцией помощи при старте в гору и спуске с горы</value>
+				<value>Система предупреждения водителей сзади при экстренном торможении</value>
+				<value>Устройство вызова экстренных оперативных служб Эра-Глонасс</value>
+				<value>Дневные ходовые огни</value>
+				<value>Ручки дверей в цвет кузова</value>
+				<value>Брызговики</value>
+				<value>Дисковые тормоза спереди и сзади</value>
+				<value>Регулировка сиденья водителя по высоте</value>
+				<value>Регулировка руля по высоте</value>
+				<value>Маршрутный компьютер</value>
+				<value>Разъемы USB и AUX</value>
+				<value>Bluetooth</value>
+				<value>Управление магнитолой на руле</value>
+				<value>Складывающаяся спинка второго ряда сидений (в пропорции 60:40)</value>
+				<value>Электростеклоподъемники передних и задних дверей</value>
+				<value>Система мониторинга давления в шинах</value>
+				<value>Обивка сидений тканью</value>
+				<value>4 подголовника</value>
+				<value>Две 12v розетки на центральной консоли</value>
+				<value>Зеркала в противосолнечных козырьках</value>
+				<value>Футляр для очков в потолочной консоли</value>
+				<value>Пластиковые накладки на порогах дверей</value>
+				<value>Антенна на крыше ("плавник")</value>
+				<value>Внешние зеркала заднего вида в цвет кузова</value>
+				<value>Электропривод и обогрев внешних зеркал заднего вида</value>
+				<value>Подогрев передних сидений с тремя режимами</value>
+				<value>Пульт управления центральным замком в ключе</value>
+				<value>Крючки для фиксации груза в багажнике</value>
+				<value>Дополнительный органайзер под полом багажника</value>
+				<value>Полка багажника</value>
+				<value>Климат-контроль</value>
+				<value>Боковые подушки безопасности</value>
+				<value>Шторки безопасности</value>
+				<value>Регулировка рулевого колеса по вылету</value>
+				<value>Электроусилитель рулевого управления</value>
+				<value>Система управления стабилизацией (VSM)</value>
+				<value>Рейлинги на крыше</value>
+				<value>Задние датчики парковки</value>
+				<value>Металлизированная отделка внутренних дверных ручек</value>
+				<value>Кожаная отделка рулевого колеса</value>
+				<value>Подогрев рулевого колеса</value>
+				<value>Подогрев задних сидений с двумя режимами</value>
+				<value>Панель приборов Supervision с экраном 3,5" и регулировкой яркости подсветки</value>
+				<value>Электроподогрев лобового стекла</value>
+				<value>Электроподогрев форсунок стеклоомывателя</value>
+				<value>Аудиосистема (CD, Радио, 4 динамика, 5" сенсорный экран)</value>
+				<value>Датчик света</value>
+				<value>Камера заднего вида с динамической разметкой</value>
+				<value>Система доступа в салон без ключа и кнопка запуска двигателя</value>
+				<value>Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием</value>
+				<value>Два дополнительных высокочастотных динамика</value>
+				<value>Отделка сидений искусственной кожей</value>
+				<value>Вставки на внутренней отделке дверей (искуcственная кожа)</value>
+				<value>Фары проекционного типа со статичными лампами подсветки поворота при повороте ру</value>
+				<value>Передние противотуманные фары</value>
+				<value>Светодиодные дневные ходовые огни</value>
+				<value>Повторители сигнала поворота в корпусах наружных зеркал</value>
+				<value>Задние комбинированные фонари со светодиодами</value>
+				<value>Центральный задний подголовник</value>
+				<value>Решетка радиатора с хромированными элементами</value>
+				<value>Серебристые накладки на передний и задний бамперы</value>
+				<value>Легкосплавные диски 17" с шинами 215/60 R17 и полноразмерное запасное колесо 16"</value>
+			</DEFAULT_COMPLIT>
+			<EXT_COMPLIT/>
+			<CREDIT>1 349 900</CREDIT>
 			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
 			<number>7 (4742) 727777</number>
 		</Contract>
@@ -3662,43 +3767,6 @@
 			</DEFAULT_COMPLIT>
 			<EXT_COMPLIT/>
 			<CREDIT>919 900</CREDIT>
-			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
-			<number>7 (4742) 727777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94G2811DJR064087</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>Creta</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>123</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>серебристый</Color>
-			<ColorCode>RHM</ColorCode>
-			<ColorOrig>Серебряный</ColorOrig>
-			<SpecName>COMFORT 1.6 4WD, 6АT</SpecName>
-			<SpecId>CTW5D261GDD142</SpecId>
-			<Description>Данный автомобиль находится в наличии в салоне официального дилера Hyundai, компании Ринг Авто. Цена указана с учетом скидки по программе Трейд-Ин и индивидуальной скидки от дилерского центра. Подробности уточняйте у менеджера отдела продаж. Размер скидки на данный автомобиль -</Description>
-			<OLD_PRICE>1 124 900</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>внедорожник</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>3</run>
-			<year>2 017</year>
-			<GENERATION/>
-			<MODIFICATION/>
-			<PERIOD/>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>1 124 900</CREDIT>
 			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
 			<number>7 (4742) 727777</number>
 		</Contract>

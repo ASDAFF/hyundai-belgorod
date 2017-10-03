@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>02.10.2017</Date>
-		<Time>13:05:47</Time>
+		<Date>03.10.2017</Date>
+		<Time>13:05:11</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -299,40 +299,6 @@
 				<value>8T6</value>
 			</EXT_COMPLIT>
 			<CREDIT>90 000</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
-			<VIN>TMBLD9NS9H8031910</VIN>
-			<MARK/>
-			<MODEL>Kodiaq</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY/>
-			<POWER/>
-			<fuel_consumption/>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount/>
-			<Color>Серый Business металлик</Color>
-			<ColorCode>2C2C</ColorCode>
-			<ColorOrig/>
-			<SpecName>Kodiaq Style 2.0 TSI (180 л.с.) авт.-7 (DSG) 4x4</SpecName>
-			<SpecId>NS74RZ</SpecId>
-			<Description/>
-			<OLD_PRICE>2 742 500</OLD_PRICE>
-			<NEW_PRICE>2 642 500</NEW_PRICE>
-			<CUZOV/>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>AD Черный</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>1</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>100 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>

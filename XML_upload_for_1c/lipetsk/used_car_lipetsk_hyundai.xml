@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>01.10.2017</Date>
-		<Time>21:35:05</Time>
+		<Date>02.10.2017</Date>
+		<Time>21:34:48</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -370,6 +370,58 @@
 			<number>7 (4742) 727777</number>
 		</Contract>
 		<Contract>
+			<VIN>TMADB51DABJ143040</VIN>
+			<MARK>Hyundai</MARK>
+			<MODEL>I30</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>126</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>5</TransmissionCount>
+			<Color>серый</Color>
+			<ColorCode>FHM</ColorCode>
+			<ColorOrig>Серый</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>Хэтчбек 5 дв.</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>103 346</run>
+			<year>2 010</year>
+			<GENERATION>i30, I Рестайлинг</GENERATION>
+			<MODIFICATION>1.6 MT (126 л.с.)</MODIFICATION>
+			<PERIOD>2010 - 2012</PERIOD>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
+			<number>7 (4742) 727777</number>
+		</Contract>
+		<Contract>
 			<VIN>X7LHSRDJA49219033</VIN>
 			<MARK>Renault</MARK>
 			<MODEL>DUSTER</MODEL>
@@ -470,58 +522,6 @@
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
 			<CREDIT>20 000</CREDIT>
-			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
-			<number>7 (4742) 727777</number>
-		</Contract>
-		<Contract>
-			<VIN>XTA111740B0157857</VIN>
-			<MARK>LADA (ВАЗ)</MARK>
-			<MODEL>KALINA</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,4</CAPACITY>
-			<POWER>90</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>5</TransmissionCount>
-			<Color>сине-черный</Color>
-			<ColorCode>на</ColorCode>
-			<ColorOrig>Синий</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>245 000</OLD_PRICE>
-			<NEW_PRICE>240 000</NEW_PRICE>
-			<CUZOV>Универсал 5 дв.</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>44 000</run>
-			<year>2 011</year>
-			<GENERATION>Kalina, I</GENERATION>
-			<MODIFICATION>1.4 MT (89 л.с.)</MODIFICATION>
-			<PERIOD>2007 - 2013</PERIOD>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>5 000</CREDIT>
 			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
 			<number>7 (4742) 727777</number>
 		</Contract>
@@ -631,8 +631,8 @@
 		</Contract>
 		<Contract>
 			<VIN>Z94CT41DADR210026</VIN>
-			<MARK/>
-			<MODEL/>
+			<MARK>Hyundai</MARK>
+			<MODEL>SOLARIS</MODEL>
 			<IsNew>no</IsNew>
 			<CAPACITY>1,6</CAPACITY>
 			<POWER>123</POWER>
@@ -663,16 +663,16 @@
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>0</OLD_PRICE>
 			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV/>
+			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>101 199</run>
 			<year>2 013</year>
-			<GENERATION/>
-			<MODIFICATION/>
-			<PERIOD/>
+			<GENERATION>Solaris, I</GENERATION>
+			<MODIFICATION>1.6 MT (123 л.с.)</MODIFICATION>
+			<PERIOD>2010 - 2014</PERIOD>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
@@ -735,8 +735,8 @@
 		</Contract>
 		<Contract>
 			<VIN>X7MSC81DP8A004490</VIN>
-			<MARK/>
-			<MODEL/>
+			<MARK>Hyundai</MARK>
+			<MODEL>SANTA_FE</MODEL>
 			<IsNew>no</IsNew>
 			<CAPACITY>2,7</CAPACITY>
 			<POWER>173</POWER>
@@ -767,16 +767,16 @@
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>0</OLD_PRICE>
 			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV/>
+			<CUZOV>Внедорожник 5 дв.</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Кожа</TYPE_SALON>
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>111 957</run>
 			<year>2 008</year>
-			<GENERATION/>
-			<MODIFICATION/>
-			<PERIOD/>
+			<GENERATION>Santa Fe, I</GENERATION>
+			<MODIFICATION>2.7 AT (173 л.с.) 4W</MODIFICATION>
+			<PERIOD>2000 - 2006</PERIOD>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
@@ -787,8 +787,8 @@
 		</Contract>
 		<Contract>
 			<VIN>Z8NTANT31BS026069</VIN>
-			<MARK/>
-			<MODEL/>
+			<MARK>Nissan</MARK>
+			<MODEL>X_TRAIL</MODEL>
 			<IsNew>no</IsNew>
 			<CAPACITY>2,5</CAPACITY>
 			<POWER>169</POWER>
@@ -819,16 +819,16 @@
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>0</OLD_PRICE>
 			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV/>
+			<CUZOV>Внедорожник 5 дв.</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>103 430</run>
 			<year>2 011</year>
-			<GENERATION/>
-			<MODIFICATION/>
-			<PERIOD/>
+			<GENERATION>X-Trail, II Рестайли</GENERATION>
+			<MODIFICATION>2.5 CVT (169 л.с.) 4</MODIFICATION>
+			<PERIOD>2011 - 2014</PERIOD>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
