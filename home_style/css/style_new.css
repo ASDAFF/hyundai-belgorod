@@ -2997,18 +2997,10 @@ html.is-spreader-active body {
     width: 100%
 }
 
-.showroom__cat-item-price::before {
-    content: 'РѕС‚';
-    margin-right: 0.25em
-}
 
-.showroom__cat-item-price::after {
-    content: 'в‚Ѕ';
-    margin-left: 0.25em
-}
 
 .showroom__cat-item-promo::after {
-    content: 'РїСЂРѕРјРѕ';
+    content: '';
     position: relative;
     top: -1px;
     margin-left: 5px;
