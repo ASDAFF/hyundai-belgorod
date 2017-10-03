@@ -161,7 +161,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="main-header">
 			<div class="main-header__holder">
 				<a href="/" class="main-header__logo" title="Hyundai">
-					<svg xmlns="http://www.w3.org/2000/svg" class="hyundai-logo"><use xlink:href="#img-hyundai"></use></svg>
+					<img src="/_img/logo.jpg">
 				</a>
 				<nav class="main-nav" role="navigation">
 					<ul class="main-nav__list">
