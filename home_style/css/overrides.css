@@ -1,0 +1,84 @@
+.mob-apps-links-holder {
+	height: 10%;
+    position: absolute;
+    right: calc(50px + 2%);
+    top: 5%;
+    width: calc(22% - 50px);
+}
+.mob-apps-link {
+	position: absolute;
+	width: 49%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	z-index: 1000;
+}
+.mob-apps-link.mob-apps-link--appstore {
+	left: 0;
+}
+.mob-apps-link.mob-apps-link--gplay {
+	right: 0;
+}
+
+.hero-slide__inner {
+	pointer-events: none;
+}
+.hero-slide[class*="active"] .hero-slide__inner {
+    pointer-events: auto;
+}
+
+.hero-slide__panel {
+	color: #bac0ce;
+}
+
+.brochure_go_check_email {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1100;
+}
+.brochure_go_check_email-content {
+    background: #fff url("/media/img/check.jpg") no-repeat scroll center 45px;
+    bottom: 0;
+    box-sizing: border-box;
+    height: 260px;
+    left: 0;
+    margin: auto;
+    padding: 110px 0 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 465px;
+    z-index: 150;
+}
+.brochure_go_check_email p {
+    font-family: "HyundaiSans";
+    font-size: 1.5em;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.brochure_go_check_email #brochure_email {
+    font-weight: bold;
+}
+
+.cmp_cnt {
+	background: #02336e;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	color: #fff;
+	float: right;
+	font-size: 10px;
+	line-height: 20px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.navbar-compare {
+	min-width: 150px !important;
+}

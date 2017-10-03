@@ -29,7 +29,9 @@
     display: -webkit-flex;
     display: flex;
     -webkit-transition-property: -webkit-transform;
+    -o-transition-property: -o-transform;
     transition-property: -webkit-transform;
+    -o-transition-property: transform;
     transition-property: transform;
     transition-property: transform, -webkit-transform;
     -webkit-box-sizing: content-box;
@@ -54,6 +56,7 @@
 
 .swiper-container-free-mode>.swiper-wrapper {
     -webkit-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
     margin: 0 auto
 }
@@ -80,8 +83,10 @@
     -moz-box-align: start;
     align-items: flex-start;
     -webkit-transition-property: -webkit-transform, height;
+    -o-transition-property: -o-transform;
     -webkit-transition-property: height, -webkit-transform;
     transition-property: height, -webkit-transform;
+    -o-transition-property: transform, height;
     transition-property: transform, height;
     transition-property: transform, height, -webkit-transform
 }
@@ -165,6 +170,7 @@
     position: absolute;
     text-align: center;
     -webkit-transition: 300ms;
+    -o-transition: 300ms;
     transition: 300ms;
     -webkit-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
@@ -328,6 +334,7 @@ button.swiper-pagination-bullet {
 .swiper-container-3d .swiper-slide-shadow-left {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(transparent));
     background-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.5), transparent);
+    background-image: -o-linear-gradient(right, rgba(0, 0, 0, 0.5), transparent);
     background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.5)), to(transparent));
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), transparent)
 }
@@ -335,6 +342,7 @@ button.swiper-pagination-bullet {
 .swiper-container-3d .swiper-slide-shadow-right {
     background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.5)), to(transparent));
     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), transparent);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), transparent);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(transparent));
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent)
 }
@@ -342,6 +350,7 @@ button.swiper-pagination-bullet {
 .swiper-container-3d .swiper-slide-shadow-top {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(transparent));
     background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5), transparent);
+    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5), transparent);
     background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(transparent));
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent)
 }
@@ -349,6 +358,7 @@ button.swiper-pagination-bullet {
 .swiper-container-3d .swiper-slide-shadow-bottom {
     background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(transparent));
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), transparent);
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.5), transparent);
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(transparent));
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent)
 }
@@ -434,12 +444,14 @@ button.swiper-pagination-bullet {
 
 .swiper-container-fade.swiper-container-free-mode .swiper-slide {
     -webkit-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
     transition-timing-function: ease-out
 }
 
 .swiper-container-fade .swiper-slide {
     pointer-events: none;
     -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
     transition-property: opacity
 }
 
@@ -768,111 +780,82 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
     outline: 0
 }
 
-.offers-content p{
-	padding-bottom: 20px; 
-}
-.offers-content ul li, .offers-content ol li{
-	margin-bottom: 10px; 
-}
-.offers-content ul, .offers-content ol{
-	margin-bottom: 20px; 
-}
-
-.bord th {
-    background: #1d88ce;
-	color: #FFFFFF;
-    border-bottom: 1px solid #dcdcdc;
-    border-right: 1px solid #dcdcdc;
-    padding: 10px;
-}
-.bord td {
-	border-bottom: 1px solid #dcdcdc;
-    border-right: 1px solid #dcdcdc;
-    color: #666666;
-    font-size: 11px;
-    line-height: 14px;
-    padding: 6px 0 5px 8px;
-}
-.bord th:last-child, .bord td:last-child {
-	border-right: none;
-}
-
 @font-face {
     font-family: "HyundaiSans";
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansText-Regular.eot");
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansText-Regular.eot?#iefix") format("embedded-opentype"), url("/_files/fonts/HyundaiSans/HyundaiSansText-Regular.woff2") format("woff2"), url("/_files/fonts/HyundaiSans/HyundaiSansText-Regular.woff") format("woff"), url("/_files/fonts/HyundaiSans/HyundaiSansText-Regular.ttf") format("truetype");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansText-Regular.eot");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansText-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HyundaiSans/HyundaiSansText-Regular.woff2") format("woff2"), url("/assets/fonts/HyundaiSans/HyundaiSansText-Regular.woff") format("woff"), url("/assets/fonts/HyundaiSans/HyundaiSansText-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: "HyundaiSans";
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansText-Italic.eot");
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansText-Italic.eot?#iefix") format("embedded-opentype"), url("/_files/fonts/HyundaiSans/HyundaiSansText-Italic.woff2") format("woff2"), url("/_files/fonts/HyundaiSans/HyundaiSansText-Italic.woff") format("woff"), url("/_files/fonts/HyundaiSans/HyundaiSansText-Italic.ttf") format("truetype");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansText-Italic.eot");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansText-Italic.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HyundaiSans/HyundaiSansText-Italic.woff2") format("woff2"), url("/assets/fonts/HyundaiSans/HyundaiSansText-Italic.woff") format("woff"), url("/assets/fonts/HyundaiSans/HyundaiSansText-Italic.ttf") format("truetype");
     font-weight: normal;
     font-style: italic
 }
 
 @font-face {
     font-family: "HyundaiSans";
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansText-Medium.eot");
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansText-Medium.eot?#iefix") format("embedded-opentype"), url("/_files/fonts/HyundaiSans/HyundaiSansText-Medium.woff2") format("woff2"), url("/_files/fonts/HyundaiSans/HyundaiSansText-Medium.woff") format("woff"), url("/_files/fonts/HyundaiSans/HyundaiSansText-Medium.ttf") format("truetype");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansText-Medium.eot");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansText-Medium.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HyundaiSans/HyundaiSansText-Medium.woff2") format("woff2"), url("/assets/fonts/HyundaiSans/HyundaiSansText-Medium.woff") format("woff"), url("/assets/fonts/HyundaiSans/HyundaiSansText-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal
 }
 
 @font-face {
     font-family: "HyundaiSans";
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansText-MediumItalic.eot");
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansText-MediumItalic.eot?#iefix") format("embedded-opentype"), url("/_files/fonts/HyundaiSans/HyundaiSansText-MediumItalic.woff2") format("woff2"), url("/_files/fonts/HyundaiSans/HyundaiSansText-MediumItalic.woff") format("woff"), url("/_files/fonts/HyundaiSans/HyundaiSansText-MediumItalic.ttf") format("truetype");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansText-MediumItalic.eot");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansText-MediumItalic.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HyundaiSans/HyundaiSansText-MediumItalic.woff2") format("woff2"), url("/assets/fonts/HyundaiSans/HyundaiSansText-MediumItalic.woff") format("woff"), url("/assets/fonts/HyundaiSans/HyundaiSansText-MediumItalic.ttf") format("truetype");
     font-weight: 500;
     font-style: italic
 }
 
 @font-face {
     font-family: "HyundaiSans";
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansText-Bold.eot");
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansText-Bold.eot?#iefix") format("embedded-opentype"), url("/_files/fonts/HyundaiSans/HyundaiSansText-Bold.woff2") format("woff2"), url("/_files/fonts/HyundaiSans/HyundaiSansText-Bold.woff") format("woff"), url("/_files/fonts/HyundaiSans/HyundaiSansText-Bold.ttf") format("truetype");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansText-Bold.eot");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansText-Bold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HyundaiSans/HyundaiSansText-Bold.woff2") format("woff2"), url("/assets/fonts/HyundaiSans/HyundaiSansText-Bold.woff") format("woff"), url("/assets/fonts/HyundaiSans/HyundaiSansText-Bold.ttf") format("truetype");
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: "HyundaiSans";
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansText-BoldItalic.eot");
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansText-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/_files/fonts/HyundaiSans/HyundaiSansText-BoldItalic.woff2") format("woff2"), url("/_files/fonts/HyundaiSans/HyundaiSansText-BoldItalic.woff") format("woff"), url("/_files/fonts/HyundaiSans/HyundaiSansText-BoldItalic.ttf") format("truetype");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansText-BoldItalic.eot");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansText-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HyundaiSans/HyundaiSansText-BoldItalic.woff2") format("woff2"), url("/assets/fonts/HyundaiSans/HyundaiSansText-BoldItalic.woff") format("woff"), url("/assets/fonts/HyundaiSans/HyundaiSansText-BoldItalic.ttf") format("truetype");
     font-weight: 600;
     font-style: italic
 }
 
 @font-face {
     font-family: "HyundaiSansHead";
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansHead-Regular.eot");
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansHead-Regular.eot?#iefix") format("embedded-opentype"), url("/_files/fonts/HyundaiSans/HyundaiSansHead-Regular.woff2") format("woff2"), url("/_files/fonts/HyundaiSans/HyundaiSansHead-Regular.woff") format("woff"), url("/_files/fonts/HyundaiSans/HyundaiSansHead-Regular.ttf") format("truetype");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansHead-Regular.eot");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansHead-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HyundaiSans/HyundaiSansHead-Regular.woff2") format("woff2"), url("/assets/fonts/HyundaiSans/HyundaiSansHead-Regular.woff") format("woff"), url("/assets/fonts/HyundaiSans/HyundaiSansHead-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: "HyundaiSansHead";
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansHead-Light.eot");
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansHead-Light.eot?#iefix") format("embedded-opentype"), url("/_files/fonts/HyundaiSans/HyundaiSansHead-Light.woff2") format("woff2"), url("/_files/fonts/HyundaiSans/HyundaiSansHead-Light.woff") format("woff"), url("/_files/fonts/HyundaiSans/HyundaiSansHead-Light.ttf") format("truetype");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansHead-Light.eot");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansHead-Light.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HyundaiSans/HyundaiSansHead-Light.woff2") format("woff2"), url("/assets/fonts/HyundaiSans/HyundaiSansHead-Light.woff") format("woff"), url("/assets/fonts/HyundaiSans/HyundaiSansHead-Light.ttf") format("truetype");
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: "HyundaiSansHead";
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansHead-Medium.eot");
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansHead-Medium.eot?#iefix") format("embedded-opentype"), url("/_files/fonts/HyundaiSans/HyundaiSansHead-Medium.woff2") format("woff2"), url("/_files/fonts/HyundaiSans/HyundaiSansHead-Medium.woff") format("woff"), url("/_files/fonts/HyundaiSans/HyundaiSansHead-Medium.ttf") format("truetype");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansHead-Medium.eot");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansHead-Medium.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HyundaiSans/HyundaiSansHead-Medium.woff2") format("woff2"), url("/assets/fonts/HyundaiSans/HyundaiSansHead-Medium.woff") format("woff"), url("/assets/fonts/HyundaiSans/HyundaiSansHead-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal
 }
 
 @font-face {
     font-family: "HyundaiSansHead";
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansHead-Bold.eot");
-    src: url("/_files/fonts/HyundaiSans/HyundaiSansHead-Bold.eot?#iefix") format("embedded-opentype"), url("/_files/fonts/HyundaiSans/HyundaiSansHead-Bold.woff2") format("woff2"), url("/_files/fonts/HyundaiSans/HyundaiSansHead-Bold.woff") format("woff"), url("/_files/fonts/HyundaiSans/HyundaiSansHead-Bold.ttf") format("truetype");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansHead-Bold.eot");
+    src: url("/assets/fonts/HyundaiSans/HyundaiSansHead-Bold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HyundaiSans/HyundaiSansHead-Bold.woff2") format("woff2"), url("/assets/fonts/HyundaiSans/HyundaiSansHead-Bold.woff") format("woff"), url("/assets/fonts/HyundaiSans/HyundaiSansHead-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal
 }
@@ -1109,6 +1092,7 @@ input:active {
 
 .text-input {
     -webkit-transition: color 0.15s ease-out 0s, border-color 0.15s ease-out 0s;
+    -o-transition: color 0.15s ease-out 0s, border-color 0.15s ease-out 0s;
     transition: color 0.15s ease-out 0s, border-color 0.15s ease-out 0s
 }
 
@@ -1170,6 +1154,7 @@ input:active {
     pointer-events: none;
     color: rgba(141, 141, 141, 0.6);
     -webkit-transition: top 0.15s ease-out 0s;
+    -o-transition: top 0.15s ease-out 0s;
     transition: top 0.15s ease-out 0s
 }
 
@@ -1195,6 +1180,7 @@ input:active {
     top: 100%;
     width: 0;
     -webkit-transition: width .15s ease-out 0s;
+    -o-transition: width .15s ease-out 0s;
     transition: width .15s ease-out 0s;
     white-space: nowrap;
     color: #e63312;
@@ -1245,6 +1231,7 @@ input:active {
 
 .form .text-input.wrong+.input-error-label {
     -webkit-transition: width .15s ease-in 0s;
+    -o-transition: width .15s ease-in 0s;
     transition: width .15s ease-in 0s;
     width: 100%
 }
@@ -1270,6 +1257,7 @@ input:active {
     letter-spacing: .025em;
     color: #103a71;
     -webkit-transition: color 0.15s ease-out 0s;
+    -o-transition: color 0.15s ease-out 0s;
     transition: color 0.15s ease-out 0s
 }
 
@@ -1279,6 +1267,7 @@ input:active {
     position: absolute;
     top: 5px;
     -webkit-transition: opacity 0.15s ease-out 0s;
+    -o-transition: opacity 0.15s ease-out 0s;
     transition: opacity 0.15s ease-out 0s
 }
 
@@ -1313,6 +1302,7 @@ input:active {
     font-weight: 600;
     text-transform: none;
     -webkit-transition: background 0.15s ease-out 0s, opacity 0.15s ease-out 0s;
+    -o-transition: background 0.15s ease-out 0s, opacity 0.15s ease-out 0s;
     transition: background 0.15s ease-out 0s, opacity 0.15s ease-out 0s
 }
 
@@ -1352,6 +1342,7 @@ input:active {
     user-select: none;
     background: #002c5f;
     -webkit-transition: background 0.15s ease-out 0s, color 0.15s ease-out 0s, border 0.15s ease-out 0s;
+    -o-transition: background 0.15s ease-out 0s, color 0.15s ease-out 0s, border 0.15s ease-out 0s;
     transition: background 0.15s ease-out 0s, color 0.15s ease-out 0s, border 0.15s ease-out 0s
 }
 
@@ -1439,6 +1430,7 @@ input:active {
     display: inline-block;
     color: inherit;
     -webkit-transition: color 0.15s ease-out 0s;
+    -o-transition: color 0.15s ease-out 0s;
     transition: color 0.15s ease-out 0s
 }
 
@@ -1511,6 +1503,7 @@ html.is-spreader-active body {
 @media screen and (min-width: 769px) {
     .spreader {
         -webkit-transition: all 0.4s linear .2s;
+        -o-transition: all 0.4s linear .2s;
         transition: all 0.4s linear .2s
     }
 }
@@ -1563,6 +1556,7 @@ html.is-spreader-active body {
 .spreader-close .ic-close-sm {
     opacity: .7;
     -webkit-transition: opacity 0.15s ease-out 0s;
+    -o-transition: opacity 0.15s ease-out 0s;
     transition: opacity 0.15s ease-out 0s;
     position: absolute;
     top: 0;
@@ -1577,6 +1571,7 @@ html.is-spreader-active body {
 .spreader-close:hover .ic-close-sm {
     -webkit-transition: opacity 0.15s ease-out 0s, -webkit-transform 0.15s ease-out 0s;
     transition: opacity 0.15s ease-out 0s, -webkit-transform 0.15s ease-out 0s;
+    -o-transition: opacity 0.15s ease-out 0s, transform 0.15s ease-out 0s;
     transition: opacity 0.15s ease-out 0s, transform 0.15s ease-out 0s;
     transition: opacity 0.15s ease-out 0s, transform 0.15s ease-out 0s, -webkit-transform 0.15s ease-out 0s;
     -webkit-transform: rotate(90deg);
@@ -1670,7 +1665,7 @@ html.is-spreader-active body {
 
 .online-call-modal .spreader-content,
 .newsletter-template-modal .spreader-content {
-    background: #fff url("/_img/online-call.jpg") no-repeat center center/cover;
+    background: #fff url("/assets/img/common/online-call.jpg") no-repeat center center/cover;
     padding: 35px 95px 45px 85px
 }
 
@@ -1704,7 +1699,7 @@ html.is-spreader-active body {
 }
 
 .notify.success .notify__text::before {
-    content: url("/_img/ic-success.png");
+    content: url("/assets/img/common/ic-success.png");
     position: absolute;
     top: 50%;
     left: 45px;
@@ -1719,7 +1714,38 @@ html.is-spreader-active body {
     display: block
 }
 
+.subscribe-form.subscribe-form--footer-primary .subscribe-form__descr {
+    color: #f5f5f5
+}
 
+.subscribe-form.subscribe-form--footer-primary .subscribe-form__input {
+    background: #334880;
+    border-color: #334880;
+    color: #6e7ca2
+}
+
+.subscribe-form.subscribe-form--footer-primary .subscribe-form__input:focus,
+.subscribe-form.subscribe-form--footer-primary .subscribe-form__input.filled {
+    color: #fafaff;
+    background: transparent
+}
+
+.subscribe-form.subscribe-form--footer-primary .subscribe-form__input.wrong,
+.subscribe-form.subscribe-form--footer-primary .subscribe-form__input.wrong:active,
+.subscribe-form.subscribe-form--footer-primary .subscribe-form__input.wrong:focus {
+    color: #e63312
+}
+
+.subscribe-form.subscribe-form--footer-primary .subscribe-form__submit {
+    background: #fff;
+    color: #003469
+}
+
+.subscribe-form.subscribe-form--footer-primary .subscribe-form__submit:not(.disabled):hover,
+.subscribe-form.subscribe-form--footer-primary .subscribe-form__submit:not(.disabled):active,
+.subscribe-form.subscribe-form--footer-primary .subscribe-form__submit:not(.disabled):focus {
+    background: #ccc5b9
+}
 
 .subscribe-form__label {
     font-size: 1.1538461538em;
@@ -1758,6 +1784,7 @@ html.is-spreader-active body {
     padding-left: 15px;
     padding-right: 48px;
     -webkit-transition: color 0.15s ease-out 0s, background 0.15s ease-out 0s;
+    -o-transition: color 0.15s ease-out 0s, background 0.15s ease-out 0s;
     transition: color 0.15s ease-out 0s, background 0.15s ease-out 0s
 }
 
@@ -1804,6 +1831,7 @@ html.is-spreader-active body {
     height: 48px;
     width: 48px;
     -webkit-transition: background 0.15s ease-out 0s, opacity 0.15s ease-out 0s;
+    -o-transition: background 0.15s ease-out 0s, opacity 0.15s ease-out 0s;
     transition: background 0.15s ease-out 0s, opacity 0.15s ease-out 0s
 }
 
@@ -1919,6 +1947,7 @@ html.is-spreader-active body {
     letter-spacing: .01em;
     line-height: 1.2;
     -webkit-transition: border-color 0.15s ease-out 0s;
+    -o-transition: border-color 0.15s ease-out 0s;
     transition: border-color 0.15s ease-out 0s
 }
 
@@ -1951,6 +1980,7 @@ html.is-spreader-active body {
     flex: 1;
     padding: 50px 30px 40px;
     -webkit-transition: background 0.15s ease-out 0s, border-color 0.15s ease-out 0s;
+    -o-transition: background 0.15s ease-out 0s, border-color 0.15s ease-out 0s;
     transition: background 0.15s ease-out 0s, border-color 0.15s ease-out 0s;
     border-right: 1px solid rgba(134, 128, 112, 0.4);
     border-left: 1px solid rgba(134, 128, 112, 0.4)
@@ -1958,17 +1988,16 @@ html.is-spreader-active body {
 
 .highlight-nav__icon {
     width: 51px;
-	height: 51px;
-	overflow: hidden;
-	background-position: 0 0;
-	background-repeat: no-repeat;
-	fill: #66645f
+    height: 51px;
+    overflow: hidden;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    fill: #66645f
 }
 
 .highlight-nav__icon.ic-car {
     margin-top: 5px
 }
-
 
 .highlight-nav__icon.ic-steering-wheel {
     margin-top: 8px
@@ -1992,7 +2021,222 @@ html.is-spreader-active body {
     color: rgba(34, 34, 34, 0.5)
 }
 
+.footer-primary {
+    background: #003469;
+    color: #fff
+}
 
+.footer-primary__pre {
+    padding: 40px 0
+}
+
+.footer-nv__cont {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    max-width: 1600px;
+    width: auto;
+    font-family: "HyundaiSansHead", "Hevetica", Arial, sans-serif;
+    line-height: 1.15;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row nowrap;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+@media screen and (max-width: 1240px) {
+    .footer-nv__cont {
+        padding-left: 1.6%;
+        padding-right: 1.6%
+    }
+}
+
+.footer-nv__c {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 19.333%;
+    -moz-box-flex: 1;
+    -ms-flex: 1 1 19.333%;
+    flex: 1 1 19.333%;
+    padding-right: 30px
+}
+
+.footer-nv__c:last-of-type {
+    padding-right: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 22.666%;
+    -moz-box-flex: 1;
+    -ms-flex: 1 1 22.666%;
+    flex: 1 1 22.666%
+}
+
+.footer-nv__c-header {
+    font-size: 1.1538461538em;
+    font-weight: 500;
+    margin: 20px 0;
+    display: block
+}
+
+.footer-nv__c-list {
+    max-width: 160px;
+    color: #647a95
+}
+
+.footer-nv__c-list-i {
+    display: block
+}
+
+.footer-nv__c-list-lnk {
+    display: block;
+    padding: 6px 0;
+    -webkit-transition: color 0.15s ease-out 0s;
+    -o-transition: color 0.15s ease-out 0s;
+    transition: color 0.15s ease-out 0s
+}
+
+.footer-nv__c-list-lnk:hover {
+    color: #ccc5b9
+}
+
+.footer-nv__c-phone {
+    font-size: 2.1538461538em;
+    display: block;
+    line-height: 40px;
+    -webkit-transition: color 0.15s ease-out 0s;
+    -o-transition: color 0.15s ease-out 0s;
+    transition: color 0.15s ease-out 0s
+}
+
+.footer-nv__c-phone:hover {
+    color: #ccc5b9
+}
+
+.footer-nv__c-mail {
+    font-size: 1.1538461538em;
+    line-height: 30px;
+    display: inline-block;
+    margin-bottom: 55px;
+    -webkit-transition: color 0.15s ease-out 0s;
+    -o-transition: color 0.15s ease-out 0s;
+    transition: color 0.15s ease-out 0s
+}
+
+.footer-nv__c-mail:hover {
+    color: #ccc5b9
+}
+
+.footer-nv__c-mail .ic-svg {
+    margin-right: 10px
+}
+
+.socials-list--footer-primary {
+    color: #334880;
+    max-width: 260px
+}
+
+.socials-list--footer-primary .socials-link:hover {
+    color: #fff
+}
+
+.socials-list--footer-primary+.subscribe-form {
+    margin-top: 127px
+}
+
+.footer-primary__main {
+    background: #334880;
+    color: #6b799c;
+    font-size: .7692307692em;
+    font-family: "HyundaiSansHead", "Hevetica", Arial, sans-serif
+}
+
+.footer-global-navigation {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    max-width: 1600px;
+    width: auto;
+    color: #dce2f1;
+    line-height: 42px;
+    letter-spacing: .015em;
+    font-weight: 500
+}
+
+@media screen and (max-width: 1240px) {
+    .footer-global-navigation {
+        padding-left: 1.6%;
+        padding-right: 1.6%
+    }
+}
+
+.footer-global-navigation::after {
+    clear: both;
+    content: '';
+    display: table
+}
+
+.footer-global-navigation__cust-nav {
+    float: right
+}
+
+.footer-global-navigation__wwide {
+    float: left;
+    padding-right: 20px;
+    position: relative;
+    color: rgba(220, 226, 241, 0.6);
+    -webkit-transition: color 0.15s ease-out 0s;
+    -o-transition: color 0.15s ease-out 0s;
+    transition: color 0.15s ease-out 0s
+}
+
+.footer-global-navigation__wwide .ic-ru {
+    margin-right: 10px
+}
+
+.footer-global-navigation__wwide::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px;
+    border-color: currentColor transparent transparent;
+    -webkit-transition: border-color 0.15s ease-out 0s;
+    -o-transition: border-color 0.15s ease-out 0s;
+    transition: border-color 0.15s ease-out 0s;
+    -webkit-transform-origin: 40% 30%;
+    -ms-transform-origin: 40% 30%;
+    transform-origin: 40% 30%;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9)
+}
+
+.footer-global-navigation__wwide:hover {
+    color: #dce2f1
+}
+
+.footer-global-navigation__wwide:hover::after {
+    border-color: #ded6cb transparent transparent
+}
 
 .cust-nav__list {
     color: #d4d9e6;
@@ -2019,6 +2263,7 @@ html.is-spreader-active body {
     display: inline-block;
     font: inherit;
     -webkit-transition: color 0.15s ease-out 0s;
+    -o-transition: color 0.15s ease-out 0s;
     transition: color 0.15s ease-out 0s
 }
 
@@ -2026,7 +2271,50 @@ html.is-spreader-active body {
     color: #ccc5b9
 }
 
+.footer-copyright {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    max-width: 1600px;
+    width: auto;
+    line-height: 1.2;
+    border-top: 1px solid rgba(126, 125, 125, 0.2);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: justify
+}
 
+@media screen and (max-width: 1240px) {
+    .footer-copyright {
+        padding-left: 1.6%;
+        padding-right: 1.6%
+    }
+}
+
+.footer-primary__includes {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    max-width: 1600px;
+    width: auto
+}
+
+@media screen and (max-width: 1240px) {
+    .footer-primary__includes {
+        padding-left: 1.6%;
+        padding-right: 1.6%
+    }
+}
+
+.footer-primary__includes .footer-primary__includes-cont {
+    position: relative
+}
+
+.footer-primary__includes .fifa-partner-image {
+    position: absolute;
+    left: 0;
+    bottom: 0
+}
 
 .p_div {
     display: block;
@@ -2037,14 +2325,23 @@ html.is-spreader-active body {
 
 .p_div [itemprop=address],
 .p_div [itemprop=telephone] {
-    display: none
+    display: none;
 }
 
+#footer__checkbox {
+    display: none;
+}
 
+#footer__checkbox:checked ~ .p_div [itemprop=address],
+#footer__checkbox:checked ~ .p_div [itemprop=telephone] {
+    display: block;
+}
 
 .header-primary {
     position: relative;
-    z-index: 200
+    margin: auto;
+    max-width: 1500px;
+    z-index: 200;
 }
 
 .navbar-primary {
@@ -2054,7 +2351,7 @@ html.is-spreader-active body {
     font-weight: 500;
     background: #f1efee;
     z-index: 3;
-    position: relative
+    position: relative;
 }
 
 .navbar-primary__sp {
@@ -2063,7 +2360,7 @@ html.is-spreader-active body {
     vertical-align: middle;
     font-size: .7692307692rem;
     padding: 0 20px;
-    position: relative
+    position: relative;
 }
 
 .navbar-primary__sp::before {
@@ -2079,6 +2376,7 @@ html.is-spreader-active body {
     background: #103a71;
     -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     transition: -webkit-transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+    -o-transition: transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     transition: transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     transition: transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, -webkit-transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     z-index: 1
@@ -2095,6 +2393,7 @@ html.is-spreader-active body {
     pointer-events: auto;
     opacity: 1;
     -webkit-transition-duration: .6s, .55s;
+    -o-transition-duration: .6s, .55s;
     transition-duration: .6s, .55s
 }
 
@@ -2106,26 +2405,31 @@ html.is-spreader-active body {
 
 .navbar-primary__sp._active .navbar-primary__sp-exp>*:nth-child(1) {
     -webkit-transition-delay: -.25s;
+    -o-transition-delay: -.25s;
     transition-delay: -.25s
 }
 
 .navbar-primary__sp._active .navbar-primary__sp-exp>*:nth-child(2) {
     -webkit-transition-delay: -.15s;
+    -o-transition-delay: -.15s;
     transition-delay: -.15s
 }
 
 .navbar-primary__sp._active .navbar-primary__sp-exp>*:nth-child(3) {
     -webkit-transition-delay: -.05s;
+    -o-transition-delay: -.05s;
     transition-delay: -.05s
 }
 
 .navbar-primary__sp._active .navbar-primary__sp-exp>*:nth-child(4) {
     -webkit-transition-delay: .05s;
+    -o-transition-delay: .05s;
     transition-delay: .05s
 }
 
 .navbar-primary__sp._active .navbar-primary__sp-exp>*:nth-child(5) {
     -webkit-transition-delay: .15s;
+    -o-transition-delay: .15s;
     transition-delay: .15s
 }
 
@@ -2166,6 +2470,7 @@ html.is-spreader-active body {
     line-height: 42px;
     text-transform: uppercase;
     -webkit-transition: color 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+    -o-transition: color 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     transition: color 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     position: relative;
     z-index: 2;
@@ -2185,6 +2490,7 @@ html.is-spreader-active body {
     padding: 0 10px;
     position: relative;
     -webkit-transition: opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+    -o-transition: opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     transition: opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     z-index: 2;
     -webkit-user-select: none;
@@ -2204,6 +2510,7 @@ html.is-spreader-active body {
     position: relative;
     z-index: 2;
     -webkit-transition: color 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+    -o-transition: color 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     transition: color 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     cursor: pointer;
     -webkit-user-select: none;
@@ -2225,6 +2532,7 @@ html.is-spreader-active body {
     border-width: 4px;
     -webkit-transition: opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, -webkit-transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     transition: opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, -webkit-transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+    -o-transition: opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     transition: opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     transition: opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, -webkit-transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s
 }
@@ -2260,12 +2568,16 @@ html.is-spreader-active body {
     overflow: hidden;
     pointer-events: none;
     -webkit-transition-property: max-height, opacity;
+    -o-transition-property: max-height, opacity;
     transition-property: max-height, opacity;
     -webkit-transition-duration: .6s, .15s;
+    -o-transition-duration: .6s, .15s;
     transition-duration: .6s, .15s;
     -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1), cubic-bezier(0.66, 0.49, 0.25, 0.98);
+    -o-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1), cubic-bezier(0.66, 0.49, 0.25, 0.98);
     transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1), cubic-bezier(0.66, 0.49, 0.25, 0.98);
     -webkit-transition-delay: 0s, 0s;
+    -o-transition-delay: 0s, 0s;
     transition-delay: 0s, 0s;
     z-index: 2
 }
@@ -2276,13 +2588,17 @@ html.is-spreader-active body {
     transform: translate(120px, 0);
     -webkit-transition-property: -webkit-transform;
     transition-property: -webkit-transform;
+    -o-transition-property: transform;
     transition-property: transform;
     transition-property: transform, -webkit-transform;
     -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    -o-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
     transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
     -webkit-transition-duration: .6s;
+    -o-transition-duration: .6s;
     transition-duration: .6s;
     -webkit-transition-delay: .15s;
+    -o-transition-delay: .15s;
     transition-delay: .15s
 }
 
@@ -2348,6 +2664,7 @@ html.is-spreader-active body {
     line-height: 42px;
     display: block;
     -webkit-transition: background 0.15s ease-out 0s, border-color 0.15s ease-out 0s;
+    -o-transition: background 0.15s ease-out 0s, border-color 0.15s ease-out 0s;
     transition: background 0.15s ease-out 0s, border-color 0.15s ease-out 0s
 }
 
@@ -2433,6 +2750,7 @@ html.is-spreader-active body {
     border-width: 4px;
     -webkit-transition: opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, -webkit-transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     transition: opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, -webkit-transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+    -o-transition: transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     transition: transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     transition: transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, -webkit-transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s
 }
@@ -2492,6 +2810,7 @@ html.is-spreader-active body {
     user-select: none;
     display: block;
     -webkit-transition: color 0.15s ease-out 0s;
+    -o-transition: color 0.15s ease-out 0s;
     transition: color 0.15s ease-out 0s;
     position: relative
 }
@@ -2513,8 +2832,14 @@ html.is-spreader-active body {
     min-width: 1080px;
     -webkit-transition: opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, -webkit-transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     transition: opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, -webkit-transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+    -o-transition: transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     transition: transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
-    transition: transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, -webkit-transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s
+    transition: transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, opacity 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s, -webkit-transform 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+    opacity: 0;
+    -webkit-transform: translate(0, -100%);
+    -ms-transform: translate(0, -100%);
+    transform: translate(0, -100%);
+    pointer-events: none
 }
 
 @media screen and (max-width: 1240px) {
@@ -2524,23 +2849,12 @@ html.is-spreader-active body {
     }
 }
 
-.submenu-enter,
-.submenu-leave-to {
-    opacity: 0;
-    -webkit-transform: translate(0, -100%);
-    -ms-transform: translate(0, -100%);
-    transform: translate(0, -100%)
-}
-
-.submenu-enter .showroom {
-    opacity: 0;
-    -webkit-transform: translate(0, -400px);
-    -ms-transform: translate(0, -400px);
-    transform: translate(0, -400px)
-}
-
-.submenu-leave-to .showroom {
-    opacity: 0
+.submenu._active {
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0)
 }
 
 .submenu-content {
@@ -2569,6 +2883,7 @@ html.is-spreader-active body {
     font-weight: 500;
     -webkit-transition: opacity 0.55s cubic-bezier(1, 0.5, 0, 0.5) 0s, -webkit-transform 0.7s cubic-bezier(0.2, 1, 0.1, 1) 0s;
     transition: opacity 0.55s cubic-bezier(1, 0.5, 0, 0.5) 0s, -webkit-transform 0.7s cubic-bezier(0.2, 1, 0.1, 1) 0s;
+    -o-transition: transform 0.7s cubic-bezier(0.2, 1, 0.1, 1) 0s, opacity 0.55s cubic-bezier(1, 0.5, 0, 0.5) 0s;
     transition: transform 0.7s cubic-bezier(0.2, 1, 0.1, 1) 0s, opacity 0.55s cubic-bezier(1, 0.5, 0, 0.5) 0s;
     transition: transform 0.7s cubic-bezier(0.2, 1, 0.1, 1) 0s, opacity 0.55s cubic-bezier(1, 0.5, 0, 0.5) 0s, -webkit-transform 0.7s cubic-bezier(0.2, 1, 0.1, 1) 0s
 }
@@ -2641,6 +2956,7 @@ html.is-spreader-active body {
     -ms-flex-align: center;
     align-items: center;
     -webkit-transition: opacity 0.15s ease-out 0s;
+    -o-transition: opacity 0.15s ease-out 0s;
     transition: opacity 0.15s ease-out 0s
 }
 
@@ -2666,7 +2982,6 @@ html.is-spreader-active body {
     font-size: 1.1538461538em;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
     align-self: center;
     -webkit-box-flex: 0;
     -webkit-flex: 0 1 auto;
@@ -2682,18 +2997,18 @@ html.is-spreader-active body {
     width: 100%
 }
 
-.showroom__cat-item-price::before {    
-	content: 'От';
+.showroom__cat-item-price::before {
+    content: 'РѕС‚';
     margin-right: 0.25em
 }
 
 .showroom__cat-item-price::after {
-    content: '₽';
+    content: 'в‚Ѕ';
     margin-left: 0.25em
 }
 
 .showroom__cat-item-promo::after {
-    content: 'ПРОМО';
+    content: 'РїСЂРѕРјРѕ';
     position: relative;
     top: -1px;
     margin-left: 5px;
@@ -2720,13 +3035,12 @@ html.is-spreader-active body {
 .service-submenu__item {
     float: left;
     width: 25%;
-    margin-bottom: 30px;
-	height: 60px;
+    margin-bottom: 30px
 }
 
-/*.service-submenu__item:nth-of-type(4n) .service-submenu__item-name {
+.service-submenu__item:nth-of-type(4n) .service-submenu__item-name {
     max-width: 100%
-}*/
+}
 
 .service-submenu__link {
     display: block
@@ -2750,12 +3064,13 @@ html.is-spreader-active body {
     display: inline-block;
     vertical-align: middle;
     -webkit-transition: color 0.15s ease-out 0s;
+    -o-transition: color 0.15s ease-out 0s;
     transition: color 0.15s ease-out 0s;
     position: relative
 }
 
 .service-submenu__item-icon::before {
-    /*content: '';
+    content: '';
     border-radius: 50%;
     position: absolute;
     top: 0;
@@ -2770,8 +3085,9 @@ html.is-spreader-active body {
     opacity: 0;
     -webkit-transition: opacity 0.15s ease-out 0s, -webkit-transform 0.15s ease-out 0s;
     transition: opacity 0.15s ease-out 0s, -webkit-transform 0.15s ease-out 0s;
+    -o-transition: transform 0.15s ease-out 0s, opacity 0.15s ease-out 0s;
     transition: transform 0.15s ease-out 0s, opacity 0.15s ease-out 0s;
-    transition: transform 0.15s ease-out 0s, opacity 0.15s ease-out 0s, -webkit-transform 0.15s ease-out 0s*/
+    transition: transform 0.15s ease-out 0s, opacity 0.15s ease-out 0s, -webkit-transform 0.15s ease-out 0s
 }
 
 .service-submenu__item-icon .ic-svg {
@@ -2809,8 +3125,19 @@ html.is-spreader-active body {
     width: 545px
 }
 
-
-
+.zing_form_wrp {
+    background: #fff;
+    color: #2f2f2f;
+    display: none;
+    left: 50%;
+    margin: 0 0 0 -273px;
+    position: relative;
+    -webkit-transition: height 0.5s ease 0s;
+    -o-transition: height 0.5s ease 0s;
+    transition: height 0.5s ease 0s;
+    width: 545px;
+    z-index: 999
+}
 
 .zing_form_wrp.is-agreement-expanded {
     height: 1075px
@@ -2832,7 +3159,7 @@ html.is-spreader-active body {
 }
 
 .ic-note-31 {
-    background: transparent url("/_img/sprite.png") no-repeat scroll -12px -451px;
+    background: transparent url("/media/img/sprite.png") no-repeat scroll -12px -451px;
     display: inline-block;
     height: 31px;
     margin-right: 10px;
@@ -2866,6 +3193,7 @@ html.is-spreader-active body {
     outline: medium none;
     padding: 15px 20px;
     -webkit-transition: border-color 0.15s ease-out 0s;
+    -o-transition: border-color 0.15s ease-out 0s;
     transition: border-color 0.15s ease-out 0s;
     width: 100%
 }
@@ -2891,6 +3219,7 @@ html.is-spreader-active body {
     position: absolute;
     top: 12px;
     -webkit-transition: opacity 0.05s ease-out 0s;
+    -o-transition: opacity 0.05s ease-out 0s;
     transition: opacity 0.05s ease-out 0s
 }
 
@@ -2939,7 +3268,19 @@ html.is-spreader-active body {
     left: 0;
     top: 1px;
     -webkit-transition: border-color 0.15s ease-out 0s;
+    -o-transition: border-color 0.15s ease-out 0s;
     transition: border-color 0.15s ease-out 0s
+}
+
+.zing-agreement-input+label::after {
+    background: transparent url("/media/img/question-sprite.png") no-repeat scroll -154px 0;
+    left: 14px;
+    opacity: 0;
+    top: 14px;
+    -webkit-transition: opacity 0.15s ease-out 0s;
+    -o-transition: opacity 0.15s ease-out 0s;
+    transition: opacity 0.15s ease-out 0s;
+    width: 13px
 }
 
 .zing-agreement-input:checked+label::after {
@@ -2982,6 +3323,7 @@ html.is-spreader-active body {
     text-align: center;
     text-transform: uppercase;
     -webkit-transition: background 0.15s ease-out 0s, color 0.15s ease-out 0s, border-color 0.15s ease-out 0s;
+    -o-transition: background 0.15s ease-out 0s, color 0.15s ease-out 0s, border-color 0.15s ease-out 0s;
     transition: background 0.15s ease-out 0s, color 0.15s ease-out 0s, border-color 0.15s ease-out 0s
 }
 
@@ -3004,7 +3346,7 @@ html.is-spreader-active body {
 }
 
 .zing_form_content {
-    padding: 65px 70px 0
+    padding: 70px;
 }
 
 .modalCloseImg.zing_close {
@@ -3029,8 +3371,14 @@ html.is-spreader-active body {
     z-index: 15
 }
 
-
-
+.zing_close::after {
+    background: transparent url("/media/images/flat/close-x.png") repeat scroll center center;
+    content: "";
+    display: block;
+    height: 48px;
+    overflow: hidden;
+    width: 48px
+}
 
 .zing_close:hover::after {
     background-position: 0 0;
@@ -3039,6 +3387,7 @@ html.is-spreader-active body {
     transform: rotate(180deg);
     -webkit-transition: -webkit-transform 0.4s ease 0s;
     transition: -webkit-transform 0.4s ease 0s;
+    -o-transition: transform 0.4s ease 0s;
     transition: transform 0.4s ease 0s;
     transition: transform 0.4s ease 0s, -webkit-transform 0.4s ease 0s
 }
@@ -3124,6 +3473,7 @@ html.is-spreader-active body {
     right: 0;
     top: 0;
     -webkit-transition: background 200ms ease 0s;
+    -o-transition: background 200ms ease 0s;
     transition: background 200ms ease 0s;
     width: 48px;
     z-index: 155
@@ -3143,6 +3493,7 @@ html.is-spreader-active body {
     overflow: hidden;
     padding: 0;
     -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s
 }
 
@@ -3316,6 +3667,7 @@ html.is-spreader-active body {
     text-align: center;
     text-decoration: none;
     -webkit-transition: all 0.2s ease-out 0s;
+    -o-transition: all 0.2s ease-out 0s;
     transition: all 0.2s ease-out 0s
 }
 
@@ -3324,6 +3676,7 @@ html.is-spreader-active body {
     color: #fff;
     text-decoration: none;
     -webkit-transition: all 0.2s ease-out 0s;
+    -o-transition: all 0.2s ease-out 0s;
     transition: all 0.2s ease-out 0s
 }
 
@@ -3345,8 +3698,42 @@ html.is-spreader-active body {
     height: 46px
 }
 
-
-
+.i-0014-play-btn-copy-2,
+.i-0015-play-btn,
+.i-0012-icon-2,
+.i-0013-icon-1,
+.i-0011-icon-3,
+.i-0008-mail-icon,
+.i-0009-phone-icon,
+.i-0010-icon-4,
+.i-0001-test-drive-icon,
+.i-0028-test-drive-icon-h,
+.i-0029-auto-icon-h,
+.i-0030-auto-icon,
+.i-0005-slider-arrow-left-light-h,
+.i-0006-slider-arrow-right-light-h,
+.i-0016-slider-arrow-left-light,
+.i-0017-slider-arrow-right-light,
+.i-0007-flag-icon,
+.i-0000-call-icon-h,
+.i-0018-clock-icon-h,
+.i-0019-clock-icon,
+.i-0031-call-icon,
+.i-0002-mail-icon-h,
+.i-0003-mail-icon,
+.i-0026-search-icon-h,
+.i-0027-search-icon,
+.i-0004-slider-arrow-left-h,
+.i-0021-slider-arrow-right-h,
+.i-0022-slider-arrow-right,
+.i-0023-slider-arrow-left,
+.i-0020-arrow-icon-white-h,
+.i-0024-arrow-icon-h,
+.i-0025-arrow-icon {
+    background: transparent url("/media/img/sprite.png") no-repeat scroll 0 0;
+    display: inline-block;
+    vertical-align: middle
+}
 
 .i-0013-icon-1 {
     background-position: -44px -252px;
@@ -3370,13 +3757,4 @@ html.is-spreader-active body {
     background-position: -2px -294px;
     height: 39px;
     width: 31px
-}
-
-.offers_divider__content__title {
-    color: #1a85ca;
-    font-family: "HyundaiSansHead";
-    font-weight: normal;
-    font-size: 45px;
-    margin: 0px auto 25px;
-    text-align: left;
 }

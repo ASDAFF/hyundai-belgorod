@@ -2766,93 +2766,93 @@ div.vjs-big-play-button span {display:block;font-size:0;line-height:0;width:0;he
 .news_view .text table th.left,.news_view .text table td.left {float:none;text-align:left}
 .news_view .text table th.right,.news_view .text table td.right {float:none;text-align:right}
 @media print {body {background:#fff !important}
-    #wrap {width:1100px !important;margin:0}
-    .container {width:1100px !important;margin:0}
-    .print_header {height:79px;border-bottom:1px solid #e8e5e0}
-    .thanks_request .contact_us .request_box .question {background:none;border:1px solid #cecece;background:#e8e8e8}
-    .car_builder {display:block !important}
-    .car_builder .mostlike_list {border-bottom:none}
-    .car_builder .mostlike_view {position:static;float:right;background:none}
-    .car_builder .mostlike_view .view_in {background:none}
-    .car_builder .mostlike_view .mychoice {min-height:70px;background:#fff;border:1px solid #aaa;width:541px}
-    .car_builder .mostlike_view .btn_change {display:none}
-    .car_builder .btn_fix {display:none}
-    .car_builder .total .car_panorama .mark {display:none}
-    .car_builder .car_panorama .notice {position:static;float:right}
-    .car_builder .total .iselected {clear:both;background:none}
-    .car_builder .total .iselected_box_wrap {position:static;padding:0;background:#fff;border-bottom:2px solid #bdbec0;border-top:1px solid #bdbec0}
-    .car_builder .another .packages .info .name img {display:none}
-    .car_builder .another .accessory .name img {display:none}
-    .car_builder .another .discount .name img {display:none}
-    .car_builder .expert_reveiws {display:block;height:auto}
-    .car_builder .expert_reveiws .recent_review {position:static}
-    .car_builder .expert_reveiws .recent_review .coustom {height:59px}
-    .car_builder .expert_reveiws .recent_review .ranks .rank,.car_builder .expert_reveiws .recent_review .ranks .rank span {background:none;text-indent:0;font-size:12px;height:20px}
-    .car_builder .car_panorama img.mark {display:none}
-    .gnb_shadow {display:none}
-    .content_wrap .title_area {display:none}
-    .header,.footer {display:none}
-    .thanks_request .car .btn {display:none}
-    .thanks_request .car .print {display:none}
-    .thanks_request .para_contact {width:742px}
-    .objects_box {display:none}
-    .floating_cubemenu {display:none}
-    .pip,.general {float:none !important}
-    .contents_highlights .title {background:#efefed !important;text-indent:0;font-size:25px;line-height:60px;font-weight:700}
-    .contents_specification .title {background:#efefed !important;text-indent:0;font-size:25px;line-height:60px;font-weight:700}
-    .pip .print_share,.general .print_share {display:none}
-    .pip .spec_table,.general .spec_table {height:auto}
-    .morelist .ul {clear:both}
-    .car_compare .con_hidden .con_table .con_type {height:auto}
-    .car_compare .con_hidden .con_table div.title {background:#fff;padding:15px 0}
-    .car_compare .con_hidden .con_table div.title span {font-size:20px;font-weight:700}
-    .content_area .car_builder .total .car_info {float:left;width:200px}
-    .content_area .car_builder .total .car_panorama {position:static;float:right;padding:0}
-    .content_area .car_builder .total .mostlike_view {position:static;float:right}
-    .content_area .car_builder .mostlike_view {display:none}
-    .content_area .car_builder .request_buttons {display:none}
-    .content_area .car_builder .total .iselected {background:none}
-    .content_area .car_builder .total .iselected_box_wrap {background:none;width:830px;border:1px solid #bdbec0}
-    .content_area .car_builder .total .iselected_box {border:none;width:830px}
-    .content_area .car_builder .total .iselected {background:none}
-    .expert_reveiws {width:830px}
-    .content_area .expert_reveiws .recent_review .info {width:390px}
-    .open_reveiws {width:830px}
-    .content_area .open_reveiws .list_comment li {width:820px;background:none}
-    .content_area .open_reveiws .list_comment li .layer {background:none}
-    .content_area .expert_reveiws .recent_review .coustom {padding:0 0 13px 60px}
-    .content_area .car_builder .mostlike_list a.mostlike {display:none}
-    .content_area .car_builder .total .car_info {height:200px}
-    .content_area .car_builder .total .car_info .price .btn {display:none}
-    .content_area .car_builder .mostlike_list {border-bottom:0}
-    .content_area .car_builder .mostlike_list {display:none}
-    .expert_reveiws .recent_review .info .btn {display:none}
-    .contents_highlights.pip .highlights3 li {width:290px}
-    .contents_highlights.pip .highlights3 li .img img {width:290px}
-    .contents_highlights.pip .overview2 ul {margin-left:5px}
-    .pip .morelist ul {margin-left:15px}
-    .contents_highlights.pip .overview2 li {padding:0 0 25px}
-    .pip .morelist ul li {padding:0}
-    .contents_highlights.pip .overview2 li .img img {width:290px}
-    .pip .morelist ul li .img img {width:200px}
-    .cubebox .cubelist .info a {display:none}
-    .cubebox .cubelist .movie {display:none}
-    .cubebox .prevbtn {display:none}
-    .cubebox .nextbtn {display:none}
-    .cubebox .cube {display:none}
-    .contents_exterior {display:none !important}
-    .contents_interior {display:none !important}
-    .contents_performance {display:none !important}
-    .contents_safety {display:none !important}
-    .contents_convenience {display:none !important}
-    .contents_accessories {display:none !important}
-    .contents_review {display:none !important}
-    .car_compare .side_compare * {display:none}
-    .car_compare .table_compare .compare_in .compare_carinfo .close {display:none}
-    .car_compare .table_compare .compare_in .btn_change {display:none}
-    .car_compare .table_compare .compare_in .btn_go {display:none}
-    .car_compare .table_compare .compare_in ul.list {display:none}
-    .car_compare .table_compare .compare_in .car_empty .btn_change {display:none}
+#wrap {width:1100px !important;margin:0}
+.container {width:1100px !important;margin:0}
+.print_header {height:79px;border-bottom:1px solid #e8e5e0}
+.thanks_request .contact_us .request_box .question {background:none;border:1px solid #cecece;background:#e8e8e8}
+.car_builder {display:block !important}
+.car_builder .mostlike_list {border-bottom:none}
+.car_builder .mostlike_view {position:static;float:right;background:none}
+.car_builder .mostlike_view .view_in {background:none}
+.car_builder .mostlike_view .mychoice {min-height:70px;background:#fff;border:1px solid #aaa;width:541px}
+.car_builder .mostlike_view .btn_change {display:none}
+.car_builder .btn_fix {display:none}
+.car_builder .total .car_panorama .mark {display:none}
+.car_builder .car_panorama .notice {position:static;float:right}
+.car_builder .total .iselected {clear:both;background:none}
+.car_builder .total .iselected_box_wrap {position:static;padding:0;background:#fff;border-bottom:2px solid #bdbec0;border-top:1px solid #bdbec0}
+.car_builder .another .packages .info .name img {display:none}
+.car_builder .another .accessory .name img {display:none}
+.car_builder .another .discount .name img {display:none}
+.car_builder .expert_reveiws {display:block;height:auto}
+.car_builder .expert_reveiws .recent_review {position:static}
+.car_builder .expert_reveiws .recent_review .coustom {height:59px}
+.car_builder .expert_reveiws .recent_review .ranks .rank,.car_builder .expert_reveiws .recent_review .ranks .rank span {background:none;text-indent:0;font-size:12px;height:20px}
+.car_builder .car_panorama img.mark {display:none}
+.gnb_shadow {display:none}
+.content_wrap .title_area {display:none}
+.header,.footer {display:none}
+.thanks_request .car .btn {display:none}
+.thanks_request .car .print {display:none}
+.thanks_request .para_contact {width:742px}
+.objects_box {display:none}
+.floating_cubemenu {display:none}
+.pip,.general {float:none !important}
+.contents_highlights .title {background:#efefed !important;text-indent:0;font-size:25px;line-height:60px;font-weight:700}
+.contents_specification .title {background:#efefed !important;text-indent:0;font-size:25px;line-height:60px;font-weight:700}
+.pip .print_share,.general .print_share {display:none}
+.pip .spec_table,.general .spec_table {height:auto}
+.morelist .ul {clear:both}
+.car_compare .con_hidden .con_table .con_type {height:auto}
+.car_compare .con_hidden .con_table div.title {background:#fff;padding:15px 0}
+.car_compare .con_hidden .con_table div.title span {font-size:20px;font-weight:700}
+.content_area .car_builder .total .car_info {float:left;width:200px}
+.content_area .car_builder .total .car_panorama {position:static;float:right;padding:0}
+.content_area .car_builder .total .mostlike_view {position:static;float:right}
+.content_area .car_builder .mostlike_view {display:none}
+.content_area .car_builder .request_buttons {display:none}
+.content_area .car_builder .total .iselected {background:none}
+.content_area .car_builder .total .iselected_box_wrap {background:none;width:830px;border:1px solid #bdbec0}
+.content_area .car_builder .total .iselected_box {border:none;width:830px}
+.content_area .car_builder .total .iselected {background:none}
+.expert_reveiws {width:830px}
+.content_area .expert_reveiws .recent_review .info {width:390px}
+.open_reveiws {width:830px}
+.content_area .open_reveiws .list_comment li {width:820px;background:none}
+.content_area .open_reveiws .list_comment li .layer {background:none}
+.content_area .expert_reveiws .recent_review .coustom {padding:0 0 13px 60px}
+.content_area .car_builder .mostlike_list a.mostlike {display:none}
+.content_area .car_builder .total .car_info {height:200px}
+.content_area .car_builder .total .car_info .price .btn {display:none}
+.content_area .car_builder .mostlike_list {border-bottom:0}
+.content_area .car_builder .mostlike_list {display:none}
+.expert_reveiws .recent_review .info .btn {display:none}
+.contents_highlights.pip .highlights3 li {width:290px}
+.contents_highlights.pip .highlights3 li .img img {width:290px}
+.contents_highlights.pip .overview2 ul {margin-left:5px}
+.pip .morelist ul {margin-left:15px}
+.contents_highlights.pip .overview2 li {padding:0 0 25px}
+.pip .morelist ul li {padding:0}
+.contents_highlights.pip .overview2 li .img img {width:290px}
+.pip .morelist ul li .img img {width:200px}
+.cubebox .cubelist .info a {display:none}
+.cubebox .cubelist .movie {display:none}
+.cubebox .prevbtn {display:none}
+.cubebox .nextbtn {display:none}
+.cubebox .cube {display:none}
+.contents_exterior {display:none !important}
+.contents_interior {display:none !important}
+.contents_performance {display:none !important}
+.contents_safety {display:none !important}
+.contents_convenience {display:none !important}
+.contents_accessories {display:none !important}
+.contents_review {display:none !important}
+.car_compare .side_compare * {display:none}
+.car_compare .table_compare .compare_in .compare_carinfo .close {display:none}
+.car_compare .table_compare .compare_in .btn_change {display:none}
+.car_compare .table_compare .compare_in .btn_go {display:none}
+.car_compare .table_compare .compare_in ul.list {display:none}
+.car_compare .table_compare .compare_in .car_empty .btn_change {display:none}
 }
 .contents_review .open_review ul li .memo {word-wrap:break-word}
 .car_compare .table_compare tr.power td .unit.longtxt {padding:19px 0 0;line-height:16px}
@@ -4038,7 +4038,6 @@ a.offer-actions__description:hover {color:#fff;padding-left:15px;background-colo
     max-width: 160px;
     color: #647a95!important;
 }
-
 .footer-nv__c-list li a{
     color: #647a95!important;
     text-decoration: none;

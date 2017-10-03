@@ -137,7 +137,7 @@ html, body {
 }
 
 body.main, body.main #wrapper {
-	background: #ffffff !important;
+	background: #F1EFEE !important;
 }
 /* H Group
 -----------------------------------------------------------*/
@@ -3353,7 +3353,6 @@ iframe[height="13"] {display: none;}
     background: #fff;
     color: #2f2f2f;
     display: none;
-    min-height: 660px;
     width: 545px;
     left: 50%;
     margin: 0 0 0 -273px;
@@ -3589,7 +3588,7 @@ iframe[height="13"] {display: none;}
     opacity: 1;
 }
 .zing_form_content {
-    padding: 65px 70px 40px;
+    padding: 70px;
 }
 /* close btn */
 .modalCloseImg.zing_close {

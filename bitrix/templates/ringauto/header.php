@@ -28,6 +28,7 @@
 	<link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/mobile/font-awesome/css/font-awesome.css" >
 	<link href="/home_style/css/style_new.css" rel="stylesheet" type="text/css">
 	<link href="/home_style/css/home.css" rel="stylesheet" type="text/css">
+	<link href="/home_style/css/overrides.css" rel="stylesheet" type="text/css">
 
 
 	<link href="<?=SITE_TEMPLATE_PATH?>/css/mobile.css" rel="stylesheet" />
@@ -66,19 +67,24 @@
 <div id="panel"><?$APPLICATION->ShowPanel();?></div>
 
 <div id="wrapper">
-	<header id="header">
 
-		<div class="header-center clearfix">
-			<div class="header-center-left">
-				г. Воронеж, ул. Изыскателей, 39, корп. 2 — <b>+7 473 261-7777</b>
+	<header class="header-primary" id="header-primary">
+		<div class="navbar-primary">
+			<div class="navbar-primary__sp" data-role="navbar-support">
+
+				<span class="navbar-primary__sp-title">г. Воронеж, ул. Изыскателей, 39, корп. 2</span>
+				<span class="navbar-primary__sp-phone-w">
+					<span class="navbar-primary__sp-phone">+7 473 261-7777</span>
+				</span>
+
 			</div>
-			<!--
-			<div class="header-center-left">
-				<a class="header-center-right-btn" href="/offer">
-					<i class="i-spec-offers-icon"></i> Cпецпредложения
-				</a>
-			</div>
-			-->
+			<nav class="navbar-primary__nv" role="navigation">
+				<ul class="navbar-primary__nv-list">
+					<li class="navbar-primary__nv-list-item"><a href="/configurator/" class="navbar-primary__nv-list-link">Создать свой Hyundai</a></li>
+					<li class="navbar-primary__nv-list-item"><a href="#" class="navbar-primary__nv-list-link zing_form_toggler" for="zing_cuzov_btn">Запись на сервис</a></li>
+					<li class="navbar-primary__nv-list-item"><a href="#" class="navbar-primary__nv-list-link zing_form_toggler_spec" for="testdrive">Тест-драйв</a></li>
+				</ul>
+			</nav>
 		</div>
 
 		<a id="touch-menu" class="mobile-menu" href="#"><i class="icon-reorder"></i>Меню</a>
@@ -159,37 +165,42 @@
 			</ul>
 		</nav>
 
-		<div class="user-bar clearfix">
-			<div class="user-bar-logo"><a href="/"><img src="<?=SITE_TEMPLATE_PATH?>/media/img/logo.png" alt="HYUNDAI"/></a></div>
-			<nav class="user-bar-nav">
-				<ul class="reset gnb">
-					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link showroom-open" href="#gnbShowroom">Модельный ряд</a></li>
-					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/offer/">Cпецпредложения</a></li>
-					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/hpromise/avtomobili-s-probegom/">Автомобили с пробегом</a></li>
-					<!-- <li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="#gnbShopping">Покупка</a></li> -->
-					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/service/spetspredlozheniya/">Сервис</a></li>
-					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/configurator">Конфигуратор</a></li>
-					<li class="user-bar-nav-item"><a class="user-bar-nav-item-link" href="/contacts">Контакты</a></li>
-				</ul>
-			</nav>
+		<div class="main-header">
+			<div class="main-header__holder">
+				<a href="/" class="main-header__logo" title="Hyundai">
+					<svg xmlns="http://www.w3.org/2000/svg" class="hyundai-logo"><use xlink:href="#img-hyundai"></use></svg>
+				</a>
+				<nav class="main-nav" role="navigation">
+					<ul class="main-nav__list">
+						<li class="main-nav__item main-nav__item--has-submenu">
+							<span class="main-nav__link" data-role="showroom-submenu-link">Модельный ряд</span>
+						</li>
+						<li class="main-nav__item">
+							<a href="/offer/" target="_blank" class="main-nav__link">Cпецпредложения</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="/hpromise/avtomobili-s-probegom/" target="_blank" class="main-nav__link">Автомобили с пробегом</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="/service/spetspredlozheniya/" class="main-nav__link">Сервис</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="/contacts/" class="main-nav__link">Контакты</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="/configurator/" class="main-nav__link">Конфигуратор</a>
+						</li>
 
-
-
-			<div class="gnb_layer" id="gnbShowroom" style="visibility: hidden; height: 0px; padding-bottom: 0px;">
-
-				<div class="layer_body">
-
-					<a href="#" class="btn_close">close gnb layer</a>
-					<div class="showroom">
-
-						<div class="tab">
-							<ul>
-								<li class="all"><a href="#showroomAll" class="on">ПОСМОТРЕТЬ ВСЕ</a></li>
-								<li class="cars"><a href="#showroomCars">ЛЕГКОВЫЕ</a></li>
-								<li class="suv"><a href="#showroomSUV">ВНЕДОРОЖНИКИ</a></li>
-								<li class="commercial"><a href="#showroomCommercial">КОММЕРЧЕСКИЕ</a></li>
-							</ul>
-						</div>
+						<li class="main-nav__item main-nav__item--go-leave">
+							<a href="https://mir.hyundai.ru/" target="_blank" class="main-nav__link">Мир Хендэ →</a>
+						</li>
+					</ul>
+				</nav>
+				<span class="main-header__menu"><span class="main-header__menu-ic-helper"></span></span>
+			</div>
+			<div class="main-header__submenus-holder">
+				<div class="submenu" data-role="showroom-submenu">
+					<div class="submenu-content">
 
 						<?$APPLICATION->IncludeComponent("bitrix:catalog.section.list", "menu", Array(
 							"ADD_SECTIONS_CHAIN" => "Y",	// Включать раздел в цепочку навигации
@@ -217,253 +228,12 @@
 							false
 						);?>
 
-
-						<div class="loadingbox" style="display:none;">
-							<img src="/media/img/loading.gif" alt="loading"><br>
-						</div>
-
-					</div>
-
-				</div>
-
-				<div class="layer_foot"></div>
-				<div class="layer_foot"></div>
-
-			</div>
-
-			<div class="gnb_layer" id="gnbShopping" style="visibility: hidden; height: 0px; padding-bottom: 0px;"><div class="layer_body"><a href="#" class="btn_close">close gnb layer</a><div class="shopping" style=""><div class="tools"><strong class="title">
-								ПОМОЩЬ В ВЫБОРЕ
-							</strong>
-							<ul class="line1">
-
-								<li><a href="/configurator">Создать свою конфигурацию</a></li>
-
-								<li><a href="/corporate-clients" >Корпоративным клиентам</a></li>
-								<li><a href="/all-offers">Специальные предложения</a></li>
-							</ul>
-
-						</div>
-
-					</div></div><div class="layer_foot"></div>
-
-			</div>
-
-
-
-			<div class="gnb_layer gnb_layer--redesign" id="gnbServices" style="visibility: hidden; height: 0px; padding-bottom: 0px;">
-				<div class="layer_body">
-					<div class="services">
-						<ul class="ub-items">
-							<li class="ub-item ub-item--owners">
-								<a href="/service/roadside-assistance" class="ub-item-link">
-									<span class="ub-item__icon"></span>
-									<span class="ub-item__name">Владельцам</span>
-								</a>
-							</li>
-							<li class="ub-item ub-item--warranty">
-								<a href="/service/garantiya/" class="ub-item-link">
-									<span class="ub-item__icon"></span>
-									<span class="ub-item__name">Гарантия</span>
-								</a>
-							</li>
-							<li class="ub-item ub-item--maintenance">
-								<a href="/service/obsluzhivanie/" class="ub-item-link">
-									<span class="ub-item__icon"></span>
-									<span class="ub-item__name">Обслуживание</span>
-								</a>
-							</li>
-							<li class="ub-item ub-item--bodyworks">
-								<a href="/service/bodyworks" class="ub-item-link">
-									<span class="ub-item__icon"></span>
-									<span class="ub-item__name">Кузовной ремонт</span>
-								</a>
-							</li>
-							<li class="ub-item ub-item--parts">
-								<a href="/service/originalnye-zapchasti/" class="ub-item-link">
-									<span class="ub-item__icon"></span>
-									<span class="ub-item__name">Оригинальные запчасти</span>
-								</a>
-							</li>
-							<!--
-                                                <li class="ub-item ub-item--accessories">
-                                                    <a href="#" class="ub-item-link">
-                                                        <span class="ub-item__icon"></span>
-                                                        <span class="ub-item__name">Оригинальные аксессуары</span>
-                                                    </a>
-                                                </li>
-                            -->
-							<li class="ub-item ub-item--assurance">
-								<a href="/HyundaiAssurance" class="ub-item-link">
-									<span class="ub-item__icon"></span>
-									<span class="ub-item__name">Premium assurance</span>
-								</a>
-							</li>
-							<li class="ub-item ub-item--brochures">
-								<a href="/service/broshyury-i-rukovodstva/" class="ub-item-link">
-									<span class="ub-item__icon"></span>
-									<span class="ub-item__name">Руководства и&nbsp;брошюры</span>
-								</a>
-							</li>
-							<li class="ub-item ub-item--best">
-								<a href="/service/best" class="ub-item-link">
-									<span class="ub-item__icon"></span>
-									<span class="ub-item__name">Лучшее для своих</span>
-								</a>
-							</li>
-						</ul>
 					</div>
 				</div>
-				<div class="layer_foot">
-					<a href="/service/spetspredlozheniya/" class="user-bar-footer-link">сервисные акции</a>
-				</div>
-			</div>
-
-
-			<div id="user-bar-search" class="user-bar-search">
-				<form action="/search">
-					<input type="hidden" name="searchid" value="2249684"/>
-					<input type="hidden" name="web" value="0"/>
-					<input class="user-bar-search-input" type="text" name="text" placeholder="Я хочу найти..." value=""/>
-				</form>
 			</div>
 		</div>
+	</header>
 
 
-		<div style="display: none;">
-			<script type="text/javascript">
-
-				var pip_car_name ="";
-
-				$(function(){
-					$('.gnb_layer .carfinder .btn_reset').click(function(){
-						//2011-08-03 스크립트 삭제1
-						setGnbFinderValues();
-						return false;
-					});
-
-					/* GNB car finder slide values */
-					/* min : range minimum value */
-					/* maz : range maximum value */
-					/* values : initial value */
-					function setGnbFinderValues(){
-
-						$('.gnb_layer .category li').removeClass('select'); //2011-08-03
-						$('.gnb_layer .category .case1 input').attr('value','0');
-
-					}
-					setGnbFinderValues();
-
-
-					//2011-08-04
-					$('.gnb_layer .category li .check').each(function(i){
-						$(this).click(function(){
-							if($(this).parent().hasClass('select')) {
-								// 체크 안되었음
-								$(this).parent().removeClass('select');
-								$('#categoryGnb'+i).attr('value','0');
-							} else {
-								// 체크 되었음
-								$(this).parent().addClass('select');
-								$('#categoryGnb'+i).attr('value','1');
-							}
-						});
-					});
-
-					//Find a car AJax 처리 함수
-					$('.gnb_layer .showroom .tab .btn_finder').click(function(){
-						$('.gnb_layer .showroom .tab a').removeClass('on');
-						gnbToggle('.gnb_layer .showroom>.list ul','off');
-						gnbToggle('.gnb_layer .showroom .banners','off');
-						$(".gnb_layer .showroom>.list").hide();
-						$(".gnb_layer .showroom .banners").hide();
-						/* $('.gnb_layer .showroom>.list ul').hide();
-						 $('.gnb_layer .showroom .banners').hide(); */
-						$(this).addClass('on');
-
-						$('.gnb_layer .showroom .other_list').hide();
-
-						gnbToggle('.gnb_layer .showroom .carfinder','on');
-						/* $('.gnb_layer .showroom .carfinder').show(); */
-						gnbToggle('.header .gnb_layer .showroom .list ul','on');
-
-						var siteCode = $("#siteCode").val();
-						var siteLang = $("#siteLang").val();
-						var dataParam = "wwn_country_code=" + siteCode + "&pageFlag=GNB&" +"wwn_language_code="+ siteLang;
-						var finderUrl = "";
-
-						if(siteCode == "ES"){
-							finderUrl = "/wcm/front/builder/carFinderInitView.do";
-						}else{
-							finderUrl = "/wcm/"+siteCode.toLowerCase()+"/front/builder/carFinderInitView.do";
-						}
-
-						$(".showroom .loadingbox").show();
-
-						//2013-12-20
-						if(siteCode == 'RU' && '' == '11069'){
-
-						}else{
-							$.ajax({
-								url : finderUrl,
-								data : dataParam,
-								success : fn_generateFinder,
-								error : fn_errorFinder
-							});
-						}
-
-						return false;
-					});
-				});
-
-				function fn_generateFinder(xmlDoc){
-					$(".gnb_layer .showroom #gnb_carfinder").remove();
-					$(".gnb_layer .showroom").append(xmlDoc);
-					$(".showroom .loadingbox").hide();
-				}
-
-				function fn_errorFinder(){}
-
-			</script>
-
-
-			<input type="hidden" id="siteCode" value="RU">
-			<input type="hidden" id="siteLang" value="RU">
-
-
-
-			<!-- end gnb layer -->
-
-
-			<div class="gnb_layer" id="gnbShopping" style="visibility: hidden; height: 0px; padding-bottom: 0px;"><div class="layer_body"><a href="#" class="btn_close">close gnb layer</a><div class="shopping" style=""><div class="tools"><strong class="title">
-								ПОМОЩЬ В ВЫБОРЕ
-							</strong>
-							<ul class="line1">
-
-								<li><a href="/configurator">Создать свою конфигурацию</a></li>
-
-								<li><a href="/corporate-clients">Корпоративным клиентам</a></li>
-								<li><a href="/all-offers">Специальные предложения</a></li>
-							</ul>
-
-							<ul class="line2">
-
-							</ul>
-						</div>
-
-						<ul class="etc">
-
-							<li><a href="#"><strong>Найти <br>дилера</strong><span class="icon"><img src="/media/img/tr_ico_gnb_shopping_02.gif" alt="TR_ico_gnb_shopping_02"></span><span class="txt">
-															Детальная <br> информация об <br> официальных <br> дилерах Hyundai<br><img src="/media/img/btn_gnb_go.png" alt=""></span></a></li>
-
-
-
-						</ul></div></div><div class="layer_foot"></div>
-
-			</div>
-
-
-			<input type="hidden" value="" id="nUrl"></div>
-	</header><!--header-->
-
-
+	<script src="/home_style/js/common.js"></script>
 
