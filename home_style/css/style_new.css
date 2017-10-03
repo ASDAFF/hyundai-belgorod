@@ -3272,16 +3272,7 @@ html.is-spreader-active body {
     transition: border-color 0.15s ease-out 0s
 }
 
-.zing-agreement-input+label::after {
-    background: transparent url("/media/img/question-sprite.png") no-repeat scroll -154px 0;
-    left: 14px;
-    opacity: 0;
-    top: 14px;
-    -webkit-transition: opacity 0.15s ease-out 0s;
-    -o-transition: opacity 0.15s ease-out 0s;
-    transition: opacity 0.15s ease-out 0s;
-    width: 13px
-}
+
 
 .zing-agreement-input:checked+label::after {
     opacity: 1
