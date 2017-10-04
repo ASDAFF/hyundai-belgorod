@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>02.10.2017</Date>
+		<Date>03.10.2017</Date>
 		<Time>21:34:48</Time>
 	</Export>
 	<ContractList>
@@ -370,58 +370,6 @@
 			<number>7 (4742) 727777</number>
 		</Contract>
 		<Contract>
-			<VIN>TMADB51DABJ143040</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>I30</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>126</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>5</TransmissionCount>
-			<Color>серый</Color>
-			<ColorCode>FHM</ColorCode>
-			<ColorOrig>Серый</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>Хэтчбек 5 дв.</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>103 346</run>
-			<year>2 010</year>
-			<GENERATION>i30, I Рестайлинг</GENERATION>
-			<MODIFICATION>1.6 MT (126 л.с.)</MODIFICATION>
-			<PERIOD>2010 - 2012</PERIOD>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
-			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
-			<number>7 (4742) 727777</number>
-		</Contract>
-		<Contract>
 			<VIN>X7LHSRDJA49219033</VIN>
 			<MARK>Renault</MARK>
 			<MODEL>DUSTER</MODEL>
@@ -673,58 +621,6 @@
 			<GENERATION>Solaris, I</GENERATION>
 			<MODIFICATION>1.6 MT (123 л.с.)</MODIFICATION>
 			<PERIOD>2010 - 2014</PERIOD>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
-			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
-			<number>7 (4742) 727777</number>
-		</Contract>
-		<Contract>
-			<VIN>KMHBU51DP9U877283</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>GETZ</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,4</CAPACITY>
-			<POWER>97</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>5</TransmissionCount>
-			<Color>голубой</Color>
-			<ColorCode>T2U</ColorCode>
-			<ColorOrig>Голубой</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>Хэтчбек 5 дв.</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>81 661</run>
-			<year>2 008</year>
-			<GENERATION>Getz, I Рестайлинг</GENERATION>
-			<MODIFICATION>1.4 MT (97 л.с.)</MODIFICATION>
-			<PERIOD>2005 - 2011</PERIOD>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>

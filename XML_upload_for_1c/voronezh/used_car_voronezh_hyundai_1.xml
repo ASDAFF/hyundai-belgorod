@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>03.10.2017</Date>
-		<Time>12:02:08</Time>
+		<Date>04.10.2017</Date>
+		<Time>12:01:58</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -1312,6 +1312,58 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
+			<VIN>VF7SC5FS9AA609429</VIN>
+			<MARK/>
+			<MODEL/>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>120</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>4</TransmissionCount>
+			<Color>серебристый</Color>
+			<ColorCode>BW</ColorCode>
+			<ColorOrig>Серый</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>125 000</run>
+			<year>2 010</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
 			<VIN>XUF0AHL089B000410</VIN>
 			<MARK>Opel</MARK>
 			<MODEL>ASTRA</MODEL>
@@ -2211,6 +2263,58 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
+			<VIN>XTA219020D0113452</VIN>
+			<MARK/>
+			<MODEL/>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>98</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>4</TransmissionCount>
+			<Color>темно-вишневый</Color>
+			<ColorCode>5J</ColorCode>
+			<ColorOrig>Красный</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>40 000</run>
+			<year>2 012</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
 			<VIN>XW8ZZZ61ZDG026862</VIN>
 			<MARK/>
 			<MODEL/>
@@ -2544,6 +2648,58 @@
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
 			<CREDIT>-215 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>XTA219060DY033380</VIN>
+			<MARK/>
+			<MODEL/>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>82</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>5</TransmissionCount>
+			<Color>черный</Color>
+			<ColorCode>NB9</ColorCode>
+			<ColorOrig>Черный</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>70 000</run>
+			<year>2 013</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
