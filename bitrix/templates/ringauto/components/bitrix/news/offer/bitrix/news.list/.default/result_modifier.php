@@ -25,7 +25,7 @@ foreach($arResult["ITEMS"] as $key => $arItem) {
 }
 
 $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","PROPERTY_*");
-$arFilter = Array("IBLOCK_ID"=> $arResult['ID'], "ACTIVE"=>"Y","PROPERTY_SLIDER" => "%");
+$arFilter = Array("IBLOCK_ID"=> $arResult['ID'], "ACTIVE"=>"Y","PROPERTY_SLIDER" => "%","!=PROPERTY_folder_id" => array("G80","G90"));
 $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
 while($ob = $res->GetNextElement()){
     $arFields = $ob->GetFields();
