@@ -155,7 +155,7 @@ $this->setFrameMode(true);
 				),
 				"FILTER_NAME" => "",	// Фильтр
 				"HIDE_LINK_WHEN_NO_DETAIL" => "N",	// Скрывать ссылку, если нет детального описания
-				"IBLOCK_ID" => "16",	// Код информационного блока
+				"IBLOCK_ID" => "37",	// Код информационного блока
 				"IBLOCK_TYPE" => "products",	// Тип информационного блока (используется только для проверки)
 				"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",	// Включать инфоблок в цепочку навигации
 				"INCLUDE_SUBSECTIONS" => "Y",	// Показывать элементы подразделов раздела
@@ -230,7 +230,7 @@ $this->setFrameMode(true);
 			),
 			"FILTER_NAME" => "",
 			"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-			"IBLOCK_ID" => "8",
+			"IBLOCK_ID" => "35",
 			"IBLOCK_TYPE" => "products",
 			"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
 			"INCLUDE_SUBSECTIONS" => "Y",

@@ -149,6 +149,9 @@ function offer_filter_auto($url){
     if($_SERVER['HTTP_HOST'] == 'hyundai-ringauto-lip.ru'){
         $id_mod = 26;
         $id_spec = 25;
+    }elseif($_SERVER['HTTP_HOST'] == 'hyundai-oskol.ru'){
+        $id_mod = 36;
+        $id_spec = 35;
     }else{
         $id_mod = 7;
         $id_spec = 8;

@@ -1599,7 +1599,8 @@
             speed: 500,
             simulateTouch: !0
         })
-}), window.homeVM = new Vue({}), Vue.component("home-conf-comp", {
+}),
+    window.homeVM = new Vue({}), Vue.component("home-conf-comp", {
     data: function() {
         return {
             hcData: hcData,

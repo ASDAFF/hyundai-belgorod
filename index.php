@@ -252,6 +252,7 @@ $APPLICATION->SetTitle("Мебельная компания");
 		</section>
 
 
+
 		<script type="text/javascript" src="/home_style/js/home.js"></script>	</main>
 
 
