@@ -3995,9 +3995,18 @@ a.zingaya_button1370324828422 {
 
 .zing-select .arrow-down {
     position: absolute;
-    top: 15px;
+    top: 35%;
     right: 15px;
     color: #544f4f;
+    z-index: -1;
+}
+
+select.zing_txt{
+    background-color: rgba(234, 248, 255, 0);
+    cursor: pointer;
+}
+select.zing_txt.valid {
+    background-color: rgba(234, 255, 234, 0.13);
 }
 
 @keyframes Gradient{0%{background-position:9% 0%}50%{background-position:92% 100%}100%{background-position:9% 0%}}
