@@ -3713,7 +3713,6 @@ html.is-spreader-active body {
 .i-0020-arrow-icon-white-h,
 .i-0024-arrow-icon-h,
 .i-0025-arrow-icon {
-    background: transparent url("/media/img/sprite.png") no-repeat scroll 0 0;
     display: inline-block;
     vertical-align: middle
 }
