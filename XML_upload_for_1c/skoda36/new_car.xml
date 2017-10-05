@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>03.10.2017</Date>
-		<Time>21:32:56</Time>
+		<Date>04.10.2017</Date>
+		<Time>21:33:16</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -682,6 +682,43 @@
 			<number>+7 (473) 2333303</number>
 		</Contract>
 		<Contract>
+			<VIN>XW8JJ65L0HH707169</VIN>
+			<MARK/>
+			<MODEL>Yeti FL</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,4</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Коричневый Topaz металлик</Color>
+			<ColorCode>4L4L</ColorCode>
+			<ColorOrig/>
+			<SpecName>Outdoor Ambition 1.4 TSI (125 л.с.) ручн.-6</SpecName>
+			<SpecId>677BI5</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>DR Черный Onyx</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run/>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WS5</value>
+				<value>9WT</value>
+			</EXT_COMPLIT>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
 			<VIN>XW8AC2NH8JK106650</VIN>
 			<MARK/>
 			<MODEL>Rapid</MODEL>
@@ -984,6 +1021,42 @@
 				<value>WSA</value>
 			</EXT_COMPLIT>
 			<CREDIT>210 000</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AN2NE4JH019003</VIN>
+			<MARK/>
+			<MODEL>Octavia</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Белый Pure</Color>
+			<ColorCode>0Q0Q</ColorCode>
+			<ColorOrig/>
+			<SpecName>Octavia Active 1.6 (110 л.с.) авт. -6</SpecName>
+			<SpecId>NL32HC</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>HA Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run/>
+			<year>2 017</year>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WR1</value>
+			</EXT_COMPLIT>
+			<CREDIT>0</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
