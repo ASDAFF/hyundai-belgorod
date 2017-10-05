@@ -151,7 +151,8 @@ function offer_filter_auto($url){
         $id_spec = 25;
     }elseif($_SERVER['HTTP_HOST'] == 'hyundai-oskol.ru'){
         $id_mod = 36;
-        $id_spec = 35;
+        //$id_spec = 35;
+        $id_spec = 8;
     }else{
         $id_mod = 7;
         $id_spec = 8;
