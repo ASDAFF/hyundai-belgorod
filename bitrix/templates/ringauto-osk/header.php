@@ -72,9 +72,9 @@
 		<div class="navbar-primary">
 			<div class="navbar-primary__sp" data-role="navbar-support">
 
-				<span class="navbar-primary__sp-title">г. Оскол, ул. Изыскателей, 39, корп. 2</span>
+				<span class="navbar-primary__sp-title">г. Старый Оскол, пр-т Алексея Угарова, 22</span>
 				<span class="navbar-primary__sp-phone-w">
-					<span class="navbar-primary__sp-phone">+7 473 261-7777</span>
+					<span class="navbar-primary__sp-phone">+7 4725 46-00-22</span>
 				</span>
 
 			</div>

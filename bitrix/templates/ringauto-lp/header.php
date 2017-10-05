@@ -65,7 +65,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="navbar-primary">
 			<div class="navbar-primary__sp" data-role="navbar-support">
 
-				<span class="navbar-primary__sp-title">г. Липецк, ул. 50 лет НЛМК, 24</span>
+				<span class="navbar-primary__sp-title">«Ринг Авто» г. Липецк, ул. 50 лет НЛМК, 24</span>
 				<span class="navbar-primary__sp-phone-w">
 					<span class="navbar-primary__sp-phone">+7 4742 72-7777</span>
 				</span>

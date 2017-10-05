@@ -1,80 +1,76 @@
-
-<!-- Rating@Mail.ru counter -->
-<script type="text/javascript">
-    var _tmr = window._tmr || (window._tmr = []);
-    _tmr.push({id: "2883957", type: "pageView", start: (new Date()).getTime()});
-    (function (d, w, id) {
-        if (d.getElementById(id)) return;
-        var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
-        ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
-        var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
-        if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
-    })(document, window, "topmailru-code");
-</script><noscript><div>
-        <img src="//top-fwz1.mail.ru/counter?id=2883957;js=na" style="border:0;position:absolute;left:-9999px;" alt="" />
-    </div></noscript>
-<!-- //Rating@Mail.ru counter -->
-
-
-
-<!-- Yandex.Metrika counter --><script type="text/javascript">var yaParams = {/*Здесь параметры визита*/};</script><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter26763030 = new Ya.Metrika({id:26763030, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true,params:window.yaParams||{ }}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/26763030" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
-
-
 <!-- StreamWood code -->
 <link href="https://clients.streamwood.ru/StreamWood/sw.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="https://clients.streamwood.ru/StreamWood/sw.js" charset="utf-8"></script>
 <script type="text/javascript">
-    swQ(document).ready(function(){
-        swQ().SW({
-            swKey: '76ff58d142adc795d56c0d51224093fd',
-            swDomainKey: '3b1971e77373033637f5152adf917bfc'
-        });
-        swQ('body').SW('load');
-    });
+swQ(document).ready(function(){
+swQ().SW({
+swKey: '96a4007ee37fba6acb09f3c06ad7e02e',
+swDomainKey: '1dadcf943a2ce536d96fc0651d28da49'
+});
+swQ('body').SW('load');
+});
 </script>
 <!-- /StreamWood code -->
+<script crossorigin="anonymous" async type="text/javascript" src="//api.pozvonim.com/widget/callback/v3/cab4eab3ff838bbffd0ef0574f04c0b1/connect" id="check-code-pozvonim" charset="UTF-8"></script>
+<script src="//perezvonok.ru/s.php?u=1398&s=555" charset="UTF-8" async="async"></script>
+<link type="text/css" href="https://perezvonok.ru/css/main.css" rel="stylesheet">
+<script type="text/javascript" src="//callkeeper.ru/modules/widget/db/?callkeeper_code=95e41300f814149c59c6907f09514e84" charset="UTF-8"></script>
+<script type="text/javascript" src="//callkeeper.ru/modules/widget/callkeeper.js" charset="UTF-8"></script>
 
-
+<!-- Yandex.Metrika informer -->
+<a href="http://metrika.yandex.ru/stat/?id=16112620&amp;from=informer"
+target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/16112620/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:16112620,lang:'ru'});return false}catch(e){}"/></a>
+<!-- /Yandex.Metrika informer -->
+<!-- Yandex.Metrika counter -->
 <script type="text/javascript">
-    /* <![CDATA[ */
-    var google_conversion_id = 971037742;
-    var google_custom_params = window.google_tag_params;
-    var google_remarketing_only = true;
-    /* ]]> */
+(function (d, w, c) {
+(w[c] = w[c] || []).push(function() {
+try {
+w.yaCounter16112620 = new Ya.Metrika({id:16112620,
+webvisor:true,
+clickmap:true,
+trackLinks:true,
+accurateTrackBounce:true});
+} catch(e) { }
+});
+var n = d.getElementsByTagName("script")[0],
+s = d.createElement("script"),
+f = function () { n.parentNode.insertBefore(s, n); };
+s.type = "text/javascript";
+s.async = true;
+s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+if (w.opera == "[object Opera]") {
+d.addEventListener("DOMContentLoaded", f, false);
+} else { f(); }
+})(document, window, "yandex_metrika_callbacks");
 </script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-</script>
-<noscript>
-    <div style="display:inline;">
-        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/971037742/?value=0&amp;guid=ON&amp;script=0"/>
-    </div>
-</noscript>
-<div id="carfinPrice"><!-- --></div>
+<noscript><div><img src="//mc.yandex.ru/watch/16112620" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<!-- Yandex.Metrika counter -->
 <script type="text/javascript">
-    (function() {
-        var carfinParam = {
-            'partner': 402,
-            'htmlPrice': 'carfinPrice',
-            'positionAlign': 'left',
-            'positionTop': 50,
-            'tpl': 14
-        };
-        var carfinScript = document.createElement('script');
-        carfinScript.type = 'text/javascript';
-        carfinScript.async = true;
-        carfinScript.charset = 'utf-8';
-        carfinScript.src = (("https:" == document.location.protocol) ? "https://" : "http://") + 'car-fin.ru/widget/price.js';
-        var carfinScriptDone = false;
-        carfinScript.onload = carfinScript.onreadystatechange = function() {
-            if (!carfinScriptDone
-                && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")
-                && typeof(carfinCalculator) == 'object') {
-                carfinScriptDone = true;
-                carfinCalculator.run(carfinParam);
-            }
-        }
-        var firstScript = document.getElementsByTagName('script')[0];
-        firstScript.parentNode.insertBefore(carfinScript, firstScript);
-    })();
+(function (d, w, c) {
+(w[c] = w[c] || []).push(function() {
+try {
+w.yaCounter42192359 = new Ya.Metrika({
+id:42192359,
+clickmap:true,
+trackLinks:true,
+accurateTrackBounce:true
+});
+} catch(e) { }
+});
+var n = d.getElementsByTagName("script")[0],
+s = d.createElement("script"),
+f = function () { n.parentNode.insertBefore(s, n); };
+s.type = "text/javascript";
+s.async = true;
+s.src = "https://mc.yandex.ru/metrika/watch.js";
+if (w.opera == "[object Opera]") {
+d.addEventListener("DOMContentLoaded", f, false);
+} else { f(); }
+})(document, window, "yandex_metrika_callbacks");
 </script>
-<script type="text/javascript" src="//cdn.perezvoni.com/widget/js/przv.js?przv_code=4116-773dfffea-f2c47-c4713a9-47826773dfffea-26773dfffea" ></script>
+<noscript><div><img src="https://mc.yandex.ru/watch/42192359"
+style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
