@@ -881,6 +881,17 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
 
 <!-- ************************************************************************************************************* -->
 
+<?$APPLICATION->IncludeComponent(
+    "bitrix:main.include",
+    "",
+    Array(
+        "AREA_FILE_SHOW" => "file",
+        "AREA_FILE_SUFFIX" => "inc",
+        "EDIT_TEMPLATE" => "",
+        "PATH" => "/bitrix/include/seo-script-".SITE_ID.".php"
+    )
+);?>
+
 <!-- Rating@Mail.ru counter -->
 <script type="text/javascript">
 var _tmr = window._tmr || (window._tmr = []);

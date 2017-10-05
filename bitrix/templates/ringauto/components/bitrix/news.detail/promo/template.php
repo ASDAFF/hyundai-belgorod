@@ -438,6 +438,18 @@ $this->setFrameMode(true);
 	</script>
 
 
+	<?$APPLICATION->IncludeComponent(
+		"bitrix:main.include",
+		"",
+		Array(
+			"AREA_FILE_SHOW" => "file",
+			"AREA_FILE_SUFFIX" => "inc",
+			"EDIT_TEMPLATE" => "",
+			"PATH" => "/bitrix/include/seo-script-".SITE_ID.".php"
+		)
+	);?>
+
+
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZBL9QH"
 					  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
