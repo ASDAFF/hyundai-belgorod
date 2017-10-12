@@ -3837,7 +3837,7 @@ table.hy-table tr:nth-child(odd) td {background-color:#eee}
 .offers-container .offers-content a:hover {text-decoration:none}
 .offers-container table.table-border td,.offers-container table.table-border th {border:1px solid #999}
 .nowrp {white-space:nowrap}
-.offers-container .content_area {position:relative;height:auto;background-color:#fff;margin:0 auto;padding:0 0 36px;overflow:hidden}
+.offers-container .content_area {position:relative;height:auto;background-color:#fff;margin:0 auto;padding:0 0 36px;}
 .promo-head {display:block;left:50%;margin-left:-950px;position:relative;width:1900px;min-height:530px}
 .offers-container .offers-content {margin:0 auto}
 .offers-block {width:940px;margin:0 auto}
