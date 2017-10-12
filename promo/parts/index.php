@@ -10,7 +10,7 @@ $APPLICATION->SetTitle("parts");
             <!-- WARNING -->
             <!-- this checks only img src!! no checking by offer ID -->
 
-            <img class="promo-head" src="http://www.hyundai.ru/media/offers_image/8faf22a9aba6324e5867e14a4881d726_Hyundai_PL2_webbanner.jpg" style="">
+            <img class="" src="http://www.hyundai.ru/media/offers_image/8faf22a9aba6324e5867e14a4881d726_Hyundai_PL2_webbanner.jpg" style="">
 
             <!-- old syntax: -->
             <!-- <img class="promo-head" src="http://www.hyundai.ru/media/offers_image/428fb4346f911f205e484e956314de54_Zapchasti.jpg" style=""/> -->

@@ -20,7 +20,7 @@ $APPLICATION->SetTitle("NewSolaris");
                 <!-- WARNING -->
                 <!-- this checks only img src!! no checking by offer ID -->
 
-                <img class="promo-head" src="http://www.hyundai.ru/media/offers_image/63c549c9f49d0cd80e6310e82b8de0b5_в-013_spezh.jpg" style="">
+                <img class="" src="http://www.hyundai.ru/media/offers_image/63c549c9f49d0cd80e6310e82b8de0b5_в-013_spezh.jpg" style="">
 
                 <!-- old syntax: -->
                 <!-- <img class="promo-head" src="http://www.hyundai.ru/media/offers_image/560edcae8b1ad2e75c5d04fc02f290b7_preview_1.jpg" style=""/> -->

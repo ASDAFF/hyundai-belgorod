@@ -10,7 +10,7 @@ $APPLICATION->SetTitle("major-leasing");
             <!-- WARNING -->
             <!-- this checks only img src!! no checking by offer ID -->
 
-            <img class="promo-head" src="http://www.hyundai.ru/media/offers_image/04cbeb84a054d5e241ea61acbfabdf67_Elantra-c-правильными-кнопками-на-руле-и-без-системы-инфинити-копия.jpg" style="">
+            <img class="" src="http://www.hyundai.ru/media/offers_image/04cbeb84a054d5e241ea61acbfabdf67_Elantra-c-правильными-кнопками-на-руле-и-без-системы-инфинити-копия.jpg" style="">
 
             <!-- old syntax: -->
             <!-- <img class="promo-head" src="http://www.hyundai.ru/media/offers_image/04cbeb84a054d5e241ea61acbfabdf67_5_19.jpg" style=""/> -->
