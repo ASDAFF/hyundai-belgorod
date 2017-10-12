@@ -2294,7 +2294,7 @@ html.is-spreader-active body {
 .footer-primary__includes {
     padding-left: 50px;
     padding-right: 50px;
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 1600px;
     width: auto
 }
