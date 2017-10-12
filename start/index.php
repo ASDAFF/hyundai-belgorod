@@ -22,7 +22,7 @@ $APPLICATION->SetTitle("NewSolaris");
     <main class="main" data-model="home">
 
 
-        <div class="main overflow">
+        <div class="main">
             <div class="layout__start-redesign">
                 <div class="main__container">
                     <div class="main__title-label title-label">
