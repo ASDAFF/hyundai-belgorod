@@ -146,6 +146,12 @@ foreach($xml->ContractList->Contract as $key => $cont){
         if(strlen((string)$cont->DEFAULT_COMPLIT->value[0]) < 1 OR (string)$cont->DEFAULT_COMPLIT->value[0] == "0"){$arPropsNo[(string)$cont->VIN][] = 'DEFAULT_COMPLIT (Стандартная комплектация)';}
 
 
+        //если модел g80 или g90 делаем неактивной
+        if((string)$cont->MODEL == 'G80' OR (string)$cont->MODEL == 'G90'){
+            $active = 'N';
+        }else{
+            $active = 'Y';
+        }
 
 
         $arLoadProductArray = Array(
@@ -154,7 +160,7 @@ foreach($xml->ContractList->Contract as $key => $cont){
         "PROPERTY_VALUES"=> $PROP,
         "NAME"           => (string)$cont->MARK.' '.(string)$cont->MODEL.' '.(string)$cont->SpecName,
         "CODE"           => translit((string)$cont->VIN),
-        "ACTIVE"         => "Y"            // активен
+        "ACTIVE"         => $active            // активен
         );
 
 
