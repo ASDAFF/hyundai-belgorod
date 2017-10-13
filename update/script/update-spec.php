@@ -22,9 +22,10 @@ if(CModule::IncludeModule("iblock")):
 
 
 
-//$xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new_car_voronezh_hyundai_1.xml',true);
-$xml = file_get_contents("http://turbodealer.ru/export/hyundai_ring.xml",true);
-    
+$xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new_car_voronezh_hyundai_1.xml',true);
+//$xml = file_get_contents("http://turbodealer.ru/export/hyundai_ring.xml",true);
+
+
 $xml = new SimpleXMLElement($xml);
     $arPropsNo = array();
     $arAddAdmin = array();
@@ -86,7 +87,7 @@ foreach($xml->ContractList->Contract as $key => $cont){
 
 
 
-    /*
+
 
 
     $dir = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new/'),array('.','..'));
@@ -115,11 +116,13 @@ foreach($xml->ContractList->Contract as $key => $cont){
         }
     }
 
-    */
+    /*
 
-    foreach($cont->SLIDER->VALUE as $slider){
-        $PROP['SLIDER'][] = (string)$slider;
-    }
+     foreach($cont->SLIDER->VALUE as $slider){
+         $PROP['SLIDER'][] = (string)$slider;
+     }
+
+     */
 
     $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
     $arFilter = Array("IBLOCK_ID"=>8, "PROPERTY_SpecId" => (string)$cont->SpecId,"PROPERTY_color_code" => (string)$cont->ColorCode,"PROPERTY_NEW_PRICE" => (string)$cont->NEW_PRICE);
