@@ -1,6 +1,4 @@
 <?php
-phpinfo();
-
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 
 
@@ -26,8 +24,7 @@ if(CModule::IncludeModule("iblock")):
 
 //$xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new_car_voronezh_hyundai_1.xml',true);
 $xml = file_get_contents("http://turbodealer.ru/export/hyundai_ring.xml",true);
-var_dump($xml);
-
+    
 $xml = new SimpleXMLElement($xml);
     $arPropsNo = array();
     $arAddAdmin = array();
