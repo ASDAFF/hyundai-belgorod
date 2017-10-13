@@ -20,7 +20,8 @@ if(CModule::IncludeModule("iblock")):
 
 
 
-$xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new_car_voronezh_hyundai_1.xml',true);
+//$xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new_car_voronezh_hyundai_1.xml',true);
+$xml = file_get_contents("http://turbodealer.ru/export/hyundai_ring.xml",true);
 
 
 $xml = new SimpleXMLElement($xml);
@@ -84,6 +85,7 @@ foreach($xml->ContractList->Contract as $key => $cont){
 
 
 
+    /*
 
 
     $dir = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new/'),array('.','..'));
@@ -112,6 +114,11 @@ foreach($xml->ContractList->Contract as $key => $cont){
         }
     }
 
+    */
+
+    foreach($cont->SLIDER->VALUE as $slider){
+        $PROP['SLIDER'][] = (string)$slider;
+    }
 
     $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
     $arFilter = Array("IBLOCK_ID"=>8, "PROPERTY_SpecId" => (string)$cont->SpecId,"PROPERTY_color_code" => (string)$cont->ColorCode,"PROPERTY_NEW_PRICE" => (string)$cont->NEW_PRICE);
@@ -169,12 +176,7 @@ foreach($xml->ContractList->Contract as $key => $cont){
 
 
 			
-				if(!empty($PROP['SLIDER'])){
-					//	print '<a href="/offer/'.(string)$cont->VIN.'/">'.(string)$cont->SpecName.'</a><br>';
-                    if(!preg_match('/preview/',implode($PROP['SLIDER']),$preg)){
-                        $arNoPrew[] = (string)$cont->VIN.' - '.(string)$cont->SpecId.' - '.(string)$cont->ColorCode . '(не найдено preview.jpg)';
-                    }
-					}else{
+				if(empty($PROP['SLIDER'])){
 						$arNoImg[] = (string)$cont->VIN.' - '.(string)$cont->SpecId.' - '.(string)$cont->ColorCode .'(не найдено фото)';
 					}
 
@@ -204,7 +206,7 @@ foreach($xml->ContractList->Contract as $key => $cont){
     $noCorrectAdmin = 'Из них некорректно оформлены свойства: '.count($arPropsNo);
     $noCorrectAdminPhoto = 'Из них некорректно оформлены фото: '.count($arNoImg);
 
-    $message = $xmlAll.'<br>'.$addAdmin.'<br>'.$noCorrectAdmin.'<br>'.$noCorrectAdminPhoto.'<br>---<br>'.$string.' <br>*********************<br>Нет фото VIN - SpecId - ColorCode:<br> '.implode("<br>", $arNoImg).'<br>'.implode("<br>", $arNoPrew);
+    $message = $xmlAll.'<br>'.$addAdmin.'<br>'.$noCorrectAdmin.'<br>'.$noCorrectAdminPhoto.'<br>---<br>'.$string.' <br>*********************<br>Нет фото VIN - SpecId - ColorCode:<br> '.implode("<br>", $arNoImg);
 
     $arEventFields = array(
         "MESSAGE" => $message,
