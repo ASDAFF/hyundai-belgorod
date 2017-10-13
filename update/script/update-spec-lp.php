@@ -20,7 +20,7 @@ if(CModule::IncludeModule("iblock")):
 
 
 
-    $xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/lipetsk/new_car.xml',true);
+    $xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/lipetsk/new_car_lipetsk_hyundai.xml',true);
 
 
     $xml = new SimpleXMLElement($xml);
