@@ -4,7 +4,10 @@
 <html lang="ru">
 <head>
 	<meta charset="utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!--	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">-->
+	<meta name="viewport" content="width=1920">
+
 	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"/><![endif]-->
 
 	<?$APPLICATION->ShowHead();?>
@@ -56,7 +59,7 @@
 		})(window,document,'script','dataLayer','GTM-NZBL9QH');</script>
 	<!-- End Google Tag Manager -->
 </head>
-<body class="main">
+<body class="main" style="min-width: 1920px;max-width: 1920px;">
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZBL9QH"
