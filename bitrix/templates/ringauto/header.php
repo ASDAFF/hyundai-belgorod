@@ -79,18 +79,24 @@
 
 	<header class="header-primary" id="header-primary">
 		<div class="navbar-primary">
-			<div class="navbar-primary__sp" data-role="navbar-support">
 
-				<span class="navbar-primary__sp-title">«Ринг Авто» г. Воронеж, ул. Изыскателей, 39, корп. 2</span>
-				<span class="navbar-primary__sp-phone-w">
-					<span class="navbar-primary__sp-phone">+7 473 261-7777</span>
-				</span><br>
+			<div class="navbar-primary__sp" data-role="navbar-support">
 				<span class="navbar-primary__sp-title">«Ринг Авто Север» г. Воронеж, 7 км автодороги Воронеж-Москва, напротив Сити-парка «Град»</span>
 				<span class="navbar-primary__sp-phone-w">
 					<span class="navbar-primary__sp-phone">+7 473 347-7777</span>
 				</span>
 
 			</div>
+
+			<div class="navbar-primary__sp" data-role="navbar-support">
+
+				<span class="navbar-primary__sp-title">«Ринг Авто» г. Воронеж, ул. Изыскателей, 39, корп. 2</span>
+				<span class="navbar-primary__sp-phone-w">
+					<span class="navbar-primary__sp-phone">+7 473 261-7777</span>
+				</span>
+			</div>
+
+
 			<nav class="navbar-primary__nv" role="navigation">
 				<ul class="navbar-primary__nv-list">
 					<li class="navbar-primary__nv-list-item"><a href="/configurator/" class="navbar-primary__nv-list-link">Создать свой Hyundai</a></li>
