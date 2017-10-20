@@ -86,15 +86,16 @@
 					<span class="navbar-primary__sp-phone">+7 473 347-7777</span>
 				</span>
 
-			</div>
-
-			<div class="navbar-primary__sp" data-role="navbar-support">
+				<br>
 
 				<span class="navbar-primary__sp-title">«Ринг Авто» г. Воронеж, ул. Изыскателей, 39, корп. 2</span>
 				<span class="navbar-primary__sp-phone-w">
 					<span class="navbar-primary__sp-phone">+7 473 261-7777</span>
 				</span>
+
 			</div>
+
+
 
 
 			<nav class="navbar-primary__nv" role="navigation">

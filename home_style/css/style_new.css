@@ -2436,7 +2436,7 @@ html.is-spreader-active body {
     color: #bdbdbd;
     /*letter-spacing: .075em;*/
     /*line-height: 42px;*/
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
     -webkit-transition: color 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     -o-transition: color 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     transition: color 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
@@ -2446,7 +2446,7 @@ html.is-spreader-active body {
 }
 
 .navbar-primary__sp-phone-w {
-    line-height: 40px;
+    line-height: 20px;
     display: inline-block
 }
 
