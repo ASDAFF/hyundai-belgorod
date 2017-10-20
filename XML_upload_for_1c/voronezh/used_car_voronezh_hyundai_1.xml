@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>13.10.2017</Date>
-		<Time>12:02:14</Time>
+		<Date>20.10.2017</Date>
+		<Time>12:06:38</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -45,7 +45,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Задний</GRAR_TYPE>
 			<run>37 128</run>
-			<year>2 013</year>
+			<year>2013</year>
 			<GENERATION>Equus, II Рестайлинг</GENERATION>
 			<MODIFICATION>5.0 AT (430 л.с.)</MODIFICATION>
 			<PERIOD>2013 - 2016</PERIOD>
@@ -104,7 +104,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>46 000</run>
-			<year>2 012</year>
+			<year>2012</year>
 			<GENERATION>Tiggo (T11), I</GENERATION>
 			<MODIFICATION>1.6 MT (119 л.с.)</MODIFICATION>
 			<PERIOD>2007 - 2013</PERIOD>
@@ -156,7 +156,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>52 125</run>
-			<year>2 014</year>
+			<year>2014</year>
 			<GENERATION>Sorento, II Рестайли</GENERATION>
 			<MODIFICATION>2.4 AT (175 л.с.) 4W</MODIFICATION>
 			<PERIOD>2012 - по н.в.</PERIOD>
@@ -208,7 +208,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>112 295</run>
-			<year>2 014</year>
+			<year>2014</year>
 			<GENERATION>A3, III (8V)</GENERATION>
 			<MODIFICATION>1.4 AT (125 л.с.)</MODIFICATION>
 			<PERIOD>2013 - 2016</PERIOD>
@@ -260,7 +260,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>56 000</run>
-			<year>2 014</year>
+			<year>2014</year>
 			<GENERATION>Venga, I Рестайлинг</GENERATION>
 			<MODIFICATION>1.6 AT (124 л.с.)</MODIFICATION>
 			<PERIOD>2014 - по н.в.</PERIOD>
@@ -312,7 +312,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>76 266</run>
-			<year>2 012</year>
+			<year>2012</year>
 			<GENERATION>Sorento, II Рестайли</GENERATION>
 			<MODIFICATION>2.4 AT (175 л.с.) 4W</MODIFICATION>
 			<PERIOD>2012 - по н.в.</PERIOD>
@@ -364,7 +364,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>130 000</run>
-			<year>2 010</year>
+			<year>2010</year>
 			<GENERATION>Q7, I Рестайлинг</GENERATION>
 			<MODIFICATION>3.0d AT (238 л.с.) 4</MODIFICATION>
 			<PERIOD>2009 - 2015</PERIOD>
@@ -373,6 +373,58 @@
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
 			<CREDIT>-1 450 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>X9L212300C0415353</VIN>
+			<MARK>Chevrolet</MARK>
+			<MODEL>NIVA</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,7</CAPACITY>
+			<POWER>80</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>5</TransmissionCount>
+			<Color>серо-коричневый</Color>
+			<ColorCode>AA3</ColorCode>
+			<ColorOrig>Сеый</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>335 000</NEW_PRICE>
+			<CUZOV>Внедорожник 5 дв.</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Полный</GRAR_TYPE>
+			<run>90 045</run>
+			<year>2012</year>
+			<GENERATION>Niva, I Рестайлинг</GENERATION>
+			<MODIFICATION>1.7 MT (80 л.с.) 4WD</MODIFICATION>
+			<PERIOD>2009 - по н.в.</PERIOD>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>-335 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -416,7 +468,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>167 380</run>
-			<year>2 010</year>
+			<year>2010</year>
 			<GENERATION>L200, IV</GENERATION>
 			<MODIFICATION>2.5d MT (136 л.с.) 4</MODIFICATION>
 			<PERIOD>2006 - 2014</PERIOD>
@@ -425,58 +477,6 @@
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
 			<CREDIT>-785 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>X9F5XXEED56B33588</VIN>
-			<MARK>Ford</MARK>
-			<MODEL>FOCUS</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>100</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>4</TransmissionCount>
-			<Color>серебристый</Color>
-			<ColorCode>BW</ColorCode>
-			<ColorOrig>Серый</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>200 000</NEW_PRICE>
-			<CUZOV>Хэтчбек 5 дв.</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>128 000</run>
-			<year>2 006</year>
-			<GENERATION>Focus, II</GENERATION>
-			<MODIFICATION>1.6 AT (100 л.с.)</MODIFICATION>
-			<PERIOD>2005 - 2008</PERIOD>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>-200 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -545,7 +545,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>100 525</run>
-			<year>2 011</year>
+			<year>2011</year>
 			<GENERATION>308, I Рестайлинг</GENERATION>
 			<MODIFICATION>1.6 AT (120 л.с.)</MODIFICATION>
 			<PERIOD>2011 - 2013</PERIOD>
@@ -554,110 +554,6 @@
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
 			<CREDIT>-370 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>WV2ZZZ7HZ5H105317</VIN>
-			<MARK>Volkswagen</MARK>
-			<MODEL>MULTIVAN</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>2,461</CAPACITY>
-			<POWER>174</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Дизель</FUEL_TYPE>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>серебристый</Color>
-			<ColorCode>YK</ColorCode>
-			<ColorOrig>Серый</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>600 000</NEW_PRICE>
-			<CUZOV>Минивэн</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Кожа</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>329 000</run>
-			<year>2 005</year>
-			<GENERATION>Multivan, T5</GENERATION>
-			<MODIFICATION>2.5d AT (174 л.с.)</MODIFICATION>
-			<PERIOD>2003 - 2009</PERIOD>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>-600 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>WV2ZZZ7HZ7H091891</VIN>
-			<MARK>Volkswagen</MARK>
-			<MODEL>TRANSPORTER</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,896</CAPACITY>
-			<POWER>86</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Дизель</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>темно синий</Color>
-			<ColorCode>SU6</ColorCode>
-			<ColorOrig>Синий</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>720 000</NEW_PRICE>
-			<CUZOV>Минивэн</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>244 400</run>
-			<year>2 007</year>
-			<GENERATION>Transporter, T5</GENERATION>
-			<MODIFICATION>1.9d MT (85 л.с.)</MODIFICATION>
-			<PERIOD>2003 - 2009</PERIOD>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>-720 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -722,7 +618,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>98 000</run>
-			<year>2 013</year>
+			<year>2013</year>
 			<GENERATION>Mokka, I</GENERATION>
 			<MODIFICATION>1.8 MT (140 л.с.)</MODIFICATION>
 			<PERIOD>2012 - 2016</PERIOD>
@@ -774,7 +670,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>120 125</run>
-			<year>2 007</year>
+			<year>2007</year>
 			<GENERATION>A4, IV (B8)</GENERATION>
 			<MODIFICATION>1.8 MT (120 л.с.)</MODIFICATION>
 			<PERIOD>2008 - 2011</PERIOD>
@@ -826,7 +722,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>42 000</run>
-			<year>2 015</year>
+			<year>2015</year>
 			<GENERATION>Granta</GENERATION>
 			<MODIFICATION>1.6 AT (106 л.с.)</MODIFICATION>
 			<PERIOD>2015 - по н.в.</PERIOD>
@@ -835,58 +731,6 @@
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
 			<CREDIT>-385 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>XTA211440B5018861</VIN>
-			<MARK>LADA (ВАЗ)</MARK>
-			<MODEL>2114</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>81</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>5</TransmissionCount>
-			<Color>светло-серебристый</Color>
-			<ColorCode>VS</ColorCode>
-			<ColorOrig>Серый</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>135 000</NEW_PRICE>
-			<CUZOV>Хэтчбек 5 дв.</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>64 000</run>
-			<year>2 011</year>
-			<GENERATION>2114</GENERATION>
-			<MODIFICATION>1.6 MT (81 л.с.)</MODIFICATION>
-			<PERIOD>2007 - 2014</PERIOD>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>-135 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -957,7 +801,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>145 119</run>
-			<year>2 012</year>
+			<year>2012</year>
 			<GENERATION>Santa Fe, III</GENERATION>
 			<MODIFICATION>2.4 AT (175 л.с.) 4W</MODIFICATION>
 			<PERIOD>2012 - 2015</PERIOD>
@@ -1013,7 +857,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>73 768</run>
-			<year>2 015</year>
+			<year>2015</year>
 			<GENERATION>i30, II Рестайлинг</GENERATION>
 			<MODIFICATION>1.6 AT (130 л.с.)</MODIFICATION>
 			<PERIOD>2015 - по н.в.</PERIOD>
@@ -1047,7 +891,7 @@
 				<value>Автоблокировка дверных замков на скорости</value>
 				<value>Складывающаяся спинка заднего сиденья</value>
 				<value>Зеркала в цвет кузова</value>
-				<value>Брызговики</value>
+				<value>Передние и задние брызговики</value>
 				<value>Дополнительный стоп-сигнал</value>
 				<value>Ручки дверей в цвет кузова</value>
 				<value>Кондиционер</value>
@@ -1143,7 +987,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Задний</GRAR_TYPE>
 			<run>15 000</run>
-			<year>2 014</year>
+			<year>2014</year>
 			<GENERATION>Equus, II Рестайлинг</GENERATION>
 			<MODIFICATION>3.8 AT (334 л.с.)</MODIFICATION>
 			<PERIOD>2013 - 2016</PERIOD>
@@ -1217,7 +1061,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>106 672</run>
-			<year>2 014</year>
+			<year>2014</year>
 			<GENERATION>ix35, I Рестайлинг</GENERATION>
 			<MODIFICATION>2.0 AT (150 л.с.)</MODIFICATION>
 			<PERIOD>2013 - 2015</PERIOD>
@@ -1280,7 +1124,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>109 000</run>
-			<year>2 008</year>
+			<year>2008</year>
 			<GENERATION>Tiguan, I</GENERATION>
 			<MODIFICATION>1.4 MT (150 л.с.) 4W</MODIFICATION>
 			<PERIOD>2007 - 2011</PERIOD>
@@ -1325,14 +1169,14 @@
 
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>595 000</NEW_PRICE>
+			<NEW_PRICE>585 000</NEW_PRICE>
 			<CUZOV>Хэтчбек 5 дв.</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>37 000</run>
-			<year>2 011</year>
+			<year>2011</year>
 			<GENERATION>Golf Plus, II</GENERATION>
 			<MODIFICATION>1.4 MT (122 л.с.)</MODIFICATION>
 			<PERIOD>2009 - 2014</PERIOD>
@@ -1340,7 +1184,7 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>-595 000</CREDIT>
+			<CREDIT>-585 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1384,7 +1228,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>143 287</run>
-			<year>2 011</year>
+			<year>2011</year>
 			<GENERATION>ix35, I</GENERATION>
 			<MODIFICATION>2.0 MT (150 л.с.)</MODIFICATION>
 			<PERIOD>2010 - 2013</PERIOD>
@@ -1403,6 +1247,58 @@
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
 			<CREDIT>-735 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>Z8TNC5FS9BM506070</VIN>
+			<MARK>Citroen</MARK>
+			<MODEL>C4</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>120</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>белый</Color>
+			<ColorCode>WHC</ColorCode>
+			<ColorOrig>Белый</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>455 000</NEW_PRICE>
+			<CUZOV>Хэтчбек 5 дв.</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Комбинированный (кожа+ткань)</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>153 554</run>
+			<year>2011</year>
+			<GENERATION>C4, II</GENERATION>
+			<MODIFICATION>1.6 AT (120 л.с.)</MODIFICATION>
+			<PERIOD>2010 - 2015</PERIOD>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>-455 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1446,7 +1342,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>108 759</run>
-			<year>2 013</year>
+			<year>2013</year>
 			<GENERATION>Santa Fe, III</GENERATION>
 			<MODIFICATION>2.4 AT (175 л.с.) 4W</MODIFICATION>
 			<PERIOD>2012 - 2015</PERIOD>
@@ -1498,7 +1394,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>73 992</run>
-			<year>2 009</year>
+			<year>2009</year>
 			<GENERATION>308, I</GENERATION>
 			<MODIFICATION>1.6 AT (120 л.с.)</MODIFICATION>
 			<PERIOD>2007 - 2011</PERIOD>
@@ -1511,19 +1407,19 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
-			<VIN>VF7SC5FS9AA609429</VIN>
-			<MARK>Citroen</MARK>
-			<MODEL>C3</MODEL>
+			<VIN>XWEGT411BG0000354</VIN>
+			<MARK>Kia</MARK>
+			<MODEL>OPTIMA</MODEL>
 			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>120</POWER>
+			<CAPACITY>2</CAPACITY>
+			<POWER>175</POWER>
 			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<FUEL_TYPE>Дизель</FUEL_TYPE>
 			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>4</TransmissionCount>
-			<Color>серебристый</Color>
-			<ColorCode>BW</ColorCode>
-			<ColorOrig>Серый</ColorOrig>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>синий</Color>
+			<ColorCode>3E</ColorCode>
+			<ColorOrig>Синий</ColorOrig>
 			<SpecName/>
 			<SpecId/>
 			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
@@ -1543,22 +1439,22 @@
 
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>355 000</NEW_PRICE>
-			<CUZOV>Хэтчбек 5 дв.</CUZOV>
+			<NEW_PRICE>1 155 000</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>125 000</run>
-			<year>2 010</year>
-			<GENERATION>C3, II</GENERATION>
-			<MODIFICATION>1.6 AT (120 л.с.)</MODIFICATION>
-			<PERIOD>2009 - 2013</PERIOD>
+			<run>88 000</run>
+			<year>2016</year>
+			<GENERATION>Optima, IV</GENERATION>
+			<MODIFICATION>2.0 AT (150 л.с.)</MODIFICATION>
+			<PERIOD>2016 - по н.в.</PERIOD>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>-355 000</CREDIT>
+			<CREDIT>-1 155 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1602,7 +1498,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>95 000</run>
-			<year>2 008</year>
+			<year>2008</year>
 			<GENERATION>Astra, H Рестайлинг</GENERATION>
 			<MODIFICATION>GTC 1.6 AT (115 л.с.</MODIFICATION>
 			<PERIOD>2006 - 2014</PERIOD>
@@ -1654,7 +1550,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>131 000</run>
-			<year>2 004</year>
+			<year>2004</year>
 			<GENERATION>206</GENERATION>
 			<MODIFICATION>+ 1.4 MT (75 л.с.)</MODIFICATION>
 			<PERIOD>2009 - 2012</PERIOD>
@@ -1731,7 +1627,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>30 500</run>
-			<year>2 016</year>
+			<year>2016</year>
 			<GENERATION>Granta</GENERATION>
 			<MODIFICATION>1.6 AT (106 л.с.)</MODIFICATION>
 			<PERIOD>2015 - по н.в.</PERIOD>
@@ -1804,7 +1700,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>240 269</run>
-			<year>2 005</year>
+			<year>2005</year>
 			<GENERATION>S40, II</GENERATION>
 			<MODIFICATION>2.4 AT (140 л.с.)</MODIFICATION>
 			<PERIOD>2004 - 2007</PERIOD>
@@ -1881,7 +1777,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>85 000</run>
-			<year>2 014</year>
+			<year>2014</year>
 			<GENERATION>S5 (Eagle)</GENERATION>
 			<MODIFICATION>2.0 MT (136 л.с.)</MODIFICATION>
 			<PERIOD>2013 - по н.в.</PERIOD>
@@ -1956,7 +1852,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>90 000</run>
-			<year>2 011</year>
+			<year>2011</year>
 			<GENERATION>Actyon, II</GENERATION>
 			<MODIFICATION>2.0d MT (175 л.с.) 4</MODIFICATION>
 			<PERIOD>2010 - 2013</PERIOD>
@@ -2008,7 +1904,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>55 000</run>
-			<year>2 014</year>
+			<year>2014</year>
 			<GENERATION>CX-5, I</GENERATION>
 			<MODIFICATION>2.5 AT (192 л.с.) 4W</MODIFICATION>
 			<PERIOD>2013 - 2014</PERIOD>
@@ -2085,7 +1981,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>109 895</run>
-			<year>2 012</year>
+			<year>2012</year>
 			<GENERATION>Focus, III</GENERATION>
 			<MODIFICATION>1.6 MT (125 л.с.)</MODIFICATION>
 			<PERIOD>2011 - 2015</PERIOD>
@@ -2137,7 +2033,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>184 000</run>
-			<year>2 007</year>
+			<year>2007</year>
 			<GENERATION>Golf, V</GENERATION>
 			<MODIFICATION>1.4 MT (75 л.с.)</MODIFICATION>
 			<PERIOD>2003 - 2007</PERIOD>
@@ -2146,6 +2042,58 @@
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
 			<CREDIT>-302 500</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
+			<VIN>JN8AZ08W64W308445</VIN>
+			<MARK>Nissan</MARK>
+			<MODEL>MURANO</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>3,5</CAPACITY>
+			<POWER>220</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>черный</Color>
+			<ColorCode>NKA</ColorCode>
+			<ColorOrig>Черный</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>370 000</NEW_PRICE>
+			<CUZOV>Внедорожник 5 дв.</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Кожа</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Полный</GRAR_TYPE>
+			<run>131 280</run>
+			<year>2004</year>
+			<GENERATION>Murano, I (Z50)</GENERATION>
+			<MODIFICATION>3.5 CVT (234 л.с.) 4</MODIFICATION>
+			<PERIOD>2004 - 2008</PERIOD>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>-370 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -2189,7 +2137,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>78 700</run>
-			<year>2 008</year>
+			<year>2008</year>
 			<GENERATION>Priora, I</GENERATION>
 			<MODIFICATION>1.6 MT (98 л.с.)</MODIFICATION>
 			<PERIOD>2007 - 2013</PERIOD>
@@ -2241,7 +2189,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>76 000</run>
-			<year>2 013</year>
+			<year>2013</year>
 			<GENERATION>Qashqai, I Рестайлин</GENERATION>
 			<MODIFICATION>1.6 CVT (117 л.с.)</MODIFICATION>
 			<PERIOD>2010 - 2013</PERIOD>
@@ -2293,7 +2241,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>198 338</run>
-			<year>2 007</year>
+			<year>2007</year>
 			<GENERATION>3 серия, V (E90/E91/</GENERATION>
 			<MODIFICATION>325i 2.5 AT (218 л.с</MODIFICATION>
 			<PERIOD>2005 - 2008</PERIOD>
@@ -2302,58 +2250,6 @@
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
 			<CREDIT>-575 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>XW8ZZZ61ZDG026862</VIN>
-			<MARK>Volkswagen</MARK>
-			<MODEL>POLO</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>105</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>5</TransmissionCount>
-			<Color>серебристый</Color>
-			<ColorCode>BW</ColorCode>
-			<ColorOrig>Серый</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>460 000</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>82 000</run>
-			<year>2 012</year>
-			<GENERATION>Polo, V</GENERATION>
-			<MODIFICATION>1.6 MT (105 л.с.)</MODIFICATION>
-			<PERIOD>2010 - 2015</PERIOD>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>-460 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -2397,7 +2293,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>45 000</run>
-			<year>2 015</year>
+			<year>2015</year>
 			<GENERATION>Rio, III Рестайлинг</GENERATION>
 			<MODIFICATION>1.6 MT (123 л.с.)</MODIFICATION>
 			<PERIOD>2015 - по н.в.</PERIOD>
@@ -2406,119 +2302,6 @@
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
 			<CREDIT>-570 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>TMBEH45J8C3061784</VIN>
-			<MARK>Skoda</MARK>
-			<MODEL>FABIA</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,2</CAPACITY>
-			<POWER>69</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>5</TransmissionCount>
-			<Color>белый</Color>
-			<ColorCode>WC9</ColorCode>
-			<ColorOrig>Белый</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>375 000</NEW_PRICE>
-			<CUZOV>Хэтчбек 5 дв.</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>73 000</run>
-			<year>2 011</year>
-			<GENERATION>Fabia, II Рестайлинг</GENERATION>
-			<MODIFICATION>1.2 MT (70 л.с.)</MODIFICATION>
-			<PERIOD>2010 - 2014</PERIOD>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>-375 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94CT41DADR300144</VIN>
-			<MARK>Hyundai</MARK>
-			<MODEL>SOLARIS</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>123</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>5</TransmissionCount>
-			<Color>черный</Color>
-			<ColorCode>MZH</ColorCode>
-			<ColorOrig>Черный</ColorOrig>
-			<SpecName>new Optima 1.6 MT Audio расш пакет</SpecName>
-			<SpecId>ЦБ000293</SpecId>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>552 400</OLD_PRICE>
-			<NEW_PRICE>510 000</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>30 000</run>
-			<year>2 014</year>
-			<GENERATION>Solaris, I</GENERATION>
-			<MODIFICATION>1.6 MT (123 л.с.)</MODIFICATION>
-			<PERIOD>2010 - 2014</PERIOD>
-			<OPTION_SUMM>15 124,84</OPTION_SUMM>
-			<OPTION_EQU>
-				<value>ЗАЩИТА КАРТЕРА С КРЕПЕЖОМ (СТАЛЬНАЯ) SOLARIS RIVA</value>
-				<value>ПОДКРЫЛОК ПЕРЕДНИЙ ПРАВЫЙ SOLARIS</value>
-				<value>ПОДКРЫЛОК ПЕРЕДНИЙ ЛЕВЫЙ SOLARIS</value>
-				<value>ПОДКРЫЛОК ЗАДНИЙ ЛЕВЫЙ SOLARIS</value>
-				<value>ПОДКРЫЛОК ЗАДНИЙ ПРАВЫЙ SOLARIS</value>
-				<value>КОВРИКИ САЛОНА  резиновый SOLARIS</value>
-				<value>Установка защиты картера</value>
-				<value>Подкрылки</value>
-			</OPTION_EQU>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>42 400</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -2587,7 +2370,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>178 890</run>
-			<year>2 008</year>
+			<year>2008</year>
 			<GENERATION>Forester, III</GENERATION>
 			<MODIFICATION>2.0 MT (150 л.с.) 4W</MODIFICATION>
 			<PERIOD>2007 - 2011</PERIOD>
@@ -2639,7 +2422,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>185 690</run>
-			<year>2 004</year>
+			<year>2004</year>
 			<GENERATION>Focus, I</GENERATION>
 			<MODIFICATION>1.8 MT (115 л.с.)</MODIFICATION>
 			<PERIOD>1998 - 2001</PERIOD>
@@ -2700,7 +2483,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>75 255</run>
-			<year>2 013</year>
+			<year>2013</year>
 			<GENERATION>Santa Fe, III</GENERATION>
 			<MODIFICATION>2.4 AT (175 л.с.) 4W</MODIFICATION>
 			<PERIOD>2012 - 2015</PERIOD>

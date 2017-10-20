@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>13.10.2017</Date>
-		<Time>13:03:06</Time>
+		<Date>17.10.2017</Date>
+		<Time>13:04:14</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -117,81 +117,6 @@
 				<value>WE8</value>
 			</EXT_COMPLIT>
 			<CREDIT>0</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
-			<VIN>XW8AC2NH4HK125125</VIN>
-			<MARK/>
-			<MODEL>Rapid</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>Красный Tornado</Color>
-			<ColorCode>G2G2</ColorCode>
-			<ColorOrig/>
-			<SpecName>Ambition 1.6 (110) АКПП</SpecName>
-			<SpecId>NK33LC</SpecId>
-			<Description/>
-			<OLD_PRICE>939 300</OLD_PRICE>
-			<NEW_PRICE>879 300</NEW_PRICE>
-			<CUZOV>седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>AB Черный</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>2</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT>
-				<value>WFS</value>
-				<value>PHB</value>
-			</EXT_COMPLIT>
-			<CREDIT>60 000</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
-			<VIN>XW8AD6NE0JH010664</VIN>
-			<MARK/>
-			<MODEL>Octavia</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,8</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>Серебристый Brilliant металлик</Color>
-			<ColorCode>8E8E</ColorCode>
-			<ColorOrig/>
-			<SpecName>Style 1.8 (180 л.с.) DSG-7</SpecName>
-			<SpecId>NL34PD</SpecId>
-			<Description/>
-			<OLD_PRICE>1 458 400</OLD_PRICE>
-			<NEW_PRICE>1 368 400</NEW_PRICE>
-			<CUZOV>седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>HA Черный</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>1</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT>
-				<value>WWP</value>
-				<value>WRE</value>
-				<value>PCB</value>
-			</EXT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -423,42 +348,6 @@
 			<number>+7 (473) 2333303</number>
 		</Contract>
 		<Contract>
-			<VIN>XW8AC2NE1JH015786</VIN>
-			<MARK/>
-			<MODEL>Octavia</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,4</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>Коричневый Topaz металлик</Color>
-			<ColorCode>4L4L</ColorCode>
-			<ColorOrig/>
-			<SpecName>Octavia Active 1.4 TSI (150 л.с.) ручн.-6</SpecName>
-			<SpecId>NL32M5</SpecId>
-			<Description/>
-			<OLD_PRICE>1 069 000</OLD_PRICE>
-			<NEW_PRICE>979 000</NEW_PRICE>
-			<CUZOV>седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>HA Черный</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>1</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT>
-				<value>WR1</value>
-			</EXT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
 			<VIN>TMBAL7NP3J7507137</VIN>
 			<MARK/>
 			<MODEL>Superb NEW</MODEL>
@@ -615,42 +504,6 @@
 			<number>+7 (473) 2333303</number>
 		</Contract>
 		<Contract>
-			<VIN>XW8AC2NE9JH016748</VIN>
-			<MARK/>
-			<MODEL>Octavia</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,4</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>Серый Platinum металлик</Color>
-			<ColorCode>2R2R</ColorCode>
-			<ColorOrig/>
-			<SpecName>Octavia Active 1.4 TSI (150 л.с.) ручн.-6</SpecName>
-			<SpecId>NL32M5</SpecId>
-			<Description/>
-			<OLD_PRICE>1 069 000</OLD_PRICE>
-			<NEW_PRICE>979 000</NEW_PRICE>
-			<CUZOV>седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>HA Черный</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>1</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT>
-				<value>WR1</value>
-			</EXT_COMPLIT>
-			<CREDIT>90 000</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
 			<VIN>TMBLJ6NS9J8008382</VIN>
 			<MARK/>
 			<MODEL>Kodiaq</MODEL>
@@ -688,43 +541,6 @@
 				<value>5XH</value>
 			</EXT_COMPLIT>
 			<CREDIT>100 000</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
-			<VIN>XW8AC1NH8HK125459</VIN>
-			<MARK/>
-			<MODEL>Rapid</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>Белый Pure</Color>
-			<ColorCode>0Q0Q</ColorCode>
-			<ColorOrig/>
-			<SpecName>Active 1.6 (110 ) АКПП</SpecName>
-			<SpecId>NK32LC</SpecId>
-			<Description/>
-			<OLD_PRICE>802 500</OLD_PRICE>
-			<NEW_PRICE>742 500</NEW_PRICE>
-			<CUZOV>седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>EQ Черный</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>1</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT>
-				<value>WA1</value>
-				<value>WR1</value>
-			</EXT_COMPLIT>
-			<CREDIT>60 000</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -843,46 +659,6 @@
 			<number>+7 (473) 2333303</number>
 		</Contract>
 		<Contract>
-			<VIN>XW8AN6NE3JH019999</VIN>
-			<MARK/>
-			<MODEL>Octavia</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>Белый Pure</Color>
-			<ColorCode>0Q0Q</ColorCode>
-			<ColorOrig/>
-			<SpecName>Octavia Style 1.6 (110 л.с.) авт.-6</SpecName>
-			<SpecId>NL34HC</SpecId>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>HA Черный</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>1</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT>
-				<value>WRE</value>
-				<value>WWP</value>
-				<value>RA3</value>
-				<value>WRE</value>
-				<value>PCA</value>
-			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
 			<VIN>XW8AC2NH9JK108844</VIN>
 			<MARK/>
 			<MODEL>Rapid</MODEL>
@@ -951,42 +727,6 @@
 				<value>WSA</value>
 			</EXT_COMPLIT>
 			<CREDIT>210 000</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
-			<VIN>XW8AN2NE4JH019003</VIN>
-			<MARK/>
-			<MODEL>Octavia</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>1,6</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>Белый Pure</Color>
-			<ColorCode>0Q0Q</ColorCode>
-			<ColorOrig/>
-			<SpecName>Octavia Active 1.6 (110 л.с.) авт. -6</SpecName>
-			<SpecId>NL32HC</SpecId>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>HA Черный</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>1</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT>
-				<value>WR1</value>
-			</EXT_COMPLIT>
-			<CREDIT>0</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>
 		</Contract>
@@ -1168,43 +908,6 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
-			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
-			<number>+7 (473) 2333303</number>
-		</Contract>
-		<Contract>
-			<VIN>XW8AG2NH1JK108437</VIN>
-			<MARK/>
-			<MODEL>Rapid</MODEL>
-			<IsNew>yes</IsNew>
-			<CAPACITY>0</CAPACITY>
-			<POWER>0</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount>0</TransmissionCount>
-			<Color>Бежевый Titanium металлик</Color>
-			<ColorCode>0N0N</ColorCode>
-			<ColorOrig/>
-			<SpecName>Ambition 1.6 (90 л.с.) мех-5</SpecName>
-			<SpecId>NK33D4</SpecId>
-			<Description/>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV>седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON>AB Черный</COLOR_SALON>
-			<GRAR_TYPE/>
-			<run>1</run>
-			<year>2 017</year>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT>
-				<value>WWP</value>
-				<value>PJA</value>
-			</EXT_COMPLIT>
 			<CREDIT>0</CREDIT>
 			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
 			<number>+7 (473) 2333303</number>

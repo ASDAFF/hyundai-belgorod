@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>12.10.2017</Date>
-		<Time>21:34:47</Time>
+		<Date>18.10.2017</Date>
+		<Time>21:34:46</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -45,7 +45,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>112 790</run>
-			<year>2 013</year>
+			<year>2013</year>
 			<GENERATION>Niva, I Рестайлинг</GENERATION>
 			<MODIFICATION>1.7 MT (80 л.с.) 4WD</MODIFICATION>
 			<PERIOD>2009 - по н.в.</PERIOD>
@@ -97,7 +97,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>47 774</run>
-			<year>2 015</year>
+			<year>2015</year>
 			<GENERATION>Kalina, II</GENERATION>
 			<MODIFICATION>Cross 1.6 MT (106 л.</MODIFICATION>
 			<PERIOD>2013 - по н.в.</PERIOD>
@@ -147,9 +147,9 @@
 			<Comment/>
 			<TYPE_SALON/>
 			<COLOR_SALON/>
-			<GRAR_TYPE/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>117 082</run>
-			<year>2 011</year>
+			<year>2011</year>
 			<GENERATION>Solaris, I</GENERATION>
 			<MODIFICATION>1.6 AT (123 л.с.)</MODIFICATION>
 			<PERIOD>2011 - 2014</PERIOD>
@@ -194,14 +194,14 @@
 
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>385 000</OLD_PRICE>
-			<NEW_PRICE>395 000</NEW_PRICE>
+			<NEW_PRICE>377 000</NEW_PRICE>
 			<CUZOV>Хэтчбек 5 дв.</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>83 300</run>
-			<year>2 011</year>
+			<year>2011</year>
 			<GENERATION>C4, II</GENERATION>
 			<MODIFICATION>1.6 MT (120 л.с.)</MODIFICATION>
 			<PERIOD>2010 - 2015</PERIOD>
@@ -209,7 +209,7 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>-10 000</CREDIT>
+			<CREDIT>8 000</CREDIT>
 			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
 			<number>7 (4742) 727777</number>
 		</Contract>
@@ -246,14 +246,14 @@
 
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>355 000</OLD_PRICE>
-			<NEW_PRICE>345 000</NEW_PRICE>
+			<NEW_PRICE>325 000</NEW_PRICE>
 			<CUZOV>Внедорожник 5 дв.</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>289 697</run>
-			<year>2 006</year>
+			<year>2006</year>
 			<GENERATION>Kyron, I</GENERATION>
 			<MODIFICATION>2.0d MT (141 л.с.) 4</MODIFICATION>
 			<PERIOD>2005 - 2007</PERIOD>
@@ -261,7 +261,7 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>10 000</CREDIT>
+			<CREDIT>30 000</CREDIT>
 			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
 			<number>7 (4742) 727777</number>
 		</Contract>
@@ -298,14 +298,14 @@
 
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>685 000</OLD_PRICE>
-			<NEW_PRICE>665 000</NEW_PRICE>
+			<NEW_PRICE>655 000</NEW_PRICE>
 			<CUZOV>Внедорожник 5 дв.</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>128 144</run>
-			<year>2 012</year>
+			<year>2012</year>
 			<GENERATION>Mokka, I</GENERATION>
 			<MODIFICATION>1.4 MT (140 л.с.)</MODIFICATION>
 			<PERIOD>2012 - 2016</PERIOD>
@@ -313,7 +313,7 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>20 000</CREDIT>
+			<CREDIT>30 000</CREDIT>
 			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
 			<number>7 (4742) 727777</number>
 		</Contract>
@@ -350,14 +350,14 @@
 
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>935 000</OLD_PRICE>
-			<NEW_PRICE>915 000</NEW_PRICE>
+			<NEW_PRICE>885 000</NEW_PRICE>
 			<CUZOV>Внедорожник 5 дв.</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Кожа</TYPE_SALON>
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>121 655</run>
-			<year>2 011</year>
+			<year>2011</year>
 			<GENERATION>RAV 4, III (XA30) Ре</GENERATION>
 			<MODIFICATION>2.0 CVT (148 л.с.) 4</MODIFICATION>
 			<PERIOD>2010 - 2013</PERIOD>
@@ -365,7 +365,7 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>20 000</CREDIT>
+			<CREDIT>50 000</CREDIT>
 			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
 			<number>7 (4742) 727777</number>
 		</Contract>
@@ -402,14 +402,14 @@
 
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>640 000</OLD_PRICE>
-			<NEW_PRICE>615 000</NEW_PRICE>
+			<NEW_PRICE>595 000</NEW_PRICE>
 			<CUZOV>Внедорожник 5 дв.</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>86 576</run>
-			<year>2 013</year>
+			<year>2013</year>
 			<GENERATION>Duster, I</GENERATION>
 			<MODIFICATION>2.0 AT (135 л.с.)</MODIFICATION>
 			<PERIOD>2010 - 2015</PERIOD>
@@ -417,7 +417,7 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>25 000</CREDIT>
+			<CREDIT>45 000</CREDIT>
 			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
 			<number>7 (4742) 727777</number>
 		</Contract>
@@ -454,14 +454,14 @@
 
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>515 000</OLD_PRICE>
-			<NEW_PRICE>495 000</NEW_PRICE>
+			<NEW_PRICE>478 000</NEW_PRICE>
 			<CUZOV>Внедорожник 5 дв.</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>54 356</run>
-			<year>2 013</year>
+			<year>2013</year>
 			<GENERATION>Emgrand X7, I</GENERATION>
 			<MODIFICATION>2.0 MT (139 л.с.)</MODIFICATION>
 			<PERIOD>2011 - 2016</PERIOD>
@@ -469,7 +469,7 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>20 000</CREDIT>
+			<CREDIT>37 000</CREDIT>
 			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
 			<number>7 (4742) 727777</number>
 		</Contract>
@@ -513,7 +513,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>97 042</run>
-			<year>2 010</year>
+			<year>2010</year>
 			<GENERATION>Kyron, I Рестайлинг</GENERATION>
 			<MODIFICATION>5-speed 2.0d AT (141</MODIFICATION>
 			<PERIOD>2007 - 2009</PERIOD>
@@ -522,110 +522,6 @@
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
 			<CREDIT>20 000</CREDIT>
-			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
-			<number>7 (4742) 727777</number>
-		</Contract>
-		<Contract>
-			<VIN>TMAJU81BBDJ369415</VIN>
-			<MARK/>
-			<MODEL/>
-			<IsNew>no</IsNew>
-			<CAPACITY/>
-			<POWER/>
-			<fuel_consumption/>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount/>
-			<Color>серебристый</Color>
-			<ColorCode>N5S</ColorCode>
-			<ColorOrig>Серебряный</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
-			<CUZOV/>
-			<Comment/>
-			<TYPE_SALON/>
-			<COLOR_SALON/>
-			<GRAR_TYPE/>
-			<run>39 815</run>
-			<year>2 012</year>
-			<GENERATION/>
-			<MODIFICATION/>
-			<PERIOD/>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
-			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
-			<number>7 (4742) 727777</number>
-		</Contract>
-		<Contract>
-			<VIN>Z94CB41AADR072144</VIN>
-			<MARK>Kia</MARK>
-			<MODEL>RIO</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,4</CAPACITY>
-			<POWER>107</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>МКП</TRANSMISS>
-			<TransmissionCount>5</TransmissionCount>
-			<Color>синий</Color>
-			<ColorCode>R3U</ColorCode>
-			<ColorOrig>Синий</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>475 000</OLD_PRICE>
-			<NEW_PRICE>465 000</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>152 700</run>
-			<year>2 012</year>
-			<GENERATION>Rio, III</GENERATION>
-			<MODIFICATION>1.4 MT (107 л.с.)</MODIFICATION>
-			<PERIOD>2011 - 2015</PERIOD>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>10 000</CREDIT>
 			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
 			<number>7 (4742) 727777</number>
 		</Contract>
@@ -669,7 +565,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>101 199</run>
-			<year>2 013</year>
+			<year>2013</year>
 			<GENERATION>Solaris, I</GENERATION>
 			<MODIFICATION>1.6 MT (123 л.с.)</MODIFICATION>
 			<PERIOD>2010 - 2014</PERIOD>
@@ -721,7 +617,7 @@
 			<COLOR_SALON/>
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>103 430</run>
-			<year>2 011</year>
+			<year>2011</year>
 			<GENERATION>X-Trail, II Рестайли</GENERATION>
 			<MODIFICATION>2.5 CVT (169 л.с.) 4</MODIFICATION>
 			<PERIOD>2011 - 2014</PERIOD>
@@ -738,12 +634,12 @@
 			<MARK>Kia</MARK>
 			<MODEL>SPORTAGE</MODEL>
 			<IsNew>no</IsNew>
-			<CAPACITY/>
-			<POWER/>
-			<fuel_consumption/>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount/>
+			<CAPACITY>2</CAPACITY>
+			<POWER>140</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Дизель</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>5</TransmissionCount>
 			<Color>темно-серый</Color>
 			<ColorCode>S6G</ColorCode>
 			<ColorOrig>Серый</ColorOrig>
@@ -765,15 +661,15 @@
 - Оптимальные программы по автострахованию (КАСКО и ОСАГО).
 
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>0</NEW_PRICE>
+			<OLD_PRICE>575 000</OLD_PRICE>
+			<NEW_PRICE>545 000</NEW_PRICE>
 			<CUZOV>Внедорожник 5 дв.</CUZOV>
 			<Comment/>
-			<TYPE_SALON/>
+			<TYPE_SALON>Кожа</TYPE_SALON>
 			<COLOR_SALON/>
-			<GRAR_TYPE/>
+			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>136 655</run>
-			<year>2 009</year>
+			<year>2009</year>
 			<GENERATION>Sportage, II Рестайл</GENERATION>
 			<MODIFICATION>2.0d MT (140 л.с.)</MODIFICATION>
 			<PERIOD>2008 - 2010</PERIOD>
@@ -781,7 +677,7 @@
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
-			<CREDIT>0</CREDIT>
+			<CREDIT>30 000</CREDIT>
 			<STREET>398059, Липецкая обл, Липецк г, 50 лет НЛМК ул, дом №24, офис 1</STREET>
 			<number>7 (4742) 727777</number>
 		</Contract>
@@ -821,11 +717,11 @@
 			<NEW_PRICE>0</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
-			<TYPE_SALON/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
-			<GRAR_TYPE/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>169 978</run>
-			<year>2 012</year>
+			<year>2012</year>
 			<GENERATION>Lancer, X Рестайлинг</GENERATION>
 			<MODIFICATION>1.6 MT (117 л.с.)</MODIFICATION>
 			<PERIOD>2011 - 2016</PERIOD>
@@ -842,12 +738,12 @@
 			<MARK>Chevrolet</MARK>
 			<MODEL>LACETTI</MODEL>
 			<IsNew>no</IsNew>
-			<CAPACITY/>
-			<POWER/>
-			<fuel_consumption/>
-			<FUEL_TYPE/>
-			<TRANSMISS/>
-			<TransmissionCount/>
+			<CAPACITY>1,4</CAPACITY>
+			<POWER>95</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>МКП</TRANSMISS>
+			<TransmissionCount>5</TransmissionCount>
 			<Color>серо-зеленый</Color>
 			<ColorCode/>
 			<ColorOrig>серо-зеленый</ColorOrig>
@@ -873,11 +769,11 @@
 			<NEW_PRICE>0</NEW_PRICE>
 			<CUZOV>Седан</CUZOV>
 			<Comment/>
-			<TYPE_SALON/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
-			<GRAR_TYPE/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>118 290</run>
-			<year>2 006</year>
+			<year>2006</year>
 			<GENERATION>Lacetti</GENERATION>
 			<MODIFICATION>1.4 MT (94 л.с.)</MODIFICATION>
 			<PERIOD>2004 - 2013</PERIOD>

@@ -1,0 +1,1029 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
+		<Date>17.10.2017</Date>
+		<Time>20:10:18</Time>
+	</Export>
+	<ContractList>
+		<Contract>
+			<VIN>XW8AC4NE5HH009026</VIN>
+			<MARK/>
+			<MODEL>Octavia</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY/>
+			<POWER/>
+			<fuel_consumption/>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount/>
+			<Color>Серебристый Brilliant металлик</Color>
+			<ColorCode>8E8E</ColorCode>
+			<ColorOrig/>
+			<SpecName>Ambition 1.4 TSI ручн.-6</SpecName>
+			<SpecId>NL33M5</SpecId>
+			<Description/>
+			<OLD_PRICE>1 191 200</OLD_PRICE>
+			<NEW_PRICE>1 171 200</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>HA Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2016</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>20 000</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AC6NE0JH007380</VIN>
+			<MARK/>
+			<MODEL>Octavia</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount/>
+			<Color>Белый Pure</Color>
+			<ColorCode>0Q0Q</ColorCode>
+			<ColorOrig/>
+			<SpecName>Style1.4 TSI 	авт.-7 (DSG)</SpecName>
+			<SpecId>NL34MD</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>HA Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>4 173</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WWP</value>
+				<value>PH7</value>
+				<value>8M1</value>
+				<value>RA3</value>
+				<value>WRE</value>
+				<value>PCB</value>
+				<value>PL6</value>
+				<value>KA2</value>
+			</EXT_COMPLIT>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AC4NEXJH008749</VIN>
+			<MARK/>
+			<MODEL>Octavia</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,4</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Серый Platinum металлик</Color>
+			<ColorCode>2R2R</ColorCode>
+			<ColorOrig/>
+			<SpecName>Ambition 1.4 DSG</SpecName>
+			<SpecId>NL33MD</SpecId>
+			<Description/>
+			<OLD_PRICE>1 300 400</OLD_PRICE>
+			<NEW_PRICE>1 300 400</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>HA Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>RA3</value>
+				<value>RAC</value>
+				<value>WE8</value>
+			</EXT_COMPLIT>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AD4NEXJH012054</VIN>
+			<MARK/>
+			<MODEL>Octavia</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,8</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Серебристый Brilliant металлик</Color>
+			<ColorCode>8E8E</ColorCode>
+			<ColorOrig/>
+			<SpecName>Ambition 1.8 мкпп</SpecName>
+			<SpecId>NL33P5</SpecId>
+			<Description/>
+			<OLD_PRICE>1 332 600</OLD_PRICE>
+			<NEW_PRICE>1 242 600</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>HA Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WE6</value>
+				<value>RAC</value>
+				<value>PL6</value>
+				<value>8T6</value>
+			</EXT_COMPLIT>
+			<CREDIT>90 000</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8LB65LXHH706262</VIN>
+			<MARK/>
+			<MODEL>Yeti FL</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,8</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Белый Pure с черной крышей</Color>
+			<ColorCode>0Q2T</ColorCode>
+			<ColorOrig/>
+			<SpecName>Outboor Style  1.8 (152 л.с.) DSG-6</SpecName>
+			<SpecId>677CPX</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>DR Черный Onyx</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>136</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WSH</value>
+			</EXT_COMPLIT>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AN6NE8JH015611</VIN>
+			<MARK/>
+			<MODEL>Octavia</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Белый Pure</Color>
+			<ColorCode>0Q0Q</ColorCode>
+			<ColorOrig/>
+			<SpecName>Style 1.6 (110 л.с.) мех-5</SpecName>
+			<SpecId>NL34H4</SpecId>
+			<Description/>
+			<OLD_PRICE>1 246 300</OLD_PRICE>
+			<NEW_PRICE>1 156 300</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>HA Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WWP</value>
+				<value>PH5</value>
+				<value>WRE</value>
+			</EXT_COMPLIT>
+			<CREDIT>90 000</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AC4NEXJH014650</VIN>
+			<MARK/>
+			<MODEL>Octavia</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,4</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Серебристый Brilliant металлик</Color>
+			<ColorCode>8E8E</ColorCode>
+			<ColorOrig/>
+			<SpecName>Ambition 1.4 DSG</SpecName>
+			<SpecId>NL33MD</SpecId>
+			<Description/>
+			<OLD_PRICE>1 315 200</OLD_PRICE>
+			<NEW_PRICE>1 225 200</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>HA Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>7</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>RA3</value>
+				<value>WE6</value>
+				<value>RAC</value>
+				<value>PL6</value>
+				<value>8T6</value>
+			</EXT_COMPLIT>
+			<CREDIT>90 000</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AD4NEXJH006545</VIN>
+			<MARK/>
+			<MODEL>Octavia</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,8</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Серебристый Brilliant металлик</Color>
+			<ColorCode>8E8E</ColorCode>
+			<ColorOrig/>
+			<SpecName>Ambition 1.8 мкпп</SpecName>
+			<SpecId>NL33P5</SpecId>
+			<Description/>
+			<OLD_PRICE>1 308 400</OLD_PRICE>
+			<NEW_PRICE>1 218 400</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>HA Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WE6</value>
+			</EXT_COMPLIT>
+			<CREDIT>90 000</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>TMBAL7NP3J7507137</VIN>
+			<MARK/>
+			<MODEL>Superb NEW</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,8</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Белый Moon металлик</Color>
+			<ColorCode>2Y2Y</ColorCode>
+			<ColorOrig/>
+			<SpecName>Superb Style 1.8 TSI (180 л.с.) авт.-7 (DSG)</SpecName>
+			<SpecId>3V34PD</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>LA Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>8M1</value>
+				<value>PL2</value>
+				<value>PNF</value>
+				<value>5XH</value>
+				<value>PK8</value>
+				<value>KA2</value>
+				<value>PB1</value>
+				<value>PKV</value>
+				<value>PK9</value>
+				<value>PLI</value>
+				<value>PNG</value>
+				<value>PPA</value>
+				<value>RA3</value>
+				<value>PJR</value>
+			</EXT_COMPLIT>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8JG65LXHH706853</VIN>
+			<MARK/>
+			<MODEL>Yeti</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Белый Pure</Color>
+			<ColorCode>0Q0Q</ColorCode>
+			<ColorOrig/>
+			<SpecName>Outdoor Ambition 1.6 (110 л.с.) 5-мех</SpecName>
+			<SpecId>677BH4                1</SpecId>
+			<Description/>
+			<OLD_PRICE>1 258 000</OLD_PRICE>
+			<NEW_PRICE>1 048 000</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>DR Черный Onyx</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WS5</value>
+			</EXT_COMPLIT>
+			<CREDIT>210 000</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8JJ65L0HH707169</VIN>
+			<MARK/>
+			<MODEL>Yeti FL</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,4</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Коричневый Topaz металлик</Color>
+			<ColorCode>4L4L</ColorCode>
+			<ColorOrig/>
+			<SpecName>Outdoor Ambition 1.4 TSI (125 л.с.) ручн.-6</SpecName>
+			<SpecId>677BI5</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>DR Черный Onyx</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WS5</value>
+				<value>9WT</value>
+			</EXT_COMPLIT>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AC2NE9JH016748</VIN>
+			<MARK/>
+			<MODEL>Octavia</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,4</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Серый Platinum металлик</Color>
+			<ColorCode>2R2R</ColorCode>
+			<ColorOrig/>
+			<SpecName>Octavia Active 1.4 TSI (150 л.с.) ручн.-6</SpecName>
+			<SpecId>NL32M5</SpecId>
+			<Description/>
+			<OLD_PRICE>1 069 000</OLD_PRICE>
+			<NEW_PRICE>979 000</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>HA Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WR1</value>
+			</EXT_COMPLIT>
+			<CREDIT>90 000</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>TMBLJ6NS9J8008382</VIN>
+			<MARK/>
+			<MODEL>Kodiaq</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY/>
+			<POWER/>
+			<fuel_consumption/>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount/>
+			<Color>Серый Metal металлик</Color>
+			<ColorCode>F6F6</ColorCode>
+			<ColorOrig/>
+			<SpecName>Kodiaq Ambition 2.0 TDI (150 л.с.) авт.-7 (DSG) 4x4</SpecName>
+			<SpecId>NS736Z</SpecId>
+			<Description/>
+			<OLD_PRICE>2 423 500</OLD_PRICE>
+			<NEW_PRICE>2 323 500</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>AD Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>PHC</value>
+				<value>PJ3</value>
+				<value>PN2</value>
+				<value>4E7</value>
+				<value>4ZB</value>
+				<value>5XH</value>
+			</EXT_COMPLIT>
+			<CREDIT>100 000</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AC4NH7JK101001</VIN>
+			<MARK/>
+			<MODEL>Rapid</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY/>
+			<POWER/>
+			<fuel_consumption/>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount/>
+			<Color>Зеленый Rallye металлик с черной крышей</Color>
+			<ColorCode>P72T</ColorCode>
+			<ColorOrig/>
+			<SpecName>Rapid Style 1.6 (110 л.с.) авт.-6</SpecName>
+			<SpecId>NK34LC</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>AB Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1 414</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WR8</value>
+				<value>WL3</value>
+				<value>PL6</value>
+				<value>PK5</value>
+				<value>KA1</value>
+				<value>9WT</value>
+			</EXT_COMPLIT>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8LB65L4HH707617</VIN>
+			<MARK/>
+			<MODEL>Yeti</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,8</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Белый Pure с черной крышей</Color>
+			<ColorCode>0Q2T</ColorCode>
+			<ColorOrig/>
+			<SpecName>Outdoor Ambition 1.8 (152 л.с.) DSG-62</SpecName>
+			<SpecId>677BPX 2           1</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>DR Черный Onyx</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>PP4</value>
+			</EXT_COMPLIT>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AC2NH9JK108844</VIN>
+			<MARK/>
+			<MODEL>Rapid</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Коричневый Toffee Brown металлик</Color>
+			<ColorCode>4Q4Q</ColorCode>
+			<ColorOrig/>
+			<SpecName>Ambition 1.6 (110) АКПП</SpecName>
+			<SpecId>NK33LC</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>AB Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>PJA</value>
+			</EXT_COMPLIT>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8JG25L2HH706676</VIN>
+			<MARK/>
+			<MODEL>Yeti FL</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Серебристый Brilliant металлик</Color>
+			<ColorCode>8E8E</ColorCode>
+			<ColorOrig/>
+			<SpecName>Active 1.6 (110 л.с.)5-мех</SpecName>
+			<SpecId>6762H4</SpecId>
+			<Description/>
+			<OLD_PRICE>1 115 200</OLD_PRICE>
+			<NEW_PRICE>905 200</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>DR Черный Onyx</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WSA</value>
+			</EXT_COMPLIT>
+			<CREDIT>210 000</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>TMBAL6NP6J7525710</VIN>
+			<MARK/>
+			<MODEL>Superb NEW</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,8</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Белый Lazer</Color>
+			<ColorCode>J3J3</ColorCode>
+			<ColorOrig/>
+			<SpecName>Superb Ambition 1.8 TSI (180 л.с.) авт.-7 (DSG)</SpecName>
+			<SpecId>3V33PD</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>LA Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>0TD</value>
+				<value>4E7</value>
+			</EXT_COMPLIT>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8JG25L9HH707503</VIN>
+			<MARK/>
+			<MODEL>Yeti FL</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Бежевый Cappuccino металлик</Color>
+			<ColorCode>4K4K</ColorCode>
+			<ColorOrig/>
+			<SpecName>Active 1.6 (110 л.с.)5-мех</SpecName>
+			<SpecId>6762H4</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>DR Черный Onyx</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WSA</value>
+				<value>PLG</value>
+			</EXT_COMPLIT>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AN4NE7JH013031</VIN>
+			<MARK/>
+			<MODEL>Octavia</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Белый Pure</Color>
+			<ColorCode>0Q0Q</ColorCode>
+			<ColorOrig/>
+			<SpecName>Octavia Ambition 1.6 (110 л.с.) авт. -6</SpecName>
+			<SpecId>NL33HC</SpecId>
+			<Description/>
+			<OLD_PRICE>1 188 600</OLD_PRICE>
+			<NEW_PRICE>1 098 600</NEW_PRICE>
+			<CUZOV>хэтчбек</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>HA Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WE8</value>
+			</EXT_COMPLIT>
+			<CREDIT>90 000</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AN6NE4JH019946</VIN>
+			<MARK/>
+			<MODEL>Octavia</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Серебристый Brilliant металлик</Color>
+			<ColorCode>8E8E</ColorCode>
+			<ColorOrig/>
+			<SpecName>Octavia Style 1.6 (110 л.с.) авт.-6</SpecName>
+			<SpecId>NL34HC</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>HA Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WRE</value>
+				<value>WWP</value>
+				<value>WRE</value>
+			</EXT_COMPLIT>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8LB65L7HH707448</VIN>
+			<MARK/>
+			<MODEL>Yeti FL</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,8</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Серый Platinum металлик</Color>
+			<ColorCode>2R2R</ColorCode>
+			<ColorOrig/>
+			<SpecName>Outboor Style  1.8 (152 л.с.) DSG-6</SpecName>
+			<SpecId>677CPX</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>DR Черный Onyx</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run/>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AG2NH9JK108332</VIN>
+			<MARK/>
+			<MODEL>Rapid</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>0</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Серебристый Brilliant металлик</Color>
+			<ColorCode>8E8E</ColorCode>
+			<ColorOrig/>
+			<SpecName>Ambition 1.6 (90 л.с.) мех-5</SpecName>
+			<SpecId>NK33D4</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>AB Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>PHB</value>
+				<value>PJA</value>
+			</EXT_COMPLIT>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8AC2NHXJK108304</VIN>
+			<MARK/>
+			<MODEL>Rapid</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Белый Pure</Color>
+			<ColorCode>0Q0Q</ColorCode>
+			<ColorOrig/>
+			<SpecName>Ambition 1.6 (110 л.с.) мех-5</SpecName>
+			<SpecId>NK33L4</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV>седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>AB Черный</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WWP</value>
+				<value>PHB</value>
+				<value>PJA</value>
+			</EXT_COMPLIT>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+		<Contract>
+			<VIN>XW8JG25L1HH707673</VIN>
+			<MARK/>
+			<MODEL>Yeti</MODEL>
+			<IsNew>yes</IsNew>
+			<CAPACITY>1,6</CAPACITY>
+			<POWER>0</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE/>
+			<TRANSMISS/>
+			<TransmissionCount>0</TransmissionCount>
+			<Color>Белый Pure</Color>
+			<ColorCode>0Q0Q</ColorCode>
+			<ColorOrig/>
+			<SpecName>Outdoor Active 1.6 (110 л.с.) авт-6</SpecName>
+			<SpecId>677AHC1</SpecId>
+			<Description/>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>0</NEW_PRICE>
+			<CUZOV/>
+			<Comment/>
+			<TYPE_SALON/>
+			<COLOR_SALON>DR Черный Onyx</COLOR_SALON>
+			<GRAR_TYPE/>
+			<run>1</run>
+			<year>2017</year>
+			<GENERATION/>
+			<MODIFICATION/>
+			<PERIOD/>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT>
+				<value>WSA</value>
+			</EXT_COMPLIT>
+			<CREDIT>0</CREDIT>
+			<STREET>396005, Воронежская обл, Рамонский р-н, Солнечный п, Западная промзона, уч.2/2, поз. 1, корп. 2</STREET>
+			<number>+7 (473) 2333303</number>
+		</Contract>
+	</ContractList>
+</Root>
