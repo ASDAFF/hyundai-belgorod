@@ -93,7 +93,7 @@
 				<span class="navbar-primary__sp-phone-w">
 					<span class="navbar-primary__sp-phone">+7 473 347-7777</span>
 				</span>
-				
+
 			</div>
 
 

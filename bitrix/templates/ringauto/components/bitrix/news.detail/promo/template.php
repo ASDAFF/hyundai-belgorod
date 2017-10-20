@@ -79,7 +79,7 @@ $this->setFrameMode(true);
 	<div class="row">
 		<div class="container">
 
-			<div class="col-md-3 padding-left-null">
+			<div class="col-md-12 padding-left-null">
 				<div class="service-phone">
 					<?=$arResult['PROPERTIES']['STREET']['~VALUE'];?>
 				</div>
