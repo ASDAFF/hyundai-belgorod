@@ -60,7 +60,7 @@
 </head>
 <body class="main" style="">
 <style>
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1100px) {
 		body{
 			min-width: 1100px;
 			max-width: 1100px;
