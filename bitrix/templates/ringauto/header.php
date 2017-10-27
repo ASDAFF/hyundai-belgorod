@@ -62,8 +62,8 @@
 <style>
 	@media screen and (max-width: 1425px) {
 		body{
-			min-width: 1920px;
-			max-width: 1920px;
+			min-width: 1425px;
+			max-width: 1425px;
 		}
 	}
 </style>
