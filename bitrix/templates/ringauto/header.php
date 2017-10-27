@@ -62,8 +62,8 @@
 <style>
 	@media screen and (max-width: 1000px) {
 		body{
-			min-width: 1000px;
-			max-width: 1000px;
+			min-width: 1100px;
+			max-width: 1100px;
 		}
 	}
 
