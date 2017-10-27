@@ -47,7 +47,7 @@ $this->setFrameMode(true);
 
 		<?
 		foreach($arResult["ITEMS"] as $arItem) {
-			
+
 			?>
 			<div class="super-offer-slide-giant">
 				<div class="item" id="bx_<?=$arItem['ID']?>">
