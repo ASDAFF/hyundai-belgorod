@@ -19,9 +19,21 @@ if(CModule::IncludeModule("iblock")):
     }
 
 
+    $files = array();
 
-    $xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/lipetsk/used_car_lipetsk_hyundai.xml',true);
-    $files = scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/lipetsk/used');
+    $xml = file_get_contents('http://server.gk-ring.ru/hyundai/used_car_lipetsk_hyundai.xml',true);
+
+    $habrablog = file_get_contents('http://server.gk-ring.ru/hyundai/hyundai_lipetsk_used/');
+    $document = phpQuery::newDocument($habrablog);
+
+    $hentry = $document->find('td > a');
+    foreach ($hentry as $key => $elem) {
+        $pq = pq($elem);
+        if($key > 0){
+            $files[] = str_replace('/','',$pq->text());
+        }
+    }
+
 
     $xml = new SimpleXMLElement($xml);
     $arPropsNo = array();
@@ -68,14 +80,23 @@ if(CModule::IncludeModule("iblock")):
         $PROP['YEAR'] = (string)$cont->year;
 
 
+        $dir_img = array();
         if (in_array((string)$cont->VIN, $files)) {
-            $dir_img = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/lipetsk/used/'.(string)$cont->VIN),array('.','..'));
-            foreach($dir_img as $img){
-                $img_path = $_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/lipetsk/used/'.(string)$cont->VIN.'/'.$img;
-                if(getimagesize($img_path)[0] > 600) {
-                    resize($img_path, 550);
+
+            $dir_img_parse = file_get_contents('http://server.gk-ring.ru/hyundai/hyundai_lipetsk_used/'.(string)$cont->VIN.'/');
+            $dir_img_doc = phpQuery::newDocument($dir_img_parse);
+            $d_img = $dir_img_doc->find('td > a');
+            foreach ($d_img as $key => $elem) {
+                $pq = pq($elem);
+                if($key > 0){
+                    $dir_img[] = str_replace('/','',$pq->text());
                 }
+            }
+
+            foreach($dir_img as $img){
+
                 $PROP['SLIDER'][] = '/XML_upload_for_1c/lipetsk/used/'.(string)$cont->VIN.'/'.$img;
+
             }
             //var_dump('ok');
         }else{

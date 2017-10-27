@@ -1,5 +1,6 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
+require ($_SERVER["DOCUMENT_ROOT"].'/bitrix/phpQuery.php');
 
 if(CModule::IncludeModule("iblock")):
 
@@ -20,8 +21,21 @@ if(CModule::IncludeModule("iblock")):
 
 
 
-    $xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/used_car_voronezh_hyundai_1.xml',true);
-    $files = scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/used');
+    $files = array();
+
+    $xml = file_get_contents('http://server.gk-ring.ru/hyundai/used_car_voronezh_hyundai_1.xml',true);
+    $habrablog = file_get_contents('http://server.gk-ring.ru/hyundai/hyundai_voronezh_used/');
+    $document = phpQuery::newDocument($habrablog);
+
+    $hentry = $document->find('td > a');
+    foreach ($hentry as $key => $elem) {
+        $pq = pq($elem);
+        if($key > 0){
+            $files[] = str_replace('/','',$pq->text());
+        }
+    }
+
+
 
     $xml = new SimpleXMLElement($xml);
     $arPropsNo = array();
@@ -67,14 +81,21 @@ if(CModule::IncludeModule("iblock")):
         $PROP['MILEAGE'] = (string)$cont->run;
         $PROP['YEAR'] = (string)$cont->year;
 
+        $dir_img = array();
         if (in_array((string)$cont->VIN, $files)) {
-            $dir_img = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/used/'.(string)$cont->VIN),array('.','..'));
-            foreach($dir_img as $img){
-                $img_path = $_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/used/'.(string)$cont->VIN.'/'.$img;
-                if(getimagesize($img_path)[0] > 600) {
-                     resize($img_path, 550);
+
+            $dir_img_parse = file_get_contents('http://server.gk-ring.ru/hyundai/hyundai_voronezh_used/'.(string)$cont->VIN.'/');
+            $dir_img_doc = phpQuery::newDocument($dir_img_parse);
+            $d_img = $dir_img_doc->find('td > a');
+            foreach ($d_img as $key => $elem) {
+                $pq = pq($elem);
+                if($key > 0){
+                    $dir_img[] = str_replace('/','',$pq->text());
                 }
-                $PROP['SLIDER'][] = '/XML_upload_for_1c/voronezh/used/'.(string)$cont->VIN.'/'.$img;
+            }
+
+            foreach($dir_img as $img){
+                $PROP['SLIDER'][] = 'http://server.gk-ring.ru/hyundai/hyundai_voronezh_used/'.(string)$cont->VIN.'/'.$img;
             }
             //var_dump('ok');
         }else{
