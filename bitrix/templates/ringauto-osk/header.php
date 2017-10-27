@@ -61,10 +61,16 @@
 </head>
 <body class="main" style="">
 <style>
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1100px) {
 		body{
-			min-width: 1920px;
-			max-width: 1920px;
+			min-width: 1100px;
+			max-width: 1100px;
+		}
+	}
+
+	@media screen and (max-width: 1335px) {
+		.main-header__logo{
+			display: none;
 		}
 	}
 </style>
