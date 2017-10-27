@@ -890,7 +890,8 @@ body {
 
 img {
     color: #bdbdbd;
-    font-size: .75em
+    font-size: .75em;
+    vertical-align: middle;
 }
 
 [v-cloak] {
