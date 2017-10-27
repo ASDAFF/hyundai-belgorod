@@ -66,6 +66,12 @@
 			max-width: 1920px;
 		}
 	}
+
+	@media screen and (max-width: 1335px) {
+		.main-header__logo{
+			display: none;
+		}
+	}
 </style>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZBL9QH"
@@ -125,7 +131,7 @@
 							<a href="/offer/" target="_blank" class="main-nav__link">Cпецпредложения</a>
 						</li>
 						<li class="main-nav__item">
-							<a href="/hpromise/avtomobili-s-probegom/" target="_blank" class="main-nav__link">с пробегом</a>
+							<a href="/hpromise/avtomobili-s-probegom/" target="_blank" class="main-nav__link">С пробегом</a>
 						</li>
 						<li class="main-nav__item">
 							<a href="/service/spetspredlozheniya/" class="main-nav__link">Сервис</a>
