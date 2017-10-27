@@ -1,8 +1,6 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 
-
-
 if(CModule::IncludeModule("iblock")):
 
 
@@ -21,7 +19,6 @@ if(CModule::IncludeModule("iblock")):
     }
 
 
-
     $files = array();
 
     $xml = file_get_contents('http://server.gk-ring.ru/hyundai/used_car_voronezh_hyundai_1.xml',true);
@@ -35,8 +32,6 @@ if(CModule::IncludeModule("iblock")):
             $files[] = str_replace('/','',$pq->text());
         }
     }
-
-
 
     $xml = new SimpleXMLElement($xml);
     $arPropsNo = array();

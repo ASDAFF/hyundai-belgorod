@@ -86,14 +86,14 @@
 				<span class="navbar-primary__sp-phone-w">
 					<span class="navbar-primary__sp-phone">+7 473 261-7777</span>
 				</span>
-
+<!--
 				<br>
 
 				<span class="navbar-primary__sp-title">«Ринг Авто Север» г. Воронеж, 7 км автодороги Воронеж-Москва, напротив Сити-парка «Град»</span>
 				<span class="navbar-primary__sp-phone-w">
 					<span class="navbar-primary__sp-phone">+7 473 347-7777</span>
 				</span>
-
+-->
 				<br>
 
 
