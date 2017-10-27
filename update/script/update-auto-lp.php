@@ -1,6 +1,6 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
-require ($_SERVER["DOCUMENT_ROOT"].'/bitrix/phpQuery.php');
+
 
 if(CModule::IncludeModule("iblock")):
 
