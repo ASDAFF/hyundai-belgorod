@@ -13,15 +13,6 @@ foreach($arResult["ITEMS"] as $key => $arItem) {
         unset($arResult["ITEMS"][$key]);
     }
 
-
-	if($arItem["PROPERTIES"]["SLIDER"]['VALUE']){
-		$prw = implode(",", $arItem["PROPERTIES"]["SLIDER"]['VALUE']);
-	
-		 if (!preg_match('/preview/', $prw, $preg)) {
-			 unset($arResult["ITEMS"][$key]);
-		 }
-	}
-
 }
 
 $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","PROPERTY_*");
@@ -30,8 +21,8 @@ $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
 while($ob = $res->GetNextElement()){
     $arFields = $ob->GetFields();
     $arProps = $ob->GetProperties();
-        $prw = implode(",", $arProps["SLIDER"]['VALUE']);
-        if (preg_match('/preview/', $prw, $preg)) {
+
+        if ($arProps["SLIDER"]['VALUE'][0]) {
             $forModelFilter[] = $arProps['folder_id']['VALUE'];
         }
 }
