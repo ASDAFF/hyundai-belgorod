@@ -1,5 +1,6 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
+require ($_SERVER["DOCUMENT_ROOT"].'/bitrix/phpQuery.php');
 
 if(CModule::IncludeModule("iblock")):
 
@@ -95,7 +96,7 @@ if(CModule::IncludeModule("iblock")):
 
             foreach($dir_img as $img){
 
-                $PROP['SLIDER'][] = '/XML_upload_for_1c/lipetsk/used/'.(string)$cont->VIN.'/'.$img;
+                $PROP['SLIDER'][] = 'http://server.gk-ring.ru/hyundai/hyundai_lipetsk_used/'.(string)$cont->VIN.'/'.$img;
 
             }
             //var_dump('ok');
