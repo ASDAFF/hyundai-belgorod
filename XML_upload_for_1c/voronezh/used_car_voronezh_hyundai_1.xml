@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Export xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance">
-		<Date>20.10.2017</Date>
-		<Time>12:06:38</Time>
+		<Date>26.10.2017</Date>
+		<Time>12:08:18</Time>
 	</Export>
 	<ContractList>
 		<Contract>
@@ -157,8 +157,8 @@
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>52 125</run>
 			<year>2014</year>
-			<GENERATION>Sorento, II Рестайли</GENERATION>
-			<MODIFICATION>2.4 AT (175 л.с.) 4W</MODIFICATION>
+			<GENERATION>Sorento, II Рестайлинг</GENERATION>
+			<MODIFICATION>2.4 AT (175 л.с.) 4WD</MODIFICATION>
 			<PERIOD>2012 - по н.в.</PERIOD>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
@@ -313,8 +313,8 @@
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>76 266</run>
 			<year>2012</year>
-			<GENERATION>Sorento, II Рестайли</GENERATION>
-			<MODIFICATION>2.4 AT (175 л.с.) 4W</MODIFICATION>
+			<GENERATION>Sorento, II Рестайлинг</GENERATION>
+			<MODIFICATION>2.4 AT (175 л.с.) 4WD</MODIFICATION>
 			<PERIOD>2012 - по н.в.</PERIOD>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
@@ -366,7 +366,7 @@
 			<run>130 000</run>
 			<year>2010</year>
 			<GENERATION>Q7, I Рестайлинг</GENERATION>
-			<MODIFICATION>3.0d AT (238 л.с.) 4</MODIFICATION>
+			<MODIFICATION>3.0d AT (238 л.с.) 4WD</MODIFICATION>
 			<PERIOD>2009 - 2015</PERIOD>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
@@ -462,7 +462,7 @@
 А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
 			<OLD_PRICE>0</OLD_PRICE>
 			<NEW_PRICE>785 000</NEW_PRICE>
-			<CUZOV>Пикап Двойная кабина</CUZOV>
+			<CUZOV>Пикап Полуторная кабина</CUZOV>
 			<Comment/>
 			<TYPE_SALON>Ткань</TYPE_SALON>
 			<COLOR_SALON/>
@@ -470,7 +470,7 @@
 			<run>167 380</run>
 			<year>2010</year>
 			<GENERATION>L200, IV</GENERATION>
-			<MODIFICATION>2.5d MT (136 л.с.) 4</MODIFICATION>
+			<MODIFICATION>2.5d MT (136 л.с.) 4WD</MODIFICATION>
 			<PERIOD>2006 - 2014</PERIOD>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
@@ -803,7 +803,7 @@
 			<run>145 119</run>
 			<year>2012</year>
 			<GENERATION>Santa Fe, III</GENERATION>
-			<MODIFICATION>2.4 AT (175 л.с.) 4W</MODIFICATION>
+			<MODIFICATION>2.4 AT (175 л.с.) 4WD</MODIFICATION>
 			<PERIOD>2012 - 2015</PERIOD>
 			<OPTION_SUMM>5 374,99</OPTION_SUMM>
 			<OPTION_EQU>
@@ -1126,7 +1126,7 @@
 			<run>109 000</run>
 			<year>2008</year>
 			<GENERATION>Tiguan, I</GENERATION>
-			<MODIFICATION>1.4 MT (150 л.с.) 4W</MODIFICATION>
+			<MODIFICATION>1.4 MT (150 л.с.) 4WD</MODIFICATION>
 			<PERIOD>2007 - 2011</PERIOD>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
@@ -1303,6 +1303,58 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
+			<VIN>XWEDH411BB0003991</VIN>
+			<MARK>Kia</MARK>
+			<MODEL>RIO</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,4</CAPACITY>
+			<POWER>95</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>4</TransmissionCount>
+			<Color>бежевый</Color>
+			<ColorCode>9G</ColorCode>
+			<ColorOrig>Бежевый</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>275 000</NEW_PRICE>
+			<CUZOV>Седан</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Передний</GRAR_TYPE>
+			<run>160 000</run>
+			<year>2010</year>
+			<GENERATION>Rio, II Рестайлинг</GENERATION>
+			<MODIFICATION>1.4 AT (97 л.с.)</MODIFICATION>
+			<PERIOD>2009 - 2011</PERIOD>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>-275 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
 			<VIN>KMHSU81CDEU189921</VIN>
 			<MARK>Hyundai</MARK>
 			<MODEL>SANTA_FE</MODEL>
@@ -1344,117 +1396,13 @@
 			<run>108 759</run>
 			<year>2013</year>
 			<GENERATION>Santa Fe, III</GENERATION>
-			<MODIFICATION>2.4 AT (175 л.с.) 4W</MODIFICATION>
+			<MODIFICATION>2.4 AT (175 л.с.) 4WD</MODIFICATION>
 			<PERIOD>2012 - 2015</PERIOD>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
 			<DEFAULT_COMPLIT/>
 			<EXT_COMPLIT/>
 			<CREDIT>265 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>VF34C5FWF9Y102115</VIN>
-			<MARK>Peugeot</MARK>
-			<MODEL>308</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>1,598</CAPACITY>
-			<POWER>120</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Бензин</FUEL_TYPE>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>4</TransmissionCount>
-			<Color>темно-синий</Color>
-			<ColorCode>W8U</ColorCode>
-			<ColorOrig>Синий</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>365 000</NEW_PRICE>
-			<CUZOV>Хэтчбек 5 дв.</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>73 992</run>
-			<year>2009</year>
-			<GENERATION>308, I</GENERATION>
-			<MODIFICATION>1.6 AT (120 л.с.)</MODIFICATION>
-			<PERIOD>2007 - 2011</PERIOD>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>-365 000</CREDIT>
-			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
-			<number>+7 (473) 2617777</number>
-		</Contract>
-		<Contract>
-			<VIN>XWEGT411BG0000354</VIN>
-			<MARK>Kia</MARK>
-			<MODEL>OPTIMA</MODEL>
-			<IsNew>no</IsNew>
-			<CAPACITY>2</CAPACITY>
-			<POWER>175</POWER>
-			<fuel_consumption>0</fuel_consumption>
-			<FUEL_TYPE>Дизель</FUEL_TYPE>
-			<TRANSMISS>АКП</TRANSMISS>
-			<TransmissionCount>6</TransmissionCount>
-			<Color>синий</Color>
-			<ColorCode>3E</ColorCode>
-			<ColorOrig>Синий</ColorOrig>
-			<SpecName/>
-			<SpecId/>
-			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
-Данный автомобиль прошел полный комплекс предпродажной подготовки.
-
-При покупке автомобиля в нашем дилерском центре Вы получаете:
-
-- Скидку при обмене на Ваш автомобиль (trade-in);
-- Гарантии юридической чистоты автомобиля и сделки;
-- Положительные эмоции.
-
-В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
-
-- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
-- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
-- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
-
-А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
-			<OLD_PRICE>0</OLD_PRICE>
-			<NEW_PRICE>1 155 000</NEW_PRICE>
-			<CUZOV>Седан</CUZOV>
-			<Comment/>
-			<TYPE_SALON>Ткань</TYPE_SALON>
-			<COLOR_SALON/>
-			<GRAR_TYPE>Передний</GRAR_TYPE>
-			<run>88 000</run>
-			<year>2016</year>
-			<GENERATION>Optima, IV</GENERATION>
-			<MODIFICATION>2.0 AT (150 л.с.)</MODIFICATION>
-			<PERIOD>2016 - по н.в.</PERIOD>
-			<OPTION_SUMM>0</OPTION_SUMM>
-			<OPTION_EQU/>
-			<DEFAULT_COMPLIT/>
-			<EXT_COMPLIT/>
-			<CREDIT>-1 155 000</CREDIT>
 			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
 			<number>+7 (473) 2617777</number>
 		</Contract>
@@ -1854,7 +1802,7 @@
 			<run>90 000</run>
 			<year>2011</year>
 			<GENERATION>Actyon, II</GENERATION>
-			<MODIFICATION>2.0d MT (175 л.с.) 4</MODIFICATION>
+			<MODIFICATION>2.0d MT (175 л.с.) 4WD</MODIFICATION>
 			<PERIOD>2010 - 2013</PERIOD>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
@@ -1906,7 +1854,7 @@
 			<run>55 000</run>
 			<year>2014</year>
 			<GENERATION>CX-5, I</GENERATION>
-			<MODIFICATION>2.5 AT (192 л.с.) 4W</MODIFICATION>
+			<MODIFICATION>2.5 AT (192 л.с.) 4WD</MODIFICATION>
 			<PERIOD>2013 - 2014</PERIOD>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
@@ -2098,6 +2046,58 @@
 			<number>+7 (473) 2617777</number>
 		</Contract>
 		<Contract>
+			<VIN>TMBLB45L9D6007419</VIN>
+			<MARK>Skoda</MARK>
+			<MODEL>YETI</MODEL>
+			<IsNew>no</IsNew>
+			<CAPACITY>1,8</CAPACITY>
+			<POWER>152</POWER>
+			<fuel_consumption>0</fuel_consumption>
+			<FUEL_TYPE>Бензин</FUEL_TYPE>
+			<TRANSMISS>АКП</TRANSMISS>
+			<TransmissionCount>6</TransmissionCount>
+			<Color>серый</Color>
+			<ColorCode>P3W</ColorCode>
+			<ColorOrig>Серый</ColorOrig>
+			<SpecName/>
+			<SpecId/>
+			<Description>На автомобиле проведена полная техническая диагностика по 199 пунктам, проверка ЛКП кузова автомобиля, а также проверка истории кузовных ремонтов сертифицированными специалистами.
+Данный автомобиль прошел полный комплекс предпродажной подготовки.
+
+При покупке автомобиля в нашем дилерском центре Вы получаете:
+
+- Скидку при обмене на Ваш автомобиль (trade-in);
+- Гарантии юридической чистоты автомобиля и сделки;
+- Положительные эмоции.
+
+В нашем дилерском центре Вы можете воспользоваться финансовыми сервисами:
+
+- Обмен Вашего автомобиля. Ваш автомобиль может быть зачтен в качестве первоначального взноса по кредиту;
+- Мы готовы предложить Вам выгодные кредитные программы. Имея на руках паспорт, водительское удостоверение и первоначальный взнос не менее 20% от стоимости автомобиля, Вы можете уехать на новом автомобиле уже через 60 минут после подачи заявки!;
+- Оптимальные программы по автострахованию (КАСКО и ОСАГО).
+
+А также Вы можете оплатить автомобиль наличными или по безналичному расчету!</Description>
+			<OLD_PRICE>0</OLD_PRICE>
+			<NEW_PRICE>690 000</NEW_PRICE>
+			<CUZOV>Внедорожник 5 дв.</CUZOV>
+			<Comment/>
+			<TYPE_SALON>Ткань</TYPE_SALON>
+			<COLOR_SALON/>
+			<GRAR_TYPE>Полный</GRAR_TYPE>
+			<run>59 000</run>
+			<year>2012</year>
+			<GENERATION>Yeti, I</GENERATION>
+			<MODIFICATION>1.8 AT (152 л.с.) 4WD</MODIFICATION>
+			<PERIOD>2011 - 2014</PERIOD>
+			<OPTION_SUMM>0</OPTION_SUMM>
+			<OPTION_EQU/>
+			<DEFAULT_COMPLIT/>
+			<EXT_COMPLIT/>
+			<CREDIT>-690 000</CREDIT>
+			<STREET>394033, Воронежская обл, Воронеж г, Изыскателей ул, дом №39, корпус 2</STREET>
+			<number>+7 (473) 2617777</number>
+		</Contract>
+		<Contract>
 			<VIN>XTA21703080146944</VIN>
 			<MARK>LADA (ВАЗ)</MARK>
 			<MODEL>2170</MODEL>
@@ -2190,7 +2190,7 @@
 			<GRAR_TYPE>Передний</GRAR_TYPE>
 			<run>76 000</run>
 			<year>2013</year>
-			<GENERATION>Qashqai, I Рестайлин</GENERATION>
+			<GENERATION>Qashqai, I Рестайлинг</GENERATION>
 			<MODIFICATION>1.6 CVT (117 л.с.)</MODIFICATION>
 			<PERIOD>2010 - 2013</PERIOD>
 			<OPTION_SUMM>0</OPTION_SUMM>
@@ -2242,8 +2242,8 @@
 			<GRAR_TYPE>Полный</GRAR_TYPE>
 			<run>198 338</run>
 			<year>2007</year>
-			<GENERATION>3 серия, V (E90/E91/</GENERATION>
-			<MODIFICATION>325i 2.5 AT (218 л.с</MODIFICATION>
+			<GENERATION>3 серия, V (E90/E91/E92/E93)</GENERATION>
+			<MODIFICATION>325xi 2.5 AT (218 л.с.) 4WD</MODIFICATION>
 			<PERIOD>2005 - 2008</PERIOD>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
@@ -2372,7 +2372,7 @@
 			<run>178 890</run>
 			<year>2008</year>
 			<GENERATION>Forester, III</GENERATION>
-			<MODIFICATION>2.0 MT (150 л.с.) 4W</MODIFICATION>
+			<MODIFICATION>2.0 MT (150 л.с.) 4WD</MODIFICATION>
 			<PERIOD>2007 - 2011</PERIOD>
 			<OPTION_SUMM>0</OPTION_SUMM>
 			<OPTION_EQU/>
@@ -2485,7 +2485,7 @@
 			<run>75 255</run>
 			<year>2013</year>
 			<GENERATION>Santa Fe, III</GENERATION>
-			<MODIFICATION>2.4 AT (175 л.с.) 4W</MODIFICATION>
+			<MODIFICATION>2.4 AT (175 л.с.) 4WD</MODIFICATION>
 			<PERIOD>2012 - 2015</PERIOD>
 			<OPTION_SUMM>30 200</OPTION_SUMM>
 			<OPTION_EQU>

@@ -421,7 +421,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                         <div class="main mkv">
                                             <div class="title">
                                                 <img src="sonata.png" title="Solaris">
-                                                <span>Всегда что-то большее</span>
+                                                <span></span>
                                             </div>
                                             <div class="title-price">
                                                 <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
