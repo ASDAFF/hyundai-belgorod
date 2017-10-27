@@ -113,7 +113,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<a href="/offer/" target="_blank" class="main-nav__link">Cпецпредложения</a>
 						</li>
 						<li class="main-nav__item">
-							<a href="/hpromise/avtomobili-s-probegom/" target="_blank" class="main-nav__link">Автомобили с пробегом</a>
+							<a href="/hpromise/avtomobili-s-probegom/" target="_blank" class="main-nav__link">С пробегом</a>
 						</li>
 						<li class="main-nav__item">
 							<a href="/service/spetspredlozheniya/" class="main-nav__link">Сервис</a>
