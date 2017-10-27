@@ -60,10 +60,10 @@
 </head>
 <body class="main" style="">
 <style>
-	@media screen and (max-width: 1425px) {
+	@media screen and (max-width: 1000px) {
 		body{
-			min-width: 1425px;
-			max-width: 1425px;
+			min-width: 1920px;
+			max-width: 1920px;
 		}
 	}
 </style>
@@ -125,7 +125,7 @@
 							<a href="/offer/" target="_blank" class="main-nav__link">Cпецпредложения</a>
 						</li>
 						<li class="main-nav__item">
-							<a href="/hpromise/avtomobili-s-probegom/" target="_blank" class="main-nav__link">Автомобили с пробегом</a>
+							<a href="/hpromise/avtomobili-s-probegom/" target="_blank" class="main-nav__link">с пробегом</a>
 						</li>
 						<li class="main-nav__item">
 							<a href="/service/spetspredlozheniya/" class="main-nav__link">Сервис</a>
