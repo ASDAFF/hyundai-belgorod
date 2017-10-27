@@ -54,7 +54,7 @@ $this->setFrameMode(true);
 					<a href="<?=$arItem['DETAIL_PAGE_URL']?>">
 
 
-						<img data-lazy="<?=$arItem["PROPERTIES"]["SLIDER"]['VALUE']?>" src="<?=$arItem["PROPERTIES"]["SLIDER"]['VALUE']?>" alt="<?=$arItem['NAME']?>"/>
+						<img data-lazy="<?=$arItem["PROPERTIES"]["SLIDER"]['VALUE'][0]?>" src="<?=$arItem["PROPERTIES"]["SLIDER"]['VALUE'][0]?>" alt="<?=$arItem['NAME']?>"/>
 
 					</a>
 
