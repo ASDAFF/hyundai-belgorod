@@ -17,13 +17,7 @@ foreach($arResult["ITEMS"] as $key => $arItem) {
 
 
 
-	if($arItem["PROPERTIES"]["SLIDER"]['VALUE']){
-		$prw = implode(",", $arItem["PROPERTIES"]["SLIDER"]['VALUE']);
-	
-		 if (!preg_match('/preview/', $prw, $preg)) {
-			 unset($arResult["ITEMS"][$key]);
-		 }
-	}
+
 	
 
 }
