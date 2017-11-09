@@ -88,9 +88,9 @@
 		<div class="navbar-primary">
 			<div class="navbar-primary__sp" data-role="navbar-support">
 
-				<span class="navbar-primary__sp-title">г. Старый Оскол, пр-т Алексея Угарова, 22</span>
+				<span class="navbar-primary__sp-title">г. Воронеж 7 км автодороги Воронеж-Москва, напротив Сити-парка «Град»</span>
 				<span class="navbar-primary__sp-phone-w">
-					<span class="navbar-primary__sp-phone">+7 4725 46-00-22</span>
+					<span class="navbar-primary__sp-phone">+7 473 347-77-77</span>
 				</span>
 
 			</div>

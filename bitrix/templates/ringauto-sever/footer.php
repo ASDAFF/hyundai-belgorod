@@ -58,7 +58,7 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
                     </li>
                     <li class="footer-nv__c">
                         <strong class="footer-nv__c-header">Телефон для связи</strong>
-                        <a href="tel:+74732617777" class="footer-nv__c-phone">+7 (4725) 46-00-22</a>
+                        <a href="tel:+74732617777" class="footer-nv__c-phone">+7 (473) 347-77-77</a>
                         <a href="" class="footer-nv__c-mail zing_form_back_tel" for="feedback_home"><i class="i-0008-mail-icon"></i>Обратная связь</a>
 
 <!--                        <div id="socialmedia" class="nofloat">	-->

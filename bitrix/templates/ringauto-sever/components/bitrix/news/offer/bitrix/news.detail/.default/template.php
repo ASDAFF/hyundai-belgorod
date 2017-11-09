@@ -267,7 +267,7 @@ if($arResult["PROPERTIES"]["OPTION_EQU"]["VALUE"]):
 		),
 		"FILTER_NAME" => "",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => "47",
+		"IBLOCK_ID" => "8",
 		"IBLOCK_TYPE" => "products",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
 		"INCLUDE_SUBSECTIONS" => "Y",
