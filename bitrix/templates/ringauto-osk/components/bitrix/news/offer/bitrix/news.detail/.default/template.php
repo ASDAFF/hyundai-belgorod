@@ -132,11 +132,8 @@ if($arResult["PROPERTIES"]["OPTION_EQU"]["VALUE"]):
 
 <div class="paralax-offer">
 
-	<? if(preg_match('/preview/',$arResult["PROPERTIES"]["SLIDER"]["VALUE"][0],$preg)){?>
 	<img src="<?=$arResult["PROPERTIES"]["SLIDER"]["VALUE"][1]?>">
-	<? }else{ ?>
-	<img src="<?=$arResult["PROPERTIES"]["SLIDER"]["VALUE"][0]?>">
-	<? } ?>
+
 
 	<div class="box-price-absolute-left">
 		<div class="box-price">
@@ -270,7 +267,7 @@ if($arResult["PROPERTIES"]["OPTION_EQU"]["VALUE"]):
 		),
 		"FILTER_NAME" => "",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => "8",
+		"IBLOCK_ID" => "35",
 		"IBLOCK_TYPE" => "products",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
 		"INCLUDE_SUBSECTIONS" => "Y",
