@@ -1,0 +1,216 @@
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+.h1-offer{
+	font-weight: 300;
+	font-family: 'HyundaiSansHead',sans-serif;
+	color: #0084CF;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.offers {
+	background: #f7f7f7;
+	padding-bottom: 15px;
+}
+
+
+.super-offer-slider-giant {
+	width: 50%;
+	margin: 30px auto;
+	height: 430px;
+}
+
+.super-offer-slide-giant .item{
+	max-width: 300px;
+	height: 100%;
+	margin: 10px auto;
+	text-align: center;
+	position: relative;
+	box-shadow: 1px 1px 10px 1px #95938e;
+}
+
+
+.mCarListCards_Item_Info_Name{
+	position: absolute;
+	top: 210px;
+	width: 200px;
+	height: 40px;
+	background: #147FCC;
+	left: 0px;
+	padding: 5px 0px;
+}
+
+.super-offer-slide-giant .item .mCarListCards_Item_Info .mCarListCards_Item_Info_Name a{
+	color: #fff;
+	font-family: 'HyundaiSansHead',sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.super-offer-slide-giant .item .mCarListCards_Item_Info .mCarListCards_Item_Info_Name a:hover{
+	text-decoration: none;
+}
+
+
+.mtr-btn.mtr-btn-blue {
+	border-color: #0084CF;
+	color: white;
+	background-color: #0084CF;
+}
+.mtr-btn.mtr-btn-wide {
+	width: 175px;
+	height: 50px;
+	font-size: 22px;
+	font-family: 'HyundaiSansHead',sans-serif;
+	font-weight: 100;
+	padding: 7px;
+}
+.mtr-btn {
+	border-style: solid;
+	font-family: 'HyundaiSansHead',sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	padding: 2px 20px;
+	font-size: 17px;
+}
+.mCarListCards_Item_Info {
+	padding: 20px;
+}
+
+.mCarListCards_Item_Info_Props_Item .gray-text{
+	font-size: 18px;
+	color: #807D7E;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+.mCarListCards_Item_Info_Props_Item .red-text{
+	font-size: 18px;
+	color: #943D3E;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+.mCarListCards_Item_Info_Props_Item .w-gray-text{
+	font-size: 18px;
+	color: #C0C0C0;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+
+
+.super-offer-slider-giant .slick-next {
+	right: -100px;
+	background: url('/bitrix/templates/ringauto/media/img/slider_arrows.png') no-repeat -83px 0;
+}
+.super-offer-slider-giant .slick-prev {
+	left: -100px;
+	background: url('/bitrix/templates/ringauto/media/img/slider_arrows.png') no-repeat -29px 0;
+}
+.super-offer-slider-giant .slick-prev, .super-offer-slider-giant .slick-next {
+	width: 28px;
+	height: 45px;
+	z-index: 1;
+	-webkit-transition: all 0s;
+	-moz-transition: all 0s;
+	-ms-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+}
+
+.offer-sale{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.offer-sale span{
+	display: block;
+}
+
+.offer-sale span:first-child{
+	width: 180px;
+	height: 30px;
+	background: #147FCC;
+	padding: 0px;
+	color: #fff;
+	font-family: 'HyundaiSansHead',sans-serif;
+	font-size: 22px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+.offer-sale span:last-child{
+	width: 0;
+	height: 0;
+	border-top: 0px solid transparent;
+	border-left: 180px solid #176AA9;
+	border-bottom: 30px solid transparent;
+	position: relative;
+}
+.offer-sale span:last-child p{
+	position: absolute;
+	top: 5px;
+	left: -177px;
+	color: #fff;
+	font-size: 11px;
+	font-family: 'HyundaiSansHead',sans-serif;
+	transform: rotate(-7deg);
+}
+
+.mCarListCards_Item_Info_Props span{
+	font-family: 'HyundaiSansHead',sans-serif;
+	font-weight: 400;
+	line-height: 40px;
+}
+.mCarListCards_Item_Info_Props{
+	margin: 10px 0px;
+	text-align: left;
+}
+
+.mCarListCards_Item_Info_Props span.t1{
+	font-size: 19px;
+	text-transform: uppercase;
+}
+.mCarListCards_Item_Info_Props span.t2{
+	font-size: 25px;
+	color: #44A2DA;
+	font-weight: 300;
+	margin-left: 10px;
+}
+.mCarListCards_Item_Info_Props span.t3{
+	font-size: 19px;
+	text-transform: uppercase;
+}
+.mCarListCards_Item_Info_Props span.t4{
+	font-size: 35px;
+	font-weight: bold;
+	color: #0F578A;
+	margin-left: 20px;
+	background: linear-gradient(45deg, #0D4B79 20%, #228cff 66%, #8AA9D6);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.item > a{
+	float: left;
+	overflow: hidden;
+	width: 300px;
+	height: 230px;
+	margin-bottom: 25px;
+}
+.item > a img{
+	max-height: 230px;
+}
