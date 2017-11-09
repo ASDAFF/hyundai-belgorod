@@ -153,6 +153,9 @@ function offer_filter_auto($url){
         $id_mod = 36;
         //$id_spec = 35;
         $id_spec = 8;
+    }elseif($_SERVER['HTTP_HOST'] == 'hyundai-ringsever.ru'){
+        $id_mod = 45;
+        $id_spec = 47;
     }else{
         $id_mod = 7;
         $id_spec = 8;

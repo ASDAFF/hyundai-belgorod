@@ -179,7 +179,7 @@ if($arResult["PROPERTIES"]["OPTION_EQU"]["VALUE"]):
 			"FB_TEXT_NAME" => "",	// Название поля «Текст сообщения» [FEEDBACK_TEXT]
 			"FB_TEXT_SOURCE" => "PREVIEW_TEXT",	// Где сохранять поле «Текст сообщения»
 			"FORM_ID" => "1",	// ID Формы
-			"IBLOCK_ID" => "40",	// Инфоблок
+			"IBLOCK_ID" => "50",	// Инфоблок
 			"IBLOCK_TYPE" => "altasib_feedback",	// Тип инфоблока
 			"INPUT_APPEARENCE" => array(	// Внешний вид полей
 				0 => "DEFAULT",
@@ -270,7 +270,7 @@ if($arResult["PROPERTIES"]["OPTION_EQU"]["VALUE"]):
 		),
 		"FILTER_NAME" => "",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => "8",
+		"IBLOCK_ID" => "47",
 		"IBLOCK_TYPE" => "products",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
 		"INCLUDE_SUBSECTIONS" => "Y",
