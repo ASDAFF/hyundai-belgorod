@@ -1,6 +1,6 @@
 <?
 $arTemplate = array (
-  'NAME' => 'ringauto-osk',
+  'NAME' => 'ringauto-sever',
   'DESCRIPTION' => '',
   'SORT' => 3,
   'TYPE' => '',
