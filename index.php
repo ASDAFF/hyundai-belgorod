@@ -81,8 +81,10 @@ $APPLICATION->SetTitle("Мебельная компания");
 
 
 
-<!--// СПЕЦПРЕДЛОЖЕНИЯ		//-->
-		<?$APPLICATION->IncludeComponent(
+	<!--// СПЕЦПРЕДЛОЖЕНИЯ		//-->
+		<?
+		/*
+		$APPLICATION->IncludeComponent(
 			"bitrix:news.list",
 			"offers_home",
 			array(
@@ -147,7 +149,11 @@ $APPLICATION->SetTitle("Мебельная компания");
 				"COMPONENT_TEMPLATE" => "offers_home"
 			),
 			false
-		);?>
+		);
+		*/
+		?>
+
+
 
 		<?$APPLICATION->IncludeComponent(
 			"bitrix:news.list",
