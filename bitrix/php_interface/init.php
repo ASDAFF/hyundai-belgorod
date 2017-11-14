@@ -320,3 +320,8 @@ class IdListDoc
 
 }
 
+function myFormatCurrency($fSum, $strCurrency)
+{
+    return number_format ( $fSum, 0, '.', ' ' );
+}
+

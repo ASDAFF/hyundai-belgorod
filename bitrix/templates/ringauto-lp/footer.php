@@ -95,6 +95,9 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
                         <!--                                </li>-->
                         <!--                            </ul>-->
                         <!--                        </div>-->
+                        <div class="subscribe-form subscribe-form--footer-primary">
+                            <div style="height: 85px;"></div>
+                        </div>
                     </li>
                 </ul>
             </nav>
