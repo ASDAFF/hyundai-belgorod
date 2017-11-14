@@ -1110,7 +1110,7 @@ function compare_tov(id) {
         id: AddedGoodId
       },
       function(data) {
-         console.log(data);
+        // console.log(data);
         //$("#compare_list_count").html(data);
         // alert('Автомобиль успешно добавлен к сравнению');
         $('#compareid_' + AddedGoodId).addClass('in-compare');
