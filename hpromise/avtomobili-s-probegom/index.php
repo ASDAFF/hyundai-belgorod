@@ -1,9 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 $APPLICATION->SetTitle("");
-?>
-
-<?
+?><?
 
 switch($_REQUEST['order']){
 	case "DESC":
@@ -22,7 +20,6 @@ switch($_REQUEST['order']){
 }
 
 ?>
-
 <?$APPLICATION->IncludeComponent(
 	"bitrix:news",
 	"auto-mileage",
@@ -58,7 +55,7 @@ switch($_REQUEST['order']){
 		"FILE_404" => "",
 		"FILTER_FIELD_CODE" => array("",""),
 		"FILTER_NAME" => "",
-		"FILTER_PROPERTY_CODE" => array("NEW_PRICE","YEAR",""),
+		"FILTER_PROPERTY_CODE" => array("MODEL","MILEAGE","TRANSMISS","NEW_PRICE","YEAR",""),
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
 		"IBLOCK_ID" => "16",
 		"IBLOCK_TYPE" => "products",
@@ -90,7 +87,7 @@ switch($_REQUEST['order']){
 		"SORT_ORDER1" => $order,
 		"SORT_ORDER2" => $order,
 		"USE_CATEGORIES" => "N",
-		"USE_FILTER" => "N",
+		"USE_FILTER" => "Y",
 		"USE_PERMISSIONS" => "N",
 		"USE_RATING" => "N",
 		"USE_RSS" => "N",

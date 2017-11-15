@@ -32,10 +32,56 @@ $this->setFrameMode(true);
 );?>
 <br />
 <?endif?>
-<?if($arParams["USE_FILTER"]=="Y"):?>
-<?$APPLICATION->IncludeComponent(
+
+
+<?
+$APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
+	"MODE"      => "html",
+	"NAME"      => "Редактирование включаемой области раздела",
+	"TEMPLATE"  => ""
+));
+?>
+
+
+
+<script>
+	$(document).ready(function(){
+		$('body').addClass('autos');
+	});
+</script>
+
+<div class="cont">
+
+	<?$APPLICATION->IncludeComponent(
+		"bitrix:catalog.compare.list",
+		"compare.list",
+		Array(
+			"ACTION_VARIABLE" => "action",
+			"AJAX_MODE" => "N",
+			"AJAX_OPTION_ADDITIONAL" => "",
+			"AJAX_OPTION_HISTORY" => "N",
+			"AJAX_OPTION_JUMP" => "N",
+			"AJAX_OPTION_STYLE" => "Y",
+			"COMPARE_URL" => "/hpromise/avtomobili-s-probegom/compare.php",
+			"DETAIL_URL" => "",
+			"IBLOCK_ID" => "16",
+			"IBLOCK_TYPE" => "products",
+			"NAME" => "CATALOG_COMPARE_LIST",
+			"POSITION" => "top left",
+			"POSITION_FIXED" => "N",
+			"PRODUCT_ID_VARIABLE" => "id"
+		)
+	);?>
+
+
+	<div class="car_in_compare_fixed"></div>
+
+
+	<div class="nblock">
+
+	<? $APPLICATION->IncludeComponent(
 	"bitrix:catalog.filter",
-	"",
+	"filter.auto.mileage",
 	Array(
 		"IBLOCK_TYPE" => $arParams["IBLOCK_TYPE"],
 		"IBLOCK_ID" => $arParams["IBLOCK_ID"],
@@ -50,8 +96,9 @@ $this->setFrameMode(true);
 	$component
 );
 ?>
-<br />
-<?endif?>
+
+
+
 <?$APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"",
@@ -105,3 +152,50 @@ $this->setFrameMode(true);
 	),
 	$component
 );?>
+
+		<div class="footer_info">
+			<h3>Преимущества программы H-Promise</h3>
+			<div class="lg_25">
+				<span class="trade_in_ico"></span>
+				<span class="ico_descr">1 год гарантии</span>
+				<div class="clearfix"></div>
+			</div>
+			<div class="footer_seporator"></div>
+			<div class="lg_25">
+				<span class="docs_ico"></span>
+				<span class="ico_descr">1 год  помощи на дороге</span>
+				<div class="clearfix"></div>
+			</div>
+			<div class="footer_seporator"></div>
+			<div class="lg_25 mob_right">
+				<span class="trade_in_ico"></span>
+				<span class="ico_descr text-uppercase">Trade-In</span>
+				<div class="clearfix"></div>
+			</div>
+			<div class="footer_seporator"></div>
+			<div class="lg_25">
+				<span class="docs_ico"></span>
+				<span class="ico_descr">Спецпрограммы страхования и кредитования</span>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<script>
+	var compare_list = JSON.parse('[]');
+
+	$.each(compare_list, function(key, val){
+		$('#compareid_' + val).addClass('in-compare');
+	});
+</script>
+
+<div class="clearfix"></div>
+
+
+<?
+$APPLICATION->IncludeFile("/hpromise/footer.php", Array(), Array(
+	"MODE"      => "html",
+	"NAME"      => "Редактирование включаемой области раздела",
+	"TEMPLATE"  => ""
+));
+?>
