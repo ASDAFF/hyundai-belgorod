@@ -72,10 +72,10 @@ if(CModule::IncludeModule("iblock")):
         $PROP['COLOR'] = (string)$cont->ColorOrig;
         $PROP['color_code'] = (string)$cont->ColorCode;
         $PROP['description'] = (string)$cont->Description;
-        $PROP['NEW_PRICE'] = (string)$cont->NEW_PRICE;
+        $PROP['NEW_PRICE'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->NEW_PRICE));
         $PROP['CUZOV'] = (string)$cont->CUZOV;
-        $PROP['MILEAGE'] = (string)$cont->run;
-        $PROP['YEAR'] = (string)$cont->year;
+        $PROP['MILEAGE'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->run));
+        $PROP['YEAR'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->year));
 
 
         $dir_img = array();

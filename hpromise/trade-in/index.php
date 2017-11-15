@@ -1,283 +1,312 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");?>
-    <html>
-    <head>
-        <?
-        $APPLICATION->SetTitle("trade");
-        ?>
-        <?$APPLICATION->ShowHead();?>
 
-        <script src="/media/js_new/device.min.js"></script>
+<?
+$APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
+    "MODE"      => "html",
+    "NAME"      => "Редактирование включаемой области раздела",
+    "TEMPLATE"  => ""
+));
+?>
 
-        <link rel="shortcut icon" href="/media/img/Favicon_02.ico"/>
+<div class="cont">
+    <div class="banner nblock">
+        <div class="banner-title">HYUNDAI<br>TRADE-IN</div>
+        <div class="banner-desc">Обменяйте свой Hyundai на новый<br>на выгодных условиях*</div>
+        <a href="/online-ocenka-avtomobilya/" class="banner-evaluation">
+            <div class="banner-evaluation-back"></div>
+            <div class="banner-evaluation-image"></div>
+            <div class="banner-evaluation-text">Оценить свой автомобиль</div>
+        </a>
+        <div class="slider">
+            <h3 class="hond">4 шага до нового Hyundai</h3>
+            <div class="slider-inner">
+                <div class="slider-inner-nextbut js-slider-inner-nextbut"></div>
+                <div class="slider-inner-text js-slider-inner-text">
+                    <div class="slider-inner-text-single">
+                        <div class="slider-inner-text-single-number">01</div>
+                        <div class="slider-inner-text-single-title">Зарегистрируйтесь<br>в мире Хёндэ</div>
+                        <div class="slider-inner-text-single-go">
+                            <a href="https://mir.hyundai.ru/login" class="slider-inner-text-single-go-inner">Войти в Мир Хёндэ</a>
+                        </div>
+                    </div>
+                    <div class="slider-inner-text-single">
+                        <div class="slider-inner-text-single-number">02</div>
+                        <div class="slider-inner-text-single-title">Получите сертификат<br>HYUNDAI TRADE-IN</div>
+                        <div class="slider-inner-text-single-go">
 
-        <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
+                        </div>
+                    </div>
+                    <div class="slider-inner-text-single">
+                        <div class="slider-inner-text-single-number">03</div>
+                        <div class="slider-inner-text-single-title">Посетите дилера<br>и оцените автомобиль</div>
+                        <div class="slider-inner-text-single-go">
+<!--                            <a href="/dealers-h-promise/" class="slider-inner-text-single-go-inner">Найти дилера</a>-->
+                        </div>
+                    </div>
+                    <div class="slider-inner-text-single">
+                        <div class="slider-inner-text-single-number">04</div>
+                        <div class="slider-inner-text-single-title">Купите новый Hyundai<br>со скидкой</div>
+                        <div class="slider-inner-text-single-go">
 
-
-        <link href="/hpromise/css/common.css" rel="stylesheet" />
-
-
-
-
-        <script src="/bitrix/templates/ringauto/js/jquerymin.js"></script>
-
-
-
-
-
-        <link href="/hpromise/css/design.css" rel="stylesheet">
-
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-NZBL9QH');</script>
-        <!-- End Google Tag Manager -->
-    </head>
-<body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZBL9QH"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-<div id="panel"><?$APPLICATION->ShowPanel();?></div>
-
-    <div class="head-section base__section">
-
-        <header class="header">
-            <div class="header__inner">
-
-                <div class="header__menu">
-                    <a href="/" class="header__logo"></a><nav class="header__nav js-head-nav">
-                        <i class="head-nav-icon js-head-nav-icon icon">
-                            <svg class="icon__cnt"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ei-navicon-icon"></use></svg>
-                        </i>
-
-                        <ul class="head-nav-list">
-
-                            <li class="head-nav-list__item  -active">
-                                <a class="head-nav-list__link" href="/hpromise/about">
-                                    H-Promise        </a>
-                            </li>
-
-                            <li class="head-nav-list__item  -active">
-                                <a class="head-nav-list__link" href="/hpromise/trade-in">
-                                    Программа лояльности        </a>
-                            </li>
-
-
-                            <li class="head-nav-list__item ">
-                                <a class="head-nav-list__link" href="/hpromise/avtomobili-s-probegom">
-                                    Автомобили с пробегом        </a>
-                            </li>
-
-
-
-                        </ul>
-                    </nav>
-                    <div class="header__contacts">
-                        <div class="head-phone">+7 473 261-7777</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-inner-mainimg js-slider-inner-mainimg">
+                    <div class="slider-inner-mainimg-single">
+                        <img src="/hpromise/img/slide1.jpg">
+                    </div>
+                    <div class="slider-inner-mainimg-single">
+                        <img src="/hpromise/img/slide2.jpg">
+                    </div>
+                    <div class="slider-inner-mainimg-single">
+                        <img src="/hpromise/img/slide3.jpg">
+                    </div>
+                    <div class="slider-inner-mainimg-single">
+                        <img src="/hpromise/img/slide4.jpg">
                     </div>
                 </div>
             </div>
-        </header>
+            <div class="slider-runner js-slider-runner">
+                <div class="js-slider-runner-inner"></div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="afterb nblock">
+        <h3 class="hond">Фиксированная скидка</h3>
+    </div>
+    <div class="carslider nblock">
+        <div class="carslider-circle"></div>
+        <div class="carslider-inner">
+
+            <div class="carslider-inner-single">
+                <div class="carslider-inner-single-title">Sonata</div>
+                <div class="carslider-inner-single-desc sonata">
+                    <a href="http://sonata.hyundai.ru/" class="carslider-inner-single-desc-link">описание модели</a>
+                    <div class="carslider-inner-single-desc-tit mobile_hidden">Скидка при обмене на Hyundai i40</div>
+                    <div class="carslider-inner-single-desc-price mobile_hidden">100 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit">Скидка</div>
+                    <div class="carslider-inner-single-desc-price">60 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
+                    <div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>
+                </div>
+                <div class="carslider-inner-single-img">
+                    <img src="/hpromise/img/sonata.png">
+                </div>
+                <a href="http://www.hyundai.ru/test-drive?old_car_id=200" class="carslider-inner-single-button buttontd">
+                    <span>Тест-драйв</span>
+                </a>
+                <a href="http://www.hyundai.ru/configurator/car?compl_id=379" class="carslider-inner-single-button buttonkonf">
+                    <span>Конфигуратор</span>
+                </a>
+            </div>
+            <div class="carslider-inner-single">
+                <div class="carslider-inner-single-title">Solaris</div>
+                <div class="carslider-inner-single-desc">
+                    <a href="http://www.hyundai.ru/NewSolaris" class="carslider-inner-single-desc-link">описание модели</a>
+                    <div class="carslider-inner-single-desc-tit">Скидка</div>
+                    <div class="carslider-inner-single-desc-price">25 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
+                    <div class="carslider-inner-single-desc-bal">10 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>
+                </div>
+                <div class="carslider-inner-single-img">
+                    <img src="/hpromise/img/solaris.png">
+                </div>
+                <a href="http://www.hyundai.ru/test-drive?old_car_id=200" class="carslider-inner-single-button buttontd">
+                    <span>Тест-драйв</span>
+                </a>
+                <a href="http://www.hyundai.ru/configurator/car?compl_id=379&packets=" class="carslider-inner-single-button buttonkonf">
+                    <span>Конфигуратор</span>
+                </a>
+            </div>
+            <div class="carslider-inner-single">
+                <div class="carslider-inner-single-title">Creta</div>
+                <div class="carslider-inner-single-desc">
+                    <a href="http://www.hyundai.ru/Creta" class="carslider-inner-single-desc-link">описание модели</a>
+                    <div class="carslider-inner-single-desc-tit">Скидка</div>
+                    <div class="carslider-inner-single-desc-price">25 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
+                    <div class="carslider-inner-single-desc-bal">10 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>
+                </div>
+                <div class="carslider-inner-single-img">
+                    <img src="/hpromise/img/creta_small.png">
+                </div>
+                <a href="http://www.hyundai.ru/test-drive?old_car_id=336" class="carslider-inner-single-button buttontd">
+                    <span>Тест-драйв</span>
+                </a>
+                <a href="http://www.hyundai.ru/configurator/car?compl_id=336&packets=" class="carslider-inner-single-button buttonkonf">
+                    <span>Конфигуратор</span>
+                </a>
+            </div>
+            <div class="carslider-inner-single">
+                <div class="carslider-inner-single-title">Elantra</div>
+                <div class="carslider-inner-single-desc">
+                    <a href="http://www.hyundai.ru/Elantraq" class="carslider-inner-single-desc-link">описание модели</a>
+                    <div class="carslider-inner-single-desc-tit">Скидка</div>
+                    <div class="carslider-inner-single-desc-price">80 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
+                    <div class="carslider-inner-single-desc-bal">10 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>
+                </div>
+                <div class="carslider-inner-single-img">
+                    <img src="/hpromise/img/elantra_car_small.png">
+                </div>
+                <a href="http://www.hyundai.ru/test-drive?old_car_id=18" class="carslider-inner-single-button buttontd">
+                    <span>Тест-драйв</span>
+                </a>
+                <a href="http://www.hyundai.ru/configurator/?car_id=18" class="carslider-inner-single-button buttonkonf">
+                    <span>Конфигуратор</span>
+                </a>
+            </div>
+            <div class="carslider-inner-single">
+                <div class="carslider-inner-single-title">i 40</div>
+                <div class="carslider-inner-single-desc">
+                    <a href="http://www.hyundai.ru/i40" class="carslider-inner-single-desc-link">описание модели</a>
+                    <div class="carslider-inner-single-desc-tit">Скидка</div>
+                    <div class="carslider-inner-single-desc-price">40 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
+                    <div class="carslider-inner-single-desc-bal">15 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>
+                </div>
+                <div class="carslider-inner-single-img">
+                    <img src="/hpromise/img/i40_small.png">
+                </div>
+                <a href="http://www.hyundai.ru/test-drive?old_car_id=21" class="carslider-inner-single-button buttontd">
+                    <span>Тест-драйв</span>
+                </a>
+                <a href="http://www.hyundai.ru/configurator/?car_id=21" class="carslider-inner-single-button buttonkonf">
+                    <span>Конфигуратор</span>
+                </a>
+            </div>
+            <div class="carslider-inner-single">
+                <div class="carslider-inner-single-title">Tucson</div>
+                <div class="carslider-inner-single-desc">
+                    <a href="http://www.hyundai.ru/Tucson" class="carslider-inner-single-desc-link">описание модели</a>
+                    <div class="carslider-inner-single-desc-tit">Скидка</div>
+                    <div class="carslider-inner-single-desc-price">80 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
+                    <div class="carslider-inner-single-desc-bal">15 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>
+                </div>
+                <div class="carslider-inner-single-img">
+                    <img src="/hpromise/img/tucson_car_big.png">
+                </div>
+                <a href="http://www.hyundai.ru/test-drive?old_car_id=30" class="carslider-inner-single-button buttontd">
+                    <span>Тест-драйв</span>
+                </a>
+                <a href="http://www.hyundai.ru/configurator?car_id=30" class="carslider-inner-single-button buttonkonf">
+                    <span>Конфигуратор</span>
+                </a>
+            </div>
+            <div class="carslider-inner-single">
+                <div class="carslider-inner-single-title">Santa Fe</div>
+                <div class="carslider-inner-single-desc">
+                    <a href="http://www.hyundai.ru/SantaFePremium" class="carslider-inner-single-desc-link">описание модели</a>
+                    <div class="carslider-inner-single-desc-tit">Скидка</div>
+                    <div class="carslider-inner-single-desc-price">100 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
+                    <div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>
+                </div>
+                <div class="carslider-inner-single-img">
+                    <img src="/hpromise/img/santa_fe_small.png">
+                </div>
+                <a href="http://www.hyundai.ru/test-drive?old_car_id=29" class="carslider-inner-single-button buttontd">
+                    <span>Тест-драйв</span>
+                </a>
+                <a href="http://www.hyundai.ru/configurator/?car_id=29" class="carslider-inner-single-button buttonkonf">
+                    <span>Конфигуратор</span>
+                </a>
+            </div>
+            <div class="carslider-inner-single">
+                <div class="carslider-inner-single-title">Grand Santa Fe</div>
+                <div class="carslider-inner-single-desc">
+                    <a href="http://www.hyundai.ru/GrandSantaFe" class="carslider-inner-single-desc-link">описание модели</a>
+                    <div class="carslider-inner-single-desc-tit">Скидка</div>
+                    <div class="carslider-inner-single-desc-price">120 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
+                    <div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>
+                </div>
+                <div class="carslider-inner-single-img">
+                    <img src="/hpromise/img/grand_sf_small.png">
+                </div>
+                <a href="http://www.hyundai.ru/test-drive?old_car_id=12" class="carslider-inner-single-button buttontd">
+                    <span>Тест-драйв</span>
+                </a>
+                <a href="http://www.hyundai.ru/configurator/?car_id=12" class="carslider-inner-single-button buttonkonf">
+                    <span>Конфигуратор</span>
+                </a>
+            </div>
+
+        </div>
+        <div class="carslider-button buttonprev"></div>
+        <div class="carslider-button buttonnext"></div>
+        <div style="clear: both;"></div>
     </div>
 
-    <div class="content-section base__section">
-        <div class="content">
-            <div class="base__inner content__title">
-                <h1>Программа лояльности Hyundai</h1>
-            </div>
-
-
-
-            <div class="base__inner">
-                <p>Вы уже являетесь владельцем Hyundai и хотите обменять его на новый автомобиль Hyundai на выгодных условиях? Теперь вам не нужно тратить время на продажу вашего старого автомобиля и поиск нового!</p>
-                <p>Благодаря услуге ТРЕЙД-ИН* и программе лояльности Hyundai при покупке нового автомобиля Hyundai вы можете сдать в зачет его стоимости бывший в употреблении автомобиль Hyundai любой модели и получить дополнительную выгоду!</p>
-            </div>
-            <div class="base__inner distinctive__block">
-                <div class="logo__block"></div>
-                <h2>Требования к автомобилю, принимаемому в ТРЕЙД-ИН</h2>
-                <ul class="num-coll-list" style="width: 95%">
-                    <li>Официально ввезен на территорию Российской Федерации и продан официальным дилером Hyundai**;</li>
-                    <li>Автомобиль находится в собственности не менее 6 месяцев; имеется оригинал паспорта транспортного средства (ПТС);</li>
-                    <li>Идентификационный номер автомобиля (VIN) не поврежден и совпадает с информацией в ПТС;</li>
-                    <li>Реальный пробег совпадает с показаниями одометра на панели приборов;</li>
-                    <li>Не выявлено следов ремонта силовой структуры кузова и срабатывания подушек безопасности;</li>
-                    <li>Отсутствуют ограничения для отчуждения (залог, угон и прочие);</li>
-                </ul>
-                <a href="/hpromise/online-ocenka-avtomobilya/" class="go4">Оценить свой автомобиль</a>
-            </div>
-
-            <div class="base__inner">
-                <p class="footnote">* Механизм «ТРЕЙД-ИН» - переход права собственности бывшего в употреблении автомобиля к диллеру, осуществляеммый для зачета его остаточной стоимости при приобретении новго автомобиля.</p>
-                <p class="footnote">** Кроме автомобилей производства ТагАЗ</p>
-            </div>
-
-            <div class="base__inner distinctive__block ">
-                <div class="logo__block"></div>
-                <h2>Предоставление скидки</h2>
-                <p>Скидки предоставляются от рекомендованной максимальной розничной цены с учетом НДС <b>клиентам Hyundai</b><sup style="color: #1880c3;">1</sup> и <b>лояльным клиентам Hyundai</b><sup style="color: #1880c3;">2</sup>, приобретающим автомобили Equus, Genesis, Grand Santa Fe, Santa Fe Premium, Tucson, i40, Creta, i30, Elantra и Solaris.</p>
-                <div class="tradecar">
-                    <div class="tradecar-single">
-                        <div class="tradecar-single-text tradecar-single-text__equus">
-                            <h3>Hyundai Equus</h3>
-                            <a class="tradecar-single-text__descriptionshow" href="/car/EQUUS">
-                                Описание модели
-                            </a>
-                            <div class="tradecar-single-text__field">Лояльным клиентам</div>
-                            <div class="tradecar-single-text__price" style="font-family: 'rus_modern_h_bold';">-150 000 <span><!--[if !IE]>-->⃏<!--<![endif]--><!--[if IE]>Р<![endif]--></span></div>
-                            <div class="tradecar-single-text__field">Клиентам Hyundai</div>
-                            <div class="tradecar-single-text__price">-90 000 <span><!--[if !IE]>-->⃏<!--<![endif]--><!--[if IE]>Р<![endif]--></span></div>
-                        </div>
-                        <div class="tradecar-single-buttons">
-                            <a href="/request/testdrive?model_id=1" class="tradecar-single-buttons-single"><img src="/hpromise/i/ryl5.png">Тест-драйв</a>
-                            <a href="/configurator/?car_id=1" class="tradecar-single-buttons-single"><img src="/hpromise/i/avto5.png">Конфигурации</a>
-                        </div>
-                    </div>
-                    <div class="tradecar-single">
-                        <div class="tradecar-single-text tradecar-single-text__genesis">
-                            <h3>Hyundai Genesis</h3>
-                            <div class="tradecar-single-text__descriptionshow">
-                                <a class="tradecar-single-text__descriptionshow" href="/car/GenesisNew">
-                                    Описание модели
-                                </a>
-                            </div>
-                            <div class="tradecar-single-text__field">Лояльным клиентам</div>
-                            <div class="tradecar-single-text__price" style="font-family: 'rus_modern_h_bold';">-100 000 <span><!--[if !IE]>-->⃏<!--<![endif]--><!--[if IE]>Р<![endif]--></span></div>
-                            <div class="tradecar-single-text__field">Клиентам Hyundai</div>
-                            <div class="tradecar-single-text__price">-60 000 <span><!--[if !IE]>-->⃏<!--<![endif]--><!--[if IE]>Р<![endif]--></span></div>
-                        </div>
-                        <div class="tradecar-single-buttons">
-                            <a href="/request/testdrive?model_id=17" class="tradecar-single-buttons-single"><img src="/hpromise/i/ryl5.png">Тест-драйв</a>
-                            <a href="/configurator/?car_id=17" class="tradecar-single-buttons-single"><img src="/hpromise/i/avto5.png">Конфигурации</a>
-                        </div>
-                    </div>
-
-
-
-                    <div class="tradecar-single">
-                        <div class="tradecar-single-text tradecar-single-text__santafepremium">
-                            <h3>Hyundai Santa Fe Premium</h3>
-                            <div class="tradecar-single-text__descriptionshow">
-                                <a href="/car/SantaFe">Описание модели</a>
-                            </div>
-                            <div class="tradecar-single-text__field">Лояльным клиентам</div>
-                            <div class="tradecar-single-text__price" style="font-family: 'rus_modern_h_bold';">-60 000 <span><!--[if !IE]>-->⃏<!--<![endif]--><!--[if IE]>Р<![endif]--></span></div>
-                            <div class="tradecar-single-text__field">Клиентам Hyundai</div>
-                            <div class="tradecar-single-text__price">-36 000 <span><!--[if !IE]>-->⃏<!--<![endif]--><!--[if IE]>Р<![endif]--></span></div>
-                        </div>
-                        <div class="tradecar-single-buttons">
-                            <a href="/request/testdrive?model_id=30" class="tradecar-single-buttons-single"><img src="/hpromise/i/ryl5.png">Тест-драйв</a>
-                            <a href="/configurator/?car_id=30" class="tradecar-single-buttons-single"><img src="/hpromise/i/avto5.png">Конфигурации</a>
-                        </div>
-                    </div>
-                    <div class="tradecar-single">
-                        <div class="tradecar-single-text tradecar-single-text__i40">
-                            <h3>Hyundai I40</h3>
-                            <div class="tradecar-single-text__descriptionshow">
-                                <a href="/car/i40">Описание модели</a>
-                            </div>
-                            <div class="tradecar-single-text__field">Лояльным клиентам</div>
-                            <div class="tradecar-single-text__price" style="font-family: 'rus_modern_h_bold';">-40 000 <span><!--[if !IE]>-->⃏<!--<![endif]--><!--[if IE]>Р<![endif]--></span></div>
-                            <div class="tradecar-single-text__field">Клиентам Hyundai</div>
-                            <div class="tradecar-single-text__price">-24 000 <span><!--[if !IE]>-->⃏<!--<![endif]--><!--[if IE]>Р<![endif]--></span></div>
-                        </div>
-                        <div class="tradecar-single-buttons">
-                            <a href="/request/testdrive?model_id=23" class="tradecar-single-buttons-single"><img src="/hpromise/i/ryl5.png">Тест-драйв</a>
-                            <a href="/configurator/?car_id=23" class="tradecar-single-buttons-single"><img src="/hpromise/i/avto5.png">Конфигурации</a>
-                        </div>
-                    </div>
-                    <div class="tradecar-single">
-                        <div class="tradecar-single-text tradecar-single-text__creta">
-                            <h3>Hyundai Creta</h3>
-                            <div class="tradecar-single-text__descriptionshow">
-                                <a href="/car/Creta">Описание модели</a>
-                            </div>
-                            <div class="tradecar-single-text__field">Лояльным клиентам</div>
-                            <div class="tradecar-single-text__price" style="font-family: 'rus_modern_h_bold';">-30 000 <span><!--[if !IE]>-->⃏<!--<![endif]--><!--[if IE]>Р<![endif]--></span></div>
-                            <div class="tradecar-single-text__field">Клиентам Hyundai</div>
-                            <div class="tradecar-single-text__price">-18 000 <span><!--[if !IE]>-->⃏<!--<![endif]--><!--[if IE]>Р<![endif]--></span></div>
-                        </div>
-                        <div class="tradecar-single-buttons">
-                            <a href="/request/testdrive?model_id=33" class="tradecar-single-buttons-single"><img src="/hpromise/i/ryl5.png">Тест-драйв</a>
-                            <a href="/configurator/?car_id=33" class="tradecar-single-buttons-single"><img src="/hpromise/i/avto5.png">Конфигурации</a>
-                        </div>
-                    </div>
-                    <div class="tradecar-single">
-                        <div class="tradecar-single-text tradecar-single-text__i30" style="min-height:155px; ">
-                            <h3>i30</h3>
-                            <div class="tradecar-single-text__descriptionshow">
-                                <a href="/car/i30">Описание модели</a>
-                            </div>
-                            <div class="tradecar-single-text__field">Лояльным клиентам</div>
-                            <div class="tradecar-single-text__price" style="font-family: 'rus_modern_h_bold';">-30 000 <span><!--[if !IE]>-->⃏<!--<![endif]--><!--[if IE]>Р<![endif]--></span></div>
-                            <div class="tradecar-single-text__field">Клиентам Hyundai</div>
-                            <div class="tradecar-single-text__price">-18 000 <span><!--[if !IE]>-->⃏<!--<![endif]--><!--[if IE]>Р<![endif]--></span></div>
-                        </div>
-                        <div class="tradecar-single-buttons">
-                            <a href="/request/testdrive?model_id=24" class="tradecar-single-buttons-single"><img src="/hpromise/i/ryl5.png">Тест-драйв</a>
-                            <a href="/configurator/?car_id=24" class="tradecar-single-buttons-single"><img src="/hpromise/i/avto5.png">Конфигурации</a>
-                        </div>
-                    </div>
-                    <div class="tradecar-single">
-                        <div class="tradecar-single-text tradecar-single-text__elanta">
-                            <h3>Hyundai Elantra</h3>
-                            <div class="tradecar-single-text__descriptionshow">
-                                <a href="/car/Elantra">Описание модели</a>
-                            </div>
-                            <div class="tradecar-single-text__field">Лояльным клиентам</div>
-                            <div class="tradecar-single-text__price" style="font-family: 'rus_modern_h_bold';">-30 000  <span><!--[if !IE]>-->⃏<!--<![endif]--><!--[if IE]>Р<![endif]--></span></div>
-                            <div class="tradecar-single-text__field">Клиентам Hyundai</div>
-                            <div class="tradecar-single-text__price">-18 000 <span><!--[if !IE]>-->⃏<!--<![endif]--><!--[if IE]>Р<![endif]--></span></div>
-                        </div>
-                        <div class="tradecar-single-buttons">
-                            <a href="/request/testdrive?model_id=27" class="tradecar-single-buttons-single"><img src="/hpromise/i/ryl5.png">Тест-драйв</a>
-                            <a href="/configurator/?car_id=27" class="tradecar-single-buttons-single"><img src="/hpromise/i/avto5.png">Конфигурации</a>
-                        </div>
-                    </div>
-
-                    <div class="tradecar-single">
-                        <div class="tradecar-single-text tradecar-single-text__solaris">
-                            <h3>Hyundai Solaris</h3>
-                            <div class="tradecar-single-text__descriptionshow">
-                                <a href="/car/Solaris">Описание модели</a>
-                            </div>
-                            <div class="tradecar-single-text__field">Лояльным клиентам</div>
-                            <div class="tradecar-single-text__price" style="font-family: 'rus_modern_h_bold';">-30 000 <span><!--[if !IE]>-->⃏<!--<![endif]--><!--[if IE]>Р<![endif]--></span></div>
-                            <div class="tradecar-single-text__field">Клиентам Hyundai</div>
-                            <div class="tradecar-single-text__price">-18 000 <span><!--[if !IE]>-->⃏<!--<![endif]--><!--[if IE]>Р<![endif]--></span></div>
-                        </div>
-                        <div class="tradecar-single-buttons">
-                            <a href="/request/testdrive?model_id=22" class="tradecar-single-buttons-single"><img src="/hpromise/i/ryl5.png">Тест-драйв</a>
-                            <a href="/configurator/?car_id=22" class="tradecar-single-buttons-single"><img src="/hpromise/i/avto5.png">Конфигурации</a>
-                        </div>
-                    </div>
-
+    <div class="nblock" id="trade_in_rules">
+        <div class="conditions">
+            <h2 class="hond">Условия</h2>
+            <h3 class="hond">Требования к вашему автомобилю</h3>
+            <div class="conditions-requirements">
+                <div class="conditions-requirements-single">
+                    <div class="conditions-requirements-single-id">01</div>
+                    <div class="conditions-requirements-single-text">Официально ввезен на территорию Российской Федерации и продан официальным дилером Hyundai<sup>***</sup></div>
+                </div>
+                <div class="conditions-requirements-single">
+                    <div class="conditions-requirements-single-id">02</div>
+                    <div class="conditions-requirements-single-text">Идентификационный номер автомобиля (VN) не поврежден и совпадает с информацией в ПТС</div>
+                </div>
+                <div class="conditions-requirements-single">
+                    <div class="conditions-requirements-single-id">03</div>
+                    <div class="conditions-requirements-single-text">Автомобиль находится в собственности не менее 6 месяцев</div>
+                </div>
+                <div class="conditions-requirements-single">
+                    <div class="conditions-requirements-single-id">04</div>
+                    <div class="conditions-requirements-single-text">Не выявлено следов ремонта силовой структуры кузова и срабатывания подушек безопасности</div>
+                </div>
+                <div class="conditions-requirements-single">
+                    <div class="conditions-requirements-single-id">05</div>
+                    <div class="conditions-requirements-single-text">Отсутствуют ограничения для отчуждения (залог, урон и прочие)</div>
+                </div>
+                <div class="conditions-requirements-single">
+                    <div class="conditions-requirements-single-id">06</div>
+                    <div class="conditions-requirements-single-text">Реальный пробег совпадает с показаниями одометра на панели приборов</div>
                 </div>
                 <div style="clear: both;"></div>
             </div>
-            <div class="base__inner">
-                <p class="footnote"><span style="color: #1880c3;">1</span> - Клиенты Hyundai - покупатели моделей Equus, Genesis, Santa Fe Premium, i40, Creta, i30, Elantra и Solaris, сдающие в зачет стоимости нового автомобиля (по схеме ТРЕЙД-ИН) бывший в употреблении автомобиль Hyundai любой модели, соответствующий вышеизложенным критериям, без подтверждения о прохождении регламентного технического обслуживания у официальных дилеров Hyundai на территории РФ.
-                </p>
-                <p class="footnote"><span style="color: #1880c3;">2</span> - Лояльные клиенты Hyundai - Equus, Genesis, Santa Fe Premium, i40, Creta, i30, Elantra и Solaris, сдающие в зачет стоимости нового автомобиля (по схеме ТРЕЙД-ИН) бывший в употреблении автомобиль Hyundai любой модели, соответствующий вышеизложенным критериям, прошедший техническое обслуживание согласно регламенту завода-изготовителя в установленные сроки в официальных дилерских центрах Hyundai на территории РФ. Своевременность и соблюдение регламента технического обслуживания должны быть подтверждены отметками в сервисной книжке автомобиля.</p>
+            <div class="conditions-docs">
+                <h3 class="hond">Необходимые документы</h3>
+                <div class="conditions-docs-inner">
+                    <div class="conditions-docs-inner-single">
+                        <img src="/hpromise/img/icon1.svg" alt="">
+                        <div class="conditions-docs-inner-single-text">Свидетельство о регистрации ТС</div>
+                    </div>
+                    <div class="conditions-docs-inner-single">
+                        <img src="/hpromise/img/icon2.svg" alt="">
+                        <div class="conditions-docs-inner-single-text">Оригинал ПТС</div>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
             </div>
-            <div class="base__inner distinctive__block ">
-                <h2>Необходимые документы</h2>
-                <p>Перечень документов, предоставляемых собственником транпортного средства в рамках приобретения нового транспортного средства по программе лояльности H-Promise:</p>
-                <ul>
-                    <li><b>Оригинал ПТС;</b></li>
-                    <li><b>Оригинал свидетельства о регистрации</b> транспортного средства;</li>
-                    <li><b>Оригинал сервисной книжки автомобиля</b> в случае рассмотрения возможности предоставления скидки для лояльных клиентов; в случае отсутствия подтверждения о прохождении ТО непосредственно в сервисной книжке клиент имеет возможность предоставить оригиналы заказ-нарядов на выполнение регламентных работ.</li>
-                </ul>
-            </div>
-            <div class="base__inner">
-                <p class="footnote2">Предложение распространяется на ограниченную партию автомобилей, не является публичной офертой (ст. 437 ГК РФ). Узнавайте подробности у официальных дилеров H-Promise.</p>
-            </div>
-
-
-
         </div>
     </div>
+    <div class="nblock">
+        <div class="footnote">
+            <p>* Механизм «ТРЕЙД-ИН» - переход права собственности бывшего в употреблении автомобиля к дилеру, осуществляемый для зачета его остаточной стоимости при приобретении нового автомобиля.</p>
+            <p>** Баллы начисляются после добавления нового а/м в Гараж в Мире Хёндэ, и их можно потратить в личном кабинете Мира Хёндэ.</p>
+            <p>*** Кроме автомобилей производства ТагАЗ</p>
+        </div>
+    </div>
+</div>
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+<script>
+    $(document).ready(function(){
+        $('body').addClass('trade_in');
+    });
+</script>
+<div class="clearfix"></div>
+
+<?
+$APPLICATION->IncludeFile("/hpromise/footer.php", Array(), Array(
+    "MODE"      => "html",
+    "NAME"      => "Редактирование включаемой области раздела",
+    "TEMPLATE"  => ""
+));
+?>

@@ -53,7 +53,7 @@
           $('.main_slick .left_half.hover').animate({
             width: "0"
           }, 2000, function() {
-            window.location.href = "/trade-in/";
+            window.location.href = "/hpromise/trade-in/";
           });
         } else if ($(window).width() <= 991) {
           $('.main_slick .slick-prev').fadeOut("slow");
@@ -63,14 +63,14 @@
           $('.main_slick .left_half.hover').animate({
             height: "0"
           }, 2000, function() {
-            window.location.href = "/trade-in/";
+            window.location.href = "/hpromise/trade-in/";
           });
         } else {
           $('.main_slick .left_half.hover').animate({
             width: "0"
           }, 2000, function() {
             $('.main_slick .slick-prev').fadeOut("slow");
-            window.location.href = "/trade-in/";
+            window.location.href = "/hpromise/trade-in/";
           });
         }
 
