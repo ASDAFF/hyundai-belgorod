@@ -568,19 +568,6 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
 
             <? endif; ?>
 
-
-
-            <!--
-            <div class="zing-input">
-                <input
-                    type		= "text"
-                    class		= "zing_middle_name zing_txt"
-                    name		= "zing_middle_name"
-                    id			= "zing_middle_name"
-                    maxlength	= "50">
-                <label for="zing_middle_name">Отчество<sup class="skyblue">*</sup></label>
-            </div>
-            -->
             <div class="zing-input">
                 <input
                     type		= "email"
@@ -599,10 +586,6 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
                     maxlength	= "50">
                 <label for="zing_mobile">Телефон<sup class="skyblue">*</sup></label>
             </div>
-
-
-
-
 
             <div class="zing_pers_rules_wrp">
                 <noindex>
@@ -658,6 +641,7 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
         </div>
     </form>
 </div>
+
 <div class="zing_form_wrp" id="blabla" style="display: none">
     <form class="zing_form" action="#" for="zing_hotline_btn">
         <div class="zing_form_content">

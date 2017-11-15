@@ -44,6 +44,7 @@
     <link href="/hpromise/css/small_desk.css?v=1510585376" rel="stylesheet">
     <link href="/hpromise/css/tablet.css?v=1510585376" rel="stylesheet">
     <link href="/hpromise/css/mobile.css?v=1510585376" rel="stylesheet">
+    <link href="/hpromise/css/zing.css" rel="stylesheet">
 
 
 
