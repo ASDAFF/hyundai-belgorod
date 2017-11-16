@@ -14,7 +14,7 @@ $this->setFrameMode(true);
 ?>
 
 <section class="section section--home-hero">
-	<div class="home-hero" style="background: url(http://hyundai-oskol.ru/_img/background/hero.jpg) no-repeat scroll center bottom/cover;">
+	<div class="home-hero" style="background: url(/_img/background/hero.jpg) no-repeat scroll center bottom/cover;">
 		<div class="home-hero-slider">
 			<div class="hero-slider-container">
 				<div class="hero-slider-wrapper">
