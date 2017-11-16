@@ -5,14 +5,7 @@ $APPLICATION->SetTitle("all-offers");
 
     <div class="offers__main offers-divider">
         <div class="offers__container offers_divider__content clearfix">
-            <!-- kroshki -->
-            <div class="offers__breadcrumbs breadcrumbs-fromtop">
-                <ul><li><a href="/" title="">Главная</a> &gt;</li>
-                    <li><a href="#" title="">Акции</a></li>
-                </ul>
-            </div>
-            <!-- true offers -->
-            <!-- title -->
+            
             <h1 class="offers_divider__content__title">Акции</h1>
 
             <!-- just offers ok let's go -->
