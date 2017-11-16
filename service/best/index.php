@@ -270,7 +270,7 @@ $APPLICATION->SetTitle("best");
             <nav class="site-nav">
                 <div class="site-nav-center clearfix">
                     <div class="site-nav-center-item">
-                        <a class="site-nav-center-item-link" href="/configurator">
+                        <a class="site-nav-center-item-link" href="http://www.hyundai.ru/configurator" target="_blank">
                             <div class="site-nav-center-item-link-item">
                                 <div class="site-nav-center-item-link-item-pic"><i class="i-0013-icon-1"></i></div>
                                 <div>Создать свой Hyundai</div>
@@ -308,7 +308,7 @@ $APPLICATION->SetTitle("best");
                         </a>
                     </div>
                     <div class="site-nav-center-item">
-                        <a class="site-nav-center-item-link" href="/configurator">
+                        <a class="site-nav-center-item-link" href="http://www.hyundai.ru/configurator" target="_blank">
                             <div class="site-nav-center-item-link-item">
                                 <div class="site-nav-center-item-link-item-pic"><i class="i-0010-icon-4"></i></div>
                                 <div>Рассчитать кредит</div>
