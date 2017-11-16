@@ -1,0 +1,6 @@
+<?
+$sSectionName = "TucsonActive";
+$arDirProperties = Array(
+
+);
+?>
