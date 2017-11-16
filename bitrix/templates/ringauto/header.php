@@ -106,7 +106,7 @@
 
 
 			</div>
-			
+
 			<nav class="navbar-primary__nv" role="navigation">
 				<ul class="navbar-primary__nv-list">
 					<li class="navbar-primary__nv-list-item"><a href="/offer/" class="navbar-primary__nv-list-link">Авто в наличии</a></li>

@@ -226,7 +226,7 @@ $APPLICATION->SetTitle("Мебельная компания");
 			<nav class="highlight-nav">
 				<ul class="highlight-nav__items">
 					<li class="highlight-nav__item">
-						<a href="/configurator/" class="highlight-nav__link" target="_blank">
+						<a href="http://www.hyundai.ru/configurator" class="highlight-nav__link" target="_blank">
 							<div style="background-image:url(/_img/tsrs/configurator.png)" class="highlight-nav__icon"></div>
 							<strong class="highlight-nav__name">Создать свой Hyundai</strong>
 							<span class="highlight-nav__highspot">Ваш автомобиль в один клик</span>
@@ -247,7 +247,7 @@ $APPLICATION->SetTitle("Мебельная компания");
 						</a>
 					</li>
 					<li class="highlight-nav__item">
-						<a href="/configurator/" class="highlight-nav__link">
+						<a href="http://www.hyundai.ru/configurator" class="highlight-nav__link" target="_blank">
 							<div style="background-image:url(/_img/tsrs/credit.png)" class="highlight-nav__icon"></div>
 							<strong class="highlight-nav__name">Рассчитать кредит</strong>
 							<span class="highlight-nav__highspot">Финансовые программы</span>
