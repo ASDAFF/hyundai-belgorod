@@ -14,7 +14,7 @@
 					</li>
 
 					<li class="main-nav__item">
-						<a href="/all-offers/" target="_blank" class="main-nav__link">Cпецпредложения</a>
+						<a href="/all-offers/" class="main-nav__link">Cпецпредложения</a>
 					</li>
 					<li class="main-nav__item">
 						<a href="/hpromise/" target="_blank" class="main-nav__link">С пробегом</a>
