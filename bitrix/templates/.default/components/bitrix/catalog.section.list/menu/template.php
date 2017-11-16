@@ -49,41 +49,34 @@ $arSectionDeleteParams = array("CONFIRM" => GetMessage('CT_BCSL_ELEMENT_DELETE_C
 
 <ul class="showroom">
 
-	<?
-	foreach ($arResult['SECTIONS'] as &$arSection){
-	?>
-	<li class="showroom__cat">
-		<strong class="showroom__cat-title"><?=$arSection['NAME']?></strong>
+	<? foreach ($arResult['SECTIONS'] as &$arSection): ?>
+	<li class="showroom__cat" role="menuitem">
+		<div class="showroom__cat-title"><?=$arSection['NAME']?></div>
 		<div class="showroom__cat-items">
 
 			<?
-			$arSelect = Array("ID", "IBLOCK_ID","CODE","PREVIEW_PICTURE", "NAME", "DATE_ACTIVE_FROM","PROPERTY_*");
-			$arFilter = Array("IBLOCK_ID" => $arSection['IBLOCK_ID'],"SECTION_ID" => $arSection['ID'], "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y");
+			$arSelect = Array("ID", "IBLOCK_ID","CODE","PREVIEW_PICTURE", "NAME","PROPERTY_PRICE","PROPERTY_PROFIT_MENU");
+			$arFilter = Array("IBLOCK_ID" => $arSection['IBLOCK_ID'],"SECTION_ID" => $arSection['ID'],"ACTIVE"=>"Y");
 			$res = CIBlockElement::GetList(Array(), $arFilter, false, Array(), $arSelect);
-			while($ob = $res->GetNextElement()){
+			while($ob = $res->GetNextElement()):
 			$arFields = $ob->GetFields();
-			$arProps = $ob->GetProperties();
 			?>
+
+			<!--showroom__cat-item--promo-->
 			<a href="/<?=$arFields['CODE']?>" class="showroom__cat-item" title="<?=$arFields['NAME']?>">
-				<img src="<?=CFile::GetPath($arFields["PREVIEW_PICTURE"]);?>" class="showroom__cat-item-image" alt="<?=$arFields['NAME']?>"/>
 				<span class="showroom__cat-item-name"><?=$arFields['NAME']?></span>
-				<? if($arProps['PROFIT_MENU']['VALUE']):?>
-				<span class="showroom__cat-item-name"><?=$arProps['PROFIT_MENU']['VALUE']?></span>
-				<? endif; ?>
-				<span class="showroom__cat-item-price"><?=$arProps['PRICE']['VALUE']?></span>
+				<span class="showroom__cat-item-price"><?=str_replace(array('руб.','руб'),'',$arFields['PROPERTY_PRICE_VALUE'])?> ₽</span>
+				<span class="showroom__cat-item-price"><?=$arFields['PROPERTY_PROFIT_MENU_VALUE']?></span>
+				<img src="<?=CFile::GetPath($arFields["PREVIEW_PICTURE"]);?>" class="showroom__cat-item-image" alt="Новый Solaris"/>
 			</a>
 
-			<?
-			}
-			?>
+			<? endwhile; ?>
 		</div>
 	</li>
-		<?
-	}
-	?>
-
+	<? endforeach; ?>
 
 </ul>
+
 
 
 

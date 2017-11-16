@@ -34,6 +34,8 @@
 
 	<link href="<?=SITE_TEMPLATE_PATH?>/css/mobile.css" rel="stylesheet" />
 
+	<link href="/bitrix/css/main/main-menu.css" rel="stylesheet" type="text/css">
+
 	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquerymin.js"></script>
 	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery-ui.min.js"></script>
 	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.simplemodal.1.4.4.min.js"></script>
@@ -99,73 +101,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-		<div class="main-header">
-			<div class="main-header__holder">
-				<a href="/" class="main-header__logo" title="Hyundai">
-					<img src="/_img/logo.jpg">
-				</a>
-				<nav class="main-nav" role="navigation">
-					<ul class="main-nav__list">
-						<li class="main-nav__item main-nav__item--has-submenu">
-							<span class="main-nav__link" data-role="showroom-submenu-link">Модельный ряд</span>
-						</li>
-						<li class="main-nav__item">
-							<a href="/offer/" target="_blank" class="main-nav__link">Cпецпредложения</a>
-						</li>
-						<li class="main-nav__item">
-							<a href="/hpromise/" target="_blank" class="main-nav__link">С пробегом</a>
-						</li>
-						<li class="main-nav__item">
-							<a href="/service/spetspredlozheniya/" class="main-nav__link">Сервис</a>
-						</li>
-						<li class="main-nav__item">
-							<a href="/contacts/" class="main-nav__link">Контакты</a>
-						</li>
-						<li class="main-nav__item">
-							<a href="/configurator/" class="main-nav__link">Конфигуратор</a>
-						</li>
+		<? $APPLICATION->IncludeComponent("bitrix:menu", "main-menu", Array(
+			"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
+			"CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
+			"DELAY" => "N",	// Откладывать выполнение шаблона меню
+			"MAX_LEVEL" => "2",	// Уровень вложенности меню
+			"MENU_CACHE_GET_VARS" => array(	// Значимые переменные запроса
+				0 => "",
+			),
+			"MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
+			"MENU_CACHE_TYPE" => "N",	// Тип кеширования
+			"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
+			"ROOT_MENU_TYPE" => "top",	// Тип меню для первого уровня
+			"USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
+			"MODEL_IBLOCK" => getIdModelIb(SITE_ID),	// Подключать файлы с именами вида .тип_меню.menu_ext.php
+		),
+			false
+		);?>
 
-						<li class="main-nav__item main-nav__item--go-leave">
-							<a href="https://mir.hyundai.ru/" target="_blank" class="main-nav__link">Мир Хендэ →</a>
-						</li>
-					</ul>
-				</nav>
-				<span class="main-header__menu"><span class="main-header__menu-ic-helper"></span></span>
-			</div>
-			<div class="main-header__submenus-holder">
-				<div class="submenu" data-role="showroom-submenu">
-					<div class="submenu-content">
 
-						<?$APPLICATION->IncludeComponent("bitrix:catalog.section.list", "menu", Array(
-							"ADD_SECTIONS_CHAIN" => "Y",	// Включать раздел в цепочку навигации
-							"CACHE_GROUPS" => "Y",	// Учитывать права доступа
-							"CACHE_TIME" => "36000000",	// Время кеширования (сек.)
-							"CACHE_TYPE" => "A",	// Тип кеширования
-							"COUNT_ELEMENTS" => "Y",	// Показывать количество элементов в разделе
-							"IBLOCK_ID" => "26",	// Инфоблок
-							"IBLOCK_TYPE" => "products",	// Тип инфоблока
-							"SECTION_CODE" => "",	// Код раздела
-							"SECTION_FIELDS" => array(	// Поля разделов
-								0 => "",
-								1 => "",
-							),
-							"SECTION_ID" => $_REQUEST["SECTION_ID"],	// ID раздела
-							"SECTION_URL" => "",	// URL, ведущий на страницу с содержимым раздела
-							"SECTION_USER_FIELDS" => array(	// Свойства разделов
-								0 => "",
-								1 => "",
-							),
-							"SHOW_PARENT_NAME" => "Y",	// Показывать название раздела
-							"TOP_DEPTH" => "2",	// Максимальная отображаемая глубина разделов
-							"VIEW_MODE" => "LINE",	// Вид списка подразделов
-						),
-							false
-						);?>
-
-					</div>
-				</div>
-			</div>
-		</div>
 	</header>
 
 	<script src="/home_style/js/common.js"></script>

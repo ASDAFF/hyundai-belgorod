@@ -325,3 +325,25 @@ function myFormatCurrency($fSum, $strCurrency)
     return number_format ( $fSum, 0, '.', ' ' );
 }
 
+function getIdModelIb($site){
+
+    switch($site){
+        case "s1":
+            $model_ib = 7;
+            break;
+
+        case "s2":
+            $model_ib = 26;
+            break;
+
+        case "s3":
+            $model_ib = 36;
+            break;
+
+        case "s4":
+            $model_ib = 45;
+            break;
+    }
+    return $model_ib;
+
+}
