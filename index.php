@@ -227,28 +227,28 @@ $APPLICATION->SetTitle("Мебельная компания");
 				<ul class="highlight-nav__items">
 					<li class="highlight-nav__item">
 						<a href="/configurator/" class="highlight-nav__link" target="_blank">
-							<div style="background-image:url(http://hyundai-oskol.ru/_img/tsrs/configurator.png)" class="highlight-nav__icon"></div>
+							<div style="background-image:url(/_img/tsrs/configurator.png)" class="highlight-nav__icon"></div>
 							<strong class="highlight-nav__name">Создать свой Hyundai</strong>
 							<span class="highlight-nav__highspot">Ваш автомобиль в один клик</span>
 						</a>
 					</li>
 					<li class="highlight-nav__item">
 						<a href="#" class="highlight-nav__link zing_form_toggler" for="zing_cuzov_btn">
-							<div style="background-image:url(http://hyundai-oskol.ru/_img/tsrs/service.png)" class="highlight-nav__icon"></div>
+							<div style="background-image:url(/_img/tsrs/service.png)" class="highlight-nav__icon"></div>
 							<strong class="highlight-nav__name">Запись на сервис</strong>
 							<span class="highlight-nav__highspot"></span>
 						</a>
 					</li>
 					<li class="highlight-nav__item">
 						<a href="#" class="highlight-nav__link zing_form_toggler_spec" for="testdrive">
-							<div style="background-image:url(http://hyundai-oskol.ru/_img/tsrs/testdrive.png)" class="highlight-nav__icon"></div>
+							<div style="background-image:url(/_img/tsrs/testdrive.png)" class="highlight-nav__icon"></div>
 							<strong class="highlight-nav__name">Тест-драйв</strong>
 							<span class="highlight-nav__highspot">Моментальная заявка в удобное для вас время</span>
 						</a>
 					</li>
 					<li class="highlight-nav__item">
 						<a href="/configurator/" class="highlight-nav__link">
-							<div style="background-image:url(http://hyundai-oskol.ru/_img/tsrs/credit.png)" class="highlight-nav__icon"></div>
+							<div style="background-image:url(/_img/tsrs/credit.png)" class="highlight-nav__icon"></div>
 							<strong class="highlight-nav__name">Рассчитать кредит</strong>
 							<span class="highlight-nav__highspot">Финансовые программы</span>
 						</a>
