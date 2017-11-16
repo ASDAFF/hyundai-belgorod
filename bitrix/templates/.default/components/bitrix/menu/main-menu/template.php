@@ -14,6 +14,9 @@
 					</li>
 
 					<li class="main-nav__item">
+						<a href="/offer/" class="main-nav__link">Авто в наличии</a>
+					</li>
+					<li class="main-nav__item">
 						<a href="/all-offers/" class="main-nav__link">Cпецпредложения</a>
 					</li>
 					<li class="main-nav__item">
@@ -25,13 +28,13 @@
 					<li class="main-nav__item">
 						<a href="/contacts/" class="main-nav__link">Контакты</a>
 					</li>
-					<li class="main-nav__item">
-						<a target="_blank" href="http://www.hyundai.ru/configurator" class="main-nav__link">Конфигуратор</a>
-					</li>
-
-					<li class="main-nav__item main-nav__item--go-leave">
-						<a href="https://mir.hyundai.ru/" target="_blank" class="main-nav__link">Мир Хендэ →</a>
-					</li>
+<!--					<li class="main-nav__item">-->
+<!--						<a target="_blank" href="http://www.hyundai.ru/configurator" class="main-nav__link">Конфигуратор</a>-->
+<!--					</li>-->
+<!---->
+<!--					<li class="main-nav__item main-nav__item--go-leave">-->
+<!--						<a href="https://mir.hyundai.ru/" target="_blank" class="main-nav__link">Мир Хендэ →</a>-->
+<!--					</li>-->
 				</ul>
 			</nav>
 			<span class="main-header__menu"><span class="main-header__menu-ic-helper"></span></span>
