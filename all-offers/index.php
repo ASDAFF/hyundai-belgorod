@@ -5,7 +5,7 @@ $APPLICATION->SetTitle("all-offers");
 
     <div class="offers__main offers-divider">
         <div class="offers__container offers_divider__content clearfix">
-            
+
             <h1 class="offers_divider__content__title">Акции</h1>
 
             <!-- just offers ok let's go -->
