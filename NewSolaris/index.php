@@ -335,7 +335,7 @@ $APPLICATION->SetTitle("NewSolaris");
                 <div class="fast-menu is-expanded" role="navigation">
                     <a href="#" role="button" class="fast-menu-button fast-menu-button--parent" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" class="svg fast-menu-car"><use xlink:href="#fast-menu-car"></use></svg><svg xmlns="http://www.w3.org/2000/svg" class="svg fast-menu-close"><use xlink:href="#fast-menu-close"></use></svg></a>
                     <a href="#" class="fast-menu-button fast-menu-button--child zing_form_toggler_spec" for="testdrive"><span class="fast-menu-button__text">Тест-драйв</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-test-drive"></use></svg></a>
-                    <a href="http://www.hyundai.ru/configurator/car?compl_id=379&packets=" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Конфигуратор</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-config"></use></svg></a>
+                    <a href="http://www.hyundai.ru/configurator" target="_blank" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Конфигуратор</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-config"></use></svg></a>
                     <a href="/contacts/" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Контакты</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-dealers"></use></svg></a>
                 </div>
                 <main class="pip-main" style="position: relative">
@@ -430,7 +430,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="title-price">
                                                 <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
                                                 <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                                <a href="http://www.hyundai.ru/configurator/?car_id=147" class="title-price-notice">В кредит от 11 857 ₽ / месяц</a>
+                                                <a href="http://www.hyundai.ru/configurator" target="_blank" class="title-price-notice">В кредит от 11 857 ₽ / месяц</a>
                                             </div>
                                             <a href="#" class="btn-flat">Все предложения</a>
                                             <div class="title-list">
@@ -480,7 +480,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                     <li class="pip-primary-nav-item pip-primary-nav-item--to-sub"><a href="#sub-nav" content-type="explore" data-active="true" class="pip-primary-nav-link">Обзор<span class="pip-primary-nav-current">1. Твой Solaris</span><svg xmlns="http://www.w3.org/2000/svg" class="svg arrow-down"><use xlink:href="#arrow-down"></use></svg></a></li>
                                     <li class="pip-primary-nav-item pip-primary-nav-item--to-content"><a href="#" content-type="specs" class="pip-primary-nav-link">Характеристики</a></li>
                                     <li class="pip-primary-nav-item pip-primary-nav-item--to-content"><a href="#" content-type="gallery" class="pip-primary-nav-link">Фото</a></li>
-                                    <li class="pip-primary-nav-item pip-primary-nav-item--to-outside"><a href="/configurator/car/?compl_id=379&packets=" class="pip-primary-nav-link">Цены и конфигурации<svg xmlns="http://www.w3.org/2000/svg" class="svg arrow-right-w-tail"><use xlink:href="#arrow-right-w-tail"></use></svg></a></li>
+                                    <li class="pip-primary-nav-item pip-primary-nav-item--to-outside"><a href="http://www.hyundai.ru/configurator" target="_blank" class="pip-primary-nav-link">Цены и конфигурации<svg xmlns="http://www.w3.org/2000/svg" class="svg arrow-right-w-tail"><use xlink:href="#arrow-right-w-tail"></use></svg></a></li>
                                 </ul>
                             </div>
                             <div class="pip-sub-nav-w">
@@ -528,7 +528,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <span class="configurator-360-color-name view-360-color-name">Marina Blue</span>
                                         </div>
                                         <div class="configurator-control dublay-ch dublay-ch--by-50">
-                                            <a href="/configurator/car/?compl_id=379&packets=" class="configurator-link">
+                                            <a href="http://www.hyundai.ru/configurator" target="_blank" class="configurator-link">
                                                 <div class="configurator-link-text">
                                                     от <span class="configurator-price-val"> 624 900 </span> &#8381;
                                                     <!-- 										<span class="configurator-credit">Конфигуратор</span> -->

@@ -190,7 +190,7 @@ $APPLICATION->SetTitle("Tucson");
                                     <li class="on"><a class="main-toggler main-toggler__explore" href="#" data-href="#content-type__explore" title="Обзор">ОБЗОР</a></li><!--
 					 --><li><a class="main-toggler main-toggler__specs" href="#" data-href="#content-type__specs" title="Характеристики">ХАРАКТЕРИСТИКИ</a></li><!--
 					 --><!-- <li><a class="main-toggler main-toggler__gallery" href="#" data-href="#content-type__gallery" title="Галерея">ГАЛЕРЕЯ</a></li> --><!--
-					 --><li><a class="configurator" href="/configurator/?car_id=30" title="Цены комплектации">ЦЕНЫ И КОНФИГУРАЦИИ</a></li><!--
+					 --><li><a class="configurator" href="http://www.hyundai.ru/configurator" target="_blank" title="Цены комплектации">ЦЕНЫ И КОНФИГУРАЦИИ</a></li><!--
 					 --><li class="broshure-item" title="Брошюра"><a data-gtm-havas-model="tucson" href="#" data-model="Tucson" for="brochures_request" class="zing_form_toggler broshure" target="_blank">БРОШЮРА</a></li><!--
 					 --><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
                                 </ul>
@@ -1423,7 +1423,7 @@ $APPLICATION->SetTitle("Tucson");
                             </div>
                         </div>
                         <div class="detailedSpecLink">
-                            <a href="/configurator/" onclick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
+                            <a href="http://www.hyundai.ru/configurator" target="_blank" onclick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
                         </div>
                         <div class="spec_message">
                             <div>
@@ -1483,10 +1483,10 @@ $APPLICATION->SetTitle("Tucson");
                     </div>
                     <div class="promo-grid">
                         <ul class="clearfix">
-                            <li><a href="/configurator/?car_id=30"><span>Конфигуратор Tucson</span></a></li>
+                            <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Конфигуратор Tucson</span></a></li>
                             <li><a href="#"><span>Найти дилера</span></a></li>
                             <li><a target="_blank" href="/media/downloads/accessoires/Tucson_Acc.pdf"><span>Каталог аксессуаров</span></a></li>
-                            <li><a href="/configurator/?car_id=30&amp;calc_open=1"><span>Рассчитать кредит</span></a></li>
+                            <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Рассчитать кредит</span></a></li>
                         </ul>
                     </div>
                 </div>

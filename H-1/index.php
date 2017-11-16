@@ -101,7 +101,7 @@ $APPLICATION->SetTitle("H-1");
                                             <div class="title-price">
                                                 <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
                                                 <? profit_to_url($APPLICATION->GetCurPage()); ?>
-                                                <a href="http://www.hyundai.ru/configurator/?car_id=11&calc_open=1" class="title-price-notice">В кредит от 31 255 &#8381; / месяц</a>
+                                                <a href="http://www.hyundai.ru/configurator" target="_blank" class="title-price-notice">В кредит от 31 255 &#8381; / месяц</a>
                                             </div>
                                             <a href="/all-offers/H1" class="btn-flat">Все предложения</a>
                                             <div class="title-list">
@@ -151,7 +151,7 @@ $APPLICATION->SetTitle("H-1");
                                         <li class="on"><a class="main-toggler main-toggler__explore" href="#" data-href="#content-type__explore" title="Обзор">ОБЗОР</a></li><!--
 					 --><li><a class="main-toggler main-toggler__specs" href="#" data-href="#content-type__specs" title="Характеристики">ХАРАКТЕРИСТИКИ</a></li><!--
 					 --><li><a class="main-toggler main-toggler__gallery" href="#" data-href="#content-type__gallery" title="Галерея">ГАЛЕРЕЯ</a></li><!--
-					 --><li><a class="configurator" href="/configurator/?car_id=11" title="Цены комплектации">ЦЕНЫ И КОНФИГУРАЦИИ</a></li><!--
+					 --><li><a class="configurator" href="http://www.hyundai.ru/configurator" target="_blank" title="Цены комплектации">ЦЕНЫ И КОНФИГУРАЦИИ</a></li><!--
 					 --><li class="broshure-item" title="Брошюра"><a data-gtm-havas-model="h1" href="#" data-model="H-1" for="brochures_request" class="zing_form_toggler broshure" target="_blank">БРОШЮРА</a></li>
                                     </ul>
                                 </div>
@@ -1026,7 +1026,7 @@ $APPLICATION->SetTitle("H-1");
                                 </div>
                             </div>
                             <div class="detailedSpecLink">
-                                <a href="/configurator/car?car_id=11#desc">Подробные характеристики</a>
+                                <a href="http://www.hyundai.ru/configurator" target="_blank">Подробные характеристики</a>
                             </div>
                             <div class="spec_message">
                                 <div>
@@ -1100,10 +1100,10 @@ $APPLICATION->SetTitle("H-1");
                             </div>
                             <div class="promo-grid">
                                 <ul class="clearfix">
-                                    <li><a href="/configurator/?car_id=11"><span>Конфигуратор H-1</span></a></li>
+                                    <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Конфигуратор H-1</span></a></li>
                                     <li><a href="/find-dealer"><span>Найти дилера</span></a></li>
                                     <li class="hidden"><!-- <a target="_blank" href="/media/downloads/accessoires/H-1_Acc.pdf"><span>Каталог аксессуаров</span></a> --></li>
-                                    <li><a href="/configurator/?car_id=11&calc_open=1"><span>Рассчитать кредит</span></a></li>
+                                    <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Рассчитать кредит</span></a></li>
                                 </ul>
                             </div>
                         </div>

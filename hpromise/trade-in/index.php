@@ -96,7 +96,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <a href="javascript:void(0)" class="carslider-inner-single-button buttontd zing_form_toggler_spec" for="testdrive">
                     <span>Тест-драйв</span>
                 </a>
-                <a href="http://www.hyundai.ru/configurator/car?compl_id=379" class="carslider-inner-single-button buttonkonf">
+                <a href="http://www.hyundai.ru/configurator/car?compl_id=379" target="_blank" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
             </div>
@@ -115,7 +115,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <a href="javascript:void(0)" class="carslider-inner-single-button buttontd zing_form_toggler_spec" for="testdrive">
                     <span>Тест-драйв</span>
                 </a>
-                <a href="http://www.hyundai.ru/configurator/car?compl_id=379&packets=" class="carslider-inner-single-button buttonkonf">
+                <a href="http://www.hyundai.ru/configurator/car?compl_id=379&packets=" target="_blank" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
             </div>
@@ -134,7 +134,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <a href="javascript:void(0)" class="carslider-inner-single-button buttontd zing_form_toggler_spec" for="testdrive">
                     <span>Тест-драйв</span>
                 </a>
-                <a href="http://www.hyundai.ru/configurator/car?compl_id=336&packets=" class="carslider-inner-single-button buttonkonf">
+                <a href="http://www.hyundai.ru/configurator/car?compl_id=336&packets=" target="_blank" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
             </div>
@@ -153,7 +153,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <a href="javascript:void(0)" class="carslider-inner-single-button buttontd zing_form_toggler_spec" for="testdrive">
                     <span>Тест-драйв</span>
                 </a>
-                <a href="http://www.hyundai.ru/configurator/?car_id=18" class="carslider-inner-single-button buttonkonf">
+                <a href="http://www.hyundai.ru/configurator/?car_id=18" target="_blank" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
             </div>
@@ -172,7 +172,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <a href="javascript:void(0)" class="carslider-inner-single-button buttontd zing_form_toggler_spec" for="testdrive">
                     <span>Тест-драйв</span>
                 </a>
-                <a href="http://www.hyundai.ru/configurator/?car_id=21" class="carslider-inner-single-button buttonkonf">
+                <a href="http://www.hyundai.ru/configurator/?car_id=21" target="_blank" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
             </div>
@@ -191,7 +191,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <a href="javascript:void(0)" class="carslider-inner-single-button buttontd zing_form_toggler_spec" for="testdrive">
                     <span>Тест-драйв</span>
                 </a>
-                <a href="http://www.hyundai.ru/configurator?car_id=30" class="carslider-inner-single-button buttonkonf">
+                <a href="http://www.hyundai.ru/configurator?car_id=30" target="_blank" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
             </div>
@@ -210,7 +210,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <a href="javascript:void(0)" class="carslider-inner-single-button buttontd zing_form_toggler_spec" for="testdrive">
                     <span>Тест-драйв</span>
                 </a>
-                <a href="http://www.hyundai.ru/configurator/?car_id=29" class="carslider-inner-single-button buttonkonf">
+                <a href="http://www.hyundai.ru/configurator/?car_id=29" target="_blank" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
             </div>
@@ -229,7 +229,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <a href="javascript:void(0)" class="carslider-inner-single-button buttontd zing_form_toggler_spec" for="testdrive">
                     <span>Тест-драйв</span>
                 </a>
-                <a href="http://www.hyundai.ru/configurator/?car_id=12" class="carslider-inner-single-button buttonkonf">
+                <a href="http://www.hyundai.ru/configurator/?car_id=12" target="_blank" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
             </div>

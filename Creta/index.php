@@ -93,7 +93,7 @@ $APPLICATION->SetTitle("Creta");
                                     <div class="title-price" style="margin: 1em 0 3em;">
                                         <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
                                         <? profit_to_url($APPLICATION->GetCurPage()); ?>
-                                        <a href="/configurator/?car_id=150&compl_id=336&calc_open=1" class="title-price-notice">В кредит от 7 000 <span class="rouble">"</span> / месяц</a>
+                                        <a href="http://www.hyundai.ru/configurator" target="_blank" class="title-price-notice">В кредит от 7 000 <span class="rouble">"</span> / месяц</a>
                                     </div>
                                     <div class="title-list">
                                         <ul>
@@ -173,7 +173,7 @@ $APPLICATION->SetTitle("Creta");
                                 <li class="on"><a class="main-toggler main-toggler__explore" href="#" data-href="#content-type__explore" title="Обзор">Обзор</a></li><!--
 					 --><li><a class="main-toggler main-toggler__specs" href="#" data-href="#content-type__specs" title="Характеристики">Характеристики</a></li><!--
 					 --><li><a class="main-toggler main-toggler__gallery" href="#" data-href="#content-type__gallery" title="Галерея">Галерея</a></li><!--
-					 --><li><a class="configurator" href="/configurator/?car_id=150&compl_id=336" title="Цены комплектации">Цены и конфигурации</a></li><!--
+					 --><li><a class="configurator" href="http://www.hyundai.ru/configurator" target="_blank" title="Цены комплектации">Цены и конфигурации</a></li><!--
 					 --><!-- <li>&nbsp;</li> --><!--
 					 --><li>&nbsp;</li><!--
 					 -->
@@ -1205,7 +1205,7 @@ $APPLICATION->SetTitle("Creta");
                         </div>
                     </div>
                     <div class="detailedSpecLink">
-                        <a href="/configurator?car_id=150&compl_id=336#desc">Подробные характеристики</a>
+                        <a href="http://www.hyundai.ru/configurator" target="_blank">Подробные характеристики</a>
                     </div>
                     <div class="spec_message">
                         <div>
@@ -1288,10 +1288,10 @@ $APPLICATION->SetTitle("Creta");
                     </div>
                     <div class="promo-grid" style="margin-top: 280px;">
                         <ul class="clearfix">
-                            <li><a href="/configurator/"><span>Конфигуратор Creta</span></a></li>
+                            <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Конфигуратор Creta</span></a></li>
                             <li style="display:none;"><a href="#"><span>Найти дилера</span></a></li>
                             <li style="display:none;"><a target="_blank" href="/media/downloads/accessoires/SantaFe_Acc.pdf"><span>Каталог аксессуаров</span></a></li>
-                            <li><a href="/configurator/"><span>Рассчитать кредит</span></a></li>
+                            <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Рассчитать кредит</span></a></li>
                         </ul>
                     </div>
                 </div>

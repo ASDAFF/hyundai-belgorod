@@ -95,7 +95,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                     <div class="title-price">
                                         <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
                                         <? profit_to_url($APPLICATION->GetCurPage()); ?>
-                                        <a href="http://www.hyundai.ru/configurator/?car_id=12&calc_open=1" class="title-price-notice">В кредит от 37 622 <span class="rouble">p</span> / месяц</a>
+                                        <a href="http://www.hyundai.ru/configurator" target="_blank" class="title-price-notice">В кредит от 37 622 <span class="rouble">p</span> / месяц</a>
                                     </div>
                                     <a href="/all-offers/grand_santa_fe" class="btn-flat">Все предложения</a>
                                     <div class="title-list">
@@ -169,7 +169,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                 <li class="on"><a class="main-toggler main-toggler__explore" href="#" data-href="#content-type__explore" title="Обзор">ОБЗОР</a></li><!--
 					 --><li><a class="main-toggler main-toggler__specs" href="#" data-href="#content-type__specs" title="Характеристики">ХАРАКТЕРИСТИКИ</a></li><!--
 					 --><li><a class="main-toggler main-toggler__gallery" href="#" data-href="#content-type__gallery" title="Галерея">ГАЛЕРЕЯ</a></li><!--
-					 --><li><a class="configurator" href="/configurator/?car_id=12" title="Цены комплектации">ЦЕНЫ И КОНФИГУРАЦИИ</a></li><!--
+					 --><li><a class="configurator" href="http://www.hyundai.ru/configurator" target="_blank" title="Цены комплектации">ЦЕНЫ И КОНФИГУРАЦИИ</a></li><!--
 					 --><li class="broshure-item" title="Брошюра"><a data-gtm-havas-model="grandsantafe" href="#" data-model="Grand Santa Fe" for="brochures_request" class="zing_form_toggler broshure" target="_blank">БРОШЮРА</a></li><!--
 					 -->
                             </ul>
@@ -1260,7 +1260,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
                         </div>
                     </div>
                     <div class="detailedSpecLink">
-                        <a href="/configurator/car?car_id=12#desc" onClick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
+                        <a href="http://www.hyundai.ru/configurator" target="_blank" onClick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
                     </div>
                     <div class="spec_message">
                         <div>
@@ -1333,10 +1333,10 @@ $APPLICATION->SetTitle("GrandSantaFe");
                     </div>
                     <div class="promo-grid">
                         <ul class="clearfix">
-                            <li><a href="/configurator/?car_id=12"><span>Конфигуратор Grand Santa Fe</span></a></li>
+                            <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Конфигуратор Grand Santa Fe</span></a></li>
                             <li style="display: none;"><a href="#"><span>Найти дилера</span></a></li>
                             <li><a target="_blank" href="/media/downloads/accessoires/SantaFe_Acc.pdf"><span>Каталог аксессуаров</span></a></li>
-                            <li><a href="/configurator/?car_id=12&calc_open=1"><span>Рассчитать кредит</span></a></li>
+                            <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Рассчитать кредит</span></a></li>
                         </ul>
                     </div>
                 </div>
