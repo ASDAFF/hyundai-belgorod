@@ -812,13 +812,14 @@ $(function(){
 
 						var data = $('[data-form-id="start-credit-form"]').serialize(),
 							submitButton = this.$element.find('[type="submit"]');
+
 						// send xhr
 						$.ajax({
-							url: 'http://www.hyundai.ru/requestnew/sendstart',
+							url: '/ajax/feedback.php',
 							type: 'POST',
 							data: data,
 							success: function(r){
-								if (r === '1') {
+								if (r === 'ok') {
 									startcreditModal.close()
 									window.notify('Успешно.', 'success')
 								} else {

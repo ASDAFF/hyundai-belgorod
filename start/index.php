@@ -7,22 +7,15 @@ $APPLICATION->SetTitle("NewSolaris");
     <link type="text/css" href="http://www.hyundai.ru/media/start/css/roundslider.css" rel="stylesheet" />
     <link type="text/css" href="http://www.hyundai.ru/media/start/css/base.css" rel="stylesheet" />
 
+
     <!--
     Контент страницы начнется тут
     -->
 
-<style>
-    .calc_bg {
-        left: 14px;
-        top: 42px;
-    }
-</style>
-
-
     <main class="main" data-model="home">
 
 
-        <div class="main">
+        <div class="main overflow">
             <div class="layout__start-redesign">
                 <div class="main__container">
                     <div class="main__title-label title-label">
@@ -48,7 +41,7 @@ $APPLICATION->SetTitle("NewSolaris");
                     <div class="benefit__item">
                         <div class="benefit__img benefit__img-1"></div>
                         <div class="benefit__text">
-                            Платите минимум в&nbsp;месяц
+                            Платите минимум в&nbspмесяц
                         </div>
                     </div>
                     <div class="benefit__item">
@@ -67,7 +60,7 @@ $APPLICATION->SetTitle("NewSolaris");
                     <div class="benefit__item">
                         <div class="benefit__img benefit__img-4"></div>
                         <div class="benefit__text benefit__text-4">
-                            КАСКО<br>в подарок
+                            КАСКО<br/>в подарок
                         </div>
                     </div>
                 </div>
@@ -86,51 +79,86 @@ $APPLICATION->SetTitle("NewSolaris");
                     </div>
                 </div>
                 <div class="model__selects">
-                    <div class="select">
-                        <select class="model__select select-hidden" name="car">
-                            <option value="100">1.6 - 6MT</option>
-                            <option value="101">1.6 - 6AT</option>
-                            <option value="143">2.0 - 6МT</option>
-                            <option value="191">2.0 - 6АТ</option>
-                        </select>
-                    </div>
-                    <div class="select">
-                        <select class="model__select select-hidden" name="type">
-                            <option value="1235000" data-id="335">COMFORT</option>
-                            <option value="1210000" data-id="404">FAMILY</option>
-                            <option value="1185000" data-id="405">ACTIVE</option>
-                        </select>
-                    </div>
+                    <select class="model__select" name="car">
+                    </select>
+                    <select class="model__select" name="type">
+                    </select>
                 </div>
 
                 <div class="model__slider">
-                    <div class="slider__label" style="">Elantra</div>
+                    <div class="slider__label">
+                        Solaris
+                    </div>
                     <div class="hc-badge" style="transform: matrix(1, 0, 0, 1, 0, 0);">
                         <div class="hc-badge__holder">
                             <span class="hc-badge__name">«Старт»</span>
-                            <span class="hc-badge__pay"><strong class="hc-badge__pay-value">11&nbsp;000</strong><sup>2</sup></span>
+                            <span class="hc-badge__pay"><strong class="hc-badge__pay-value">15&nbsp;436</strong><sup>1</sup></span>
                             <span class="hc-badge__pay-period">₽/мес.</span>
                         </div>
                     </div>
-                    <div class="slider__box" style="width: 1903px; left: -361.5px;">
-                        <img src="http://www.hyundai.ru/media/start/img/cars/23.png" class="slider__item slider__item-prev" alt="" data-name="НОВЫЙ SOLARIS" data-id="23">
-                        <img src="http://www.hyundai.ru/media/start/img/cars/7.png" class="slider__item slider__item_active" alt="" data-name="Elantra" data-id="7">
-                        <img src="http://www.hyundai.ru/media/start/img/cars/6.png" class="slider__item slider__item-next" alt="" data-name="i40" data-id="6">
-                        <img src="http://www.hyundai.ru/media/start/img/cars/22.png" class="slider__item" alt="" data-name="Creta" data-id="22">
-                        <img src="http://www.hyundai.ru/media/start/img/cars/18.png" class="slider__item" alt="" data-name="Tucson" data-id="18">
-                        <img src="http://www.hyundai.ru/media/start/img/cars/17.png" class="slider__item" alt="" data-name="Santa fe" data-id="17">
-                        <img src="http://www.hyundai.ru/media/start/img/cars/13.png" class="slider__item" alt="" data-name="Grand Santa fe" data-id="13">
+                    <div class="slider__box">
+                        <img
+                            src="img/23.png"
+                            class="slider__item slider__item_active"
+                            alt=""
+                            data-name="Новый Solaris"
+                            data-id="23"
+                            >
+                        <img
+                            src="img/24.png"
+                            class="slider__item "
+                            alt=""
+                            data-name="Новая Sonata"
+                            data-id="24"
+                            >
+                        <img
+                            src="img/7.png"
+                            class="slider__item "
+                            alt=""
+                            data-name="Elantra"
+                            data-id="7"
+                            >
+                        <img
+                            src="img/22.png"
+                            class="slider__item "
+                            alt=""
+                            data-name="Creta"
+                            data-id="22"
+                            >
+                        <img
+                            src="img/18.png"
+                            class="slider__item "
+                            alt=""
+                            data-name="Tucson"
+                            data-id="18"
+                            >
+                        <img
+                            src="img/17.png"
+                            class="slider__item "
+                            alt=""
+                            data-name="Santa fe"
+                            data-id="17"
+                            >
+                        <img
+                            src="img/13.png"
+                            class="slider__item "
+                            alt=""
+                            data-name="Grand Santa fe"
+                            data-id="13"
+                            >
                     </div>
                     <div class="slider__go-calc">
                         <div class="calc__total-price">
                             <div class="calc__total-price-text">
                                 стоимость
                             </div>
-                            <div class="calc__total-price-digits" style="opacity: 1; left: 0px;">1&nbsp;235&nbsp;000</div>
+                            <div class="calc__total-price-digits">
+                                630 000
+                            </div>
                         </div>
                         <div class="slider__controls">
-                            <div class="slider__control-prev">НОВЫЙ SOLARIS</div>
-                            <div class="slider__control-next">i40</div>
+                            <div class="slider__control-prev">Solaris</div>
+                            <div class="slider__control-next">Grand Santa Fe</div>
                         </div>
                         <a class="slider__go-calc-button" href="#calc">
                             Рассчитать кредит
@@ -140,7 +168,7 @@ $APPLICATION->SetTitle("NewSolaris");
                 </div>
 
                 <div id="calc"></div>
-                <div class="solaris-spec" style="display: none;">
+                <div class="solaris-spec" >
                     <div class="solaris-spec__main">
                         <div class="solaris-spec__main-spec">
                             Спецпредложение
@@ -214,66 +242,30 @@ $APPLICATION->SetTitle("NewSolaris");
                     <div class="calc-box">
 
                         <div class="calc__box">
-                            <div class="calc_bg" style="display: block;"></div>
-                            <div class="calc__widget rs-control rs-animation" style="height: 400px; width: 400px;"><div class="rs-container full pie" style="height: 400px; width: 400px;"><div class="rs-inner-container"><div class="rs-block rs-outer rs-border rs-split"><div class="rs-path rs-transition rs-range-color" style="transform: rotate(315deg);"></div><div class="rs-path rs-transition rs-range-color" style="opacity: 0; transform: rotate(310.5deg);"></div><div class="rs-path rs-transition rs-path-color" style="transform: rotate(490.5deg); opacity: 1;"></div><div class="rs-path rs-transition rs-path-color" style="opacity: 1; z-index: 1; transform: rotate(135deg);"></div><span class="rs-block" style="padding: 10px;"><div class="rs-inner rs-bg-color rs-border"></div></span></div><svg height="400" width="400"><linearGradient id="gradient" gradientTransform="rotate(-15)"><stop offset="0%" stop-color="#00aed3"></stop><stop offset="100%" stop-color="#00aed3"></stop></linearGradient><circle fill="transparent" class="rs-transition circle2" cx="200" cy="200" r="195" stroke-width="10" stroke-dasharray="1225.2211349000193" style="transform-origin: 50% 50% 0px; transform: rotate(495deg);"></circle><circle fill="transparent" class="rs-transition circle1" cx="200" cy="200" r="195" stroke-width="10" stroke-dasharray="1225.2211349000193" stroke="url(#gradient)" style="transform-origin: 50% 50% 0px; transform: rotate(495deg); stroke-dashoffset: 627.926px;"></circle></svg></div><div class="rs-bar rs-transition rs-first" style="z-index: 8; transform: rotate(490.5deg);"><div class="rs-handle rs-move" index="2" tabindex="0" role="slider" aria-label="handle" style="height: 100px; width: 100px; margin: -50px 0px 0px -45px;" aria-valuenow="39" aria-valuemin="0" aria-valuemax="60"></div><span class="big-circle circle-active" aria-valuenow="39" aria-valuemin="0" aria-valuemax="60"></span><span class="small-circle circle-active" aria-valuenow="39" aria-valuemin="0" aria-valuemax="60"></span><span class="small-circle-2 circle-active" aria-valuenow="39" aria-valuemin="0" aria-valuemax="60"></span><span class="widget__val" style="transform: rotate(-130.5deg);" aria-valuenow="39" aria-valuemin="0" aria-valuemax="60">39</span></div><span class="rs-bar rs-transition rs-start" style="transform: rotate(315deg);"><span class="rs-seperator rs-border" style="width: 10px; margin-top: 0px;"></span></span><span class="rs-bar rs-transition rs-end" style="transform: rotate(585deg);"><span class="rs-seperator rs-border" style="width: 10px; margin-top: 0px;"></span></span><div class="rs-overlay rs-transition rs-bg-color" style="transform: rotate(585deg);"></div><span class="rs-tooltip rs-tooltip-text" style="margin-top: -78.5px; margin-left: -97.8905px;">
-                                        <div class="w-header__title">Первый взнос</div>
-                                        <div class="w-sum">481&nbsp;650 ₽</div>
-                                        <div class="w-total-sum">Общая стоимость
-                                            <span class="w-total-sum__item">1&nbsp;235&nbsp;000</span>
-                                        </div>
-                                        <div class="w-line"></div>
-                                        <div class="w-months">36 месяцев</div>
-                                    </span>
-                                    <span class="rs-bar rs-transition rs-custom" style="transform: rotate(315deg);">
-                                        <span class="rs-number" style="transform: rotate(45deg);">0</span>
-                                        <span class="rs-seperator rs-border" style="width: 10px; margin-top: 0px;"></span>
-                                    </span>
-                                    <span class="rs-bar rs-transition rs-custom" style="transform: rotate(337.5deg);">
-                                        <span class="rs-number" style="transform: rotate(22.5deg);">5</span>
-                                        <span class="rs-seperator rs-border" style="width: 10px; margin-top: 0px;"></span>
-                                    </span>
-                                    <span class="rs-bar rs-transition rs-custom" style="transform: rotate(360deg);">
-                                        <span class="rs-number" style="transform: rotate(0deg);">10</span>
-                                        <span class="rs-seperator rs-border" style="width: 10px; margin-top: 0px;"></span>
-                                    </span>
-                                    <span class="rs-bar rs-transition rs-custom" style="transform: rotate(382.5deg);">
-                                        <span class="rs-number" style="transform: rotate(-22.5deg);">15</span>
-                                        <span class="rs-seperator rs-border" style="width: 10px; margin-top: 0px;"></span>
-                                    </span>
-                                    <span class="rs-bar rs-transition rs-custom" style="transform: rotate(405deg);">
-                                        <span class="rs-number" style="transform: rotate(-45deg);">20</span>
-                                        <span class="rs-seperator rs-border" style="width: 10px; margin-top: 0px;"></span>
-                                    </span>
-                                    <span class="rs-bar rs-transition rs-custom" style="transform: rotate(427.5deg);">
-                                        <span class="rs-number" style="transform: rotate(-67.5deg);">25</span>
-                                        <span class="rs-seperator rs-border" style="width: 10px; margin-top: 0px;"></span>
-                                    </span>
-                                    <span class="rs-bar rs-transition rs-custom" style="transform: rotate(450deg);">
-                                        <span class="rs-number" style="transform: rotate(-90deg);">30</span>
-                                        <span class="rs-seperator rs-border" style="width: 10px; margin-top: 0px;"></span>
-                                    </span>
-                                    <span class="rs-bar rs-transition rs-custom" style="transform: rotate(472.5deg);">
-                                        <span class="rs-number" style="transform: rotate(-112.5deg);">35</span>
-                                        <span class="rs-seperator rs-border" style="width: 10px; margin-top: 0px;"></span>
-                                    </span>
-                                    <span class="rs-bar rs-transition rs-custom" style="transform: rotate(495deg);">
-                                        <span class="rs-number" style="transform: rotate(-135deg);">40</span><span class="rs-seperator rs-border" style="width: 10px; margin-top: 0px;"></span></span><span class="rs-bar rs-transition rs-custom" style="transform: rotate(517.5deg);"><span class="rs-number" style="transform: rotate(-157.5deg);">45</span><span class="rs-seperator rs-border" style="width: 10px; margin-top: 0px;"></span></span><span class="rs-bar rs-transition rs-custom" style="transform: rotate(540deg);"><span class="rs-number" style="transform: rotate(-180deg);">50</span><span class="rs-seperator rs-border" style="width: 10px; margin-top: 0px;"></span></span><span class="rs-bar rs-transition rs-custom" style="transform: rotate(562.5deg);"><span class="rs-number" style="transform: rotate(-202.5deg);">55</span><span class="rs-seperator rs-border" style="width: 10px; margin-top: 0px;"></span></span><span class="rs-bar rs-transition rs-custom" style="transform: rotate(585deg);"><span class="rs-number" style="transform: rotate(-225deg);">60</span><span class="rs-seperator rs-border" style="width: 10px; margin-top: 0px;"></span></span></div><input type="hidden" name="" value="39"></div>
+                            <div class="calc_bg"></div>
+                            <div class="calc__widget">
+
+                            </div>
                             <div class="calc__info">
 
                                 <div class="calc__label">
                                     Старт
                                 </div>
-                                <div class="calc__price startprice">11&nbsp;000 </div>
+                                <div class="calc__price startprice">
+                                    31 580
+                                </div>
                                 <div class="calc__line">
-                                    <div class="calc__line-scale start-scale" style="width: 25%;"></div>
+                                    <div class="calc__line-scale start-scale" style="width:60%;"></div>
                                 </div>
 
                                 <div class="calc__label">
                                     Стандартный кредит
                                 </div>
-                                <div class="calc__price tprice">24&nbsp;344 </div>
+                                <div class="calc__price tprice">
+                                    31 580
+                                </div>
                                 <div class="calc__line">
-                                    <div class="calc__line-scale  full-scale" style="width: 60%;"></div>
+                                    <div class="calc__line-scale  full-scale"></div>
                                 </div>
                                 <div class="calc__button calculator-btn">
                                     Отправить на email
@@ -287,39 +279,39 @@ $APPLICATION->SetTitle("NewSolaris");
                     <div class="slider-menu__close"></div>
                     <div class="slider-menu__items">
                         <div class="slider-menu__item" data-id="23">
-                            <div class="slider-menu__item-name">НОВЫЙ SOLARIS</div>
+                            <div class="slider-menu__item-name">Новый Solaris</div>
                             <div class="slider-menu__item-price">6 000</div>
-                            <img class="slider-menu__item-img" src="http://www.hyundai.ru/media/start/img/cars/23.png">
+                            <img class="slider-menu__item-img" src="img/23.png">
+                        </div>
+                        <div class="slider-menu__item" data-id="24">
+                            <div class="slider-menu__item-name">Новая Sonata</div>
+                            <div class="slider-menu__item-price">9 000</div>
+                            <img class="slider-menu__item-img" src="img/24.png">
                         </div>
                         <div class="slider-menu__item" data-id="7">
                             <div class="slider-menu__item-name">Elantra</div>
                             <div class="slider-menu__item-price">8 000</div>
-                            <img class="slider-menu__item-img" src="http://www.hyundai.ru/media/start/img/cars/7.png">
-                        </div>
-                        <div class="slider-menu__item" data-id="6">
-                            <div class="slider-menu__item-name">i40</div>
-                            <div class="slider-menu__item-price">9 000</div>
-                            <img class="slider-menu__item-img" src="http://www.hyundai.ru/media/start/img/cars/6.png">
+                            <img class="slider-menu__item-img" src="img/7.png">
                         </div>
                         <div class="slider-menu__item" data-id="22">
                             <div class="slider-menu__item-name">Creta</div>
                             <div class="slider-menu__item-price">7 000</div>
-                            <img class="slider-menu__item-img" src="http://www.hyundai.ru/media/start/img/cars/22.png">
+                            <img class="slider-menu__item-img" src="img/22.png">
                         </div>
                         <div class="slider-menu__item" data-id="18">
                             <div class="slider-menu__item-name">Tucson</div>
                             <div class="slider-menu__item-price">10 000</div>
-                            <img class="slider-menu__item-img" src="http://www.hyundai.ru/media/start/img/cars/18.png">
+                            <img class="slider-menu__item-img" src="img/18.png">
                         </div>
                         <div class="slider-menu__item" data-id="17">
                             <div class="slider-menu__item-name">Santa fe</div>
                             <div class="slider-menu__item-price">11 000</div>
-                            <img class="slider-menu__item-img" src="http://www.hyundai.ru/media/start/img/cars/17.png">
+                            <img class="slider-menu__item-img" src="img/17.png">
                         </div>
                         <div class="slider-menu__item" data-id="13">
                             <div class="slider-menu__item-name">Grand Santa fe</div>
                             <div class="slider-menu__item-price">16 000</div>
-                            <img class="slider-menu__item-img" src="http://www.hyundai.ru/media/start/img/cars/13.png">
+                            <img class="slider-menu__item-img" src="img/13.png">
                         </div>
                     </div>
                 </div>
@@ -338,7 +330,7 @@ $APPLICATION->SetTitle("NewSolaris");
                             Чтобы продажа была максимально выгодна для Вас, в договоре заранее зафиксирована минимальная выкупная стоимость.
                         </p>
                         <div class="options__button button-link">
-                            <a href="/ContactUs">Задать вопрос</a>
+                            <a href="/contacts/">Задать вопрос</a>
                             <div class="button-link__line"></div>
                         </div>
                     </div>
@@ -346,14 +338,14 @@ $APPLICATION->SetTitle("NewSolaris");
                         <div class="options__item">
                             <div class="options__item-img options__item-img-1"></div>
                             <div class="options__item-text">
-                                Погасить остаток и&nbsp;оставить автомобиль себе
+                                Погасить остаток и&nbspоставить автомобиль себе
 
                             </div>
                         </div>
                         <div class="options__item">
                             <div class="options__item-img options__item-img-2"></div>
                             <div class="options__item-text">
-                                Обменять автомобиль на&nbsp;новый, отдав прежний дилеру&nbsp;в&nbsp;trade-in
+                                Обменять автомобиль на&nbspновый, отдав прежний дилеру&nbspв&nbsptrade-in
                             </div>
                         </div>
                         <div class="options__item">
@@ -405,7 +397,7 @@ $APPLICATION->SetTitle("NewSolaris");
 
                         <div class="faq__item faq__item_03" data-num="03">
                             <div class="faq__item-text">
-                                Кому необходим СТАРТ?<br>&nbsp;
+                                Кому необходим СТАРТ?<br/>&nbsp;
 
                             </div>
                             <div class="faq__item-num">
@@ -478,7 +470,7 @@ $APPLICATION->SetTitle("NewSolaris");
 
                         <div class="faq__item faq__item_07 hide" data-num="07">
                             <div class="faq__item-text">
-                                Что делать с автомобилем по прошествии<br>трех лет?
+                                Что делать с автомобилем по прошествии<br/>трех лет?
 
                             </div>
                             <div class="faq__item-num">
@@ -554,28 +546,30 @@ $APPLICATION->SetTitle("NewSolaris");
 
                     <div class="credit-disclaimer-center-text">
                         <p>
-                            <sup data-car="23">1</sup>0 рублей ПВ – действует по Hyundai Старт с учетом государственной программы льготного автокредитования, срок кредита 36 мес., процентная ставка 10.8% годовых. Платеж 6 000 руб. рассчитан по программе Hyundai Старт с учетом государственной программы льготного автокредитования исходя из цены Solaris 1.4 6MT Active (Актив) 624 900 р., срок кредита 36 мес., процентная ставка 9.4% годовых, первоначальный взнос 225 000 р., сумма кредита 399 900 р. Гарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 45% от цены на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. Предложение действует с 01.08.17 по 31.08.17, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.rusfinancebank.ru.
+                            <sup data-car="23">1</sup>Платеж рассчитан по программе Hyundai Старт с учетом государственной программы льготного автокредитования исходя из цены Solaris 1.4 6MT Active (Актив) 624 900 р., срок кредита 36 мес., процентная ставка 8.3% годовых, первоначальный взнос 215 000 р., сумма кредита 409 900 р. Гарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 45% от цены на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. Предложение действует с 01.11.17 по 30.11.17, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.rusfinancebank.ru.<br/>
+                            0 рублей ПВ – действует по Hyundai Старт с учетом государственной программы льготного автокредитования, срок кредита 36 мес., процентная ставка 9,3% годовых. Гарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 45% от цены на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. Предложение действует с 01.11.17 по 30.11.17, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.rusfinancebank.ru.
                         </p>
                         <p>
-                            <sup data-car="7">2</sup>Платеж рассчитан по программе Hyundai Старт исходя из цены Elantra 1.6 6МТ Start (Старт) 957 000 р., срок кредита 36 мес., процентная ставка 15.1% годовых, первоначальный взнос 452 200 р., сумма кредита 504 800 р. Гарантированная остаточная стоимость автомобиля (часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита) ― 45%. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. Предложение действует с 01.08.17 по 31.08.17, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.rusfinancebank.ru.
+                            <sup data-car="7">2</sup>Платеж рассчитан по программе Hyundai Старт исходя из цены Elantra 1.6 6МТ Start (Старт) 957 000 р., срок кредита 36 мес., процентная ставка 15.0% годовых, первоначальный взнос 450 900 р., сумма кредита 506 100 р. Гарантированная остаточная стоимость автомобиля (часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита) ― 45%. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. Предложение действует с 01.11.17 по 30.11.17, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.rusfinancebank.ru.
                         </p>
                         <p>
-                            <sup data-car="6">3</sup>Платеж рассчитан в рамках программы Hyundai Старт исходя из цены Hyundai i40 1.6 6МТ Comfort (Комфорт) 1 124 000 р., срок кредита 36 мес., процентная ставка 15.1% годовых, первоначальный взнос 542 500., сумма кредита 581 500. Гарантированная остаточная стоимость автомобиля (часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита) - 45% от цены покупки. Обеспечение по кредиту - залог приобретаемого автомобиля. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.08.17 по 31.08.17, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru.
+                            <sup data-car="24">3</sup>Платеж рассчитан по условиям программы Hyundai (Старт), исходя из цены Hyundai Sonata (Primary 2.0 AT ) 1 245 000 руб. на условиях кредитного продукта «Балун РСР Классик Хендэ в кредит», исходя из процентной ставки 15,0% годовых, стоимостью 1 245 000 руб., первоначальный взнос 627 200руб., срок кредита 36 месяцев. Гарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) 45% от цены на момент покупки. Обязательно оформление полиса КАСКО. Обеспечение: залог приобретаемого автомобиля. Предложение носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.11.2017 по 30.11.2017. Условия и тарифы могут быть изменены Банком в одностороннем порядке. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. Подробные условия кредитования, требования к условиям страхования и требования к заемщикам уточняйте у менеджеров в официальных дилерских центрах Хендэ или на www.hyundai.ru.
                         </p>
                         <p>
-                            <sup data-car="22">4</sup>Платеж рассчитан в рамках программы Hyundai (Старт) с учетом гос. программы льготного автокредитования исходя из цены Hyundai Creta 1.6 6MT 2WD Start (Старт) 789 900 р. первоначальный взнос 302 690 р., сумма кредита 487 210 р., срок кредита 36 мес., процентная ставка 9.4% годовых. Гарантированная остаточная стоимость автомобиля (часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита) - 45%. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.08.17 по 31.08.17 г , не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru.
+                            <sup data-car="22">4</sup>Платеж рассчитан в рамках программы Hyundai Старт с учетом гос. программы льготного автокредитования исходя из цены Hyundai Creta 1.6 6MT 2WD Start (Старт) 799 900 р. первоначальный взнос 309 500р., сумма кредита 490 400р., срок кредита 36 мес., процентная ставка 9.4% годовых. Гарантированная остаточная стоимость автомобиля (часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита) - 45% (359 955р.). Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.11.17 по 31.12.17 г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru.<br/>
+                            0 рублей ПВ – действует по Hyundai Старт с учетом государственной программы льготного автокредитования, срок кредита 36 мес., процентная ставка 10,4% годовых. Гарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 45% от цены на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. Предложение действует с 01.11.17 по 31.12.17, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.rusfinancebank.ru.
                         </p>
                         <p>
-                            <sup data-car="18">5</sup>Платеж рассчитан в рамках программы Hyundai (Старт) исходя из цены Hyundai Tucson (Comfort , 2,0л 6AT 2WD) 1 505 900 р. на условиях кредитного продукта «ИНДИРЕКТ Баллун КЛАССИКА: Hyundai в кредит»: первоначальный взнос 786 000 р., сумма кредита 719 900 р., срок кредита 36 мес.; процентная ставка 15,1% годовых. Часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита - 45%. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.08.17 по 31.08.17 г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru
+                            <sup data-car="18">5</sup>Платеж рассчитан в рамках программы Hyundai (Старт) исходя из цены Hyundai Tucson (Comfort , 2,0л 6AT 2WD) 1 449 900 р. на условиях кредитного продукта «ИНДИРЕКТ Баллун КЛАССИКА: Hyundai в кредит»: первоначальный взнос 736 000 р., сумма кредита 713 900 р., срок кредита 36 мес.; процентная ставка 14,5% годовых. Часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита - 45%. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.11.17 по 30.11.17 г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru.
                         </p>
                         <p>
-                            <sup data-car="17">6</sup>Платеж рассчитан в рамках программы Hyundai (Старт), исходя из цены Hyundai Santa Fe (Старт 2,4л 6MT) 1 856 000 р на условиях кредитного продукта «ИНДИРЕКТ Баллун КЛАССИКА: Hyundai в кредит»: первоначальный взнос 978 000 р., сумма кредита 878 000 р., срок кредита 36 мес., процентная ставка 15.1% годовых. Часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита - 45%. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.08.17 по 31.08.17 г, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru.
+                            <sup data-car="17">6</sup>Платеж рассчитан в рамках программы Hyundai (Старт), исходя из цены Hyundai Santa Fe (Старт 2,4л 6MT) 1 856 000 р на условиях кредитного продукта «ИНДИРЕКТ Баллун КЛАССИКА: Hyundai в кредит»: первоначальный взнос 965 500 р., сумма кредита 890 500 р., срок кредита 36 мес., процентная ставка 14.5% годовых. Часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита - 45%. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.11.17 по 30.11.17 г, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru.
                         </p>
                         <p>
-                            <sup data-car="13">7</sup>Платеж рассчитан в рамках программы Hyundai (Старт), исходя из цены Hyundai Grand Santa Fe (Family, 2,2л CRDi 6AT) 2 324 000 р на условиях кредитного продукта «ИНДИРЕКТ Баллун КЛАССИКА: Hyundai в кредит»: Первоначальный взнос 1 196 500 р., сумма кредита 1 127 500 р.,срок кредита 36 мес.; процентная ставка 15.1% годовых. Часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита - 45%. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.08.17 по 31.08.17 г, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru
+                            <sup data-car="13">7</sup>Платеж рассчитан в рамках программы Hyundai (Старт), исходя из цены Hyundai Grand Santa Fe (Family, 2,2л CRDi 6AT) 2 324 000 р на условиях кредитного продукта «ИНДИРЕКТ Баллун КЛАССИКА: Hyundai в кредит»: Первоначальный взнос 1 180 500 р., сумма кредита 1 143 500 р.,срок кредита 36 мес.; процентная ставка 14.5% годовых. Часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита - 45%. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.11.17 по 30.11.17 г, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru.
                         </p>
                         <p>
-                            <sup>8</sup>Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в СПАО «Ингосстрах», ПАО «Росгосстрах» и СК «ВСК» при покупке Новых Hyundai Elantra, i30, i40, Tucson, Santa Fe, Grand Santa Fe. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены СПАО «Ингосстрах», ПАО «Росгосстрах» и СК «ВСК» в одностороннем порядке.
+                            <sup>8</sup>Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в СПАО «Ингосстрах», ПАО «Росгосстрах» и СК «ВСК» при покупке Нового Hyundai Elantra, Tucson, Santa Fe, Grand Santa Fe в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены СПАО «Ингосстрах», ПАО «Росгосстрах» и СК «ВСК» в одностороннем порядке. Предложение действует до 31.12.2017г.
                         </p>
                     </div>
                 </div>
@@ -586,7 +580,7 @@ $APPLICATION->SetTitle("NewSolaris");
                 <div class="popup__container">
                     <div class="popup__close"></div>
                     <div class="popup__iframe-box">
-                        <iframe class="popup__iframe" src="https://www.youtube.com/embed/079fITMMm4o?rel=0" frameborder="0" allowfullscreen=""></iframe>
+                        <iframe class="popup__iframe" src="https://www.youtube.com/embed/079fITMMm4o?rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -604,17 +598,17 @@ $APPLICATION->SetTitle("NewSolaris");
                     <input type="hidden" data-novalidate="true" name="sum" id="sum" value="" value="">
                     <input type="hidden" data-novalidate="true" name="prepay_rub" id="prepay_rub" value="">
                     <div class="form-row">
-                        <input class="text-input" id="start-credit-last-name" type="text" name="last_name" data-empty="Заполните поле" placeholder="Фамилия">
+                        <input class="text-input" id="start-credit-last-name" type="text" name="last_name" data-empty="Заполните поле" placeholder="Имя">
                     </div>
                     <div class="form-row">
-                        <input class="text-input" id="start-credit-first-name" type="text" name="name" data-empty="Заполните поле" placeholder="Имя">
+                        <input class="text-input" id="start-credit-first-name" type="text" name="mobile" data-empty="Заполните поле" placeholder="Телефон">
                     </div>
                     <div class="form-row">
-                        <input class="text-input" id="start-credit-email-name" type="email" name="email" data-empty="Заполните поле" data-wrong="Неверный формат" placeholder="E-mail"
+                        <input class="text-input" id="start-credit-first-name" type="text" name="first_name" data-empty="Заполните поле" placeholder="Вопрос"
                     </div>
                     <div class="form-row form-row--agreement">
                         <input class="checkbox-input" id="start-credit-agreement" type="checkbox" name="agree" data-wrong="Согласитесь с правилами" value="Y">
-                        <label for="start-credit-agreement" class="checkbox-label">Я согласен на обработку данных</label>
+                        <label for="start-credit-agreement" class="checkbox-label">Я согласен на обработку моих <a href="#modal-legal" title="Показать соглашение" style="text-decoration: underline;">персональных данных</a></label>
                     </div>
                     <div class="form-row">
                         <button class="button button--ripple button--submit" data-rippled="white" type="submit">Отправить</button>
@@ -650,9 +644,11 @@ $APPLICATION->SetTitle("NewSolaris");
                         а также любым другим третьим лицам, для целей, указанных в настоящем согласии.
                     </p>
                 </div>
-                <a href="#!" title="" class="closeIt">×</a>
+                <a href="#!" title="" class="closeIt">&times;</a>
             </div>
         </div>
+
+
     </main>
 
 
