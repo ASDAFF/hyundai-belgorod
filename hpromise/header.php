@@ -56,7 +56,7 @@
     <div class="head_wrap_border">
         <header class="nblock">
             <a href="/" class="header-logo"></a>
-<!--            <a href="/" class="header-logooff"></a>-->
+            <a href="/" class="header-logooff"></a>
             <ul class="topnav">
                 <li><a href="/hpromise/trade-in/">HYUNDAI TRADE-IN</a></li>
                 <li><a href="/hpromise/avtomobili-s-probegom/">Автомобили с пробегом</a></li>
