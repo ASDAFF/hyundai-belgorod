@@ -16,14 +16,15 @@ $APPLICATION->SetTitle("NewSolaris");
 
 
 
+
     <!--
-    Контент страницы начнется тут
-    -->
+Контент страницы начнется тут
+-->
 
     <main class="main" data-model="home">
 
-        <div class="so" style="position: relative;height: 500px;overflow: unset;">
-            <div class="so__layout" style="position: absolute">
+        <div class="so">
+            <div class="so__layout">
                 <div class="so__container so__hor-pad">
                     <h1 class="so__title">
                         Специальное предложение
@@ -51,7 +52,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                         value="23"
                                         data-tradein="25000"
                                         data-programm="40000"
-                                        data-points="20000"
+                                        data-points="10000"
                                         >
                                         НОВЫЙ Solaris								</option>
                                     <option
@@ -63,28 +64,21 @@ $APPLICATION->SetTitle("NewSolaris");
                                         Creta								</option>
                                     <option
                                         value="7"
-                                        data-tradein="40000"
-                                        data-programm="0"
+                                        data-tradein="80000"
+                                        data-programm="70000"
                                         data-points="10000"
                                         >
                                         Elantra								</option>
                                     <option
-                                        value="9"
-                                        data-tradein="40000"
+                                        value="24"
+                                        data-tradein="100000"
                                         data-programm="0"
-                                        data-points="10000"
+                                        data-points="20000"
                                         >
-                                        i30								</option>
-                                    <option
-                                        value="6"
-                                        data-tradein="40000"
-                                        data-programm="0"
-                                        data-points="15000"
-                                        >
-                                        i40 								</option>
+                                        Sonata								</option>
                                     <option
                                         value="18"
-                                        data-tradein="40000"
+                                        data-tradein="80000"
                                         data-programm="0"
                                         data-points="15000"
                                         >
@@ -92,17 +86,17 @@ $APPLICATION->SetTitle("NewSolaris");
                                     <option
                                         value="17"
                                         data-tradein="100000"
-                                        data-programm="200000"
+                                        data-programm="100000"
                                         data-points="20000"
                                         >
-                                        Santa Fe								</option>
+                                        Santa fe								</option>
                                     <option
                                         value="13"
                                         data-tradein="120000"
-                                        data-programm="200000"
+                                        data-programm="100000"
                                         data-points="20000"
                                         >
-                                        Grand Santa Fe								</option>
+                                        Grand Santa fe								</option>
                                 </select>
                             </div>
                             <img src="/media/start/img/cars/13.png" alt="Solaris" class="so-calc__img">
@@ -113,7 +107,7 @@ $APPLICATION->SetTitle("NewSolaris");
                             </div>
                             <div class="so-calc__item-label so-calc__item-label_sale">
                                 <div class="so-calc__item-label-text">
-                                    Размер скидки
+                                    Размер выгоды, до
                                 </div>
                             </div>
                             <div class="so-calc__item-sum so-calc__item-sum_total so-calc__item-sum_rub">
@@ -122,10 +116,10 @@ $APPLICATION->SetTitle("NewSolaris");
                             <div class="so-calc__item-subsum">
                                 <div class="subsum__first">
                                     <div class="subsum__sum subsum__sum_tradein">
-                                        25 000
+                                        50 000
                                     </div>
                                     <div class="subsum__label">
-                                        Hyundai Trade-In
+                                        <a target="_blank" class="show-popup">Hyundai Trade-In</a>
                                     </div>
                                 </div>
                                 <div class="subsum__plus">
@@ -142,25 +136,29 @@ $APPLICATION->SetTitle("NewSolaris");
                             </div>
                             <div class="so-calc__item-label so-calc__item-label_gift">
                                 <div class="so-calc__item-label-text">
-                                    Подарочные баллы в&nbspМире Хёндэ
+                                    Подарочные баллы в&nbsp;<a href="https://mir.hyundai.ru/login" target="_blank">Мире Хёндэ</a>
                                 </div>
                             </div>
                             <div class="so-calc__item-sum so-calc__item-sum_points">
                                 20 000
                             </div>
-                            <a class="so-calc__item-button" href="https://hpromise.hyundai.ru/trade-in/" target="_blank">
-                                условия трейд-ин
+                            <a class="so-calc__item-button" href="#how">
+                                Как воспользоваться
                             </a>
                             <div class="so-calc__item-conf-box">
                                 <a class="so-calc__item-conf" href="/configurator">
                                     Конфигуратор
                                     <span class="so-calc__item-conf-line"></span>
                                 </a>
+                                <a class="so-calc__item-conf2" href="https://hpromise.hyundai.ru/trade-in/#trade_in_rules" target="_blank">
+                                    Условия Трейд-Ин
+                                    <!-- 							<span class="so-calc__item-conf-line"></span> -->
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="so-slider so__hor-pad">
-                        <h3 class="so-sec__title">
+                        <h3 class="so-sec__title" id="how">
                             Как воспользоваться предложением?
                         </h3>
                         <div class="so-slider__box">
@@ -173,8 +171,8 @@ $APPLICATION->SetTitle("NewSolaris");
                                         <div class="so-slider__item-text">
                                             Зарегистрируйтесь в&nbspМире Хёндэ
                                         </div>
-                                        <a class="so-slider__item-button" href="https://mir.hyundai.ru/">
-                                            Войти в Мир
+                                        <a class="so-slider__item-button" href="https://mir.hyundai.ru/login#registration" target="_blank">
+                                            Перейти на сайт
                                         </a>
                                     </div>
                                     <div class="so-slider__item-right">
@@ -209,7 +207,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             03
                                         </div>
                                         <div class="so-slider__item-text">
-                                            Зайдите в раздел «Витрина» и выберите вкладку «Сертификаты». Именно тут появится сертификат на выгоду по трейд-ин.
+                                            Зайдите в раздел «Витрина» и выберите вкладку «Сертификаты». Именно тут появится сертификат на выгоду по <a class="show-popup">трейд-ин</a>.
                                         </div>
                                     </div>
                                     <div class="so-slider__item-right">
@@ -229,6 +227,9 @@ $APPLICATION->SetTitle("NewSolaris");
                                         <div class="so-slider__item-text">
                                             Откройте страницу сертификата, выберите модель, на которую хотите получить выгоду и нажмите кнопку «Получить».
                                         </div>
+                                        <a class="so-slider__item-button" href="https://mir.hyundai.ru/login#registration" target="_blank">
+                                            Перейти на сайт
+                                        </a>
                                     </div>
                                     <div class="so-slider__item-right">
                                         <div class="so-slider__item-img-box">
@@ -244,8 +245,21 @@ $APPLICATION->SetTitle("NewSolaris");
                             <div class="so-slider__config-btn"></div>
                             <div class="so-slider__config-btn"></div>
                         </div>
+                        <div class="so-slider__controls">
+                            <div class="so-slider__leftarrow disabled"><img src="/media/img/leftarrow.png"/></div>
+                            <div class="so-slider__rightarrow"><img src="/media/img/rightarrow.png"/></div>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="overlayed response-wrap">
+            <div id="offer-response">
+                <h2></h2>
+                <p class="text">Программа HYUNDAI TRADE-IN дает дополнительную выгоду владельцам автомобилей Hyundai, решившим обновить свой автомобиль. Если вы сдаете свой бывший в употреблении автомобиль Hyundai в зачет стоимости нового, то к стандартной выгоде по гос. программе добавляется выгода по программе HYUNDAI TRADE-IN.</p>
+                <a href="https://hpromise.hyundai.ru/trade-in/" target="_blank">Перейти на сайт программы&nbsp;&nbsp;></a>
+                <div class="closeIt">&times;</div>
             </div>
         </div>
     </main>
