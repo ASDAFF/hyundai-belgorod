@@ -292,7 +292,7 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
                     name		= "zing_email"
                     id			= "zing_email"
                     maxlength	= "50">
-                <input type="hidden" name="now_url" class="now_url" value="<?='http://hyundai-ringauto.ru'.$APPLICATION->GetCurPage();?>">
+                <input type="hidden" name="now_url" class="now_url" value="<?=$_SERVER['SERVER_NAME']?>">
                 <input type="submit" class="zing_ok zing-submit">
             </div>
         </div>
@@ -409,7 +409,7 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
                     name		= "zing_email"
                     id			= "zing_email"
                     maxlength	= "50">
-                <input type="hidden" name="now_url" class="now_url" value="<?='http://hyundai-ringauto.ru'.$APPLICATION->GetCurPage();?>">
+                <input type="hidden" name="now_url" class="now_url" value="<?=$_SERVER['SERVER_NAME']?>">
                 <input type="submit" class="zing_ok zing-submit" value="Отправить">
             </div>
         </div>
@@ -524,7 +524,7 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
                     name		= "zing_email"
                     id			= "zing_email"
                     maxlength	= "50">
-                <input type="hidden" name="now_url" class="now_url" value="<?='http://hyundai-ringauto.ru'.$APPLICATION->GetCurPage();?>">
+                <input type="hidden" name="now_url" class="now_url" value="<?=$_SERVER['SERVER_NAME']?>">
                 <input type="submit" class="zing_ok zing-submit" value="Отправить">
             </div>
         </div>
@@ -635,7 +635,7 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
             </div>
 
             <div class="zing-submit-wrap">
-                <input type="hidden" name="now_url" class="now_url" value="<?='http://hyundai-ringauto.ru'.$APPLICATION->GetCurPage();?>">
+                <input type="hidden" name="now_url" class="now_url" value="<?=$_SERVER['SERVER_NAME']?>">
                 <input type="submit" class="zing_ok zing-submit">
             </div>
         </div>
@@ -778,7 +778,7 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
             </div>
 
             <div class="zing-submit-wrap">
-                <input type="hidden" name="now_url" class="now_url" value="<?='http://hyundai-ringauto.ru'.$APPLICATION->GetCurPage();?>">
+                <input type="hidden" name="now_url" class="now_url" value="<?=$_SERVER['SERVER_NAME']?>">
                 <input type="submit" class="zing_ok zing-submit">
             </div>
         </div>
