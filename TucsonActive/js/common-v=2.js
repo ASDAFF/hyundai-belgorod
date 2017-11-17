@@ -324,9 +324,7 @@ var Spreader = function() {
         function t(t) {
             for (var e = 0; e < s.length; e++) {
                 var a = s[e];
-                a === t ? (i.find('[data-role="' + a + '"]')[0].classList.toggle(n), i.find('[data-role="' + s[e] + '-link"]').length && i.find('[data-role="' + s[e] + '-link"]')[0].classList.toggle(n)) : (i.find('[data-role="' + a + '"]')[0].classList.remove(n), i.find('[data-role="' + s[e] + '-link"]').length && i.find('[data-role="' + s[e] + '-link"]')[0].classList.remove(n))
-            }
-
+             }
         }
         var e = new Spreader("#online-call-template", {
                 onShow: function() {
@@ -449,7 +447,7 @@ var Spreader = function() {
         t.preventDefault(), $("html, body").animate({
             scrollTop: $(".main-header__submenus-holder").offset().top
         }, 250, function() {
-            $('[data-role="showroom-submenu"]').addClass("_active"), $('[data-role="showroom-submenu-link"]').addClass("_active")
+            $('div[data-role="showroom-submenu"]').addClass("_active"), $('[data-role="showroom-submenu-link"]').addClass("_active");
         })
     })
 }),
@@ -1246,4 +1244,331 @@ var Spreader = function() {
 var $parent;
 String.prototype.capitalize = function() {
     return this.charAt(0).toUpperCase() + this.slice(1)
-};
+}, $(document).ready(function() {
+
+    $(document).on("click", ".zing_form_toggler_spec", function(e) {
+        console.log(123);
+        e.preventDefault();
+        var $zing_form = $("#blabla-spec"),
+            what = $(this).attr("for");
+        $zing_form.children(".zing_form").first().attr("for", what);
+        switch (what) {
+            case "brochures_request":
+                $zing_form.find(".zing_ok").first().val("Получить брошюру о " + $(this).attr("data-model"));
+                $zing_form.children(".zing_form").first().attr("data-for-model", $(this).attr("data-model"));
+
+                var _rutarget = window._rutarget || [];
+                _rutarget.push({'event': 'thankYou', 'conv_id': 'brochure', 'sku': $(this).attr("data-model")});
+                _rutarget.push({'event': 'addToSegment', 'name': 'hyundai', 'value': 'paper_service'});
+
+                break;
+            case "zing_dealer_btn":
+                $parent = $(this).parents('.call-to-dealer');
+                $zing_form.find(".zing_ok").first().val("РџРѕР·РІРѕРЅРёС‚СЊ РґРёР»РµСЂСѓ");
+                break;
+            case "zing_hotline_btn":
+                $zing_form.find(".zing_ok").first().val("Отправить");
+                break;
+            case "zing_cuzov_btn":
+                $zing_form.find(".zing_ok").first().val("Отправить");
+                break;
+            case "newslist":
+                $zing_form.find(".zing_ok").first().val("Отправить");
+                break;
+            default:
+                $zing_form.find(".zing_ok").first().val("Отправить");
+        }
+        $zing_form.modal({
+            closeClass: "zing_close",
+            persist: true,
+            autoResize: true,
+            overlayCss: {
+                background: "#000"
+            },
+            containerCss: {
+                'maxHeight': '100%',
+                'height': '100%',
+                'bottom': '0',
+                'top': '0',
+                'left': '0',
+                'right': '0',
+                'overflow': 'auto'
+            },
+            zIndex: 500,
+            onOpen: function(dialog) {
+                dialog.data.show();
+                dialog.overlay.stop().fadeIn();
+                dialog.container.stop().fadeIn()
+                if (dialog.data.outerHeight() > dialog.container.height()) {
+                    $('body').css('overflow', 'hidden');
+                } else {
+                    dialog.wrap.css({
+                        'top': (dialog.container.height() / 2) - (dialog.data.height() / 2)
+                    });
+                }
+            },
+            onShow: function(dialog) {
+                dialog.container.on('click.modal', function(e) {
+                    if ($(e.target).closest('.simplemodal-wrap').length == 0) {
+                        $.modal.close();
+                        dialog.container.off('click.modal');
+                    }
+                });
+            },
+            onClose: function(dialog) {
+                dialog.data.stop().fadeOut(function() {
+                    dialog.container.hide();
+                    dialog.wrap.css('top', '');
+                });
+                dialog.overlay.stop().fadeOut(function() {
+                    $.modal.close();
+                });
+                if ($('body').css('overflow') === 'hidden') {
+                    $('body').css('overflow', '');
+                }
+                if ($('.zing-agreement-popup-wrapper').is(':visible')) {
+                    $('.zing-agreement-popup-wrapper').fadeOut(500);
+                }
+            }
+        });
+    });
+
+    $(document).on("click", ".zing_form_toggler", function(e) {
+        e.preventDefault();
+        var $zing_form = $("#blabla"),
+            what = $(this).attr("for");
+        $zing_form.children(".zing_form").first().attr("for", what);
+        switch (what) {
+            case "brochures_request":
+                $zing_form.find(".zing_ok").first().val("Получить брошюру о " + $(this).attr("data-model"));
+                $zing_form.children(".zing_form").first().attr("data-for-model", $(this).attr("data-model"));
+
+                var _rutarget = window._rutarget || [];
+                _rutarget.push({'event': 'thankYou', 'conv_id': 'brochure', 'sku': $(this).attr("data-model")});
+                _rutarget.push({'event': 'addToSegment', 'name': 'hyundai', 'value': 'paper_service'});
+
+                break;
+            case "zing_dealer_btn":
+                $parent = $(this).parents('.call-to-dealer');
+                $zing_form.find(".zing_ok").first().val("РџРѕР·РІРѕРЅРёС‚СЊ РґРёР»РµСЂСѓ");
+                break;
+            case "zing_hotline_btn":
+                $zing_form.find(".zing_ok").first().val("Отправить");
+                break;
+            case "newslist":
+                $zing_form.find(".zing_ok").first().val("РџРѕРґРїРёСЃР°С‚СЊСЃСЏ РЅР° РЅРѕРІРѕСЃС‚Рё Hyundai");
+                break;
+            default:
+                $zing_form.find(".zing_ok").first().val("Отправить");
+        }
+        $zing_form.modal({
+            closeClass: "zing_close",
+            persist: true,
+            autoResize: true,
+            overlayCss: {
+                background: "#000"
+            },
+            containerCss: {
+                'maxHeight': '100%',
+                'height': '100%',
+                'bottom': '0',
+                'top': '0',
+                'left': '0',
+                'right': '0',
+                'overflow': 'auto'
+            },
+            zIndex: 500,
+            onOpen: function(dialog) {
+                dialog.data.show();
+                dialog.overlay.stop().fadeIn();
+                dialog.container.stop().fadeIn()
+                if (dialog.data.outerHeight() > dialog.container.height()) {
+                    $('body').css('overflow', 'hidden');
+                } else {
+                    dialog.wrap.css({
+                        'top': (dialog.container.height() / 2) - (dialog.data.height() / 2)
+                    });
+                }
+            },
+            onShow: function(dialog) {
+                dialog.container.on('click.modal', function(e) {
+                    if ($(e.target).closest('.simplemodal-wrap').length == 0) {
+                        $.modal.close();
+                        dialog.container.off('click.modal');
+                    }
+                });
+            },
+            onClose: function(dialog) {
+                dialog.data.stop().fadeOut(function() {
+                    dialog.container.hide();
+                    dialog.wrap.css('top', '');
+                });
+                dialog.overlay.stop().fadeOut(function() {
+                    $.modal.close();
+                });
+                if ($('body').css('overflow') === 'hidden') {
+                    $('body').css('overflow', '');
+                }
+                if ($('.zing-agreement-popup-wrapper').is(':visible')) {
+                    $('.zing-agreement-popup-wrapper').fadeOut(500);
+                }
+            }
+        });
+    });
+
+        $(".zing-input .zing_txt").on("input", function() {
+        "" !== $(this).val() ? ($(this).addClass("not-empty"), $(this).is("[name*=name]") && $(this).val($(this).val().capitalize())) : $(this).removeClass("not-empty")
+    }), $(".zing-input .zing_txt").each(function() {
+        "" !== $(this).val() ? ($(this).addClass("not-empty"), $(this).is("[name*=name]") && $(this).val($(this).val().capitalize())) : $(this).removeClass("not-empty")
+    }), $(".zing_birthdate").inputmask({
+        mask: "99.99.9999",
+        showMaskOnHover: !1
+    }).on("keydown", function() {
+        "" !== $(this).val() ? $(this).addClass("not-empty") : $(this).removeClass("not-empty")
+    }), $(".zing_mobile").inputmask({
+        mask: "+7 (999) 999-99-99",
+        showMaskOnHover: !1
+    }).on("keydown", function() {
+        "" !== $(this).val() ? $(this).addClass("not-empty") : $(this).removeClass("not-empty")
+    }), $(".zing-show-rules").on("click", function(t) {
+        t.preventDefault(), $(".zing-agreement-popup-wrapper").insertAfter("#simplemodal-container").fadeIn(500).on("click", function(t) {
+            (0 === $(t.target).closest(".zing-agreement-popup").length || $(t.target).is(".zing-agreement-close")) && (t.preventDefault(), $(".zing-agreement-popup-wrapper").fadeOut(500))
+        })
+    }), $.fn.sanitize_spaces = function() {
+        return this.val().replace(/^\s+|\s+$/g, "").substr(0, 50)
+    }, $.fn.sanitize_zing_mobile = function() {
+        return this.val().replace(/^\s+|\s+$/g, "").replace("+7", "").replace(/[^0-9]/g, "").substr(0, 50)
+    }, $.fn.sanitize_zing_date = function() {
+      //  return this.val().split(".").reverse().join("").substr(0, 8)
+    }, $.validator.addMethod("check_siebel_email", function(t, e) {
+        return !!$(e).val().match(/^[-a-z0-9_]+[-a-z0-9_.]*[@]{1}[-a-z0-9_]+[-a-z0-9_.]*[.]{1}[a-z]{2,5}$/gi)
+    }), $.validator.addMethod("check_mobile", function(t, e) {
+        return 10 === $(e).sanitize_zing_mobile().length
+    }), $(".zing_form").validate({
+        rules: {
+            zing_last_name: {
+                required: !0
+            },
+            zing_first_name: {
+                required: !0
+            },
+            zing_middle_name: {
+                required: !0
+            },
+            zing_email: {
+                required: !0,
+                check_siebel_email: !0
+            },
+            zing_mobile: {
+                required: !0,
+                check_mobile: !0
+            },
+            zing_rules_agree_cb: {
+                required: !0
+            }
+        },
+        errorPlacement: function(t, e) {}
+    }), $(".zing_form").submit(function(t) {
+        t.preventDefault();
+        var e = $(this),
+            i = {
+                last_name: e.find(".zing_last_name").sanitize_spaces(),
+                first_name: e.find(".zing_first_name").sanitize_spaces(),
+                middle_name: e.find(".zing_middle_name").sanitize_spaces(),
+                email: e.find(".zing_email").sanitize_spaces(),
+                mobile: e.find(".zing_mobile").sanitize_zing_mobile(),
+                birthdate: e.find(".zing_birthdate").sanitize_zing_date(),
+                agree: e.find(".zing_rules_agree_cb").prop("checked") ? "Y" : "N"
+            };
+        if (e.find(".zing_pers_rules_wrp").fadeOut(), !($(this).valid() && i.last_name && i.first_name && i.middle_name && i.email && i.mobile && "N" != i.agree)) return !1;
+        $.modal.close();
+        var n = $(this).attr("for"),
+            s = "";
+        switch (n) {
+            case "brochures_request":
+                var a = window._rutarget || [];
+                a.push({
+                    event: "otherPage"
+                }), a.push({
+                    event: "addToSegment",
+                    name: "hyundai",
+                    value: "paper_service"
+                }), s = "/request/request_brochure", i.model = $(this).attr("data-for-model"), $("#brochure_email").text(i.email), $("#brochure_go_check_email").stop().fadeIn().on("click", function(t) {
+                    0 === $(t.target).closest(".brochure_go_check_email-content").length ? $("#brochure_go_check_email").stop().fadeOut() : $(t.target).is(".go_check_close") && $("#brochure_go_check_email").stop().fadeOut()
+                });
+                break;
+            case "newslist":
+                s = "/request/newslist";
+                break;
+            default:
+                s = "/request/send_crm_before_zingaya", "zing_dealer_btn" == n ? $parent.find("#" + n).trigger("click") : $("#" + n).trigger("click")
+        }
+        $.ajax({
+            url: s,
+            type: "POST",
+            data: i,
+            success: function(t) {}
+        })
+    }), $(document).on("click", ".newsletter_form_toggler", function(t) {
+        function e() {
+            $.ajax({
+                type: "POST",
+                url: "/ajax/request_add_newsletter",
+                data: i.serialize(),
+                dataType: "json",
+                success: function(t) {
+                    if ("1" == t.code) i.find("input").removeClass("error"), i.find(".error").hide(), $(".js-form-wrap").hide(), $(".js-form-message").fadeIn(200), setTimeout(function() {
+                        $(".js-form-message").hide(), $(".js-form-wrap").fadeIn(200)
+                    }, 5e3);
+                    else {
+                        var e = t.errors;
+                        i.find("input").removeClass("error"), i.find(".error").hide();
+                        for (var n in e) i.find('input[name="' + n + '"]').addClass("error"), i.find('label[for="' + n + '"]').show()
+                    }
+                }
+            })
+        }
+        t.preventDefault(), $("#newsletter").modal({
+            closeClass: "zing_close",
+            persist: !0,
+            autoResize: !0,
+            overlayCss: {
+                background: "#000"
+            },
+            containerCss: {
+                maxHeight: "100%",
+                height: "100%",
+                bottom: "0",
+                top: "0",
+                left: "0",
+                right: "0",
+                overflow: "auto"
+            },
+            zIndex: 500,
+            onOpen: function(t) {
+                t.data.show(), t.overlay.stop().fadeIn(), t.container.stop().fadeIn(), $("body").css("overflow", "hidden"), t.data.outerHeight() > t.container.height() || t.wrap.css({
+                    top: t.container.height() / 2 - t.data.height() / 2
+                })
+            },
+            onShow: function(t) {
+                t.container.on("click.modal", function(e) {
+                    0 == $(e.target).closest(".simplemodal-wrap").length && ($.modal.close(), t.container.off("click.modal"))
+                })
+            },
+            onClose: function(t) {
+                t.data.stop().fadeOut(function() {
+                    t.container.hide(), t.wrap.css("top", "")
+                }), t.overlay.stop().fadeOut(function() {
+                    $.modal.close()
+                }), $("body").css("overflow", ""), $(".zing-agreement-popup-wrapper").is(":visible") && $(".zing-agreement-popup-wrapper").fadeOut(500)
+            }
+        });
+        var i = $(".js-newsletter_form");
+        i.find(".js-submit").click(function() {
+            return e(), !1
+        })
+    }), $(".zing_mobile").inputmask({
+        mask: "+7 (999) 999-99-99",
+        showMaskOnHover: !1
+    })
+});

@@ -4,6 +4,7 @@ String.prototype.capitalize = function() {
 }
 $(document).ready(function() {
 	$(document).on("click", ".zing_form_toggler_spec", function(e) {
+		console.log(123);
 		e.preventDefault();
 		var $zing_form = $("#blabla-spec"),
 			what = $(this).attr("for");

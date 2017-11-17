@@ -176,6 +176,7 @@ $APPLICATION->SetTitle("all-offers");
 
 
             <h2 class="offers_divider__content__title">Сервисные программы</h2>
+
             <div class="offers_divider__content__offers-grid-section clearfix">
                 <div class="insection-offer-unit">
                     <a href="/promo/parts/" class="insection-offer-unit__link">
