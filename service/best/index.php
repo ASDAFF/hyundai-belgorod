@@ -296,7 +296,7 @@ $APPLICATION->SetTitle("best");
                                 </div>
                     -->
                     <div class="site-nav-center-item">
-                        <a class="site-nav-center-item-link" href="#">
+                        <a class="site-nav-center-item-link zing_form_toggler_spec" href="javascript:void(0);" for="testdrive">
                             <div class="site-nav-center-item-link-item">
                                 <div class="site-nav-center-item-link-item-pic"><i class="i-0011-icon-3"></i></div>
                                 <div>Пройти тест-драйв</div>
