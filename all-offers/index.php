@@ -147,25 +147,13 @@ $APPLICATION->SetTitle("all-offers");
 
                 <div class="insection-offer-unit">
                     <a href="https://hpromise.hyundai.ru/" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/f93728a7c2fef9c6b084c56a75ccb4fb_HPromise.jpg" alt="" class="insection-offer-unit__back-img">
+                        <img src="http://www.hyundai.ru/media/offers_image/33ca72985faf6eb1c67f1b0814659f95_hp.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
-                            <span class="name">Автомобили с пробегом</span>
+                            <span class="name">H-Promise. Автомобили с пробегом.</span>
                             <span class="addinfo"></span>
                         </div>
                     </a>
                 </div>
-
-                <div class="insection-offer-unit">
-                    <a href="http://hyundai-ringauto.ru/promo/solaris-special-offer/" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/d308a9d099eddef6dc761a31e85c9edc_banner_special_offer_preview.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Специальное предложение для владельцев Hyundai</span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
-
-
             </div>
             <!-- service stuff next -->
             <!-- not fully offers -->
@@ -176,7 +164,6 @@ $APPLICATION->SetTitle("all-offers");
 
 
             <h2 class="offers_divider__content__title">Сервисные программы</h2>
-
             <div class="offers_divider__content__offers-grid-section clearfix">
                 <div class="insection-offer-unit">
                     <a href="/promo/parts/" class="insection-offer-unit__link">
