@@ -110,7 +110,7 @@ $this->setFrameMode(true);
                 <li><a href="#">Покупка</a></li>
                 -->
 				<li><a href="http://www.hyundai-ringauto.ru/all-offers#service-offers" target="_blank">Сервис</a></li>
-				<li><a href="http://hyundai-ringauto.ru/configurator/" target="_blank">Конфигуратор</a></li>
+				<li><a href="http://www.hyundai.ru/configurator" target="_blank">Конфигуратор</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>
