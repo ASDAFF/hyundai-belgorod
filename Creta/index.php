@@ -141,6 +141,8 @@ $APPLICATION->SetTitle("Creta");
                         </ul>
                     </div>
                 </div>
+
+                <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
                 <div id="top-menu" class="top-menu">
                     <div class="top-menu__wrap">
                         <div class="information">
