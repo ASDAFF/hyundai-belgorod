@@ -174,7 +174,7 @@ function offer_filter_auto($url){
             $offer_models = $url;
         }
 
-        $GLOBALS['offer_filter_auto'] = array("PROPERTY_folder_id" => $offer_models,"PROPERTY_SLIDER" => "%");
+        $GLOBALS['offer_filter_auto'] = array("PROPERTY_folder_id" => trim($offer_models),"PROPERTY_SLIDER" => "%");
         $arOffer = array(
             "ACTIVE_DATE_FORMAT" => "d.m.Y",
             "ADD_SECTIONS_CHAIN" => "Y",
