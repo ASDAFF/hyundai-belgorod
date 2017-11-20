@@ -7,7 +7,7 @@
         border-bottom: 1px solid #ececec;
     }
     .convience-slider .pip-slider.pip-slider--convience {
-        height: 680px;
+        height: 500px;
     }
     .convience-slider [data-pip-subslide="left"] {
         overflow: hidden;
@@ -22,7 +22,7 @@
         max-width: 470px;
     }
     .convience-slider [data-pip-subslide="left"] .pip-slide {
-        padding-top: 175px;
+        padding-top: 20px;
         padding-right: 150px;
     }
     .convience-slider [data-pip-subslide="right"] {
@@ -76,7 +76,7 @@
         margin-bottom: 35px;
     }
     .convience-slider .pip-slide-descr {
-        line-height: 28px;
+        line-height: 18px;
         color: #a8a9ad;
         letter-spacing: .01em;
     }
