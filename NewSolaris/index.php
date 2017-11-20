@@ -471,7 +471,7 @@ $APPLICATION->SetTitle("NewSolaris");
 
                     </div>
 
-                    <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
+
 
                     <div class="pip-primary-nav-pos" data-anchor="nav-pos">
                         <nav class="pip-primary-nav" role="navigation">
@@ -497,6 +497,8 @@ $APPLICATION->SetTitle("NewSolaris");
                             </div>
                         </nav>
                     </div>
+
+                    <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
                     <!-- content -->
                     <div class="content-type content-type__explore is-active" content-type="explore">
                         <section class="section section--configurator" data-anchor="configurator">
