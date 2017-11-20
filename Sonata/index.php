@@ -428,7 +428,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                 <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
                                                 <a href="http://www.hyundai.ru/configurator" target="_blank" class="title-price-notice">В кредит от 11 857 ₽ / месяц</a>
                                             </div>
-                                            <a href="#" class="btn-flat">Все предложения</a>
+                                            <a href="/offer/" class="btn-flat">Все предложения</a>
                                             <div class="title-list">
                                                 <ul>
                                                     <li>Экономный расход <br>
@@ -544,7 +544,8 @@ $APPLICATION->SetTitle("NewSolaris");
                                 </div>
                             </div>
                         </section>
-                        <section class="section section--video" style="background: url('http://www.hyundai.ru/media/images/flat/SONATA/elements/video_bgr.jpg') no-repeat center bottom/cover;">
+
+                        <section class="section section--video" data-anchor="video" style="background: url('http://www.hyundai.ru/media/images/flat/SONATA/elements/video_bgr.jpg') no-repeat center bottom/cover;">
                             <div class="section-content">
                                 <div class="video" data-role="js-video" data-watch-scroll="true">
                                     <div class="pip-slider pip-slider--video">
