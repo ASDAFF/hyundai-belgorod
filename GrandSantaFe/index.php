@@ -97,7 +97,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                         <? profit_to_url($APPLICATION->GetCurPage()); ?>
                                         <a href="http://www.hyundai.ru/configurator" target="_blank" class="title-price-notice">В кредит от 37 622 <span class="rouble">p</span> / месяц</a>
                                     </div>
-                                    <a href="/all-offers/grand_santa_fe" class="btn-flat">Все предложения</a>
+                                    <a href="/offer/" class="btn-flat">Все предложения</a>
                                     <div class="title-list">
                                         <ul>
                                             <li>Система полного<br>привода</li>
