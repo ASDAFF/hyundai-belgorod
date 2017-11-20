@@ -103,7 +103,7 @@ $APPLICATION->SetTitle("H-1");
                                                 <? profit_to_url($APPLICATION->GetCurPage()); ?>
                                                 <a href="http://www.hyundai.ru/configurator" target="_blank" class="title-price-notice">В кредит от 31 255 &#8381; / месяц</a>
                                             </div>
-                                            <a href="/all-offers/H1" class="btn-flat">Все предложения</a>
+                                            <a href="/offer/" class="btn-flat">Все предложения</a>
                                             <div class="title-list">
                                                 <ul>
                                                     <li>Экономный расход<br><strong>7.5 л на 100 км<span class="add-blue-color">*</span></strong></li>
@@ -1094,14 +1094,13 @@ $APPLICATION->SetTitle("H-1");
 					Для вас всегда есть удобные программы
 					кредитования и другие предложения Drive Hyundai.
 					</span>
-                                    <a href="/test-drive?old_car_id=11" class="btn-flat">Пройти тест-драйв</a>
+                                    <a href="#" class="btn-flat zing_form_toggler_spec" for="testdrive">Пройти тест-драйв</a>
                                 </div>
                                 <img src="/media/images/flat/H1/elements/promo_pic.png" alt="Тест драйв Hyundai H-1">
                             </div>
                             <div class="promo-grid">
                                 <ul class="clearfix">
                                     <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Конфигуратор H-1</span></a></li>
-                                    <li><a href="/find-dealer"><span>Найти дилера</span></a></li>
                                     <li class="hidden"><!-- <a target="_blank" href="/media/downloads/accessoires/H-1_Acc.pdf"><span>Каталог аксессуаров</span></a> --></li>
                                     <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Рассчитать кредит</span></a></li>
                                 </ul>
@@ -1111,49 +1110,49 @@ $APPLICATION->SetTitle("H-1");
                             <div class="promo-slider_cut">
                                 <ul class="promo-slider">
                                     <li>
-                                        <a href="/Elantra" class="promo-slider-link">
+                                        <a href="/Elantra/" class="promo-slider-link">
                                             <img src="/media/images/carmodels/Elantra_92157739ede44226.png" alt="Elantra">
                                             <span class="model">Elantra</span>
                                             <span class="price">от  957 000  &#8381;</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/i40" class="promo-slider-link">
+                                        <a href="/i40/" class="promo-slider-link">
                                             <img src="/media/images/carmodels/i40_20157739ec501388.png" alt="i40">
                                             <span class="model">i40</span>
                                             <span class="price">от 1 124 000  &#8381;</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/i40-Wagon" class="promo-slider-link">
+                                        <a href="/i40-Wagon/" class="promo-slider-link">
                                             <img src="/media/images/carmodels/i40 универсал_64757739ed03829f.png" alt="i40 Универсал">
                                             <span class="model">i40 Универсал</span>
                                             <span class="price">от 1 304 000  &#8381;</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/Creta" class="promo-slider-link">
+                                        <a href="/Creta/" class="promo-slider-link">
                                             <img src="/media/images/carmodels/Creta_955579f250bcf329.png" alt="Creta">
                                             <span class="model">Creta</span>
                                             <span class="price">от  799 900  &#8381;</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/Tucson" class="promo-slider-link">
+                                        <a href="/Tucson/" class="promo-slider-link">
                                             <img src="/media/images/carmodels/Tucson_57257739f51bbc7f.png" alt="Tucson">
                                             <span class="model">Tucson</span>
                                             <span class="price">от 1 505 900  &#8381;</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/SantaFe" class="promo-slider-link">
+                                        <a href="/SantaFe/" class="promo-slider-link">
                                             <img src="/media/images/carmodels/Santa Fe Premium_22757739f44cbfa3.png" alt="Santa Fe">
                                             <span class="model">Santa Fe</span>
                                             <span class="price">от 1 856 000  &#8381;</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/GrandSantaFe" class="promo-slider-link">
+                                        <a href="/GrandSantaFe/" class="promo-slider-link">
                                             <img src="/media/images/carmodels/Grand Santa Fe_76357f794c7e076a.png" alt="Grand Santa Fe">
                                             <span class="model">Grand Santa Fe</span>
                                             <span class="price">от 2 324 000  &#8381;</span>
