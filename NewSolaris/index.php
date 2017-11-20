@@ -432,7 +432,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                 <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
                                                 <a href="http://www.hyundai.ru/configurator" target="_blank" class="title-price-notice">В кредит от 11 857 ₽ / месяц</a>
                                             </div>
-                                            <a href="#" class="btn-flat">Все предложения</a>
+                                            <a href="/offer/" class="btn-flat">Все предложения</a>
                                             <div class="title-list">
                                                 <ul>
                                                     <li>Экономный расход <br>
@@ -541,6 +541,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                 </div>
                             </div>
                         </section>
+
                         <section class="section section--video" data-anchor="video">
                             <div class="section-content">
                                 <div class="video" data-role="js-video" data-watch-scroll="true">
@@ -551,7 +552,13 @@ $APPLICATION->SetTitle("NewSolaris");
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="svg play-svg-ic"><use xlink:href="#play-svg-ic"></use></svg>
                                             </div>
                                         </div>
-                                        <div class="pip-slide" data-slide="2" data-src="gA-Sum0Mj08">
+                                        <div class="pip-slide" data-slide="2" data-src="T4rqBRdCqms">
+                                            <div class="pip-slide__content">
+                                                <img src="http://www.hyundai.ru/media/images/flat/SL2017/elements/video_preview_2.jpg" class="video-preview" alt=""/>
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="svg play-svg-ic"><use xlink:href="#play-svg-ic"></use></svg>
+                                            </div>
+                                        </div>
+                                        <div class="pip-slide" data-slide="3" data-src="gA-Sum0Mj08">
                                             <div class="pip-slide__content">
                                                 <img src="http://www.hyundai.ru/media/images/flat/SL2017/elements/video_preview_1.jpg" class="video-preview" alt=""/>
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="svg play-svg-ic"><use xlink:href="#play-svg-ic"></use></svg>
@@ -561,6 +568,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                 </div>
                             </div>
                         </section>
+
                         <section class="section section--brand-new" data-anchor="highlights">
                             <div class="section-parallax section-parallax--1">
                                 <div class="parallax-layer" data-parallax-speed="1"></div>
@@ -1590,8 +1598,8 @@ $APPLICATION->SetTitle("NewSolaris");
     <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/transform.js"></script>
     <script type="text/javascript" src="pip_flat_spritespin.js"></script>
     <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/solaris-2017.js"></script>
-    <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/solaris-2017-scroll.js"></script>
-    <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/solaris-2017-parallax.js"></script>
+    <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/pip_scroll.js"></script>
+    <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/pip_parallax.js"></script>
 
 
 
