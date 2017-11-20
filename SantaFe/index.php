@@ -81,7 +81,7 @@ $APPLICATION->SetTitle("SantaFe");
                                             <a href="/start?model=santafe" class="title-price-notice">В кредит от 12 000 &#8381; / месяц</a>
                                             <div class="title-price-casco">+ каско в подарок!<sup>1</sup></div>
                                         </div>
-                                        <a href="/all-offers/santa_fe" class="btn-flat">Все предложения</a>
+                                        <a href="/offer/" class="btn-flat">Все предложения</a>
                                         <div class="title-list">
                                             <ul>
                                                 <li>Система полного<br>привода</li>
