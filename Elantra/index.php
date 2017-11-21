@@ -77,7 +77,7 @@ $APPLICATION->SetTitle("Elantra");
             </div>
         </div>
 
-        <div class="container">
+        <div class="container" style="margin-top: 0;">
             <div class="cubebox" id="cubebox">
                 <div class="cubelist">
                     <div class="items">
