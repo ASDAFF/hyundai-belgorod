@@ -73,7 +73,7 @@ $(document).ready(function() {
 				case 23: return 37; // New Solaris
 			}
 
-			return 35; // Если тачки нет в списке вообще
+			return 37; // Если тачки нет в списке вообще
 		}
 		, updateData: function() {
 			var newSum = parseInt($("[name=type]").val());
@@ -456,7 +456,7 @@ $(document).ready(function() {
 
 		return $(".calc__widget").roundSlider({
 			sliderType: "min-range"
-			, value: 35
+			, value: 37
 			, radius: 200
 			, width: 10
 			, startAngle: 315
@@ -468,8 +468,8 @@ $(document).ready(function() {
 			, circleShape: "pie"
 			, tooltipFormat: "changeTooltip"
 			, create: function() {
-				$(".rs-first").append('<span class="big-circle circle-active"></span><span class="small-circle circle-active"></span><span class="small-circle-2 circle-active"></span><span class="widget__val">35</span>');
-				$(".widget__val").css("transform", "rotate(" + (-4.5 * (35 - 10)) + "deg)");
+				$(".rs-first").append('<span class="big-circle circle-active"></span><span class="small-circle circle-active"></span><span class="small-circle-2 circle-active"></span><span class="widget__val">37</span>');
+				$(".widget__val").css("transform", "rotate(" + (-4.5 * (37 - 10)) + "deg)");
 
 				var o = this.options;
 				for (var i = o.min; i <= o.max; i += o.step + 4) {

@@ -1049,7 +1049,8 @@ $APPLICATION->SetTitle("NewSolaris");
 </div>
 
 
-<script src="http://www.hyundai.ru/assets/js/common.js"></script>
+    <script src="http://www.hyundai.ru/assets/js/vendors.js?v=1"></script>
+    <script src="http://www.hyundai.ru/assets/js/common.js"></script>
 
 
 <!-- ! specific stuff for current page only ! -->
