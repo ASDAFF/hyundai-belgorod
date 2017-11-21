@@ -51,7 +51,9 @@ $this->setFrameMode(true);
 				<div class="autos_search_result_list">
 
 
-				<?foreach($arResult["ITEMS"] as $key => $arItem):?>
+				<?
+				$i = 1;
+				foreach($arResult["ITEMS"] as $key => $arItem):?>
 					<div class="search_item car-list">
 						<div class="car-list__row">
 							<div class="car-list_cell" data-label="">
@@ -60,7 +62,7 @@ $this->setFrameMode(true);
 							</span>
 							<span class="car-list_cell-inner car-list__year_mob"><?=$arItem['PROPERTIES']['YEAR']['VALUE']?></span>
 
-							<span class="numb__row"><?=$key+1;?></span>
+							<span class="numb__row"><?=$i;?></span>
 
 							<span class="car-list_cell-inner">
 								<i class="car-list__img-holder">
@@ -142,7 +144,9 @@ $this->setFrameMode(true);
 					<div class="clearfix"></div>
 					<hr />
 
-					<? endforeach; ?>
+					<?
+				$i++;
+				endforeach; ?>
 
 					<div class="clearfix"></div>
 					<!-- <a href="#" class="all_results">Все результаты</a> -->
