@@ -412,7 +412,7 @@ $APPLICATION->SetTitle("NewSolaris");
 
                     </style>
 
-                    <? $height = "height:400px";?>
+                    <? $height = "height:410px";?>
                     <div class="cubebox-no-js" id="" style="<?=$height?>">
                         <div class="cubelist" current="1" style="<?=$height?>">
                             <div class="items" style="margin-left: 0%;<?=$height?>" >
