@@ -156,6 +156,9 @@ $APPLICATION->SetTitle("Elantra");
                     </ul>
                 </div>
             </div>
+
+            <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
+
             <!-- new content-togglers -->
             <div id="top-menu" class="top-menu">
                 <div class="top-menu__wrap">
@@ -173,7 +176,7 @@ $APPLICATION->SetTitle("Elantra");
                 </div>
             </div>
 
-            <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
+
             <!-- content -->
             <div class="content-type content-type__explore on" >
 
@@ -1155,53 +1158,12 @@ $APPLICATION->SetTitle("Elantra");
                 <div class="promo-slider_wrap">
                     <div class="promo-slider_cut">
                         <ul class="promo-slider">
-                            <li>
-                                <a href="/i40/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/i40_20157739ec501388.png" alt="i40">
-                                    <span class="model">i40</span>
-                                    <span class="price">от 1 124 000  <span class="rubleArial">p</span></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/i40-Wagon/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/i40 универсал_64757739ed03829f.png" alt="i40 Универсал">
-                                    <span class="model">i40 Универсал</span>
-                                    <span class="price">от 1 304 000  <span class="rubleArial">p</span></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/i30/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/i30_15457739eee17e6c.png" alt="i30">
-                                    <span class="model">i30</span>
-                                    <span class="price">от  869 900  <span class="rubleArial">p</span></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/i30-Wagon/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/i30 универсал_83357739f0575fed.png" alt="i30 Универсал">
-                                    <span class="model">i30 Универсал</span>
-                                    <span class="price">от  919 900  <span class="rubleArial">p</span></span>
-                                </a>
-                            </li>
+
                             <li>
                                 <a href="/Tucson/" class="promo-slider-link">
                                     <img src="/media/images/carmodels/Tucson_57257739f51bbc7f.png" alt="Tucson">
                                     <span class="model">Tucson</span>
                                     <span class="price">от 1 505 900  <span class="rubleArial">p</span></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/GenesisNew/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/Genesis_67557739eb9dab83.png" alt="Genesis">
-                                    <span class="model">Genesis</span>
-                                    <span class="price">от 2 329 000  <span class="rubleArial">p</span></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/i30-3dr/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/i30 3DR_16857739efa063c4.png" alt="i30 3DR">
-                                    <span class="model">i30 3DR</span>
-                                    <span class="price">от  849 900  <span class="rubleArial">p</span></span>
                                 </a>
                             </li>
                             <li>
@@ -1225,26 +1187,18 @@ $APPLICATION->SetTitle("Elantra");
                                     <span class="price">от 1 949 000  <span class="rubleArial">p</span></span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="/Solaris/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/Solaris_98457739f0fefda5.png" alt="Solaris">
-                                    <span class="model">Solaris</span>
-                                    <span class="price">от  553 900  <span class="rubleArial">p</span></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/Solaris-5dr/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/Solaris хэтчбек_45057739f19bf845.png" alt="Solaris Хетчбек">
-                                    <span class="model">Solaris Хетчбек</span>
-                                    <span class="price">от  553 900  <span class="rubleArial">p</span></span>
-                                </a>
-                            </li>
                         </ul>
                     </div>
                     <div class="slider-prev"></div>
                     <div class="slider-next"></div>
                 </div>
-            </div>	</div>
+            </div>
+
+            <div class="disc-block" style="background: #FFF;padding-bottom: 20px;">
+                <p class="dicslamer-casco" style="max-width: 980px;margin: 0 auto;"><sup>1</sup> Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в СПАО «Ингосстрах», ПАО «Росгосстрах» и СК «ВСК» при покупке Нового Hyundai Elantra в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены СПАО «Ингосстрах», ПАО «Росгосстрах» и СК «ВСК» в одностороннем порядке. Предложение действует до 31.12.2017г.</p>
+            </div>
+
+        </div>
 
     </div> <!-- // container -->
 

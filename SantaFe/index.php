@@ -59,7 +59,7 @@ $APPLICATION->SetTitle("SantaFe");
                 </div>
             </div>
 
-            <div class="container">
+            <div class="container" style="margin-top: 0;">
                 <div class="cubebox" id="cubebox" style="height: 530px;">
                     <div class="cubelist" style="height: 530px;">
                         <div class="items" style="height: 530px;">
@@ -73,9 +73,7 @@ $APPLICATION->SetTitle("SantaFe");
                                         <div class="title-price">
                                             <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
                                             <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                            <div class="title-price-sale">С учетом скидки 100 000 &#8381;</div>
                                             <a href="/start?model=santafe" class="title-price-notice">В кредит от 12 000 &#8381; / месяц</a>
-                                            <div class="title-price-casco">+ каско в подарок!<sup>1</sup></div>
                                         </div>
                                         <a href="/offer/" class="btn-flat">Все предложения</a>
                                         <div class="title-list">
@@ -138,6 +136,7 @@ $APPLICATION->SetTitle("SantaFe");
                     </div>
                 </div>
 
+                <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
                 <div id="top-menu" class="top-menu">
                     <div class="top-menu__wrap">
                         <div class="information">
@@ -145,7 +144,7 @@ $APPLICATION->SetTitle("SantaFe");
                                 <ul>
                                     <li class="on"><a class="main-toggler main-toggler__explore" href="#" data-href="#content-type__explore" title="Обзор">ОБЗОР</a></li><!--
 					 --><li><a class="main-toggler main-toggler__specs" href="#" data-href="#content-type__specs" title="Характеристики">ХАРАКТЕРИСТИКИ</a></li><!--
-					 --><li><a class="configurator" href="/configurator/car/17" title="Цены комплектации">ЦЕНЫ И КОНФИГУРАЦИИ</a></li><!--
+					 --><li><a class="configurator" href="http://www.hyundai.ru/configurator/car/17" title="Цены комплектации">ЦЕНЫ И КОНФИГУРАЦИИ</a></li><!--
 					 --><li class="broshure-item" title="Каталог"><a data-gtm-havas-model="santafe" href="#" data-model="Santa Fe" for="brochures_request" class="zing_form_toggler broshure" target="_blank">КАТАЛОГ</a></li><!--
 					 --><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
                                 </ul>
@@ -153,7 +152,7 @@ $APPLICATION->SetTitle("SantaFe");
                         </div>
                     </div>
                 </div>
-                <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
+
                 <div class="content-type content-type__explore on" >
                     <div id="contents_highlights" class="contents_highlights pip">
                         <div class="parallax parallax0"></div>
@@ -1241,7 +1240,7 @@ $APPLICATION->SetTitle("SantaFe");
                             </div>
                         </div>
                         <div class="detailedSpecLink">
-                            <a href="/configurator/car/17" onClick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
+                            <a href="http://www.hyundai.ru/configurator/car/17" onClick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
                         </div>
                         <div class="spec_message">
                             <div>
@@ -1269,7 +1268,7 @@ $APPLICATION->SetTitle("SantaFe");
                         <div class="promo-grid">
                             <ul class="clearfix">
                                 <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Конфигуратор Santa Fe</span></a></li>
-                                <li><a target="_blank" href="http://www.hyundai.ru/configurator"><span>Каталог аксессуаров</span></a></li>
+                                <li><a target="_blank" href="http://www.hyundai.ru/media/downloads/accessoires/SantaFe_Acc.pdf"><span>Каталог аксессуаров</span></a></li>
                                 <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Рассчитать кредит</span></a></li>
                             </ul>
                         </div>
@@ -1334,6 +1333,6 @@ $APPLICATION->SetTitle("SantaFe");
     <script type="text/javascript" src="http://www.hyundai.ru/media/js/libs/jquery.lazyload.min.js"></script>
     <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/sc_gt_default.js"></script>
     <script type="text/javascript" src="pip_flat_spritespin.js"></script>
-    <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/pip_flat_SF.js"></script>
+    <script type="text/javascript" src="pip_flat_SF.js"></script>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

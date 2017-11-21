@@ -50,7 +50,7 @@ $APPLICATION->SetTitle("Tucson");
         <link rel="stylesheet" type="text/css" href="/media/css_new/styles_RU_.css">
         <link rel="stylesheet" type="text/css" href="/media/css_new/pip_flat_TL.css">
         <link rel="stylesheet" type="text/css" href="/media/css_new/pip_flat_spritespin.css">
-        <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/pip_flat_TL.js"></script>
+        <script type="text/javascript" src="pip_flat_TL.js"></script>
         <script type="text/javascript" src="http://www.hyundai.ru/media/js/cars/pip_flat_spritespin.js"></script>
 
 
@@ -108,7 +108,7 @@ $APPLICATION->SetTitle("Tucson");
                 </div>
             </div>
 
-            <div class="container">
+            <div class="container" style="margin-top: 0;">
                 <div class="cubebox" id="cubebox">
                     <div class="cubelist" current="1">
                         <div class="items" style="margin-left: 0%;">
@@ -181,6 +181,9 @@ $APPLICATION->SetTitle("Tucson");
                         </ul>
                     </div>
                 </div>
+
+                <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
+
                 <!-- new content-togglers -->
                 <div id="top-menu" class="top-menu">
                     <div class="top-menu__wrap">
@@ -199,7 +202,7 @@ $APPLICATION->SetTitle("Tucson");
                     </div>
                 </div>
 
-                <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
+
                 <!-- content -->
                 <div class="content-type content-type__explore on">
                     <!-- // new template -->
@@ -370,7 +373,7 @@ $APPLICATION->SetTitle("Tucson");
                                         <li class="front">
                                             <div class="scene">
                                                 <div class="car">
-                                                    <img src="/media/images/flat/TL/highlight_style_car.png" alt="Фото передней части Hyundai Tucson">
+                                                    <img src="/media/images/flat/TL/highlight_style_car.png" style="max-width: none" alt="Фото передней части Hyundai Tucson">
                                                     <div class="plus_wrap">
                                                         <div class="plus plus1 left"><a href="#" isover="0" isclick="0"><span>more</span></a><span class="txt"><span>Фары проекционного типа <br> со светодиодными лампами</span></span></div>
                                                         <div class="plus plus2 left"><a href="#" isover="0" isclick="0"><span>more</span></a><span class="txt"><span>Противотуманные фары со светодиодными <br> дневными ходовыми огнями</span></span></div>
@@ -411,7 +414,7 @@ $APPLICATION->SetTitle("Tucson");
                                         <li class="side">
                                             <div class="scene">
                                                 <div class="car">
-                                                    <img src="/media/images/flat/TL/exterior_car_side.png" alt="Струящиеся линии кузова">
+                                                    <img src="/media/images/flat/TL/exterior_car_side.png" style="max-width: none" alt="Струящиеся линии кузова">
                                                     <div class="plus_wrap">
                                                         <div class="plus plus1 left"><a href="#" isover="0" isclick="0"><span>more</span></a><span class="txt"><span>Панорамная крыша</span></span></div>
                                                         <div class="plus plus3 left"><a href="#" isover="0" isclick="0"><span>more</span></a><span class="txt"><span>Диски</span></span></div>
@@ -442,7 +445,7 @@ $APPLICATION->SetTitle("Tucson");
                                         <li class="rear">
                                             <div class="scene">
                                                 <div class="car">
-                                                    <img src="/media/images/flat/TL/exterior_car_rear.png" alt="Плавность линий Hyundai Tucson">
+                                                    <img src="/media/images/flat/TL/exterior_car_rear.png" style="max-width: none" alt="Плавность линий Hyundai Tucson">
                                                     <div class="plus_wrap">
                                                         <div class="plus plus1 left"><a href="#" isover="0" isclick="0"><span>more</span></a><span class="txt"><span>Задние светодиодные фонари<br> комбинированного типа</span></span></div>
                                                         <div class="plus plus2 left"><a href="#" isover="0" isclick="0"><span>more</span></a><span class="txt"><span>Двойной глушитель</span></span></div>
@@ -1039,7 +1042,6 @@ $APPLICATION->SetTitle("Tucson");
     					<span class="description">
     						<strong>Электронный стояночный тормоз (EPB)</strong><br>
     						Данное устройство экономит внутреннее пространство автомобиля, а современный дизайн обеспечивает удобство при его использовании.
-    						<span class="caution" style="margin: 10px 0 30px;">Доступно только с автоматической коробкой передач</span>
     					</span>
                                 </li>
                                 <!-- //2015-10-28 -->
@@ -1507,20 +1509,6 @@ $APPLICATION->SetTitle("Tucson");
                                 </a>
                             </li>
                             <li>
-                                <a href="/i40-Wagon/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/i40 универсал_64757739ed03829f.png" alt="i40 Универсал">
-                                    <span class="model">i40 Универсал</span>
-                                    <span class="price">от 1 304 000  <span class="rouble">7</span></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/i40/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/i40_20157739ec501388.png" alt="i40">
-                                    <span class="model">i40</span>
-                                    <span class="price">от 1 124 000  <span class="rouble">7</span></span>
-                                </a>
-                            </li>
-                            <li>
                                 <a href="/H-1/" class="promo-slider-link">
                                     <img src="/media/images/carmodels/H-1_89857739f5e11f41.png" alt="H-1">
                                     <span class="model">H-1</span>
@@ -1534,25 +1522,14 @@ $APPLICATION->SetTitle("Tucson");
                                     <span class="price">от  909 900  <span class="rouble">7</span></span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="/i30/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/i30_15457739eee17e6c.png" alt="i30">
-                                    <span class="model">i30</span>
-                                    <span class="price">от  869 900  <span class="rouble">7</span></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/Solaris/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/Solaris_98457739f0fefda5.png" alt="Solaris">
-                                    <span class="model">Solaris</span>
-                                    <span class="price">от  553 900  <span class="rouble">7</span></span>
-                                </a>
-                            </li>
                         </ul>
                     </div>
                     <div class="slider-prev"></div>
                     <div class="slider-next"></div>
                 </div>
+            </div>
+            <div class="disc-block" style="background: #FFF;padding-bottom: 20px">
+                <p class="dicslamer-casco" style="width: 980px;margin: 0 auto;"><sup>1</sup> Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в СПАО «Ингосстрах», ПАО «Росгосстрах» и СК «ВСК» при покупке Нового Hyundai Tucson в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены СПАО «Ингосстрах», ПАО «Росгосстрах» и СК «ВСК» в одностороннем порядке. Предложение действует до 31.12.2017г.</p>
             </div>
         </div>
 

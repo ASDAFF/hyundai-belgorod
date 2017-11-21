@@ -129,21 +129,11 @@
 	<script src="/home_style/js/common.js"></script>
 
 
+
 	<?
-	$arModelUrl = array(
-	"/Sonata/",
-	"/NewSolaris/",
-	"/Elantra/",
-	"/Creta/",
-	"/Tucson/",
-	"/SantaFe/",
-	"/GrandSantaFe/",
-	"/H-1/",
-	);
-	if(in_array($APPLICATION->GetCurPage(), $arModelUrl)): ?>
-	<div class="roadside24">
-		<a href="/service/roadside-assistance" target="_blank">
-			<img src="http://www.hyundai.ru/media/img/na-svyazi.svg" />
-		</a>
-	</div>
-	<? endif; ?>
+	$APPLICATION->IncludeFile("/bitrix/include/for_pages/stiker-model.php", Array(), Array(
+		"MODE"      => "php",                                           // будет редактировать в веб-редакторе
+		"NAME"      => "Редактирование включаемой области раздела",      // текст всплывающей подсказки на иконке
+		"TEMPLATE"  => ""                    // имя шаблона для нового файла
+	));
+	?>

@@ -82,7 +82,7 @@
     }
     .convience-slider .pip-slider-controls {
         position: absolute;
-        bottom: 85px;
+        bottom: 10px;
         left: 50%;
         margin-left: -470px;
         text-align: left;

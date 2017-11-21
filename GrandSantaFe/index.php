@@ -81,7 +81,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
             </div>
         </div>
 
-        <div class="container">
+        <div class="container" style="margin-top: 0;">
             <div class="cubebox" id="cubebox">
                 <div class="cubelist">
                     <div class="items">
@@ -95,7 +95,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                     <div class="title-price">
                                         <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
                                         <? profit_to_url($APPLICATION->GetCurPage()); ?>
-                                        <a href="http://www.hyundai.ru/configurator" target="_blank" class="title-price-notice">В кредит от 37 622 <span class="rouble">p</span> / месяц</a>
+                                        <a href="http://www.hyundai.ru/configurator" target="_blank" class="title-price-notice">В кредит от 16 000 <span class="rouble">p</span> / месяц</a>
                                     </div>
                                     <a href="/offer/" class="btn-flat">Все предложения</a>
                                     <div class="title-list">
@@ -160,6 +160,8 @@ $APPLICATION->SetTitle("GrandSantaFe");
                     </ul>
                 </div>
             </div>
+
+            <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
             <!-- new content-togglers -->
             <div id="top-menu" class="top-menu">
                 <div class="top-menu__wrap">
@@ -179,7 +181,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
             </div>
             <!-- // new template -->
 
-            <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
+
             <!-- content -->
             <div class="content-type content-type__explore on" >
                 <div id="contents_highlights" class="contents_highlights pip">
@@ -1342,13 +1344,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
                 <div class="promo-slider_wrap">
                     <div class="promo-slider_cut">
                         <ul class="promo-slider">
-                            <li>
-                                <a href="/GenesisNew/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/Genesis_67557739eb9dab83.png" alt="Genesis">
-                                    <span class="model">Genesis</span>
-                                    <span class="price">от 2 329 000  <span class="rubleArial">p</span></span>
-                                </a>
-                            </li>
+
                             <li>
                                 <a href="/H-1/" class="promo-slider-link">
                                     <img src="/media/images/carmodels/H-1_89857739f5e11f41.png" alt="H-1">
@@ -1371,61 +1367,13 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                 </a>
                             </li>
                             <li>
-                                <a href="/i40-Wagon/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/i40 универсал_64757739ed03829f.png" alt="i40 Универсал">
-                                    <span class="model">i40 Универсал</span>
-                                    <span class="price">от 1 304 000  <span class="rubleArial">p</span></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/i40/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/i40_20157739ec501388.png" alt="i40">
-                                    <span class="model">i40</span>
-                                    <span class="price">от 1 124 000  <span class="rubleArial">p</span></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/i30-Wagon/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/i30 универсал_83357739f0575fed.png" alt="i30 Универсал">
-                                    <span class="model">i30 Универсал</span>
-                                    <span class="price">от  919 900  <span class="rubleArial">p</span></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/i30/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/i30_15457739eee17e6c.png" alt="i30">
-                                    <span class="model">i30</span>
-                                    <span class="price">от  869 900  <span class="rubleArial">p</span></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/i30-3dr/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/i30 3DR_16857739efa063c4.png" alt="i30 3DR">
-                                    <span class="model">i30 3DR</span>
-                                    <span class="price">от  849 900  <span class="rubleArial">p</span></span>
-                                </a>
-                            </li>
-                            <li>
                                 <a href="/Elantra/" class="promo-slider-link">
                                     <img src="/media/images/carmodels/Elantra_92157739ede44226.png" alt="Elantra">
                                     <span class="model">Elantra</span>
                                     <span class="price">от  909 900  <span class="rubleArial">p</span></span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="/Solaris/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/Solaris_98457739f0fefda5.png" alt="Solaris">
-                                    <span class="model">Solaris</span>
-                                    <span class="price">от  553 900  <span class="rubleArial">p</span></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/Solaris-5dr/" class="promo-slider-link">
-                                    <img src="/media/images/carmodels/Solaris хэтчбек_45057739f19bf845.png" alt="Solaris Хетчбек">
-                                    <span class="model">Solaris Хетчбек</span>
-                                    <span class="price">от  553 900  <span class="rubleArial">p</span></span>
-                                </a>
-                            </li>
+
                         </ul>
                     </div>
                     <div class="slider-prev"></div>

@@ -87,7 +87,7 @@ $APPLICATION->SetTitle("H-1");
                     </div>
                 </div>
 
-                <div class="container">
+                <div class="container" style="margin-top: 0;">
                     <div class="cubebox" id="cubebox">
                         <div class="cubelist">
                             <div class="items">
@@ -142,6 +142,9 @@ $APPLICATION->SetTitle("H-1");
                             </ul>
                         </div>
                     </div>
+
+                    <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
+                    
                     <!-- new content-togglers -->
                     <div id="top-menu" class="top-menu">
                         <div class="top-menu__wrap">
@@ -159,7 +162,7 @@ $APPLICATION->SetTitle("H-1");
                         </div>
                     </div>
 
-                    <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
+
                     <!-- content -->
                     <div class="content-type content-type__explore on" >
                         <div id="contents_highlights" class="contents_highlights pip">
@@ -1114,20 +1117,6 @@ $APPLICATION->SetTitle("H-1");
                                             <img src="/media/images/carmodels/Elantra_92157739ede44226.png" alt="Elantra">
                                             <span class="model">Elantra</span>
                                             <span class="price">от  957 000  &#8381;</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="/i40/" class="promo-slider-link">
-                                            <img src="/media/images/carmodels/i40_20157739ec501388.png" alt="i40">
-                                            <span class="model">i40</span>
-                                            <span class="price">от 1 124 000  &#8381;</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="/i40-Wagon/" class="promo-slider-link">
-                                            <img src="/media/images/carmodels/i40 универсал_64757739ed03829f.png" alt="i40 Универсал">
-                                            <span class="model">i40 Универсал</span>
-                                            <span class="price">от 1 304 000  &#8381;</span>
                                         </a>
                                     </li>
                                     <li>

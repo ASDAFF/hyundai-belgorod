@@ -32,11 +32,6 @@ $APPLICATION->SetTitle("Creta");
             body.mobile .parallax5 {background:url('http://www.hyundai.ru/media/images/flat/CR/elements/parallax_6.jpg') center top no-repeat #fff;}
         </style>
 
-        <div class="roadside24">
-            <a href="/service/roadside-assistance" target="_blank">
-                <img src="http://www.hyundai.ru/media/img/na-svyazi.svg" />
-            </a>
-        </div>
 
         <div class="wrap" id="wrap">
             <div class="gallery-view-wrap">
@@ -151,7 +146,7 @@ $APPLICATION->SetTitle("Creta");
                                     <li class="on"><a class="main-toggler main-toggler__explore" href="#" data-href="#content-type__explore" title="Обзор">Обзор</a></li><!--
 					 --><li><a class="main-toggler main-toggler__specs" href="#" data-href="#content-type__specs" title="Характеристики">Характеристики</a></li><!--
 					 --><li><a class="main-toggler main-toggler__gallery" href="#" data-href="#content-type__gallery" title="Галерея">Галерея</a></li><!--
-					 --><li><a class="configurator" href="/configurator/car/22" title="Цены комплектации">Цены и конфигурации</a></li><!--
+					 --><li><a class="configurator" href="http://www.hyundai.ru/configurator/car/22" target="_blank" title="Цены комплектации">Цены и конфигурации</a></li><!--
 					 --><li class="broshure-item" title="каталог"><a data-gtm-havas-model="Creta" href="#" data-model="Creta" for="brochures_request" class="zing_form_toggler broshure" target="_blank">КАТАЛОГ</a></li><!--
 					 -->
                                 </ul>
@@ -1226,7 +1221,7 @@ $APPLICATION->SetTitle("Creta");
                             </div>
                         </div>
                         <div class="detailedSpecLink">
-                            <a href="/configurator/car/22" onClick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
+                            <a href="http://www.hyundai.ru/configurator/car/22" target="_blank" onClick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
                         </div>
                         <div class="spec_message">
                             <div>
@@ -1304,7 +1299,7 @@ $APPLICATION->SetTitle("Creta");
                         <div class="promo-grid">
                             <ul class="clearfix">
                                 <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Конфигуратор Creta</span></a></li>
-                                <li><a target="_blank" href="http://www.hyundai.ru/configurator"><span>Каталог аксессуаров</span></a></li>
+                                <li><a target="_blank" href="http://www.hyundai.ru/media/downloads/accessoires/Creta_Acc.pdf"><span>Каталог аксессуаров</span></a></li>
                                 <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Рассчитать кредит</span></a></li>
                             </ul>
                         </div>
