@@ -7,9 +7,8 @@ if (preg_match('/preview/', $prw, $preg)) {
         if($k == 0){
             $bufer = $l;
         }
-        $ex = explode('/',$l);
-        $img = explode('.',$ex[5]);
-        if($img[0] == 'preview'){
+
+        if(stristr($l, 'preview')){
             $arResult["PROPERTIES"]["SLIDER"]['VALUE'][0] = $arResult["PROPERTIES"]["SLIDER"]['VALUE'][$k];
             $arResult["PROPERTIES"]["SLIDER"]['VALUE'][$k] = $bufer;
         }
