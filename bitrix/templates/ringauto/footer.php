@@ -300,7 +300,7 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
 </div>
 
 
-<div class="zing_form_wrp" id="blabla-spec" style="display: none;">
+<div class="zing_form_wrp" id="blabla-spec" style="display: none;height: 570px;">
     <form class="zing_form" action="#" for="testdrive">
         <div class="zing_form_content">
             <a class="closePopup  zing_close" href="javascript:;"></a>
