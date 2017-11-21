@@ -104,6 +104,18 @@ $(document).ready(function() {
 			moveSlide();
 		});
 
+		$('.so-slider__leftarrow').on('click', function(){
+			if($(this).hasClass('disabled')) return false;
+
+			slideLeft();
+		});
+
+		$('.so-slider__rightarrow').on('click', function(){
+			if($(this).hasClass('disabled')) return false;
+
+			slideRight();
+		});
+
 		function slideLeft() {
 			if (curSlide <= 0) {
 				return;
@@ -137,6 +149,17 @@ $(document).ready(function() {
 			});
 
 			$(".so-slider__config-btn_active").last().addClass("so-slider__config-btn_car");
+
+			if(curSlide == 0)
+				$('.so-slider__leftarrow').addClass('disabled')
+			else
+				$('.so-slider__leftarrow').removeClass('disabled')
+
+
+			if(curSlide == 3)
+				$('.so-slider__rightarrow').addClass('disabled')
+			else
+				$('.so-slider__rightarrow').removeClass('disabled')
 		}
 	}
 
@@ -167,11 +190,18 @@ $(document).ready(function() {
 		$(".so-calc__img").stop().fadeOut(300, function() {
 			$(this).attr("src", "http://www.hyundai.ru/media/start/img/cars/" + id + ".png").attr("alt", name);
 		}).fadeIn(300);
-		if (Number(programm) == 0) {
+		if (Number(programm) == 0 && id != 18) {
 			$(".so-calc__item-subsum").addClass("so-calc__item-subsum_hidden");
 		}
+		else if(Number(programm) == 0 && id == 18) {
 
-		var confLink = "http://www.hyundai.ru/configurator/car/?compl_id=" + getConfigIdByCarId(Number(id)) + "&packets=";
+			$(".subsum__plus").addClass("so-calc__item-subsum_hidden");
+			$(".subsum__sec").addClass("so-calc__item-subsum_hidden");
+			$(".so-calc__item-subsum").removeClass("so-calc__item-subsum_hidden");
+		}
+
+		//var confLink = "/configurator/car/?compl_id=" + getConfigIdByCarId(Number(id)) + "&packets=";
+		var confLink = "http://www.hyundai.ru/configurator/car/" + id;
 		$(".so-calc__item-conf").attr("href", confLink);
 	}
 
@@ -200,4 +230,15 @@ $(document).ready(function() {
 		}
 	}
 	__init();
+
+	$(document).on('click', '.show-popup', function (e) {
+		e.preventDefault();
+		$('.overlayed').fadeIn();
+	});
+
+	$(document).on('click', '.closeIt', function (e) {
+		e.preventDefault();
+		$('.overlayed').fadeOut();
+	});
+
 });

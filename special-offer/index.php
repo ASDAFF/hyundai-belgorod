@@ -150,7 +150,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                     Конфигуратор
                                     <span class="so-calc__item-conf-line"></span>
                                 </a>
-                                <a class="so-calc__item-conf2" href="https://hpromise.hyundai.ru/trade-in/#trade_in_rules" target="_blank">
+                                <a class="so-calc__item-conf2" href="/hpromise/trade-in/" target="_blank">
                                     Условия Трейд-Ин
                                     <!-- 							<span class="so-calc__item-conf-line"></span> -->
                                 </a>
@@ -246,8 +246,8 @@ $APPLICATION->SetTitle("NewSolaris");
                             <div class="so-slider__config-btn"></div>
                         </div>
                         <div class="so-slider__controls">
-                            <div class="so-slider__leftarrow disabled"><img src="/media/img/leftarrow.png"/></div>
-                            <div class="so-slider__rightarrow"><img src="/media/img/rightarrow.png"/></div>
+                            <div class="so-slider__leftarrow disabled"><img src="leftarrow.png"/></div>
+                            <div class="so-slider__rightarrow"><img src="rightarrow.png"/></div>
                         </div>
                     </div>
                 </div>
@@ -258,10 +258,11 @@ $APPLICATION->SetTitle("NewSolaris");
             <div id="offer-response">
                 <h2></h2>
                 <p class="text">Программа HYUNDAI TRADE-IN дает дополнительную выгоду владельцам автомобилей Hyundai, решившим обновить свой автомобиль. Если вы сдаете свой бывший в употреблении автомобиль Hyundai в зачет стоимости нового, то к стандартной выгоде по гос. программе добавляется выгода по программе HYUNDAI TRADE-IN.</p>
-                <a href="https://hpromise.hyundai.ru/trade-in/" target="_blank">Перейти на сайт программы&nbsp;&nbsp;></a>
+                <a href="/hpromise/trade-in/" target="_blank">Перейти на сайт программы&nbsp;&nbsp;></a>
                 <div class="closeIt">&times;</div>
             </div>
         </div>
+
     </main>
 
 
