@@ -4,7 +4,7 @@
 foreach($arResult["ITEMS"] as $key => $arItem){
 
     if(stristr(implode(',',$arItem['PROPERTIES']['SLIDER']['VALUE']), 'preview') === false){
-        unset($arResult[$key]);
+        unset($arResult["ITEMS"][$key]);
     }
 
     foreach($arItem['PROPERTIES']['SLIDER']['VALUE'] as $prw){
