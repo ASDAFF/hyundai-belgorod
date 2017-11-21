@@ -103,7 +103,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
             <div class="carslider-inner-single">
                 <div class="carslider-inner-single-title">Solaris</div>
                 <div class="carslider-inner-single-desc">
-                    <a href="http://www.hyundai.ru/NewSolaris" class="carslider-inner-single-desc-link">описание модели</a>
+                    <a href="/NewSolaris/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
                     <div class="carslider-inner-single-desc-price">25 000 &#8381;</div>
                     <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
@@ -122,7 +122,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
             <div class="carslider-inner-single">
                 <div class="carslider-inner-single-title">Creta</div>
                 <div class="carslider-inner-single-desc">
-                    <a href="http://www.hyundai.ru/Creta" class="carslider-inner-single-desc-link">описание модели</a>
+                    <a href="/Creta/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
                     <div class="carslider-inner-single-desc-price">25 000 &#8381;</div>
                     <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
@@ -141,7 +141,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
             <div class="carslider-inner-single">
                 <div class="carslider-inner-single-title">Elantra</div>
                 <div class="carslider-inner-single-desc">
-                    <a href="http://www.hyundai.ru/Elantraq" class="carslider-inner-single-desc-link">описание модели</a>
+                    <a href="/Elantra/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
                     <div class="carslider-inner-single-desc-price">80 000 &#8381;</div>
                     <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
@@ -160,7 +160,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
             <div class="carslider-inner-single">
                 <div class="carslider-inner-single-title">i 40</div>
                 <div class="carslider-inner-single-desc">
-                    <a href="http://www.hyundai.ru/i40" class="carslider-inner-single-desc-link">описание модели</a>
+                    <a href="/i40/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
                     <div class="carslider-inner-single-desc-price">40 000 &#8381;</div>
                     <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
@@ -179,7 +179,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
             <div class="carslider-inner-single">
                 <div class="carslider-inner-single-title">Tucson</div>
                 <div class="carslider-inner-single-desc">
-                    <a href="http://www.hyundai.ru/Tucson" class="carslider-inner-single-desc-link">описание модели</a>
+                    <a href="/Tucson/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
                     <div class="carslider-inner-single-desc-price">80 000 &#8381;</div>
                     <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
@@ -198,7 +198,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
             <div class="carslider-inner-single">
                 <div class="carslider-inner-single-title">Santa Fe</div>
                 <div class="carslider-inner-single-desc">
-                    <a href="http://www.hyundai.ru/SantaFePremium" class="carslider-inner-single-desc-link">описание модели</a>
+                    <a href="/SantaFe/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
                     <div class="carslider-inner-single-desc-price">100 000 &#8381;</div>
                     <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
@@ -217,7 +217,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
             <div class="carslider-inner-single">
                 <div class="carslider-inner-single-title">Grand Santa Fe</div>
                 <div class="carslider-inner-single-desc">
-                    <a href="http://www.hyundai.ru/GrandSantaFe" class="carslider-inner-single-desc-link">описание модели</a>
+                    <a href="/GrandSantaFe/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
                     <div class="carslider-inner-single-desc-price">120 000 &#8381;</div>
                     <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
