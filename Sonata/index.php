@@ -426,7 +426,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="title-price">
                                                 <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
                                                 <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                                <a href="http://www.hyundai.ru/configurator" target="_blank" class="title-price-notice">В кредит от 11 857 ₽ / месяц</a>
+                                                <a href="http://www.hyundai.ru/configurator" target="_blank" class="title-price-notice">В кредит от 9000 ₽ / месяц</a>
                                             </div>
                                             <a href="/offer/" class="btn-flat">Все предложения</a>
                                             <div class="title-list">
