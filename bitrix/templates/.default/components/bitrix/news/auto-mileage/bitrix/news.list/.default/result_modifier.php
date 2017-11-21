@@ -2,10 +2,19 @@
 
 
 foreach($arResult["ITEMS"] as $key => $arItem){
-    if(stristr($arItem['PROPERTIES']['SLIDER']['VALUE'], 'preview')){
-        $arResult["ITEMS"][$key]['PROPERTIES']['SLIDER']['VALUE'][0] = $arItem['PROPERTIES']['SLIDER']['VALUE'];
-    }else{
-        unset($arResult["ITEMS"][$key]);
+
+    if(stristr(implode(',',$arItem['PROPERTIES']['SLIDER']['VALUE']), 'preview') === false){
+        unset($arResult[$key]);
     }
+
+    foreach($arItem['PROPERTIES']['SLIDER']['VALUE'] as $prw){
+
+        if(stristr($prw, 'preview')){
+            $arResult["ITEMS"][$key]['PROPERTIES']['SLIDER']['VALUE'][0] = $prw;
+        }
+
+    }
+
+
 
 }
