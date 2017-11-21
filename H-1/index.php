@@ -144,7 +144,7 @@ $APPLICATION->SetTitle("H-1");
                     </div>
 
                     <? offer_filter_auto($APPLICATION->GetCurPage()); ?>
-                    
+
                     <!-- new content-togglers -->
                     <div id="top-menu" class="top-menu">
                         <div class="top-menu__wrap">
