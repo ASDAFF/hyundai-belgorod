@@ -1379,7 +1379,11 @@ $APPLICATION->SetTitle("GrandSantaFe");
                     <div class="slider-prev"></div>
                     <div class="slider-next"></div>
                 </div>
-            </div>	</div>
+            </div>
+            <div class="disc-block" style="background: #FFF;padding-bottom: 20px">
+                <p class="dicslamer-casco" style="width: 980px;margin: 0 auto;"><sup>1</sup> Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в СПАО «Ингосстрах», ПАО «Росгосстрах» и СК «ВСК» при покупке Нового Hyundai Tucson в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены СПАО «Ингосстрах», ПАО «Росгосстрах» и СК «ВСК» в одностороннем порядке. Предложение действует до 31.12.2017г.</p>
+            </div>
+        </div>
 
     </div> <!-- // container -->
 

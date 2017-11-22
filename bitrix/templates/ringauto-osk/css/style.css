@@ -2401,7 +2401,7 @@ input.user-bar-search-input:focus{
 .i-0031-call-icon, .i-0002-mail-icon-h, .i-0003-mail-icon, .i-0026-search-icon-h, .i-0027-search-icon,
 .i-0004-slider-arrow-left-h, .i-0021-slider-arrow-right-h, .i-0022-slider-arrow-right, .i-0023-slider-arrow-left, .i-0020-arrow-icon-white-h,
 .i-0024-arrow-icon-h, .i-0025-arrow-icon
-{ display: inline-block; background: url('../media/img/sprite.png') no-repeat;vertical-align: middle; }
+{ display: inline-block; background: url('../media/img/sprite.png') no-repeat!important;vertical-align: middle; }
 .i-0014-play-btn-copy-2 { background-position: -2px -0px; width: 124px; height: 124px; }
 .i-0015-play-btn { background-position: -2px -126px; width: 124px; height: 124px; }
 .i-0012-icon-2 { background-position: -2px -252px; width: 40px; height: 40px; }
