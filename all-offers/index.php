@@ -64,34 +64,6 @@ $APPLICATION->SetTitle("all-offers");
                 }
                 ?>
 
-                <?
-                if(CModule::IncludeModule("iblock")) {
-                    $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PREVIEW_PICTURE", "CODE", "PROPERTY_ENABLE_SPEC");
-                    $arFilter = Array("IBLOCK_ID" => 11, "SECTION_ID" => 16, "ACTIVE" => "Y");
-                    $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
-                    while ($ob = $res->GetNextElement()) {
-                        $arFields = $ob->GetFields();
-                        $arProps = $ob->GetProperties();
-                        if($arProps['ENABLE_SPEC']['VALUE'] == 'Y'){
-                            ?>
-                            <div class="insection-offer-unit">
-                                <a href="<?= $arFields['CODE'] ?>" class="insection-offer-unit__link">
-                                    <img src="<?= CFile::GetPath($arFields['PREVIEW_PICTURE']); ?>" alt=""
-                                         class="insection-offer-unit__back-img">
-
-                                    <div class="insection-offer-unit__info">
-                                        <span class="name"><?= $arFields['NAME'] ?></span>
-                                        <span class="addinfo"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <?
-                        }
-                    }
-                }
-                ?>
-
-
 
 <!--
                 <div class="insection-offer-unit">
@@ -164,7 +136,37 @@ $APPLICATION->SetTitle("all-offers");
 
 
             <h2 class="offers_divider__content__title">Сервисные программы</h2>
+
+
             <div class="offers_divider__content__offers-grid-section clearfix">
+
+                <?
+                if(CModule::IncludeModule("iblock")) {
+                    $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PREVIEW_PICTURE", "CODE", "PROPERTY_ENABLE_SPEC");
+                    $arFilter = Array("IBLOCK_ID" => 11, "SECTION_ID" => 16, "ACTIVE" => "Y");
+                    $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
+                    while ($ob = $res->GetNextElement()) {
+                        $arFields = $ob->GetFields();
+                        $arProps = $ob->GetProperties();
+                        if($arProps['ENABLE_SPEC']['VALUE'] == 'Y'){
+                            ?>
+                            <div class="insection-offer-unit">
+                                <a href="<?= $arFields['CODE'] ?>" class="insection-offer-unit__link">
+                                    <img src="<?= CFile::GetPath($arFields['PREVIEW_PICTURE']); ?>" alt=""
+                                         class="insection-offer-unit__back-img">
+
+                                    <div class="insection-offer-unit__info">
+                                        <span class="name"><?= $arFields['NAME'] ?></span>
+                                        <span class="addinfo"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <?
+                        }
+                    }
+                }
+                ?>
+                
                 <div class="insection-offer-unit">
                     <a href="/promo/parts/" class="insection-offer-unit__link">
                         <img src="/media/offers_image/ed4e-4f2a-92e3-a6a74829070d.jpg" alt="" class="insection-offer-unit__back-img">
