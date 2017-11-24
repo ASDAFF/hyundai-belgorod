@@ -86,7 +86,7 @@ $this->setFrameMode(true);
 
 	<div class="support-span">
 		<div class="support-span-heading">нужна помощь?</div>
-		<div class="support-span-descr">Обратитесь к ближайшему <a href="#" class="support-span-link">официальному дилеру</a> Hyundai или позвоните в службу поддержки клиентов <a href="tel:88003337167"><strong>8 800 333-71-67</strong></a></div>
+		<div class="support-span-descr">Обратитесь к ближайшему <a href="/contacts/" class="support-span-link">официальному дилеру</a> Hyundai или позвоните в службу поддержки клиентов <a href="tel:88003337167"><strong>8 800 333-71-67</strong></a></div>
 	</div>
 
 
