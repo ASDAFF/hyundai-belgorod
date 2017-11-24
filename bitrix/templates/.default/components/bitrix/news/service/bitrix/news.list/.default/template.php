@@ -13,7 +13,10 @@
 $this->setFrameMode(true);
 $propSection = getPropertySection(11,$arResult['SECTION']['PATH'][0]['ID'],array('UF_SERVICE_LEFT_MENU','UF_SERVICE_TABS','UF_ENABLE_VIN','UF_SERVICE_CALC','UF_SLIDER_SERVICE','UF_BIG_SLIDER','UF_OPEN_DOCS'));
 ?>
+<?if($propSection['UF_SERVICE_CALC'] != 1 and $APPLICATION->GetCurPage() != '/service/'):?>
 <script type="text/javascript" src="/media/js_new/service-pages.js"></script>
+<?endif;?>
+
 <div class="container" style="margin-top: 0px">
 
 
@@ -354,8 +357,8 @@ $propSection = getPropertySection(11,$arResult['SECTION']['PATH'][0]['ID'],array
 					<div class="main-message">Мы хотим, чтобы владеть автомобилем Hyundai было просто и удобно</div>
 				</div>
 				<div class="grid-el grid-el-50 bottom-area-line__inner-right">
-					<a href="http://www.hyundai.ru/service-request" class="request-service-btn">запись на сервис</a>
-					<a href="http://www.hyundai.ru/all-offers#service-offers" class="offers-link">Сервисные акции<i class="icon icon-right"></i></a>
+					<a href="#" class="request-service-btn zing_form_toggler" for="zing_cuzov_btn">запись на сервис</a>
+					<a href="/all-offers/" class="offers-link">Сервисные акции<i class="icon icon-right"></i></a>
 				</div>
 			</div>
 		</div>
