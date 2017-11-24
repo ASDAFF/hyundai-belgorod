@@ -19,7 +19,13 @@ $this->setFrameMode(true);
 <div class="content content--parts">
 
 
-	<div class="parts-views-wrapper" id="parts-views"></div>
+	<div class="parts-views-wrapper" id="parts-views">
+		<div class="content-inner content-inner--parts-views">
+			<div class="parts-views-heading">Преимущества</div>
+			<div class="parts-views-descr" style="padding-top: 0;">Каждая оригинальная запасная часть разрабатывается с&nbsp;учетом многолетних научных исследований, проходит технологические тесты и инженерные испытания.</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
 
 	<div class="parts-slider" id="parts-slider">
 		<div class="parts-slider-nav-wrapper">
