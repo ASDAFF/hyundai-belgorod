@@ -37,6 +37,10 @@ function desc_model_to_url($url){
 
     if($_SERVER['HTTP_HOST'] == 'hyundai-ringauto-lip.ru'){
         $id_mod = 26;
+    }elseif($_SERVER['HTTP_HOST'] == 'hyundai-oskol.ru'){
+        $id_mod = 36;
+    }elseif($_SERVER['HTTP_HOST'] == 'hyundai-ringsever.ru'){
+        $id_mod = 45;
     }else{
         $id_mod = 7;
     }
