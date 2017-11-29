@@ -118,6 +118,26 @@ $APPLICATION->SetTitle("all-offers");
                 </div>
 
                 <div class="insection-offer-unit">
+                    <a href="/promo/leasing_new/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/822f208ac03003ca995030c04d001055_%D0%9B%D0%B8%D0%B7%D0%B8%D0%BD%D0%B3-%D0%B4%D0%BB%D1%8F-%D1%84%D0%B8%D0%B7-%D0%BB%D0%B8%D1%86_%D1%81%D0%BF%D0%B5%D1%86-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_preview.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Лизинг для физ. лиц <br>Уникальные условия и привилегии.</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
+                    <a href="/promo/grand_santa_fe_offer" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/2ca10fb48102cf281a459710e1456676_small.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Выгода до 320 000р. на Hyundai Grand Santa fe!</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
                     <a href="https://hpromise.hyundai.ru/" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/33ca72985faf6eb1c67f1b0814659f95_hp.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
@@ -187,6 +207,15 @@ $APPLICATION->SetTitle("all-offers");
                     </a>
                 </div>
 
+                <div class="insection-offer-unit">
+                    <a href="/news/minus---eto-bolshoy-plyus/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/ba8612b9560fde23b511c4a267c44857_banner_1.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Минус - это большой плюс</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
 
