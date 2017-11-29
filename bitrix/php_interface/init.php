@@ -186,8 +186,10 @@ function resize_for_other_server($filename, $width = false, $height = false ){
 
             if (mkdir($root.$save_path.$dir_size, 0777, true)) {
                 imagejpeg($image_p,$root.$save_path.$dir_size.'/'.$image_name , 100);
+                return $filename;
             }else{
                 imagejpeg($image_p,$root.$save_path.$dir_size.'/'.$image_name , 100);
+                return $filename;
             }
         }
     }else{
