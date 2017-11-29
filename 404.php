@@ -36,8 +36,7 @@ $APPLICATION->SetTitle("404 Not Found");
             <div class="h3-404" style="margin-bottom: 70px;">
                 <div class="news-line"></div>
                 <ul style="margin-top:30px">
-                    <li>Ринг Авто Воронеж — 7 (473) 261-7777</li>
-                    <li>Ринг Авто Липецк — 7 (4742) 72-7777 </li>
+                    <li>Ринг Авто — +7 473 347-77-77</li>
                 </ul>
             </div>
 
