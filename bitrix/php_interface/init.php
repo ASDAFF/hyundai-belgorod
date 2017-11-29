@@ -146,6 +146,44 @@ function resize($image, $w_o = false, $h_o = false ) {
     return $func($img_o, $image); // Сохраняем изображение в тот же файл, что и исходное, возвращая результат этой операции
 }
 
+function resize_for_other_server($filename, $width = false, $height = false ){
+
+    if(exif_imagetype($filename) == 2){
+
+        list($width_orig, $height_orig) = getimagesize($filename);
+        $imageType = image_type_to_mime_type(IMAGETYPE_JPEG);
+
+        $ratio_orig = $width_orig/$height_orig;
+
+        if ($width/$height > $ratio_orig) {
+            $width = $height*$ratio_orig;
+        } else {
+            $height = $width/$ratio_orig;
+        }
+
+// ресэмплирование
+        $image_p = imagecreatetruecolor($width, $height);
+        $image = imagecreatefromjpeg($filename);
+        imagecopyresampled($image_p, $image, 0, 0, 0, 0, $width, $height, $width_orig, $height_orig);
+
+        ob_start();
+        imagejpeg($image_p, null, 100);
+        $result = ob_get_clean();
+
+        $imageData = base64_encode($result);
+        $imageSrc = "data:{$imageType};base64,{$imageData}";
+        return $imageSrc;
+
+    }else{
+        return false;
+    }
+
+
+
+
+
+}
+
 function offer_filter_auto($url){
 
     $url = str_replace('/','',$url);
