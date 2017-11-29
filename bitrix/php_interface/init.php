@@ -185,10 +185,10 @@ function resize_for_other_server($filename, $width = false, $height = false ){
         imagecopyresampled($image_p, $image, 0, 0, 0, 0, $width, $height, $width_orig, $height_orig);
 
             if (mkdir($root.$save_path.$dir_size, 0777, true)) {
-                imagejpeg($image_p,$root.$save_path.$dir_size.'/'.$image_name , 100);
+                imagejpeg($image_p,$root.$save_path.$dir_size.'/'.$image_name , 70);
                 return $filename;
             }else{
-                imagejpeg($image_p,$root.$save_path.$dir_size.'/'.$image_name , 100);
+                imagejpeg($image_p,$root.$save_path.$dir_size.'/'.$image_name , 70);
                 return $filename;
             }
         }
@@ -401,5 +401,28 @@ function getIdModelIb($site){
             break;
     }
     return $model_ib;
+
+}
+
+function getIblockFeedbackOffer($site){
+
+    switch($site){
+        case "s1":
+            $feed_offer_ib = 9;
+            break;
+
+        case "s2":
+            $feed_offer_ib = 32;
+            break;
+
+        case "s3":
+            $feed_offer_ib = 40;
+            break;
+
+        case "s4":
+            $feed_offer_ib = 50;
+            break;
+    }
+    return $feed_offer_ib;
 
 }
