@@ -31,8 +31,8 @@ $this->setFrameMode(true);
 				<ul id="imageGallery" class="gallery list-unstyled">
 
 					<? foreach($arResult['PROPERTIES']['SLIDER']['VALUE'] as $img):?>
-						<li data-thumb="<?=$img;?>" data-src="<?=$img;?>">
-							<img src="<?=$img;?>" style="max-width: 544px"/>
+						<li data-thumb="<?=resize_for_other_server($img,132,100);?>" data-src="<?=resize_for_other_server($img,550,410);?>">
+							<img src="<?=resize_for_other_server($img,550,410);?>" style="max-width: 544px"/>
 						</li>
 					<? endforeach; ?>
 				</ul>

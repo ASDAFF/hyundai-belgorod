@@ -150,38 +150,49 @@ function resize_for_other_server($filename, $width = false, $height = false ){
 
     if(exif_imagetype($filename) == 2){
 
-        list($width_orig, $height_orig) = getimagesize($filename);
-        $imageType = image_type_to_mime_type(IMAGETYPE_JPEG);
-
-        $ratio_orig = $width_orig/$height_orig;
-
-        if ($width/$height > $ratio_orig) {
-            $width = $height*$ratio_orig;
-        } else {
-            $height = $width/$ratio_orig;
+        $car = explode('/',$filename);
+        foreach($car as $key => $name){
+            if(strstr(strtolower($name), '.jpg', true)){
+                $image_name =  strstr(strtolower($name), '.jpg', true);
+                $image_name = md5($car[$key-1].'_'.$image_name).'.jpg';
+            }
         }
 
-// ресэмплирование
+        $root = $_SERVER['DOCUMENT_ROOT'];
+        $save_path = '/upload/resize/';
+        $dir_size = ceil($width).'x'.ceil($height);
+
+        if (file_exists($root.$save_path.$dir_size.'/'.$image_name)) {
+
+            return $save_path.$dir_size.'/'.$image_name;
+
+        }else{
+
+            list($width_orig, $height_orig) = getimagesize($filename);
+
+            $ratio_orig = $width_orig/$height_orig;
+
+            if ($width/$height > $ratio_orig) {
+                $width = $height*$ratio_orig;
+            } else {
+                $height = $width/$ratio_orig;
+            }
+
+        // ресэмплирование
         $image_p = imagecreatetruecolor($width, $height);
+
         $image = imagecreatefromjpeg($filename);
         imagecopyresampled($image_p, $image, 0, 0, 0, 0, $width, $height, $width_orig, $height_orig);
 
-        ob_start();
-        imagejpeg($image_p, null, 100);
-        $result = ob_get_clean();
-
-        $imageData = base64_encode($result);
-        $imageSrc = "data:{$imageType};base64,{$imageData}";
-        return $imageSrc;
-
+            if (mkdir($root.$save_path.$dir_size, 0777, true)) {
+                imagejpeg($image_p,$root.$save_path.$dir_size.'/'.$image_name , 100);
+            }else{
+                imagejpeg($image_p,$root.$save_path.$dir_size.'/'.$image_name , 100);
+            }
+        }
     }else{
         return false;
     }
-
-
-
-
-
 }
 
 function offer_filter_auto($url){

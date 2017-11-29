@@ -28,7 +28,7 @@ $this->setFrameMode(true);
 						<div class="amazingcarousel-item-container">
 							<div class="amazingcarousel-image">
 								<a href="<?=$arItem["DETAIL_PAGE_URL"]?>" title="<?=$arItem['NAME']?>" class="html5lightbox" data-group="amazingcarousel-10">
-									<img src="<?=$arItem['PROPERTIES']['SLIDER']['VALUE'][0]?>" alt="<?=$arItem['NAME']?>" style="max-width: 356px"></a>
+									<img src="<?=resize_for_other_server($arItem['PROPERTIES']['SLIDER']['VALUE'][0],1024,768)?>" alt="<?=$arItem['NAME']?>" style="max-width: 356px"></a>
 								<div class="amazingcarousel-text">
 									<div class="amazingcarousel-text-bg"></div>
 									<div class="amazingcarousel-title"><?=$arItem['NAME']?><br/><?=$arItem['PROPERTIES']['NEW_PRICE']['VALUE']?></div>
