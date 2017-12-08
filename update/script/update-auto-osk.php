@@ -63,6 +63,7 @@ if(CModule::IncludeModule("iblock")):
         $PROP['color_code'] = (string)$cont->ColorCode;
         $PROP['description'] = (string)$cont->Description;
         $PROP['NEW_PRICE'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->NEW_PRICE));
+        $PROP['PRICE_OT_IMPORTERA'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->price_ot_importera));
         $PROP['CUZOV'] = (string)$cont->CUZOV;
         $PROP['MILEAGE'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->run));
         $PROP['YEAR'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->year));
@@ -110,6 +111,7 @@ if(CModule::IncludeModule("iblock")):
         if(strlen((string)$cont->number) < 1 OR (string)$cont->number == "0"){$arPropsNo[(string)$cont->VIN][] = 'PHONE (Телефон)';}
         //  if(strlen((string)$cont->OLD_PRICE) < 1 OR (string)$cont->OLD_PRICE == "0"){$arPropsNo[(string)$cont->VIN][] = 'OLD_PRICE (Старая цена)'; $PROP['OLD_PRICE'] = 'NaN';}
         if(strlen((string)$cont->NEW_PRICE) < 1 OR (string)$cont->NEW_PRICE == "0"){$arPropsNo[(string)$cont->VIN][] = 'NEW_PRICE (Цена продажи)';}
+        if(strlen((string)$cont->price_ot_importera) < 1 OR (string)$cont->price_ot_importera == "0"){$arPropsNo[(string)$cont->VIN][] = 'PRICE_OT_IMPORTERA (Цена от импортера)';}
         //   if(strlen((string)$cont->CREDIT) < 1 OR (string)$cont->CREDIT == "0"){$arPropsNo[(string)$cont->VIN][] = 'CREDIT (Скидка)'; $PROP['CREDIT'] = 'NaN';}
         //   if(strlen((string)$cont->DEFAULT_COMPLIT->value[0]) < 1 OR (string)$cont->DEFAULT_COMPLIT->value[0] == "0"){$arPropsNo[(string)$cont->VIN][] = 'DEFAULT_COMPLIT (Стандартная комплектация)'; $PROP['DEFAULT_COMPLIT'][] = 'NaN';}
 
