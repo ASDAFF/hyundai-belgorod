@@ -90,7 +90,15 @@
 
 			<div class="navbar-primary__sp" data-role="navbar-support">
 
-				<span class="navbar-primary__sp-title">«Ринг Авто» г. Воронеж, ул. Изыскателей, 39, корп. 2</span>
+				<span class="navbar-primary__sp-title">
+					<?
+					$APPLICATION->IncludeFile("/include/top-text.php", Array(), Array(
+						"MODE"      => "html",
+						"NAME"      => "Редактирование включаемой области раздела",
+						"TEMPLATE"  => ""
+					));
+					?>
+				</span>
 				<span class="navbar-primary__sp-phone-w">
 					<span class="navbar-primary__sp-phone">+7 473 261-7777</span>
 				</span>

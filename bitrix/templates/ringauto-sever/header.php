@@ -90,7 +90,15 @@
 		<div class="navbar-primary">
 			<div class="navbar-primary__sp" data-role="navbar-support">
 
-				<span class="navbar-primary__sp-title">г. Воронеж 7 км автодороги Воронеж-Москва, напротив Сити-парка «Град»</span>
+				<span class="navbar-primary__sp-title">
+					<?
+					$APPLICATION->IncludeFile("/include/top-text.php", Array(), Array(
+						"MODE"      => "html",
+						"NAME"      => "Редактирование включаемой области раздела",
+						"TEMPLATE"  => ""
+					));
+					?>
+				</span>
 				<span class="navbar-primary__sp-phone-w">
 					<span class="navbar-primary__sp-phone">+7 473 347-77-77</span>
 				</span>
