@@ -34,16 +34,20 @@ $this->setFrameMode(true);
 	</div>
 
 	<div class="box-price-absolute-right">
+	
 		<div class="box-price">
-			<p><?=$arResult["PROPERTIES"]['OLD_PRICE']['VALUE']?></p>
+			<p><?=myFormatCurrency($arResult["PROPERTIES"]['OLD_PRICE']['VALUE']);?></p>
 			<p>старая цена</p>
 		</div>
+
+
 		<div class="box-price">
-			<p><?=$arResult["PROPERTIES"]['CREDIT']['VALUE']?></p>
+			<p><?=myFormatCurrency($arResult['PROPERTIES']['OLD_PRICE']['VALUE'] - $arResult['PROPERTIES']['PRICE_OT_IMPORTERA']['VALUE'])?></p>
 			<p>скидка</p>
 		</div>
+
 		<div class="box-price">
-			<p><?=$arResult["PROPERTIES"]['NEW_PRICE']['VALUE']?></p>
+			<p><?=myFormatCurrency($arResult["PROPERTIES"]['PRICE_OT_IMPORTERA']['VALUE']);?></p>
 			<p>новая цена</p>
 		</div>
 		<div class="clear"></div>
@@ -140,10 +144,14 @@ if($arResult["PROPERTIES"]["OPTION_EQU"]["VALUE"]):
 			<p><?=$arResult["PROPERTIES"]['OLD_PRICE']['VALUE']?></p>
 			<p>старая цена</p>
 		</div>
+<?
+/*
 		<div class="box-price">
 			<p><?=$arResult["PROPERTIES"]['CREDIT']['VALUE']?></p>
 			<p>скидка</p>
 		</div>
+*/
+?>		
 		<div class="box-price">
 			<p><?=$arResult["PROPERTIES"]['NEW_PRICE']['VALUE']?></p>
 			<p>новая цена</p>

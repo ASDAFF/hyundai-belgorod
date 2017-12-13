@@ -1,3 +1,6 @@
+<script type="text/javascript" src="//cdn.perezvoni.com/widget/js/przv.js?przv_code=4116-a213b-b9123-e52ff97b9123-3bc5bd61-238de52ff97b9123" ></script>
+
+
 <!-- Yandex.Metrika counter от Prime-->
 <script type="text/javascript" >
     (function (d, w, c) {
@@ -25,5 +28,5 @@
         } else { f(); }
     })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/46709889" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
 <!-- /Yandex.Metrika counter -->
