@@ -30,7 +30,7 @@
 						<a href="/offer/" class="main-nav__link">Авто в наличии</a>
 					</li>
 					<? endif;?>
-					
+
 					<li class="main-nav__item">
 						<a href="/all-offers/" class="main-nav__link">Cпецпредложения</a>
 					</li>
