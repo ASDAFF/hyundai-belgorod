@@ -67,7 +67,7 @@
 
 	@media screen and (max-width: 1335px) {
 		.main-header__logo{
-			display: none;
+			/*display: none;*/
 		}
 	}
 </style>
