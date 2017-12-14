@@ -25,9 +25,12 @@
 						<span class="main-nav__link" data-role="showroom-submenu-link">Модельный ряд</span>
 					</li>
 
+					<? if(SITE_ID != "s3"): ?>
 					<li class="main-nav__item">
 						<a href="/offer/" class="main-nav__link">Авто в наличии</a>
 					</li>
+					<? endif;?>
+					
 					<li class="main-nav__item">
 						<a href="/all-offers/" class="main-nav__link">Cпецпредложения</a>
 					</li>
