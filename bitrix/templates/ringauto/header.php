@@ -71,7 +71,7 @@
 
 	@media screen and (max-width: 1335px) {
 		.main-header__logo{
-			display: none;
+			/*display: none;*/
 		}
 	}
 </style>
@@ -99,9 +99,17 @@
 					));
 					?>
 				</span>
+
 				<span class="navbar-primary__sp-phone-w">
 					<span class="navbar-primary__sp-phone">+7 473 261-7777</span>
+					<span class="navbar-primary__sp-corner"></span>
 				</span>
+				<div class="navbar-primary__sp-exp">
+					<span class="navbar-primary__sp-exp-phone">8 800 333-71-67</span>
+					<hr class="navbar-primary__sp-exp-hr">
+					<a href="#" class="navbar-primary__sp-exp-link" data-role="online-call"><svg xmlns="http://www.w3.org/2000/svg" class="ic-svg ic-phone"><use xlink:href="#ic-phone"></use></svg>Позвонить онлайн</a>
+					<a href="/ContactUs" class="navbar-primary__sp-exp-link"><svg xmlns="http://www.w3.org/2000/svg" class="ic-svg ic-mail"><use xlink:href="#ic-mail"></use></svg>Обратная связь</a>
+				</div>
 <!--
 				<br>
 
