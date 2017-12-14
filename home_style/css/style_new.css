@@ -2360,7 +2360,7 @@ html.is-spreader-active body {
     display: inline-block;
     vertical-align: middle;
     font-size: .7692307692rem;
-    /*padding: 0 20px;*/
+    padding: 0 20px;
     position: relative;
 }
 
@@ -2429,14 +2429,12 @@ html.is-spreader-active body {
     opacity: 1
 }
 
-.navbar-primary__sp:hover .navbar-primary__sp-phone {
-    color: #272829
-}
+
 
 .navbar-primary__sp-title {
     color: #bdbdbd;
     /*letter-spacing: .075em;*/
-    /*line-height: 42px;*/
+    line-height: 42px;
     text-transform: uppercase;
     -webkit-transition: color 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
     -o-transition: color 0.6s cubic-bezier(0.2, 1, 0.3, 1) 0s;
@@ -2591,7 +2589,8 @@ html.is-spreader-active body {
     border-width: 1px;
     border-style: solid none none none;
     border-color: rgba(255, 255, 255, 0.2);
-    margin: 20px 0 15px
+    margin: 20px 0 15px;
+    display: block;
 }
 
 .navbar-primary__sp-exp-link {
