@@ -99,7 +99,6 @@
 					));
 					?>
 				</span>
-
 				<span class="navbar-primary__sp-phone-w">
 					<span class="navbar-primary__sp-phone">+7 473 261-7777</span>
 					<span class="navbar-primary__sp-corner"></span>
@@ -107,34 +106,15 @@
 				<div class="navbar-primary__sp-exp">
 					<span class="navbar-primary__sp-exp-phone">+7 473 261-7777</span>
 					<hr class="navbar-primary__sp-exp-hr">
-					<a href="#" class="navbar-primary__sp-exp-link" onclick="PRZV.helpers.showWidget(1)">
+					<a href="#" class="navbar-primary__sp-exp-link" onclick="$('.zing_form_back_tel').click()">
 						<svg xmlns="http://www.w3.org/2000/svg" class="ic-svg ic-phone"><use xlink:href="#ic-phone"></use></svg>
 						Позвонить онлайн
 					</a>
-					<a href="#" class="navbar-primary__sp-exp-link zing_form_back_tel_bbbb">
+					<a href="#" class="navbar-primary__sp-exp-link" onclick="$('.zing_form_back_tel').click();">
 						<svg xmlns="http://www.w3.org/2000/svg" class="ic-svg ic-mail"><use xlink:href="#ic-mail"></use></svg>
 						Обратная связь
 					</a>
 				</div>
-				<script>
-					$(function(){
-						$(".zing_form_back_tel_bbbb").click(function(){
-							$(".zing_form_back_tel").click();
-						});
-					});
-
-				</script>
-
-<!--
-				<br>
-
-				<span class="navbar-primary__sp-title">«Ринг Авто Север» г. Воронеж, 7 км автодороги Воронеж-Москва, напротив Сити-парка «Град»</span>
-				<span class="navbar-primary__sp-phone-w">
-					<span class="navbar-primary__sp-phone">+7 473 347-7777</span>
-				</span>
--->
-				<br>
-
 
 			</div>
 

@@ -88,6 +88,8 @@
 
 	<header class="header-primary" id="header-primary">
 		<div class="navbar-primary">
+
+
 			<div class="navbar-primary__sp" data-role="navbar-support">
 
 				<span class="navbar-primary__sp-title">
@@ -101,9 +103,22 @@
 				</span>
 				<span class="navbar-primary__sp-phone-w">
 					<span class="navbar-primary__sp-phone">+7 4725 46-00-22</span>
+					<span class="navbar-primary__sp-corner"></span>
 				</span>
-
+				<div class="navbar-primary__sp-exp">
+					<span class="navbar-primary__sp-exp-phone">+7 4725 46-00-22</span>
+					<hr class="navbar-primary__sp-exp-hr">
+					<a href="#" class="navbar-primary__sp-exp-link" onclick="$('.zing_form_back_tel').click()">
+						<svg xmlns="http://www.w3.org/2000/svg" class="ic-svg ic-phone"><use xlink:href="#ic-phone"></use></svg>
+						Позвонить онлайн
+					</a>
+					<a href="#" class="navbar-primary__sp-exp-link" onclick="$('.zing_form_back_tel').click();">
+						<svg xmlns="http://www.w3.org/2000/svg" class="ic-svg ic-mail"><use xlink:href="#ic-mail"></use></svg>
+						Обратная связь
+					</a>
+				</div>
 			</div>
+
 			<nav class="navbar-primary__nv" role="navigation">
 				<ul class="navbar-primary__nv-list">
 					<li class="navbar-primary__nv-list-item"><a target="_blank" href="http://www.hyundai.ru/configurator" class="navbar-primary__nv-list-link">Создать свой Hyundai</a></li>
