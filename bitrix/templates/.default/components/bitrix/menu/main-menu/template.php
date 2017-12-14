@@ -5,7 +5,19 @@
 	<div class="main-header">
 		<div class="main-header__holder">
 			<a href="/" class="main-header__logo" title="Hyundai">
-				<img src="/_img/logo.jpg">
+				<div class="logoblock">
+					<img src="/_img/dealerLogo.png">
+				</div>
+				<div class="textblock">
+					<?
+					$APPLICATION->IncludeFile("/include/dealer-name.php", Array(), Array(
+						"MODE"      => "html",                                           // будет редактировать в веб-редакторе
+						"NAME"      => "Редактирование включаемой области раздела",      // текст всплывающей подсказки на иконке
+						"TEMPLATE"  => ""                    // имя шаблона для нового файла
+					));
+					?>
+				</div>
+
 			</a>
 			<nav class="main-nav" role="navigation">
 				<ul class="main-nav__list">

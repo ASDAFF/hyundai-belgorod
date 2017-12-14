@@ -206,3 +206,17 @@
     -o-transition: color 0.15s ease-out 0s;
     transition: color 0.15s ease-out 0s;
 }
+
+.logoblock {
+    display: inline-block;
+}
+
+.textblock {
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    font-size: 18px;
+    line-height: 22px;
+    color: #103a71;
+    padding-left: 10px;
+}
