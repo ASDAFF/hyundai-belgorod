@@ -22,7 +22,7 @@ if(CModule::IncludeModule("iblock")):
     $files = array();
 
     $xml = file_get_contents('http://server.gk-ring.ru/hyundai/used_car_voronezh_hyundai_2.xml',true);
-    $habrablog = file_get_contents('http://server.gk-ring.ru/hyundai/hyundai_voronezh_used/');
+    $habrablog = file_get_contents('http://server.gk-ring.ru/hyundai/hyundai_voronezh_sever_used/');
     $document = phpQuery::newDocument($habrablog);
 
     $hentry = $document->find('td > a');
@@ -81,7 +81,7 @@ if(CModule::IncludeModule("iblock")):
         $dir_img = array();
         if (in_array((string)$cont->VIN, $files)) {
 
-            $dir_img_parse = file_get_contents('http://server.gk-ring.ru/hyundai/hyundai_voronezh_used/'.(string)$cont->VIN.'/');
+            $dir_img_parse = file_get_contents('http://server.gk-ring.ru/hyundai/hyundai_voronezh_sever_used/'.(string)$cont->VIN.'/');
             $dir_img_doc = phpQuery::newDocument($dir_img_parse);
             $d_img = $dir_img_doc->find('td > a');
             foreach ($d_img as $key => $elem) {
@@ -92,7 +92,7 @@ if(CModule::IncludeModule("iblock")):
             }
 
             foreach($dir_img as $img){
-                $PROP['SLIDER'][] = 'http://server.gk-ring.ru/hyundai/hyundai_voronezh_used/'.(string)$cont->VIN.'/'.$img;
+                $PROP['SLIDER'][] = 'http://server.gk-ring.ru/hyundai/hyundai_voronezh_sever_used/'.(string)$cont->VIN.'/'.$img;
             }
             //var_dump('ok');
         }else{
