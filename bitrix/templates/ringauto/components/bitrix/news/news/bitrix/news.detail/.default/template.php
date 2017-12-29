@@ -37,7 +37,9 @@ $this->setFrameMode(true);
                 <span class="b-news-view__date">
 	                <?=$arResult["DISPLAY_ACTIVE_FROM"]?>
 				</span>
+				<?if($arResult["DETAIL_PICTURE"]["SRC"]):?>
 				<img src="<?=$arResult["DETAIL_PICTURE"]["SRC"]?>">
+				<?endif;?>
 				<div class="b-news-view__content">
 					<?echo $arResult["DETAIL_TEXT"];?>
 				</div>
