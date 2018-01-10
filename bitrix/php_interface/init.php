@@ -41,6 +41,8 @@ function desc_model_to_url($url){
         $id_mod = 36;
     }elseif($_SERVER['HTTP_HOST'] == 'hyundai-ringsever.ru'){
         $id_mod = 45;
+    }elseif($_SERVER['HTTP_HOST'] == 'hyundai-belgorod.ru'){
+        $id_mod = 67;
     }else{
         $id_mod = 7;
     }
@@ -213,6 +215,9 @@ function offer_filter_auto($url){
         $id_mod = 45;
         //$id_spec = 47;
         $id_spec = 8;
+    }elseif($_SERVER['HTTP_HOST'] == 'hyundai-belgorod.ru'){
+        $id_mod = 67;
+        $id_spec = 61;
     }else{
         $id_mod = 7;
         $id_spec = 8;
@@ -400,6 +405,9 @@ function getIdModelIb($site){
         case "s4":
             $model_ib = 45;
             break;
+		case "s5":
+            $model_ib = 67;
+            break;	
     }
     return $model_ib;
 
@@ -423,6 +431,10 @@ function getIblockFeedbackOffer($site){
         case "s4":
             $feed_offer_ib = 50;
             break;
+			
+		case "s5":
+            $feed_offer_ib = 64;
+            break;	
     }
     return $feed_offer_ib;
 
