@@ -110,6 +110,7 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
 
                 <nav class="footer-global-navigation__cust-nav" role="navigation">
                     <ul class="cust-nav__list">
+                        <li class="cust-nav__item"><a href="/articles/" class="cust-nav__link">Статьи</a></li>
                         <li class="cust-nav__item"><a href="/Sitemap/" class="cust-nav__link">Карта сайта</a></li>
                         <li class="cust-nav__item"><a href="/Legal/" class="cust-nav__link">Юридическая информация</a></li>
                         <li class="cust-nav__item"><a href="/Privacy/" class="cust-nav__link">Конфиденциальность</a></li>
