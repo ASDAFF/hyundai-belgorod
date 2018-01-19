@@ -100,11 +100,11 @@
 					?>
 				</span>
 				<span class="navbar-primary__sp-phone-w">
-					<span class="navbar-primary__sp-phone">+7 473 261-7777</span>
+					<span class="navbar-primary__sp-phone">+7 4722 33-33-77</span>
 					<span class="navbar-primary__sp-corner"></span>
 				</span>
 				<div class="navbar-primary__sp-exp">
-					<span class="navbar-primary__sp-exp-phone">+7 473 261-7777</span>
+					<span class="navbar-primary__sp-exp-phone">+7 4722 33-33-77</span>
 					<hr class="navbar-primary__sp-exp-hr">
 					<a href="#" class="navbar-primary__sp-exp-link" onclick="$('.zing_form_back_tel').click()">
 						<svg xmlns="http://www.w3.org/2000/svg" class="ic-svg ic-phone"><use xlink:href="#ic-phone"></use></svg>

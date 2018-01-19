@@ -105,11 +105,11 @@ $this->setFrameMode(true);
 		<div class="navbar-collapse collapse">
 
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="http://www.hyundai-ringauto.ru/offer/" target="_blank">Спецпредложения</a></li>
+				<li><a href="/offer/" target="_blank">Спецпредложения</a></li>
 				<!--
                 <li><a href="#">Покупка</a></li>
                 -->
-				<li><a href="http://www.hyundai-ringauto.ru/all-offers#service-offers" target="_blank">Сервис</a></li>
+				<li><a href="/all-offers#service-offers/" target="_blank">Сервис</a></li>
 				<li><a href="http://www.hyundai.ru/configurator" target="_blank">Конфигуратор</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
@@ -346,12 +346,12 @@ $this->setFrameMode(true);
 		<div class="navbar-collapse collapse">
 
 			<ul class="nav navbar-nav">
-				<li><a href="http://hyundai-ringauto.ru/">Главная</a></li>
-				<li><a href="http://hyundai-ringauto.ru/AboutUs/">О компании</a></li>
-				<li><a href="http://hyundai-ringauto.ru/contacts/">Контакты</a></li>
-				<li><a href="http://hyundai-ringauto.ru/maintenance/">Обслуживание</a></li>
-				<li><a href="http://hyundai-ringauto.ru/service/spetspredlozheniya/">Сервисные программы</a></li>
-				<li><a href="http://hyundai-ringauto.ru/warranty/"> Гарантия</a></li>
+				<li><a href="/">Главная</a></li>
+				<li><a href="/AboutUs/">О компании</a></li>
+				<li><a href="/contacts/">Контакты</a></li>
+				<li><a href="/maintenance/">Обслуживание</a></li>
+				<li><a href="/service/spetspredlozheniya/">Сервисные программы</a></li>
+				<li><a href="/warranty/"> Гарантия</a></li>
 			</ul>
 
 		</div><!--/.nav-collapse -->
