@@ -19,6 +19,13 @@ if(CModule::IncludeModule("iblock")):
     }
 
 
+    $upload_file = array(
+        "http://turbodealer.ru/export/ring_lipetsk.xml",
+        "http://turbodealer.ru/export/ring_voronezh.xml",
+        "http://turbodealer.ru/export/ring_voronezh_2.xml",
+    );
+
+foreach($upload_file as $file):
 
   //  $xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/lipetsk/new_car_lipetsk_hyundai.xml',true);
     $xml = file_get_contents('http://turbodealer.ru/export/ring_lipetsk.xml',true);
@@ -195,6 +202,7 @@ if(CModule::IncludeModule("iblock")):
 
     }
 
+endforeach;
 
     $string = '';
     foreach($arPropsNo as $k => $v){
