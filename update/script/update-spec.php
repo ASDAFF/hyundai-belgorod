@@ -22,11 +22,12 @@ if(CModule::IncludeModule("iblock")):
 
 
     $upload_file = array(
-        "http://turbodealer.ru/export/ring_lipetsk.xml",
-        "http://turbodealer.ru/export/ring_voronezh_2.xml",
         "http://turbodealer.ru/export/ring_voronezh.xml",
+        "http://turbodealer.ru/export/ring_voronezh_2.xml",
+        "http://turbodealer.ru/export/ring_lipetsk.xml",
     );
 
+$inc = 100;
 foreach($upload_file as $file):
 
     //$xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new_car_voronezh_hyundai_1.xml',true);
@@ -176,6 +177,7 @@ foreach($upload_file as $file):
             $arLoadProductArray = Array(
             "IBLOCK_SECTION_ID" => false,          // элемент лежит в корне раздела
             "IBLOCK_ID"      => 8,
+            "SORT"      => $inc,
             "PROPERTY_VALUES"=> $PROP,
             "NAME"           => (string)$cont->MARK.' '.(string)$cont->MODEL.' '.(string)$cont->SpecName,
             "CODE"           => translit((string)$cont->VIN),
@@ -198,6 +200,8 @@ foreach($upload_file as $file):
                         if($PRODUCT_ID = $el->Add($arLoadProductArray)){
                             $arAddAdmin[] = $PRODUCT_ID;
                 //        echo "New ID: ".$PRODUCT_ID;
+
+                        $inc += 100;
                         }else{
                             echo "Error: ".$el->LAST_ERROR;
                         }
