@@ -20,9 +20,9 @@ if(CModule::IncludeModule("iblock")):
 
 
     $upload_file = array(
-        "http://turbodealer.ru/export/ring_lipetsk.xml",
-        "http://turbodealer.ru/export/ring_voronezh.xml",
         "http://turbodealer.ru/export/ring_voronezh_2.xml",
+        "http://turbodealer.ru/export/ring_voronezh.xml",
+        "http://turbodealer.ru/export/ring_lipetsk.xml",
     );
 
 foreach($upload_file as $file):
