@@ -215,6 +215,7 @@ function offer_filter_auto($url){
         $id_mod = 45;
         //$id_spec = 47;
         $id_spec = 8;
+		$noindex = true;
     }elseif($_SERVER['HTTP_HOST'] == 'hyundai-belgorod.ru'){
         $id_mod = 67;
         $id_spec = 61;
@@ -222,6 +223,8 @@ function offer_filter_auto($url){
         $id_mod = 7;
         $id_spec = 8;
     }
+	
+	if($noindex) print "<noindex>";
 
     if(CModule::IncludeModule("iblock")) {
         $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
@@ -319,6 +322,8 @@ function offer_filter_auto($url){
         }
 
     }
+
+	if($noindex) print "</noindex>";
 
 }
 
