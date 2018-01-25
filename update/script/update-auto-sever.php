@@ -29,7 +29,7 @@ if(CModule::IncludeModule("iblock")):
     foreach ($hentry as $key => $elem) {
         $pq = pq($elem);
         if($key > 0){
-            $files[] = str_replace('/','',$pq->text());
+            $files[] = str_replace('/','',$pq->attr('href'));
         }
     }
 
@@ -87,7 +87,7 @@ if(CModule::IncludeModule("iblock")):
             foreach ($d_img as $key => $elem) {
                 $pq = pq($elem);
                 if($key > 0){
-                    $dir_img[] = str_replace('/','',$pq->text());
+                    $dir_img[] = str_replace('/','',$pq->attr('href'));
                 }
             }
 
