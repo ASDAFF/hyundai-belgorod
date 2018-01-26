@@ -150,7 +150,7 @@ $(document).ready(function() {
 			var C = $('select[name=type]').val();
 
 			// Срок
-			var N = 36;
+			var N = 37;
 
 			// Первый взнос
 
@@ -328,7 +328,9 @@ $(document).ready(function() {
 		    }
 	    );
 
+
 	    $listItems.click(function(e) {
+			console.log(1);
 	        e.stopPropagation();
 	        $styledSelect.text($(this).text()).next($listItems).hide(300);
 	        $this.find(".model__select").val($(this).attr('rel'));
@@ -649,6 +651,12 @@ $(document).ready(function() {
 				var labelText = $(item).attr("data-name");
 				$(this).text(labelText);
 			}).fadeIn(200);
+
+			setTimeout(function(){
+//				getModificationList(dataId);
+				initSlider();
+				calc.updateData();
+			}, 500);
 		});
 
 		$(".slider-menu__close").click(function(){
@@ -673,7 +681,9 @@ $(document).ready(function() {
 
 	function getModificationList(car_id)
 	{
+
 		$.post('http://www.hyundai.ru/requestnew/getpcpmod', 'carid=' + car_id, function(res){
+			console.log(res);
 	    	$('.model__select[name=car]').html(res);
 	    	updateSelect($('.model__select[name=car]'));
 		});
@@ -686,7 +696,9 @@ $(document).ready(function() {
 
 	function getComplectationList(car_id, mod_id)
 	{
+
 		$.post('http://www.hyundai.ru/requestnew/getpcpcompl', 'carid=' + car_id + '&modid=' + mod_id, function(res){
+			console.log(res);
 	    	$('.model__select[name=type]').html(res);
 	    	updateSelect($('.model__select[name=type]'));
 	    	calc.updateData();
