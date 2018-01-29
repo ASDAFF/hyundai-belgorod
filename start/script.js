@@ -63,7 +63,7 @@ $(document).ready(function() {
 		, getDefaultPercent: function(car_id) {
 			switch(car_id)
 			{
-				case 7: return 39; // Элантра,
+				case 7: return 41; // Р­Р»Р°РЅС‚СЂР°,
 				case 6: return 42; // i40
 				case 5: return 41; // i40 wagon
 				case 18: return 46; // Tucson
@@ -71,9 +71,10 @@ $(document).ready(function() {
 				case 17: return 47; // Santa Fe
 				case 13: return 46; // Grand Santa Fe
 				case 23: return 37; // New Solaris
+				case 24: return 44; // New Solaris
 			}
 
-			return 37; // Если тачки нет в списке вообще
+			return 35;
 		}
 		, updateData: function() {
 			var newSum = parseInt($("[name=type]").val());
@@ -107,22 +108,25 @@ $(document).ready(function() {
 
 			var dperc = this.getDefaultPercent(car_id);
 
-			if ( car_id == 23 || car_id == 22) {
-				minVal = 0;
-				obj.option("min", 0);
-				console.log('set handler');
-				window.addEventListener('scroll', handler);
-				$('.calc_bg').fadeOut();
-                $(".solaris-spec").slideDown();
-			} else {
-				minVal = 20;
-				obj.option("value", 20);
-				obj.option("value", dperc);
-				setTimeout(function(){
-					$('.calc_bg').fadeIn();
-				}, 300);
-                $(".solaris-spec").slideUp().removeClass("solaris-spec_active");
-			}
+			obj.option("value", dperc);
+
+			/*
+			 if ( car_id == 23 || car_id == 22) {
+			 minVal = 0;
+			 obj.option("min", 0);
+			 window.addEventListener('scroll', handler);
+			 $('.calc_bg').fadeOut();
+			 $(".solaris-spec").slideDown();
+			 } else {
+			 */
+			minVal = 20;
+			obj.option("value", 20);
+			obj.option("value", dperc);
+			setTimeout(function(){
+				$('.calc_bg').fadeIn();
+			}, 300);
+			$(".solaris-spec").slideUp().removeClass("solaris-spec_active");
+//			}
 
 			this.calculate();
 		},
@@ -150,7 +154,7 @@ $(document).ready(function() {
 			var C = $('select[name=type]').val();
 
 			// Срок
-			var N = 37;
+			var N = 36;
 
 			// Первый взнос
 
