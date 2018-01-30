@@ -128,7 +128,7 @@ $this->setFrameMode(true);
 
 	<div class="row">
 		<div class="col-md-6 col-sm-12 col-xs-12 img100">
-			<img src="images/car.png">
+			<img src="<?=CFile::GetPath($arResult['PROPERTIES']['IMG_CAR']['VALUE']);?>">
 		</div>
 		<div class="col-md-6 col-sm-12 col-xs-12">
 			<div class="col-md-8 col-sm-8 col-xs-12 text-center blue">
