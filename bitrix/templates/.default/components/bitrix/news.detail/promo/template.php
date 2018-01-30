@@ -48,6 +48,7 @@ $this->setFrameMode(true);
 
 <body>
 <div id="panel"><?$APPLICATION->ShowPanel();?></div>
+
 <div class="popup">
 	<div class="popup-form-block" style="background: url('img/popup.jpg');">
 		<div class="closed">X</div>

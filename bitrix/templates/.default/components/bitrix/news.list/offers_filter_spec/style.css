@@ -15,7 +15,7 @@ div.news-list img.preview_picture
 	font-weight: 300;
 	font-family: 'HyundaiSansHead',sans-serif;
 	color: #0084CF;
-	font-size: 40px;
+	font-size: 35px;
 	text-transform: uppercase;
 	text-align: center;
 	display: block;
@@ -23,12 +23,12 @@ div.news-list img.preview_picture
 
 .offers {
 	background: #f7f7f7;
-	padding-bottom: 15px;
+	padding: 30px 0;
+
 }
 
 
 .super-offer-slider-giant {
-	width: 50%;
 	margin: 30px auto;
 	height: 430px;
 }
@@ -213,4 +213,8 @@ div.news-list img.preview_picture
 }
 .item > a img{
 	max-height: 230px;
+}
+
+.slick-slider{
+	max-width: 1170px;
 }
