@@ -70,8 +70,12 @@ $this->setFrameMode(true);
 	</div>
 </div>
 
-<div class="main-banner">
-	<img src="<?=CFile::GetPath($arResult['PROPERTIES']['MAIN_IMG']['VALUE'])?>">
+<div class="main-banner data-img">
+	<img src="<?=CFile::GetPath($arResult['PROPERTIES']['MAIN_IMG']['VALUE'])?>"
+		 data-sml="<?=CFile::GetPath($arResult['PROPERTIES']['IMG_CAR_BACK']['VALUE'])?>"
+		 data-med="<?=CFile::GetPath($arResult['PROPERTIES']['IMG_CAR_FORNT']['VALUE'])?>"
+		 data-lrg="<?=CFile::GetPath($arResult['PROPERTIES']['MAIN_IMG']['VALUE'])?>"
+		>
 </div>
 
 
@@ -410,9 +414,11 @@ $this->setFrameMode(true);
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="js/masked.js"></script>
+<script src="js/data-img.js"></script>
 <script>
 
 	$(function(){
+
 		$('.panel-title a').click(function(){
 			$(this).parent().toggleClass('minus','pluse');
 		});
@@ -422,6 +428,13 @@ $this->setFrameMode(true);
 			axis:"x",
 			theme:"dark-thin",
 			advanced:{autoExpandHorizontalScroll:true}
+		});
+
+		$('.data-img img').dataImg({
+			sml: 320,
+			med: 768,
+			lrg: 1200,
+			resize: true
 		});
 	});
 

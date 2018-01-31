@@ -29,10 +29,8 @@ h1{
   src:url(../fonts/Roboto-Regular_1.ttf);
 }
 
-.main-banner{
-  overflow: hidden;
-  position: relative;
-  min-height: 500px;
+.main-banner img{
+  width: 100%;
 }
 
 .p-input input{
@@ -343,10 +341,8 @@ h1{
 
 
 @media (max-width:1550px){
-  .main-banner > img{
-    position: absolute;
-    right: -370px;
-  }
+
+
 }
 @media (max-width:768px){
   .right{
