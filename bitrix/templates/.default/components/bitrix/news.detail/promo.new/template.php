@@ -102,17 +102,27 @@ $this->setFrameMode(true);
 	</div>
 
 	<div class="row">
-		<div class="content">
-			<div class="col-md-6 col-sm-6 col-xs-6 p-button-icon">
+		<div class="content text-center">
+			<div class="col-md-6 col-sm-6 col-xs-12 p-button-icon">
 				<a href="button" class="btn btn-primary">
-					<img class="hidden-xs" src="images/steering.png">
-					<span>Записаться на тест драйв</span>
+					<div class="col-xs-4">
+						<img class="" src="images/steering.png">
+					</div>
+					<div class="col-xs-8 text-left">
+						<div>Записаться</div>
+						<div>на тест драйв</div>
+					</div>
 				</a>
 			</div>
-			<div class="col-md-6 col-sm-6 col-xs-6 p-button-icon">
+			<div class="col-md-6 col-sm-6 col-xs-12 p-button-icon">
 				<a href="button" class="btn btn-primary">
-					<img class="hidden-xs" src="images/Left.png">
-					<span>Оцени свою машину</span>
+					<div class="col-xs-4">
+						<img class="" src="images/Left.png">
+					</div>
+					<div class="col-xs-8 text-left">
+						<div>Оцени свою</div>
+						<div>машину</div>
+					</div>
 				</a>
 			</div>
 		</div>
@@ -136,7 +146,7 @@ $this->setFrameMode(true);
 				<p><?=$h1?></p>
 				<?endforeach?>
 			</div>
-			<div class="col-md-4 col-sm-4 col-xs-12 p-button-no-icon">
+			<div class="col-md-4 col-sm-4 col-xs-12 p-button-no-icon text-center">
 				<a href="button" class="btn btn-primary">акция!</a>
 			</div>
 		</div>
@@ -343,17 +353,27 @@ $this->setFrameMode(true);
 		</div>
 
 		<div class="row">
-			<div class="content">
-				<div class="col-md-6 col-sm-6 col-xs-6 p-button-icon">
+			<div class="content text-center">
+				<div class="col-md-6 col-sm-6 col-xs-12 p-button-icon">
 					<a href="button" class="btn btn-primary">
-						<img class="hidden-xs" src="images/steering.png">
-						<span>Записаться на тест драйв</span>
+						<div class="col-xs-4">
+							<img class="" src="images/steering.png">
+						</div>
+						<div class="col-xs-8 text-left">
+							<div>Записаться</div>
+							<div>на тест драйв</div>
+						</div>
 					</a>
 				</div>
-				<div class="col-md-6 col-sm-6 col-xs-6 p-button-icon">
+				<div class="col-md-6 col-sm-6 col-xs-12 p-button-icon">
 					<a href="button" class="btn btn-primary">
-						<img class="hidden-xs" src="images/Left.png">
-						<span>Оцени свою машину</span>
+						<div class="col-xs-4">
+							<img class="" src="images/Left.png">
+						</div>
+						<div class="col-xs-8 text-left">
+							<div>Оцени свою</div>
+							<div>машину</div>
+						</div>
 					</a>
 				</div>
 			</div>
