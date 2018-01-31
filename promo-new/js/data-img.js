@@ -10,7 +10,8 @@ $.fn.dataImg = function(options) {
   var elements = $(this);
 
   function getSrc(element) {
-    var screen = $(window).width();
+    var screen = window.innerWidth;
+
     if (screen > settings.med) { 
         return element.data('lrg');
     }
@@ -24,7 +25,6 @@ $.fn.dataImg = function(options) {
     elements.each(function () {
         var e = $(this);
         var src = getSrc(e);
-        console.log(src);
         if(src != undefined){
             if (e.is('img')) {
                 e.attr('src', src);

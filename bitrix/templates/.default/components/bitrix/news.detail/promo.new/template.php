@@ -71,7 +71,7 @@ $this->setFrameMode(true);
 </div>
 
 <div class="main-banner data-img">
-	<img src="<?=CFile::GetPath($arResult['PROPERTIES']['MAIN_IMG']['VALUE'])?>"
+	<img src=""
 		 data-sml="<?=CFile::GetPath($arResult['PROPERTIES']['IMG_CAR_BACK']['VALUE'])?>"
 		 data-med="<?=CFile::GetPath($arResult['PROPERTIES']['IMG_CAR_FORNT']['VALUE'])?>"
 		 data-lrg="<?=CFile::GetPath($arResult['PROPERTIES']['MAIN_IMG']['VALUE'])?>"
