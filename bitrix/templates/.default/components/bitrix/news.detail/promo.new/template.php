@@ -178,8 +178,8 @@ $this->setFrameMode(true);
 
 				<div class="panel panel-default" id="TABLE_ENGINE">
 					<div class="panel-heading">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" class="pluse" data-parent="#TABLE_ENGINE" href="#collapseOne">
+						<h4 class="panel-title pluse">
+							<a data-toggle="collapse" class="" data-parent="#TABLE_ENGINE" href="#collapseOne">
 								<?=$arResult['PROPERTIES']['TABLE_ENGINE']['NAME']?>
 							</a>
 						</h4>
@@ -213,8 +213,8 @@ $this->setFrameMode(true);
 
 				<div class="panel panel-default" id="TABLE_DINAMIC">
 					<div class="panel-heading">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" class="pluse" data-parent="#TABLE_DINAMIC" href="#collapseTwo">
+						<h4 class="panel-title pluse">
+							<a data-toggle="collapse" class="" data-parent="#TABLE_DINAMIC" href="#collapseTwo">
 								<?=$arResult['PROPERTIES']['TABLE_DINAMIC']['NAME']?>
 							</a>
 						</h4>
@@ -246,8 +246,8 @@ $this->setFrameMode(true);
 
 				<div class="panel panel-default" id="TABLE_GAS">
 					<div class="panel-heading">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" class="pluse" data-parent="#TABLE_GAS" href="#collapseTree">
+						<h4 class="panel-title pluse">
+							<a data-toggle="collapse" class="" data-parent="#TABLE_GAS" href="#collapseTree">
 								<?=$arResult['PROPERTIES']['TABLE_GAS']['NAME']?>
 							</a>
 						</h4>
@@ -279,8 +279,8 @@ $this->setFrameMode(true);
 
 				<div class="panel panel-default" id="TABLE_LINE">
 					<div class="panel-heading">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" class="pluse" data-parent="#TABLE_LINE" href="#collapseFour">
+						<h4 class="panel-title pluse">
+							<a data-toggle="collapse" class="" data-parent="#TABLE_LINE" href="#collapseFour">
 								<?=$arResult['PROPERTIES']['TABLE_LINE']['NAME']?>
 							</a>
 						</h4>
@@ -373,11 +373,8 @@ $this->setFrameMode(true);
 		<div class="col-md-12 col-sm-12 col-xs-12 text-right">
 			<ul>
 				<li><a href="/">Главная</a></li>
-				<li><a href="/AboutUs/">О компании</a></li>
 				<li><a href="/contacts/">Контакты</a></li>
-				<li><a href="/maintenance/">Обслуживание</a></li>
-				<li><a href="/service/spetspredlozheniya/">Сервисные программы</a></li>
-				<li><a href="/warranty/"> Гарантия</a></li>
+				<li><a href="/service/">Сервис</a></li>
 			</ul>
 		</div>
 		<div class="col-md-12 col-sm-12 col-xs-12 text-center">
@@ -397,7 +394,7 @@ $this->setFrameMode(true);
 
 	$(function(){
 		$('.panel-title a').click(function(){
-			$(this).toggleClass('minus','pluse');
+			$(this).parent().toggleClass('minus','pluse');
 		});
 		$('input').mask("+7 (999) 999-99-99");
 

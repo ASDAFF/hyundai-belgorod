@@ -4,6 +4,14 @@ body {
   font-family: Roboto-Medium;
 }
 
+h1{
+  font-family: 'Roboto-Bold';
+}
+h1{
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
 @font-face {
   font-family: 'Roboto-Black';
   src: url(../fonts/Roboto-Black_1.ttf);
@@ -144,15 +152,16 @@ body {
 }
 .text-center.blue p:first-child{
   margin: 0;
-  font-size: 26px;
-  font-weight: bold;
+  font-size: 30px;
   color: #0084cf;
+  font-family: Roboto-Bold;
 }
 .text-center.blue p:last-child{
   margin: 0;
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 21px;
   color: #0084cf;
+  font-family: Roboto-Regular;
+  line-height: 25px;
 }
 .content{
   margin: 30px auto;
@@ -181,20 +190,22 @@ body {
 .pluse:before{
   content: " ";
   display: inline-block;
-  background: url(../images/svg/plus.svg);
+  background: url(../images/plus.png);
   background-repeat: no-repeat;
-  width: 12px;
-  height: 12px;
-  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+  top: 6px;
+  position: absolute;
 }
 .minus:before{
   content: " ";
   display: inline-block;
-  background: url(../images/svg/minus.svg);
+  background: url(../images/minus.png);
   background-repeat: no-repeat;
-  width: 12px;
-  height: 6px;
-  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+  top: 6px;
+  position: absolute;
 }
 
 .panel-group .panel-heading+.panel-collapse .panel-body{
@@ -204,6 +215,7 @@ body {
   background-color: #ededed;
   border-color: #ededed;
   border-bottom: none;
+  position: relative;
 }
 .panel-group .panel{
   border-radius: 0;
@@ -228,11 +240,23 @@ body {
 }
 .table tr td{
   width: 200px;
+  font-family: Roboto-Regular;
+  font-size: 18px;
 }
 .table>thead>tr>th{
   border-bottom: none;
   width: 200px;
+  font-size: 20px;
+  font-family: Roboto-Regular;
+  font-weight: normal;
 }
+#accordion .panel-default a{
+  font-size: 17px;
+  font-family: Roboto-Medium;
+  margin-left: 50px;
+  text-transform: uppercase;
+}
+
 #footer,#header{
   background-color: #363636;
   color: #5e5e5e;
@@ -314,6 +338,19 @@ body {
 
 .navbar{
   margin-bottom: 0;
+}
+
+.h1-offer{
+  font-size: 52px!important;
+  font-family: Roboto-Bold!important;
+  color: #000000!important;
+}
+.mtr-btn.mtr-btn-wide{
+  font-family: Roboto-Bold!important;
+  font-size: 17px!important;
+  text-decoration: none;
+  padding: 10px!important;
+  border-radius: 17px;
 }
 
 
