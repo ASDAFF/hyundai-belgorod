@@ -372,6 +372,9 @@ h1{
   h1{
     font-size: 30px;
   }
+  .h1-offer {
+    font-size: 30px !important;
+  }
 }
 
 
