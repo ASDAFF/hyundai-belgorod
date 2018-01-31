@@ -100,6 +100,7 @@ foreach($arResult["ITEMS"] as $arItem) {
 						{
 							breakpoint: 1250,
 							settings: {
+								arrows: false,
 								slidesToShow: 1,
 								slidesToScroll: 1,
 							}
