@@ -32,6 +32,9 @@ $this->setFrameMode(true);
 	<link href="css/jquery.mCustomScrollbar.css" rel="stylesheet">
 	<link href="css/jumbotron.css" rel="stylesheet">
 
+	<link href="css/alertify.min.css" rel="stylesheet">
+	<link href="css/default.min.css" rel="stylesheet">
+
 	<script src="js/jquery.min.js"></script>
 	<?$APPLICATION->ShowHead()?>
 </head>
@@ -60,7 +63,11 @@ $this->setFrameMode(true);
 			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav right">
-					<li class="street"><a href="#contact"><?=$arResult['PROPERTIES']['STREET']['~VALUE'];?></a></li>
+					<li class="street">
+						<a href="#contact" class="">
+							<?=$arResult['PROPERTIES']['STREET']['~VALUE'];?>
+						</a>
+					</li>
 					<li></li>
 					<li class="p-button-header c1"><a href="/contacts/">Контакты</a></li>
 					<li class="p-button-header c2"><a href="#" onclick="PRZV.helpers.showWidget(1)">Заказать звонок</a></li>
@@ -83,10 +90,10 @@ $this->setFrameMode(true);
 	<!-- Example row of columns -->
 	<div class="row">
 		<div class="col-md-8 col-sm-8 col-xs-12 p-input">
-			<input type="text" class="form-control" placeholder="Мобильный телефон">
+			<input type="text" name="phone" class="form-control" placeholder="Мобильный телефон">
 		</div>
 		<div class="col-md-4 col-sm-4 col-xs-12 p-button">
-			<button type="button" class="btn btn-primary">Получить выгоду!*</button>
+			<button type="button" class="btn btn-primary send-profit">Получить выгоду!*</button>
 		</div>
 
 	</div>
@@ -96,19 +103,18 @@ $this->setFrameMode(true);
 			<label>
 				<input type="checkbox" value="" checked>
 				<span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
-				Я прочитал <a href="#">правила</a> и даю свое согласие на обработку персональных данных.
+				Я прочитал <a href="#" data-toggle="modal" data-target=".bs-example-modal-lg">правила</a> и даю свое согласие на обработку персональных данных.
 			</label>
 		</div>
 	</div>
 
-	<div class="row">
-		<p class="text-right bold">* Выгода складывается при сдаче авто в trade in, при смене hyundai на hyundai и дилерское предложение.</p>
-	</div>
+	<span class="grey">* Выгода складывается при сдаче авто в trade in, при смене hyundai на hyundai и дилерское предложение.</span>
+
 
 	<div class="row">
 		<div class="content text-center">
 			<div class="col-md-6 col-sm-6 col-xs-12 p-button-icon">
-				<a href="button" class="btn btn-primary">
+				<a href="button" class="btn btn-primary" data-toggle="modal" data-target="#testDriveModal">
 					<div class="col-xs-4">
 						<img class="" src="images/steering.png">
 					</div>
@@ -119,7 +125,7 @@ $this->setFrameMode(true);
 				</a>
 			</div>
 			<div class="col-md-6 col-sm-6 col-xs-12 p-button-icon">
-				<a href="button" class="btn btn-primary">
+				<a href="button" class="btn btn-primary" data-toggle="modal" data-target="#testDriveModal">
 					<div class="col-xs-4">
 						<img class="" src="images/Left.png">
 					</div>
@@ -151,7 +157,7 @@ $this->setFrameMode(true);
 				<?endforeach?>
 			</div>
 			<div class="col-md-4 col-sm-4 col-xs-12 p-button-no-icon text-center">
-				<a href="button" class="btn btn-primary">акция!</a>
+				<a href="/offer/" class="btn btn-primary">акция!</a>
 			</div>
 		</div>
 	</div>
@@ -190,12 +196,10 @@ $this->setFrameMode(true);
 		<div class="col-md-12 col-sm-12 col-xs-12">
 			<div class="panel-group" id="accordion">
 
-				<div class="panel panel-default" id="TABLE_ENGINE">
+				<div class="panel panel-default" data-toggle="collapse" data-target="#collapseOne" id="TABLE_ENGINE">
 					<div class="panel-heading">
 						<h4 class="panel-title pluse">
-							<a data-toggle="collapse" class="" data-parent="#TABLE_ENGINE" href="#collapseOne">
-								<?=$arResult['PROPERTIES']['TABLE_ENGINE']['NAME']?>
-							</a>
+							<a><?=$arResult['PROPERTIES']['TABLE_ENGINE']['NAME']?></a>
 						</h4>
 					</div>
 					<div id="collapseOne" class="panel-collapse collapse">
@@ -225,12 +229,10 @@ $this->setFrameMode(true);
 					</div>
 				</div>
 
-				<div class="panel panel-default" id="TABLE_DINAMIC">
+				<div class="panel panel-default" data-toggle="collapse" data-parent="#TABLE_DINAMIC" data-target="#collapseTwo" id="TABLE_DINAMIC">
 					<div class="panel-heading">
 						<h4 class="panel-title pluse">
-							<a data-toggle="collapse" class="" data-parent="#TABLE_DINAMIC" href="#collapseTwo">
-								<?=$arResult['PROPERTIES']['TABLE_DINAMIC']['NAME']?>
-							</a>
+							<a><?=$arResult['PROPERTIES']['TABLE_DINAMIC']['NAME']?></a>
 						</h4>
 					</div>
 					<div id="collapseTwo" class="panel-collapse collapse">
@@ -258,12 +260,10 @@ $this->setFrameMode(true);
 					</div>
 				</div>
 
-				<div class="panel panel-default" id="TABLE_GAS">
+				<div class="panel panel-default" data-toggle="collapse" data-parent="#TABLE_GAS" data-target="#collapseTree" id="TABLE_GAS">
 					<div class="panel-heading">
 						<h4 class="panel-title pluse">
-							<a data-toggle="collapse" class="" data-parent="#TABLE_GAS" href="#collapseTree">
-								<?=$arResult['PROPERTIES']['TABLE_GAS']['NAME']?>
-							</a>
+							<a><?=$arResult['PROPERTIES']['TABLE_GAS']['NAME']?></a>
 						</h4>
 					</div>
 					<div id="collapseTree" class="panel-collapse collapse">
@@ -291,12 +291,10 @@ $this->setFrameMode(true);
 					</div>
 				</div>
 
-				<div class="panel panel-default" id="TABLE_LINE">
+				<div class="panel panel-default" id="TABLE_LINE" data-toggle="collapse" data-parent="#TABLE_LINE" data-target="#collapseFour">
 					<div class="panel-heading">
 						<h4 class="panel-title pluse">
-							<a data-toggle="collapse" class="" data-parent="#TABLE_LINE" href="#collapseFour">
-								<?=$arResult['PROPERTIES']['TABLE_LINE']['NAME']?>
-							</a>
+							<a><?=$arResult['PROPERTIES']['TABLE_LINE']['NAME']?></a>
 						</h4>
 					</div>
 					<div id="collapseFour" class="panel-collapse collapse">
@@ -338,10 +336,10 @@ $this->setFrameMode(true);
 
 		<div class="row">
 			<div class="col-md-8 col-sm-8 col-xs-12 p-input">
-				<input type="text" class="form-control" placeholder="Мобильный телефон">
+				<input type="text" name="phone" class="form-control" placeholder="Мобильный телефон">
 			</div>
 			<div class="col-md-4 col-sm-4 col-xs-12 p-button">
-				<button type="button" class="btn btn-primary">Отправить</button>
+				<button type="button" class="btn btn-primary send-profit">Отправить</button>
 			</div>
 
 		</div>
@@ -351,7 +349,7 @@ $this->setFrameMode(true);
 				<label>
 					<input type="checkbox" value="" checked>
 					<span class="cr b"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
-					Я прочитал <a href="#">правила</a> и даю свое согласие на обработку персональных данных.
+					Я прочитал <a href="#" data-toggle="modal" data-target=".bs-example-modal-lg">правила</a> и даю свое согласие на обработку персональных данных.
 				</label>
 			</div>
 		</div>
@@ -359,7 +357,7 @@ $this->setFrameMode(true);
 		<div class="row">
 			<div class="content text-center">
 				<div class="col-md-6 col-sm-6 col-xs-12 p-button-icon">
-					<a href="button" class="btn btn-primary">
+					<a href="button" class="btn btn-primary" data-toggle="modal" data-target="#testDriveModal">
 						<div class="col-xs-4">
 							<img class="" src="images/steering.png">
 						</div>
@@ -370,7 +368,7 @@ $this->setFrameMode(true);
 					</a>
 				</div>
 				<div class="col-md-6 col-sm-6 col-xs-12 p-button-icon">
-					<a href="button" class="btn btn-primary">
+					<a href="button" class="btn btn-primary" data-toggle="modal" data-target="#testDriveModal">
 						<div class="col-xs-4">
 							<img class="" src="images/Left.png">
 						</div>
@@ -385,9 +383,8 @@ $this->setFrameMode(true);
 
 	</div>
 
-
-
 </div>
+
 <?=$arResult['PREVIEW_TEXT']?>
 <div id="map"></div>
 
@@ -415,14 +412,64 @@ $this->setFrameMode(true);
 <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="js/masked.js"></script>
 <script src="js/data-img.js"></script>
+<script src="js/alertify.min.js"></script>
+
 <script>
 
 	$(function(){
 
-		$('.panel-title a').click(function(){
-			$(this).parent().toggleClass('minus','pluse');
+
+
+
+		$( "#forms" ).submit(function( event ) {
+			var serializ = $( this ).serializeArray();
+			$.post('ajax-form.php',{data:serializ},function(data){
+				if($.isArray(data)){
+					$('.form-group').removeClass('has-error');
+					$.each(data,function(indx, element){
+						$('.form-control.'+element).closest('.form-group').addClass('has-error');
+					});
+					alertify.error('Заполните поля');
+				}else{
+					$('#testDriveModal').modal('hide');
+					alertify.success('Сообщение отправлено!');
+				}
+
+			}, "json");
+
+			event.preventDefault();
 		});
-		$('input').mask("+7 (999) 999-99-99");
+
+
+		$('.send-profit').click(function(){
+			var phone = $(this).closest('.container').find('input[type="text"]').val();
+			var checked = $(this).closest('.container').find('input[type="checkbox"]').is(':checked');
+			if(!checked){
+				alertify.error('Подтвердите согласие на обработку персональных данных.');
+				return false;
+			}
+			if(phone){
+				$.ajax({
+					url: 'ajax.php?tel=' + phone,
+					success: function(data) {
+						if(data){
+							$('.send-profit').prop('disabled', true);
+							alertify.success('Сообщение отправлено!');
+						}else{
+							alertify.error('Ошибка отправки!');
+						}
+					}
+				});
+				return false;
+			}else{
+				alertify.error('Введите номер телефона');
+			}
+		});
+
+		$('.panel').click(function(){
+			$(this).find('.panel-title').toggleClass('minus','pluse');
+		});
+		$('input[name="phone"]').mask("+7 (999) 999-99-99");
 
 		$(".scroll-y").mCustomScrollbar({
 			axis:"x",
@@ -432,7 +479,7 @@ $this->setFrameMode(true);
 
 		$('.data-img img').dataImg({
 			sml: 320,
-			med: 768,
+			med: 770,
 			lrg: 1200,
 			resize: true
 		});
@@ -450,6 +497,67 @@ $this->setFrameMode(true);
 		"PATH" => "/bitrix/include/seo-script-".SITE_ID.".php"
 	)
 );?>
+
+<!--  Modal content for the above example -->
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myLargeModalLabel">Правила обработки персональных данных</h4>
+			</div>
+			<div class="modal-body">
+				<?$APPLICATION->IncludeComponent(
+					"bitrix:main.include",
+					"",
+					Array(
+						"AREA_FILE_SHOW" => "file",
+						"AREA_FILE_SUFFIX" => "inc",
+						"EDIT_TEMPLATE" => "",
+						"PATH" => "/bitrix/include/for_pages/rule.php"
+					)
+				);?>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="testDriveModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myLargeModalLabel">Обратная связь</h4>
+			</div>
+
+			<form id="forms">
+			<div class="modal-body">
+
+					<div class="form-group">
+						<label for="recipient-name" class="col-form-label">ФИО</label>
+						<input type="text" name="name" class="form-control name" id="recipient-name">
+					</div>
+					<div class="form-group">
+						<label for="recipient-name" class="col-form-label">Телефон</label>
+						<input type="text" name="phone" class="form-control phone" id="">
+					</div>
+					<div class="form-group">
+						<label for="message-text" class="col-form-label">Сообщение</label>
+						<textarea class="form-control msg" name="msg" id="message-text"></textarea>
+					</div>
+
+			</div>
+
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+				<input type="submit" id="send-forms" value="Отправить" class="btn btn-primary">
+			</div>
+			</form>
+
+		</div>
+	</div>
+</div>
 
 </body>
 </html>

@@ -50,6 +50,7 @@ h1{
   font-size: 17px;
   font-family: Roboto-Bold;
   border-color: #0084cf;
+  text-transform: uppercase;
 }
 
 .p-button-no-icon a{
@@ -206,6 +207,7 @@ h1{
 }
 .panel-group .panel{
   border-radius: 0;
+  cursor: pointer;
 }
 .panel-title>a{
   text-decoration: none;
@@ -296,14 +298,14 @@ h1{
   border-radius: 20px;
   width: 100%;
   background: #0084cf;
-  font-size: 14px;
+  font-size: 16px;
   position: relative;
   padding: 10px 15px!important;
   font-family: Roboto-Bold;
 }
 
-.p-button-header.c1 a{ color: #2b2b2b!important;background: #FFF!important; }
-.p-button-header.c2 a{ color: #FFF!important;  background: #0084cf!important;}
+.p-button-header.c1 a{ color: #2b2b2b!important;background: #FFF!important;text-transform: uppercase; }
+.p-button-header.c2 a{ color: #FFF!important;  background: #0084cf!important;text-transform: uppercase;}
 
 
 .street{
