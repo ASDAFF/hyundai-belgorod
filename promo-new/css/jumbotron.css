@@ -29,6 +29,9 @@ h1{
   font-family:'Roboto-Regular';
   src:url(../fonts/Roboto-Regular_1.ttf);
 }
+.main-banner{
+  margin-bottom: 20px;
+}
 
 .main-banner img{
   width: 100%;

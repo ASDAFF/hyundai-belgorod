@@ -91,16 +91,16 @@ foreach($arResult["ITEMS"] as $arItem) {
 					pauseOnHover: false,
 					responsive: [
 						{
-							breakpoint: 1845,
+							breakpoint: 1024,
 							settings: {
 								slidesToShow: 2,
 								slidesToScroll: 1,
 							}
 						},
 						{
-							breakpoint: 1250,
+							breakpoint: 760,
 							settings: {
-								arrows: false,
+								arrows: true,
 								slidesToShow: 1,
 								slidesToScroll: 1,
 							}
