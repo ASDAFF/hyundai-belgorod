@@ -157,7 +157,7 @@ $this->setFrameMode(true);
 				<?endforeach?>
 			</div>
 			<div class="col-md-4 col-sm-4 col-xs-12 p-button-no-icon text-center">
-				<a href="/offer/" class="btn btn-primary">акция!</a>
+				<a href="/offer/" target="_blank" class="btn btn-primary">акция!</a>
 			</div>
 		</div>
 	</div>
