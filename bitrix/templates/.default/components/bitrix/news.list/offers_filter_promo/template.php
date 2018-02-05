@@ -35,7 +35,7 @@ foreach($arResult["ITEMS"] as $arItem) {
 	?>
 	<div class="super-offer-slide-giant">
 		<div class="item" id="bx_<?=$arItem['ID']?>">
-			<a href="<?=$arItem['DETAIL_PAGE_URL']?>">
+			<a href="/offer-promo/<?=$arItem['CODE']?>/">
 
 
 				<img data-lazy="<?=$arItem["PROPERTIES"]["SLIDER"]['VALUE'][0]?>" alt="<?=$arItem['NAME']?>"/>
@@ -44,7 +44,7 @@ foreach($arResult["ITEMS"] as $arItem) {
 
 			<div class="mCarListCards_Item_Info">
 				<div class="mCarListCards_Item_Info_Name">
-					<a href="<?=$arItem['DETAIL_PAGE_URL']?>">
+					<a href="/offer-promo/<?=$arItem['CODE']?>/">
 						<?=$arItem['PROPERTIES']['folder_id']['VALUE'].' '.$arItem['PROPERTIES']['CAPACITY']['VALUE'].' / '.$arItem['PROPERTIES']['TRANSMISS']['VALUE']?>
 					</a>
 				</div>
@@ -65,7 +65,7 @@ foreach($arResult["ITEMS"] as $arItem) {
 
 					<div class="clear"></div>
 				</div>
-				<a class="mtr-btn mtr-btn-blue mtr-btn-wide" href="<?=$arItem['DETAIL_PAGE_URL']?>">Подробнее</a>
+				<a class="mtr-btn mtr-btn-blue mtr-btn-wide" href="/offer-promo/<?=$arItem['CODE']?>/">Подробнее</a>
 			</div>
 		</div>
 	</div>
@@ -76,7 +76,7 @@ foreach($arResult["ITEMS"] as $arItem) {
 
 	</div>
 
-	<a class="mtr-btn mtr-btn-blue mtr-btn-wide" style="width: 260px;" href="/<?=$arResult['CODE']?>/">все предложения</a>
+	<a class="mtr-btn mtr-btn-blue mtr-btn-wide" style="width: 260px;" href="/offer-promo/">все предложения</a>
 
 	<script>
 		$(document).ready(function(){

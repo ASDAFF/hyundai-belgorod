@@ -225,15 +225,18 @@ function offers_filter_promo($url){
 	
 	if($noindex) print "<noindex>";
 
+    if(empty($url))
+        $url = false;
+
     if(CModule::IncludeModule("iblock")) {
-        $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
-        $arFilter = Array("IBLOCK_ID" => $id_mod, "CODE" => $url);
+        $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PROPERTY_FOR_OFFER");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
+        $arFilter = Array("IBLOCK_ID" => $id_mod, "=CODE" => $url);
         $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
-        if($ob = $res->GetNextElement()) {
-            $arProps = $ob->GetProperties();
-            $offer_models = $arProps['FOR_OFFER']['VALUE'];
+        if($ob = $res->GetNext()) {
+            $offer_models = $ob['PROPERTY_FOR_OFFER_VALUE'];
         }
-        if(empty($arProps['FOR_OFFER']['VALUE'])){
+
+        if(empty($offer_models)){
             $offer_models = $url;
         }
 

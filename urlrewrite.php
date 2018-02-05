@@ -13,6 +13,12 @@ $arUrlRewrite = array(
 		"PATH" => "/reports/index.php",
 	),
 	array(
+		"CONDITION" => "#^/offer-promo/([a-z-A-Z_0-9]+)/(?:\\?.*)?#",
+		"RULE" => "ELEMENT_CODE=\$1",
+		"ID" => "",
+		"PATH" => "/offer-promo/index.php",
+	),
+	array(
 		"CONDITION" => "#^/contacts/#",
 		"RULE" => "",
 		"ID" => "bitrix:news",
