@@ -144,7 +144,7 @@ $this->setFrameMode(true);
 
 </div> <!-- /container -->
 
-<? offer_filter_auto($_REQUEST['ELEMENT_CODE']); ?>
+<? offers_filter_promo($_REQUEST['ELEMENT_CODE']); ?>
 
 <div class="container-big">
 
