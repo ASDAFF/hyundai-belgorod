@@ -66,6 +66,9 @@ $this->setFrameMode(true);
 					<li class="street">
 						<a href="#contact" class="">
 							<?=$arResult['PROPERTIES']['STREET']['~VALUE'];?>
+							<?if(date("D") != "Sat"):?>
+								<sapn><?= tplvar('landing_phone', true);?></sapn>
+							<?endif?>
 						</a>
 					</li>
 					<li></li>
