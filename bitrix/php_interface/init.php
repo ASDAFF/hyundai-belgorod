@@ -207,10 +207,9 @@ function offer_filter_auto($url){
         $id_mod = 26;
         $id_spec = 25;
     }elseif($_SERVER['HTTP_HOST'] == 'hyundai-oskol.ru'){
-        return false;
-        //$id_mod = 36;
+        $id_mod = 36;
         //$id_spec = 35;
-        //$id_spec = 8;
+        $id_spec = 8;
     }elseif($_SERVER['HTTP_HOST'] == 'hyundai-ringsever.ru'){
         $id_mod = 45;
         //$id_spec = 47;
