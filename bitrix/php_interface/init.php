@@ -272,7 +272,7 @@ function offers_filter_promo($url){
             "INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
             "INCLUDE_SUBSECTIONS" => "Y",
             "MESSAGE_404" => "",
-            "NEWS_COUNT" => "160",
+            "NEWS_COUNT" => "25",
             "PAGER_BASE_LINK_ENABLE" => "N",
             "PAGER_DESC_NUMBERING" => "N",
             "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
