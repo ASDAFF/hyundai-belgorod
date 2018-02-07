@@ -574,3 +574,18 @@ function getIblockFeedbackOffer($site){
     return $feed_offer_ib;
 
 }
+
+function stiker($id,$stiker,$position){
+
+    $array = array("s1","s2","s4");
+    if(in_array($id,$array)){
+
+        $stiker = '
+        <div class="stiker" style="position: absolute;z-index: 1000;top: 0;'.$position.':0px;">
+            <img src="/bitrix/images/stiker/'.$stiker.'.png">
+        </div>
+        ';
+        return print $stiker;
+    }
+    return false;
+}
