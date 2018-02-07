@@ -1,10 +1,4 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Hyundai Solaris купить в Воронеже. Цена на новый Хендай Солярис");
-$APPLICATION->SetTitle("NewSolaris");
-?>
-
-
-
-
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+$newstring = '1 .2 .3.4.5';
+$text = substr($newstring,0,strpos($newstring,'.',2));
+var_dump(strpos($newstring,'.',2));
