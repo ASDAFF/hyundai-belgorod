@@ -144,6 +144,8 @@ $this->setFrameMode(true);
 
 </div> <!-- /container -->
 
+<hr>
+
 <div class="container-big">
 
 
