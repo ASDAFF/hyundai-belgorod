@@ -224,7 +224,7 @@ div.news-detail img.detail_picture
 }
 .slider > p{
 	position: absolute;
-	color: #333;
+	color: #fff;
 	bottom: 5px;
 	font-size: 14px;
 	z-index: 100000001;
