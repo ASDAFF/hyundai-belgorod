@@ -144,8 +144,6 @@ $this->setFrameMode(true);
 
 </div> <!-- /container -->
 
-<? offers_filter_promo($_REQUEST['ELEMENT_CODE']); ?>
-
 <div class="container-big">
 
 
@@ -168,7 +166,7 @@ $this->setFrameMode(true);
 
 </div>
 
-<hr>
+<? offers_filter_promo($_REQUEST['ELEMENT_CODE']); ?>
 
 <div class="container-big">
 
