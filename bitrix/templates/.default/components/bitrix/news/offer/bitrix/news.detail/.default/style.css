@@ -220,6 +220,15 @@ div.news-detail img.detail_picture
 	position: absolute;
 	color: #fff;
 	bottom: 5px;
+	font-size: 14px;
+}
+.slider > p{
+	position: absolute;
+	color: #333;
+	bottom: 5px;
+	font-size: 14px;
+	z-index: 100000001;
+	right: 5px;
 }
 .main-slideshow{
 	height: 630px!important;

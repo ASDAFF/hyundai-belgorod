@@ -52,6 +52,10 @@ $this->setFrameMode(true);
 		</div>
 		<div class="clear"></div>
 	</div>
+	<p>
+		<? $Description = explode('.',$arResult["PROPERTIES"]['Description']['VALUE']);
+		print $Description[0].'.'.$Description[1].'.'; ?>
+	</p>
 
 </div>
 <div class="top-margin"></div>
@@ -157,7 +161,10 @@ if($arResult["PROPERTIES"]["OPTION_EQU"]["VALUE"]):
 		</div>
 		<div class="clear"></div>
 	</div>
-	<p>Скидка предоставляется на дополнительное оборудование*</p>
+	<p>
+		<? $Description = explode('.',$arResult["PROPERTIES"]['Description']['VALUE']);
+		print $Description[0].'.'.$Description[1].'.'; ?>
+	</p>
 
 </div>
 
