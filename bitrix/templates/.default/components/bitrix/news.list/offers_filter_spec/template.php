@@ -35,7 +35,7 @@ foreach($arResult["ITEMS"] as $arItem) {
 	?>
 	<div class="super-offer-slide-giant">
 		<div class="item" id="bx_<?=$arItem['ID']?>">
-			<?stiker(SITE_ID,4,'right','160px','180px');?>
+			<?stiker(SITE_ID,4,'right','160px','180px',$arItem["PROPERTIES"]["folder_id"]['VALUE']);?>
 			<a href="<?=$arItem['DETAIL_PAGE_URL']?>">
 
 

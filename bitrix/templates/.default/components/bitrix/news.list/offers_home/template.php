@@ -31,16 +31,12 @@ $this->setFrameMode(true);
 
 <?
 foreach($arResult["ITEMS"] as $arItem) {
-
 	?>
 	<div class="super-offer-slide-giant">
 		<div class="item" id="bx_<?=$arItem['ID']?>">
-			<?stiker(SITE_ID,4,'right','160px','180px');?>
+			<?stiker(SITE_ID,4,'right','160px','180px',$arItem["PROPERTIES"]["folder_id"]['VALUE']);?>
 			<a href="<?=$arItem['DETAIL_PAGE_URL']?>">
-
-
 				<img data-lazy="<?=$arItem["PROPERTIES"]["SLIDER"]['VALUE'][0]?>" alt="<?=$arItem['NAME']?>"/>
-
 			</a>
 
 			<div class="mCarListCards_Item_Info">

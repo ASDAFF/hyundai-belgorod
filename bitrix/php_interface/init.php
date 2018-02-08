@@ -575,17 +575,22 @@ function getIblockFeedbackOffer($site){
 
 }
 
-function stiker($id,$stiker,$position,$top = '0px',$width = 'none'){
+function stiker($id,$stiker,$position,$top = '0px',$width = 'none',$model){
 
-    $array = array("s1","s2","s4");
-    if(in_array($id,$array)){
+    $models = array("Solaris","Creta");
 
-        $stiker = '
-        <div class="stiker" style="position: absolute;z-index: 1000;top: '.$top.';'.$position.':0px;max-width: '.$width.';">
-            <img src="/bitrix/images/stiker/'.$stiker.'.png" style="max-width: 100%;">
-        </div>
-        ';
-        return print $stiker;
+    if(in_array($model,$models)){
+        $array = array("s1","s2","s4");
+        if(in_array($id,$array)){
+
+            $stiker = '
+            <div class="stiker" style="position: absolute;z-index: 1000;top: '.$top.';'.$position.':0px;max-width: '.$width.';">
+                <img src="/bitrix/images/stiker/'.$stiker.'.png" style="max-width: 100%;">
+            </div>
+            ';
+            return print $stiker;
+        }
     }
+
     return false;
 }

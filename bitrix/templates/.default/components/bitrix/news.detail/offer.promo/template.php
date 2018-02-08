@@ -15,7 +15,7 @@ $this->setFrameMode(true);
 ?>
 <script type="text/javascript" src="/js/readmore.js"></script>
 <div class="slider">
-	<?stiker(SITE_ID,2,'left');?>
+	<?stiker(SITE_ID,2,'left',false,false,$arResult["PROPERTIES"]["folder_id"]['VALUE']);?>
 
 	<div class="main-slideshow">
 
@@ -140,7 +140,7 @@ if($arResult["PROPERTIES"]["OPTION_EQU"]["VALUE"]):
 <? endif; ?>
 
 <div class="paralax-offer">
-	<?stiker(SITE_ID,4,'right');?>
+	<?stiker(SITE_ID,4,'right',false,false,$arResult["PROPERTIES"]["folder_id"]['VALUE']);?>
 	<img src="<?=$arResult["PROPERTIES"]["SLIDER"]["VALUE"][1]?>">
 
 
