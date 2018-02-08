@@ -199,7 +199,7 @@ foreach($upload_file as $file):
 
                         $inc += 100;
                         }else{
-                            echo "Error: ".$el->LAST_ERROR.(string)$cont->MARK.' '.(string)$cont->MODEL.' '.(string)$cont->SpecName;
+                            echo "Error: ".$el->LAST_ERROR;
                         }
 
 
