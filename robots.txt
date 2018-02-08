@@ -50,6 +50,7 @@ Disallow: /*back_url_admin=*
 Disallow: /*index.php$
 Disallow: /*.pdf
 Disallow: /*.xls
+Disallow: /promo-new/*
 
 
 Host: hyundai-ringauto.ru

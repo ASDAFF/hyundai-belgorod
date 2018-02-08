@@ -1,4 +1,3 @@
-
 <!-- Rating@Mail.ru counter -->
 <script type="text/javascript">
     var _tmr = window._tmr || (window._tmr = []);
@@ -81,3 +80,14 @@
 <!-- //Rating@Mail.ru counter -->
 
 <!-- мейл ру-->
+
+<!-- Global site tag (gtag.js) - Google Analytics липецк -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-62115054-30"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-62115054-30');
+</script>
+<!-- // Global site tag (gtag.js) - Google Analytics -->
