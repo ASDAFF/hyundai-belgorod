@@ -137,7 +137,7 @@ foreach($upload_file as $file):
         $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
         if ($arItem = $res->GetNext())
         {
-            //var_dump((string)$cont->ColorCode);
+            var_dump((string)$cont->ColorCode);
         }else{
 
             if(strlen((string)$cont->Description) < 1 OR (string)$cont->Description == "0"){$arPropsNo[(string)$cont->VIN][] = 'Description';}
