@@ -166,7 +166,7 @@ foreach($upload_file as $file):
                 $active = 'Y';
             }
 
-            $url_hash = md5((string)$cont->VIN.(string)$cont->SpecId.(string)$cont->ColorCode.(string)$cont->NEW_PRICE);
+            $url_hash = md5((string)$cont->VIN.(string)$cont->ColorCode.(string)$cont->NEW_PRICE);
 
             $arLoadProductArray = Array(
             "IBLOCK_SECTION_ID" => false,          // элемент лежит в корне раздела
