@@ -53,7 +53,7 @@ $this->setFrameMode(true);
 		<div class="clear"></div>
 	</div>
 
-	<p>
+	<p style="color: #000;">
 		<? $Description = explode('.',$arResult["PROPERTIES"]['Description']['VALUE']);
 		print $Description[0].'.'.$Description[1].'.'; ?>
 	</p>
@@ -162,7 +162,7 @@ if($arResult["PROPERTIES"]["OPTION_EQU"]["VALUE"]):
 		</div>
 		<div class="clear"></div>
 	</div>
-	<p>
+	<p style="color: #000;">
 		<? $Description = explode('.',$arResult["PROPERTIES"]['Description']['VALUE']);
 		print $Description[0].'.'.$Description[1].'.'; ?>
 	</p>
