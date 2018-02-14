@@ -113,11 +113,11 @@ div.news-list img.preview_picture
 
 
 .super-offer-slider-giant .slick-next {
-	right: -100px;
+	right: 0px;
 	background: url('/bitrix/templates/ringauto/media/img/slider_arrows.png') no-repeat -83px 0;
 }
 .super-offer-slider-giant .slick-prev {
-	left: -100px;
+	left: 0px;
 	background: url('/bitrix/templates/ringauto/media/img/slider_arrows.png') no-repeat -29px 0;
 }
 .super-offer-slider-giant .slick-prev, .super-offer-slider-giant .slick-next {
