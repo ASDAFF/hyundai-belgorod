@@ -218,3 +218,7 @@ div.news-list img.preview_picture
 .slick-slider{
 	max-width: 1170px;
 }
+
+.slick-track{
+	margin: 0 auto;
+}
