@@ -102,7 +102,7 @@ if(CModule::IncludeModule("iblock")):
             $not_vin[] = (string)$cont->VIN;
         }
 
-        if((string)$cont->MARK == 'Hyundai'){
+        if(mb_strtolower((string)$cont->MARK) == 'hyundai'){
             $active = 'Y';
         }else{
             $active = 'N';
