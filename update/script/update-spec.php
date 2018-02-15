@@ -159,8 +159,8 @@ foreach($upload_file as $file):
             if(strlen((string)$cont->DEFAULT_COMPLIT->value[0]) < 1 OR (string)$cont->DEFAULT_COMPLIT->value[0] == "0"){$arPropsNo[(string)$cont->VIN][] = 'DEFAULT_COMPLIT (Стандартная комплектация)';}
 
 
-        
 
+            $active = 'Y';
             $url_hash = md5((string)$cont->MODEL.(string)$cont->SpecId.(string)$cont->ColorCode.(string)$cont->NEW_PRICE);
 
             $arLoadProductArray = Array(
