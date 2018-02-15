@@ -159,12 +159,7 @@ foreach($upload_file as $file):
             if(strlen((string)$cont->DEFAULT_COMPLIT->value[0]) < 1 OR (string)$cont->DEFAULT_COMPLIT->value[0] == "0"){$arPropsNo[(string)$cont->VIN][] = 'DEFAULT_COMPLIT (Стандартная комплектация)';}
 
 
-            //если модел g80 или g90 делаем неактивной
-            if((string)$cont->MODEL == 'G80' OR (string)$cont->MODEL == 'G90'){
-                $active = 'N';
-            }else{
-                $active = 'Y';
-            }
+        
 
             $url_hash = md5((string)$cont->MODEL.(string)$cont->SpecId.(string)$cont->ColorCode.(string)$cont->NEW_PRICE);
 
