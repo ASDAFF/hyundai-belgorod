@@ -89,7 +89,9 @@ $this->setFrameMode(true);
 					</div>
 				</div>
 				<div class="dealer-epilog">
+					<? if(SITE_ID != "s5"):?>
 					<h2 class="title_big">Как добраться</h2>
+					<?endif;?>
 
 					<p><?=$arItem['PROPERTIES']['MAP']['~VALUE']['TEXT']?></p><br>
 
