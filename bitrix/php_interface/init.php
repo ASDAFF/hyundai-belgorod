@@ -210,6 +210,7 @@ function offers_filter_promo($url){
         $id_mod = 36;
         $id_spec = 35;
         //$id_spec = 8;
+        return false;
     }elseif($_SERVER['HTTP_HOST'] == 'hyundai-ringsever.ru'){
         $id_mod = 45;
         //$id_spec = 47;
