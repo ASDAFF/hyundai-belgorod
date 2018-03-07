@@ -2091,7 +2091,7 @@ html.is-spreader-active body {
 .footer-nv__c-header {
     font-size: 1.1538461538em;
     font-weight: 500;
-    margin: 20px 0;
+    margin: 5px 0;
     display: block
 }
 
@@ -2133,7 +2133,7 @@ html.is-spreader-active body {
     font-size: 1.1538461538em;
     line-height: 30px;
     display: inline-block;
-    margin-bottom: 55px;
+    margin: 20px auto;
     -webkit-transition: color 0.15s ease-out 0s;
     -o-transition: color 0.15s ease-out 0s;
     transition: color 0.15s ease-out 0s
