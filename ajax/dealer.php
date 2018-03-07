@@ -1,1 +1,1 @@
-<li class="drop-down-item" data-value="C40AF00945">Ринг Авто</li>
+<li class="drop-down-item" data-value="C40AF00945">Ринг Авто</li><li class="drop-down-item" data-value="C40AF01135">Ринг Авто Север</li>
