@@ -1,0 +1,11 @@
+.container{
+	margin-top: 0px!important;
+}
+
+.content_wrap .title_area{
+	padding-top: 20px!important;
+}
+
+.content_area h1, .h1 {
+	font-size: 2.3em;
+}
