@@ -456,7 +456,7 @@ $this->setFrameMode(true);
 
 		$( "#forms" ).submit(function( event ) {
 			var serializ = $( this ).serializeArray();
-			console.log(serializ);
+			
 			$.post('ajax-form.php',{data:serializ},function(data){
 				if($.isArray(data)){
 					$('.form-group').removeClass('has-error');
@@ -476,7 +476,7 @@ $this->setFrameMode(true);
 
 
 		$('.send-profit').click(function(){
-			var streetShop = $(this).closest('.container').find('input[name="street-shop"]').val();
+			var streetShop = $(this).closest('.container').find('select[name="street-shop"]').val();
 			var phone = $(this).closest('.container').find('input[name="phone"]').val();
 			var checked = $(this).closest('.container').find('input[type="checkbox"]').is(':checked');
 			if(!checked){
