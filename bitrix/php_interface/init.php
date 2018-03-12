@@ -578,6 +578,8 @@ function getIblockFeedbackOffer($site){
 
 function stiker($id,$stiker,$position,$top = '0px',$width = 'none',$model){
 
+	return false;
+
     $models = array("Solaris","Creta");
 
     if(in_array($model,$models)){
@@ -593,5 +595,4 @@ function stiker($id,$stiker,$position,$top = '0px',$width = 'none',$model){
         }
     }
 
-    return false;
 }
