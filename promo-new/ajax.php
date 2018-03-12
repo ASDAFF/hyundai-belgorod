@@ -9,7 +9,7 @@ $arEventFields = array(
     "PHONE" => $_GET['tel'],
 );
 
-if($arEventFields['street'] == "ringauto"){
+if($_GET['street'] == "ringauto"){
     $SITE_ID = "s1";
 }else{
     $SITE_ID = "s4";
