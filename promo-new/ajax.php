@@ -8,7 +8,14 @@ if(empty($_GET['tel'])){
 $arEventFields = array(
     "PHONE" => $_GET['tel'],
 );
-$ok = CEvent::Send("FEEDBACK_LENDING", SITE_ID, $arEventFields);
+
+if($arEventFields['street'] == "ringauto"){
+    $SITE_ID = "s1";
+}else{
+    $SITE_ID = "s4";
+}
+
+$ok = CEvent::Send("FEEDBACK_LENDING", $SITE_ID, $arEventFields);
 if($ok){
     return print true;
 }

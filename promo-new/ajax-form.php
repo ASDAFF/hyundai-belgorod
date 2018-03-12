@@ -10,9 +10,16 @@ foreach($_POST['data'] as $data){
      $arEventFields[$data['name']] = $data['value'];
  }
 }
+
+if($arEventFields['street-shop'] == "ringauto"){
+    $SITE_ID = "s1";
+}else{
+    $SITE_ID = "s4";
+}
+
 if(empty($error)){
-    $ok = CEvent::Send("FEEDBACK_LENDING", SITE_ID, $arEventFields);
-    if($ok){
+    $ok = CEvent::Send("FEEDBACK_LENDING", $SITE_ID, $arEventFields);
+    if($ok and isset($arEventFields['rule'])){
         return print true;
     }else{
         return print false;
