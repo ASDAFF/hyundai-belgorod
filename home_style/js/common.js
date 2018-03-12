@@ -326,7 +326,6 @@ var Spreader = function() {
                 var a = s[e];
                 a === t ? (i.find('[data-role="' + a + '"]')[0].classList.toggle(n), i.find('[data-role="' + s[e] + '-link"]').length && i.find('[data-role="' + s[e] + '-link"]')[0].classList.toggle(n)) : (i.find('[data-role="' + a + '"]')[0].classList.remove(n), i.find('[data-role="' + s[e] + '-link"]').length && i.find('[data-role="' + s[e] + '-link"]')[0].classList.remove(n))
             }
-
         }
         var e = new Spreader("#online-call-template", {
                 onShow: function() {
@@ -374,10 +373,8 @@ var Spreader = function() {
             }),
             i = $("#header-primary"),
             n = "_active",
-            s = ["navbar-support", "showroom-submenu", "service-submenu"];
-        i.find('[data-role="navbar-support"]').on("click", function(e) {
-            e.stopPropagation(), t("navbar-support")
-        }).find("> div").on("click", function(t) {
+            s = ["showroom-submenu", "service-submenu"];
+        i.find("> div").on("click", function(t) {
             t.stopPropagation()
         }).find('[data-role="online-call"]').on("click", function(i) {
             i.preventDefault(), i.stopPropagation(), e.show(), t()
