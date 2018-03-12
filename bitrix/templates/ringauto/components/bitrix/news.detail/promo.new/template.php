@@ -456,7 +456,6 @@ $this->setFrameMode(true);
 
 		$( "#forms" ).submit(function( event ) {
 			var serializ = $( this ).serializeArray();
-			
 			$.post('ajax-form.php',{data:serializ},function(data){
 				if($.isArray(data)){
 					$('.form-group').removeClass('has-error');
