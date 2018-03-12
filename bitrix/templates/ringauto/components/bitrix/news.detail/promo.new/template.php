@@ -95,13 +95,13 @@ $this->setFrameMode(true);
 				Выберите салон
 			</div>
 		</div>
-		<div class="col-md-5 col-sm-5 col-xs-12 p-input">
+		<div class="col-md-6 col-sm-6 col-xs-12 p-input">
 			<select name="street-shop" class="form-control">
 				<option value="ringauto">Воронеж, ул. Изыскателей 39</option>
 				<option value="ringauto_sever">Воронеж, 7 км автодороги Воронеж-Москва</option>
 			</select>
 		</div>
-		<div class="col-md-5 col-sm-5 col-xs-12 p-input">
+		<div class="col-md-4 col-sm-4 col-xs-12 p-input">
 			<input type="text" name="phone" class="form-control" placeholder="Мобильный телефон">
 		</div>
 	</div>
@@ -357,13 +357,13 @@ $this->setFrameMode(true);
 					Выберите салон
 				</div>
 			</div>
-			<div class="col-md-5 col-sm-5 col-xs-12 p-input">
+			<div class="col-md-4 col-sm-4 col-xs-12 p-input">
 				<select name="street-shop" class="form-control">
 					<option value="ringauto">Воронеж, ул. Изыскателей 39</option>
 					<option value="ringauto_sever">Воронеж, 7 км автодороги Воронеж-Москва</option>
 				</select>
 			</div>
-			<div class="col-md-5 col-sm-5 col-xs-12 p-input">
+			<div class="col-md-6 col-sm-6 col-xs-12 p-input">
 				<input type="text" name="phone" class="form-control" placeholder="Мобильный телефон">
 			</div>
 		</div>
