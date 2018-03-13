@@ -92,8 +92,8 @@ $APPLICATION->SetTitle("Elantra");
                                         <!-- 								от  909 900  <span class="rouble">p</span> -->
                                         <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
                                         <? profit_to_url($APPLICATION->GetCurPage()); ?>
-                                        <a href="http://www.hyundai.ru/configurator" target="_blank" class="title-price-notice">В кредит от 8 000 <span class="rouble">p</span> / месяц</a>
                                     </div>
+                                    <?=model_credit("8 000"); ?>
                                     <a href="/offer/" class="btn-flat">Все предложения</a>
                                     <div class="title-list">
                                         <ul>

@@ -90,8 +90,8 @@ $APPLICATION->SetTitle("i30-Wagon");
                                     <div class="title-price">
                                         <? price_to_url($APPLICATION->GetCurPage()); ?><br>
                                         <? profit_to_url($APPLICATION->GetCurPage()); ?>
-                                        <a href="http://www.hyundai.ru/configurator/?car_id=20&calc_open=1" class="title-price-notice">В кредит от 15 511 <span class="rouble">p</span> / месяц</a>
                                     </div>
+                                    <?=model_credit("15 511"); ?>
                                     <a href="/all-offers/" class="btn-flat">Все предложения</a>
                                     <div class="title-list">
                                         <ul>

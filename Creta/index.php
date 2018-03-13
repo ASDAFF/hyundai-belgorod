@@ -74,9 +74,10 @@ $APPLICATION->SetTitle("Creta");
                                         <div class="title-price">
                                             <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
                                             <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                            <a href="/start/" class="title-price-notice">
-                                                <img src="http://www.hyundai.ru/media/img/h-stick-3.jpg" data-url="http://www.hyundai.ru/media/img/h-stick-3.jpg" alt="Современный дизайн" width="232" height="96" /></a>
                                         </div>
+
+                                        <?=model_credit("7 000"); ?>
+
                                         <div class="title-list">
                                             <ul>
                                                 <li>Экономный расход<br><strong>7.5 л на 100 км</strong>*</li>
