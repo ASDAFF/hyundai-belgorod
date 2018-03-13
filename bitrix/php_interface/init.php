@@ -596,3 +596,58 @@ function stiker($id,$stiker,$position,$top = '0px',$width = 'none',$model){
     }
 
 }
+
+function model_credit($price){
+
+    if(empty($price))
+        return false;
+
+    $view = '
+    <style>
+    .blue-block {
+    float: left;
+    background: #003469;
+    color: #fff;
+    font-family: HyundaiSansHead;
+    padding: 5px 33px;
+    margin: 10px auto;
+    }
+
+    .blue-block-row:first-of-type {
+        border-bottom: 2px solid #fff;
+    }
+    .blue-block-row {
+        padding: 5px 0;
+    }
+    .blue-block-val {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .blue-block-text {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .blue-block-row {
+        padding: 5px 0;
+    }
+    .blue-block-text {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    </style>
+
+    <div class="blue-block clearfix">
+        <div class="blue-block-content">
+            <div class="blue-block-row">
+                <span class="blue-block-val">'.$price.'</span>
+                <span class="blue-block-text">&#8381;/месяц<sup>*</sup></span>
+            </div>
+            <div class="blue-block-row">
+                <span class="blue-block-text"><b>КАСКО</b> в подарок<sup>**</sup></span>
+            </div>
+        </div>
+    </div>
+    <br clear="all"/>';
+
+    return $view;
+}
