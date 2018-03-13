@@ -1,152 +1,18 @@
-2018-Mar-11 14:26:04 Наличие необходимых модулей php (check_php_modules): Ok
+2018-Mar-13 12:01:31 Наличие необходимых модулей php (check_php_modules): Ok
 Все необходимые модули установлены
-2018-Mar-11 14:26:04 Обязательные параметры PHP (check_php_settings): Ok
+2018-Mar-13 12:01:31 Обязательные параметры PHP (check_php_settings): Ok
 Настройки правильные
-2018-Mar-11 14:26:04 Модули веб-сервера (check_security): Ok
+2018-Mar-13 12:01:31 Модули веб-сервера (check_security): Ok
 Конфликтов не выявлено
-2018-Mar-11 14:26:04 Значения переменных сервера (check_server_vars): Ok
+2018-Mar-13 12:01:31 Значения переменных сервера (check_server_vars): Ok
 Корректные
-2018-Mar-11 14:26:04 Сохранение сессии (check_session): Ok
+2018-Mar-13 12:01:31 Сохранение сессии (check_session): Ok
 50% done
-2018-Mar-11 14:26:04 Сохранение сессии (check_session): Ok
-Успешно
-2018-Mar-11 14:26:04 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+2018-Mar-13 12:01:31 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
 Правильные. Сайт работает в UTF кодировке
-2018-Mar-11 14:26:04 Служебные скрипты в корне сайта (check_install_scripts): Ok
+2018-Mar-13 12:01:31 Служебные скрипты в корне сайта (check_install_scripts): Ok
 Отсутствуют
-2018-Mar-11 14:26:04 Работа с сокетами (check_socket): Ok
+2018-Mar-13 12:01:31 Работа с сокетами (check_socket): Ok
 Connection to hyundai-ringauto.ru:80	Success
 
-Успешно
-2018-Mar-11 14:26:05 Параметры подключения к базе данных (check_dbconn_settings): Ok
-Успешно
-2018-Mar-11 14:26:05 Лишний вывод в файлах конфигурации (check_dbconn): Ok
-Connection to hyundai-ringauto.ru:80	Success
-
-Успешно
-2018-Mar-11 14:26:05 Выполнение агентов на cron (check_bx_crontab): Warning
-Замечание. Агенты выполняются на хитах, рекомендуется перевести выполнение агентов на cron
-2018-Mar-11 14:26:05 Сохранение сессии без UserAgent (check_session_ua): Ok
-50% done
-Connection to hyundai-ringauto.ru:80	Success
-
-2018-Mar-11 14:26:05 Сохранение сессии без UserAgent (check_session_ua): Ok
-Connection to hyundai-ringauto.ru:80	Success
-
-Успешно
-2018-Mar-11 14:26:05 Настройки сайтов (check_sites): Ok
-Правильные
-2018-Mar-11 14:26:05 Передача объектов по ссылке (check_clone): Ok
-Успешно
-2018-Mar-11 14:26:05 Размер стека и pcre.recursion_limit (check_pcre_recursion): Ok
-Connection to hyundai-ringauto.ru:80	Success
-
-Успешно
-2018-Mar-11 14:26:05 Вызов method_exists на строке (check_method_exists): Ok
-Connection to hyundai-ringauto.ru:80	Success
-
-Успешно
-2018-Mar-11 14:26:05 Загрузка файла (check_upload): Ok
-Connection to hyundai-ringauto.ru:80	Success
-
-Успешно
-2018-Mar-11 14:26:06 Загрузка файла больше 4Мб (check_upload_big): Ok
-Connection to hyundai-ringauto.ru:80	Success
-
-Успешно
-2018-Mar-11 14:26:06 Загрузка файла через php://input (check_upload_raw): Ok
-Connection to hyundai-ringauto.ru:80	Success
-
-Успешно
-2018-Mar-11 14:26:06 Передача POST запроса с большим числом параметров (check_post): Ok
-Connection to hyundai-ringauto.ru:80	Success
-
-Успешно
-2018-Mar-11 14:26:06 Отправка почты (check_mail): Ok
-Успешно
-2018-Mar-11 14:26:06 Отправка почтового сообщения больше 64Кб (check_mail_big): Ok
-Успешно
-2018-Mar-11 14:26:06 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
-Успешно
-2018-Mar-11 14:26:06 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
-50% done
-Connection to hyundai-ringauto.ru:80	Success
-
-2018-Mar-11 14:26:07 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
-Connection to hyundai-ringauto.ru:80	Success
-
-Успешно
-2018-Mar-11 14:26:07 Фактическое ограничение памяти (check_memory_limit): Ok
-20% done
-Connection to hyundai-ringauto.ru:80	Success
-
-2018-Mar-11 14:26:07 Фактическое ограничение памяти (check_memory_limit): Ok
-40% done
-Connection to hyundai-ringauto.ru:80	Success
-
-2018-Mar-11 14:26:07 Фактическое ограничение памяти (check_memory_limit): Ok
-60% done
-Connection to hyundai-ringauto.ru:80	Success
-
-2018-Mar-11 14:26:07 Фактическое ограничение памяти (check_memory_limit): Ok
-80% done
-Connection to hyundai-ringauto.ru:80	Success
-
-2018-Mar-11 14:26:07 Фактическое ограничение памяти (check_memory_limit): Warning
-Connection to hyundai-ringauto.ru:80	Success
-
-Замечание. Не менее 256 М Значение memory_limit было увеличено с 3G до 512M на момент тестирования через ini_set.
-2018-Mar-11 14:26:07 Работа с файлами кеша (check_cache): Ok
-Успешно
-2018-Mar-11 14:26:08 Доступ к серверу обновлений (check_update): Ok
-Успешно
-2018-Mar-11 14:26:08 HTTP авторизация (check_http_auth): Ok
-Connection to hyundai-ringauto.ru:80	Success
-
-Успешно
-2018-Mar-11 14:26:08 Создание и запуск файла (check_exec): Ok
-Connection to hyundai-ringauto.ru:80	Success
-
-Успешно
-2018-Mar-11 14:26:08 Функция getimagesize для swf (check_getimagesize): Ok
-Успешно
-2018-Mar-11 14:26:08 Версия MySQL-сервера (check_mysql_bug_version): Ok
-Успешно
-2018-Mar-11 14:26:09 Время на БД и веб-сервере (check_mysql_time): Ok
-Успешно
-2018-Mar-11 14:26:09 Режим работы MySQL (check_mysql_mode): Ok
-Успешно
-2018-Mar-11 14:26:09 Кодировка соединения (check_mysql_connection_charset): Ok
-character_set_connection=utf8, collation_connection=utf8_unicode_ci, character_set_results=utf8
-Успешно
-2018-Mar-11 14:26:09 Кодировка базы данных (check_mysql_db_charset): Ok
-CHARSET=utf8, COLLATION=utf8_unicode_ci
-Успешно
-2018-Mar-11 14:26:09 Кодировки таблиц в БД (check_mysql_table_charset): Ok
-Успешно
-2018-Mar-11 14:26:09 Структура базы данных (check_mysql_table_structure): Ok
-0% done
-2018-Mar-11 14:26:09 Структура базы данных (check_mysql_table_structure): Ok
-8% done
-2018-Mar-11 14:26:09 Структура базы данных (check_mysql_table_structure): Ok
-16% done
-2018-Mar-11 14:26:10 Структура базы данных (check_mysql_table_structure): Ok
-25% done
-2018-Mar-11 14:26:10 Структура базы данных (check_mysql_table_structure): Ok
-33% done
-2018-Mar-11 14:26:10 Структура базы данных (check_mysql_table_structure): Ok
-41% done
-2018-Mar-11 14:26:11 Структура базы данных (check_mysql_table_structure): Ok
-50% done
-2018-Mar-11 14:26:11 Структура базы данных (check_mysql_table_structure): Ok
-58% done
-2018-Mar-11 14:26:11 Структура базы данных (check_mysql_table_structure): Ok
-66% done
-2018-Mar-11 14:26:11 Структура базы данных (check_mysql_table_structure): Ok
-75% done
-2018-Mar-11 14:26:11 Структура базы данных (check_mysql_table_structure): Ok
-83% done
-2018-Mar-11 14:26:13 Структура базы данных (check_mysql_table_structure): Ok
-91% done
-2018-Mar-11 14:26:13 Структура базы данных (check_mysql_table_structure): Ok
 Успешно

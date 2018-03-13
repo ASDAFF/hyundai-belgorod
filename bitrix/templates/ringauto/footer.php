@@ -60,7 +60,7 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
                         <strong class="footer-nv__c-header">Г. ВОРОНЕЖ, УЛ. ИЗЫСКАТЕЛЕЙ, 39, КОРП. 2</strong>
                         <a href="tel:+74732617777" class="footer-nv__c-phone">+7 473 261-7777</a>
                         <strong class="footer-nv__c-header">Г. ВОРОНЕЖ, 7 КМ АВТОДОРОГИ ВОРОНЕЖ-МОСКВА, НАПРОТИВ СИТИ-ПАРКА «ГРАД»</strong>
-                        <a href="tel:+74732617777" class="footer-nv__c-phone">+7 473 347-77-77</a>
+                        <a href="tel:+74733477777" class="footer-nv__c-phone">+7 473 347-77-77</a>
 <!-- 
                         <a href="tel:+74732617777" class="footer-nv__c-phone">+7 (473) 347-7777</a>
 -->

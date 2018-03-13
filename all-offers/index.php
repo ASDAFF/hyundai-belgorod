@@ -77,16 +77,6 @@ $APPLICATION->SetTitle("all-offers");
                 </div>
 
                 <div class="insection-offer-unit">
-                    <a href="http://www.hyundai.ru/start" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/0fcfbe172cb5d46f056a5940d90a9640_mini.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Программа Старт.<br>Creta за 7 000 руб./мес.</span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="insection-offer-unit">
                     <a href="http://hyundai-ringauto.ru/promo/elantra-offer/" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/e9af6d87b8b138685dc83ab3a302d792_Elantra.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
@@ -108,20 +98,40 @@ $APPLICATION->SetTitle("all-offers");
 -->
 
                 <div class="insection-offer-unit">
-                    <a href="http://hyundai-ringauto.ru/promo/major-leasing/" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/04cbeb84a054d5e241ea61acbfabdf67_5_19.jpg" alt="" class="insection-offer-unit__back-img">
+                    <a href="/promo/privilege/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/f1187d2e52a706540962aa61a1758f46_Sonata_preview.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
-                            <span class="name">Лизинг для физических лиц</span>
+                            <span class="name">КАСКО 3,8% + пакет "Привилегия" на Hyundai Sonata. </span>
                             <span class="addinfo"></span>
                         </div>
                     </a>
                 </div>
 
                 <div class="insection-offer-unit">
-                    <a href="/promo/leasing_new/" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/822f208ac03003ca995030c04d001055_%D0%9B%D0%B8%D0%B7%D0%B8%D0%BD%D0%B3-%D0%B4%D0%BB%D1%8F-%D1%84%D0%B8%D0%B7-%D0%BB%D0%B8%D1%86_%D1%81%D0%BF%D0%B5%D1%86-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_preview.jpg" alt="" class="insection-offer-unit__back-img">
+                    <a href="/start/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/51e5ce7f6f3744cb2e2496f407f620ba_96dea44c-283a-4015-a949-6914ddcd0455.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
-                            <span class="name">Лизинг для физ. лиц <br>Уникальные условия и привилегии.</span>
+                            <span class="name">Программа Старт.<br>Низкие ежемесячные платежи.</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
+                    <a href="/promo/grand_santa_fe_special_edition/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/2f94f767b5fe67aa50652b8e29c26b52_Grand_Santa_fe_SE_banner_preview.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Hyundai grand Santa fe <br>Special Edition</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
+                    <a href="/special-offer/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/d308a9d099eddef6dc761a31e85c9edc_banner_special_offer_preview.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Специальное предложение для владельцев Hyundai</span>
                             <span class="addinfo"></span>
                         </div>
                     </a>
@@ -136,6 +146,29 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
+
+                <div class="insection-offer-unit">
+                    <a href="/promo/major-leasing/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/04cbeb84a054d5e241ea61acbfabdf67_5_19.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Лизинг для физических лиц</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+<!--
+                <div class="insection-offer-unit">
+                    <a href="/promo/leasing_new/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/822f208ac03003ca995030c04d001055_%D0%9B%D0%B8%D0%B7%D0%B8%D0%BD%D0%B3-%D0%B4%D0%BB%D1%8F-%D1%84%D0%B8%D0%B7-%D0%BB%D0%B8%D1%86_%D1%81%D0%BF%D0%B5%D1%86-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_preview.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Лизинг для физ. лиц <br>Уникальные условия и привилегии.</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+-->
+
 
                 <div class="insection-offer-unit">
                     <a href="https://hpromise.hyundai.ru/" class="insection-offer-unit__link">
@@ -203,16 +236,6 @@ $APPLICATION->SetTitle("all-offers");
                         <div class="insection-offer-unit__info">
                             <span class="name">Лучшее для своих</span>
                             <span class="addinfo">Сервисная акция</span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="insection-offer-unit">
-                    <a href="/news/minus---eto-bolshoy-plyus/" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/ba8612b9560fde23b511c4a267c44857_banner_1.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Минус - это большой плюс</span>
-                            <span class="addinfo"></span>
                         </div>
                     </a>
                 </div>
