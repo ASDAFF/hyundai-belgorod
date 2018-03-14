@@ -72,6 +72,7 @@ $APPLICATION->SetTitle("SantaFe");
                                         </div>
                                         <div class="title-price">
                                             <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
+                                            <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
                                             <a href="/start?model=santafe" class="title-price-notice">В кредит от 12 000 ₽ / месяц</a>
                                         </div>
                                         <?
