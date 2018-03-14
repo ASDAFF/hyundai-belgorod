@@ -60,10 +60,10 @@ $APPLICATION->SetTitle("SantaFe");
             </div>
 
             <div class="container" style="margin-top: 0;">
-                <div class="cubebox" id="cubebox" style="height: 530px;">
-                    <div class="cubelist" style="height: 530px;">
-                        <div class="items" style="height: 530px;">
-                            <div class="item" style="height: 530px;">
+                <div class="cubebox" id="cubebox" style="height: 550px;">
+                    <div class="cubelist" style="height: 550px;">
+                        <div class="items" style="height: 550px;">
+                            <div class="item" style="height: 550px;">
                                 <div class="item_wrap">
                                     <div class="main mkv">
                                         <div class="title">
