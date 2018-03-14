@@ -7,7 +7,23 @@
 <script type="text/javascript" src="/bitrix/js/calc/service-pages.js"></script>
 <style>
     .content-wrap.content--warranty{
-        width: 1090px!important;
+        width: 100%!important;
+    }
+    .maintenance-calc{
+        max-width: 520px;
+    }
+    .maintenance-calculator-wrapper {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+    .content--warranty .content-inner {
+        padding-top: 0px;
+    }
+    .service-right-block{
+        margin: 0px auto;
+    }
+    .offers_divider__content__offers-grid-section{
+        margin-bottom: 0;
     }
 </style>
 
@@ -150,6 +166,61 @@
     </div>
 </div>
 
+
+
+<div class="content--roadside" style="">
+
+    <div class="content-inner">
+        <div class="subject subject-wa">
+            <div class="subject-blackboard">
+                <div class="subject-wa-left" id="wa-block">
+                    <div class="subject-wa-title content-inner-title">Workshop Automation</div>
+                    <div class="subject-wa-text">– это автоматизированная система обслуживания клиентов и контроля за рабочими процессами в дилерском центре, реализованная как мобильное приложение для планшетных компьютеров.
+                    </div>
+                    <div class="subject-wa-link"><a href="http://www.hyundai.ru/find-dealer">найти дилера<img src="http://www.hyundai.ru/media/img/service-pages/wa_arrow.png"></a></div>
+                </div>
+                <div class="subject-wa-right">
+                    <img src="http://www.hyundai.ru/media/img/service-pages/wa_pic.jpg">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="subject subject-wa-icons">
+            <div class="subject-blackboard">
+                <div class="subject-wa-ico-33 wa-title">Преимущества
+                    системы WA</div>
+                <div class="subject-wa-ico-33">
+                    <div class="wa-ico-pic ico1"></div>
+                    <div class="wa-ico-title">Отслеживание<br/>хода работ</div>
+                    <div class="wa-ico-text">Онлайн информация в клиентской зоне о статусе выполнения работ</div>
+                </div>
+                <div class="subject-wa-ico-33">
+                    <div class="wa-ico-pic ico2"></div>
+                    <div class="wa-ico-title">Всегда<br/>вовремя</div>
+                    <div class="wa-ico-text">Отсутствие задержек благодаря системе он-лайн оповещений о ходе выполнения работ между мастером-консультантом и механиком</div>
+                </div>
+                <div class="subject-wa-ico-33">
+                    <div class="wa-ico-pic ico3"></div>
+                    <div class="wa-ico-title">Фото<br/>и голосовая запись</div>
+                    <div class="wa-ico-text">Фото и аудио фиксация ваших пожеланий и состояния вашего автомобиля. Фотографии до и после ремонта</div>
+                </div>
+                <div class="subject-wa-ico-33">
+                    <div class="wa-ico-pic ico4"></div>
+                    <div class="wa-ico-title">Специальные<br/>предложения</div>
+                    <div class="wa-ico-text">Интерактивное отображение наших специальных предложений для вас</div>
+                </div>
+                <div class="subject-wa-ico-33">
+                    <div class="wa-ico-pic ico5"></div>
+                    <div class="wa-ico-title">Обратная<br/>связь</div>
+                    <div class="wa-ico-text">Интерактивный опрос при выдаче автомобиля о качестве обслуживания</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
 
 
 <div class="zing_form_wrp" id="maintenance_form">
