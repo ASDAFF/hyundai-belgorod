@@ -597,12 +597,12 @@ function stiker($id,$stiker,$position,$top = '0px',$width = 'none',$model){
 
 }
 
-function model_credit($price){
+function model_credit($array){
 
-    if(empty($price))
+    if(empty($array))
         return false;
 
-    $view = '
+    ?>
     <style>
     .blue-block {
     float: left;
@@ -634,20 +634,28 @@ function model_credit($price){
         font-size: 20px;
         line-height: 28px;
     }
+    sup{
+        font-size: 9px;
+        top: -12px;
+        left: 4px;
+    }
     </style>
 
     <div class="blue-block clearfix">
         <div class="blue-block-content">
+            <?foreach($array as $str):?>
             <div class="blue-block-row">
-                <span class="blue-block-val">'.$price.'</span>
-                <span class="blue-block-text">&#8381;/месяц<sup>*</sup></span>
+                <?if($str['val']):?>
+                <span class="blue-block-val"><?=$str['val']?></span>
+                <?endif?>
+                <?if($str['text']):?>
+                <span class="blue-block-text"><?=$str['text']?></span>
+                <?endif?>
             </div>
-            <div class="blue-block-row">
-                <span class="blue-block-text"><b>КАСКО</b> в подарок<sup>**</sup></span>
-            </div>
+            <?endforeach;?>
         </div>
     </div>
-    <br clear="all"/>';
+    <br clear="all"/>
+    <?
 
-    return $view;
 }

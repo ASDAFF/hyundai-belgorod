@@ -427,7 +427,14 @@ $APPLICATION->SetTitle("NewSolaris");
                                                 <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
                                                 <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
                                             </div>
-                                            <?=model_credit("9 000"); ?>
+                                            <?
+                                            model_credit(
+                                                array(
+                                                    array("val" => "6,9%","text" => "кредит*"),
+                                                    array("text" => "<b>КАСКО</b> в подарок**")
+                                                )
+                                            );
+                                            ?>
                                             <a href="/offer/" class="btn-flat">Все предложения</a>
                                             <div class="title-list">
                                                 <ul>

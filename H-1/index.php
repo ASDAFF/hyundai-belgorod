@@ -101,8 +101,8 @@ $APPLICATION->SetTitle("H-1");
                                             <div class="title-price">
                                                 <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
                                                 <? profit_to_url($APPLICATION->GetCurPage()); ?>
+                                                <a href="#" class="title-price-notice">В кредит от 31 255 ₽ / месяц</a>
                                             </div>
-                                            <?=model_credit("31 255"); ?>
                                             <a href="/offer/" class="btn-flat">Все предложения</a>
                                             <div class="title-list">
                                                 <ul>

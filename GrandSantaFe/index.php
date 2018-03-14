@@ -95,8 +95,8 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                     <div class="title-price">
                                         <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
                                         <? profit_to_url($APPLICATION->GetCurPage()); ?>
+                                        <a href="/start?model=grandsantafe" class="title-price-notice">В кредит от 16 000 ₽ / месяц*</a>
                                     </div>
-                                    <?=model_credit("16 000"); ?>
                                     <a href="/offer/" class="btn-flat">Все предложения</a>
                                     <div class="title-list">
                                         <ul>

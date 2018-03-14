@@ -76,7 +76,14 @@ $APPLICATION->SetTitle("Creta");
                                             <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
                                         </div>
 
-                                        <?=model_credit("7 000"); ?>
+                                        <?
+                                        model_credit(
+                                            array(
+                                                array("val" => "7 000","text" => "₽/месяц*"),
+                                                array("text" => "<b>КАСКО</b> в подарок**")
+                                            )
+                                        );
+                                        ?>
 
                                         <div class="title-list">
                                             <ul>

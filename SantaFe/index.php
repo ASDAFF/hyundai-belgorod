@@ -72,9 +72,16 @@ $APPLICATION->SetTitle("SantaFe");
                                         </div>
                                         <div class="title-price">
                                             <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                            <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
+                                            <a href="/start?model=santafe" class="title-price-notice">В кредит от 12 000 ₽ / месяц</a>
                                         </div>
-                                        <?=model_credit("12 000"); ?>
+                                        <?
+                                        model_credit(
+                                            array(
+                                                array("val" => "Выгода до","text" => "<b>300 000 ₽</b><sup>1</sup>"),
+                                                array("text" => "<b>КАСКО</b> в подарок!<sup>2</sup>")
+                                            )
+                                        );
+                                        ?>
                                         <a href="/offer/" class="btn-flat">Все предложения</a>
                                         <div class="title-list">
                                             <ul>
