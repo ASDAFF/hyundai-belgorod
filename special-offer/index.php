@@ -50,32 +50,25 @@ $APPLICATION->SetTitle("NewSolaris");
                                 <select class="model__select" name="car">
                                     <option
                                         value="23"
-                                        data-tradein="25000"
-                                        data-programm="40000"
+                                        data-tradein="20000"
+                                        data-programm="0"
                                         data-points="10000"
                                         >
                                         НОВЫЙ Solaris								</option>
                                     <option
-                                        value="22"
-                                        data-tradein="25000"
-                                        data-programm="40000"
-                                        data-points="10000"
-                                        >
-                                        Creta								</option>
-                                    <option
-                                        value="7"
-                                        data-tradein="80000"
-                                        data-programm="70000"
-                                        data-points="10000"
-                                        >
-                                        Elantra								</option>
-                                    <option
                                         value="24"
-                                        data-tradein="100000"
+                                        data-tradein="80000"
                                         data-programm="0"
                                         data-points="20000"
                                         >
                                         Sonata								</option>
+                                    <option
+                                        value="7"
+                                        data-tradein="150000"
+                                        data-programm="0"
+                                        data-points="10000"
+                                        >
+                                        Elantra								</option>
                                     <option
                                         value="18"
                                         data-tradein="80000"
@@ -85,15 +78,15 @@ $APPLICATION->SetTitle("NewSolaris");
                                         Tucson								</option>
                                     <option
                                         value="17"
-                                        data-tradein="100000"
-                                        data-programm="100000"
+                                        data-tradein="200000"
+                                        data-programm="0"
                                         data-points="20000"
                                         >
                                         Santa fe								</option>
                                     <option
                                         value="13"
-                                        data-tradein="120000"
-                                        data-programm="100000"
+                                        data-tradein="220000"
+                                        data-programm="0"
                                         data-points="20000"
                                         >
                                         Grand Santa fe								</option>

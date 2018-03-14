@@ -6,25 +6,29 @@ $(document).ready(function() {
 	}
 
 	function selectFunc() {
+
+
+
+
 		function init() {
 			var sel;
 			$('select.model__select').each(function(){
-			    var $this = $(this);
-			   	sel = $this;
+				var $this = $(this);
+				sel = $this;
 
 
-			    $this.addClass('select-hidden');
-			    $this.wrap('<div class="select"></div>');
-			    $this.after('<div class="select-styled"></div>');
+				$this.addClass('select-hidden');
+				$this.wrap('<div class="select"></div>');
+				$this.after('<div class="select-styled"></div>');
 
-			    var $styledSelect = $this.next('div.select-styled');
-			    $styledSelect.text($this.children('option').eq(0).text());
+				var $styledSelect = $this.next('div.select-styled');
+				$styledSelect.text($this.children('option').eq(0).text());
 
-			    var $list = $('<ul />', {
-			        'class': 'select-options'
-			    }).insertAfter($styledSelect);
-		    });
-		    calc();
+				var $list = $('<ul />', {
+					'class': 'select-options'
+				}).insertAfter($styledSelect);
+			});
+			calc();
 			update(sel);
 		}
 
@@ -97,6 +101,7 @@ $(document).ready(function() {
 			curSlide = i;
 			moveSlide();
 		});
+
 
 		$(".so-slider__config-btn").on("click", function() {
 			var i = $(".so-slider__config-btn").index(this);
