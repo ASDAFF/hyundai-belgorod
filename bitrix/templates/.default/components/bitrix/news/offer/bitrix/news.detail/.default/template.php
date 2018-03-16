@@ -70,7 +70,15 @@ $this->setFrameMode(true);
 
 
 <div class="news-center offer clearfix">
-	<div class="news-center-head offer"><h1><?=$arResult['NAME']?></h1></div>
+	<div class="news-center-head offer">
+		<h1><?=$arResult['NAME']?></h1>
+		<?
+		global $USER;
+		if ($USER->IsAuthorized()){
+			print $arResult["PROPERTIES"]['vin']['VALUE'];
+		}
+		?>
+	</div>
 	<div class="offer-slogan"><?=$arResult["PROPERTIES"]['SLOGAN']['VALUE']?></div>
 	<div class="news-center-body f-row">
 
