@@ -552,7 +552,7 @@ $this->setFrameMode(true);
 						<textarea class="form-control msg" name="msg" id="message-text"></textarea>
 					</div>
 					<div class="form-group">
-						<div class="checkbox">
+						<div class="checkbox" style="padding-left: 0">
 							<label>
 								<input type="checkbox" value="Y" name="rule" checked>
 								<span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
