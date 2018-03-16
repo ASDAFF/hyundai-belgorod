@@ -73,7 +73,7 @@ $this->setFrameMode(true);
 					</li>
 					<li></li>
 					<li class="p-button-header c1"><a href="/contacts/">Контакты</a></li>
-					<li class="p-button-header c2"><a href="#" onclick="$('#swRecallBtn').click()">Заказать звонок</a></li>
+					<li class="p-button-header c2"><a href="#" onclick="$('#swRecallBtn').dblclick()">Заказать звонок</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
