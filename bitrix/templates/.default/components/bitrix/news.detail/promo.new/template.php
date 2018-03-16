@@ -73,7 +73,7 @@ $this->setFrameMode(true);
 					</li>
 					<li></li>
 					<li class="p-button-header c1"><a href="/contacts/">Контакты</a></li>
-					<li class="p-button-header c2"><a href="#" onclick="swQ.fn.SWD.showRecall('8 888 555 44 44');return false;">Заказать звонок</a></li>
+					<li class="p-button-header c2"><a href="#">Заказать звонок</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
@@ -421,9 +421,11 @@ $this->setFrameMode(true);
 
 	$(function(){
 
-
-
-
+		$('.p-button-header.c2').click(function(){
+			swQ.fn.SWD.showRecall('8 888 555 44 44');
+			return false;
+		});
+		
 		$( "#forms" ).submit(function( event ) {
 			var serializ = $( this ).serializeArray();
 			$.post('ajax-form.php',{data:serializ},function(data){
