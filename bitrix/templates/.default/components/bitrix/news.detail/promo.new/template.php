@@ -73,7 +73,7 @@ $this->setFrameMode(true);
 					</li>
 					<li></li>
 					<li class="p-button-header c1"><a href="/contacts/">Контакты</a></li>
-					<li class="p-button-header c2"><a href="#" onclick="swQ.fn.SWD.showRecall(true)">Заказать звонок</a></li>
+					<li class="p-button-header c2"><a href="#" onclick="swQ.fn.SWD.showRecall('8 888 555 44 44')">Заказать звонок</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
