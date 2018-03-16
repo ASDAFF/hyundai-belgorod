@@ -425,7 +425,7 @@ $this->setFrameMode(true);
 			swQ.fn.SWD.showRecall('8 888 555 44 44');
 			return false;
 		});
-		
+
 		$( "#forms" ).submit(function( event ) {
 			var serializ = $( this ).serializeArray();
 			$.post('ajax-form.php',{data:serializ},function(data){
@@ -551,7 +551,15 @@ $this->setFrameMode(true);
 						<label for="message-text" class="col-form-label">Сообщение</label>
 						<textarea class="form-control msg" name="msg" id="message-text"></textarea>
 					</div>
-
+					<div class="form-group">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="Y" name="rule" checked>
+								<span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+								Я прочитал <a href="#" data-toggle="modal" data-target=".bs-example-modal-lg">правила</a> и даю свое согласие на обработку персональных данных.
+							</label>
+						</div>
+					</div>
 			</div>
 
 			<div class="modal-footer">
