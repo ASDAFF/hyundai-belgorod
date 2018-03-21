@@ -151,3 +151,9 @@
 2017-10-17 18:30:43 -  - exec CUpdateClient::GetHTTPPage
 2017-10-17 18:30:43 -  - TIME GetUpdatesList(request) 0.378 sec
 2017-10-17 18:30:43 -  - exec CUpdateClient::ParseServerData
+2018-03-19 15:50:15 -  - exec CUpdateClient::GetUpdatesList
+2018-03-19 15:50:15 -  - exec CUpdateClient::CollectRequestData
+2018-03-19 15:50:15 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.5.15&VERSION=16.5.4&TYPENC=E&SUPD_STS=5&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=hyundai-ringauto.ru&CHHB=hyundai-ringauto.ru&CSAB=87.236.19.20&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_socialservices=16.5.4&bitm_fileman=16.5.4&bitm_translate=14.5.0&bitm_search=16.0.0&bitm_perfmon=16.0.0&bitm_iblock=16.5.2&bitm_clouds=16.0.1&bitm_bitrixcloud=16.0.0&bitm_highloadblock=16.0.2&bitm_seo=16.0.3&bitm_compression=16.0.0&bitl_ru=&bitl_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2018-03-19 15:50:15 -  - exec CUpdateClient::GetHTTPPage
+2018-03-19 15:50:15 -  - TIME GetUpdatesList(request) 0.26 sec
+2018-03-19 15:50:15 -  - exec CUpdateClient::ParseServerData
