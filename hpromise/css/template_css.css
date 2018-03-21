@@ -404,7 +404,6 @@ header {
   left: -9999px;
   opacity: 0;
   overflow: hidden;
-  height: 260px;
   -webkit-transition: opacity 0.4s ease-in-out 0s;
   -moz-transition: opacity 0.4s ease-in-out 0s;
   -o-transition: opacity 0.4s ease-in-out 0s;
@@ -426,7 +425,6 @@ header {
   font-family: HyundaiSansHead-Medium;
   font-size: 14px;
   color: #173d72;
-  margin: 0 0 61px 0;
   display: inline-block;
   line-height: 45px;
 }
