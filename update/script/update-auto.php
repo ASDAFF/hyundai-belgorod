@@ -21,8 +21,17 @@ if(CModule::IncludeModule("iblock")):
 
     $files = array();
 
-    $xml = file_get_contents('http://server.gk-ring.ru/hyundai/used_car_voronezh_hyundai_1.xml',true);
-    $habrablog = file_get_contents('http://server.gk-ring.ru/hyundai/hyundai_voronezh_used/');
+    $upload_file = array(
+     "http://server.gk-ring.ru/hyundai/hyundai_voronezh_used/" => "http://server.gk-ring.ru/hyundai/used_car_voronezh_hyundai_1.xml",
+     "http://server.gk-ring.ru/hyundai/hyundai_voronezh_sever_used/" => "http://server.gk-ring.ru/hyundai/used_car_voronezh_hyundai_2.xml",
+    );
+
+    $inc = 100;
+    foreach($upload_file as $img_server => $file):
+
+    $xml = file_get_contents($file,true);
+    $habrablog = file_get_contents($img_server);
+
     $document = phpQuery::newDocument($habrablog);
 
     $hentry = $document->find('td > a');
@@ -81,7 +90,7 @@ if(CModule::IncludeModule("iblock")):
         $dir_img = array();
         if (in_array((string)$cont->VIN, $files)) {
 
-            $dir_img_parse = file_get_contents('http://server.gk-ring.ru/hyundai/hyundai_voronezh_used/'.(string)$cont->VIN.'/');
+            $dir_img_parse = file_get_contents($img_server.(string)$cont->VIN.'/');
             $dir_img_doc = phpQuery::newDocument($dir_img_parse);
             $d_img = $dir_img_doc->find('td > a');
             foreach ($d_img as $key => $elem) {
@@ -92,7 +101,7 @@ if(CModule::IncludeModule("iblock")):
             }
 
             foreach($dir_img as $img){
-                $PROP['SLIDER'][] = 'http://server.gk-ring.ru/hyundai/hyundai_voronezh_used/'.(string)$cont->VIN.'/'.$img;
+                $PROP['SLIDER'][] = $img_server.(string)$cont->VIN.'/'.$img;
             }
             //var_dump('ok');
         }else{
@@ -138,6 +147,7 @@ if(CModule::IncludeModule("iblock")):
             "PROPERTY_VALUES"=> $PROP,
             "NAME"           => (string)$cont->MARK.' '.(string)$cont->MODEL,
             "CODE"           => (string)$cont->VIN,
+            "SORT"      => $inc,
             "ACTIVE"         => $active            // активен
         );
 
@@ -146,11 +156,14 @@ if(CModule::IncludeModule("iblock")):
 
         if($PRODUCT_ID = $el->Add($arLoadProductArray)) {
          //   echo "New ID: " . $PRODUCT_ID;
+            $inc += 100;
         }else {
             echo "Error: " . $el->LAST_ERROR;
         }
 
     }
+
+    endforeach;
 
     $string = '';
     foreach($arPropsNo as $k => $v){
