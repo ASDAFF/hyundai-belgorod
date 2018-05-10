@@ -19,17 +19,8 @@ if(CModule::IncludeModule("iblock")):
     }
 
 
-    $upload_file = array(
-        "http://turbodealer.ru/export/ring_lipetsk.xml",
-        "http://turbodealer.ru/export/ring_voronezh.xml",
-        "http://turbodealer.ru/export/ring_voronezh_2.xml",
-    );
 
-$inc = 100;
-foreach($upload_file as $file):
-
-  //  $xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/lipetsk/new_car_lipetsk_hyundai.xml',true);
-    $xml = file_get_contents($file,true);
+    $xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/lipetsk/new_car.xml',true);
 
 
     $xml = new SimpleXMLElement($xml);
@@ -86,16 +77,14 @@ foreach($upload_file as $file):
             $PROP['DEFAULT_COMPLIT'][] = (string)$com;
         }
 
-        $PROP['OLD_PRICE'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->OLD_PRICE));
-        $PROP['NEW_PRICE'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->NEW_PRICE));
-        $PROP['PRICE_OT_IMPORTERA'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->PRICE_OT_IMPORTERA));
+        $PROP['OLD_PRICE'] = (string)$cont->OLD_PRICE;
+        $PROP['NEW_PRICE'] = (string)$cont->NEW_PRICE;
         $PROP['CREDIT'] = (string)$cont->CREDIT;
 
 
 
 
 
-    /*
 
     $dir = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new/'),array('.','..'));
     foreach($dir as $d){
@@ -122,14 +111,15 @@ foreach($upload_file as $file):
             }
         }
     }
-    */
-
-        foreach($cont->SLIDER->VALUE as $slider){
-            $PROP['SLIDER'][] = (string)$slider;
-        }
 
 
-
+        $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
+        $arFilter = Array("IBLOCK_ID"=>25, "PROPERTY_SpecId" => (string)$cont->SpecId,"PROPERTY_color_code" => (string)$cont->ColorCode,"PROPERTY_NEW_PRICE" => (string)$cont->NEW_PRICE);
+        $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
+        if ($arItem = $res->GetNext())
+        {
+            //var_dump((string)$cont->ColorCode);
+        }else{
 
             if(strlen((string)$cont->Description) < 1 OR (string)$cont->Description == "0"){$arPropsNo[(string)$cont->VIN][] = 'Description';}
             if(strlen((string)$cont->POWER) < 1 OR (string)$cont->POWER == "0"){$arPropsNo[(string)$cont->VIN][] = 'POWER (мощность двигателя)';}
@@ -151,22 +141,19 @@ foreach($upload_file as $file):
             if(strlen((string)$cont->number) < 1 OR (string)$cont->number == "0"){$arPropsNo[(string)$cont->VIN][] = 'number (Телефон)';}
             if(strlen((string)$cont->OLD_PRICE) < 1 OR (string)$cont->OLD_PRICE == "0"){$arPropsNo[(string)$cont->VIN][] = 'OLD_PRICE (Старая цена)';}
             if(strlen((string)$cont->NEW_PRICE) < 1 OR (string)$cont->NEW_PRICE == "0"){$arPropsNo[(string)$cont->VIN][] = 'NEW_PRICE (Цена продажи)';}
-            if(strlen((string)$cont->PRICE_OT_IMPORTERA) < 1 OR (string)$cont->PRICE_OT_IMPORTERA == "0"){$arPropsNo[(string)$cont->VIN][] = 'PRICE_OT_IMPORTERA (Цена от импортера)';}
             if(strlen((string)$cont->CREDIT) < 1 OR (string)$cont->CREDIT == "0"){$arPropsNo[(string)$cont->VIN][] = 'CREDIT (Скидка)';}
             //  if(strlen((string)$cont->OPTION_EQU->value[0]) < 1 OR (string)$cont->OPTION_EQU->value[0] == "0"){$arPropsNo['OPTION_EQU'][] = (string)$cont->VIN; $PROP['OPTION_EQU'][] = 'NaN';}
             if(strlen((string)$cont->DEFAULT_COMPLIT->value[0]) < 1 OR (string)$cont->DEFAULT_COMPLIT->value[0] == "0"){$arPropsNo[(string)$cont->VIN][] = 'DEFAULT_COMPLIT (Стандартная комплектация)';}
 
 
 
-            $url_hash = md5((string)$cont->MODEL.(string)$cont->SpecId.(string)$cont->ColorCode.(string)$cont->NEW_PRICE);
 
             $arLoadProductArray = Array(
                 "IBLOCK_SECTION_ID" => false,          // элемент лежит в корне раздела
                 "IBLOCK_ID"      => 25,
-                "SORT"      => $inc,
                 "PROPERTY_VALUES"=> $PROP,
                 "NAME"           => (string)$cont->MARK.' '.(string)$cont->MODEL.' '.(string)$cont->SpecName,
-                "CODE"           => $url_hash,
+                "CODE"           => translit((string)$cont->VIN),
                 "ACTIVE"         => "Y"            // активен
             );
 
@@ -191,16 +178,14 @@ foreach($upload_file as $file):
             if($PRODUCT_ID = $el->Add($arLoadProductArray)){
                 $arAddAdmin[] = $PRODUCT_ID;
                 //        echo "New ID: ".$PRODUCT_ID;
-                $inc += 100;
             }else{
                 echo "Error: ".$el->LAST_ERROR;
             }
 
-
+        }
 
     }
 
-endforeach;
 
     $string = '';
     foreach($arPropsNo as $k => $v){
@@ -214,7 +199,7 @@ endforeach;
     $noCorrectAdminPhoto = 'Из них некорректно оформлены фото: '.count($arNoImg);
 
 
-    $message = $xmlAll.'<br>'.$addAdmin.'<br>'.$noCorrectAdmin.'<br>'.$noCorrectAdminPhoto.'<br>---<br>'.$string.' <br>*********************<br>Нет фото VIN - SpecId - ColorCode:<br> '.implode("<br>", $arNoImg);
+    $message = $xmlAll.'<br>'.$addAdmin.'<br>'.$noCorrectAdmin.'<br>'.$noCorrectAdminPhoto.'<br>---<br>'.$string.' <br>*********************<br>Нет фото VIN - SpecId - ColorCode:<br> '.implode("<br>", $arNoImg).'<br>'.implode("<br>", $arNoPrew);
 
 
     $arEventFields = array(

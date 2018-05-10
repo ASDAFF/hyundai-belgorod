@@ -15,7 +15,7 @@ $APPLICATION->SetTitle("bodyworks");
             <div class="content content--bodyworks">
                 <div class="content-header-fw">
                     <div class="content-header-fw__text">
-                        <div class="content-title">Кузовной ремонт от 7500 руб.</div>
+                        <div class="content-title">Кузовной ремонт</div>
                         <div class="content-descr">Ваш автомобиль полностью восстановят и вернут ему первоначальный вид до ДТП.</div>
                         <a href="#bodyworks-views" class="content-scroller content-scroller--bodywork" data-role="content-scroller"><i class="icon icon-dark icon-down"></i> что мы можем предложить</a>
                     </div>

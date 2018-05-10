@@ -4,9 +4,9 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.ph
 
 
 $PROP = array();
-$PROP[216] = $_POST['last_name']; // марка
-$PROP[217] = $_POST['first_name']; // фио
-$PROP[218] = $_POST['mobile']; //телефон
+$PROP['MARK_AND_MODEL'] = $_POST['last_name']; // марка
+$PROP['FIO'] = $_POST['first_name']; // фио
+$PROP['PHONE'] = $_POST['mobile']; //телефон
 
 
 
@@ -16,7 +16,7 @@ if(CModule::IncludeModule("iblock")) {
     $el = new CIBlockElement;
     $arLoadProductArray = Array(
         "IBLOCK_SECTION_ID" => false,
-        "IBLOCK_ID" => 18,
+        "IBLOCK_ID" => 39,
         "NAME" => $_POST['last_name'],
         "ACTIVE" => "Y",
         'PROPERTY_VALUES' => $PROP

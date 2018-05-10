@@ -1,9 +1,10 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("description", "Купить Hyundai Grand Santa Fe в Воронеже в салоне официального дилера Ринг Авто, продажа автомобилей по выгодной стоимости - звоните +7 (473) 261-7777.");
-$APPLICATION->SetPageProperty("title", "Купить Hyundai Grand Santa Fe у официального дилера в Воронеже по оптимальной цене - \"Ринг Авто\"");
+$APPLICATION->SetPageProperty("title", "Купить Hyundai Grand Santa Fe. Цена на Хендай Гранд Санта Фе у дилера");
 $APPLICATION->SetTitle("GrandSantaFe");
 ?>
+
+
 
     <script type='text/javascript' src="/media/js/sc_jquery_ui_ipad.js"></script>
     <script type='text/javascript' src="/media/js_new/sc_wwpip_flat.js"></script>

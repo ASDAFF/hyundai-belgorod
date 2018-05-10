@@ -1,9 +1,10 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("description", "Купить новый Hyundai Tucson по низким ценам в салоне официального дилера \"Ринг Авто\" в Воронеже, все комплектации в наличии и на заказ - звоните +7 (473) 261-7777. Гарантия качества.");
-$APPLICATION->SetPageProperty("title", "Купить новый Hyundai Tucson у официального дилера по выгодной цене в Воронеже, все комплектации в наличии и на заказ | \"Ринг Авто\"");
+$APPLICATION->SetPageProperty("title", "Hyundai Tucson комплектации и цены. Купить хендай туссан");
 $APPLICATION->SetTitle("Tucson");
 ?>
+
+
         <script type="text/javascript" src="/media/js/sc_jquery_ui_ipad.js"></script>
         <script type="text/javascript" src="http://www.hyundai.ru/media/js_new/sc_wwpip_flat.js"></script>
         <link rel="stylesheet" type="text/css" href="/media/css_new/css_style_ru.css">

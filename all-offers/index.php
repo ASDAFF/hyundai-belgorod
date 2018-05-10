@@ -1,9 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("all-offers");
-?>
-
-    <div class="offers__main offers-divider">
+?>    <div class="offers__main offers-divider">
         <div class="offers__container offers_divider__content clearfix">
 
             <h1 class="offers_divider__content__title">Акции</h1>
@@ -175,6 +173,33 @@ $APPLICATION->SetTitle("all-offers");
                         <img src="http://www.hyundai.ru/media/offers_image/33ca72985faf6eb1c67f1b0814659f95_hp.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
                             <span class="name">H-Promise. Автомобили с пробегом.</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+     <div class="insection-offer-unit">
+                    <a href="http://hyundai-oskol.ru/promo/shin/" class="insection-offer-unit__link">
+                        <img src="http://hyundai-oskol.ru/media/offers_image/imgonline-com-ua-Resize-jPYZZ3HrFDH.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Бесплатное сезонное хранение шин. </span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+ <div class="insection-offer-unit">
+                    <a href="http://hyundai-oskol.ru/promo/pokraska/" class="insection-offer-unit__link">
+                        <img src="http://hyundai-oskol.ru/media/offers_image/бампер0001111.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Покраска бампера - 30% </span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+<div class="insection-offer-unit">
+                    <a href="http://hyundai-oskol.ru/promo/diagnostica/" class="insection-offer-unit__link">
+                        <img src="http://hyundai-oskol.ru/media/offers_image/диагностика.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name"> Диагностика ходовой - 320 руб. Регулировка развал-схождения колес - 1120 руб</span>
                             <span class="addinfo"></span>
                         </div>
                     </a>

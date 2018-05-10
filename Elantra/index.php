@@ -1,9 +1,11 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("description", "Hyundai Elantra купить по приемлемым ценам в Воронеже можно у нас - официальный дилер \"Ринг Авто\" - звоните +7 (473) 261-7777.");
-$APPLICATION->SetPageProperty("title", "Купить Hyundai Elantra по выгодной цене в Воронеже | \"Ринг Авто\"");
+$APPLICATION->SetPageProperty("title", "Hyundai Elantra комплектации и цены. Купить новый Хендай Элантра ");
 $APPLICATION->SetTitle("Elantra");
-?>    <script type='text/javascript' src="/media/js/sc_jquery_ui_ipad.js"></script>
+?>
+
+
+    <script type='text/javascript' src="/media/js/sc_jquery_ui_ipad.js"></script>
     <script type='text/javascript' src="/media/js_new/sc_wwpip_flat.js"></script>
     <link rel="stylesheet" type="text/css" href="/media/css_new/css_style_ru.css"/>
     <script type='text/javascript' src="/media/js/sc_ru_google.js"></script>

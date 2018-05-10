@@ -1,9 +1,10 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("description", "Hyundai Solaris - продажа автомобилей по выгодным ценам в салоне официального дилера \"Ринг Авто\" в Воронеже, все комплектации в наличии и на заказ. Телефон +7 (473) 261-7777.");
-$APPLICATION->SetPageProperty("title", "Купить Hyundai Solaris new у официального дилера по низким ценам в Воронеже - продажа автомобилей в \"Ринг Авто\", все комплектации в наличии и на заказ");
+$APPLICATION->SetPageProperty("title", "Hyundai Solaris купить. Цена на новый Хендай Солярис");
 $APPLICATION->SetTitle("NewSolaris");
 ?>
+
+
 
 
 

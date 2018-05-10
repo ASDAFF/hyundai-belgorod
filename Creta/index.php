@@ -1,9 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("description", "Новый Hyundai Сreta у официального дилера в Воронеже по оптимальным ценам, все комплектации в наличии и на заказ. Подробности на официальном сайте Ринг Авто - звоните +7 (473) 261-7777.");
-$APPLICATION->SetPageProperty("title", "Купить новый Hyundai Creta у официального дилера по выгодной цене - продажа всех комплектаций в Воронеже сайт - \"Ринг Авто\"");
+$APPLICATION->SetPageProperty("title", "Hyundai Creta купить у официального дилера. Хендай Крета комплектации и цены");
 $APPLICATION->SetTitle("Creta");
 ?>
+
     <link type="text/css" href="http://www.hyundai.ru/media/css/cars/cars_common.css" rel="stylesheet" />
     <link type="text/css" href="http://www.hyundai.ru/media/css/cars/pip_flat_spritespin.css" rel="stylesheet" />
     <link type="text/css" href="http://www.hyundai.ru/media/css/cars/pip_flat_CR.css" rel="stylesheet" />

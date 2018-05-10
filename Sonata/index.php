@@ -1,9 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("description", "Купить Hyundai Sonata по выгодной стоимости у официального дилера Ринг Авто в Воронеже - звоните +7 (473) 261-7777.");
-$APPLICATION->SetPageProperty("title", "Купить Hyundai Sonata по приемлемой цене в Воронеже | \"Ринг Авто\"");
+$APPLICATION->SetPageProperty("title", "Hyundai Sonata купить. Цена на новый Хендай Солярис");
 $APPLICATION->SetTitle("NewSolaris");
 ?>
+
 
 
 

@@ -16,7 +16,7 @@ if(CModule::IncludeModule("iblock")) {
     $el = new CIBlockElement;
     $arLoadProductArray = Array(
         "IBLOCK_SECTION_ID" => false,
-        "IBLOCK_ID" => 19,
+        "IBLOCK_ID" => 38,
         "NAME" => $_POST['last_name'],
         "ACTIVE" => "Y",
         'PROPERTY_VALUES' => $PROP

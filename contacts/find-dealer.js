@@ -4,8 +4,8 @@ $(document).ready(function () {
 		isDisableIcons = false,
 		mapLoaded = false,
 		dealerInfoBoxCounter = 0,
-		currentCity = 'Воронеж',
-		address_setMapCenterRussia = "394002, г. Воронеж, улица Изыскателей, 39 корпус 2";
+		currentCity = 'Старый Оскол',
+		address_setMapCenterRussia = "309537, Белгородская обл. г. Старый Оскол, просп. Алексея Угарова, 22";
 		isNanoBeingDragged = false;
 
 	var mapObj = {
