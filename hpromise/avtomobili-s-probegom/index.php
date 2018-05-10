@@ -57,7 +57,7 @@ switch($_REQUEST['order']){
 		"FILTER_NAME" => "",
 		"FILTER_PROPERTY_CODE" => array("MODEL","MILEAGE","TRANSMISS","NEW_PRICE","YEAR",""),
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => "16",
+		"IBLOCK_ID" => "37",
 		"IBLOCK_TYPE" => "products",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
 		"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
