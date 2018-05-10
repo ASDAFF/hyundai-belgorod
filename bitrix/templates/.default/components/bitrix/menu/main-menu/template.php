@@ -43,6 +43,11 @@
 					<li class="main-nav__item">
 						<a href="/contacts/" class="main-nav__link">Контакты</a>
 					</li>
+					<!--<li class="main-nav__item">
+						<a href="/vacancies/" class="main-nav__link">Вакансии</a>
+					</li>-->
+
+
 <!--					<li class="main-nav__item">-->
 <!--						<a target="_blank" href="http://www.hyundai.ru/configurator" class="main-nav__link">Конфигуратор</a>-->
 <!--					</li>-->

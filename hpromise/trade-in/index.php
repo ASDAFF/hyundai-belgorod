@@ -162,10 +162,10 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <div class="carslider-inner-single-title">Santa Fe</div>
                 <div class="carslider-inner-single-desc santa_fe">
                     <a href="/SantaFe/" class="carslider-inner-single-desc-link">описание модели</a>
-                    <div class="carslider-inner-single-desc-tit">Скидка на автомобили<br/>2017 года</div>
-                    <div class="carslider-inner-single-desc-price">200 000 &#8381;</div>
-                    <div class="carslider-inner-single-desc-tit">Скидка на автомобили<br/>2018 года</div>
-                    <div class="carslider-inner-single-desc-price">150 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit">Скидка</div>
+                    <div class="carslider-inner-single-desc-price">100 000 &#8381;</div>
+                  <!--  <div class="carslider-inner-single-desc-tit">Скидка на автомобили<br/>2018 года</div>
+                    <div class="carslider-inner-single-desc-price">150 000 &#8381;</div> -->
                     <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
                     <div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>
                 </div>
@@ -183,10 +183,10 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <div class="carslider-inner-single-title">Grand Santa Fe</div>
                 <div class="carslider-inner-single-desc grand_santa_fe">
                     <a href="/GrandSantaFe/" class="carslider-inner-single-desc-link">описание модели</a>
-                    <div class="carslider-inner-single-desc-tit">Скидка на автомобили<br/>2017 года</div>
-                    <div class="carslider-inner-single-desc-price">220 000 &#8381;</div>
-                    <div class="carslider-inner-single-desc-tit">Скидка на автомобили<br/>2018 года</div>
-                    <div class="carslider-inner-single-desc-price">170 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit">Скидка</div>
+                    <div class="carslider-inner-single-desc-price">120 000 &#8381;</div>
+                   <!-- <div class="carslider-inner-single-desc-tit">Скидка на автомобили<br/>2018 года</div>
+                    <div class="carslider-inner-single-desc-price">170 000 &#8381;</div> -->
                     <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
                     <div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>
                 </div>

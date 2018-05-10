@@ -75,10 +75,10 @@ $this->setFrameMode(true);
 
 						<div class="mCarListCards_Item_Info_Props">
 
-							<span class="t1">Новая цена</span>
-							<span class="t2"><?=myFormatCurrency($arItem['PROPERTIES']['PRICE_OT_IMPORTERA']['VALUE'])?></span>
-							<span class="t3">Выгода</span>
-							<span class="t4"><?=myFormatCurrency($arItem['PROPERTIES']['OLD_PRICE']['VALUE'] - $arItem['PROPERTIES']['PRICE_OT_IMPORTERA']['VALUE'])?></span>
+							<span class="t1">Цена без скидки</span>
+							<span class="t2"><?=myFormatCurrency($arItem['PROPERTIES']['OLD_PRICE']['VALUE'])?></span>
+							<span class="t3">Выгода до</span>
+							<span class="t4"><?=myFormatCurrency(preg_replace('/\D/', '', $arItem['PROPERTIES']['VIGODA']['VALUE'])+preg_replace('/\D/', '', $arItem['PROPERTIES']['CREDIT']['VALUE']))?></span>
 
 							<div class="clear"></div>
 						</div>

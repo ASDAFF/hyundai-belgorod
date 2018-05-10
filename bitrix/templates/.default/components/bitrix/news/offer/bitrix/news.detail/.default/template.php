@@ -42,20 +42,27 @@ $this->setFrameMode(true);
 
 
 		<div class="box-price">
-			<p><?=myFormatCurrency($arResult['PROPERTIES']['OLD_PRICE']['VALUE'] - $arResult['PROPERTIES']['PRICE_OT_IMPORTERA']['VALUE'])?></p>
-			<p>скидка</p>
+			<p><?=myFormatCurrency(preg_replace('/\D/', '', $arResult['PROPERTIES']['VIGODA']['VALUE'])+preg_replace('/\D/', '', $arResult['PROPERTIES']['CREDIT']['VALUE']))?></p>
+			<p>выгода до</p>
 		</div>
 
-		<div class="box-price">
+<?
+/*
+<div class="box-price">
 			<p><?=myFormatCurrency($arResult["PROPERTIES"]['PRICE_OT_IMPORTERA']['VALUE']);?></p>
-			<p>новая цена</p>
+			<p>цена без скидки</p>
 		</div>
+*/
+?>
+		
 		<div class="clear"></div>
 	</div>
 
 	<p style="color: #000;">
-		<? $Description = explode('.',$arResult["PROPERTIES"]['Description']['VALUE']);
-		print $Description[0].'.'.$Description[1].'.'; ?>
+		<? /*$Description = explode('.',$arResult["PROPERTIES"]['Description']['VALUE']);
+		print $Description[0].'.'.$Description[1].'.'; */?>
+	
+	 Выгода достигается путем комбинаций нескольких программ: сдача авто в trade in, сдача авто в trade in марки hyundai, скидка от дилерского центра, возможна госпрограмма.
 	</p>
 
 </div>
@@ -160,20 +167,26 @@ if($arResult["PROPERTIES"]["OPTION_EQU"]["VALUE"]):
 
 
 		<div class="box-price">
-			<p><?=myFormatCurrency($arResult['PROPERTIES']['OLD_PRICE']['VALUE'] - $arResult['PROPERTIES']['PRICE_OT_IMPORTERA']['VALUE'])?></p>
-			<p>скидка</p>
+			<p><?=myFormatCurrency(preg_replace('/\D/', '', $arResult['PROPERTIES']['VIGODA']['VALUE'])+preg_replace('/\D/', '', $arResult['PROPERTIES']['CREDIT']['VALUE']))?></p>
+			<p>выгода до</p>
 		</div>
 
-		<div class="box-price">
+<?
+/*
+<div class="box-price">
 			<p><?=myFormatCurrency($arResult["PROPERTIES"]['PRICE_OT_IMPORTERA']['VALUE']);?></p>
-			<p>новая цена</p>
+			<p>цена без скидки</p>
 		</div>
+*/
+?>
+		
 		<div class="clear"></div>
 	</div>
 	<p style="color: #000;">
-		<? $Description = explode('.',$arResult["PROPERTIES"]['Description']['VALUE']);
-		print $Description[0].'.'.$Description[1].'.'; ?>
-	</p>
+		<? /*$Description = explode('.',$arResult["PROPERTIES"]['Description']['VALUE']);
+		print $Description[0].'.'.$Description[1].'.'; */?>
+	
+	Выгода достигается путем комбинаций нескольких программ: сдача авто в trade in, сдача авто в trade in марки hyundai, скидка от дилерского центра, возможна госпрограмма.</p>
 
 </div>
 

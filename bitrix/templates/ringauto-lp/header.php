@@ -9,7 +9,9 @@
 	<meta name="viewport" content="width=1920">
 
 	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"/><![endif]-->
-
+<meta name="yandex-verification" content="790c99f25bb5fbb6" />
+<meta name='wmail-verification' content='989846f89e97ba9ec9d7806ad89869d9' />
+<meta name="google-site-verification" content="-XdFlu8NyXD5GBhQXuMsM5_6REmHfITNXcvyUW5B_NM" />
 	<?$APPLICATION->ShowHead();?>
 	<title><?$APPLICATION->ShowTitle()?></title>
 	    

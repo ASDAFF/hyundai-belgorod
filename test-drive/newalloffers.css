@@ -1,0 +1,1149 @@
+.dealer__container {
+    background: #fff none repeat scroll 0 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    z-index: 50;
+}
+.dealer__content_wrap {
+    margin: 72px auto 0;
+    position: relative;
+}
+.dealer__title_area {
+    margin: 0 auto;
+    padding: 20px 0 25px;
+    position: relative;
+    width: 940px;
+}
+.dealer__title_area .title {
+    float: left;
+    font-family: "ModernHEcoLight";
+    font-size: 45px;
+    line-height: 0.9;
+}
+.dealer__maps {
+    margin: 0 auto;
+}
+.dealer__map_container {
+    float: none;
+    width: 100%;
+}
+#map_canvas, #map_canvas2 {
+    width: 100%;
+    height: 420px;
+}
+@media screen and (max-width: 1024px) {
+    #map_canvas {
+        height: 380px;
+    }
+}
+/*nano*/
+/** initial setup **/
+.nano {
+  position : relative;
+  width    : 100%;
+  height   : 233px;
+  overflow : hidden;
+}
+.nano > .nano-content {
+  position      : absolute;
+  overflow      : scroll;
+  overflow-x    : hidden;
+  top           : 0;
+  right         : 0;
+  bottom        : 0;
+  left          : 0;
+  margin-top    : 15px;
+}
+.nano > .nano-content:focus {
+  outline: thin dotted;
+}
+.nano > .nano-content::-webkit-scrollbar {
+  display: none;
+}
+.has-scrollbar > .nano-content::-webkit-scrollbar {
+  display: block;
+}
+.nano > .nano-pane {
+    background : #1a85ca;
+    position   : absolute;
+    bottom     : 0;
+    visibility : hidden\9; /* Target only IE7 and IE8 with this hack */
+    opacity    : .01;
+    -webkit-transition    : .2s;
+    -moz-transition       : .2s;
+    -o-transition         : .2s;
+    transition            : .2s;
+    right: 26px;
+    top: 15px;
+    width: 1px;
+}
+.nano > .nano-pane > .nano-slider {
+    background: #1a85ca none repeat scroll 0 0;
+    border-radius: 2px;
+    margin: 0 -3px;
+    position: relative;
+    width: 7px;
+}
+.nano:hover > .nano-pane, .nano-pane.active, .nano-pane.flashed {
+  visibility : visible\9; /* Target only IE7 and IE8 with this hack */
+  opacity    : 0.99;
+}
+.dealer__location-dropdown {
+    position: absolute;
+    height: 45px;
+    width: 270px;
+    border: 1px solid #cfcfcf;
+    color: #404040;
+    cursor: pointer;
+    font-size: 14px;
+    overflow: hidden;
+    right: 0;
+    z-index: 100;
+    background: #fff;
+}
+.dropdown-list {
+    padding: 0 20px;
+    margin: 0px !important;
+}
+.dropdown-first {
+    padding: 0 20px;
+    position: relative;
+    z-index: 110;
+}
+.dropdown-item {
+    color: #303030;
+    cursor: pointer;
+    display: block;
+    font-family: "HyundaiSans";
+    font-size: 15px;
+    padding: 6px 0;
+	width: 230px;
+}
+.dropdown-item.active {
+    color: #1a85ca;
+}
+.dropdown-item.first {
+    background-color: #fff;
+    background-image: url("/media/img/dropdown-icon.png");
+    background-position: 218px -7px;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #fff;
+    margin: 7px 0 0;
+    padding-left: 25px;
+    width: 205px;
+    z-index: 120;
+    box-sizing: content-box;
+}
+.dropdown-item.first-active {
+    background-position: 218px -52px;
+    border-bottom: 1px solid #ebebeb;
+    color: #ababab;
+    padding-bottom: 14px;
+    padding-left: 0;
+    width: 230px;
+}
+.dropdown-item.first::before {
+    background: transparent url("/media/img/map-icon.png") no-repeat scroll center center;
+    content: "";
+    display: inline-block;
+    height: 18px;
+    left: 14px;
+    position: absolute;
+    width: 25px;
+}
+.dropdown-item.divider {
+    color: #ebebeb;
+    cursor: default;
+    font-weight: bolder;
+}
+.dropdown-item.divider:hover {
+    color: #ebebeb;
+}
+.dropdown-item.first-active:before{
+    display: none;
+}
+.dropdown-item.first:hover {
+    color: #ababab;
+}
+.dropdown-item:hover {
+    color: #1a85ca;
+}
+/*      infowindow     */
+.infoWindow-close {
+    background: transparent url("/media/img/map-icon-close.png") no-repeat scroll center center;
+    right: 20px !important;
+    top: 20px !important;
+}
+.hideThis {
+    display: none;
+}
+.gm-style-parent {
+    background: #fff;
+     width: auto !important;
+     height: auto !important;
+}
+.gm-style-parent:after {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #fff;
+    border-width: 8px;
+    margin-top: -8px;
+}
+.gm-style-child-1 {
+    border: none !important;
+    border-radius: none !important;
+}
+.gm-style-child-2 {
+    background: none !important;
+    box-shadow: none !important;
+    border-radius: unset !important;
+}
+.gm-style-child-4 {
+    border-radius: unset !important;
+}
+.gm-style-child-trin {
+    box-shadow: none !important;
+}
+/*remove these importants - cssstyleru conflicting*/
+.dealer-info {
+    background-color: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.dealer-test-drive {
+    background: #1a85ca url("/media/img/map-icon-arrow.png") no-repeat scroll 150px center;
+    box-sizing: border-box;
+    width: 210px;
+    height: 45px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 45px;
+    text-transform: uppercase;
+    background-color: #1a85ca;
+    color: #fff;
+    padding: 0 16px 0 0;
+}
+.dealer-test-drive_parent-link:hover {
+    text-decoration: none;
+}
+.dealer-name {
+    font-size: 20px;
+    font-family: "HyundaiSans";
+    color: #303030;
+    text-align: left;
+    line-height: 1.1;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 25px !important;
+    padding-bottom: 15px !important;
+}
+.pop_text {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 15px !important;
+}
+.pop_text > span {
+    display: block;
+    margin-bottom: 5px;
+}
+.pop_text .dealer-site a {
+    color: #1a85ca;
+    white-space: nowrap;
+}
+.gm-style .gm-style-iw {
+    overflow: hidden !important;
+    width: 210px !important;
+    height: auto !important;
+    padding: 25px !important;
+    position: relative !important;
+    box-sizing: content-box;
+}
+.gm-style-iw .call-to-dealer {
+    display: none;
+}
+/*--------------listing-------------*/
+.dealer__map_results {
+    width: 940px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.dealer__map_results__city {
+    font-size: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #1a85ca;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0 0 15px;
+}
+.dealer-info-box {
+    margin: 10px 0;
+}
+.dealer-info-box .dealer-test-drive_parent-link {
+    display: none;
+}
+/*remove these importants - cssstyleru conflict*/
+
+.dealer-info-box .dealer-info {
+    display: inline-block;
+    height: 185px;
+    margin: 10px 10px 10px 0 !important;
+    vertical-align: top;
+    width: 300px;
+}
+.pop_body {
+    height: 100%;
+}
+.dealer-info-box .dealer-name {
+    border: medium none;
+    margin: 0 !important;
+    padding-bottom: 15px !important;
+}
+.dealer-info-box .pop_text > span {
+    font-size: 16px;
+}
+.dealer-info-box .pop_text > span.dealer-address {
+    color: #303030;
+    line-height: 1.3;
+    max-width: 270px;
+    min-height: 45px;
+    text-decoration: underline dashed #808080;
+}
+.dealer-info-box .pop_text > span.dealer-address:hover{
+    text-decoration: none;
+}
+.dealer-info-box .pop_text > span.dealer-phone {
+    color: #404040;
+    font-size: 15px;
+    font-weight: bold;
+}
+.dealer-info-box-devider {
+    background-color: #e6e6e6;
+    height: 1px;
+    margin: 35px 0;
+    width: 100%;
+}
+.dealer-info-box .call-to-dealer a.zingaya_button1370324828422 {
+    background-image: url("/media/img/call-to-dealer-icon-off.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    display: inline-block;
+    float: none;
+    height: 42px;
+    margin: 0 !important;
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px solid #1a85ca;
+    font-size: 11px;
+    font-family:"Arial Black", Gadget, Arial, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    padding: 12px 0 0 32px;
+    color: #1a85ca;
+    text-transform: uppercase;
+    transition: background 100ms, color 100ms;
+}
+.dealer-info-box .call-to-dealer a.zingaya_button1370324828422:hover {
+    background-image: url("/media/img/call-to-dealer-icon-on.png");
+    background-color: #1a85ca;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    color: #fff;
+    text-decoration: none;
+}
+.nano > .nano-content:focus {
+    outline: none;
+}
+.fleft {
+    float: left;
+}
+.fright {
+	float: right;
+}
+.skyblue{
+	color: #1a85ca !important;
+}
+.offers__listing {
+	display: block;
+	margin: 30px 0 35px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.offers__listing__item-skyblue {
+	padding: 0 0 15px 35px;
+	list-style: none;
+	position: relative;
+}
+.offers__listing__item-skyblue::before {
+	display: block;
+    position: absolute;
+	content: '';
+    background-color: #1a85ca;
+    border-radius: 5px;
+    top: 10px;
+    left: 0;
+    margin: 0;
+    width:10px;
+    height:10px;
+}
+.dashedskyblue::after {
+    background: transparent;
+    border-bottom: 1px dashed #1a85ca;
+    bottom: -2px;
+    content: "";
+    display: block;
+    height: 8px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    -webkit-transition: border 200ms ease 0s;
+    -moz-transition: border 200ms ease 0s;
+    -o-transition: border 200ms ease 0s;
+    -ms-transition: border 200ms ease 0s;
+    transition: border 200ms ease 0s;
+}
+.dashedskyblue:hover::after {
+    border-bottom: 1px dashed transparent;
+}
+.underlined::after {
+	background: transparent none repeat scroll 0px 0px;
+    border-top: 1px solid #1a85ca;
+    bottom: -3px;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    -webkit-transition: border 200ms ease 0s;
+    -moz-transition: border 200ms ease 0s;
+    -o-transition: border 200ms ease 0s;
+    -ms-transition: border 200ms ease 0s;
+    transition: border 200ms ease 0s;
+}
+.underlined:hover::after {
+    border-top: 1px solid transparent;
+}
+.offers__content-togglers {
+	margin: 45px 0 50px;
+}
+.offers__content-togglers .offers__content-toggler-item {
+    border: 2px solid #1a85ca;
+    box-sizing: border-box;
+    width: 260px;
+    line-height: 51px;
+    font-size: 14px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1a85ca;
+    cursor: pointer;
+    background: #fff;
+    position: relative;
+    -o-transition: background 200ms, color 200ms;
+    -webkit-transition: background 200ms, color 200ms;
+    -moz-transition: background 200ms, color 200ms;
+    -ms-transition: background 200ms, color 200ms;
+    transition: background 200ms, color 200ms;
+}
+.offers__content-togglers .offers__content-toggler-item.underlined.current::after {
+    width: 0 !important;
+    height: 0 !important;
+    bottom: 0 !important;
+    padding: 0 !important;
+    margin: 0 0 0 -5px;
+    content: "";
+    display: block;
+    left: 50% !important;
+    top: 52px;
+    border-color: #1a85ca transparent transparent;
+    background: transparent;
+    border-style: solid;
+    border-width: 10px;
+    position: absolute;
+    transition: border 0ms !important;
+}
+.offers__content-togglers .offers__content-toggler-item.underlined.current:hover::after {
+    width: 0 !important;
+    height: 0 !important;
+    bottom: 0 !important;
+    padding: 0 !important;
+    margin: 0 0 0 -5px;
+    left: 50% !important;
+    top: 52px;
+    border-color: #1a85ca transparent transparent;
+    border-width: 10px;
+}
+.offers__content-togglers .offers__content-toggler-item.current{
+    color: #fff;
+    background: #1a85ca;
+    cursor: default;
+    -moz-transition: background 200ms;
+    -o-transition: background 200ms;
+    -webkit-transition: background 200ms;
+    -moz-transition: background 200ms;
+    transition: background 200ms;
+}
+/* configuring underline to each element*/
+.offers__content-togglers .offers__content-toggler-item.underlined:first-child::after {
+    left: 95px;
+    width: 26%;
+}
+.offers__content-togglers .offers__content-toggler-item.underlined::after {
+    left: 27px;
+    width: 79%;
+    bottom: 14px;
+    border-top: 1px solid transparent;
+    transition: border-color 200ms !important;
+}
+.offers__content-togglers .offers__content-toggler-item:hover.underlined::after {
+    border-top: 1px solid #1a85ca;
+}
+.offers__head-image {
+    display: block;
+    left: 50%;
+    margin-left: -950px;
+    position: relative;
+    width: 1900px;
+}
+/*  BASE  */
+.offers__main {
+	width: 100%;
+}
+.offers__container {
+	width: 940px;
+	margin: 0 auto;
+}
+.hpromise-content-hide {
+	display: none;
+}
+.hpromise-content-hide.current {
+	display: block;
+}
+.offers__breadcrumbs {
+	margin: 30px auto 0;
+}
+.offers__breadcrumbs ul li {
+	display: inline-block;
+	color: #a5a5a5;
+	font-size: 13px;
+	font-family: "Arial", sans-serif;
+	text-align: left;
+	z-index: 25;
+}
+.offers__breadcrumbs ul li a{
+	color: #a5a5a5;
+}
+.breadcrumbs-fromtop {
+/* 	margin-top: 100px; */
+	margin-bottom: 10px;
+}
+.offers__content-title {
+    font-family: "HyundaiSansHead";
+	font-weight: normal;
+    color: #303030;
+    font-size: 45px;
+    margin: 0 auto 20px;
+    text-align: left;
+}
+h2.offers__content-title {
+	font-family: "ModernHLight";
+    font-size: 30px;
+    margin: 0 auto 20px;
+}
+/*
+text
+*/
+.offers__text {
+	font-size: 16px;
+	font-family: "Arial", sans-serif;
+	color: rgb(64,64,64);
+	line-height: 1.625;
+}
+.offers__text sup{
+	font-weight: bolder;
+	font-size: 0.7em;
+}
+/* style banners */
+
+.offers__prefooter-banner {
+	width: 100%;
+	margin: 0 auto;
+	background: #fff;
+}
+.offers__prefooter-banner__subscribe {
+	width: 940px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.offers__prefooter-banner__subscribe .subscribe-q {
+    color: rgb(136,136,136);
+    float: left;
+    font-family: "ModernHLight";
+    font-size: 27px;
+    line-height: 48px;
+    text-align: left;
+}
+.offers__prefooter-banner__subscribe .subscribe-btn {
+	float: right;
+	width: 185px;
+	height: 48px;
+	font-size: 12px;
+	font-family: Arial,sans-serif;
+	font-weight: 900;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 50px;
+	text-align: center;
+	background: #1a85ca;
+	transition: background 200ms;
+}
+.offers__prefooter-banner__subscribe .subscribe-btn:hover {
+	text-decoration: none;
+	background: #1fa1f5;
+}
+.offers__prefooter-banner__biglinks {
+	width: 1200px;
+	margin: 0 auto;
+}
+.offers__prefooter-banner__biglinks .biglinks__unit {
+	float: left;
+	height: 265px;
+	width: 400px;
+	position: relative;
+}
+.offers__prefooter-banner__biglinks .biglinks__unit__wrap-link {
+	display: block;
+}
+.offers__prefooter-banner__biglinks .biglinks__unit .biglinks__unit__title {
+	position: absolute;
+	top: 25px;
+	left: 30px;
+	font-size: 26px;
+	font-family: "ModernHMedium";
+	color: #fff;
+	line-height: 1.08;
+}
+.offers__prefooter-banner__biglinks .biglinks__unit .biglinks__unit__link {
+	position: absolute;
+	bottom: 25px;
+	left: 30px;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 28px;
+	background: rgba(0,0,0,0) url("/media/img/icon-arrow-offers-banners-link.png") no-repeat center right;
+	padding-right: 38px;
+}
+
+/*
+1. OFFERS DEVIDER STYLES
+*/
+.offers-divider {
+	background: #f5f5f5;
+}
+.offers_divider__content {
+}
+.offers_divider__content__title {
+    color: #1a85ca;
+    font-family: "HyundaiSansHead";
+    font-weight: normal;
+    font-size: 45px;
+    margin: 0px auto 25px;
+    text-align: left;
+}
+.offers_divider__content__offers-grid-section {
+	width: 100%;
+	margin-bottom: 25px;
+}
+.insection-offer-unit {
+	position: relative;
+	float: left;
+	margin-bottom: 10px;
+	width: 465px;
+/* 	height: 275px; */
+	height: 330px;
+}
+.insection-offer-unit:nth-child(odd) {
+	margin-right: 10px;
+}
+.insection-offer-unit:nth-child(even) {
+}
+.insection-offer-unit .insection-offer-unit__back-img {
+    min-height: 100%;
+    min-width: 100%;
+}
+.insection-offer-unit .insection-offer-unit__info {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(50,50,50,.8);
+	padding: 15px 20px;
+	min-height: 85px;
+	-ms-transition:		background .15s ease;
+	-moz-transition:	background .15s ease;
+	-webkit-transition: background .15s ease;
+	transition: 		background .15s ease;
+}
+.insection-offer-unit:hover .insection-offer-unit__info {
+	background: #3597CC;
+}
+.insection-offer-unit .insection-offer-unit__info span.name,
+.insection-offer-unit .insection-offer-unit__info span.addinfo {
+	color: #fff;
+	display: block;
+}
+.insection-offer-unit .insection-offer-unit__info span.name {
+	font-family: "HyundaiSans";
+	margin-bottom: 10px;
+
+	font-size: 18px;
+	line-height: 1.2;
+}
+.insection-offer-unit .insection-offer-unit__info span.addinfo {
+	font-size: 15px;
+	font-family: "Arial", sans-serif;
+}
+.insection-offer-unit .insection-offer-unit__link {
+	display: block;
+	height: 100%;
+	overflow: hidden;
+}
+.insection-offer-unit:hover .insection-offer-unit__back-img {
+    opacity: 1;
+}
+.hpromise-main {
+    background: #fff;
+    overflow: hidden;
+}
+.hpromise-main .offers__prefooter-banner {
+	background: #f5f5f5;
+}
+.offers__content-hide {
+}
+.hpromise-content__terms {
+    margin-bottom: 45px;
+}
+.v-listing {
+	width: 100%;
+	margin: 25px 0;
+    padding: 0 0 25px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.v-listing__col {
+	width: 50%;
+	float: left;
+}
+.v-listing .offers__text.v-listing__numeric {
+	display: inline-block;
+    margin: 0 0 25px;
+    padding: 0 0 0 50px;
+    position: relative;
+    width: 80%;
+}
+.v-listing .offers__text.v-listing__numeric::before {
+    background-color: #1a85ca;
+    border-radius: 50%;
+    color: #ffffff;
+    content: "1";
+    display: block;
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    left: 0;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0 13px 0 12px;
+    position: absolute;
+    top: 0;
+}
+.v-listing .v-listing__col:nth-child(1) .offers__text.v-listing__numeric:nth-child(2)::before {content: "2"}
+.v-listing .v-listing__col:nth-child(1) .offers__text.v-listing__numeric:nth-child(3)::before {content: "3"}
+.v-listing .v-listing__col:nth-child(2) .offers__text.v-listing__numeric:nth-child(1)::before {content: "4"}
+.v-listing .v-listing__col:nth-child(2) .offers__text.v-listing__numeric:nth-child(2)::before {content: "5"}
+.v-listing .v-listing__col:nth-child(2) .offers__text.v-listing__numeric:nth-child(3)::before {content: "6"}
+.hpromise-content__sale {
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+.v-listing.cars-list {
+    padding-bottom: 0;
+	margin: 45px 0;
+	width: 100%;
+	overflow: hidden;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 0;
+}
+.cars-list .cars-list__row {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 35px 0 40px;
+    width: 100%;
+}
+.cars-list__row-item {
+    box-sizing: border-box;
+    float: left;
+    padding-left: 50px;
+    width: 470px;
+}
+.cars-list__row-item:first-child {
+    padding-left: 0;
+    width: 470px;
+}
+.cars-list__row-item__title {
+    color: #303030;
+    font-family: ModernHMedium;
+    font-size: 26px;
+    margin: 0;
+    text-align: left;
+}
+.cars-list__row-item__sales_wrap {
+	width: 420px;
+	margin-top: 10px;
+}
+.cars-list__row-item__sales__label {
+	display: block;
+    font-family: Arial,sans-serif;
+    font-weight: 500;
+	font-size: 17px;
+/* 	color: rgb(180,180,180); */
+	color: #555;
+	margin: 25px 0 10px;
+}
+.cars-list__row-item__sales .offer-price-count {
+	margin: 0;
+    color: #0d75ba;
+	font-size: 22px;
+}
+.cars-list__row-item__sales .offer-price-count::after {
+/* 	content: "<span class='rouble'>р</span>"; */
+/* 	background: rgba(0, 0, 0, 0) url("../img/rub.png") no-repeat scroll 2px 3px / 14px auto; */
+	z-index: 1;
+}
+.cars-list__row-item__img {
+	max-width: 260px;
+}
+.cars-list__row-item__buttons {
+	margin-top: 25px;
+}
+.cars-list__row-item__buttons a.offer-actions__button.config{
+	background-color: transparent;
+    color: #1a85ca;
+    width: 180px;
+    padding: 0 0 0 50px;
+    height: 55px;
+    background-size: 45px;
+    background-position: 5px 5px;
+    font-size: 11px;
+    font-weight: 600;
+}
+.cars-list__row-item__buttons a.offer-actions__button.config:hover{
+    background-position: 5px -169px;
+/* 	color: #fff; */
+/* 	text-decoration: none; */
+}
+.cars-list__row-item__buttons .cars-list__row-item__buttons__car-about {
+    font-size: 16px;
+    font-family: "Arial", Arial, sans-serif;
+    color: #1a85ca;
+    text-decoration: none;
+    padding-right: 15px;
+    margin-left: 120px;
+    background: rgba(0, 0, 0, 0) url("../img/offers/hpromise/hp_elements/hp_icon_link.png") no-repeat scroll right 6px;
+    position: relative;
+    top: 15px;
+}
+.cars-list__row-item__buttons .cars-list__row-item__buttons__car-about:hover {
+    text-decoration: none;
+}
+.cars-list__row-item__buttons .cars-list__row-item__buttons__car-about.underlined::after {
+    width: 90%;
+}
+.hpromise-content__sale__footnote .offers__text {
+	color: #959595;
+	font-size: 15px;
+}
+.hpromise-content__sale__footnote .offers__text:first-child {
+	margin-bottom: 30px;
+}
+.hpromise-content__docs {
+	overflow: hidden;
+}
+.docs__listing .offers__listing__item-skyblue{
+	padding-bottom: 25px;
+}
+.hpromise-oldcar-features {
+	margin: 50px 0;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.hpromise-oldcar-features__item {
+	width: 134px;
+	float: left;
+}
+.hpromise-oldcar-features__item > * {
+	margin: 0 auto;
+	display: block;
+}
+.offers__text.hpromise-oldcar-features__item__text {
+	text-align: center;
+	font-size: 15px;
+	color: rgb(75,75,75);
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	line-height: 1.1;
+}
+.hpromise-oldcar-features__item__img {
+	margin-bottom: 25px;
+}
+.hpromise-content__map {
+}
+.hpromise-toggler-area {
+	position: relative;
+}
+/*REWRITE Z-INDEX TO HIDE DROPDOWN UNDER TOPMENU*/
+.hpromise-content__map .dealer__location-dropdown {
+	z-index: 55;
+	position: relative;
+}
+.hpromise-content__map__head {
+ 	position: relative;
+	width: 900px;
+	margin: 0 auto;
+}
+.hpromise-content__map .toggles-dropdown-wrap {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.hpromise-content__map .offers__content-title {
+	margin-bottom: 30px;
+}
+.hpromise-content__map .hpromise-toggler__map {
+	margin: 0 0 0 12px;
+}
+.hpromise-content__map .hpromise-toggler__map .hpromise-toggler__map-item {
+    width: 96px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 11px;
+    font-weight: 900;
+    border: 2px solid #1a85ca;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1a85ca;
+    cursor: pointer;
+    background-color: transparent;
+    position: relative;
+    transition: background 200ms ease 0s, color 200ms ease 0s;
+}
+.hpromise-content__map .hpromise-toggler__map .hpromise-toggler__map-item.current {
+    background-color: #1a85ca;
+    color: #fff;
+    cursor: default;
+}
+/* CONFIGURING TOGGLERS UNDERLINE ON HOVER*/
+/* REWRITING '.UNDERLINED' CLASS */
+.hpromise-content__map .hpromise-toggler__map .hpromise-toggler__map-item.underlined.current::after {
+    border-top: 1px solid transparent;
+    transition: border 200ms;
+}
+.hpromise-content__map .hpromise-toggler__map .hpromise-toggler__map-item.underlined.current:hover::after {
+    border-top: 1px solid transparent;
+    transition: border 200ms;
+}
+.hpromise-content__map .hpromise-toggler__map .hpromise-toggler__map-item.underlined:first-child::after {
+    left: 25px;
+    width: 46%;
+}
+.hpromise-content__map .hpromise-toggler__map .hpromise-toggler__map-item.underlined::after {
+    left: 20px;
+    width: 58%;
+    bottom: 10px;
+    border-top: 1px solid transparent;
+}
+.hpromise-content__map .hpromise-toggler__map .hpromise-toggler__map-item.underlined:hover.underlined::after {
+    border-top: 1px solid #1a85ca;
+}
+.dealer__map_container {
+    display: none;
+    margin-bottom: 35px;
+    position: relative;
+    width: 100%;
+}
+.dealer__map_container .dealer__map_results.hpromise-dealers-tab__list {
+    display: none;
+    height: 100%;
+    left: 0;
+    margin: 0 auto;
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 940px;
+}
+.dealer__map_container .dealer__map_results.hpromise-dealers-tab__list.current {
+    display: block;
+}
+.dealer__map_container .hpromise-dealers-tab__map {
+    display: none;
+}
+.dealer__map_container .hpromise-dealers-tab__map.current {
+    display: block;
+}
+.dealer-info-hpromise {
+    border-top: 1px solid #e6e6e6;
+    padding: 25px 0;
+}
+.dealer-info-hpromise:last-child {
+    border-bottom: 1px solid #e6e6e6;
+}
+.dealer-info-hpromise__leftblock {
+    width: 100%;
+    overflow: hidden;
+}
+.dealer-info-hpromise .dealer-info-hpromise__leftblock > .dealer-name{
+    padding-bottom: 8px !important;
+    width: 100%;
+}
+.dealer-info-hpromise .dealer-info-hpromise__leftblock > .dealer-address {
+    color: #303030;
+    display: block;
+    max-width: 470px;
+    text-decoration: underline dashed #808080;
+}
+.dealer-info-hpromise .dealer-info-hpromise__leftblock > .dealer-address:hover{
+    text-decoration: none;
+}
+.dealer-info-hpromise .dealer-phone {
+    background: transparent url("../img/offers/hpromise/hp_elements/hp_icon-phone.png") no-repeat scroll left 6px;
+    color: #404040;
+    display: block;
+    padding: 0 0 0 20px;
+    width: 170px;
+}
+.dealer-info-hpromise .dealer-site {
+    display: block;
+	width: 250px;
+    padding-right: 40px;
+    word-break: keep-all;
+}
+.dealer-info-hpromise .dealer-site a{
+    color: #1a85ca;
+    text-decoration: none;
+}
+.dealer-info-hpromise .dealer-site:hover a{
+    text-decoration: underline;
+}
+.add-toggler-after-content{
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: #1a85ca !important;
+    display: inline-block;
+    margin-bottom: 35px;
+    position: relative;
+    text-decoration: none !important;
+}
+.add-toggler-after-content:hover::after {
+    border-top: 1px dashed #fff;
+}
+.add-toggler-after-content.current {
+    display: none;
+}
+.add-toggler-after-content::before {
+    background: transparent url("/media/img/icon-arrow-offers-banners-link-bluevar.png") no-repeat scroll center center;
+    content: "";
+    display: block;
+    height: 28px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -40px;
+    top: -5px;
+    width: 28px;
+}
+.add-toggler-after-content::after {
+    background: transparent none repeat scroll 0 0;
+    border-top: 1px dashed #1a85ca;
+    bottom: -3px;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    transition: border 200ms;
+}
+.add-toggler-after-content__wrap {
+    width: 940px;
+    margin: 0 auto;
+}
+.offer-actions__button {
+    background-color: #fff;
+    background-image: url("/media/img/buttons-sprite.png");
+    background-repeat: no-repeat;
+    border: 2px solid #1a85ca;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: Arial,AppleGothic,sans-serif,Helvetica;
+    font-size: 14px !important;
+    font-weight: bold;
+    height: 58px;
+    line-height: 52px;
+    padding: 0 0 0 68px;
+    text-transform: uppercase;
+    transition: background-color 100ms ease 0s, color 100ms ease 0s !important;
+    text-decoration: none !important;
+    width: 180px;
+}
+.offer-actions__button:hover {
+	background-color: #1a85ca !important;
+	color: #fff !important;
+}
+.offer-actions__button.config {
+    background-position: 0 0;
+    height: 58px !important;
+}
+.offer-actions__button.config:hover {
+	background-position: 0 -224px;
+}
+.offer-actions__button:first-child {
+    margin-right: 10px;
+}
+.offer-actions__button.testdrive {
+    background-position: 0 -172px;
+}
+.offer-actions__button.testdrive:hover {
+	background-position: 0 -396px;
+}
+.grey {
+	color: rgb(136, 136, 136);
+}
+.tradein-banner {
+	padding-left: 3px;
+}

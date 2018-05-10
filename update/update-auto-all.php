@@ -1,6 +1,8 @@
 <?php
 require ($_SERVER["DOCUMENT_ROOT"].'/bitrix/phpQuery.php');
 
+//include_once('script/update-auto.php');
+include_once('script/update-bu.php');
 include_once('script/update-auto.php');
 include_once('script/update-auto-lp.php');
 include_once('script/update-auto-sever.php');

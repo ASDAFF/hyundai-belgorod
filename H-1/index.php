@@ -1,9 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Купить Hyundai H1 в Воронеже. Цена на минивэн Хендай Старекс н1");
+$APPLICATION->SetPageProperty("description", "Купить автомобиль Hyundai H1 по выгодным ценам в Воронеже - компания \"Ринг Авто\" - дилер, который работает для вас - звоните +7 (473) 261-7777. Выгода до 220 000 рублей.");
+$APPLICATION->SetPageProperty("title", "Купить автомобиль Hyundai H1 по оптимальной цене в Воронеже - \"Ринг Авто\"");
 $APPLICATION->SetTitle("H-1");
 ?>
-
 
 
 

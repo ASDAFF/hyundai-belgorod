@@ -768,3 +768,15 @@
 2018-02-05 16:33:46 -  - exec CUpdateClientPartner::GetHTTPPage
 2018-02-05 16:33:46 -  - TIME GetUpdatesList(request) 0.314 sec
 2018-02-05 16:33:46 -  - exec CUpdateClientPartner::ParseServerData
+2018-04-13 10:54:21 -  - exec CUpdateClientPartner::GetUpdatesList
+2018-04-13 10:54:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2018-04-13 10:54:21 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=hyundai-ringauto.ru&LICENSE_KEY=X&SUPD_STS=5&SUPD_URS=0&SUPD_URSA=7&TYPENC=E&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.21&instm=main%2C16.5.4%2CN%3Baltasib.feedback%2C2.5.1%2CN%3Bsocialservices%2C16.5.4%2CN%3Bfileman%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Bsearch%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bkarudo.vcs%2C1.1.5%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Basd.iblock%2C4.6.6%2CN%3Bartrix.imageoptimizer%2C1.0.6%2CN%3Basd.tplvars%2C1.5.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bseo%2C16.0.3%2CN%3Bcompression%2C16.0.0%2CN&reqm=altasib.feedback%2Cthebrainstech.copyiblock%2Cbitrix.sitecorporate%2Ckarudo.vcs%2Casd.iblock%2Cartrix.imageoptimizer%2Casd.tplvars&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2018-04-13 10:54:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2018-04-13 10:54:22 -  - TIME GetUpdatesList(request) 0.432 sec
+2018-04-13 10:54:22 -  - exec CUpdateClientPartner::ParseServerData
+2018-05-10 11:22:59 -  - exec CUpdateClientPartner::GetUpdatesList
+2018-05-10 11:22:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2018-05-10 11:22:59 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=hyundai-ringauto.ru&LICENSE_KEY=X&SUPD_STS=5&SUPD_URS=0&SUPD_URSA=7&TYPENC=E&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.21&instm=main%2C16.5.4%2CN%3Baltasib.feedback%2C2.5.1%2CN%3Bsocialservices%2C16.5.4%2CN%3Bfileman%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Bsearch%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bkarudo.vcs%2C1.1.5%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Basd.iblock%2C4.6.6%2CN%3Bartrix.imageoptimizer%2C1.0.6%2CN%3Basd.tplvars%2C1.5.1%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bseo%2C16.0.3%2CN%3Bcompression%2C16.0.0%2CN&reqm=altasib.feedback%2Cthebrainstech.copyiblock%2Cbitrix.sitecorporate%2Ckarudo.vcs%2Casd.iblock%2Cartrix.imageoptimizer%2Casd.tplvars&SUPD_SRS=RU&SUPD_CMP=Y
+2018-05-10 11:22:59 -  - exec CUpdateClientPartner::GetHTTPPage
+2018-05-10 11:23:00 -  - TIME GetUpdatesList(request) 0.469 sec
+2018-05-10 11:23:00 -  - exec CUpdateClientPartner::ParseServerData

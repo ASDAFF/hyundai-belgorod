@@ -1,0 +1,22 @@
+.tips_wrap {
+    border-bottom: 1px solid #d5d5d5;
+    padding: 0 0 15px;
+}
+.tips {
+    background: rgba(0, 0, 0, 0) url(/media/img/arrow_list_down_2.gif) no-repeat scroll right 19px;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 0 0;
+}
+.advice {
+    display: none;
+    padding: 7px 0 3px;
+}
+.advice ul{
+    margin-left:40px;
+}
+.advice ul li{
+	list-style: disc;
+}

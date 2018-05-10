@@ -1,7 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Официальный дилер Hyundai в Воронеже. Автосалон Хёндэ");
-$APPLICATION->SetTitle("Мебельная компания");
+$APPLICATION->SetPageProperty("description", "Продажа новых Hyundai в Воронеже по оптимальным ценам всех комплектаций в салоне официального дилера Ринг Авто - звоните +7 (473) 261-7777. Выгода до 220 000 рублей.");
+$APPLICATION->SetPageProperty("title", "Купить новый Hyundai у официального дилера по выгодной цене - продажа автомобилей в Воронеже, каталог комплектаций | ООО \"Ринг Авто\"");
+$APPLICATION->SetTitle("Автосалон Hyundai ");
 ?>
 
 

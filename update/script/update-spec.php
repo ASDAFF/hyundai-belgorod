@@ -92,6 +92,7 @@ foreach($upload_file as $file):
         $PROP['NEW_PRICE'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->NEW_PRICE));
         $PROP['PRICE_OT_IMPORTERA'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->PRICE_OT_IMPORTERA));
         $PROP['CREDIT'] = (string)$cont->CREDIT;
+        $PROP['VIGODA'] = str_replace(" ", "", $cont->VIGODA);
 
 
 

@@ -78,3 +78,12 @@
     })();
 </script>
 <script type="text/javascript" src="//cdn.perezvoni.com/widget/js/przv.js?przv_code=4116-773dfffea-f2c47-c4713a9-47826773dfffea-26773dfffea" ></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116829458-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-116829458-1');
+</script>

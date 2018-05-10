@@ -1,9 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Hyundai Santa Fe цена в Воронеже. Купить новый Хендай Санта Фе у официального дилера.");
+$APPLICATION->SetPageProperty("description", "Купить новый Hyundai Santa Fe по выгодным ценам в салоне официального дилера Ринг Авто, все комплектации в наличии и на заказ, звоните +7 (473) 261-7777.");
+$APPLICATION->SetPageProperty("title", "Купить новый Hyundai Santa Fe по оптимальной цене в Воронеже - продажа автомобилей от официального дилера в наличии и на заказ | \"Ринг Авто\"");
 $APPLICATION->SetTitle("SantaFe");
 ?>
-
     <link type="text/css" href="http://www.hyundai.ru/media/css/cars/cars_common.css" rel="stylesheet" />
     <link type="text/css" href="http://www.hyundai.ru/media/css/cars/pip_flat_spritespin.css" rel="stylesheet" />
     <link type="text/css" href="http://www.hyundai.ru/media/css/cars/pip_flat_SF.css" rel="stylesheet" />
