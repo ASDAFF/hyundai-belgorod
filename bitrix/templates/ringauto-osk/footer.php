@@ -309,7 +309,7 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
                     <?
                     if(CModule::IncludeModule('iblock')):
                         $arSelect = Array("ID", "NAME","CODE");
-                        $arFilter = Array("IBLOCK_ID" => 7, "ACTIVE"=>"Y");
+                        $arFilter = Array("IBLOCK_ID" => 36, "ACTIVE"=>"Y");
                         $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
                         while($ob = $res->GetNextElement())
                         {
