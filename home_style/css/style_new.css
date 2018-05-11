@@ -2699,7 +2699,8 @@ html.is-spreader-active body {
     font-family: "HyundaiSansHead", "Hevetica", Arial, sans-serif;
     font-size: 1.1538461538em;
     color: #333;
-    letter-spacing: .01em
+    letter-spacing: .01em;
+    font-weight: normal!important;
 }
 
 .main-nav__item:hover {

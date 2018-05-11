@@ -1,11 +1,12 @@
 <?php
-
+define("IBLOCK_ID_MODEL",36);
+define("IBLOCK_ID_OFFER",8);
 
 function price_to_url($url){
     $url = str_replace('/','',$url);
     if(CModule::IncludeModule("iblock")) {
         $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
-        $arFilter = Array("IBLOCK_ID" => 7, "CODE" => $url);
+        $arFilter = Array("IBLOCK_ID" => IBLOCK_ID_MODEL, "CODE" => $url);
         $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
         while ($ob = $res->GetNextElement()) {
             $arProps = $ob->GetProperties();
@@ -21,7 +22,7 @@ function profit_to_url($url){
     $url = str_replace('/','',$url);
     if(CModule::IncludeModule("iblock")) {
         $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
-        $arFilter = Array("IBLOCK_ID" => 7, "CODE" => $url);
+        $arFilter = Array("IBLOCK_ID" => IBLOCK_ID_MODEL, "CODE" => $url);
         $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
         while ($ob = $res->GetNextElement()) {
             $arProps = $ob->GetProperties();
@@ -35,22 +36,10 @@ function profit_to_url($url){
 
 function desc_model_to_url($url){
 
-    if($_SERVER['HTTP_HOST'] == 'hyundai-ringauto-lip.ru'){
-        $id_mod = 26;
-    }elseif($_SERVER['HTTP_HOST'] == 'hyundai-oskol.ru'){
-        $id_mod = 36;
-    }elseif($_SERVER['HTTP_HOST'] == 'hyundai-ringsever.ru'){
-        $id_mod = 45;
-    }elseif($_SERVER['HTTP_HOST'] == 'hyundai-belgorod.ru'){
-        $id_mod = 67;
-    }else{
-        $id_mod = 7;
-    }
-
     $url = str_replace('/','',$url);
     if(CModule::IncludeModule("iblock")) {
         $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
-        $arFilter = Array("IBLOCK_ID" => $id_mod, "CODE" => $url);
+        $arFilter = Array("IBLOCK_ID" => IBLOCK_ID_MODEL, "CODE" => $url);
         $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
         while ($ob = $res->GetNextElement()) {
             $arProps = $ob->GetProperties();
@@ -203,35 +192,15 @@ function offers_filter_promo($url){
 
     $url = str_replace('/','',$url);
 
-    if($_SERVER['HTTP_HOST'] == 'hyundai-ringauto-lip.ru'){
-        $id_mod = 26;
-        $id_spec = 25;
-    }elseif($_SERVER['HTTP_HOST'] == 'hyundai-oskol.ru'){
-        $id_mod = 36;
-        $id_spec = 35;
-        //$id_spec = 8;
-        return false;
-    }elseif($_SERVER['HTTP_HOST'] == 'hyundai-ringsever.ru'){
-        $id_mod = 45;
-        //$id_spec = 47;
-        $id_spec = 8;
-		$noindex = true;
-    }elseif($_SERVER['HTTP_HOST'] == 'hyundai-belgorod.ru'){
-        $id_mod = 67;
-        $id_spec = 61;
-    }else{
-        $id_mod = 7;
-        $id_spec = 8;
-    }
-	
-	if($noindex) print "<noindex>";
+    return false;
 
     if(empty($url))
         $url = false;
 
+
     if(CModule::IncludeModule("iblock")) {
         $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PROPERTY_FOR_OFFER");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
-        $arFilter = Array("IBLOCK_ID" => $id_mod, "=CODE" => $url);
+        $arFilter = Array("IBLOCK_ID" => IBLOCK_ID_MODEL, "=CODE" => $url);
         $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
         if($ob = $res->GetNext()) {
             $offer_models = $ob['PROPERTY_FOR_OFFER_VALUE'];
@@ -268,7 +237,7 @@ function offers_filter_promo($url){
             ),
             "FILTER_NAME" => "offer_filter_auto",
             "HIDE_LINK_WHEN_NO_DETAIL" => "N",
-            "IBLOCK_ID" => $id_spec,
+            "IBLOCK_ID" => IBLOCK_ID_OFFER,
             "IBLOCK_TYPE" => "products",
             "INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
             "INCLUDE_SUBSECTIONS" => "Y",
@@ -325,9 +294,6 @@ function offers_filter_promo($url){
         }
 
     }
-
-	if($noindex) print "</noindex>";
-
 }
 
 
@@ -335,32 +301,12 @@ function offer_filter_auto($url){
 
     $url = str_replace('/','',$url);
 
-    if($_SERVER['HTTP_HOST'] == 'hyundai-ringauto-lip.ru'){
-        $id_mod = 26;
-        $id_spec = 25;
-    }elseif($_SERVER['HTTP_HOST'] == 'hyundai-oskol.ru'){
-        return false;
-        $id_mod = 36;
-        //$id_spec = 35;
-        $id_spec = 8;
-    }elseif($_SERVER['HTTP_HOST'] == 'hyundai-ringsever.ru'){
-        $id_mod = 45;
-        //$id_spec = 47;
-        $id_spec = 8;
-		$noindex = true;
-    }elseif($_SERVER['HTTP_HOST'] == 'hyundai-belgorod.ru'){
-        $id_mod = 67;
-        $id_spec = 61;
-    }else{
-        $id_mod = 7;
-        $id_spec = 8;
-    }
+    return false;
 
-	if($noindex) print "<noindex>";
 
     if(CModule::IncludeModule("iblock")) {
         $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
-        $arFilter = Array("IBLOCK_ID" => $id_mod, "CODE" => $url);
+        $arFilter = Array("IBLOCK_ID" => IBLOCK_ID_MODEL, "CODE" => $url);
         $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
         if($ob = $res->GetNextElement()) {
             $arProps = $ob->GetProperties();
@@ -397,7 +343,7 @@ function offer_filter_auto($url){
             ),
             "FILTER_NAME" => "offer_filter_auto",
             "HIDE_LINK_WHEN_NO_DETAIL" => "N",
-            "IBLOCK_ID" => $id_spec,
+            "IBLOCK_ID" => IBLOCK_ID_OFFER,
             "IBLOCK_TYPE" => "products",
             "INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
             "INCLUDE_SUBSECTIONS" => "Y",
@@ -455,7 +401,6 @@ function offer_filter_auto($url){
 
     }
 
-	if($noindex) print "</noindex>";
 
 }
 

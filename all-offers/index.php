@@ -178,8 +178,8 @@ $APPLICATION->SetTitle("all-offers");
                     </a>
                 </div>
      <div class="insection-offer-unit">
-                    <a href="http://hyundai-oskol.ru/promo/shin/" class="insection-offer-unit__link">
-                        <img src="http://hyundai-oskol.ru/media/offers_image/imgonline-com-ua-Resize-jPYZZ3HrFDH.jpg" alt="" class="insection-offer-unit__back-img">
+                    <a href="/promo/shin/" class="insection-offer-unit__link">
+                        <img src="/media/offers_image/imgonline-com-ua-Resize-jPYZZ3HrFDH.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
                             <span class="name">Бесплатное сезонное хранение шин. </span>
                             <span class="addinfo"></span>
@@ -187,8 +187,8 @@ $APPLICATION->SetTitle("all-offers");
                     </a>
                 </div>
  <div class="insection-offer-unit">
-                    <a href="http://hyundai-oskol.ru/promo/pokraska/" class="insection-offer-unit__link">
-                        <img src="http://hyundai-oskol.ru/media/offers_image/бампер0001111.jpg" alt="" class="insection-offer-unit__back-img">
+                    <a href="/promo/pokraska/" class="insection-offer-unit__link">
+                        <img src="/media/offers_image/бампер0001111.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
                             <span class="name">Покраска бампера - 30% </span>
                             <span class="addinfo"></span>
@@ -196,8 +196,8 @@ $APPLICATION->SetTitle("all-offers");
                     </a>
                 </div>
 <div class="insection-offer-unit">
-                    <a href="http://hyundai-oskol.ru/promo/diagnostica/" class="insection-offer-unit__link">
-                        <img src="http://hyundai-oskol.ru/media/offers_image/диагностика.jpg" alt="" class="insection-offer-unit__back-img">
+                    <a href="/promo/diagnostica/" class="insection-offer-unit__link">
+                        <img src="/media/offers_image/диагностика.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
                             <span class="name"> Диагностика ходовой - 320 руб. Регулировка развал-схождения колес - 1120 руб</span>
                             <span class="addinfo"></span>
