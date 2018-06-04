@@ -114,6 +114,13 @@ if(CModule::IncludeModule("iblock")):
         }
 
 
+        $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
+        $arFilter = Array("IBLOCK_ID"=>35, "PROPERTY_SpecId" => (string)$cont->SpecId,"PROPERTY_color_code" => (string)$cont->ColorCode,"PROPERTY_NEW_PRICE" => (string)$cont->NEW_PRICE);
+        $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
+        if ($arItem = $res->GetNext())
+        {
+            //var_dump((string)$cont->ColorCode);
+        }else{
 
             if(strlen((string)$cont->Description) < 1 OR (string)$cont->Description == "0"){$arPropsNo[(string)$cont->VIN][] = 'Description';}
             if(strlen((string)$cont->POWER) < 1 OR (string)$cont->POWER == "0"){$arPropsNo[(string)$cont->VIN][] = 'POWER (мощность двигателя)';}
@@ -142,14 +149,13 @@ if(CModule::IncludeModule("iblock")):
 
 
 
-            $url_hash = md5((string)$cont->MODEL.(string)$cont->SpecId.(string)$cont->ColorCode.(string)$cont->NEW_PRICE);
 
             $arLoadProductArray = Array(
                 "IBLOCK_SECTION_ID" => false,          // элемент лежит в корне раздела
                 "IBLOCK_ID"      => 35,
                 "PROPERTY_VALUES"=> $PROP,
                 "NAME"           => (string)$cont->MARK.' '.(string)$cont->MODEL.' '.(string)$cont->SpecName,
-                "CODE"           => $url_hash,
+                "CODE"           => translit((string)$cont->VIN),
                 "ACTIVE"         => "Y"            // активен
             );
 
@@ -178,7 +184,7 @@ if(CModule::IncludeModule("iblock")):
                 echo "Error: ".$el->LAST_ERROR;
             }
 
-
+        }
 
     }
 

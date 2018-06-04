@@ -7,5 +7,4 @@ $APPLICATION->SetTitle("NewSolaris");
 
 
 
-
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

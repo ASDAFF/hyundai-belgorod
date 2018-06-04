@@ -111,7 +111,7 @@ if(!empty($_GET['offer-filter'])){
 		"DISPLAY_PREVIEW_TEXT" => "Y",
 		"DISPLAY_TOP_PAGER" => "N",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => "8",
+		"IBLOCK_ID" => "61",
 		"IBLOCK_TYPE" => "products",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
 		"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",

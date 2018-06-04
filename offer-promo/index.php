@@ -34,7 +34,7 @@ $APPLICATION->SetTitle("offer");
 			"ELEMENT_ID" => $_REQUEST["ELEMENT_ID"],
 			"FIELD_CODE" => array("",""),
 			"FILE_404" => "",
-			"IBLOCK_ID" => "35",
+			"IBLOCK_ID" => "61",
 			"IBLOCK_TYPE" => "products",
 			"IBLOCK_URL" => "",
 			"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",

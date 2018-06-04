@@ -4,8 +4,8 @@ $(document).ready(function () {
 		isDisableIcons = false,
 		mapLoaded = false,
 		dealerInfoBoxCounter = 0,
-		currentCity = 'Старый Оскол',
-		address_setMapCenterRussia = "309537, Белгородская обл. г. Старый Оскол, просп. Алексея Угарова, 22";
+		currentCity = 'Белгород',
+		address_setMapCenterRussia = "308023, г. Белгород, улица Студенческая, 1 Ш";
 		isNanoBeingDragged = false;
 
 	var mapObj = {

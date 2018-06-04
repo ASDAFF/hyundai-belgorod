@@ -1,6 +1,8 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 
+
+
 if(CModule::IncludeModule("iblock")):
 
 
@@ -20,7 +22,8 @@ if(CModule::IncludeModule("iblock")):
 
 
 
-$xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new_car.xml',true);
+//$xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new_car_voronezh_hyundai_1.xml',true);
+$xml = file_get_contents("http://turbodealer.ru/export/ring_voronezh.xml",true);
 
 
 $xml = new SimpleXMLElement($xml);
@@ -77,8 +80,9 @@ foreach($xml->ContractList->Contract as $key => $cont){
         $PROP['DEFAULT_COMPLIT'][] = (string)$com;
     }
 
-    $PROP['OLD_PRICE'] = (string)$cont->OLD_PRICE;
-    $PROP['NEW_PRICE'] = (string)$cont->NEW_PRICE;
+    $PROP['OLD_PRICE'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->OLD_PRICE));
+    $PROP['NEW_PRICE'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->NEW_PRICE));
+    $PROP['PRICE_OT_IMPORTERA'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->PRICE_OT_IMPORTERA));
     $PROP['CREDIT'] = (string)$cont->CREDIT;
 
 
@@ -86,6 +90,7 @@ foreach($xml->ContractList->Contract as $key => $cont){
 
 
 
+    /*
     $dir = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/new/'),array('.','..'));
     foreach($dir as $d){
         $spec = explode('.',$d);
@@ -111,6 +116,12 @@ foreach($xml->ContractList->Contract as $key => $cont){
             }
         }
     }
+    */
+
+     foreach($cont->SLIDER->VALUE as $slider){
+         $PROP['SLIDER'][] = (string)$slider;
+     }
+
 
 
     $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
@@ -141,11 +152,18 @@ foreach($xml->ContractList->Contract as $key => $cont){
         if(strlen((string)$cont->number) < 1 OR (string)$cont->number == "0"){$arPropsNo[(string)$cont->VIN][] = 'number (Телефон)';}
         if(strlen((string)$cont->OLD_PRICE) < 1 OR (string)$cont->OLD_PRICE == "0"){$arPropsNo[(string)$cont->VIN][] = 'OLD_PRICE (Старая цена)';}
         if(strlen((string)$cont->NEW_PRICE) < 1 OR (string)$cont->NEW_PRICE == "0"){$arPropsNo[(string)$cont->VIN][] = 'NEW_PRICE (Цена продажи)';}
+        if(strlen((string)$cont->PRICE_OT_IMPORTERA) < 1 OR (string)$cont->PRICE_OT_IMPORTERA == "0"){$arPropsNo[(string)$cont->VIN][] = 'PRICE_OT_IMPORTERA (Цена от импортера)';}
         if(strlen((string)$cont->CREDIT) < 1 OR (string)$cont->CREDIT == "0"){$arPropsNo[(string)$cont->VIN][] = 'CREDIT (Скидка)';}
       //  if(strlen((string)$cont->OPTION_EQU->value[0]) < 1 OR (string)$cont->OPTION_EQU->value[0] == "0"){$arPropsNo['OPTION_EQU'][] = (string)$cont->VIN; $PROP['OPTION_EQU'][] = 'NaN';}
         if(strlen((string)$cont->DEFAULT_COMPLIT->value[0]) < 1 OR (string)$cont->DEFAULT_COMPLIT->value[0] == "0"){$arPropsNo[(string)$cont->VIN][] = 'DEFAULT_COMPLIT (Стандартная комплектация)';}
 
 
+        //если модел g80 или g90 делаем неактивной
+        if((string)$cont->MODEL == 'G80' OR (string)$cont->MODEL == 'G90'){
+            $active = 'N';
+        }else{
+            $active = 'Y';
+        }
 
 
         $arLoadProductArray = Array(
@@ -154,7 +172,7 @@ foreach($xml->ContractList->Contract as $key => $cont){
         "PROPERTY_VALUES"=> $PROP,
         "NAME"           => (string)$cont->MARK.' '.(string)$cont->MODEL.' '.(string)$cont->SpecName,
         "CODE"           => translit((string)$cont->VIN),
-        "ACTIVE"         => "Y"            // активен
+        "ACTIVE"         => $active            // активен
         );
 
 
@@ -163,12 +181,7 @@ foreach($xml->ContractList->Contract as $key => $cont){
 
 
 			
-				if(!empty($PROP['SLIDER'])){
-					//	print '<a href="/offer/'.(string)$cont->VIN.'/">'.(string)$cont->SpecName.'</a><br>';
-                    if(!preg_match('/preview/',implode($PROP['SLIDER']),$preg)){
-                        $arNoPrew[] = (string)$cont->VIN.' - '.(string)$cont->SpecId.' - '.(string)$cont->ColorCode . '(не найдено preview.jpg)';
-                    }
-					}else{
+				if(empty($PROP['SLIDER'])){
 						$arNoImg[] = (string)$cont->VIN.' - '.(string)$cont->SpecId.' - '.(string)$cont->ColorCode .'(не найдено фото)';
 					}
 
@@ -198,7 +211,7 @@ foreach($xml->ContractList->Contract as $key => $cont){
     $noCorrectAdmin = 'Из них некорректно оформлены свойства: '.count($arPropsNo);
     $noCorrectAdminPhoto = 'Из них некорректно оформлены фото: '.count($arNoImg);
 
-    $message = $xmlAll.'<br>'.$addAdmin.'<br>'.$noCorrectAdmin.'<br>'.$noCorrectAdminPhoto.'<br>---<br>'.$string.' <br>*********************<br>Нет фото VIN - SpecId - ColorCode:<br> '.implode("<br>", $arNoImg).'<br>'.implode("<br>", $arNoPrew);
+    $message = $xmlAll.'<br>'.$addAdmin.'<br>'.$noCorrectAdmin.'<br>'.$noCorrectAdminPhoto.'<br>---<br>'.$string.' <br>*********************<br>Нет фото VIN - SpecId - ColorCode:<br> '.implode("<br>", $arNoImg);
 
     $arEventFields = array(
         "MESSAGE" => $message,

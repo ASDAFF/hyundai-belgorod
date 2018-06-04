@@ -38,7 +38,7 @@ if($_REQUEST['action'] == 'DELETE_FROM_COMPARE_LIST'){
 		"ELEMENT_SORT_ORDER_BOX2" => "desc",
 		"FIELD_CODE" => array(
 		),
-		"IBLOCK_ID" => "37",
+		"IBLOCK_ID" => "58",
 		"IBLOCK_TYPE" => "products",
 		"NAME" => "CATALOG_COMPARE_LIST",
 		"PRICE_CODE" => array(

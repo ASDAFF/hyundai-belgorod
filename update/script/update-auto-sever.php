@@ -29,7 +29,7 @@ if(CModule::IncludeModule("iblock")):
     foreach ($hentry as $key => $elem) {
         $pq = pq($elem);
         if($key > 0){
-            $files[] = str_replace('/','',$pq->attr('href'));
+            $files[] = str_replace('/','',$pq->text());
         }
     }
 
@@ -87,7 +87,7 @@ if(CModule::IncludeModule("iblock")):
             foreach ($d_img as $key => $elem) {
                 $pq = pq($elem);
                 if($key > 0){
-                    $dir_img[] = str_replace('/','',$pq->attr('href'));
+                    $dir_img[] = str_replace('/','',$pq->text());
                 }
             }
 
@@ -99,7 +99,7 @@ if(CModule::IncludeModule("iblock")):
             $not_vin[] = (string)$cont->VIN;
         }
 
-        if(mb_strtolower((string)$cont->MARK) == 'hyundai'){
+        if((string)$cont->MARK == 'Hyundai'){
             $active = 'Y';
         }else{
             $active = 'N';

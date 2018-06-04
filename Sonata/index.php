@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Hyundai Sonata купить. Цена на новый Хендай Солярис");
+$APPLICATION->SetPageProperty("title", "Hyundai Sonata купить в Воронеже. Цена на новый Хендай Солярис");
 $APPLICATION->SetTitle("NewSolaris");
 ?>
 

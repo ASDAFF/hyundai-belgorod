@@ -4,14 +4,14 @@
 
 $mapArr = array(
     array(
-        "address" => "309537, Белгородская обл. г. Старый Оскол, просп. Алексея Угарова, 22",
+        "address" => "Белгород, г. Белгород, улица Студенческая, 1 Ш",
         "city_id" => "19",
         "code" => "C40AF31090",
         "email" => "",
         "encode_phone" => "",
         "id" => "217",
-        "latitude" => "51.346883",
-        "longitude" => "37.854450",
+        "latitude" => "50.6179804",
+        "longitude" => "36.6050077",
         "name" => "",
         "phone" => "",
         "site" => "",
@@ -19,6 +19,9 @@ $mapArr = array(
         "wa" => "0"
     )
 );
+
+
+
 
 
 echo json_encode($mapArr);

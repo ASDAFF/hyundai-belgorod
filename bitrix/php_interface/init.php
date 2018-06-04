@@ -1,6 +1,6 @@
 <?php
-define("IBLOCK_ID_MODEL",36);
-define("IBLOCK_ID_OFFER",8);
+define("IBLOCK_ID_MODEL",67);
+define("IBLOCK_ID_OFFER",61);
 
 function price_to_url($url){
     $url = str_replace('/','',$url);

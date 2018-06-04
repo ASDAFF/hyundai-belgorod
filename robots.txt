@@ -52,5 +52,5 @@ Disallow: /*.pdf
 Disallow: /*.xls
 Disallow: /promo-new/*
 
-Host: hyundai-oskol.ru
-Sitemap: http://hyundai-oskol.ru/sitemap.xml
+Host: hyundai-ringauto.ru
+Sitemap: http://hyundai-ringauto.ru/sitemap.xml

@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Купить Hyundai Grand Santa Fe. Цена на Хендай Гранд Санта Фе у дилера");
+$APPLICATION->SetPageProperty("title", "Купить Hyundai Grand Santa Fe в Воронеже. Цена на Хендай Гранд Санта Фе у дилера");
 $APPLICATION->SetTitle("GrandSantaFe");
 ?>
 

@@ -19,9 +19,19 @@ if(CModule::IncludeModule("iblock")):
     }
 
 
+    $files = array();
 
-    $xml = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/used_car.xml',true);
-    $files = scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/used');
+    $xml = file_get_contents('http://server.gk-ring.ru/hyundai/used_car_voronezh_hyundai_1.xml',true);
+    $habrablog = file_get_contents('http://server.gk-ring.ru/hyundai/hyundai_voronezh_used/');
+    $document = phpQuery::newDocument($habrablog);
+
+    $hentry = $document->find('td > a');
+    foreach ($hentry as $key => $elem) {
+        $pq = pq($elem);
+        if($key > 0){
+            $files[] = str_replace('/','',$pq->text());
+        }
+    }
 
     $xml = new SimpleXMLElement($xml);
     $arPropsNo = array();
@@ -62,19 +72,27 @@ if(CModule::IncludeModule("iblock")):
         $PROP['COLOR'] = (string)$cont->ColorOrig;
         $PROP['color_code'] = (string)$cont->ColorCode;
         $PROP['description'] = (string)$cont->Description;
-        $PROP['NEW_PRICE'] = (string)$cont->NEW_PRICE;
+        $PROP['NEW_PRICE'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->NEW_PRICE));
+        $PROP['PRICE_OT_IMPORTERA'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->price_ot_importera));
         $PROP['CUZOV'] = (string)$cont->CUZOV;
-        $PROP['MILEAGE'] = (string)$cont->run;
-        $PROP['YEAR'] = (string)$cont->year;
+        $PROP['MILEAGE'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->run));
+        $PROP['YEAR'] = str_replace(array('&nbsp;',' '),'',htmlentities((string)$cont->year));
 
+        $dir_img = array();
         if (in_array((string)$cont->VIN, $files)) {
-            $dir_img = array_diff( scandir($_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/used/'.(string)$cont->VIN),array('.','..'));
-            foreach($dir_img as $img){
-                $img_path = $_SERVER['DOCUMENT_ROOT'].'/XML_upload_for_1c/voronezh/used/'.(string)$cont->VIN.'/'.$img;
-                if(getimagesize($img_path)[0] > 600) {
-                     resize($img_path, 550);
+
+            $dir_img_parse = file_get_contents('http://server.gk-ring.ru/hyundai/hyundai_voronezh_used/'.(string)$cont->VIN.'/');
+            $dir_img_doc = phpQuery::newDocument($dir_img_parse);
+            $d_img = $dir_img_doc->find('td > a');
+            foreach ($d_img as $key => $elem) {
+                $pq = pq($elem);
+                if($key > 0){
+                    $dir_img[] = str_replace('/','',$pq->text());
                 }
-                $PROP['SLIDER'][] = '/XML_upload_for_1c/voronezh/used/'.(string)$cont->VIN.'/'.$img;
+            }
+
+            foreach($dir_img as $img){
+                $PROP['SLIDER'][] = 'http://server.gk-ring.ru/hyundai/hyundai_voronezh_used/'.(string)$cont->VIN.'/'.$img;
             }
             //var_dump('ok');
         }else{
@@ -109,6 +127,7 @@ if(CModule::IncludeModule("iblock")):
         if(strlen((string)$cont->number) < 1 OR (string)$cont->number == "0"){$arPropsNo[(string)$cont->VIN][] = 'PHONE (Телефон)';}
       //  if(strlen((string)$cont->OLD_PRICE) < 1 OR (string)$cont->OLD_PRICE == "0"){$arPropsNo[(string)$cont->VIN][] = 'OLD_PRICE (Старая цена)'; $PROP['OLD_PRICE'] = 'NaN';}
         if(strlen((string)$cont->NEW_PRICE) < 1 OR (string)$cont->NEW_PRICE == "0"){$arPropsNo[(string)$cont->VIN][] = 'NEW_PRICE (Цена продажи)';}
+        if(strlen((string)$cont->price_ot_importera) < 1 OR (string)$cont->price_ot_importera == "0"){$arPropsNo[(string)$cont->VIN][] = 'PRICE_OT_IMPORTERA (Цена от импортера)';}
      //   if(strlen((string)$cont->CREDIT) < 1 OR (string)$cont->CREDIT == "0"){$arPropsNo[(string)$cont->VIN][] = 'CREDIT (Скидка)'; $PROP['CREDIT'] = 'NaN';}
      //   if(strlen((string)$cont->DEFAULT_COMPLIT->value[0]) < 1 OR (string)$cont->DEFAULT_COMPLIT->value[0] == "0"){$arPropsNo[(string)$cont->VIN][] = 'DEFAULT_COMPLIT (Стандартная комплектация)'; $PROP['DEFAULT_COMPLIT'][] = 'NaN';}
 

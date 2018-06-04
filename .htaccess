@@ -20,10 +20,10 @@ RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 </IfModule>
 
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP
-RewriteRule ^index\.php$ http://hyundai-ringauto.ru/ [R=301,L]
+RewriteRule ^index\.php$ http://hyundai-belgorod.ru/ [R=301,L]
 
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP
-RewriteRule ^index\.html$ http://hyundai-ringauto.ru/ [R=301,L]
+RewriteRule ^index\.html$ http://hyundai-belgorod.ru/ [R=301,L]
 
 Redirect 301 /car/Solaris /Solaris/
 Redirect 301 /car/new_Solaris5DR /Solaris-5dr/
