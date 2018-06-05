@@ -85,17 +85,17 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <div class="carslider-inner-single-desc sonata">
                     <a href="/Sonata/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
-                    <div class="carslider-inner-single-desc-price">80 000 &#8381;</div>
-                    <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
-                    <div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>
+                    <div class="carslider-inner-single-desc-price">100 000 &#8381;</div>
+                    <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
+<div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
                 </div>
                 <div class="carslider-inner-single-img">
                     <img src="/hpromise/img/sonata.png">
                 </div>
-                <a href="http://www.hyundai.ru/test-drive/Sonata" target="_blank" class="carslider-inner-single-button buttontd">
+                <a href="http://www.hyundai.ru/test-drive/Sonata" class="carslider-inner-single-button buttontd">
                     <span>Тест-драйв</span>
                 </a>
-                <a href="http://www.hyundai.ru/configurator/car/24/modification" target="_blank" class="carslider-inner-single-button buttonkonf">
+                <a href="http://www.hyundai.ru/configurator/car/24/modification" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
             </div>
@@ -105,16 +105,16 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                     <a href="/NewSolaris/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
                     <div class="carslider-inner-single-desc-price">20 000 &#8381;</div>
-                    <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
-                    <div class="carslider-inner-single-desc-bal">10 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>
+                    <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
+<div class="carslider-inner-single-desc-bal">10 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
                 </div>
                 <div class="carslider-inner-single-img">
                     <img src="/hpromise/img/solaris.png">
                 </div>
-                <a href="http://www.hyundai.ru/test-drive?old_car_id=200" target="_blank" class="carslider-inner-single-button buttontd">
+                <a href="http://www.hyundai.ru/test-drive?old_car_id=200" class="carslider-inner-single-button buttontd">
                     <span>Тест-драйв</span>
                 </a>
-                <a href="http://www.hyundai.ru/configurator/car?compl_id=379&packets=" target="_blank" class="carslider-inner-single-button buttonkonf">
+                <a href="http://www.hyundai.ru/configurator/car?compl_id=379&packets=" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
             </div>
@@ -122,20 +122,18 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <div class="carslider-inner-single-title">Elantra</div>
                 <div class="carslider-inner-single-desc elantra">
                     <a href="/Elantra/" class="carslider-inner-single-desc-link">описание модели</a>
-                    <div class="carslider-inner-single-desc-tit">Скидка на автомобили<br/>2017 года</div>
-                    <div class="carslider-inner-single-desc-price">150 000 &#8381;</div>
-                    <div class="carslider-inner-single-desc-tit">Скидка на автомобили<br/>2018 года</div>
-                    <div class="carslider-inner-single-desc-price">80 000 &#8381;</div>
-                    <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
-                    <div class="carslider-inner-single-desc-bal">10 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>
+                    <div class="carslider-inner-single-desc-tit">Скидка</div>
+                    <div class="carslider-inner-single-desc-price">50 000 &#8381;</div>
+                    <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
+<div class="carslider-inner-single-desc-bal">10 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
                 </div>
                 <div class="carslider-inner-single-img">
                     <img src="/hpromise/img/elantra_car_small.png">
                 </div>
-                <a href="http://www.hyundai.ru/test-drive?old_car_id=18" target="_blank" class="carslider-inner-single-button buttontd">
+                <a href="http://www.hyundai.ru/test-drive?old_car_id=18" class="carslider-inner-single-button buttontd">
                     <span>Тест-драйв</span>
                 </a>
-                <a href="http://www.hyundai.ru/configurator/?car_id=18" target="_blank" class="carslider-inner-single-button buttonkonf">
+                <a href="http://www.hyundai.ru/configurator/?car_id=18" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
             </div>
@@ -145,16 +143,16 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                     <a href="/Tucson/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
                     <div class="carslider-inner-single-desc-price">80 000 &#8381;</div>
-                    <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
-                    <div class="carslider-inner-single-desc-bal">15 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>
+                    <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
+<div class="carslider-inner-single-desc-bal">15 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
                 </div>
                 <div class="carslider-inner-single-img">
                     <img src="/hpromise/img/tucson_car_big.png">
                 </div>
-                <a href="http://www.hyundai.ru/test-drive?old_car_id=30" target="_blank" class="carslider-inner-single-button buttontd">
+                <a href="http://www.hyundai.ru/test-drive?old_car_id=30" class="carslider-inner-single-button buttontd">
                     <span>Тест-драйв</span>
                 </a>
-                <a href="http://www.hyundai.ru/configurator?car_id=30" target="_blank" class="carslider-inner-single-button buttonkonf">
+                <a href="http://www.hyundai.ru/configurator?car_id=30" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
             </div>
@@ -162,20 +160,18 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <div class="carslider-inner-single-title">Santa Fe</div>
                 <div class="carslider-inner-single-desc santa_fe">
                     <a href="/SantaFe/" class="carslider-inner-single-desc-link">описание модели</a>
-                    <div class="carslider-inner-single-desc-tit">Скидка на автомобили<br/>2017 года</div>
-                    <div class="carslider-inner-single-desc-price">200 000 &#8381;</div>
-                    <div class="carslider-inner-single-desc-tit">Скидка на автомобили<br/>2018 года</div>
-                    <div class="carslider-inner-single-desc-price">150 000 &#8381;</div>
-                    <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
-                    <div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>
+                    <div class="carslider-inner-single-desc-tit">Скидка</div>
+                    <div class="carslider-inner-single-desc-price">100 000 &#8381;</div>
+                    <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
+<div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
                 </div>
                 <div class="carslider-inner-single-img">
                     <img src="/hpromise/img/santa_fe_small.png">
                 </div>
-                <a href="http://www.hyundai.ru/test-drive?old_car_id=29" target="_blank" class="carslider-inner-single-button buttontd">
+                <a href="http://www.hyundai.ru/test-drive?old_car_id=29" class="carslider-inner-single-button buttontd">
                     <span>Тест-драйв</span>
                 </a>
-                <a href="http://www.hyundai.ru/configurator/?car_id=29" target="_blank" class="carslider-inner-single-button buttonkonf">
+                <a href="http://www.hyundai.ru/configurator/?car_id=29" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
             </div>
@@ -183,20 +179,18 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <div class="carslider-inner-single-title">Grand Santa Fe</div>
                 <div class="carslider-inner-single-desc grand_santa_fe">
                     <a href="/GrandSantaFe/" class="carslider-inner-single-desc-link">описание модели</a>
-                    <div class="carslider-inner-single-desc-tit">Скидка на автомобили<br/>2017 года</div>
-                    <div class="carslider-inner-single-desc-price">220 000 &#8381;</div>
-                    <div class="carslider-inner-single-desc-tit">Скидка на автомобили<br/>2018 года</div>
-                    <div class="carslider-inner-single-desc-price">170 000 &#8381;</div>
-                    <div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
-                    <div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>
+                    <div class="carslider-inner-single-desc-tit">Скидка</div>
+                    <div class="carslider-inner-single-desc-price">120 000 &#8381;</div>
+                    <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
+<div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
                 </div>
                 <div class="carslider-inner-single-img">
                     <img src="/hpromise/img/grand_sf_small.png">
                 </div>
-                <a href="http://www.hyundai.ru/test-drive?old_car_id=12" target="_blank" class="carslider-inner-single-button buttontd">
+                <a href="http://www.hyundai.ru/test-drive?old_car_id=12" class="carslider-inner-single-button buttontd">
                     <span>Тест-драйв</span>
                 </a>
-                <a href="http://www.hyundai.ru/configurator/?car_id=12" target="_blank" class="carslider-inner-single-button buttonkonf">
+                <a href="http://www.hyundai.ru/configurator/?car_id=12" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
             </div>
