@@ -686,7 +686,7 @@ $(document).ready(function() {
 	function getModificationList(car_id)
 	{
 
-		$.post('http://www.hyundai.ru/requestnew/getpcpmod', 'carid=' + car_id, function(res){
+		$.post('https://www.hyundai.ru/requestnew/getpcpmod', 'carid=' + car_id, function(res){
 			console.log(res);
 	    	$('.model__select[name=car]').html(res);
 	    	updateSelect($('.model__select[name=car]'));
@@ -701,7 +701,7 @@ $(document).ready(function() {
 	function getComplectationList(car_id, mod_id)
 	{
 
-		$.post('http://www.hyundai.ru/requestnew/getpcpcompl', 'carid=' + car_id + '&modid=' + mod_id, function(res){
+		$.post('https://www.hyundai.ru/requestnew/getpcpcompl', 'carid=' + car_id + '&modid=' + mod_id, function(res){
 			console.log(res);
 	    	$('.model__select[name=type]').html(res);
 	    	updateSelect($('.model__select[name=type]'));
