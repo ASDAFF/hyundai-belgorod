@@ -193,7 +193,7 @@ $(document).ready(function() {
 			$(this).html(Number(points).toLocaleString());
 		}).fadeIn(300);
 		$(".so-calc__img").stop().fadeOut(300, function() {
-			$(this).attr("src", "http://www.hyundai.ru/media/start/img/cars/" + id + ".png").attr("alt", name);
+			$(this).attr("src", "https://www.hyundai.ru/media/start/img/cars/" + id + ".png").attr("alt", name);
 		}).fadeIn(300);
 		if (Number(programm) == 0 && id != 18) {
 			$(".so-calc__item-subsum").addClass("so-calc__item-subsum_hidden");
@@ -206,7 +206,7 @@ $(document).ready(function() {
 		}
 
 		//var confLink = "/configurator/car/?compl_id=" + getConfigIdByCarId(Number(id)) + "&packets=";
-		var confLink = "http://www.hyundai.ru/configurator/car/" + id;
+		var confLink = "https://www.hyundai.ru/configurator/car/" + id;
 		$(".so-calc__item-conf").attr("href", confLink);
 	}
 

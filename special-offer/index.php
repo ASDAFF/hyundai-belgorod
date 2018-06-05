@@ -64,7 +64,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                         Sonata								</option>
                                     <option
                                         value="7"
-                                        data-tradein="150000"
+                                        data-tradein="50000"
                                         data-programm="0"
                                         data-points="10000"
                                         >
@@ -78,14 +78,14 @@ $APPLICATION->SetTitle("NewSolaris");
                                         Tucson								</option>
                                     <option
                                         value="17"
-                                        data-tradein="200000"
+                                        data-tradein="100000"
                                         data-programm="0"
                                         data-points="20000"
                                         >
                                         Santa fe								</option>
                                     <option
                                         value="13"
-                                        data-tradein="220000"
+                                        data-tradein="120000"
                                         data-programm="0"
                                         data-points="20000"
                                         >
@@ -127,23 +127,25 @@ $APPLICATION->SetTitle("NewSolaris");
                                     </div>
                                 </div>
                             </div>
-                            <div class="so-calc__item-label so-calc__item-label_gift">
-                                <div class="so-calc__item-label-text">
-                                    Подарочные баллы в&nbsp;<a href="https://mir.hyundai.ru/login" target="_blank">Мире Хёндэ</a>
+                            <div style="display: none;">
+                                <div class="so-calc__item-label so-calc__item-label_gift" style="display: none;">
+                                    <div class="so-calc__item-label-text">
+                                        Подарочные баллы в&nbsp;<a href="https://mir.hyundai.ru/login" target="_blank">Мире Хёндэ</a>
+                                    </div>
                                 </div>
+                                <div class="so-calc__item-sum so-calc__item-sum_points" style="display: none;">
+                                    20 000
+                                </div>
+                                <a class="so-calc__item-button" href="#how" style="display: none;">
+                                    Как воспользоваться
+                                </a>
                             </div>
-                            <div class="so-calc__item-sum so-calc__item-sum_points">
-                                20 000
-                            </div>
-                            <a class="so-calc__item-button" href="#how">
-                                Как воспользоваться
-                            </a>
                             <div class="so-calc__item-conf-box">
                                 <a class="so-calc__item-conf" href="/configurator">
                                     Конфигуратор
                                     <span class="so-calc__item-conf-line"></span>
                                 </a>
-                                <a class="so-calc__item-conf2" href="/hpromise/trade-in/" target="_blank">
+                                <a class="so-calc__item-conf2" href="https://hpromise.hyundai.ru/trade-in/#trade_in_rules" target="_blank">
                                     Условия Трейд-Ин
                                     <!-- 							<span class="so-calc__item-conf-line"></span> -->
                                 </a>
