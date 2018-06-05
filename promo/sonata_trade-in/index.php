@@ -57,15 +57,8 @@ $APPLICATION->SetTitle("Выгода 80 000 Р. на Hyundai Sonata");
                                 <div class="row row-right">
                                     <div class="offer-actions__button-span">
                                         <a href="http://www.hyundai.ru/configurator/car/24/modification" class="offer-actions__button config">Конфигуратор</a>
-
-
-
                                         <div id="brochure_requester"><a data-gtm-havas-model="sonata" href="#" data-model="Sonata" for="brochures_request"  target="_blank" class="zing_form_toggler offer-actions__button brosh">Брошюра</a></div>
                                     </div>
-
-
-
-
                                 </div>
 
 
