@@ -1349,28 +1349,28 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                 <a href="/H-1/" class="promo-slider-link">
                                     <img src="/media/images/carmodels/H-1_89857739f5e11f41.png" alt="H-1">
                                     <span class="model">H-1</span>
-                                    <span class="price">от 1 949 000  <span class="rubleArial">p</span></span>
+                                    <span class="price">от 1 994 000  <span class="rubleArial">p</span></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="/SantaFe/" class="promo-slider-link">
                                     <img src="/media/images/carmodels/Santa Fe Premium_22757739f44cbfa3.png" alt="Santa Fe">
                                     <span class="model">Santa Fe</span>
-                                    <span class="price">от 1 794 000  <span class="rubleArial">p</span></span>
+                                    <span class="price">от 1 964 000  <span class="rubleArial">p</span></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="/Tucson/" class="promo-slider-link">
                                     <img src="/media/images/carmodels/Tucson_57257739f51bbc7f.png" alt="Tucson">
                                     <span class="model">Tucson</span>
-                                    <span class="price">от 1 505 900  <span class="rubleArial">p</span></span>
+                                    <span class="price">от 1 369 000  <span class="rubleArial">p</span></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="/Elantra/" class="promo-slider-link">
                                     <img src="/media/images/carmodels/Elantra_92157739ede44226.png" alt="Elantra">
                                     <span class="model">Elantra</span>
-                                    <span class="price">от  909 900  <span class="rubleArial">p</span></span>
+                                    <span class="price">от  979 000  <span class="rubleArial">p</span></span>
                                 </a>
                             </li>
 
@@ -1381,7 +1381,15 @@ $APPLICATION->SetTitle("GrandSantaFe");
                 </div>
             </div>
             <div class="disc-block" style="background: #FFF;padding-bottom: 20px">
-                <p class="dicslamer-casco" style="width: 980px;margin: 0 auto;"><sup>1</sup> Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в СПАО «Ингосстрах», ПАО «Росгосстрах» и СК «ВСК» при покупке Нового Hyundai Tucson в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены СПАО «Ингосстрах», ПАО «Росгосстрах» и СК «ВСК» в одностороннем порядке. Предложение действует до 31.12.2017г.</p>
+                <p class="dicslamer-casco" style="width: 980px;margin: 0 auto;">
+                    <sup>*</sup>Платеж рассчитан в рамках программы Hyundai (Старт), исходя из цены Hyundai Grand Santa Fe (Family, 2,2л CRDi 6AT) 2 424 000 р., 2017 года производства, на условиях кредитного продукта «ДИРЕКТ Баллун ПСП КЛАССИКА: Hyundai в кредит»: Первоначальный взнос 1 267 400 р., сумма кредита 1 292 290 р., срок кредита 36 мес.; процентная ставка 10,4% годовых. Часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита - 45%. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Тарифным планом предусмотрена финансовая защита кредита. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.05.18 по 31.05.18г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru.
+                </p>
+            </div>
+
+            <div class="disc-block" style="background: #FFF;padding-bottom: 20px">
+                <p class="dicslamer-casco" style="width: 980px;margin: 0 auto;">
+                    <sup>**</sup> Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в ПАО СК «Росгосстрах», САО «ВСК» и СПАО «Ингосстрах» при покупке нового Hyundai Grand Santa Fe в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены ПАО СК «Росгосстрах», САО «ВСК» и СПАО «Ингосстрах» в одностороннем порядке. Предложение действует до 31.05.2018г.
+                </p>
             </div>
         </div>
 

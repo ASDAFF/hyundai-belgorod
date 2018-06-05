@@ -95,6 +95,15 @@ $APPLICATION->SetTitle("Elantra");
                                         <a href="/start?model=elantra" class="title-price-notice">В кредит от 8 000 ₽ / месяц**</a>
                                     </div>
 
+                                    <?
+                                    model_credit(
+                                        array(
+                                            array("val" => "5%","text" => "Кредит*"),
+                                            array("text" => "<b>КАСКО</b> в подарок**")
+                                        )
+                                    );
+                                    ?>
+
                                     <a href="/offer/" class="btn-flat">Все предложения</a>
                                     <div class="title-list">
                                         <ul>
@@ -1164,30 +1173,31 @@ $APPLICATION->SetTitle("Elantra");
                                 <a href="/Tucson/" class="promo-slider-link">
                                     <img src="/media/images/carmodels/Tucson_57257739f51bbc7f.png" alt="Tucson">
                                     <span class="model">Tucson</span>
-                                    <span class="price">от 1 505 900  <span class="rubleArial">p</span></span>
+                                    <span class="price">от 1 369 000  <span class="rubleArial">&#8381;</span></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="/SantaFe/" class="promo-slider-link">
                                     <img src="/media/images/carmodels/Santa Fe Premium_22757739f44cbfa3.png" alt="Santa Fe">
                                     <span class="model">Santa Fe</span>
-                                    <span class="price">от 1 794 000  <span class="rubleArial">p</span></span>
+                                    <span class="price">от 1 964 000  <span class="rubleArial">&#8381;</span></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="/GrandSantaFe/" class="promo-slider-link">
                                     <img src="/media/images/carmodels/Grand Santa Fe_76357f794c7e076a.png" alt="Grand Santa Fe">
                                     <span class="model">Grand Santa Fe</span>
-                                    <span class="price">от 2 424 000  <span class="rubleArial">p</span></span>
+                                    <span class="price">от 2 439 000  <span class="rubleArial">&#8381;</span></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="/H-1/" class="promo-slider-link">
                                     <img src="/media/images/carmodels/H-1_89857739f5e11f41.png" alt="H-1">
                                     <span class="model">H-1</span>
-                                    <span class="price">от 1 949 000  <span class="rubleArial">p</span></span>
+                                    <span class="price">от 1 994 000  <span class="rubleArial">&#8381;</span></span>
                                 </a>
                             </li>
+
                         </ul>
                     </div>
                     <div class="slider-prev"></div>

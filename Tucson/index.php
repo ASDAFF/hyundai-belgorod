@@ -68,6 +68,24 @@ $APPLICATION->SetTitle("Tucson");
             body.mobile .parallax3 {background:url('/media/images/flat/TL/parallax3_mobile.jpg') center top no-repeat #fff;}
             body.mobile .parallax4 {background:url('/media/images/flat/TL/parallax4_mobile.jpg') center top no-repeat #fff;}
             body.mobile .parallax5 {background:url('/media/images/flat/TL/parallax5_mobile.jpg') center top no-repeat #fff;}
+
+            .pip.contents_highlights .subject h3{
+                font-size: 20px;
+            }
+            .pip .pip_cont .text_play .text1{
+                font-size: 40px;
+            }
+            .pip.contents_performance .engine_list ul li .max dl dd strong{
+                font-size: 80px;
+            }
+            .pip.contents_performance .engine_list ul li .max dl dt{
+                font-size: 13px;
+            }
+
+            .dicslamer-casco{
+                width: 980px;
+                margin: 0 auto;
+            }
         </style>
         <!-- cache performance graphs -->
         <div style="display: none;">
@@ -126,7 +144,7 @@ $APPLICATION->SetTitle("Tucson");
                                         <?
                                         model_credit(
                                             array(
-                                                array("val" => "10 000","text" => "₽/месяц*"),
+                                                array("val" => "5%","text" => "Кредит*"),
                                                 array("text" => "<b>КАСКО</b> в подарок**")
                                             )
                                         );
@@ -1505,28 +1523,28 @@ $APPLICATION->SetTitle("Tucson");
                                 <a href="/SantaFe/" class="promo-slider-link">
                                     <img src="/media/images/carmodels/Santa Fe Premium_22757739f44cbfa3.png" alt="Santa Fe">
                                     <span class="model">Santa Fe</span>
-                                    <span class="price">от 1 794 000  <span class="rouble">7</span></span>
+                                    <span class="price">от 1 964 000  <span class="rouble">7</span></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="/GrandSantaFe/" class="promo-slider-link">
                                     <img src="/media/images/carmodels/Grand Santa Fe_76357f794c7e076a.png" alt="Grand Santa Fe">
                                     <span class="model">Grand Santa Fe</span>
-                                    <span class="price">от 2 374 000  <span class="rouble">7</span></span>
+                                    <span class="price">от 2 439 000  <span class="rouble">7</span></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="/H-1/" class="promo-slider-link">
                                     <img src="/media/images/carmodels/H-1_89857739f5e11f41.png" alt="H-1">
                                     <span class="model">H-1</span>
-                                    <span class="price">от 1 949 000  <span class="rouble">7</span></span>
+                                    <span class="price">от 1 994 000  <span class="rouble">7</span></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="/Elantra/" class="promo-slider-link">
                                     <img src="/media/images/carmodels/Elantra_92157739ede44226.png" alt="Elantra">
                                     <span class="model">Elantra</span>
-                                    <span class="price">от  909 900  <span class="rouble">7</span></span>
+                                    <span class="price">от  979 000  <span class="rouble">7</span></span>
                                 </a>
                             </li>
                         </ul>
@@ -1536,9 +1554,8 @@ $APPLICATION->SetTitle("Tucson");
                 </div>
             </div>
             <div class="disc-block" style="background: #FFF;padding-bottom: 20px">
-                <p class="dicslamer-casco" style="width: 980px;margin: 0 auto;"><sup>*</sup> 6.9% годовых – процентная ставка в кредитном договоре. Валюта кредита - рубли РФ; уровень первоначального взноса от 30% от стоимости автомобиля. Срок кредита 12-36 месяцев. Программа распространяется на покупку в кредит Hyundai Tucson. Программой предусмотрено страхование жизни и здоровья заемщика. Залоговое обеспечение - залог приобретаемого ТС. Предложение действительно при подтверждении дохода Заемщика. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013г. Предложение действует с 01.01.18 по 28.02.18, не является офертой. Условия могут быть изменены Банком в одностороннем порядке.<br>
-                <sup>**</sup> Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в ПАО «Росгосстрах» и СК «ВСК» при покупке Нового Hyundai Tucson в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены ПАО «Росгосстрах» и СК «ВСК» в одностороннем порядке. Предложение действует до 31.03.2018г.
-                </p>
+                <p class="dicslamer-casco"><sup>*</sup> 5.0% годовых – процентная ставка в кредитном договоре. Валюта кредита - рубли РФ; уровень первоначального взноса от 30% от стоимости автомобиля. Срок кредита 12-36 месяцев. Программа распространяется на покупку в кредит Hyundai Tucson. Программой предусмотрено страхование жизни и здоровья заемщика. Минимальная сумма кредита – 50 000 руб., максимальная сумма кредита – 6 500 000 руб.. Обязательно подтверждение дохода клиента. Залоговое обеспечение - залог приобретаемого ТС. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013г. Предложение действует с 01.05.18 по 31.05.18, не является офертой. Условия могут быть изменены Банком в одностороннем порядке.</p>
+                <p class="dicslamer-casco"><sup>**</sup> Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в ПАО СК «Росгосстрах», САО «ВСК» и СПАО «Ингосстрах» при покупке нового Hyundai Tucson в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены ПАО СК «Росгосстрах», САО «ВСК» и СПАО «Ингосстрах» в одностороннем порядке. Предложение действует до 31.05.2018г.</p>
             </div>
         </div>
 

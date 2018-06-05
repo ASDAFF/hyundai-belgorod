@@ -72,16 +72,16 @@ $APPLICATION->SetTitle("SantaFe");
                                         </div>
                                         <div class="title-price">
                                             <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                            <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
+                                            <?// profit_to_url($APPLICATION->GetCurPage()); ?> <br>
                                             <a href="/start?model=santafe" class="title-price-notice">В кредит от 12 000 ₽ / месяц</a>
                                         </div>
                                         <?
-                                        model_credit(
+                                        /*model_credit(
                                             array(
                                                 array("val" => "Выгода до","text" => "<b>300 000 ₽</b><sup>1</sup>"),
                                                 array("text" => "<b>КАСКО</b> в подарок!<sup>2</sup>")
                                             )
-                                        );
+                                        );*/
                                         ?>
                                         <a href="/offer/" class="btn-flat">Все предложения</a>
                                         <div class="title-list">
@@ -1288,28 +1288,28 @@ $APPLICATION->SetTitle("SantaFe");
                                     <a href="/GrandSantaFe/" class="promo-slider-link">
                                         <img src="http://www.hyundai.ru/media/images/carmodels/Grand Santa fe_2625a0ed5fb73033.png" alt="Grand Santa fe">
                                         <span class="model">Grand Santa fe</span>
-                                        <span class="price">от 2 324 000  &#8381;</span>
+                                        <span class="price">от 2 439 000  ₽</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/Tucson/" class="promo-slider-link">
                                         <img src="http://www.hyundai.ru/media/images/carmodels/Tucson_8655a0ed607025b4.png" alt="Tucson">
                                         <span class="model">Tucson</span>
-                                        <span class="price">от 1 449 900  &#8381;</span>
+                                        <span class="price">от 1 369 000  ₽</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/H-1/" class="promo-slider-link">
                                         <img src="http://www.hyundai.ru/media/images/carmodels/H-1_2255a0ed60c04480.png" alt="H-1">
                                         <span class="model">H-1</span>
-                                        <span class="price">от 1 969 000  &#8381;</span>
+                                        <span class="price">от 1 994 000  ₽</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/Elantra/" class="promo-slider-link">
                                         <img src="http://www.hyundai.ru/media/images/carmodels/Elantra_7505a0ed5f602de8.png" alt="Elantra">
                                         <span class="model">Elantra</span>
-                                        <span class="price">от  957 000  &#8381;</span>
+                                        <span class="price">от  979 000  ₽</span>
                                     </a>
                                 </li>
                             </ul>
@@ -1318,12 +1318,6 @@ $APPLICATION->SetTitle("SantaFe");
                         <div class="slider-next"></div>
                     </div>
                 </div>
-                <div class="disc-block"><p class="dicslamer-casco"><sup>1</sup>Выгода рассчитывается путем суммирования скидки 100 000 рублей (предоставляющейся от рекомендованной максимальной розничной цены с учетом НДС, приобретающим автомобиль Santa Fe 2017 производственного года) и скидки 200 000 рублей по программе трейд-ин для клиентов Hyundai. Предложение действительно до 28.02.2018г.<br>
-                <sup>2</sup>6.9% годовых – процентная ставка в кредитном договоре. Валюта кредита - рубли РФ; уровень первоначального взноса от 30% от стоимости автомобиля. Срок кредита 12-36 месяцев. Программа распространяется на покупку в кредит Hyundai Santa Fe. Программой предусмотрено страхование жизни и здоровья заемщика. Минимальная сумма кредита – 50 000 руб., максимальная сумма кредита – 6, 500 000 руб.. Обязательно подтверждение дохода клиента. Залоговое обеспечение - залог приобретаемого ТС. Предложение действительно при подтверждении дохода Заемщика. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013г. Предложение действует с 01.02.18 по 28.02.18, не является офертой. Условия могут быть изменены Банком в одностороннем порядке.<br>
-                <sup>3</sup>Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в СПАО «Ингосстрах», ПАО «Росгосстрах» и СК «ВСК» при покупке Новой Hyundai Santa Fe в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены СПАО «Ингосстрах», ПАО «Росгосстрах» и СК «ВСК» в одностороннем порядке. Предложение действует до 28.02.2018г.<br>
-                </p>
-
-               </div>
             </div>
         </div><!-- // container -->
 

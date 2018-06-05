@@ -425,7 +425,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                         <div class="main mkv">
                                             <div class="title">
                                                 <img src="http://www.hyundai.ru/media/images/flat/SL/elements/logo.png" title="Solaris">
-                                                <span>Всегда что-то большее</span>
+                                                <span>Свой для каждого.</span>
                                             </div>
                                             <div class="title-price">
                                                 <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
@@ -434,8 +434,8 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <?
                                             model_credit(
                                                 array(
-                                                    array("val" => "6 000","text" => "₽/месяц*"),
-                                                    array("text" => "<b>КАСКО</b> в подарок**")
+                                                    array("val" => "5%","text" => "Кредит**"),
+                                                    array("text" => "<b>КАСКО</b> в подарок***")
                                                 )
                                             );
                                             ?>

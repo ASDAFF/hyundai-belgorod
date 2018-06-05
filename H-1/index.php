@@ -1116,35 +1116,35 @@ $APPLICATION->SetTitle("H-1");
                                         <a href="/Elantra/" class="promo-slider-link">
                                             <img src="/media/images/carmodels/Elantra_92157739ede44226.png" alt="Elantra">
                                             <span class="model">Elantra</span>
-                                            <span class="price">от  957 000  &#8381;</span>
+                                            <span class="price">от  979 000  ₽</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/Creta/" class="promo-slider-link">
                                             <img src="/media/images/carmodels/Creta_955579f250bcf329.png" alt="Creta">
                                             <span class="model">Creta</span>
-                                            <span class="price">от  799 900  &#8381;</span>
+                                            <span class="price">от  819 900  ₽</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/Tucson/" class="promo-slider-link">
                                             <img src="/media/images/carmodels/Tucson_57257739f51bbc7f.png" alt="Tucson">
                                             <span class="model">Tucson</span>
-                                            <span class="price">от 1 505 900  &#8381;</span>
+                                            <span class="price">от 1 369 000  ₽</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/SantaFe/" class="promo-slider-link">
                                             <img src="/media/images/carmodels/Santa Fe Premium_22757739f44cbfa3.png" alt="Santa Fe">
                                             <span class="model">Santa Fe</span>
-                                            <span class="price">от 1 856 000  &#8381;</span>
+                                            <span class="price">от 1 964 000  ₽</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/GrandSantaFe/" class="promo-slider-link">
                                             <img src="/media/images/carmodels/Grand Santa Fe_76357f794c7e076a.png" alt="Grand Santa Fe">
                                             <span class="model">Grand Santa Fe</span>
-                                            <span class="price">от 2 324 000  &#8381;</span>
+                                            <span class="price">от 2 439 000  ₽</span>
                                         </a>
                                     </li>
                                 </ul>
