@@ -284,7 +284,7 @@ $(document).ready(function() {
 	}
 
 	function initSelect() {
-		$('select').each(function(){
+		$('select.model__select').each(function(){
 		    var $this = $(this);
 
 		    $this.addClass('select-hidden');

@@ -333,7 +333,7 @@ $APPLICATION->SetTitle("NewSolaris");
 					Чтобы продажа была максимально выгодна для Вас, в договоре заранее зафиксирована минимальная выкупная стоимость.
 				</p>
 				<div class="options__button button-link">
-					<a href="/ContactUs">Задать вопрос</a>
+					<!--<a href="/ContactUs">Задать вопрос</a>-->
 					<div class="button-link__line"></div>
 				</div>
 			</div>
@@ -1050,8 +1050,8 @@ $APPLICATION->SetTitle("NewSolaris");
 </div>
 
 
-    <script src="http://www.hyundai.ru/assets/js/vendors.js?v=1"></script>
-    <script src="common.js"></script>
+    <!--<script src="http://www.hyundai.ru/assets/js/vendors.js?v=1"></script>-->
+    <!--<script src="common.js"></script>-->
 
 
 <!-- ! specific stuff for current page only ! -->
@@ -1059,9 +1059,6 @@ $APPLICATION->SetTitle("NewSolaris");
 <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="http://www.hyundai.ru/media/js/libs/underscore.js"></script>
 <script type="text/javascript" src="http://www.hyundai.ru/media/js/libs/jquery.nanoscroller.min.js"></script>
-<script type="text/javascript" src="http://www.hyundai.ru/media/js/libs/jquery.validate.js"></script>
-<script type="text/javascript" src="http://www.hyundai.ru/media/js/libs/jquery.simplemodal.1.4.4.min.js"></script>
-<script type="text/javascript" src="http://www.hyundai.ru/media/js/zing.js"></script>
 <script type="text/javascript" src="http://www.hyundai.ru/media/js/libs/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="http://www.hyundai.ru/media/start/js/roundslider.js"></script>
 <script type="text/javascript" src="script.js?v=2"></script>
