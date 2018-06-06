@@ -8,6 +8,16 @@ $APPLICATION->SetTitle("shell");
     <link type="text/css" href="https://www.hyundai.ru/media/shell/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://www.hyundai.ru/assets/css/overrides.css?v=3.0">
 
+    <style>
+        .zing_form_wrp{
+            height: 700px;
+        }
+        .navbar-primary__sp::before {
+            height: 190px!important;
+        }
+    </style>
+
+
     <!--
     Контент страницы начнется тут
     -->
