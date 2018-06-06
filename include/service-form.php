@@ -1,19 +1,28 @@
-<link type="text/css" href="http://www.hyundai.ru/media/css/dropit.css" rel="stylesheet" />
-<link type="text/css" href="http://www.hyundai.ru/media/css/service_styles.css" rel="stylesheet" />
-<link type="text/css" href="http://www.hyundai.ru/media/css/service_overrides.css" rel="stylesheet" />
+<link type="text/css" href="https://www.hyundai.ru/media/css/dropit.css" rel="stylesheet" />
+<link type="text/css" href="https://www.hyundai.ru/media/css/service_styles.css" rel="stylesheet" />
+<link type="text/css" href="https://www.hyundai.ru/media/css/service_overrides.css?v=1" rel="stylesheet" />
+<link rel="stylesheet" href="https://www.hyundai.ru/assets/css/overrides.css?v=3.0">
 
-<script type="text/javascript" src="http://www.hyundai.ru/media/js/libs/jquery.nanoscroller.min.js"></script>
-<script type="text/javascript" src="http://www.hyundai.ru/media/js/libs/dropit.js"></script>
-<script type="text/javascript" src="/bitrix/js/calc/service-pages.js"></script>
 <style>
     .content-wrap.content--warranty{
-        width: 1090px!important;
+        width: 100%!important;
+    }
+    .service-right-block{
+        margin: 0!important;
+    }
+    .offers_divider__content__offers-grid-section{
+        margin-bottom: 0!important;
+    }
+    .zing_form_wrp{
+        height: unset!important;
+    }
+    .content--warranty .content-inner {
+        padding-top: 0;
+    }
+    .maintenance-calculator-wrapper {
+        margin: 0 auto;
     }
 </style>
-
-
-
-
 
 <div class="maintenance-calculator-wrapper" id="maintenance-calculator-wrapper">
     <div class="maintenance-calculator grid">
@@ -42,26 +51,27 @@
                     </div>
                 </div>
                 <div class="car-image">
-                    <img src="http://www.hyundai.ru/media/img/service-pages/cars/car-image--solarisnew.png" class="car-image__img" alt=""/>
+                    <img src="https://www.hyundai.ru/media/img/service-pages/cars/car-image--solarisnew.png" class="car-image__img" alt=""/>
                 </div>
                 <div class="materials-pdf-wrap">
                     <div class="heading heading-02">Материалы</div>
                     <a href="#" target="_blank" class="materials-pdf docs-link docs-link--base-works">Базовые работы, входящие в периодическое ТО</a>
-                    <a href="http://www.hyundai.ru/media/downloads/pdf/maintenance/maintenance-harsh-conditions.pdf" download="" class="docs-link docs-link--harsh-conditions">Тяжелые условия эксплуатации</a>
-                    <a href="http://www.hyundai.ru/media/downloads/pdf/Sonata(LF).pdf" download="" class="docs-link docs-link--sonata-reglament">Регламент технического обслуживания</a>
-                    <a href="/_img/sale-to.xlsx" download="" target="_blank" class="docs-link docs-link--harsh-conditions" style="width: 100%;margin-top: 15px;">Стоимость ТО</a>
+                    <a href="/media/downloads/pdf/maintenance/maintenance-harsh-conditions.pdf" download="" class="docs-link docs-link--harsh-conditions">Тяжелые условия эксплуатации</a>
+                    <a href="/media/downloads/pdf/Sonata(LF).pdf" download="" class="docs-link docs-link--sonata-reglament">Регламент технического обслуживания</a>
                 </div>
             </div>
         </div>
         <div class="grid-el grid-el-50 maintenance-calc">
             <div class="calc-wrap">
                 <div class="heading heading-02 heading-light">Калькулятор ТО</div>
+                <!--
+                                        <div class="calc-controls-title">Автомобиль</div>
+                                            <ul class="calc-controls auto-type clearfix" data-count="2" data-current="">
+                                                <li class="auto-type-item active" data-value="1">Гарантийный</li>
+                                                <li class="auto-type-item" data-value="0">Постгарантийный</li>
+                                            </ul>
+                -->
                 <div class="calc-controls clearfix">
-                    <div class="calc-controls-title">Автомобиль</div>
-                    <ul class="calc-controls auto-type clearfix" data-count="2" data-current="">
-                        <li class="auto-type-item active" data-value="1">Гарантийный</li>
-                        <li class="auto-type-item" data-value="0">Постгарантийный</li>
-                    </ul>
                     <div class="calc-controls-title">Двигатель</div>
                     <ul class="calc-controls engine-control clearfix" data-count="4" data-current="">
                         <li class="engine-control-item active" data-value="2.0 MPi">2.0 MPi</li>
@@ -107,6 +117,22 @@
                             </div>
                         </div>
                     </div>
+                    <div class="calc-block-free clearfix">
+                        <div class="calc-block-header">
+                            Вам доступны следующие бесплатные услуги&nbsp;<img src="https://www.hyundai.ru/media/img/service-pages/arrow-down.jpg">
+                        </div>
+
+                        <div class="calc-block-free-content">
+                            <div class="calc-block-free-row row-mileage">Комплексная диагностика автомобиля
+                                по 36 ключевым пунктам<sup>**</sup></div>
+                            <div class="calc-block-free-row">Проверка аккумуляторной батареи</div>
+                            <div class="calc-block-free-row">Замена внешних ламп освещения</div>
+                            <div class="calc-block-free-row">Замена щеток стеклоочистителя</div>
+                            <div class="calc-block-free-row">Регулировка уровня рабочих жидкостей</div>
+                            <div class="calc-block-free-row">Установка салонного фильтра</div>
+                            <div class="calc-block-free-link"><a href="/service/best">Узнать подробнее&nbsp;&nbsp;&nbsp;<img src="https://www.hyundai.ru/media/img/service-pages/arrow-left.png"></a></div>
+                        </div>
+                    </div>
                     <div class="sums" style="display:none">
                         <div class="sum">
                             <span class="sum__text">Стоимость работ</span>
@@ -141,7 +167,7 @@
                     </div>
                 </div>
                 <p class="disclaimer">
-                    <sup>*</sup>  &mdash; Стоимость Технического обслуживания носит исключительно информационный характер, указана на основании данных, предоставленных официальными дилерами Hyundai, и может отличаться от действительных цен уполномоченных дилеров Hyundai.
+                    <sup>*</sup>  &mdash; Стоимость Технического обслуживания носит исключительно информационный характер, указана на основании данных, предоставленных официальными дилерами Hyundai, и может отличаться от действительных цен официальных дилеров Hyundai.
                 </p>
                 <p class="disclaimer disclaimer_zakaz">
                     <sup>**</sup>  &mdash; Точную стоимость вам необходимо узнать обратившись в дилерский центр.
@@ -151,7 +177,56 @@
     </div>
 </div>
 
+<div class="content--roadside" style="margin-bottom: 50px;">
+    <div class="content-inner">
+        <div class="subject subject-wa">
+            <div class="subject-blackboard">
+                <div class="subject-wa-left" id="wa-block">
+                    <div class="subject-wa-title content-inner-title">Workshop Automation</div>
+                    <div class="subject-wa-text">– это автоматизированная система обслуживания клиентов и контроля за рабочими процессами в дилерском центре, реализованная как мобильное приложение для планшетных компьютеров.
+                    </div>
+                    <div class="subject-wa-link"><a href="/find-dealer">найти дилера<img src="https://www.hyundai.ru/media/img/service-pages/wa_arrow.png"></a></div>
+                </div>
+                <div class="subject-wa-right">
+                    <img src="https://www.hyundai.ru/media/img/service-pages/wa_pic.jpg">
+                </div>
+            </div>
+        </div>
 
+
+        <div class="subject subject-wa-icons">
+            <div class="subject-blackboard">
+                <div class="subject-wa-ico-33 wa-title">Преимущества
+                    системы WA</div>
+                <div class="subject-wa-ico-33">
+                    <div class="wa-ico-pic ico1"></div>
+                    <div class="wa-ico-title">Отслеживание<br/>хода работ</div>
+                    <div class="wa-ico-text">Онлайн информация в клиентской зоне о статусе выполнения работ</div>
+                </div>
+                <div class="subject-wa-ico-33">
+                    <div class="wa-ico-pic ico2"></div>
+                    <div class="wa-ico-title">Всегда<br/>вовремя</div>
+                    <div class="wa-ico-text">Отсутствие задержек благодаря системе он-лайн оповещений о ходе выполнения работ между мастером-консультантом и механиком</div>
+                </div>
+                <div class="subject-wa-ico-33">
+                    <div class="wa-ico-pic ico3"></div>
+                    <div class="wa-ico-title">Фото<br/>и голосовая запись</div>
+                    <div class="wa-ico-text">Фото и аудио фиксация ваших пожеланий и состояния вашего автомобиля. Фотографии до и после ремонта</div>
+                </div>
+                <div class="subject-wa-ico-33">
+                    <div class="wa-ico-pic ico4"></div>
+                    <div class="wa-ico-title">Специальные<br/>предложения</div>
+                    <div class="wa-ico-text">Интерактивное отображение наших специальных предложений для вас</div>
+                </div>
+                <div class="subject-wa-ico-33">
+                    <div class="wa-ico-pic ico5"></div>
+                    <div class="wa-ico-title">Обратная<br/>связь</div>
+                    <div class="wa-ico-text">Интерактивный опрос при выдаче автомобиля о качестве обслуживания</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="zing_form_wrp" id="maintenance_form">
     <form class="maintenance_form" action="#">
@@ -207,6 +282,18 @@
                 <label for="year">Год выпуска<sup class="skyblue">*</sup></label>
             </div>
 
+            <!--
+                        <div id="types" class="models drop-down drop-down--types" tabindex="0" data-current="">
+                            <div class="drop-down-active-item"></div>
+                            <div class="drop-down-list">
+                                <ul class="drop-down-items">
+                                    <li data-value="Solaris"       	data-type="2"	class="drop-down-item active">Техническое обслуживание</li>
+                                    <li data-value="i30"           	data-type="1"	class="drop-down-item">i30</li>
+                                </ul>
+                            </div>
+                        </div>
+            -->
+
             <div class="zing-input">
 				<textarea
                     type		= "text"
@@ -252,3 +339,7 @@
         </div>
     </form>
 </div>
+
+<script type="text/javascript" src="https://www.hyundai.ru/media/js/libs/jquery.nanoscroller.min.js"></script>
+<script type="text/javascript" src="https://www.hyundai.ru/media/js/libs/dropit.js"></script>
+<script type="text/javascript" src="/js/service-pages.js"></script>
