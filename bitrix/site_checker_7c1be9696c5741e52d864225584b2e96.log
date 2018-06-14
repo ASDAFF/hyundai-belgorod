@@ -1,18 +1,18 @@
-2018-Jun-06 12:13:39 Наличие необходимых модулей php (check_php_modules): Ok
+2018-Jun-13 13:01:50 Наличие необходимых модулей php (check_php_modules): Ok
 Все необходимые модули установлены
-2018-Jun-06 12:13:39 Обязательные параметры PHP (check_php_settings): Ok
+2018-Jun-13 13:01:50 Обязательные параметры PHP (check_php_settings): Ok
 Настройки правильные
-2018-Jun-06 12:13:39 Модули веб-сервера (check_security): Ok
+2018-Jun-13 13:01:50 Модули веб-сервера (check_security): Ok
 Конфликтов не выявлено
-2018-Jun-06 12:13:39 Значения переменных сервера (check_server_vars): Ok
+2018-Jun-13 13:01:50 Значения переменных сервера (check_server_vars): Ok
 Корректные
-2018-Jun-06 12:13:39 Сохранение сессии (check_session): Ok
+2018-Jun-13 13:01:50 Сохранение сессии (check_session): Ok
 50% done
-2018-Jun-06 12:13:39 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+2018-Jun-13 13:01:50 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
 Правильные. Сайт работает в UTF кодировке
-2018-Jun-06 12:13:39 Служебные скрипты в корне сайта (check_install_scripts): Ok
+2018-Jun-13 13:01:50 Служебные скрипты в корне сайта (check_install_scripts): Ok
 Отсутствуют
-2018-Jun-06 12:13:39 Работа с сокетами (check_socket): Ok
+2018-Jun-13 13:01:50 Работа с сокетами (check_socket): Ok
 Connection to hyundai-belgorod.ru:80	Success
 
 Успешно

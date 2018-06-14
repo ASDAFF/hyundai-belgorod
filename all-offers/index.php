@@ -96,9 +96,38 @@ $APPLICATION->SetTitle("all-offers");
                     </a>
                 </div>
 -->
+                <div class="insection-offer-unit">
+                    <a href="/promo/sonata_trade-in" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/fd62266054ae7102834ec4d0ede1a33a_Sonata_special_offer_preview.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Hyundai Sonata. Выгода 80 000 Р. </span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
 
                 <div class="insection-offer-unit">
-                    <a href="/promo/privilege/" class="insection-offer-unit__link">
+                    <a href="/promo/sonata_trade-in" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/d90a36306c2e0e601e3d03fc5a05a689_preview.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Hyundai Tucson. Выгода 30 000 Р.  </span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
+                    <a href="/promo/credit-5-percent" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/41fb8a0a716cb03b5fe406bea54aa47d_Hyundai-5_webbanner_offer_preview.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Это пять! Кредит 5% на Solaris, Creta, Elantra и Tucson.  </span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
+                    <a href="/promo/tucson_trade-in" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/f1187d2e52a706540962aa61a1758f46_Sonata_preview.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
                             <span class="name">КАСКО 3,8% + пакет "Привилегия" на Hyundai Sonata. </span>
@@ -132,16 +161,6 @@ $APPLICATION->SetTitle("all-offers");
                         <img src="http://www.hyundai.ru/media/offers_image/d308a9d099eddef6dc761a31e85c9edc_banner_special_offer_preview.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
                             <span class="name">Специальное предложение для владельцев Hyundai</span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="insection-offer-unit">
-                    <a href="/promo/grand_santa_fe_offer" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/2ca10fb48102cf281a459710e1456676_small.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Выгода до 320 000р. на Hyundai Grand Santa fe!</span>
                             <span class="addinfo"></span>
                         </div>
                     </a>
@@ -236,6 +255,16 @@ $APPLICATION->SetTitle("all-offers");
                         <div class="insection-offer-unit__info">
                             <span class="name">Лучшее для своих</span>
                             <span class="addinfo">Сервисная акция</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
+                    <a href="/promo/season/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/2d1d0ce07c4559f2076b1f4ca92cb81e_465х330_FIFA2108_banner.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Проверенный Сервис с надежной командой!</span>
+                            <span class="addinfo"></span>
                         </div>
                     </a>
                 </div>
