@@ -1,0 +1,1072 @@
+/* Общие стили текста */
+
+
+
+/* Общие стили для текстовых внутренних страниц */
+
+.container {
+    padding: 0;
+    width: 100%;
+    background: #efefed;
+    padding: 20px 0;
+}
+
+.content_wrap {
+    background: #fff none repeat scroll 0 0;
+    margin: 0px auto;
+/*     position: relative; */
+    width: 940px;
+}
+
+.content_wrap .title_area {
+    background: #e8e5e0 none repeat scroll 0 0;
+    box-sizing: border-box;
+    height: 70px;
+    padding-top: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.content_wrap .title_area .title {
+    color: #333;
+    font-family: "HyundaiSansHead";
+    font-size: 24px;
+    line-height: 30px;
+    padding: 0 0 0 29px;
+    vertical-align: top;
+}
+
+.content_wrap .content_area {
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+}
+
+.content_wrap .content_area .contents.cv2 {
+    float: none;
+    left: 190px;
+    position: relative;
+}
+
+.content_wrap .content_area .side {
+    box-sizing: content-box;
+    color: #ababab;
+    float: left;
+    font-family: "HyundaiSans";
+    font-size: 18px;
+    line-height: 21px;
+    padding: 50px 0 0 60px;
+    width: 189px;
+}
+
+.content_wrap .content_area .contents {
+    float: right;
+    padding: 48px 0 20px;
+    width: 641px;
+}
+
+.content_wrap .contents .title {
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.content_wrap .contents .para {
+    color: #666;
+    line-height: 18px;
+    padding: 0 60px 43px 0;
+    float: left;
+    width: 100%;
+}
+
+.content_wrap .para p {
+    padding: 0 0 18px;
+}
+
+.content_wrap .contents .title_term {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.content_wrap .contents .para a {
+    color: #004281;
+    text-decoration: underline;
+}
+
+.content_wrap .contents .para a:hover {
+    text-decoration: none;
+}
+
+.content_area .contentUPD {
+    margin: 0 auto;
+    width: 620px;
+}
+
+.content_area .contentUPD .title_big {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content_area .contentUPD .title_special {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.content_area .contentUPD p {
+    padding-bottom: 30px;
+}
+
+.content_area .contentUPD h1, .content_area .contentUPD h2, .content_area .contentUPD h3, .content_area .contentUPD h4, .content_area .contentUPD h5, .content_area .contentUPD h6 {
+    font-family: "HyundaiSansHead";
+    text-align: center;
+}
+
+.goToWorldwideFlat {
+    background-color: #54ace5;
+    border-bottom: 2px solid #4b9ace;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    padding: 12px 25px 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    transition: all 0.2s ease 0.01s;
+}
+
+/* Меню для страниц "О нас" */
+
+.content_wrap .menu_area {
+    height: 47px;
+    overflow: hidden;
+    width: 940px;
+    z-index: 200;
+}
+
+.content_wrap .menu_area .menu_title {
+    color: #5a5b5d;
+    float: left;
+    font-family: "HyundaiSansHead";
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    padding: 13px 0 0 29px;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 210px;
+}
+
+
+.content_wrap .menu_area ul {
+    float: left;
+    height: 47px;
+    width: 701px;
+    background: #fff;
+}
+
+.content_wrap .menu_area ul li {
+/*     background: rgba(0, 0, 0, 0) none repeat scroll 0 0; */
+    border-right: 1px solid #e8e5e0;
+    transition: all 0.2s ease 0.01s;
+    float: left;
+    height: 47px;
+}
+
+.content_wrap .menu_area ul li:hover {
+    background-color: #e8e5e0;
+}
+
+li .drop-down {
+    box-shadow: 0 2px 11px rgba(0, 0, 0, 0.2);
+    display: none;
+    height: auto !important;
+    overflow: visible;
+    position: absolute;
+    width: 200px !important;
+    z-index: 99;
+}
+
+li .drop-down li {
+    background: #fff none repeat scroll 0 0;
+    display: block;
+    float: none;
+    opacity: 0.9;
+    width: 100%;
+}
+
+.content_wrap .menu_area ul li:last-child {
+    border-right: medium none;
+}
+
+.content_wrap .menu_area ul li a {
+    box-sizing: content-box;
+    color: #8f8f91;
+    display: block;
+    height: 32px;
+    padding: 15px 22px 0 23px;
+}
+li.for_drop_down > a {
+    position: relative;
+}
+
+li.for_drop_down > a::after {
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+    border-left: 5px solid #808080;
+    border-top: 5px solid rgba(255, 255, 255, 0);
+    content: "";
+    height: 0;
+    position: absolute;
+    right: 6px;
+    top: 19px;
+    width: 0;
+}
+
+li:hover .drop-down {
+    display: block;
+}
+
+li .drop-down li:hover {
+    background: #e8e5e0 none repeat scroll 0 0;
+    color: black;
+    opacity: 1;
+    transition: all 0.05s ease 0s;
+}
+
+li .drop-down.v2 {
+    display: none;
+    left: 200px;
+    top: 0;
+}
+
+li .drop-down li:hover .drop-down.v2 {
+    display: block;
+}
+
+/* Табличные стили */
+
+table {
+    border: 0 none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+td, th {
+    empty-cells: show;
+}
+
+.content_area .contentUPD .timeline tr td .above_descr {
+    border-right: 1px solid #ddd;
+    display: table-cell;
+    font-size: 10px;
+    height: 165px;
+    line-height: 14px;
+    padding: 0 5px 10px;
+    transition: all 0.2s ease 0.01s;
+    vertical-align: bottom;
+}
+
+.content_area .contentUPD .timeline tr td .filler {
+    color: black;
+    font-family: "HyundaiSansHead";
+    font-size: 38px;
+    padding: 31px 0;
+    position: relative;
+    text-align: center;
+    transition: all 0.2s ease 0.01s;
+}
+
+.content_area .contentUPD .timeline tr td .filler.t1 {
+    background-color: #dfdee3;
+}
+.content_area .contentUPD .timeline tr td .filler.t1::after {
+    border-bottom: 40px solid rgba(0, 128, 0, 0);
+    border-left: 10px solid #dfdee3;
+    border-top: 40px solid rgba(0, 128, 0, 0);
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    width: 0;
+    z-index: 99;
+}
+.content_area .contentUPD .timeline tr td .filler.t2 {
+    background-color: #b7b8bd;
+}
+.content_area .contentUPD .timeline tr td .filler.t2::after {
+    border-bottom: 40px solid rgba(0, 128, 0, 0);
+    border-left: 10px solid #b7b8bd;
+    border-top: 40px solid rgba(0, 128, 0, 0);
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    width: 0;
+    z-index: 99;
+}
+.content_area .contentUPD .timeline tr td .filler.t3 {
+    background-color: #a3a7b2;
+}
+.content_area .contentUPD .timeline tr td .filler.t3::after {
+    border-bottom: 40px solid rgba(0, 128, 0, 0);
+    border-left: 10px solid #a3a7b2;
+    border-top: 40px solid rgba(0, 128, 0, 0);
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    width: 0;
+    z-index: 99;
+}
+.content_area .contentUPD .timeline tr td .filler.t4 {
+    background-color: #818a99;
+}
+.content_area .contentUPD .timeline tr td .filler.t4::after {
+    border-bottom: 40px solid rgba(0, 128, 0, 0);
+    border-left: 10px solid #818a99;
+    border-top: 40px solid rgba(0, 128, 0, 0);
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    width: 0;
+    z-index: 99;
+}
+.content_area .contentUPD .timeline tr td .filler.t5 {
+    background-color: #5d6e82;
+}
+.content_area .contentUPD .timeline tr td .filler.t5::after {
+    border-bottom: 40px solid rgba(0, 128, 0, 0);
+    border-left: 10px solid #5d6e82;
+    border-top: 40px solid rgba(0, 128, 0, 0);
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    width: 0;
+    z-index: 99;
+}
+.content_area .contentUPD .timeline tr td .filler.t6 {
+    background-color: #3d556d;
+}
+.content_area .contentUPD .timeline tr td .filler.t6::after {
+    border-bottom: 59px solid rgba(0, 128, 0, 0);
+    border-left: 10px solid #3d556d;
+    border-top: 60px solid rgba(0, 128, 0, 0);
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    width: 0;
+    z-index: 99;
+}
+.content_area .contentUPD .timeline tr td:last-child .above_descr {
+    border-right: medium none;
+}
+.content_area .contentUPD .timeline tr td:hover .above_descr {
+    color: #da3a26;
+}
+.content_area .contentUPD .timeline tr td:hover .filler {
+    color: #da3a26;
+}
+
+.content_area .contentUPD .thumbsTable tr td {
+    text-align: center;
+}
+.content_area .contentUPD .thumbsTable tr td img {
+    display: block;
+    margin: 0 auto;
+    opacity: 0.5;
+    transition: all 0.2s ease 0.01s;
+}
+.content_area .contentUPD .thumbsTable tr td span {
+    font-family: "HyundaiSans";
+    font-weight: bold;
+}
+.content_area .contentUPD .thumbsTable tr td p {
+    font-size: 10px;
+    line-height: 14px;
+}
+.content_area .contentUPD .thumbsTable tr td:hover img {
+    opacity: 1;
+}
+.content_area .contentUPD .thumbsTable tr td:hover span {
+    color: #da3a26;
+}
+.content_area .contentUPD .thumbsTable tr td:hover p {
+    color: #da3a26;
+}
+
+
+/* --------------------------
+Стили для вакансий
+---------------------------- */
+
+.content_wrap .contents.wide .tips_advice {
+    width: 640px;
+}
+.content_wrap .contents .tips_box .tips_advice .advice {
+    display: none;
+    padding: 15px 0 29px;
+}
+.content_wrap .contents .tips_advice {
+    margin-top: -30px;
+    padding: 34px 0 25px;
+    position: relative;
+    width: 581px;
+}
+.content_wrap .contents .tips_advice .notice_tip {
+    border-bottom: 1px solid #d5d5d5;
+    left: 0;
+    margin-bottom: 1px;
+    padding: 0 0 20px;
+    position: absolute;
+    top: -3px;
+    width: 640px;
+}
+.content_wrap .contents .tips_advice .tips_wrap:first-child {
+    border-top: 1px solid #d5d5d5;
+}
+.content_wrap .contents .tips_advice .tips_wrap {
+    border-bottom: 1px solid #d5d5d5;
+    padding: 0 0 15px;
+}
+.content_wrap .contents .tips_advice .tips {
+    background: rgba(0, 0, 0, 0) url("/media/img/arrow_list_down_2.gif") no-repeat scroll right 19px;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 0 0;
+}
+.content_wrap .contents .tips_advice .tips span {
+    font-size: 14px;
+    padding: 0 8px 0 0;
+}
+.content_wrap .contents .tips_advice .on .tips {
+    background: rgba(0, 0, 0, 0) url("/media/img/arrow_list_up_2.gif") no-repeat scroll right 13px;
+}
+.content_wrap .contents .tips_advice .on .advice {
+    display: block;
+}
+.content_wrap .contents .tips_advice .advice {
+    display: none;
+    padding: 7px 0 3px;
+}
+
+.img_left > img {
+    float: left;
+}
+
+.img_right > img {
+    float: right;
+}
+
+.img_left > div, .half_wrap .right {
+    float: right;
+}
+
+/* XMMP */
+
+.contents .history {
+    width: 580px;
+}
+
+.contents .history div {
+    color: #666;
+    overflow: hidden;
+}
+
+.contents .history strong {
+    float: left;
+    font-size: 14px;
+}
+
+.contents .history p {
+    float: right;
+    padding-bottom: 20px;
+    width: 400px;
+}
+
+.content_wrap .contents .title_big {
+    font-family: "HyundaiSansHead";
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 25px;
+}
+
+/* popup */
+
+.legal-info-modal {
+		display: none;
+
+		position: fixed;
+		background: rgba(0,0,0,0.8);
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		z-index: 500;
+	}
+	.legal-info-modal .legal-info-container {
+		width: 940px;
+		position: absolute;
+		left: 50%;
+		margin-left: -470px;
+		top: 50%;
+		transform: translateY(-50%);
+		background: #fff;
+		padding: 50px;
+	}
+	.legal-info-modal .legal-info-header {
+	    font-family: "HyundaiSans";
+	    font-weight: 600;
+	    font-size: 30px;
+	    line-height: 1;
+	    margin-bottom: 25px;
+	    color: #1a85ca;
+	}
+	.legal-info-modal .legal-info-text p {
+	    color: #505050;
+	    float: left;
+	    font-size: 13px;
+	    line-height: 1.385;
+	    width: 48%;
+	}
+	.legal-info-modal .legal-info-text p:first-child {
+	    margin-right: 4%;
+	}
+	.legal-info-modal .legal-info-close {
+	    background: #9a9a9a;
+	    color: #fff;
+	    cursor: pointer;
+	    font-size: 32px;
+	    height: 48px;
+	    padding: 0 0 0 15px;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    transition: background 200ms ease 0s;
+	    width: 48px;
+	    z-index: 155;
+	}
+	.legal-info-modal .legal-info-close:hover {
+		background: #1a85ca;
+	}
+
+.content_wrap .contents .xmmp {
+    line-height: 18px;
+}
+
+.content_wrap .contents .xmmp li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    padding: 0;
+}
+
+.content_wrap .contents .xmmp li strong {
+    color: #333;
+    display: inline-block;
+    position: relative;
+    width: 99px;
+}
+
+.download {
+    margin: auto;
+    width: 43%;
+}
+
+.content_wrap .contents .para .download a {
+    color: black;
+    text-decoration: none;
+}
+
+.download a span {
+    display: block;
+    margin-top: -44px;
+    padding-left: 60px;
+}
+
+.content_wrap .menu_area ul li.on {
+    background: #e8e5e0 none repeat scroll 0 0;
+    margin-right: -2px;
+}
+
+.b-fullsize-container {
+    padding: 30px;
+}
+
+.b-search__form {
+    overflow: hidden;
+}
+.b-search__form-block {
+    float: left;
+}
+.b-search__form-block label {
+    color: #ccc;
+    display: block;
+    margin-bottom: 5px;
+}
+.b-search__form input {
+    font-size: 14px;
+}
+.b-search__form-block input {
+    border: 1px solid #e4e4e4;
+    color: #323232;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 15px;
+    width: 83px;
+}
+.b-search__form input[type="text"]:focus {
+    border-color: #53ace4;
+    outline: 0 none;
+}
+.b-search__form .b-search__form-text {
+    margin-right: 30px;
+    width: 388px;
+}
+.b-search__form .b-search__form-date {
+    background: rgba(0, 0, 0, 0) url("/media/img/calendar.jpg") no-repeat scroll 105px 4px;
+    box-sizing: content-box;
+    padding-right: 40px;
+}
+.b-search__form-submit {
+    background: #53ace4 none repeat scroll 0 0;
+    box-sizing: content-box;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    line-height: 40px;
+    margin-top: 23px;
+    width: 100px;
+}
+.b-search__form-submit:hover {
+    text-decoration: underline;
+}
+.b-news__list {
+    margin-left: -20px;
+    overflow: hidden;
+}
+.b-news__list-item {
+    float: left;
+    height: 280px;
+    margin: 0 0 20px 20px;
+    width: 280px;
+}
+.b-news__list-item__photo {
+    height: 160px;
+    overflow: hidden;
+}
+.b-news__list-item__photo img {
+    background: rgba(0, 0, 0, 0) url("http://img.hyundai.ru/uploads/55c87683963e9.png") repeat scroll 0 0;
+    display: block;
+    min-height: 160px;
+    width: 100%;
+}
+.b-news__list-item__title {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 15px 0 10px;
+}
+.b-news__list-item__date {
+    color: #ccc;
+}
+.b-news-pagination {
+    position: relative;
+    text-align: center;
+}
+.b-news-pagination .pagination-item {
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+}
+.b-news-pagination .pagination-item.current {
+    background: #58aae4 none repeat scroll 0 0;
+    color: #fff;
+}
+.b-news-pagination .disable {
+    color: #ccc;
+    cursor: default;
+}
+.b-news-pagination .pagination_prev {
+    background: rgba(0, 0, 0, 0) url("/media/img/prev.jpg") no-repeat scroll 0 center;
+    left: 0;
+    line-height: 40px;
+    padding-left: 30px;
+    position: absolute;
+}
+.b-news-pagination .pagination_next {
+    background: rgba(0, 0, 0, 0) url("/media/img/next.jpg") no-repeat scroll right center;
+    line-height: 40px;
+    padding-right: 30px;
+    position: absolute;
+    right: 0;
+}
+#ui-datepicker-div.b-news-datepicker {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e3e3e1;
+    box-shadow: none;
+    margin-top: 23px;
+    width: 297px;
+    z-index: 200;
+}
+#ui-datepicker-div.b-news-datepicker .ui-datepicker-header {
+    border-bottom: 1px solid #e3e3e1;
+    font-size: 14px;
+    line-height: 58px;
+    margin: 0;
+    padding: 0 24px;
+}
+#ui-datepicker-div.b-news-datepicker .ui-datepicker-header .ui-datepicker-prev, #ui-datepicker-div.b-news-datepicker .ui-datepicker-header .ui-datepicker-next {
+    background: rgba(0, 0, 0, 0) url("/media/img/calendar_controls.jpg") no-repeat scroll 0 0;
+    display: block;
+    height: 16px;
+    margin-top: 20px;
+    text-indent: 9999px;
+    width: 9px;
+}
+#ui-datepicker-div.b-news-datepicker .ui-datepicker-header .ui-datepicker-prev:hover {
+    background-position: 0 bottom;
+}
+#ui-datepicker-div.b-news-datepicker .ui-datepicker-header .ui-datepicker-next {
+    background-position: right 0;
+}
+#ui-datepicker-div.b-news-datepicker .ui-datepicker-header .ui-datepicker-next:hover {
+    background-position: right bottom;
+}
+#ui-datepicker-div.b-news-datepicker .ui-datepicker-calendar td, #ui-datepicker-div.b-news-datepicker .ui-datepicker-calendar th {
+    height: 40px;
+    width: 40px;
+}
+#ui-datepicker-div.b-news-datepicker .ui-datepicker-calendar th {
+    color: #ccc;
+    font-weight: 400;
+}
+#ui-datepicker-div.b-news-datepicker .ui-datepicker-current-day, #ui-datepicker-div.b-news-datepicker .ui-datepicker-calendar tbody td:hover {
+    background: #55abe6 none repeat scroll 0 0;
+}
+#ui-datepicker-div.b-news-datepicker .ui-datepicker-current-day a, #ui-datepicker-div.b-news-datepicker .ui-datepicker-calendar tbody td:hover a {
+    color: #fff;
+}
+#ui-datepicker-div.b-news-datepicker .ui-datepicker-calendar tbody td a:hover {
+    background: transparent none repeat scroll 0 0;
+    color: #fff;
+}
+#ui-datepicker-div.b-news-datepicker .ui-datepicker-unselectable {
+    color: #ccc;
+}
+#ui-datepicker-div.b-news-datepicker .ui-datepicker-unselectable:hover {
+    background: transparent none repeat scroll 0 0;
+    color: #333;
+}
+.b-news-view {
+    margin: 35px auto 0;
+    width: 620px;
+}
+.b-news-view__title {
+    font-family: "HyundaiSansHead";
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.b-news-view__date {
+    color: #ccc;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.b-search__form-submit {
+    background: #53ace4 none repeat scroll 0 0;
+    border: 0px !important;
+    box-sizing: content-box;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    line-height: 40px;
+    margin-top: 23px;
+    width: 100px;
+}
+
+.contents_news {
+    padding: 60px 43px 0 223px;
+}
+
+.newsList {
+    border-top: 1px solid #d5d5d5;
+    width: 657px;
+}
+
+.newsList td {
+    border-bottom: 1px solid #d5d5d5;
+    padding: 16px 0 15px;
+    vertical-align: top;
+}
+
+.newsList dt, .newsList dt a {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.newsList dt {
+    padding-bottom: 3px;
+}
+
+.newsList dd.con, .newsList dd.con a {
+    line-height: 18px;
+}
+.newsList dd.con {
+    padding-top: 12px;
+}
+
+.newsList td.img {
+    padding: 20px 0;
+    text-align: right;
+    vertical-align: top;
+}
+
+.newsList td.img img {
+    vertical-align: top;
+}
+
+.newsList td.img .btn_pdf {
+    margin-top: 10px;
+}
+
+
+.content_wrap .content_area .side_menu {
+    float: left;
+    padding: 50px 0 0 31px;
+}
+
+.content_wrap .content_area .side_menu.more_menu ul.menu {
+    border-top: 1px solid #c3c4c6;
+    width: 190px;
+}
+
+.content_wrap .content_area .side_menu.more_menu ul.download_type {
+    width: 151px;
+}
+
+.content_wrap .content_area .side_menu ul.menu li.on a {
+    color: #333;
+    font-weight: 700;
+}
+.content_wrap .content_area .side_menu ul.menu li a {
+    border-bottom: 1px solid #c3c4c6;
+    color: #8f8f91;
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 6px 0;
+}
+
+.content_wrap .content_area .side_menu.more_menu .menu ul {
+    border-bottom: 1px solid #c3c4c6;
+    padding: 6px 0 13px 13px;
+}
+
+.content_wrap .content_area .side_menu ul.menu li.on ul li a {
+    color: #8f8f91;
+}
+
+.contents_award_car {
+    float: left;
+    padding: 35px 0 0 40px;
+    width: 660px;
+}
+
+.content_wrap .content_area .side_menu.more_menu .menu ul a {
+    background: rgba(0, 0, 0, 0) url("/wcm/images/common/icon/icon_squre_gray.gif") no-repeat scroll 0 7px;
+    border: medium none;
+    padding: 0 0 2px 8px;
+    font-weight: 300;
+}
+
+.award_car {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 22px;
+    padding: 5px 0 0;
+    width: 660px;
+}
+
+.award_car ul {
+    margin-top: 12px;
+    overflow: hidden;
+}
+
+.award_car h3 {
+    font-size: 18px;
+    font-weight: 700;
+    height: 28px;
+}
+
+.award_car ul li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    float: left;
+    height: 240px;
+    line-height: 16px;
+    margin-right: 13px;
+    padding: 0;
+    width: 155px;
+}
+
+.content_wrap .fleet_wrap {
+    width: 580px;
+    float: left;
+}
+
+.content_wrap .fleet {
+    background: rgba(0, 0, 0, 0) url("/media/img/bg_fleet_top.gif") no-repeat scroll left top;
+    overflow: hidden;
+    padding: 6px 0 2px;
+}
+
+.content_wrap .fleet .contact_us {
+    background: rgba(0, 0, 0, 0) url("/media/img/bg_fleet.gif") repeat-y scroll 0 top;
+    overflow: hidden;
+}
+
+.content_wrap .fleet .contact_us li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    box-sizing: content-box;
+    float: left;
+    height: 88px;
+    padding: 14px 0 0 10px;
+    width: 183px;
+}
+
+.content_wrap .fleet .contact_us li .name {
+    box-sizing: content-box;
+    color: #999;
+    display: block;
+    line-height: 17px;
+    padding: 0 0 16px;
+}
+
+.content_wrap .fleet .contact_us li .name strong {
+    color: #333;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content_wrap .fleet .contact_us li .mail a {
+    color: #004281;
+    text-decoration: underline;
+}
+
+.content_wrap .fleet .contact_us li .mail a:hover {
+    text-decoration: none;
+}
+
+.content_area .sitemap_area {
+    padding: 42px 60px 50px;
+}
+.content_area .sitemap_area .sitemap_menu {
+    float: left;
+    width: 20%;
+}
+.content_area .sitemap_area .sitemap_menu .list_site {
+    line-height: 22px;
+}
+.content_area .sitemap_area .sitemap_menu .list_site li {
+    background: rgba(0, 0, 0, 0) url("/media/img/bg_submenu_list_more_item.gif") no-repeat scroll 0 9px;
+    padding: 0 10px 0 11px;
+}
+.content_area .sitemap_area .sitemap_menu .list_site li a {
+    color: #5a5b5d;
+}
+.content_area .sitemap_area .sitemap_menu .list_site ul li {
+    background: rgba(0, 0, 0, 0) url("/media/img/bg_list_line.gif") no-repeat scroll 0 10px;
+    padding: 0 10px 0 11px;
+}
+.content_area .sitemap_area .sitemap_menu .list_site ul li a {
+    color: #8f8f91;
+}
+.content_area .sitemap_area h2 {
+    font-family: HyundaiSans;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 7px;
+}
+
+.content_wrap .contents .download_box {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border: 1px solid #d5d5d5;
+    margin-top: 28px;
+    padding: 12px 15px 12px 10px;
+}
+.content_wrap .contents .download_box li {
+    background-position: 0 12px;
+    border-bottom: 1px solid #e5e4e4;
+    overflow: hidden;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.content_wrap .contents .download_box li.last {
+    border-bottom: medium none;
+}
+.content_wrap .contents .download_box li a {
+    background: rgba(0, 0, 0, 0) url("/wcm/images/common/icon/ico_file_download.gif") no-repeat scroll 0 0;
+    float: left;
+    padding-left: 18px;
+    text-decoration: none;
+}
+.content_wrap .contents .download_box li a.middle {
+    margin-top: 9px;
+}
+.content_wrap .contents .download_box li span {
+    float: left;
+    width: 370px;
+}
+
+/* Ссылка Сводная ведомость */
+
+.contentUPD .d_button {
+    margin: 30px 0;
+}
+
+.contentUPD .special__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+}
+
+.contentUPD .special__link:hover {
+    color: #103a71;
+}
+
+.contentUPD .special__link  img {
+    max-width: 15px;
+    max-height: auto;
+    margin-right: 5px;
+}
+

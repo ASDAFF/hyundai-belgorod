@@ -41,6 +41,9 @@
 						<a href="/service/spetspredlozheniya/" class="main-nav__link">Сервис</a>
 					</li>
 					<li class="main-nav__item">
+						<a href="/corporate-clients/" class="main-nav__link">Корпоративным клиентам</a>
+					</li>
+					<li class="main-nav__item">
 						<a href="/contacts/" class="main-nav__link">Контакты</a>
 					</li>
 					<!--<li class="main-nav__item">
