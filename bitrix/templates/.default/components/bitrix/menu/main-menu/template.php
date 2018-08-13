@@ -25,7 +25,7 @@
 						<span class="main-nav__link" data-role="showroom-submenu-link">Модельный ряд</span>
 					</li>
 
-					<? if(SITE_ID == "s1" OR SITE_ID == "s2" OR SITE_ID == "s5"): ?>
+					<? if(SITE_ID == "s1" OR SITE_ID == "s2"): ?>
 					<li class="main-nav__item">
 						<a href="/offer/" class="main-nav__link">Авто в наличии</a>
 					</li>
