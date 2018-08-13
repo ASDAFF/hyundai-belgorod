@@ -3832,7 +3832,6 @@ table.hy-table tr:nth-child(odd) td {background-color:#eee}
 .b-news-view {width:620px;margin:35px auto 0}
 .b-news-view__title {font-size:18px;font-weight:500;margin-bottom:20px;font-family: "HyundaiSansHead";}
 .b-news-view__date {display:block;color:#ccc;margin-bottom:20px}
-.bordr-btm {border-bottom:1px solid #e1e1e1}
 .offers-container .offers-content a {color:#147abc}
 .offers-container .offers-content a:hover {text-decoration:none}
 .offers-container table.table-border td,.offers-container table.table-border th {border:1px solid #999}

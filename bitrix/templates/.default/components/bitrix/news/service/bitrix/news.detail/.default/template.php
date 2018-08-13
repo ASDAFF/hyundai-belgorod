@@ -88,15 +88,15 @@ $this->setFrameMode(true);
 							</div>
 							<div class="bw-view-pluses">
 								<div class="bw-view-plus bw-view-plus--1 right">
-									<span class="bw-view-plus-descr">Капот от 8000 <span class="bw-view-plus-descr-price">9047 <span class="rouble">7</span></span></span>
+									<span class="bw-view-plus-descr">Капот от 7847 <span class="bw-view-plus-descr-price">9047 <span class="rouble">7</span></span></span>
 									<a href="#" class="bw-view-plus-icon"></a>
 								</div>
 								<div class="bw-view-plus bw-view-plus--2 right">
-									<span class="bw-view-plus-descr">Бампер передний от 6500 <span class="bw-view-plus-descr-price">7231 <span class="rouble">7</span></span></span>
+									<span class="bw-view-plus-descr">Бампер передний от 5930 <span class="bw-view-plus-descr-price">7231 <span class="rouble">7</span></span></span>
 									<a href="#" class="bw-view-plus-icon"></a>
 								</div>
 								<div class="bw-view-plus bw-view-plus--3 right">
-									<span class="bw-view-plus-descr">Крыло переднее лев/прав от 6500<span class="bw-view-plus-descr-price">7597 <span class="rouble">7</span></span></span>
+									<span class="bw-view-plus-descr">Крыло переднее лев/прав от 6597<span class="bw-view-plus-descr-price">7597 <span class="rouble">7</span></span></span>
 									<a href="#" class="bw-view-plus-icon"></a>
 								</div>
 								<div class="bw-view-plus bw-view-plus--4 right">
@@ -104,7 +104,7 @@ $this->setFrameMode(true);
 									<a href="#" class="bw-view-plus-icon"></a>
 								</div>
 								<div class="bw-view-plus bw-view-plus--5 right">
-									<span class="bw-view-plus-descr">Дверь передняя лев/прав от 6500 <span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
+									<span class="bw-view-plus-descr">Дверь передняя лев/прав от 7144 <span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
 									<a href="#" class="bw-view-plus-icon"></a>
 								</div>
 							</div>
@@ -115,23 +115,23 @@ $this->setFrameMode(true);
 							</div>
 							<div class="bw-view-pluses">
 								<div class="bw-view-plus bw-view-plus--1 right">
-									<span class="bw-view-plus-descr">Крышка багажника от 6500<span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
+									<span class="bw-view-plus-descr">Крышка багажника от 6155<span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
 									<a href="#" class="bw-view-plus-icon"></a>
 								</div>
 								<div class="bw-view-plus bw-view-plus--2 right">
-									<span class="bw-view-plus-descr">Бампер задний от 6500<span class="bw-view-plus-descr-price">2000 <span class="rouble">7</span></span></span>
+									<span class="bw-view-plus-descr">Бампер задний от 5930<span class="bw-view-plus-descr-price">2000 <span class="rouble">7</span></span></span>
 									<a href="#" class="bw-view-plus-icon"></a>
 								</div>
 								<div class="bw-view-plus bw-view-plus--3 right">
-									<span class="bw-view-plus-descr">Крыша от 10000 <span class="bw-view-plus-descr-price">5000 <span class="rouble">7</span></span></span>
+									<span class="bw-view-plus-descr">Крыша от 14540 <span class="bw-view-plus-descr-price">5000 <span class="rouble">7</span></span></span>
 									<a href="#" class="bw-view-plus-icon"></a>
 								</div>
 								<div class="bw-view-plus bw-view-plus--4 right">
-									<span class="bw-view-plus-descr">Крыло заднее лев/прав от 7000 <span class="bw-view-plus-descr-price">3500 <span class="rouble">7</span></span></span>
+									<span class="bw-view-plus-descr">Крыло заднее лев/прав от 6597 <span class="bw-view-plus-descr-price">3500 <span class="rouble">7</span></span></span>
 									<a href="#" class="bw-view-plus-icon"></a>
 								</div>
 								<div class="bw-view-plus bw-view-plus--5 right">
-									<span class="bw-view-plus-descr">Дверь задняя лев/прав от 6500 <span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
+									<span class="bw-view-plus-descr">Дверь задняя лев/прав от 7144 <span class="bw-view-plus-descr-price">3000 <span class="rouble">7</span></span></span>
 									<a href="#" class="bw-view-plus-icon"></a>
 								</div>
 							</div>

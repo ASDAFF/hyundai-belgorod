@@ -1,0 +1,6 @@
+<?
+$sSectionName = "shell";
+$arDirProperties = Array(
+
+);
+?>

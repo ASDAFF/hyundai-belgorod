@@ -541,7 +541,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                         <div class="configurator-control dublay-ch">
                                             <a href="http://www.hyundai.ru/configurator" target="_blank" class="configurator-link">
                                                 <div class="configurator-link-text">
-                                                    от <span class="configurator-price-val">1 245 000 </span> &#8381;
+                                                    от <span class="configurator-price-val">1 299 000 </span> &#8381;
                                                     <span class="configurator-credit">В кредит от <span class="configurator-credit-val">9000</span> &#8381; в месяц</span>
                                                 </div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="svg corner-right-light"><use xlink:href="#light"></use></svg>

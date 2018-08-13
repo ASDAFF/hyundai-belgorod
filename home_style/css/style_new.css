@@ -2642,7 +2642,8 @@ html.is-spreader-active body {
 
 .main-header {
     position: relative;
-    background: #fff
+    background: #fff;
+    min-width: 1500px;
 }
 
 .main-header__holder {

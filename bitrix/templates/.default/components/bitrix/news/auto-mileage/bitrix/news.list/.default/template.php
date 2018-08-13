@@ -67,7 +67,7 @@ $this->setFrameMode(true);
 							<span class="car-list_cell-inner">
 								<i class="car-list__img-holder">
 									<a class="car-list__img-link" href="<?=$arItem['DETAIL_PAGE_URL']?>">
-										<img src="<?=resize_for_other_server($arItem['PROPERTIES']['SLIDER']['VALUE'][0],165,130);?>" alt="<?echo $arItem["NAME"]?>">
+										<img src="<?=CFile::GetPath($arItem['PROPERTIES']['GALERY']['VALUE'][0]);?>" alt="<?echo $arItem["NAME"]?>">
 									</a>
 								</i>
 							</span>

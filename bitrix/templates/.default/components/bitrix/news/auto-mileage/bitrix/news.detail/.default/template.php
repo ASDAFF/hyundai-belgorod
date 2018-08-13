@@ -30,9 +30,9 @@ $this->setFrameMode(true);
 
 				<ul id="imageGallery" class="gallery list-unstyled">
 
-					<? foreach($arResult['PROPERTIES']['SLIDER']['VALUE'] as $img):?>
-						<li data-thumb="<?=resize_for_other_server($img,132,100);?>" data-src="<?=resize_for_other_server($img,550,410);?>">
-							<img src="<?=resize_for_other_server($img,550,410);?>" style="max-width: 544px"/>
+					<? foreach($arResult['PROPERTIES']['GALERY']['VALUE'] as $img):?>
+						<li data-thumb="<?=CFile::GetPath($img);?>" data-src="<?=CFile::GetPath($img);?>">
+							<img src="<?=CFile::GetPath($img);?>" style="max-width: 544px"/>
 						</li>
 					<? endforeach; ?>
 				</ul>
@@ -65,7 +65,7 @@ $this->setFrameMode(true);
 				</table>
 				<div class="detal-btn-auto">
 					<a href="#" class="zing_form_toggler" for="zing_hotline_btn">Забронировать</a>
-					<a href="#" onclick="PRZV.helpers.showWidget(1)">Заказать звонок</a>
+					<a href="#" onclick="$('.zing_form_back_tel').click()">Заказать звонок</a>
 				</div>
 			</div>
 			<div class="clear"></div>
@@ -218,7 +218,9 @@ $this->setFrameMode(true);
 	}
 	?>
 
-	<?$APPLICATION->IncludeComponent(
+	<?
+/*
+$APPLICATION->IncludeComponent(
 		"bitrix:news.list",
 		"offers_home",
 		array(
@@ -247,7 +249,7 @@ $this->setFrameMode(true);
 			),
 			"FILTER_NAME" => "",
 			"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-			"IBLOCK_ID" => $offer_id_ib,
+			"IBLOCK_ID" => IBLOCK_ID_OFFER,
 			"IBLOCK_TYPE" => "products",
 			"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
 			"INCLUDE_SUBSECTIONS" => "Y",
@@ -283,7 +285,7 @@ $this->setFrameMode(true);
 			"COMPONENT_TEMPLATE" => "offers_home"
 		),
 		false
-	);?>
+);*/?>
 
 
 

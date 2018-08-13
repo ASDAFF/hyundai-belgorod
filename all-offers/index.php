@@ -65,76 +65,6 @@ $APPLICATION->SetTitle("all-offers");
                 ?>
 
 
-<!--
-                <div class="insection-offer-unit">
-                    <a href="http://hyundai-ringauto.ru/promo/santa-fe-offer/" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/3b6b0e6d05c664a63fd2d85e9af37735_1900x520px_new_mini.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Выгода до 300 000р. на Hyundai Santa fe!</span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="insection-offer-unit">
-                    <a href="http://hyundai-ringauto.ru/promo/elantra-offer/" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/e9af6d87b8b138685dc83ab3a302d792_Elantra.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Hyundai Elantra.<br>За 8 000 руб./мес.</span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="insection-offer-unit">
-                    <a href="http://hyundai-ringauto.ru/promo/santa-fe-offer/" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/23b1a222ff29e8fb318252ccd04a6de1_Leasing_1920x530_small.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Hyundai Leasing Boost</span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
--->
-                <div class="insection-offer-unit">
-                    <a href="/promo/sonata_trade-in" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/fd62266054ae7102834ec4d0ede1a33a_Sonata_special_offer_preview.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Hyundai Sonata. Выгода 80 000 Р. </span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="insection-offer-unit">
-                    <a href="/promo/sonata_trade-in" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/d90a36306c2e0e601e3d03fc5a05a689_preview.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Hyundai Tucson. Выгода 30 000 Р.  </span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="insection-offer-unit">
-                    <a href="/promo/credit-5-percent" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/41fb8a0a716cb03b5fe406bea54aa47d_Hyundai-5_webbanner_offer_preview.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Это пять! Кредит 5% на Solaris, Creta, Elantra и Tucson.  </span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="insection-offer-unit">
-                    <a href="/promo/tucson_trade-in" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/f1187d2e52a706540962aa61a1758f46_Sonata_preview.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">КАСКО 3,8% + пакет "Привилегия" на Hyundai Sonata. </span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
 
                 <div class="insection-offer-unit">
                     <a href="/start/" class="insection-offer-unit__link">
@@ -175,19 +105,6 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
-
-<!--
-                <div class="insection-offer-unit">
-                    <a href="/promo/leasing_new/" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/822f208ac03003ca995030c04d001055_%D0%9B%D0%B8%D0%B7%D0%B8%D0%BD%D0%B3-%D0%B4%D0%BB%D1%8F-%D1%84%D0%B8%D0%B7-%D0%BB%D0%B8%D1%86_%D1%81%D0%BF%D0%B5%D1%86-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_preview.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Лизинг для физ. лиц <br>Уникальные условия и привилегии.</span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
--->
-
 
                 <div class="insection-offer-unit">
                     <a href="https://hpromise.hyundai.ru/" class="insection-offer-unit__link">
@@ -238,6 +155,25 @@ $APPLICATION->SetTitle("all-offers");
                     }
                 }
                 ?>
+                <div class="insection-offer-unit">
+                    <a href="/promo/shell" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/dd77b6edbce77f33b7c4c23fd7d6e125_1920x530_Hyundai_Shell.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Новые рекорды с сервисом Hyundai</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
+                    <a href="/promo/santafe_offer" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/af769b27850993d65279bf07a5090af2_santa-fe_tiser_465_330.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Интересное предложение для владельцев SantaFe!</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
                 
                 <div class="insection-offer-unit">
                     <a href="/promo/parts/" class="insection-offer-unit__link">
