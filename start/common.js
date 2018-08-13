@@ -322,7 +322,7 @@ var Spreader = function() {
 }(),
     function($) {
         function t(t) {
-            
+
 
         }
         var e = new Spreader("#online-call-template", {
