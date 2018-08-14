@@ -57,7 +57,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                         НОВЫЙ Solaris								</option>
                                     <option
                                         value="24"
-                                        data-tradein="100000"
+                                        data-tradein="140000"
                                         data-programm="0"
                                         data-points="20000"
                                         >
