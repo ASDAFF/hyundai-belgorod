@@ -85,7 +85,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <div class="carslider-inner-single-desc sonata">
                     <a href="/Sonata/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
-                    <div class="carslider-inner-single-desc-price">100 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-price">140 000 &#8381;</div>
                     <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
 <div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
                 </div>
