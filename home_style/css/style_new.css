@@ -891,7 +891,7 @@ body {
 img {
     color: #bdbdbd;
     font-size: .75em;
-    vertical-align: middle;
+    vertical-align: middle!important;
 }
 
 [v-cloak] {
@@ -2642,8 +2642,7 @@ html.is-spreader-active body {
 
 .main-header {
     position: relative;
-    background: #fff;
-    min-width: 1500px;
+    background: #fff
 }
 
 .main-header__holder {
@@ -2700,7 +2699,8 @@ html.is-spreader-active body {
     font-family: "HyundaiSansHead", "Hevetica", Arial, sans-serif;
     font-size: 1.1538461538em;
     color: #333;
-    letter-spacing: .01em
+    letter-spacing: .01em;
+    font-weight: normal!important;
 }
 
 .main-nav__item:hover {
@@ -2782,92 +2782,6 @@ html.is-spreader-active body {
     -o-transition: color 0.15s ease-out 0s;
     transition: color 0.15s ease-out 0s;
     position: relative
-}
-.service-submenu {
-    font-size: 1.1538461538em;
-    line-height: 1.2;
-    letter-spacing: .015em;
-    padding: 35px 100px
-}
-
-.service-submenu::after {
-    clear: both;
-    content: '';
-    display: table
-}
-
-.service-submenu__item {
-    float: left;
-    width: 25%;
-    margin-bottom: 30px
-}
-
-.service-submenu__item:nth-of-type(4n) .service-submenu__item-name {
-    max-width: 100%
-}
-
-.service-submenu__link {
-    display: block
-}
-
-.service-submenu__link:hover .service-submenu__item-icon {
-    color: #fff
-}
-
-.service-submenu__link:hover .service-submenu__item-icon::before {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1)
-}
-
-.service-submenu__item-icon {
-    color: #9b9b9b;
-    height: 50px;
-    width: 50px;
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transition: color 0.15s ease-out 0s;
-    -o-transition: color 0.15s ease-out 0s;
-    transition: color 0.15s ease-out 0s;
-    position: relative
-}
-
-.service-submenu__item-icon::before {
-    content: '';
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    background: #103a71;
-    -webkit-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
-    opacity: 0;
-    -webkit-transition: opacity 0.15s ease-out 0s, -webkit-transform 0.15s ease-out 0s;
-    transition: opacity 0.15s ease-out 0s, -webkit-transform 0.15s ease-out 0s;
-    -o-transition: transform 0.15s ease-out 0s, opacity 0.15s ease-out 0s;
-    transition: transform 0.15s ease-out 0s, opacity 0.15s ease-out 0s;
-    transition: transform 0.15s ease-out 0s, opacity 0.15s ease-out 0s, -webkit-transform 0.15s ease-out 0s
-}
-
-.service-submenu__item-icon .ic-svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto
-}
-
-.service-submenu__item-name {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 5px;
-    max-width: 130px
 }
 
 .col::after,

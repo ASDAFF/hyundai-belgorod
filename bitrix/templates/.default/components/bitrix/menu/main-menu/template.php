@@ -31,15 +31,23 @@
 					</li>
 					<? endif;?>
 
-					<li class="main-nav__item">
-						<a href="/all-offers/" class="main-nav__link">Cпецпредложения</a>
+					<li class="main-nav__item main-nav__item--has-submenu">
+						<span class="main-nav__link" data-role="n-submenu-link">N</span>
 					</li>
-					<li class="main-nav__item">
-						<a href="/hpromise/" target="_blank" class="main-nav__link">С пробегом</a>
-					</li>
+
 					<li class="main-nav__item">
 						<a href="/service/spetspredlozheniya/" class="main-nav__link">Сервис</a>
 					</li>
+
+					<li class="main-nav__item">
+						<a href="/hpromise/" target="_blank" class="main-nav__link">С пробегом</a>
+					</li>
+
+					<li class="main-nav__item">
+						<a href="/all-offers/" class="main-nav__link">Cпецпредложения</a>
+					</li>
+
+
 					<li class="main-nav__item">
 						<a href="/corporate-clients/" class="main-nav__link">Корпоративным клиентам</a>
 					</li>
@@ -98,6 +106,28 @@
 			</div>
 
 
+			<div class="submenu" data-role="n-submenu">
+				<div class="submenu-content">
+					<ul class="showroom">
+						<li class="showroom__cat" role="menuitem">
+							<div class="showroom__cat-title">N</div>
+							<div class="showroom__cat-items">
+								<a href="/i30N/" class="showroom__cat-item" title="i30N">
+									<span class="showroom__cat-item-name">i30N</span>
+
+									<img src="<?=SITE_TEMPLATE_PATH?>/media/car/I30.png" class="showroom__cat-item-image" alt="i30N"/>
+								</a>
+								<a href="/Veloster-N/" class="showroom__cat-item" title="Veloster N">
+									<span class="showroom__cat-item-name">Veloster N</span>
+
+									<img src="<?=SITE_TEMPLATE_PATH?>/media/car/veloster_2.png" class="showroom__cat-item-image" alt="Veloster N"/>
+								</a>
+							</div>
+						</li>
+					</ul>
+					<button class="submenu-close"><svg xmlns="http://www.w3.org/2000/svg" class="ic-svg"><use xlink:href="#ic-close-sm"></use></svg></button>
+				</div>
+			</div>
 
 
 
