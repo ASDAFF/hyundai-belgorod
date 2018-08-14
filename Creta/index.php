@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Hyundai Creta купить в Воронеже у официального дилера. Хендай Крета комплектации и цены");
+$APPLICATION->SetPageProperty("title", "Hyundai Creta купить у официального дилера. Хендай Крета комплектации и цены");
 $APPLICATION->SetTitle("Creta");
 ?>
 
@@ -76,14 +76,15 @@ $APPLICATION->SetTitle("Creta");
                                             <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
                                         </div>
 
-                                        <?
-                                        model_credit(
-                                            array(
-                                                array("val" => "5%","text" => "Кредит*"),
-                                                array("text" => "<b>КАСКО</b> в подарок**")
-                                            )
-                                        );
-                                        ?>
+                                        <div class="blue-block clearfix">
+                                            <div class="blue-block-content">
+                                                <div class="blue-block-row" style="border-bottom: 0px !important;">
+                                                    <span class="blue-block-val">9.9%</span>
+                                                    <span class="blue-block-text">кредит<sup>*</sup></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br clear="all"/>
 
                                         <div class="title-list">
                                             <ul>
@@ -960,12 +961,15 @@ $APPLICATION->SetTitle("Creta");
                         </div>
                         <div class="spec_message">
                             <div>
-                                <span class="add-blue-color">*</span>5.0% годовых – процентная ставка в кредитном договоре. Валюта кредита - рубли РФ; уровень первоначального взноса от 30% от стоимости автомобиля. Срок кредита 12-36 месяцев. Программа распространяется на покупку в кредит Creta (код комплектации CTW52G61GGG013). Программой предусмотрено страхование жизни и здоровья заемщика. Минимальная сумма кредита – 50 000 руб., максимальная сумма кредита – 6 500 000 руб.. Обязательно подтверждение дохода клиента. Залоговое обеспечение - залог приобретаемого ТС. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013г. Предложение действует с 01.05.18 по 31.05.18, не является офертой. Условия могут быть изменены Банком в одностороннем порядке.<br>
+                                <span class="add-blue-color">*</span>9.9% годовых – процентная ставка в кредитном договоре. Валюта кредита - рубли РФ; уровень первоначального взноса от 30% от стоимости автомобиля. Срок кредита 12-36 месяцев. Программа распространяется на покупку в кредит Hyundai Creta. Программой предусмотрено страхование жизни и здоровья заемщика. Минимальная сумма кредита – 50 000 руб., максимальная сумма кредита – 6 500 000 руб.. Обязательно подтверждение дохода клиента. Залоговое обеспечение - залог приобретаемого ТС. Предложение действительно при подтверждении дохода Заемщика. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013г. Предложение действует с 01.08.18 по 31.08.18, не является офертой. Условия могут быть изменены Банком в одностороннем порядке.
+                                <br>
                             </div>
 
-                            <div>
-                                <span class="add-blue-color">**</span>Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в ПАО СК «Росгосстрах», САО «ВСК» и СПАО «Ингосстрах» при покупке нового Hyundai Creta (в комплектации CTW52G61GGG013) в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены ПАО СК «Росгосстрах», САО «ВСК» и СПАО «Ингосстрах» в одностороннем порядке. Предложение действует до 31.05.2018г.<br>
-                            </div>
+                            <!--
+                                            <div>
+                                                <span class="add-blue-color">**</span>Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в САО «ВСК» при покупке нового Hyundai Creta (в комплектации CTW52G61GGG013) в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены САО «ВСК» в одностороннем порядке. Предложение действует до 30.06.2018г.<br>
+                                            </div>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -1320,37 +1324,37 @@ $APPLICATION->SetTitle("Creta");
                             <ul class="promo-slider">
                                 <li>
                                     <a href="/Tucson/" class="promo-slider-link">
-                                        <img src="http://www.hyundai.ru/media/images/carmodels/Tucson_8655a0ed607025b4.png" alt="Tucson">
-                                        <span class="model">Tucson</span>
+                                        <img src="https://www.hyundai.ru/media/images/carmodels/Tucson_8655a0ed607025b4.png" alt="TUCSON">
+                                        <span class="model">TUCSON</span>
                                         <span class="price">от 1 369 000  &#8381;</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/SantaFe/" class="promo-slider-link">
-                                        <img src="http://www.hyundai.ru/media/images/carmodels/Santa fe_8385a0ed6004e51b.png" alt="Santa fe">
-                                        <span class="model">Santa fe</span>
+                                        <img src="https://www.hyundai.ru/media/images/carmodels/SANTA FE_9295b644eb4a3ca7.png" alt="SANTA FE">
+                                        <span class="model">SANTA FE</span>
                                         <span class="price">от 1 964 000  &#8381;</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/GrandSantaFe/" class="promo-slider-link">
-                                        <img src="http://www.hyundai.ru/media/images/carmodels/Grand Santa fe_2625a0ed5fb73033.png" alt="Grand Santa fe">
-                                        <span class="model">Grand Santa fe</span>
+                                        <img src="https://www.hyundai.ru/media/images/carmodels/Grand Santa fe_2625a0ed5fb73033.png" alt="Grand SANTA FE">
+                                        <span class="model">Grand SANTA FE</span>
                                         <span class="price">от 2 439 000  &#8381;</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/H-1/" class="promo-slider-link">
-                                        <img src="http://www.hyundai.ru/media/images/carmodels/H-1_2255a0ed60c04480.png" alt="H-1">
+                                        <img src="https://www.hyundai.ru/media/images/carmodels/H-1_3185b17f6c10d2a9.png" alt="H-1">
                                         <span class="model">H-1</span>
-                                        <span class="price">от 1 994 000  &#8381;</span>
+                                        <span class="price">от 2 079 000  &#8381;</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/Elantra/" class="promo-slider-link">
-                                        <img src="http://www.hyundai.ru/media/images/carmodels/Elantra_7505a0ed5f602de8.png" alt="Elantra">
-                                        <span class="model">Elantra</span>
-                                        <span class="price">от  979 000  &#8381;</span>
+                                        <img src="https://www.hyundai.ru/media/images/carmodels/Elantra_7505a0ed5f602de8.png" alt="ELANTRA">
+                                        <span class="model">ELANTRA</span>
+                                        <span class="price">от  984 000  &#8381;</span>
                                     </a>
                                 </li>
                             </ul>

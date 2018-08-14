@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Hyundai Santa Fe цена в Воронеже. Купить новый Хендай Санта Фе у официального дилера.");
+$APPLICATION->SetPageProperty("title", "Hyundai Santa Fe цена. Купить новый Хендай Санта Фе у официального дилера.");
 $APPLICATION->SetTitle("SantaFe");
 ?>
 
@@ -60,10 +60,10 @@ $APPLICATION->SetTitle("SantaFe");
             </div>
 
             <div class="container" style="margin-top: 0;">
-                <div class="cubebox" id="cubebox" style="height: 550px;">
-                    <div class="cubelist" style="height: 550px;">
-                        <div class="items" style="height: 550px;">
-                            <div class="item" style="height: 550px;">
+                <div class="cubebox" id="cubebox" style="height: 450px;">
+                    <div class="cubelist" style="height: 450px;">
+                        <div class="items" style="height: 450px;">
+                            <div class="item" style="height: 450px;">
                                 <div class="item_wrap">
                                     <div class="main mkv">
                                         <div class="title">
@@ -72,17 +72,9 @@ $APPLICATION->SetTitle("SantaFe");
                                         </div>
                                         <div class="title-price">
                                             <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                            <?// profit_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                            <a href="/start?model=santafe" class="title-price-notice">В кредит от 12 000 ₽ / месяц</a>
+                                            <a href="/start?model=santafe" class="title-price-notice">В кредит от 12 000 ₽ / месяц*</a>
+                                            <div class="title-price-casco">+ каско в подарок!<sup>**</sup></div>
                                         </div>
-                                        <?
-                                        /*model_credit(
-                                            array(
-                                                array("val" => "Выгода до","text" => "<b>300 000 ₽</b><sup>1</sup>"),
-                                                array("text" => "<b>КАСКО</b> в подарок!<sup>2</sup>")
-                                            )
-                                        );*/
-                                        ?>
                                         <a href="/offer/" class="btn-flat">Все предложения</a>
                                         <div class="title-list">
                                             <ul>
@@ -1284,39 +1276,46 @@ $APPLICATION->SetTitle("SantaFe");
                     <div class="promo-slider_wrap">
                         <div class="promo-slider_cut">
                             <ul class="promo-slider">
+
                                 <li>
                                     <a href="/GrandSantaFe/" class="promo-slider-link">
-                                        <img src="http://www.hyundai.ru/media/images/carmodels/Grand Santa fe_2625a0ed5fb73033.png" alt="Grand Santa fe">
-                                        <span class="model">Grand Santa fe</span>
-                                        <span class="price">от 2 439 000  ₽</span>
+                                        <img src="https://www.hyundai.ru/media/images/carmodels/Grand Santa fe_2625a0ed5fb73033.png" alt="Grand SANTA FE">
+                                        <span class="model">Grand SANTA FE</span>
+                                        <span class="price">от 2 439 000  &#8381;</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/Tucson/" class="promo-slider-link">
-                                        <img src="http://www.hyundai.ru/media/images/carmodels/Tucson_8655a0ed607025b4.png" alt="Tucson">
-                                        <span class="model">Tucson</span>
-                                        <span class="price">от 1 369 000  ₽</span>
+                                        <img src="https://www.hyundai.ru/media/images/carmodels/Tucson_8655a0ed607025b4.png" alt="TUCSON">
+                                        <span class="model">TUCSON</span>
+                                        <span class="price">от 1 369 000  &#8381;</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/H-1/" class="promo-slider-link">
-                                        <img src="http://www.hyundai.ru/media/images/carmodels/H-1_2255a0ed60c04480.png" alt="H-1">
+                                        <img src="https://www.hyundai.ru/media/images/carmodels/H-1_3185b17f6c10d2a9.png" alt="H-1">
                                         <span class="model">H-1</span>
-                                        <span class="price">от 1 994 000  ₽</span>
+                                        <span class="price">от 2 079 000  &#8381;</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/Elantra/" class="promo-slider-link">
-                                        <img src="http://www.hyundai.ru/media/images/carmodels/Elantra_7505a0ed5f602de8.png" alt="Elantra">
-                                        <span class="model">Elantra</span>
-                                        <span class="price">от  979 000  ₽</span>
+                                        <img src="https://www.hyundai.ru/media/images/carmodels/Elantra_7505a0ed5f602de8.png" alt="ELANTRA">
+                                        <span class="model">ELANTRA</span>
+                                        <span class="price">от  984 000  &#8381;</span>
                                     </a>
                                 </li>
+
+
                             </ul>
                         </div>
                         <div class="slider-prev"></div>
                         <div class="slider-next"></div>
                     </div>
+                </div>
+                <div class="disc-block">
+                    <div class="disc-block"><p class="dicslamer-casco"><sup>*</sup>Платеж рассчитан в рамках программы Hyundai (Старт), исходя из цены Hyundai Santa Fe (Старт 2,4л 6MT) 1 964 000 р., 2018 года производства, на условиях кредитного продукта «ДИРЕКТ Баллун ПСП КЛАССИКА: Hyundai в кредит»: первоначальный взнос 1 031 000 р., сумма кредита 1 042 458 р., срок кредита 36 мес., процентная ставка 9,4% годовых. Часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита - 45%. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Тарифным планом предусмотрена финансовая защита кредита. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.08.18 по 31.08.18г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru</p></div>
+                    <div class="disc-block"><p class="dicslamer-casco"><sup>**</sup> Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в САО «ВСК» при покупке нового Hyundai Solaris, Creta (в комплектации CTW52G61GGG013), Elantra, Tucson, Sonata, Santa Fe, Grand Santa Fe в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены САО «ВСК» в одностороннем порядке. Предложение действует до 31.07.2018г</p></div>
                 </div>
             </div>
         </div><!-- // container -->

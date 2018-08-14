@@ -14,7 +14,7 @@ select,input,textarea {font-family:Arial,AppleGothic,Sans-Serif,Helvetica;color:
 .clearfix:after {content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}
 .clear {clear:both}
 .wrap {width:100%;margin:0 auto;min-width:960px}
-.container {position:relative;width:100%;padding:0;margin-top:-3px;z-index:50;margin-top:72px}
+.container {position:relative;width:100%;padding:0;margin-top:-3px;z-index:50;}
 .container #fb_like {position:absolute;left:10px;top:373px;z-index:60;display:none}
 #floating_top {position:fixed;right:0;top:154px;display:none}
 #floating_top a {display:block;width:25px;height:62px;text-indent:-100px;overflow:hidden;background:url(/media/img/icon_top.png) no-repeat 0 0;display:none}
@@ -359,7 +359,7 @@ body.dark .mainbanner ul li a {border:1px solid #333}
 .contents_safety {width:100%;margin:0 auto;padding:94px 0 0}
 .contents_convenience {width:100%;margin:0 auto;padding:94px 0 0}
 .contents_performance {width:100%;margin:0 auto;padding:94px 0 0}
-.contents_specification,.contents_review,.contents_accessories,.contents_pricelist {width:940px;margin:0 auto;padding:94px 0 0}
+.contents_specification,.contents_review,.contents_accessories,.contents_pricelist {width:940px;margin:0 auto;}
 .general {position:relative;background:#efefed;width:940px;margin:0 auto;padding:94px 0 0}
 .pip {position:relative}
 .general:after {content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}

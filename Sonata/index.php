@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Hyundai Sonata купить в Воронеже. Цена на новый Хендай Солярис");
+$APPLICATION->SetPageProperty("title", "Hyundai Sonata купить. Цена на новый Хендай Солярис");
 $APPLICATION->SetTitle("NewSolaris");
 ?>
 
@@ -439,9 +439,9 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="title-list">
                                                 <ul>
                                                     <li>Экономный расход <br>
-                                                        <strong>7.8 Л. НА 100 КМ<span class="add-blue-color">*<span></span></span></strong></li>
+                                                        <strong>6 Л. НА 100 КМ<span class="add-blue-color">*<span></span></span></strong></li>
                                                     <li>Макс. мощность<br>
-                                                        <strong>150 л.с. </strong></li>
+                                                        <strong>188 л.с. </strong></li>
                                                 </ul>
                                                 <ul>
                                                     <li>Надежная система безопасности </li>
@@ -541,7 +541,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                         <div class="configurator-control dublay-ch">
                                             <a href="http://www.hyundai.ru/configurator" target="_blank" class="configurator-link">
                                                 <div class="configurator-link-text">
-                                                    от <span class="configurator-price-val">1 299 000 </span> &#8381;
+                                                    <span class="configurator-price-val"><? price_to_url($APPLICATION->GetCurPage()); ?></span>
                                                     <span class="configurator-credit">В кредит от <span class="configurator-credit-val">9000</span> &#8381; в месяц</span>
                                                 </div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="svg corner-right-light"><use xlink:href="#light"></use></svg>
@@ -1343,6 +1343,19 @@ $APPLICATION->SetTitle("NewSolaris");
                 </main>
             </div>
 
+
+            <div class="prefooter" style="font-size: 18px;">
+                <div class="prefooter-c">
+                    <ul class="prefooter-l">
+                        <li class="prefooter-l-i"><a href="https://www.hyundai.ru/configurator/car/24/modification" class="prefooter-l-l"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#ic-config"></use></svg><span class="prefooter-l-t">Конфигуратор</span></a></li>
+                        <li class="prefooter-l-i"><a href="https://www.hyundai.ru/configurator/car/24/modification" class="prefooter-l-l"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#ic-credit"></use></svg><span class="prefooter-l-t">Расчет кредита</span></a></li>
+                    </ul>
+                    <p>*6.9% годовых – процентная ставка в кредитном договоре. Валюта кредита - рубли РФ; уровень первоначального взноса от 30% от стоимости автомобиля. Срок кредита 12-36 месяцев. Программа распространяется на покупку в кредит Hyundai Sonata, Santa Fe, Grand Santa Fe. Программой предусмотрено страхование жизни и здоровья заемщика. Минимальная сумма кредита – 50 000 руб., максимальная сумма кредита – 6 500 000 руб.. Обязательно подтверждение дохода клиента. Залоговое обеспечение - залог приобретаемого ТС. Предложение действительно при подтверждении дохода Заемщика. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013г. Предложение действует с 01.07.18 по 31.07.18, не является офертой. Условия могут быть изменены Банком в одностороннем порядке.</p><br>
+                    <p>**Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в САО «ВСК» при покупке нового Hyundai Solaris, Creta (в комплектации CTW52G61GGG013), Elantra, Tucson, Sonata, Santa Fe, Grand Santa Fe в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены САО «ВСК» в одностороннем порядке. Предложение действует до 31.07.2018г</p><br>
+                </div>
+            </div>
+
+
             <!--RuTarget-->
             <script type="text/javascript" >
                 var _rutarget = window._rutarget || [];
@@ -1357,7 +1370,7 @@ $APPLICATION->SetTitle("NewSolaris");
 
 
 <!--    <script src="http://www.hyundai.ru/assets/js/vendors.js?v=1"></script>-->
-	<script src="http://www.hyundai.ru/assets/js/common.js?v=2"></script>
+	<!--<script src="http://www.hyundai.ru/assets/js/common.js?v=2"></script>-->
 
 
 	<!-- ! specific stuff for current page only ! -->
