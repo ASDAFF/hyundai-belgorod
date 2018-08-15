@@ -74,7 +74,8 @@ $APPLICATION->SetTitle("Elantra");
                                         </div>
                                         <div class="title-price">
                                             <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                            <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
+                                            <? profit_to_url($APPLICATION->GetCurPage()); ?>
+                                            <a href="/start/" class="title-price-notice">В кредит от 8 000 ₽ / месяц</a>
                                         </div>
                                         <!--                             <a href="/all-offers/Elantra" class="btn-flat">Все предложения</a> -->
                                         <?

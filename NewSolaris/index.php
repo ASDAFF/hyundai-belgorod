@@ -1605,7 +1605,7 @@ $APPLICATION->SetTitle("NewSolaris");
     Контент страницы закончится тут
     -->
 
-    <script src="http://www.hyundai.ru/assets/js/common.js"></script>
+
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
     <script type="text/javascript" src="http://www.hyundai.ru/media/js/libs/spritespin.js"></script>
     <script type="text/javascript" src="http://www.hyundai.ru/media/js/libs/jquery.lazyload.min.js"></script>
