@@ -1,0 +1,6 @@
+<?
+$sSectionName = "manuals";
+$arDirProperties = Array(
+
+);
+?>

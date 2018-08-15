@@ -47,7 +47,7 @@
 })
 
 /*!
- * Spreader РІР‚вЂњ simple modal windows plugin
+ * Spreader вЂ“ simple modal windows plugin
  * licensed MIT, @ 2017 nickensoul@gmail.com
  * ver: 0.02
  * dependences: jquery
@@ -743,21 +743,21 @@ window.notify = (function(){
                             success: function(r){
                                 if (r === 'Y') {
                                     onlineCallModal.close();
-                                    window.notify('Р Р€РЎРѓР С—Р ВµРЎв‚¬Р Р…Р С•.', 'success');
+                                    window.notify('РЈСЃРїРµС€РЅРѕ.', 'success');
 
                                     /*
                                      dataLayer.push({
                                      "event": "custom_event",
-                                     "category" : 'Р РЋР Р†РЎРЏР В·РЎРЉ',
-                                     "action": 'Р вЂ”Р Р†Р С•Р Р…Р С•Р С” Р Т‘Р С‘Р В»Р ВµРЎР‚РЎС“',
-                                     "label" : 'Р С›РЎвЂљР С—РЎР‚Р В°Р Р†Р С”Р В° РЎвЂћР С•РЎР‚Р СРЎвЂ№'
+                                     "category" : 'РЎРІСЏР·СЊ',
+                                     "action": 'Р—РІРѕРЅРѕРє РґРёР»РµСЂСѓ',
+                                     "label" : 'РћС‚РїСЂР°РІРєР° С„РѕСЂРјС‹'
                                      });
                                      */
 
-                                    // Р вЂ™РЎвЂ№Р В·Р С•Р Р†Р ВµР С Р С”Р В»Р С‘Р С” Р С—Р С• РЎРѓРЎРѓРЎвЂ№Р В»Р С”Р Вµ
+                                    // Р’С‹Р·РѕРІРµРј РєР»РёРє РїРѕ СЃСЃС‹Р»РєРµ
                                     $('#zing_hotline_btn').trigger('click');
                                 } else {
-                                    window.notify('Р СџРЎР‚Р С•Р С‘Р В·Р С•РЎв‚¬Р В»Р В° Р С•РЎв‚¬Р С‘Р В±Р С”Р В°.<br>Р СџР С•Р Р†РЎвЂљР С•РЎР‚Р С‘РЎвЂљР Вµ Р С—Р С•Р В·Р Т‘Р Р…eР Вµ.', 'error')
+                                    window.notify('РџСЂРѕРёР·РѕС€Р»Р° РѕС€РёР±РєР°.<br>РџРѕРІС‚РѕСЂРёС‚Рµ РїРѕР·РґРЅeРµ.', 'error')
                                 }
                             },
                             beforeSend: function(){
@@ -789,18 +789,18 @@ window.notify = (function(){
                     alias: 'date',
                     showMaskOnHover: false,
                     greedy: false,
-                    placeholder: 'Р Т‘Р Т‘/Р СР С/Р С–Р С–Р С–Р С–'
+                    placeholder: 'РґРґ/РјРј/РіРіРіРі'
                 })
         }
     });
 
     var primaryHeader = $('#header-primary'),
         activeClass = '_active',
-        menus = [ 'navbar-support', 'showroom-submenu', 'n-submenu'],
+        menus = [ 'navbar-support', 'showroom-submenu', 'n-submenu', 'service-submenu' ],
         menuOverlay = $('.menu-overlay');
 
     function toggleMenu (menu) {
-        var f = false;
+        f = false;
         for (var i = 0; i < menus.length; i++) {
             var item = menus[i];
             if (item === menu) {
@@ -824,7 +824,6 @@ window.notify = (function(){
                 }
             }
         }
-
         if(!f)
             menuOverlay.removeClass(activeClass);
     }
@@ -908,16 +907,16 @@ $(function(){
                             success: function(r){
                                 if (r === 'Y') {
                                     newsletterModal.close()
-                                    window.notify('Р Р€РЎРѓР С—Р ВµРЎв‚¬Р Р…Р С•.', 'success')
+                                    window.notify('РЈСЃРїРµС€РЅРѕ.', 'success')
 
                                     dataLayer.push({
                                         'event': 'custom_event',
-                                        'category' : 'Р РЋР Р†РЎРЏР В·РЎРЉ',
-                                        'action': 'Р СџР С•Р Т‘Р С—Р С‘РЎРѓР В°РЎвЂљРЎРЉРЎРѓРЎРЏ Р Р…Р В° Р Р…Р С•Р Р†Р С•РЎРѓРЎвЂљР С‘',
-                                        'label' : 'Р С›РЎвЂљР С—РЎР‚Р В°Р Р†Р С”Р В° РЎвЂћР С•РЎР‚Р СРЎвЂ№'
+                                        'category' : 'РЎРІСЏР·СЊ',
+                                        'action': 'РџРѕРґРїРёСЃР°С‚СЊСЃСЏ РЅР° РЅРѕРІРѕСЃС‚Рё',
+                                        'label' : 'РћС‚РїСЂР°РІРєР° С„РѕСЂРјС‹'
                                     });
                                 } else {
-                                    window.notify('Р СџРЎР‚Р С•Р С‘Р В·Р С•РЎв‚¬Р В»Р В° Р С•РЎв‚¬Р С‘Р В±Р С”Р В°.<br>Р СџР С•Р Р†РЎвЂљР С•РЎР‚Р С‘РЎвЂљР Вµ Р С—Р С•Р В·Р Т‘Р Р…eР Вµ.', 'error')
+                                    window.notify('РџСЂРѕРёР·РѕС€Р»Р° РѕС€РёР±РєР°.<br>РџРѕРІС‚РѕСЂРёС‚Рµ РїРѕР·РґРЅeРµ.', 'error')
                                 }
                             },
                             beforeSend: function(){
@@ -946,7 +945,7 @@ $(function(){
                     alias: 'date',
                     showMaskOnHover: false,
                     greedy: false,
-                    placeholder: 'Р Т‘Р Т‘/Р СР С/Р С–Р С–Р С–Р С–'
+                    placeholder: 'РґРґ/РјРј/РіРіРіРі'
                 })
         }
     })
@@ -1011,7 +1010,7 @@ Array?(c=a[0]?"number"===typeof a[0]?a[0].toString():a[0].replace(/px/,""):e.css
  * http://bassistance.de/jquery-plugins/jquery-plugin-validation/
  * http://docs.jquery.com/Plugins/Validation
  *
- * Copyright 2013 JР“В¶rn Zaefferer
+ * Copyright 2013 JГ¶rn Zaefferer
  * Released under the MIT license:
  *   http://www.opensource.org/licenses/mit-license.php
  */

@@ -1,15 +1,15 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("roadside-assistance");
+$APPLICATION->SetTitle("Помощь на дороге");
 ?>
 
-    <link type="text/css" href="http://www.hyundai.ru/media/css/service_styles.css" rel="stylesheet" />
 
-    <style>
-        #footer{
-            position:unset;
-        }
-    </style>
+    <link type="text/css" href="https://www.hyundai.ru/media/css/dropit.css" rel="stylesheet" />
+    <link type="text/css" href="https://www.hyundai.ru/media/css/service_styles.css" rel="stylesheet" />
+    <link type="text/css" href="https://www.hyundai.ru/media/css/service_overrides.css?v=1" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.hyundai.ru/assets/css/overrides.css?v=3.0">
+
+
     <!--
     Контент страницы начнется тут
     -->
@@ -179,53 +179,6 @@ $APPLICATION->SetTitle("roadside-assistance");
                         </div>
                     </div>
 
-                    <div class="subject subject-wa">
-                        <div class="subject-blackboard">
-                            <div class="subject-wa-left" id="wa-block">
-                                <div class="subject-wa-title content-inner-title">Workshop Automation</div>
-                                <div class="subject-wa-text">– это автоматизированная система обслуживания клиентов и контроля за рабочими процессами в дилерском центре, реализованная как мобильное приложение для планшетных компьютеров.
-                                </div>
-                            </div>
-                            <div class="subject-wa-right">
-                                <img src="http://www.hyundai.ru/media/img/service-pages/wa_pic.jpg">
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="subject subject-wa-icons">
-                        <div class="subject-blackboard">
-                            <div class="subject-wa-ico-33 wa-title">Преимущества
-                                системы WA</div>
-                            <div class="subject-wa-ico-33">
-                                <div class="wa-ico-pic ico1"></div>
-                                <div class="wa-ico-title">Отслеживание<br/>хода работ</div>
-                                <div class="wa-ico-text">Онлайн информация в клиентской зоне о статусе выполнения работ</div>
-                            </div>
-                            <div class="subject-wa-ico-33">
-                                <div class="wa-ico-pic ico2"></div>
-                                <div class="wa-ico-title">Всегда<br/>вовремя</div>
-                                <div class="wa-ico-text">Отсутствие задержек благодаря системе он-лайн оповещений о ходе выполнения работ между мастером-консультантом и механиком</div>
-                            </div>
-                            <div class="subject-wa-ico-33">
-                                <div class="wa-ico-pic ico3"></div>
-                                <div class="wa-ico-title">Фото<br/>и голосовая запись</div>
-                                <div class="wa-ico-text">Фото и аудио фиксация ваших пожеланий и состояния вашего автомобиля. Фотографии до и после ремонта</div>
-                            </div>
-                            <div class="subject-wa-ico-33">
-                                <div class="wa-ico-pic ico4"></div>
-                                <div class="wa-ico-title">Специальные<br/>предложения</div>
-                                <div class="wa-ico-text">Интерактивное отображение наших специальных предложений для вас</div>
-                            </div>
-                            <div class="subject-wa-ico-33">
-                                <div class="wa-ico-pic ico5"></div>
-                                <div class="wa-ico-title">Обратная<br/>связь</div>
-                                <div class="wa-ico-text">Интерактивный опрос при выдаче автомобиля о качестве обслуживания</div>
-                            </div>
-                        </div>
-                    </div>
-
-
                     <div class="subject subject-features" style="float: left; width: 100%;">
                         <div class="subject-blackboard">
                             <div class="subject-content subject-content-features" style="padding-top: 0px;">
@@ -291,5 +244,7 @@ $APPLICATION->SetTitle("roadside-assistance");
     <!--
     Контент страницы закончится тут
     -->
+
+
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

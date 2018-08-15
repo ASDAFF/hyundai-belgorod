@@ -401,7 +401,7 @@ input.error {
     width: 100%; }
 /* Wrapper
 -----------------------------------------------------------*/
-#wrapper,#header,#content,#footer,.pie{position:relative}
+#wrapper,#header,#content,.pie{position:relative}
 #wrapper{
     min-height:100%;
     height: auto !important;

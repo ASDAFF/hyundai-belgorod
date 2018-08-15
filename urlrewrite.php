@@ -7,18 +7,6 @@ $arUrlRewrite = array(
 		"PATH" => "/hpromise/avtomobili-s-probegom/index.php",
 	),
 	array(
-		"CONDITION" => "#^/reports/([a-z-_0-9]+)/(?:\\?.*)?#",
-		"RULE" => "CODE=\$1",
-		"ID" => "",
-		"PATH" => "/reports/index.php",
-	),
-	array(
-		"CONDITION" => "#^/contacts/#",
-		"RULE" => "",
-		"ID" => "bitrix:news",
-		"PATH" => "/contacts/index.php",
-	),
-	array(
 		"CONDITION" => "#^/services/#",
 		"RULE" => "",
 		"ID" => "bitrix:catalog",
@@ -31,10 +19,10 @@ $arUrlRewrite = array(
 		"PATH" => "/products/index.php",
 	),
 	array(
-		"CONDITION" => "#^/service/#",
+		"CONDITION" => "#^/contacts/#",
 		"RULE" => "",
 		"ID" => "bitrix:news",
-		"PATH" => "/service/index.php",
+		"PATH" => "/contacts/index.php",
 	),
 	array(
 		"CONDITION" => "#^/offer/#",
@@ -47,6 +35,12 @@ $arUrlRewrite = array(
 		"RULE" => "",
 		"ID" => "bitrix:news",
 		"PATH" => "/news/index.php",
+	),
+	array(
+		"CONDITION" => "#^/offer-service/(.*?)/#",
+		"RULE" => "ELEMENT_CODE=\$1",
+		"ID" => "bitrix:news.detail",
+		"PATH" => "/offer-service/index.php",
 	),
 );
 

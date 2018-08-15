@@ -1,0 +1,6 @@
+<?
+$sSectionName = "maintenance";
+$arDirProperties = Array(
+
+);
+?>

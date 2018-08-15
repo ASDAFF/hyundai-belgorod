@@ -99,15 +99,15 @@ $APPLICATION->SetTitle("bodyworks");
                                     </div>
                                     <div class="bw-view-pluses">
                                         <div class="bw-view-plus bw-view-plus--1 right">
-                                            <span class="bw-view-plus-descr">Капот <span class="bw-view-plus-descr-price">от 7847 &#8381;<sup>*</sup></span></span>
+                                            <span class="bw-view-plus-descr">Капот <span class="bw-view-plus-descr-price">9047 &#8381;<sup>*</sup></span></span>
                                             <a href="#" class="bw-view-plus-icon"></a>
                                         </div>
                                         <div class="bw-view-plus bw-view-plus--2 right">
-                                            <span class="bw-view-plus-descr">Бампер передний <span class="bw-view-plus-descr-price">от 5930 &#8381;<sup>*</sup></span></span>
+                                            <span class="bw-view-plus-descr">Бампер передний <span class="bw-view-plus-descr-price">7231 &#8381;<sup>*</sup></span></span>
                                             <a href="#" class="bw-view-plus-icon"></a>
                                         </div>
                                         <div class="bw-view-plus bw-view-plus--3 right">
-                                            <span class="bw-view-plus-descr">Крыло переднее <span class="bw-view-plus-descr-price">от 6597 &#8381;<sup>*</sup></span></span>
+                                            <span class="bw-view-plus-descr">Крыло переднее <span class="bw-view-plus-descr-price">7597 &#8381;<sup>*</sup></span></span>
                                             <a href="#" class="bw-view-plus-icon"></a>
                                         </div>
                                         <!--
@@ -117,7 +117,7 @@ $APPLICATION->SetTitle("bodyworks");
                                                                         </div>
                                         -->
                                         <div class="bw-view-plus bw-view-plus--5 right">
-                                            <span class="bw-view-plus-descr">Дверь передняя <span class="bw-view-plus-descr-price">от 7144 &#8381;<sup>*</sup></span></span>
+                                            <span class="bw-view-plus-descr">Дверь передняя <span class="bw-view-plus-descr-price">8144 &#8381;<sup>*</sup></span></span>
                                             <a href="#" class="bw-view-plus-icon"></a>
                                         </div>
                                     </div>
@@ -134,11 +134,11 @@ $APPLICATION->SetTitle("bodyworks");
                                                                         </div>
                                         -->
                                         <div class="bw-view-plus bw-view-plus--2 right">
-                                            <span class="bw-view-plus-descr">Бампер задний <span class="bw-view-plus-descr-price">от 5930 &#8381;<sup>*</sup></span></span>
+                                            <span class="bw-view-plus-descr">Бампер задний <span class="bw-view-plus-descr-price">7231 &#8381;<sup>*</sup></span></span>
                                             <a href="#" class="bw-view-plus-icon"></a>
                                         </div>
                                         <div class="bw-view-plus bw-view-plus--3 right">
-                                            <span class="bw-view-plus-descr">Крыша <span class="bw-view-plus-descr-price">от 14540 &#8381;<sup>*</sup></span></span>
+                                            <span class="bw-view-plus-descr">Крыша <span class="bw-view-plus-descr-price">16540 &#8381;<sup>*</sup></span></span>
                                             <a href="#" class="bw-view-plus-icon"></a>
                                         </div>
                                         <!--
@@ -148,7 +148,7 @@ $APPLICATION->SetTitle("bodyworks");
                                                                         </div>
                                         -->
                                         <div class="bw-view-plus bw-view-plus--5 right">
-                                            <span class="bw-view-plus-descr">Дверь задняя <span class="bw-view-plus-descr-price">от 7144 &#8381;<sup>*</sup></span></span>
+                                            <span class="bw-view-plus-descr">Дверь задняя <span class="bw-view-plus-descr-price">8144 &#8381;<sup>*</sup></span></span>
                                             <a href="#" class="bw-view-plus-icon"></a>
                                         </div>
                                     </div>
@@ -161,7 +161,7 @@ $APPLICATION->SetTitle("bodyworks");
                         </div>
                         <div class="bw-views-links">
                             <a href="#" class="bw-views-link zing_form_toggler" for="zing_cuzov_btn" role="button">записаться на сервис</a>
-                            <a href="/service/originalnye-zapchasti/" class="bw-views-link">оригинальные запчасти</a>
+                            <a href="/service/parts/" class="bw-views-link">оригинальные запчасти</a>
                         </div>
                     </div>
                 </div>

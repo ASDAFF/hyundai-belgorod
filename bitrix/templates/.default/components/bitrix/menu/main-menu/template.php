@@ -35,8 +35,8 @@
 						<span class="main-nav__link" data-role="n-submenu-link">N</span>
 					</li>
 
-					<li class="main-nav__item">
-						<a href="/service/spetspredlozheniya/" class="main-nav__link">Сервис</a>
+					<li class="main-nav__item main-nav__item--has-submenu">
+						<span class="main-nav__link" data-role="service-submenu-link">Сервис</span>
 					</li>
 
 					<li class="main-nav__item">
@@ -123,6 +123,76 @@
 									<img src="<?=SITE_TEMPLATE_PATH?>/media/car/veloster_2.png" class="showroom__cat-item-image" alt="Veloster N"/>
 								</a>
 							</div>
+						</li>
+					</ul>
+					<button class="submenu-close"><svg xmlns="http://www.w3.org/2000/svg" class="ic-svg"><use xlink:href="#ic-close-sm"></use></svg></button>
+				</div>
+			</div>
+
+			<div class="submenu" data-role="service-submenu">
+				<div class="submenu-content">
+					<ul class="service-submenu">
+						<li class="service-submenu__cat">
+							<strong class="service-submenu__cat-title">Обслуживание и&nbsp;ремонт</strong>
+							<ul class="service-submenu__cat-items">
+								<li class="service-submenu__item">
+									<a href="/service/maintenance" class="service-submenu__link">Обслуживание</a>
+								</li>
+								<li class="service-submenu__item">
+									<a href="/service/bodyworks" class="service-submenu__link">Кузовной ремонт</a>
+								</li>
+								<li class="service-submenu__item">
+									<a href="/service/warranty" class="service-submenu__link">Гарантия</a>
+								</li>
+								<li class="service-submenu__item">
+									<a href="/service/manuals" class="service-submenu__link">Руководства и&nbsp;каталоги</a>
+								</li>
+								<li class="service-submenu__item">
+									<a href="/service/service-request" class="service-submenu__link">Запись на&nbsp;сервис</a>
+								</li>
+							</ul>
+						</li>
+						<li class="service-submenu__cat">
+							<strong class="service-submenu__cat-title">Запасные части и&nbsp;аксессуары</strong>
+							<ul class="service-submenu__cat-items">
+								<li class="service-submenu__item">
+									<a href="/service/parts" class="service-submenu__link">Оригинальные запасные части</a>
+								</li>
+								<li class="service-submenu__item">
+									<a href="http://acc.hyundai.ru" class="service-submenu__link" target="_blank">Оригинальные аксессуары</a>
+								</li>
+								<li class="service-submenu__item">
+									<a href="/promo/parts" class="service-submenu__link">Запчасти Product Line 2</a>
+								</li>
+								<li class="service-submenu__item">
+									<a href="/shell" class="service-submenu__link">Моторное масло</a>
+								</li>
+							</ul>
+						</li>
+						<li class="service-submenu__cat">
+							<strong class="service-submenu__cat-title">Сервисные предложения</strong>
+							<ul class="service-submenu__cat-items">
+								<li class="service-submenu__item">
+									<a href="/service/best" class="service-submenu__link">Лучшее для своих</a>
+								</li>
+								<li class="service-submenu__item">
+									<a href="/service/roadside-assistance" class="service-submenu__link">Помощь на дороге</a>
+								</li>
+								<li class="service-submenu__item">
+									<a href="https://era.hyundai.ru/"  target="_blank" class="service-submenu__link">На связи<svg xmlns="http://www.w3.org/2000/svg" class="ic-svg ic-arrow-s"><use xlink:href="#ic-arrow-s"></use></svg></a>
+								</li>
+							</ul>
+						</li>
+						<li class="service-submenu__cat">
+							<strong class="service-submenu__cat-title"></strong>
+							<ul class="service-submenu__cat-items">
+								<li class="service-submenu__item">
+									<a href="/service/maintenance#maintenance-calculator-wrapper" class="service-submenu__link service-submenu__link--btn">Калькулятор ТО</a>
+								</li>
+								<li class="service-submenu__item">
+									<a href="/all-offers#service-offers" class="service-submenu__link service-submenu__link--btn">Акции сервис</a>
+								</li>
+							</ul>
 						</li>
 					</ul>
 					<button class="submenu-close"><svg xmlns="http://www.w3.org/2000/svg" class="ic-svg"><use xlink:href="#ic-close-sm"></use></svg></button>
