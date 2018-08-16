@@ -512,7 +512,7 @@ $(function() {
 			index = 0,
 			moveBy = 1,
 			speed = 250;
-			changeDocuments.apply($item.eq(0));
+		changeDocuments.apply($item.eq(0));
 		$slider.width( total * width );
 		function moveSlide(index) {
 			$slider.stop().animate({left: -index * width +'px'}, speed);
@@ -532,7 +532,7 @@ $(function() {
 			var _model = $(this).data('model');
 			$item.removeClass('active');
 			$(this).addClass('active');
-			$('.content.content--manuals').find('.avaible-documents').hide().filter('[data-model='+_model+']').show();
+			$('.content').find('.avaible-documents').hide().filter('[data-model='+_model+']').show();
 		}
 	}
 });
