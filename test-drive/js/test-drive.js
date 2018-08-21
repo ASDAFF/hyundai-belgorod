@@ -151,7 +151,7 @@ $(function () {
 		},
 		getAllPoints: function (callback) {
 			var self = this;
-			$.getJSON('/request/getalldealers', function (data) {
+			$.getJSON('https://www.hyundai.ru/request/getalldealers', function (data) {
 				callback(data, self);
 			})
 			.done(function() {
@@ -257,7 +257,10 @@ $(function () {
 					icon: '/media/img/icon_df_map_dealer_hyundai_off_new.png',
 					cityId: data[numPoint].city_id,
 					//markerId: markerId++
-					markerId: data[numPoint].id
+					markerId: data[numPoint].id,
+					special: data[numPoint].special,
+                    wa: data[numPoint].wa,
+                    rating: data[numPoint].rating,
 				});
 				self.markers.push(marker);
 
@@ -270,9 +273,11 @@ $(function () {
 				// close infoWindows by clickin
 				// before define changing icon as function
 				var removeMarkersActivity = function (){
+/*
 					for (var i = 0; i < self.markers.length; i++) {
 						self.markers[i].setIcon('/media/img/icon_df_map_dealer_hyundai_off_new.png');
 					};
+*/
 				};
 					// on map
 					google.maps.event.addListener(mapObj.map, 'click', function(){
@@ -282,11 +287,19 @@ $(function () {
 					return function () {
 						if (isDisableIcons === false) {
 							removeMarkersActivity();
-							marker.setIcon('/media/img/icon_df_map_dealer_hyundai_on_new.png');
+							if (marker.special === '1') {
+								  marker.setIcon('/media/img/icon_df_map_dealer_special_on.png');
+							 } else {
+								  marker.setIcon('/media/img/icon_df_map_dealer_hyundai_on_new.png');
+							 }
 						} else {
 							removeMarkersActivity();
 							if (isFinded) {
-								marker.setIcon('/media/img/icon_df_map_dealer_hyundai_on_new.png');
+								if (marker.special === '1') {
+								  marker.setIcon('/media/img/icon_df_map_dealer_special_on.png');
+								 } else {
+									  marker.setIcon('/media/img/icon_df_map_dealer_hyundai_on_new.png');
+								 }
 							};
 						};
 
@@ -364,7 +377,7 @@ $(function () {
 				$('#dropdown-dealerlisting .nano .dropdown-list').html('');
 			};
 			for (var i = 0; i < self.markers.length; i++) {
-				self.markers[i].setIcon('/media/img/icon_df_map_dealer_hyundai_off_new.png');
+				self.markers[i].setIcon('/media/img/icon_df_map_dealer_hyundai_on_new.png');
 			}
 			// find it
 			if (self.searchType === 'dealer') { // process dealer dropdown item click
@@ -409,7 +422,7 @@ $(function () {
 							}
 						}
 					} else {
-							 if (searchValue == dealerCityId) {
+							 if (searchValue == dealerCityId && dealerNum == "28") {
 							findedList.push({dealer: self.dealersArray[dealerNum], num: dealerNum});
 							 }
 					}
@@ -419,12 +432,14 @@ $(function () {
 					new google.maps.event.trigger(self.markers[findItem.num], 'click');
 					var latLngPoint = new google.maps.LatLng(findItem.dealer.latitude, findItem.dealer.longitude);
 					bounds.extend(latLngPoint);
-					self.markers[findItem.num].setIcon('/media/img/icon_df_map_dealer_hyundai_on_new.png')
+					var icon = self.markers[findItem.num].special === '1' ? '/media/img/icon_df_map_dealer_special_on.png' : '/media/img/icon_df_map_dealer_hyundai_on_new.png';
+					self.markers[findItem.num].setIcon(icon)
 
 				}
 				for (findNum in findedList) {
 					var findItem = findedList[findNum];
-					self.markers[findItem.num].setIcon('/media/img/icon_df_map_dealer_hyundai_on_new.png')
+					var icon = self.markers[findItem.num].special === '1' ? '/media/img/icon_df_map_dealer_special_on.png' : '/media/img/icon_df_map_dealer_hyundai_on_new.png';
+					self.markers[findItem.num].setIcon(icon)
 				}
 				// sort result
 				   var $elements = $('.dealerlistdropdown #dropdown-dealerlisting .nano .dropdown-list .dropdown-item');
@@ -452,7 +467,7 @@ $(function () {
 		_setMapCenterRussia: function () {
 			var self = this;
 			var setCity = function (city) {
-				$.post('/requestnew/getcityru', 'en=' + city, function(res) {
+				$.post('https://www.hyundai.ru/requestnew/getcityru', 'en=' + city, function(res) {
 					if (res.error == 0) {
 						id = res.id;
 						$('#dropdown-dealercitylisting').find('.dropdown-item').each(function(){
@@ -650,7 +665,8 @@ $(function () {
 				'Creta':				  'Creta',
 				'H-1':					 'H1',
 				'Solaris New':			'Solaris',
-				'Sonata':				'Sonata'
+				'Sonata':				'Sonata',
+				'New Santa Fe':				'NewSantaFe'
 			};
 			return links[link];
 		},
@@ -676,7 +692,8 @@ $(function () {
 				'Creta':				'creta',
 				'H-1':					'H-1',
 				'Solaris New':			'solaris_td',
-				'Sonata':				'sonata_td'
+				'Sonata':				'sonata_td',
+				'New Santa Fe':				'NewSantaFe'
 			};
 			return imgs[img];
 		};
@@ -698,7 +715,7 @@ $(function () {
 		$('#dropdown-carlisting .dropdown-item.first').text(currentCar);
 		$('#dropdown-carlisting .dropdown-item.first').attr('data-model', currentCarCode);
 		$('.car-about').attr('href', carLink(currentCarCode));
-		$(".currentCarImg").attr('src', '/media/img/test_drive_imgs/' + carImg(currentCarCode) + '.png');
+		$(".currentCarImg").attr('src', 'https://www.hyundai.ru/media/img/test_drive_imgs/' + carImg(currentCarCode) + '.png');
 
 		if(self.data('model') == 'Solaris New')
 			$('#creta-test-drive').css('display', 'block');
@@ -826,6 +843,14 @@ $(function () {
 		$(this).attr('tabindex', '-1');
 	});
 
+	// validate form
+
+	$('.controls__wrap input').on('input', function() {
+		if ($(this).is('[name*=name]')) {
+			$(this).val($(this).val().capitalize());
+		}
+	});
+
 	// submit processing
 	$(document).on('click', '.send-req', function (e) {
 		e.preventDefault();
@@ -845,6 +870,9 @@ $(function () {
 				return;
 			}
 			if ($phone.val() == '') {
+				$phone.parent().addClass('incorrect')
+				return;
+			} else if ( $phone.val().indexOf('_') != -1 ) {
 				$phone.parent().addClass('incorrect')
 				return;
 			}
@@ -880,8 +908,9 @@ $(function () {
 
 			drawProcessSlow();
 
+
 			$.post(
-				'/requestnew/sendcrm',
+				'https://www.hyundai.ru/requestnew/sendcrm',
 				{
 					name: $name.val(),
 					surname: $surname.val(),
@@ -911,8 +940,7 @@ $(function () {
 						$email.val(''),
 						$agree.prop('checked', false);
 
-						// цель для яндекс метрики
-						yaCounter23259694.reachGoal('tdrComplete');
+
 
 						dataLayer2.push({
 							'countrycode': 'RU',
@@ -1011,8 +1039,7 @@ function showResult() {
 		$email.val(''),
 		$agree.prop('checked', false);
 
-		// цель для яндекс метрики
-		yaCounter23259694.reachGoal('tdrComplete');
+
 
 		dataLayer.push({
 	  		'event': 'custom_event',
