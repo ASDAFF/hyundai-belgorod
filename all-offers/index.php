@@ -97,25 +97,7 @@ $APPLICATION->SetTitle("all-offers");
                 </div>
 -->
 
-                <div class="insection-offer-unit">
-                    <a href="/promo/credit-5-percent" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/41fb8a0a716cb03b5fe406bea54aa47d_Hyundai-5_webbanner_offer_preview.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Это пять! Кредит 5% на Solaris, Creta, Elantra и Tucson.  </span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
 
-                <div class="insection-offer-unit">
-                    <a href="/promo/privilege" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/f1187d2e52a706540962aa61a1758f46_Sonata_preview.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">КАСКО 3,8% + пакет </span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
 
                 <div class="insection-offer-unit">
                     <a href="/start/" class="insection-offer-unit__link">
@@ -198,6 +180,16 @@ $APPLICATION->SetTitle("all-offers");
                         <img src="http://www.hyundai.ru/media/offers_image/dd77b6edbce77f33b7c4c23fd7d6e125_1920x530_Hyundai_Shell.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
                             <span class="name">Новые рекорды с сервисом Hyundai</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
+                    <a href="/promo/santafe_offer/" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/af769b27850993d65279bf07a5090af2_santa-fe_tiser_465_330.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Интересное предложение для владельцев SantaFe!</span>
                             <span class="addinfo"></span>
                         </div>
                     </a>

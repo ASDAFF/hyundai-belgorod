@@ -96,7 +96,7 @@ $APPLICATION->SetTitle("Новые рекорды с сервисом Hyundai!")
 
                             <div class="tip-supscript ">
                                 <p style="font-size: 10px;">
-                                    *только для моторных масел класса вязкости «0W-XX». Подробности на сайте <a href="https://www.hyundai.ru/shell">https://www.hyundai.ru/shell</a>
+                                    *только для моторных масел класса вязкости «0W-XX». Подробности на сайте <a href="http://hyundai-belgorod.ru/shell">http://hyundai-belgorod.ru/shell</a>
                                 </p>
 
                                 <p style="font-size: 10px;">
@@ -108,7 +108,7 @@ $APPLICATION->SetTitle("Новые рекорды с сервисом Hyundai!")
                                 </p>
 
                                 <p style="font-size: 10px;">
-                                    **** В кампании участвуют автомобили Tucson, Santa Fe только с бензиновыми моторами.
+                                    **** В кампании участвуют автомобили Tucson, Santa Fe, ix35 только с бензиновыми двигателями.
                                 </p>
 
                             </div>
@@ -121,7 +121,7 @@ $APPLICATION->SetTitle("Новые рекорды с сервисом Hyundai!")
                 </div>
             </div>
 
-
+<!--
             <div class="bottom-area-line">
                 <div class="bottom-area-line__inner grid">
                     <div class="grid-el grid-el-50 bottom-area-line__inner-left">
@@ -133,7 +133,7 @@ $APPLICATION->SetTitle("Новые рекорды с сервисом Hyundai!")
                     </div>
                 </div>
             </div>
-
+-->
             <style>
                 .bottom-area-line {
                     background: #1d88ce none repeat scroll 0 0;
