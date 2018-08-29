@@ -98,6 +98,8 @@ $(document).ready(function() {
 				case 13: return 46; // Grand Santa Fe
 				case 23: return 39; // New Solaris
 				case 24: return 45; // New Solaris
+				case 26: return 46; // Tucson
+				case 25: return 48; // Santa Fe
 			}
 
 			return 35;

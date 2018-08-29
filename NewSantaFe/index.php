@@ -25,7 +25,7 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
             .header-primary{
                 max-width: 100% !important;
             }
-            ..main-header__holder{
+            .main-header__holder{
                 max-width: 1810px;
             }
 

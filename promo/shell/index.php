@@ -42,6 +42,17 @@ $APPLICATION->SetTitle("Новые рекорды с сервисом Hyundai!")
 
                                 <p class="offer-terms__text">Моторное  масло Shell Helix Ultra ECT AH 5W-30  обладает особыми эксплуатационными характеристиками, поскольку  разработано из проверенных высокоэффективных компонентов  с применением технологии Shell PurePlus и  создано специально для автомобилей Hyundai.  <a href="/shell/" target="_blank">Подробнее</a></p>
 
+
+                                <div class="bottom-area-line__inner grid">
+                                    <div class="grid-el grid-el-50 bottom-area-line__inner-left">
+                                        <div class="main-message">Мы хотим, чтобы владеть автомобилем Hyundai было просто и удобно</div>
+                                    </div>
+                                    <div class="grid-el grid-el-50 bottom-area-line__inner-right">
+                                        <a href="/service/service-request/" class="request-service-btn" style="margin-right: 20px;">Запись на сервис</a>
+                                        <a href="/shell/" class="request-service-btn">Выберите масло</a>
+                                    </div>
+                                </div>
+
                                 <!--<p class="offer-terms__text">Преимущества масла Shell Helix Ultra ECT AH 5W-30
                                 <ul>
                                 <li>- Высокая степень чистоты поршня</li>
@@ -136,18 +147,23 @@ $APPLICATION->SetTitle("Новые рекорды с сервисом Hyundai!")
 -->
             <style>
                 .bottom-area-line {
-                    background: #1d88ce none repeat scroll 0 0;
+                    /*     background: #1d88ce none repeat scroll 0 0; */
+                    background: transparent;
                 }
                 .bottom-area-line__inner {
                     margin: 0 auto;
-                    padding: 40px 0;
+                    padding: 20px 0;
+                    margin: 20px 0;
                     width: 940px;
+
+                    border-top: 1px solid #e1e1e1;
+                    border-bottom: 1px solid #e1e1e1;
                 }
                 .bottom-area-line__inner-right {
                     text-align: right;
                 }
                 .main-message {
-                    color: #fff;
+                    color: #404040;
                     font-family: "HyundaiSans";
                     font-size: 24px;
                     font-weight: normal;
@@ -179,22 +195,38 @@ $APPLICATION->SetTitle("Новые рекорды с сервисом Hyundai!")
 
                 .request-service-btn {
                     -moz-user-select: none;
-                    background: transparent none repeat scroll 0 0;
-                    border: 2px solid #fff;
+                    background: #013469 none repeat scroll 0 0;
+                    border: 2px solid #013469;
+                    color: #fff !important;
+                    display: inline-block;
+                    font-family: HyundaiSansHead, "Arial",sans-serif;
+                    font-size: 13px;
+                    font-weight: bold;
+                    padding: 16px 29px;
+                    text-align: center;
+                    /*     text-transform: uppercase; */
+                    text-decoration: none !important;
+                    transition: background 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s, border-color 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s, color 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s;
+                }
+
+                .offers-link {
                     color: #fff;
                     display: inline-block;
                     font-family: "Arial",sans-serif;
                     font-size: 13px;
                     font-weight: bold;
-                    padding: 16px 29px;
-                    text-align: center;
+                    letter-spacing: 0.3px;
+                    margin-left: 50px;
                     text-transform: uppercase;
-                    transition: background 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s, border-color 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s, color 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s;
+                    transition: opacity 0.15s ease 0s;
+                    vertical-align: middle;
                 }
-                .request-service-btn:hover {
-                    background: #fff none repeat scroll 0 0;
-                    color: #1d88ce;
+                .offers-link:hover {
+                    opacity: 0.75;
                     text-decoration: none;
+                }
+                .request-service-btn {
+                    display: inline-block;
                 }
 
                 .offers-link {
