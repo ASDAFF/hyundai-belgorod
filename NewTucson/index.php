@@ -200,8 +200,8 @@ $APPLICATION->SetTitle("Новый TUCSON.");
                 </ul>
             </div>
             <div class="sub-menu__right">
-                <a href="/test-drive/NewTucson" class="sub-menu__test">тест-драйв</a>
-                <a href="/configurator/car/26" class="sub-menu__conf">конфигуратор и цены</a>
+                <a href="/test-drive/" class="sub-menu__test">тест-драйв</a>
+                <a href="https://www.hyundai.ru/configurator/car/26" class="sub-menu__conf">конфигуратор и цены</a>
             </div>
         </div>
 
@@ -1074,7 +1074,7 @@ $APPLICATION->SetTitle("Новый TUCSON.");
                                 White
                             </div>
                         </div>
-                        <a href="/configurator/car/26" class="price" style="display: inline-block;">
+                        <a href="https://www.hyundai.ru/configurator/car/26" class="price" style="display: inline-block;">
                             <div class="price__value">
                                 <span>от</span> 1 399 000  &#8381;
                             </div>
@@ -2062,7 +2062,7 @@ $APPLICATION->SetTitle("Новый TUCSON.");
                         </div>
 
                         <div class="table__bottom">
-                            <a href="/configurator/car/26/modification" class="arrow-link">
+                            <a href="https://www.hyundai.ru/configurator/car/26/modification" class="arrow-link">
                                 <div class="arrow-link__text">
                                     Сравнить конфигурации
                                 </div>
@@ -2080,28 +2080,28 @@ $APPLICATION->SetTitle("Новый TUCSON.");
                             <nav class="highlight-nav highlight-nav--full-width">
                                 <ul class="highlight-nav__items">
                                     <li class="highlight-nav__item">
-                                        <a href="/configurator/car/26" class="highlight-nav__link">
+                                        <a href="https://www.hyundai.ru/configurator/car/26" class="highlight-nav__link">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="highlight-nav__icon ic-svg ic-car"><use xlink:href="#ic-car"></use></svg>
                                             <strong class="highlight-nav__name">Создать свой Hyundai</strong>
                                             <span class="highlight-nav__highspot">Ваш автомобиль в&nbsp;один клик</span>
                                         </a>
                                     </li>
                                     <li class="highlight-nav__item">
-                                        <a href="/find-dealer" class="highlight-nav__link">
+                                        <a href="/contacts/" class="highlight-nav__link">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="highlight-nav__icon ic-svg ic-map"><use xlink:href="#ic-map"></use></svg>
                                             <strong class="highlight-nav__name">Найти дилера</strong>
-                                            <span class="highlight-nav__highspot">179 официальных дилерских центров по всей России</span>
+                                            <span class="highlight-nav__highspot">Официальный дилерский центр</span>
                                         </a>
                                     </li>
                                     <li class="highlight-nav__item">
-                                        <a href="/test-drive/NewTucson" class="highlight-nav__link">
+                                        <a href="/test-drive/" class="highlight-nav__link">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="highlight-nav__icon ic-svg ic-steering-wheel"><use xlink:href="#ic-steering-wheel"></use></svg>
                                             <strong class="highlight-nav__name">Тест-драйв</strong>
                                             <span class="highlight-nav__highspot">Моментальная заявка в&nbsp;удобное для&nbsp;вас&nbsp;время</span>
                                         </a>
                                     </li>
                                     <li class="highlight-nav__item">
-                                        <a href="/configurator/car/26#calculator" class="highlight-nav__link">
+                                        <a href="https://www.hyundai.ru/configurator/car/26#calculator" class="highlight-nav__link">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="highlight-nav__icon ic-svg ic-calc"><use xlink:href="#ic-calc"></use></svg>
                                             <strong class="highlight-nav__name">Рассчитать кредит</strong>
                                             <span class="highlight-nav__highspot">Финансовые программы</span>
