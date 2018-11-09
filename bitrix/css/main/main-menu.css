@@ -1,3 +1,28 @@
+.main-header__submenus-holder {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 0 50px
+}
+
+.submenu._active {
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+.ct_icon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 90px;
+    top: -120px;
+}
+.ct_icon img {
+    max-width: 100%;
+}
 
 .main-header__submenus-holder {
     position: relative;

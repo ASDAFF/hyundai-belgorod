@@ -218,7 +218,7 @@ $APPLICATION->SetTitle("Новый TUCSON.");
                     </div>
                     <div class="blue-b">
                         <div class="blue-b__price">
-                            <span>от</span> 1 399 000  &#8381;
+                            <span>от</span> 1 414 000  &#8381;
                             <div class="blue-b__text">В кредит — от 10 000 ₽ в месяц</div>
                         </div>
 
@@ -1076,7 +1076,7 @@ $APPLICATION->SetTitle("Новый TUCSON.");
                         </div>
                         <a href="https://www.hyundai.ru/configurator/car/26" class="price" style="display: inline-block;">
                             <div class="price__value">
-                                <span>от</span> 1 399 000  &#8381;
+                                <span>от</span> 1 414 000  &#8381;
                             </div>
                             <div class="price__note">
                                 В кредит от 10&nbsp;000 ₽ в месяц

@@ -97,6 +97,25 @@ $APPLICATION->SetTitle("all-offers");
                 </div>
 -->
 
+                <div class="insection-offer-unit">
+                    <a href="/start_plus" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/2565bfa8d092a3e09bbe2d2beb8c4ffe_start_plus_466x330.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">СТАРТ Плюс</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
+                    <a href="/promo/special-offer" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai-belgorod.ru/promo/special-offer/img/offer-preview.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Автомобили Hyundai <br>по специальным условиям!</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
 
 
                 <div class="insection-offer-unit">
@@ -108,6 +127,7 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
+<!--
 
                 <div class="insection-offer-unit">
                     <a href="/promo/grand_santa_fe_special_edition/" class="insection-offer-unit__link">
@@ -118,6 +138,7 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
+-->
 
                 <div class="insection-offer-unit">
                     <a href="/special-offer/" class="insection-offer-unit__link">
@@ -176,15 +197,15 @@ $APPLICATION->SetTitle("all-offers");
             <div class="offers_divider__content__offers-grid-section clearfix">
 
                 <div class="insection-offer-unit">
-                    <a href="/promo/shell" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/dd77b6edbce77f33b7c4c23fd7d6e125_1920x530_Hyundai_Shell.jpg" alt="" class="insection-offer-unit__back-img">
+                    <a href="/promo/autumn" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/766be949ba7a5f92fc74d6e23aca1ed7_Hyundai_Shell_aug_1500x545.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
-                            <span class="name">Новые рекорды с сервисом Hyundai</span>
+                            <span class="name">Бесплатная диагностика + 1 литр масла в подарок</span>
                             <span class="addinfo"></span>
                         </div>
                     </a>
                 </div>
-
+        <!--
                 <div class="insection-offer-unit">
                     <a href="/promo/santafe_offer/" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/af769b27850993d65279bf07a5090af2_santa-fe_tiser_465_330.jpg" alt="" class="insection-offer-unit__back-img">
@@ -204,6 +225,16 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
+        -->
+                <div class="insection-offer-unit">
+                    <a href="/pl2" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/2b8987192a392e13d08192bb6520cf4a_pl-2_466x330.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Запчасти Product Line 2</span>
+                            <span class="addinfo">Теперь еще дешевле!</span>
+                        </div>
+                    </a>
+                </div>
 
                 <div class="insection-offer-unit">
                     <a href="/service/best/" class="insection-offer-unit__link">
@@ -214,7 +245,7 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
-
+        <!--
                 <div class="insection-offer-unit">
                     <a href="/promo/season/" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/2d1d0ce07c4559f2076b1f4ca92cb81e_465х330_FIFA2108_banner.jpg" alt="" class="insection-offer-unit__back-img">
@@ -224,6 +255,7 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
+        -->
             </div>
 
             <!-- service stuff next -->

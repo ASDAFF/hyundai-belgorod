@@ -2,7 +2,6 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Бесплатная диагностика + 1 литр масла в подарок - cервисная программа «Лучшее для своих»");
 ?>
-
 	<!--
     Контент страницы начнется тут
     -->
@@ -38,9 +37,13 @@ $APPLICATION->SetTitle("Бесплатная диагностика + 1 литр
 						<div class="offer-terms">
 							<p class="offer-terms__text">
 								Мы предлагаем вам стать участником программы «Лучшее для своих» и пройти <b>бесплатную диагностику*</b> вашего автомобиля, а также получить подарок при прохождении ТО или масляного сервиса - <b>1 литр масла Shell Helix Ultra**.</b></p><br/>
-							<a href="/service/service-request/" class="request-service-btn">записаться на сервис</a><br/><br/>
+							<a href="/service-request/" class="request-service-btn">записаться на сервис</a><br/><br/>
 							<p class="offer-terms__text">Предложение действует для всего модельного ряда Hyundai старше 3 лет с момента выпуска автомобиля.</p>
-							<p class="offer-terms__text">Подробности кампании Вы можете уточнить у <a href="/contacts/" target="_blank">официальных дилеров Hyundai.</a></p>
+							<p class="offer-terms__text">
+
+<br>Подробности кампании Вы можете уточнить у официального дилера Hyundai Ринг Авто Белгород по телефону: <br>+7 (4722) 33-33-77.
+
+</p>
 
 
 

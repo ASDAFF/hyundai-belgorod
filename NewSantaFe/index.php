@@ -1032,7 +1032,11 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                         <div class="config__center">
                             <div class="config__img">
                                 <div class="config__name">SANTA FE</div>
-                                <img id="colorImg" src="https://www.hyundai.ru/assets/img/santaFe/pics/5_tech/tech_2_r.png" alt="">
+								<div class="config__main-img">
+		                            <img id="colorImg" src="" alt="">
+		                            <img id="colorImg2" src="https://www.hyundai.ru/assets/img/santaFe/pics/5_tech/tech_2_r.png" alt="" class="animate">
+		                        </div>
+                            
                                 <div class="x-size">
                                     <div class="x-size__arrow-l">
                                         <img src="https://www.hyundai.ru/assets/img/santaFe/pics/6_config/arrow_left.png" alt="">
@@ -1077,11 +1081,11 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                                     <div class="y-size__arrow-t">
                                         <img src="https://www.hyundai.ru/assets/img/santaFe/pics/6_config/arrow_top.png" alt="">
                                     </div>
-                                    <div class="y-size__line-t">
+                                    <div class="y-size__line-t" style="max-height: 50%;">
                                         <img src="https://www.hyundai.ru/assets/img/santaFe/pics/6_config/line_vertical.png" alt="">
                                     </div>
                                     <div class="y-size__value">1.68 М</div>
-                                    <div class="y-size__line-b">
+                                    <div class="y-size__line-b" style="max-height: 50%;">
                                         <img src="https://www.hyundai.ru/assets/img/santaFe/pics/6_config/line_vertical.png" alt="">
                                     </div>
                                     <div class="y-size__arrow-b">

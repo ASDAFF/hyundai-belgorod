@@ -1,6 +1,5 @@
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");?>
-
-<?
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
+$APPLICATION->SetTitle("");?><?
 $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
     "MODE"      => "html",
     "NAME"      => "Редактирование включаемой области раздела",
@@ -85,7 +84,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <div class="carslider-inner-single-desc sonata">
                     <a href="/Sonata/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
-                    <div class="carslider-inner-single-desc-price">140 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-price">140 000 ₽</div>
                     <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
 <div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
                 </div>
@@ -104,7 +103,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <div class="carslider-inner-single-desc solaris">
                     <a href="/NewSolaris/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
-                    <div class="carslider-inner-single-desc-price">20 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-price">20 000 ₽</div>
                     <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
 <div class="carslider-inner-single-desc-bal">10 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
                 </div>
@@ -123,7 +122,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <div class="carslider-inner-single-desc elantra">
                     <a href="/Elantra/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
-                    <div class="carslider-inner-single-desc-price">50 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-price">50 000 ₽</div>
                     <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
 <div class="carslider-inner-single-desc-bal">10 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
                 </div>
@@ -142,7 +141,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <div class="carslider-inner-single-desc tucson">
                     <a href="/Tucson/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
-                    <div class="carslider-inner-single-desc-price">80 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-price">80 000 ₽</div>
                     <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
 <div class="carslider-inner-single-desc-bal">15 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
                 </div>
@@ -156,15 +155,15 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                     <span>Конфигуратор</span>
                 </a>
             </div>
-            <div class="carslider-inner-single">
+            <!--<div class="carslider-inner-single">
                 <div class="carslider-inner-single-title">Santa Fe</div>
                 <div class="carslider-inner-single-desc santa_fe">
                     <a href="/SantaFe/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
-                    <div class="carslider-inner-single-desc-price">100 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-price">100 000 ₽</div>-->
                     <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
 <div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
-                </div>
+                <!--<</div>
                 <div class="carslider-inner-single-img">
                     <img src="/hpromise/img/santa_fe_small.png">
                 </div>
@@ -174,16 +173,36 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <a href="http://www.hyundai.ru/configurator/?car_id=29" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
-            </div>
+            </div>-->
             <div class="carslider-inner-single">
+                <div class="carslider-inner-single-title">Новый Santa Fe</div>
+                <div class="carslider-inner-single-desc santa_fe">
+                    <a href="/NewSantaFe/" class="carslider-inner-single-desc-link">описание модели</a>
+                    <div class="carslider-inner-single-desc-tit">Скидка</div>
+                    <div class="carslider-inner-single-desc-price">120 000 ₽</div>
+                    <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
+<div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
+                </div>
+                <div class="carslider-inner-single-img">
+                    <img src="/hpromise/img/newSantaFe.png">
+                </div>
+                <a href="http://www.hyundai.ru/test-drive?old_car_id=29" class="carslider-inner-single-button buttontd">
+                    <span>Тест-драйв</span>
+                </a>
+                <a href="http://www.hyundai.ru/configurator/?car_id=29" class="carslider-inner-single-button buttonkonf">
+                    <span>Конфигуратор</span>
+                </a>
+            </div>
+
+<!--             <div class="carslider-inner-single">
                 <div class="carslider-inner-single-title">Grand Santa Fe</div>
                 <div class="carslider-inner-single-desc grand_santa_fe">
                     <a href="/GrandSantaFe/" class="carslider-inner-single-desc-link">описание модели</a>
                     <div class="carslider-inner-single-desc-tit">Скидка</div>
-                    <div class="carslider-inner-single-desc-price">120 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-price">120 000 ₽</div> -->
                     <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
 <div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
-                </div>
+<!--                 </div>
                 <div class="carslider-inner-single-img">
                     <img src="/hpromise/img/grand_sf_small.png">
                 </div>
@@ -193,7 +212,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
                 <a href="http://www.hyundai.ru/configurator/?car_id=12" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
-            </div>
+            </div> -->
 
         </div>
 
@@ -270,7 +289,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
         <div class="zing_form_content">
             <a class="closePopup  zing_close" href="javascript:;"></a>
             <p class="zing-heading">Пожалуйста, укажите Ваши контактные данные.</p>
-            <p class="zing-p zing-p--note"><i class="ic-note-31"></i>Поля, отмеченные &laquo;<sup class="skyblue">*</sup>&raquo;, обязательны для заполнения.</p>
+            <p class="zing-p zing-p--note"><i class="ic-note-31"></i>Поля, отмеченные «<sup class="skyblue">*</sup>», обязательны для заполнения.</p>
             <div class="zing-input">
                 <input
                     type		= "text"
@@ -378,7 +397,7 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
         <div class="zing_form_content">
             <a class="closePopup  zing_close" href="javascript:;"></a>
             <p class="zing-heading">Пожалуйста, укажите Ваши контактные данные.</p>
-            <p class="zing-p zing-p--note"><i class="ic-note-31"></i>Поля, отмеченные &laquo;<sup class="skyblue">*</sup>&raquo;, обязательны для заполнения.</p>
+            <p class="zing-p zing-p--note"><i class="ic-note-31"></i>Поля, отмеченные «<sup class="skyblue">*</sup>», обязательны для заполнения.</p>
 
             <div class="zing-input">
                 <input
@@ -494,6 +513,8 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
 <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.validate.js"></script>
 <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.simplemodal.1.4.4.min.js"></script>
 <script src="<?=SITE_TEMPLATE_PATH?>/js/zing.js"></script>
+
+
 
 <?
 $APPLICATION->IncludeFile("/hpromise/footer.php", Array(), Array(

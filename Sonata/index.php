@@ -10,7 +10,6 @@ $APPLICATION->SetTitle("NewSolaris");
 
 
 
-
     <!-- <link rel="stylesheet" type="text/css" href="/media/css_new/pip_flat_spritespin.css"/> -->
 
 
@@ -323,7 +322,7 @@ $APPLICATION->SetTitle("NewSolaris");
             </div>
             <div class="videoPopup">
                 <div class="videoContainer">
-                    <a class="closeButton" href="#" title="Закрыть">&times;</a>
+                    <a class="closeButton" href="#" title="Закрыть">×</a>
                     <iframe class="videoFrame" width="100%" height="" src="" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
@@ -542,7 +541,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <a href="http://www.hyundai.ru/configurator" target="_blank" class="configurator-link">
                                                 <div class="configurator-link-text">
                                                     <span class="configurator-price-val"><? price_to_url($APPLICATION->GetCurPage()); ?></span>
-                                                    <span class="configurator-credit">В кредит от <span class="configurator-credit-val">9000</span> &#8381; в месяц</span>
+                                                    <span class="configurator-credit">В кредит от <span class="configurator-credit-val">9000</span> ₽ в месяц</span>
                                                 </div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="svg corner-right-light"><use xlink:href="#light"></use></svg>
                                             </a>
@@ -578,7 +577,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                 <div class="section-parallax-content" data-parallax-speed="2">
                                     <header class="section-header">
                                         <h2 class="section-header__title">Особенности</h2>
-                                        <div class="section-header__subtitle">Легендарный седан <br>в&nbsp;новом&nbsp;исполнении.</div>
+                                        <div class="section-header__subtitle">Легендарный седан <br>в новом исполнении.</div>
                                         <span class="section-header__descr">Hyundai Sonata возвращается, <br>чтобы предстать перед вами <br> в новом облике.</span>
                                     </header>
                                 </div>
@@ -776,7 +775,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                         <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/exterior_3.jpg" class="pluser-img" alt=""/>
                                                     </div>
                                                     <div class="pluser-text-area">
-                                                        <strong class="pluser-text-title">Противотуманные фары и&nbsp;ходовые огни.</strong>
+                                                        <strong class="pluser-text-title">Противотуманные фары и ходовые огни.</strong>
                                                         Стильный блок противотуманных фар и светодиодных дневных ходовых огней практичен и функционален.
                                                     </div>
                                                 </div>
@@ -921,8 +920,8 @@ $APPLICATION->SetTitle("NewSolaris");
 
                                         </ul>
                                         <ul class="tabs-c" data-role="tab-container">
-                                            <li class="tab" data-tab="1"><div class="engine-descr">Сочетание 6-ступенчатой коробки передач с&nbsp;экономичными двигателями 2.0 и 2.4 литра позволяет достичь повышенной плавности хода, а&nbsp;также снизить уровень шума во время движения.</div></li>
-                                            <li class="tab" data-tab="2"><div class="engine-descr">Сочетание 6-ступенчатой коробки передач с&nbsp;экономичными двигателями 2.0 и 2.4 литра позволяет достичь повышенной плавности хода, а&nbsp;также снизить уровень шума во время движения.</div></li>
+                                            <li class="tab" data-tab="1"><div class="engine-descr">Сочетание 6-ступенчатой коробки передач с экономичными двигателями 2.0 и 2.4 литра позволяет достичь повышенной плавности хода, а также снизить уровень шума во время движения.</div></li>
+                                            <li class="tab" data-tab="2"><div class="engine-descr">Сочетание 6-ступенчатой коробки передач с экономичными двигателями 2.0 и 2.4 литра позволяет достичь повышенной плавности хода, а также снизить уровень шума во время движения.</div></li>
                                         </ul>
                                         <div class="graphics-scores">
                                             <span class="graphics-scale-level">4000 об/мин</span>
@@ -1002,7 +1001,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                     <header class="section-header">
                                         <h2 class="section-header__title">Комфорт</h2>
                                         <div class="section-header__subtitle">Новые возможности.</div>
-                                        <span class="section-header__descr">Новая Hyundai Sonata <br> &mdash; синоним слова «комфорт».</span>
+                                        <span class="section-header__descr">Новая Hyundai Sonata <br> — синоним слова «комфорт».</span>
                                     </header>
                                 </div>
                             </div>
@@ -1013,7 +1012,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                             <div class="convience-popup" data-for="1">
                                                 <div class="convience-popup-inner">
                                                     <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_1.jpg" class="convience-popup-img" alt=""/>
-                                                    <div class="convience-popup-title">Система помощи при&nbsp;парковке</div>
+                                                    <div class="convience-popup-title">Система помощи при парковке</div>
                                                     <button class="more-button"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#plus"></use></svg></button>
                                                 </div>
                                             </div>
@@ -1036,7 +1035,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                                         <img src="http://www.hyundai.ru/media/images/flat/SONATA/elements/convenience_popup_1.jpg" class="pluser-img" alt=""/>
                                                     </div>
                                                     <div class="pluser-text-area">
-                                                        <strong class="pluser-text-title">Система помощи при&nbsp;парковке</strong>
+                                                        <strong class="pluser-text-title">Система помощи при парковке</strong>
                                                         Предупреждает водителя об опасном сближении с объектами во время парковки.
                                                     </div>
                                                 </div>
@@ -1292,9 +1291,9 @@ $APPLICATION->SetTitle("NewSolaris");
                             </div>
                             <div class="spec_message">
                                 <div>
-                                    <span class="add-blue-color">*</span> &mdash; Данные по максимальной мощности двигателя и крутящему моменту приведены согласно методике испытаний по Правилам ООН №85<br>
-                                    <span class="add-blue-color">**</span> &mdash; Показатели расхода топлива и массы выделяемого CO2 представлены согласно методике испытаний по Правилам ООН №83 и 101<br>
-                                    <span class="add-blue-color">***</span> &mdash; Согласно сертификату соответствия по Директиве ЕС 92/21/EEC представлено значение межосевого дорожного просвета<br>
+                                    <span class="add-blue-color">*</span> — Данные по максимальной мощности двигателя и крутящему моменту приведены согласно методике испытаний по Правилам ООН №85<br>
+                                    <span class="add-blue-color">**</span> — Показатели расхода топлива и массы выделяемого CO2 представлены согласно методике испытаний по Правилам ООН №83 и 101<br>
+                                    <span class="add-blue-color">***</span> — Согласно сертификату соответствия по Директиве ЕС 92/21/EEC представлено значение межосевого дорожного просвета<br>
                                 </div>
                             </div>
                         </div>
@@ -1350,8 +1349,18 @@ $APPLICATION->SetTitle("NewSolaris");
                         <li class="prefooter-l-i"><a href="https://www.hyundai.ru/configurator/car/24/modification" class="prefooter-l-l"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#ic-config"></use></svg><span class="prefooter-l-t">Конфигуратор</span></a></li>
                         <li class="prefooter-l-i"><a href="https://www.hyundai.ru/configurator/car/24/modification" class="prefooter-l-l"><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#ic-credit"></use></svg><span class="prefooter-l-t">Расчет кредита</span></a></li>
                     </ul>
-                    <p>*6.9% годовых – процентная ставка в кредитном договоре. Валюта кредита - рубли РФ; уровень первоначального взноса от 30% от стоимости автомобиля. Срок кредита 12-36 месяцев. Программа распространяется на покупку в кредит Hyundai Sonata, Santa Fe, Grand Santa Fe. Программой предусмотрено страхование жизни и здоровья заемщика. Минимальная сумма кредита – 50 000 руб., максимальная сумма кредита – 6 500 000 руб.. Обязательно подтверждение дохода клиента. Залоговое обеспечение - залог приобретаемого ТС. Предложение действительно при подтверждении дохода Заемщика. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013г. Предложение действует с 01.07.18 по 31.07.18, не является офертой. Условия могут быть изменены Банком в одностороннем порядке.</p><br>
-                    <p>**Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в САО «ВСК» при покупке нового Hyundai Solaris, Creta (в комплектации CTW52G61GGG013), Elantra, Tucson, Sonata, Santa Fe, Grand Santa Fe в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены САО «ВСК» в одностороннем порядке. Предложение действует до 31.07.2018г</p><br>
+                    <p>
+
+
+Расчет кредита
+*6.9% годовых – процентная ставка в кредитном договоре. Валюта кредита - рубли РФ; уровень первоначального взноса от 30% от стоимости автомобиля. Срок кредита 12-36 месяцев. Программа распространяется на покупку в кредит Hyundai Sonata. Программой предусмотрено страхование жизни и здоровья заемщика. Минимальная сумма кредита – 50 000 руб., максимальная сумма кредита – 6 500 000 руб.. Обязательно подтверждение дохода клиента. Залоговое обеспечение - залог приобретаемого ТС. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013г. Предложение действует с 01.08.18 по 31.08.18, не является офертой. Условия могут быть изменены Банком в одностороннем порядке.
+
+</p><br>
+                    <p>
+
+**Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в САО «ВСК» при покупке нового Hyundai Sonata в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены САО «ВСК» в одностороннем порядке. Предложение действует до 31.08.2018г.
+
+</p><br>
                 </div>
             </div>
 
