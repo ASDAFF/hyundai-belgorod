@@ -146,7 +146,7 @@
 									<a href="/service/manuals" class="service-submenu__link">Руководства и&nbsp;каталоги</a>
 								</li>
 								<li class="service-submenu__item">
-									<a href="/service/service-request" class="service-submenu__link">Запись на&nbsp;сервис</a>
+									<a href="/service-request/" class="service-submenu__link">Запись на&nbsp;сервис</a>
 								</li>
 							</ul>
 						</li>
@@ -160,7 +160,7 @@
 									<a href="http://acc.hyundai.ru" class="service-submenu__link" target="_blank">Оригинальные аксессуары</a>
 								</li>
 								<li class="service-submenu__item">
-									<a href="/promo/parts" class="service-submenu__link">Запчасти Product Line 2</a>
+									<a href="/pl2/" class="service-submenu__link">Запчасти Product Line 2</a>
 								</li>
 								<li class="service-submenu__item">
 									<a href="/shell" class="service-submenu__link">Моторное масло</a>
