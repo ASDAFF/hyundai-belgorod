@@ -3,7 +3,6 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("title", "Купить Hyundai Grand Santa Fe. Цена на Хендай Гранд Санта Фе у дилера");
 $APPLICATION->SetTitle("GrandSantaFe");
 ?>
-
     <link type="text/css" href="https://www.hyundai.ru/media/css/cars/cars_common.css" rel="stylesheet" />
     <link type="text/css" href="https://www.hyundai.ru/media/css/cars/pip_flat_spritespin.css" rel="stylesheet" />
     <link type="text/css" href="https://www.hyundai.ru/media/css/cars/pip_flat_GSF.css" rel="stylesheet" />
@@ -69,7 +68,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
 
             <div class="videoPopup">
                 <div class="videoContainer">
-                    <a class="closeButton" href="#" title="Закрыть">&times;</a>
+                    <a class="closeButton" href="#" title="Закрыть">×</a>
                     <iframe class="videoFrame" width="100%" height="" src="" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
@@ -88,9 +87,8 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                         <div class="title-price">
                                             <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
                                             <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                            <a href="/start/" class="title-price-notice" style="padding: 0;">В кредит от 16 000 ₽ / месяц*</a>
-                                            <div class="title-price-casco">+ каско в подарок!<sup>**</sup>
-                                            </div>
+                                            <!--<a href="/start/" class="title-price-notice" style="padding: 0;">В кредит от 16 000 ₽ / месяц*</a>
+                                            <div class="title-price-casco">+ каско в подарок!<sup>**</sup></div>-->
                                         </div>
                                         <a href="/all-offers/" class="btn-flat">Все предложения</a>
                                         <div class="title-list">
@@ -273,7 +271,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                         <div class="subject">
                                             <h3>Внушительная<br>мощность</h3>
                                             <p>
-                                                У вас есть возможность купить Hyundai Grand Santa Fe с экономичным дизелем 2.2&nbsp;CRDi 200&nbsp;л.с. или мощным бензиновым 3.0&nbsp;GDI 249&nbsp;л.с.
+                                                У вас есть возможность купить Hyundai Grand Santa Fe с экономичным дизелем 2.2 CRDi 200 л.с. или мощным бензиновым 3.0 GDI 249 л.с.
                                             </p>
                                         </div>
                                         <div class="image">
@@ -284,8 +282,8 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                         <div class="subject">
                                             <h3>Увеличенный<br>кузов</h3>
                                             <p>Grand Santa Fe длиннее
-                                                на 205&nbsp;мм, <br>шире на 5&nbsp;мм и выше
-                                                на 10&nbsp;мм, <br>а&nbsp;длина колесной базы <br>
+                                                на 205 мм, <br>шире на 5 мм и выше
+                                                на 10 мм, <br>а длина колесной базы <br>
                                                 увеличена на 10 мм.
                                             </p>
                                         </div>
@@ -373,7 +371,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                                                     фары со светодиодными<br>
                                                                     габаритными огнями
                                                                 </strong>
-                                                                Наслаждайтесь лучшей видимостью днем и&nbsp;ночью благодаря ксеноновым фарам с&nbsp;омывателем и автокорректором, которые<br>не только освещают — они придают<br>автомобилю суперсовременный<br>внешний вид.
+                                                                Наслаждайтесь лучшей видимостью днем и ночью благодаря ксеноновым фарам с омывателем и автокорректором, которые<br>не только освещают — они придают<br>автомобилю суперсовременный<br>внешний вид.
                                                             </div>
                                                         </li>
                                                         <li>
@@ -381,7 +379,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                                             <div class="img"><img src="/media/images/flat/GSF/elements/exterior_popup_1.jpg" width="470" height="470" alt="Противотуманные фары" /></div>
                                                             <div class="txt">
                                                                 <strong>Противотуманные фары</strong>
-                                                                Передние противотуманные фары обеспечивают отличную видимость, повышая безопасность в любую погоду. Также этому способствуют встроенные светодиодные дневные ходовые&nbsp;огни.
+                                                                Передние противотуманные фары обеспечивают отличную видимость, повышая безопасность в любую погоду. Также этому способствуют встроенные светодиодные дневные ходовые огни.
                                                             </div>
                                                         </li>
                                                     </ul>
@@ -469,9 +467,9 @@ $APPLICATION->SetTitle("GrandSantaFe");
                             </div>
                             <div class="list_wrap">
                                 <ul class="list">
-                                    <li class="front on"><a href="#"><span class="progress">&nbsp;</span><span class="txt">Вид спереди</span></a></li>
-                                    <li class="side"><a href="#"><span class="progress">&nbsp;</span><span class="txt">Вид сбоку</span></a></li>
-                                    <li class="rear"><a href="#"><span class="progress">&nbsp;</span><span class="txt">Вид сзади</span></a></li>
+                                    <li class="front on"><a href="#"><span class="progress"> </span><span class="txt">Вид спереди</span></a></li>
+                                    <li class="side"><a href="#"><span class="progress"> </span><span class="txt">Вид сбоку</span></a></li>
+                                    <li class="rear"><a href="#"><span class="progress"> </span><span class="txt">Вид сзади</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -531,7 +529,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                         поездках
                                     </div>
                                     <div class="text2">
-                                        Считайте, что это часть вашего дома &mdash; место, где вам<br> наиболее комфортно. Собирайте всех и отправляйтесь<br> в расслабляющую поездку.
+                                        Считайте, что это часть вашего дома — место, где вам<br> наиболее комфортно. Собирайте всех и отправляйтесь<br> в расслабляющую поездку.
                                     </div>
                                 </div>
                             </div>
@@ -574,7 +572,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                         <div class="pop_12">
                                             <div class="details_txt">
                                                 <strong>Сиденья с электроприводом</strong>
-                                                <p>Эргономичное сиденье водителя регулируется в 10, а&nbsp;переднего пассажира в 6 направлениях для обеспечения максимального комфорта, а&nbsp;атмосферу домашнего уюта еще более усилит поясничная поддержка с регулировкой в 4-х направлениях.</p>
+                                                <p>Эргономичное сиденье водителя регулируется в 10, а переднего пассажира в 6 направлениях для обеспечения максимального комфорта, а атмосферу домашнего уюта еще более усилит поясничная поддержка с регулировкой в 4-х направлениях.</p>
                                             </div>
                                             <img src="/media/images/flat/GSF/elements/interior_popup_2.jpg" width="525" height="540" alt="Сиденья с электроприводом" />
                                             <div class="close"><a href="#"><span>Закрыть</span></a></div>
@@ -692,7 +690,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                     <h2 class="pip_title">ДИНАМИКА</h2>
                                     <div class="text1">Ему можно <br>доверять</div>
                                     <div class="text2">Лежит ваш путь в гору, через пустыню или заснеженную <br>
-                                        глушь &mdash; это автомобиль, который позволяет воспользоваться<br>
+                                        глушь — это автомобиль, который позволяет воспользоваться<br>
                                         и насладиться моментом.
                                     </div>
                                 </div>
@@ -1261,9 +1259,9 @@ $APPLICATION->SetTitle("GrandSantaFe");
                         </div>
                         <div class="spec_message">
                             <div>
-                                <span class="add-blue-color">*</span> &mdash; Данные по максимальной мощности двигателя и крутящему моменту приведены согласно Одобрению типа транспортного средства<br>
-                                <span class="add-blue-color">**</span> &mdash; Показатели расхода топлива и массы выделяемого CO2 представлены согласно методике испытаний по Правилам ЕЭК ООН №83 и 101<br>
-                                <span class="add-blue-color">***</span> &mdash; Согласно сертификату соответствия по Директиве ЕС 92/21/EEC представлено значение межосевого дорожного просвета<br>
+                                <span class="add-blue-color">*</span> — Данные по максимальной мощности двигателя и крутящему моменту приведены согласно Одобрению типа транспортного средства<br>
+                                <span class="add-blue-color">**</span> — Показатели расхода топлива и массы выделяемого CO2 представлены согласно методике испытаний по Правилам ЕЭК ООН №83 и 101<br>
+                                <span class="add-blue-color">***</span> — Согласно сертификату соответствия по Директиве ЕС 92/21/EEC представлено значение межосевого дорожного просвета<br>
                             </div>
                         </div>
                     </div>
@@ -1330,39 +1328,46 @@ $APPLICATION->SetTitle("GrandSantaFe");
                         <div class="promo-slider_cut">
                             <ul class="promo-slider">
                                 <li>
-                                    <a href="/GrandSantaFe/" class="promo-slider-link">
-                                        <img src="https://www.hyundai.ru/media/images/carmodels/Grand Santa fe_2625a0ed5fb73033.png" alt="Grand SANTA FE">
-                                        <span class="model">Grand SANTA FE</span>
-                                        <span class="price">от 2 439 000  &#8381;</span>
+                                    <a href="/H-1/" class="promo-slider-link">
+                                        <img src="https://www.hyundai.ru/media/images/carmodels/H-1_3185b17f6c10d2a9.png" alt="H-1">
+                                        <span class="model">H-1</span>
+                                        <span class="price">от 2 079 000  ₽</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/SantaFe/" class="promo-slider-link">
+                                        <img src="https://www.hyundai.ru/media/images/carmodels/Santa fe_8385a0ed6004e51b.png" alt="SANTA FE">
+                                        <span class="model">SANTA FE</span>
+                                        <span class="price">от 1 964 000  ₽</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/Tucson/" class="promo-slider-link">
                                         <img src="https://www.hyundai.ru/media/images/carmodels/Tucson_8655a0ed607025b4.png" alt="TUCSON">
                                         <span class="model">TUCSON</span>
-                                        <span class="price">от 1 369 000  &#8381;</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/H-1/" class="promo-slider-link">
-                                        <img src="https://www.hyundai.ru/media/images/carmodels/H-1_3185b17f6c10d2a9.png" alt="H-1">
-                                        <span class="model">H-1</span>
-                                        <span class="price">от 2 079 000  &#8381;</span>
+                                        <span class="price">от 1 369 000  ₽</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/Elantra/" class="promo-slider-link">
                                         <img src="https://www.hyundai.ru/media/images/carmodels/Elantra_7505a0ed5f602de8.png" alt="ELANTRA">
                                         <span class="model">ELANTRA</span>
-                                        <span class="price">от  984 000  &#8381;</span>
+                                        <span class="price">от  979 000  ₽</span>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div class="disc-block"><p class="dicslamer-casco"><sup>*</sup>Платеж рассчитан в рамках программы Hyundai (Старт), исходя из цены Hyundai Grand Santa Fe (Family, 2,2л CRDi 6AT) 2 439 000 р., 2018 года производства, на условиях кредитного продукта «ДИРЕКТ Баллун ПСП КЛАССИКА: Hyundai в кредит»: Первоначальный взнос 1 249 700 р., сумма кредита 1 328 827 р., срок кредита 36 мес.; процентная ставка 9,4% годовых. Часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита - 45%. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Тарифным планом предусмотрена финансовая защита кредита. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.08.18 по 31.08.18г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru</p></div>
-                <div class="disc-block"><p class="dicslamer-casco"><sup>**</sup> Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в САО «ВСК» при покупке нового Hyundai Grand Santa Fe в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены САО «ВСК» в одностороннем порядке. Предложение действует до 31.08.2018г.</p></div>
+                </div>		<div class="disc-block"><p class="dicslamer-casco"><sup>*</sup>
+
+Платеж рассчитан в рамках программы Hyundai (Старт), исходя из цены Hyundai Grand Santa Fe (Family, 2,2л CRDi 6AT) 2 439 000 р., 2018 года производства, на условиях кредитного продукта «ДИРЕКТ Баллун ПСП КЛАССИКА: Hyundai в кредит»: Первоначальный взнос 1 249 700 р., сумма кредита 1 328 827 р., срок кредита 36 мес.; процентная ставка 9,4% годовых. Часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита - 45%. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Тарифным планом предусмотрена финансовая защита кредита. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.08.18 по 31.08.18г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru
+
+</p></div>
+                <div class="disc-block"><p class="dicslamer-casco"><sup>**</sup>
+
+Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в САО «ВСК» при покупке нового Hyundai Grand Santa Fe в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены САО «ВСК» в одностороннем порядке. Предложение действует до 31.08.2018г.
+
+</p></div>
             </div>
 
         </div> <!-- // container -->

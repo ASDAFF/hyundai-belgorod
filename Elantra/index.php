@@ -3,7 +3,6 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("title", "Hyundai Elantra комплектации и цены. Купить новый Хендай Элантра ");
 $APPLICATION->SetTitle("Elantra");
 ?>
-
     <link type="text/css" href="https://www.hyundai.ru/media/css/cars/cars_common.css" rel="stylesheet" />
     <link type="text/css" href="https://www.hyundai.ru/media/css/cars/pip_flat_spritespin.css" rel="stylesheet" />
     <link type="text/css" href="https://www.hyundai.ru/media/css/cars/pip_flat_EL.css" rel="stylesheet" />
@@ -56,7 +55,7 @@ $APPLICATION->SetTitle("Elantra");
             </div>
             <div class="videoPopup">
                 <div class="videoContainer">
-                    <a class="closeButton" href="#" title="Закрыть">&times;</a>
+                    <a class="closeButton" href="#" title="Закрыть">×</a>
                     <iframe class="videoFrame" width="100%" height="" src="" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
@@ -73,19 +72,20 @@ $APPLICATION->SetTitle("Elantra");
                                             <span>В центре сюжета</span>
                                         </div>
                                         <div class="title-price">
-                                            <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
+                                            <? price_to_url($APPLICATION->GetCurPage()); ?>
                                             <? profit_to_url($APPLICATION->GetCurPage()); ?>
                                             <a href="/start/" class="title-price-notice">В кредит от 8 000 ₽ / месяц</a>
                                         </div>
                                         <!--                             <a href="/all-offers/Elantra" class="btn-flat">Все предложения</a> -->
-                                        <?
-                                        model_credit(
-                                            array(
-                                                array("val" => "6.9%","text" => "кредит*"),
-                                                array("text" => "<b>КАСКО</b> в подарок**")
-                                            )
-                                        );
-                                        ?>
+
+                                        <div class="blue-block clearfix" style="margin-bottom: 20px">
+                                            <div class="blue-block-content">
+                                                <div class="blue-block-row">
+                                                    <span class="blue-block-val">от 8 000 ₽</span>
+                                                    <span class="blue-block-text">в месяц<sup>*</sup></span>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div class="title-list">
                                             <ul>
                                                 <li>Экономный расход<br><strong>6.6 л на 100 км<span class="add-blue-color">*</span></strong></li>
@@ -261,7 +261,7 @@ $APPLICATION->SetTitle("Elantra");
                                     </div>
                                     <div class="mid">
                                         <div class="subject">
-                                            <h3>Больше места и&nbsp;возможностей</h3>
+                                            <h3>Больше места и возможностей</h3>
                                             <p>
                                                 Elantra обладает вместительным грузовым отсеком, объем которого составляет 458 л, что позволяет водителям лучше использовать внутреннее пространство.
                                             </p>
@@ -384,8 +384,8 @@ $APPLICATION->SetTitle("Elantra");
                             </div>
                             <div class="list_wrap">
                                 <ul class="list">
-                                    <li class="front on"><a href="#"><span class="progress">&nbsp;</span><span class="txt">Вид спереди</span></a></li>
-                                    <li class="rear"><a href="#"><span class="progress">&nbsp;</span><span class="txt">Вид сзади</span></a></li>
+                                    <li class="front on"><a href="#"><span class="progress"> </span><span class="txt">Вид спереди</span></a></li>
+                                    <li class="rear"><a href="#"><span class="progress"> </span><span class="txt">Вид сзади</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -553,7 +553,7 @@ $APPLICATION->SetTitle("Elantra");
                                     <li>
                                         <div class="engine1">1.6 MPI</div>
                                         <p>
-                                            Цель Hyundai &mdash; стать мировым лидером в эффективном использовании топлива, и этот двигатель &mdash; лучшее тому доказательство. Gamma&nbsp;1.6 л выдает 128 л.с. при 6300 об/мин.
+                                            Цель Hyundai — стать мировым лидером в эффективном использовании топлива, и этот двигатель — лучшее тому доказательство. Gamma 1.6 л выдает 128 л.с. при 6300 об/мин.
                                         </p>
                                         <div class="graph">
                                             <div class="pos">
@@ -664,7 +664,7 @@ $APPLICATION->SetTitle("Elantra");
                             <div class="text_play_wrap">
                                 <div class="text_play">
                                     <h2 class="pip_title">КОМФОРТ</h2>
-                                    <div class="text1">Возможности, от&nbsp;которых нельзя отказаться</div>
+                                    <div class="text1">Возможности, от которых нельзя отказаться</div>
                                     <div class="text2">Удобство превосходит все ожидания. Усовершенствованная Elantra окружает Вас и Ваших пассажиров необычайным комфортом, которого Вы бы никогда не ожидали от автомобиля.
                                     </div>
                                 </div>
@@ -778,8 +778,7 @@ $APPLICATION->SetTitle("Elantra");
                         </div>
                         <div class="spec_message">
                             <div>
-                                <span class="add-blue-color">*</span>6.9% годовых – процентная ставка в кредитном договоре. Валюта кредита - рубли РФ; уровень первоначального взноса от 30% от стоимости автомобиля. Срок кредита 12-36 месяцев. Программа распространяется на покупку в кредит Hyundai Elantra. Программой предусмотрено страхование жизни и здоровья заемщика. Минимальная сумма кредита – 50 000 руб., максимальная сумма кредита – 6 500 000 руб.. Обязательно подтверждение дохода клиента. Залоговое обеспечение - залог приобретаемого ТС. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013г. Предложение действует с 01.08.18 по 31.08.18, не является офертой. Условия могут быть изменены Банком в одностороннем порядке.<br>
-                                <span class="add-blue-color">**</span>Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в САО «ВСК» при покупке нового Hyundai Elantra в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены САО «ВСК» в одностороннем порядке. Предложение действует до 31.08.2018г.<br>
+                                <span class="add-blue-color" style="padding: 0">*</span>Платеж рассчитан по программе Hyundai Старт исходя из цены Elantra (1.6 6МТ Start) 984 000р., 2018 года производства на условиях кредитного продукта «ДИРЕКТ Баллун ПСП КЛАССИКА: Hyundai в кредит»: срок кредита 36 мес., процентная ставка 9.9% годовых, первоначальный взнос 474 000р., сумма кредита 577 576р. Гарантированная остаточная стоимость автомобиля (часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита) ― 45%. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Тарифным планом предусмотрена финансовая защита кредита. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. Предложение действует с 01.10.18 по 31.10.18г, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.rusfinancebank.ru<br>
                             </div>
                         </div>
                     </div>
@@ -992,10 +991,10 @@ $APPLICATION->SetTitle("Elantra");
                                             </tr>
                                             <tr>
                                                 <th>Задняя подвеска</th>
-                                                <td>Полузависимая, пружинная, с&nbsp;амортизаторами</td>
-                                                <td>Полузависимая, пружинная, с&nbsp;амортизаторами</td>
-                                                <td>Полузависимая, пружинная, с&nbsp;амортизаторами</td>
-                                                <td>Полузависимая, пружинная, с&nbsp;амортизаторами</td>
+                                                <td>Полузависимая, пружинная, с амортизаторами</td>
+                                                <td>Полузависимая, пружинная, с амортизаторами</td>
+                                                <td>Полузависимая, пружинная, с амортизаторами</td>
+                                                <td>Полузависимая, пружинная, с амортизаторами</td>
                                             </tr>
                                         </table>
                                     </li>
@@ -1007,9 +1006,9 @@ $APPLICATION->SetTitle("Elantra");
                         </div>
                         <div class="spec_message">
                             <div>
-                                <span class="add-blue-color">*</span> &mdash; Данные по максимальной мощности двигателя и крутящему моменту приведены согласно Одобрению типа транспортного средства<br>
-                                <span class="add-blue-color">**</span> &mdash; Показатели расхода топлива и массы выделяемого CO2 представлены согласно методике испытаний по Правилам ЕЭК ООН №83 и 101<br>
-                                <span class="add-blue-color">***</span> &mdash; Согласно сертификату соответствия по Директиве ЕС 92/21/EEC представлено значение межосевого дорожного просвета<br>
+                                <span class="add-blue-color">*</span> — Данные по максимальной мощности двигателя и крутящему моменту приведены согласно Одобрению типа транспортного средства<br>
+                                <span class="add-blue-color">**</span> — Показатели расхода топлива и массы выделяемого CO2 представлены согласно методике испытаний по Правилам ЕЭК ООН №83 и 101<br>
+                                <span class="add-blue-color">***</span> — Согласно сертификату соответствия по Директиве ЕС 92/21/EEC представлено значение межосевого дорожного просвета<br>
                             </div>
                         </div>
                     </div>
@@ -1080,31 +1079,30 @@ $APPLICATION->SetTitle("Elantra");
                                     <a href="/Tucson/" class="promo-slider-link">
                                         <img src="https://www.hyundai.ru/media/images/carmodels/Tucson_8655a0ed607025b4.png" alt="TUCSON">
                                         <span class="model">TUCSON</span>
-                                        <span class="price">от 1 369 000  &#8381;</span>
+                                        <span class="price">от 1 369 000  ₽</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/SantaFe/" class="promo-slider-link">
-                                        <img src="https://www.hyundai.ru/media/images/carmodels/SANTA FE_9295b644eb4a3ca7.png" alt="SANTA FE">
+                                        <img src="https://www.hyundai.ru/media/images/carmodels/Santa fe_8385a0ed6004e51b.png" alt="SANTA FE">
                                         <span class="model">SANTA FE</span>
-                                        <span class="price">от 1 964 000  &#8381;</span>
+                                        <span class="price">от 1 964 000  ₽</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/GrandSantaFe/" class="promo-slider-link">
                                         <img src="https://www.hyundai.ru/media/images/carmodels/Grand Santa fe_2625a0ed5fb73033.png" alt="Grand SANTA FE">
                                         <span class="model">Grand SANTA FE</span>
-                                        <span class="price">от 2 439 000  &#8381;</span>
+                                        <span class="price">от 2 439 000  ₽</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/H-1/" class="promo-slider-link">
                                         <img src="https://www.hyundai.ru/media/images/carmodels/H-1_3185b17f6c10d2a9.png" alt="H-1">
                                         <span class="model">H-1</span>
-                                        <span class="price">от 2 079 000  &#8381;</span>
+                                        <span class="price">от 2 079 000  ₽</span>
                                     </a>
                                 </li>
-
                             </ul>
                         </div>
                     </div>

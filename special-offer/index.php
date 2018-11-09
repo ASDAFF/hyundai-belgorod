@@ -54,42 +54,35 @@ $APPLICATION->SetTitle("NewSolaris");
                                         data-programm="0"
                                         data-points="10000"
                                         >
-                                        НОВЫЙ Solaris								</option>
+                                        SOLARIS								</option>
                                     <option
                                         value="24"
                                         data-tradein="140000"
                                         data-programm="0"
                                         data-points="20000"
                                         >
-                                        Sonata								</option>
+                                        SONATA								</option>
                                     <option
                                         value="7"
                                         data-tradein="50000"
                                         data-programm="0"
                                         data-points="10000"
                                         >
-                                        Elantra								</option>
+                                        ELANTRA								</option>
                                     <option
-                                        value="18"
+                                        value="26"
                                         data-tradein="80000"
                                         data-programm="0"
                                         data-points="15000"
                                         >
-                                        Tucson								</option>
+                                        Обновленный TUCSON								</option>
                                     <option
-                                        value="17"
-                                        data-tradein="100000"
-                                        data-programm="0"
-                                        data-points="20000"
-                                        >
-                                        Santa fe								</option>
-                                    <option
-                                        value="13"
+                                        value="25"
                                         data-tradein="120000"
                                         data-programm="0"
                                         data-points="20000"
                                         >
-                                        Grand Santa fe								</option>
+                                        Новый SANTA FE								</option>
                                 </select>
                             </div>
                             <img src="/media/start/img/cars/13.png" alt="Solaris" class="so-calc__img">
@@ -269,10 +262,6 @@ $APPLICATION->SetTitle("NewSolaris");
 
 
 </div>
-
-
-
-<script src="http://www.hyundai.ru/assets/js/common.js"></script>
 
 
 <!-- ! specific stuff for current page only ! -->

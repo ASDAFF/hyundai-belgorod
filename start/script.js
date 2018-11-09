@@ -78,35 +78,34 @@ $(document).ready(function() {
 			if(prepay >=0 && prepay < 20)
 				return 0.1265;
 			else if(prepay >= 20 && prepay < 30)
-				return 0.111;
+				return 0.109;
 			else if(prepay >= 30 && prepay < 50)
-				return 0.101;
+				return 0.099;
 			else if(prepay >= 50 && prepay < 55)
-				return 0.096;
+				return 0.099;
 
 			return 0.1265;
 		}
 		, getDefaultPercent: function(car_id) {
 			switch(car_id)
 			{
-				case 7: return 41; // Р­Р»Р°РЅС‚СЂР°,
+				case 7: return 48; // Р­Р»Р°РЅС‚СЂР°,
 				case 6: return 42; // i40
 				case 5: return 41; // i40 wagon
 				case 18: return 46; // Tucson
-				case 22: return 42; // Creta
+				case 22: return 49; // Creta
 				case 17: return 48; // Santa Fe
 				case 13: return 46; // Grand Santa Fe
-				case 23: return 39; // New Solaris
-				case 24: return 45; // New Solaris
-				case 26: return 46; // Tucson
-				case 25: return 48; // Santa Fe
+				case 23: return 46; // New Solaris
+				case 24: return 51; // Sonata
+				case 26: return 51; // Tucson
+				case 25: return 53; // Santa Fe
 			}
 
 			return 35;
 		}
 		, updateData: function() {
 			var newSum = parseInt($("[name=type]").val());
-			console.log('newSum = ', newSum);
 			if (!newSum) {
 				return;
 			}
@@ -160,13 +159,15 @@ $(document).ready(function() {
 		},
 		calculate: function ()
 		{
-			//var percent = 0.089;
-			//var percent = 0.1267;
-
 			var carid = parseInt(getCarId());
+			// Р­С‚Рѕ РјС‹ РІР·СЏР»Рё IDС€РЅРёРє С‚Р°С‡РєРё, С‚СѓРїРѕ РґР»СЏ РїСЂРѕРІРµСЂРѕРє
 
+			// Р”Р»СЏ С‚РµРєСѓС‰РµР№ С‚Р°С‡РєРё РїРѕР»СѓС‡Р°РµРј РґРµС„РѕР»С‚РЅС‹Р№ РїСЂРѕС†РµРЅС‚ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕРіРѕ РІР·РЅРѕСЃР°
 			var defaultPercent = calc.getDefaultPercent(carid);
 
+
+
+			// РџРѕР»СѓС‡Р°РµРј РїСЂРѕС†РµРЅС‚, РІС‹Р±СЂР°РЅРЅС‹Р№ РІ СЃР»Р°Р№РґРµСЂРµ
 			var DP_check = parseInt($( ".widget__val" ).html());
 
 			if(isNaN(DP_check))
@@ -174,30 +175,31 @@ $(document).ready(function() {
 				DP_check = 0;
 			}
 
-			var DP = DP_check / 100; // Первый взнос
+			var DP = DP_check / 100; // РџРµСЂРІС‹Р№ РІР·РЅРѕСЃ
 
+			// РќР° РѕСЃРЅРѕРІР°РЅРёРё РїРѕР»СѓС‡РµРЅРЅРѕРіРѕ РІР·РЅРѕСЃР° РїРѕР»СѓС‡Р°РµРј Р°РєС‚СѓР°Р»СЊРЅС‹Р№ РїСЂРѕС†РµРЅС‚ РїРѕ РєСЂРµРґРёС‚Сѓ
 			var percent = calc.getProgramPercent(DP_check);
 
-			// Стоимость
+			// РџРѕР»СѓС‡Р°РµРј СЃС‚РѕРёРјРѕСЃС‚СЊ, РґР»СЏ РєРѕС‚РѕСЂРѕР№ Р±СѓРґРµРј СЃС‡РёС‚Р°С‚СЊ
 			var C = $('select[name=type]').val();
 
-			// Срок
+			// РЎСЂРѕРє. РѕРЅ РІСЃРµРіРґР° 36 РјРµСЃСЏС†РµРІ, РїРѕ РґРµС„РѕР»С‚Сѓ
 			var N = 36;
 
-			// Первый взнос
-
+			// РћСЃС‚Р°С‚РѕС‡РЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
 			RV = C * 0.45;
 
-			//Добавляем страховку жизни к общей стоимости кредита
+
+			//Р”РѕР±Р°РІР»СЏРµРј СЃС‚СЂР°С…РѕРІРєСѓ Р¶РёР·РЅРё Рє РѕР±С‰РµР№ СЃС‚РѕРёРјРѕСЃС‚Рё РєСЂРµРґРёС‚Р°
 			var years_count = 3;
 			//var insurance_percent = 3.5;
-			var insurance_percent = 0;
-			// (Цена - П.В.) * страховой тариф в год * кол-во лет
+			var insurance_percent = 3.5; // РЎРµР№С‡Р°СЃ РґР»СЏ СЃС‚Р°СЂС‚Р° РѕРЅР° СЂР°РІРЅР° РЅСѓР»СЋ
+			// (Р¦РµРЅР° - Рџ.Р’.) * СЃС‚СЂР°С…РѕРІРѕР№ С‚Р°СЂРёС„ РІ РіРѕРґ * РєРѕР»-РІРѕ Р»РµС‚
 			var lifeinsurance = (C - DP) * insurance_percent/100 * years_count;
 
 
 
-
+			// РћРїСЂРµРґРµР»СЏРµРј РїСЂРѕРјРµР¶СѓС‚РѕС‡РЅС‹Р№ РїР°СЂР°РјРµС‚СЂ S. Рђ С‚Р°РєР¶Рµ SMin Рё SMax РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ РєРѕСЂСЂРµРєС‚РЅРѕ РїРѕС‚РѕРј РѕС‚РѕР±СЂР°Р·РёС‚СЊ РїСЂРѕРіСЂРµСЃСЃ-Р±Р°СЂС‹
 			S = Math.round( C * (1 - DP) / ( 1 - ((insurance_percent /100) * years_count) ) - RV );
 
 			SMin = Math.round( C * (1 - 0.54) / ( 1 - ((insurance_percent /100) * years_count) ) - RV );
@@ -206,42 +208,46 @@ $(document).ready(function() {
 
 			SMax = C;
 
-			S += lifeinsurance;
-			SF += lifeinsurance;
+			/*
+			 S += lifeinsurance;
+			 SF += lifeinsurance;
+			 */
 
 			P = percent / 12;
 
+			// Р Р°СЃС‡РµС‚ РєСЂРµРґРёС‚Р° РґР»СЏ РЎС‚Р°СЂС‚Р°
 			payment = Math.round(  S * (P + ( P / ( Math.pow(1 + P, N) - 1 ) ) ) +  RV * P );
 
+			// Р Р°СЃС‡РµС‚ РєСЂРµРґРёС‚Р° РѕР±С‹С‡РЅС‹Рј РїРѕСЂСЏРґРєРѕРј, РЅРѕ СЃ С‚РѕР№ Р¶Рµ СЃС‚Р°РІРєРѕР№
 			payment_full = Math.round(  SF * (P + ( P / ( Math.pow(1 + P, N) - 1 ) ) ));
 
-//			console.log(payment);
 
+			// Р–РµСЃС‚РєРѕРµ РѕРєСЂСѓРіР»РµРЅРёРµ - РјР°СЂРєРµС‚РёРЅРі, РІСЃРµ РґРµР»Р°.
 			if( Math.abs(payment - 6000) < 100)
 				payment = 6000;
 
-			// В числе прочего нам надо высчитать минимум, максимум, и запрограммировать длину обоих полос.
+			// Р’ С‡РёСЃР»Рµ РїСЂРѕС‡РµРіРѕ РЅР°Рј РЅР°РґРѕ РІС‹СЃС‡РёС‚Р°С‚СЊ РјРёРЅРёРјСѓРј, РјР°РєСЃРёРјСѓРј, Рё Р·Р°РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°С‚СЊ РґР»РёРЅСѓ РѕР±РѕРёС… РїРѕР»РѕСЃ.
 
-			// Минимум считаем как старт с максимальным DP
 
+			// РњРёРЅРёРјСѓРј СЃС‡РёС‚Р°РµРј РєР°Рє СЃС‚Р°СЂС‚ СЃ РјР°РєСЃРёРјР°Р»СЊРЅС‹Рј DP
 			payment_min = Math.round(  SMin * (P + ( P / ( Math.pow(1 + P, N) - 1 ) ) ) +  RV * P );
 
-			// Максимум - как полный кредит при нуле
-
+			// РњР°РєСЃРёРјСѓРј - РєР°Рє РїРѕР»РЅС‹Р№ РєСЂРµРґРёС‚ РїСЂРё РЅСѓР»Рµ
 			payment_max = Math.round(  SMax * (P + ( P / ( Math.pow(1 + P, N) - 1 ) ) ));
 
-			/* если процент - дефолтный, округлим до тысяч */
 
+
+			/* РµСЃР»Рё РїСЂРѕС†РµРЅС‚ - РґРµС„РѕР»С‚РЅС‹Р№, РѕРєСЂСѓРіР»РёРј РґРѕ С‚С‹СЃСЏС‡ */
 			if(DP_check == defaultPercent)
 			{
 				payment = Math.round(payment / 1000) * 1000;
 			}
 
-			// А теперь будем считать что минимум занимает 10%, максимум - 100%. И выстроим пропорцию
+			// Рђ С‚РµРїРµСЂСЊ Р±СѓРґРµРј СЃС‡РёС‚Р°С‚СЊ С‡С‚Рѕ РјРёРЅРёРјСѓРј Р·Р°РЅРёРјР°РµС‚ 10%, РјР°РєСЃРёРјСѓРј - 100%. Р РІС‹СЃС‚СЂРѕРёРј РїСЂРѕРїРѕСЂС†РёСЋ
 
 			var dst = payment_max - payment_min;
 
-			// Сначала вычислим процентовку от нуля
+			// РЎРЅР°С‡Р°Р»Р° РІС‹С‡РёСЃР»РёРј РїСЂРѕС†РµРЅС‚РѕРІРєСѓ РѕС‚ РЅСѓР»СЏ
 
 			diff_start = Math.round( ( (payment - payment_min) / dst) * 100);
 			diff_full = Math.round( ( (payment_full - payment_min) / dst) * 100);
@@ -251,9 +257,15 @@ $(document).ready(function() {
 
 			//diff = Math.round((payment / payment_full) * 100);
 
+			// Р—Р°РЅРµСЃРµРј Р·РЅР°С‡РµРЅРёСЏ
+
 			$('.tprice').html(payment_full.toLocaleString() + ' ');
 			$('.startprice').html(payment.toLocaleString() + ' ');
+
+			$('.startprice').attr('data-payment', payment);
 			$('.hc-badge__pay-value').html(payment.toLocaleString());
+
+			// Р РІС‹СЃС‚Р°РІРёРј РґР»РёРЅС‹ РїСЂРѕРіСЂРµСЃСЃ-Р±Р°СЂРѕРІ
 
 			$('.start-scale').css('width', diff_start + '%');
 			$('.full-scale').css('width', diff_full + '%');

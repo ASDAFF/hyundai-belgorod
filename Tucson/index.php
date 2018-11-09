@@ -4,7 +4,6 @@ $APPLICATION->SetPageProperty("title", "Hyundai Tucson комплектации 
 $APPLICATION->SetTitle("Tucson");
 ?>
 
-
     <link type="text/css" href="https://www.hyundai.ru/media/css/cars/cars_common.css" rel="stylesheet" />
     <link type="text/css" href="https://www.hyundai.ru/media/css/cars/pip_flat_spritespin.css" rel="stylesheet" />
     <link type="text/css" href="https://www.hyundai.ru/media/css/cars/pip_flat_TL.css" rel="stylesheet" />
@@ -29,6 +28,11 @@ $APPLICATION->SetTitle("Tucson");
             body.mobile .parallax4 {background:url('/media/images/flat/TL/parallax4_mobile.jpg') center top no-repeat #fff;}
             body.mobile .parallax5 {background:url('/media/images/flat/TL/parallax5_mobile.jpg') center top no-repeat #fff;}
         </style>
+
+        <div class="roadside24">
+            <a href="/service/roadside-assistance" target="_blank"></a>
+        </div>
+
         <div style="display: none;">
             <img src="/media/images/flat/TL/performance_graph_1.gif">
             <img src="/media/images/flat/TL/performance_graph_1_text.png">
@@ -63,7 +67,7 @@ $APPLICATION->SetTitle("Tucson");
             </div>
             <div class="videoPopup">
                 <div class="videoContainer">
-                    <a class="closeButton" href="#" title="Закрыть">&times;</a>
+                    <a class="closeButton" href="#" title="Закрыть">×</a>
                     <iframe class="videoFrame" width="100%" height="" src="" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
@@ -80,22 +84,25 @@ $APPLICATION->SetTitle("Tucson");
                                             <span>Новый Tucson – решайся!</span>
                                         </div>
                                         <div class="title-price">
-                                            от 1 369 000  &#8381;<br>
-                                            <a href="/start?model=tucson" class="title-price-notice">В кредит от 10 000 &#8381; / месяц</a>
+                                            от 1 369 000  ₽<br>
+                                            <a href="/start?model=tucson" class="title-price-notice">В кредит от 10 000 ₽ / месяц</a>
                                             <!-- 								<div class="title-price-casco">+ каско в подарок!<sup>1</sup></div> -->
                                         </div>
                                         <!--                             <a href="/all-offers/tucson" class="btn-flat">Все предложения</a> -->
                                         <div class="blue-block clearfix">
                                             <div class="blue-block-content">
                                                 <div class="blue-block-row">
-                                                    <span class="blue-block-val">6.9%</span>
-                                                    <span class="blue-block-text">кредит<sup>*</sup></span>
+                                                    <span class="blue-block-val">от 10 000 ₽</span>
+                                                    <span class="blue-block-text">в месяц<sup>*</sup></span>
                                                 </div>
-                                                <div class="blue-block-row">
-                                                    <span class="blue-block-text"><b>КАСКО</b> в подарок<sup>**</sup></span>
-                                                </div>
+                                                <!--
+                                                                                    <div class="blue-block-row">
+                                                                                        <span class="blue-block-text"><b>КАСКО</b> в подарок<sup>**</sup></span>
+                                                                                    </div>
+                                                -->
                                             </div>
-                                        </div><br clear="all"/>
+                                        </div>
+                                        <br clear="all"/>
                                         <div class="title-list">
                                             <ul>
                                                 <li>Система полного<br>привода</li>
@@ -162,7 +169,7 @@ $APPLICATION->SetTitle("Tucson");
 					 --><!-- <li><a class="main-toggler main-toggler__gallery" href="#" data-href="#content-type__gallery" title="Галерея">ГАЛЕРЕЯ</a></li> --><!--
 					 --><li><a class="configurator" href="https://www.hyundai.ru/configurator/car/18" title="Цены комплектации">ЦЕНЫ И КОМПЛЕКТАЦИИ</a></li><!--
 					 --><li class="broshure-item" title="Каталог"><a data-gtm-havas-model="tucson" href="#" data-model="Tucson" for="brochures_request" class="zing_form_toggler broshure" target="_blank">КАТАЛОГ</a></li><!--
-					 --><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					 --><li>       </li>
                                 </ul>
                             </div>
                         </div>
@@ -324,9 +331,9 @@ $APPLICATION->SetTitle("Tucson");
                             </div>
                             <div class="list_wrap">
                                 <ul class="list">
-                                    <li class="front on"><a href="#"><span class="progress">&nbsp;</span><span class="txt">Вид спереди</span></a></li>
-                                    <li class="side"><a href="#"><span class="progress">&nbsp;</span><span class="txt">Вид сбоку</span></a></li>
-                                    <li class="rear"><a href="#"><span class="progress">&nbsp;</span><span class="txt">Вид сзади</span></a></li>
+                                    <li class="front on"><a href="#"><span class="progress"> </span><span class="txt">Вид спереди</span></a></li>
+                                    <li class="side"><a href="#"><span class="progress"> </span><span class="txt">Вид сбоку</span></a></li>
+                                    <li class="rear"><a href="#"><span class="progress"> </span><span class="txt">Вид сзади</span></a></li>
                                 </ul>
                             </div>
                             <div class="view_wrap">
@@ -779,13 +786,13 @@ $APPLICATION->SetTitle("Tucson");
                                     <ul>
                                         <li class="on">
                                             <a href="#">
-                                                <span class="img"><img src="/media/images/flat/TL/performance_sub_list_1.jpg" width="160" height="130" alt="7-ступенчатая коробка передач с двойным сцеплением" /><span class="dim">&nbsp;</span></span>
+                                                <span class="img"><img src="/media/images/flat/TL/performance_sub_list_1.jpg" width="160" height="130" alt="7-ступенчатая коробка передач с двойным сцеплением" /><span class="dim"> </span></span>
                                                 <span class="txt">7-ступенчатая автоматическая коробка передач</span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <span class="img"><img src="/media/images/flat/TL/performance_sub_list_2.jpg" width="160" height="130" alt="Управление тягой в повороте" /><span class="dim">&nbsp;</span></span>
+                                                <span class="img"><img src="/media/images/flat/TL/performance_sub_list_2.jpg" width="160" height="130" alt="Управление тягой в повороте" /><span class="dim"> </span></span>
                                                 <span class="txt">4WD</span>
                                             </a>
                                         </li>
@@ -842,38 +849,38 @@ $APPLICATION->SetTitle("Tucson");
                             </div>
                             <div class="scene_wrap">
                                 <div class="scene scene1">
-                                    <div class="bg">&nbsp;</div>
+                                    <div class="bg"> </div>
                                     <div class="mycar">
-                                        <div class="car1">&nbsp;</div><div class="car2">&nbsp;</div><div class="car3">&nbsp;</div><div class="car4">&nbsp;</div><div class="car5">&nbsp;</div><div class="car6">&nbsp;</div><div class="car7">&nbsp;</div><div class="car8">&nbsp;</div><div class="car9">&nbsp;</div><div class="car10">&nbsp;</div><div class="car11">&nbsp;</div><div class="car12">&nbsp;</div><div class="car13">&nbsp;</div><div class="car14">&nbsp;</div><div class="car15">&nbsp;</div>
+                                        <div class="car1"> </div><div class="car2"> </div><div class="car3"> </div><div class="car4"> </div><div class="car5"> </div><div class="car6"> </div><div class="car7"> </div><div class="car8"> </div><div class="car9"> </div><div class="car10"> </div><div class="car11"> </div><div class="car12"> </div><div class="car13"> </div><div class="car14"> </div><div class="car15"> </div>
                                     </div>
                                     <div class="yourcar">
-                                        <div class="car1">&nbsp;</div><div class="car2">&nbsp;</div><div class="car3">&nbsp;</div><div class="car4">&nbsp;</div><div class="car5">&nbsp;</div><div class="car6">&nbsp;</div><div class="car7">&nbsp;</div><div class="car8">&nbsp;</div><div class="car9">&nbsp;</div><div class="car10">&nbsp;</div><div class="car11">&nbsp;</div>
+                                        <div class="car1"> </div><div class="car2"> </div><div class="car3"> </div><div class="car4"> </div><div class="car5"> </div><div class="car6"> </div><div class="car7"> </div><div class="car8"> </div><div class="car9"> </div><div class="car10"> </div><div class="car11"> </div>
                                     </div>
                                 </div>
                                 <div class="scene scene2">
-                                    <div class="bg"><div class="bg1">&nbsp;</div><div class="bg2">&nbsp;</div></div>
+                                    <div class="bg"><div class="bg1"> </div><div class="bg2"> </div></div>
                                     <div class="mycar">
-                                        <div class="car">&nbsp;</div>
-                                        <div class="info"><div class="info1">&nbsp;</div><div class="info2">&nbsp;</div></div>
-                                        <div class="line"><div class="line1">&nbsp;</div><div class="line2">&nbsp;</div><div class="line3">&nbsp;</div><div class="line4">&nbsp;</div></div>
+                                        <div class="car"> </div>
+                                        <div class="info"><div class="info1"> </div><div class="info2"> </div></div>
+                                        <div class="line"><div class="line1"> </div><div class="line2"> </div><div class="line3"> </div><div class="line4"> </div></div>
                                     </div>
-                                    <div class="yourcar"><div class="car">&nbsp;</div></div>
+                                    <div class="yourcar"><div class="car"> </div></div>
                                 </div>
                                 <div class="scene scene3">
-                                    <div class="bg"><div class="bg1">&nbsp;</div><div class="bg2">&nbsp;</div></div>
+                                    <div class="bg"><div class="bg1"> </div><div class="bg2"> </div></div>
                                     <div class="mycar">
-                                        <div class="car"><div class="car1">&nbsp;</div><div class="car2">&nbsp;</div></div>
-                                        <div class="line"><div class="line1">&nbsp;</div><div class="line2">&nbsp;</div><div class="line3">&nbsp;</div><div class="line4">&nbsp;</div></div>
+                                        <div class="car"><div class="car1"> </div><div class="car2"> </div></div>
+                                        <div class="line"><div class="line1"> </div><div class="line2"> </div><div class="line3"> </div><div class="line4"> </div></div>
                                     </div>
                                     <div class="info">
-                                        <div class="info1">&nbsp;</div><div class="info2">&nbsp;</div>
+                                        <div class="info1"> </div><div class="info2"> </div>
                                     </div>
-                                    <div class="red">&nbsp;</div>
+                                    <div class="red"> </div>
                                 </div>
                                 <div class="scene scene4">
-                                    <div class="bg">&nbsp;</div>
+                                    <div class="bg"> </div>
                                     <div class="mycar">
-                                        <div class="car1">&nbsp;</div><div class="car2">&nbsp;</div><div class="car3">&nbsp;</div><div class="car4">&nbsp;</div><div class="car5">&nbsp;</div><div class="car6">&nbsp;</div><div class="car7">&nbsp;</div><div class="car8">&nbsp;</div><div class="car9">&nbsp;</div><div class="car10">&nbsp;</div><div class="car11">&nbsp;</div><div class="car12">&nbsp;</div><div class="car13">&nbsp;</div><div class="car14">&nbsp;</div><div class="car15">&nbsp;</div><div class="car16">&nbsp;</div>
+                                        <div class="car1"> </div><div class="car2"> </div><div class="car3"> </div><div class="car4"> </div><div class="car5"> </div><div class="car6"> </div><div class="car7"> </div><div class="car8"> </div><div class="car9"> </div><div class="car10"> </div><div class="car11"> </div><div class="car12"> </div><div class="car13"> </div><div class="car14"> </div><div class="car15"> </div><div class="car16"> </div>
                                     </div>
                                 </div>
                                 <div class="text_wrap">
@@ -928,10 +935,10 @@ $APPLICATION->SetTitle("Tucson");
                                     <div class="txt">УПРАВЛЕНИЕ АВТОМОБИЛЕМ</div>
                                     <div class="list">
                                         <ul>
-                                            <li class="on"><a href="#"><span class="img"><img src="/media/images/flat/TL/safety_ride_list_1.jpg" width="120" height="100" alt="Система ATCC" /><span class="dim">&nbsp;</span></span><span class="txt">Управление тягой в повороте (ATCC)</span></a></li>
-                                            <li><a href="#"><span class="img"><img src="/media/images/flat/TL/safety_ride_list_2.jpg" width="120" height="100" alt="Система динамической стабилизации" /><span class="dim">&nbsp;</span></span><span class="txt">Система динамической стабилизации (VSM)</span></a></li>
-                                            <li class="transmission"><a href="#"><span class="img"><img src="/media/images/flat/TL/safety_ride_list_3.jpg" width="120" height="100" alt="Система помощи при спуске с горы" /><span class="dim">&nbsp;</span></span><span class="txt">Система помощи при спуске с горы (DBC) и система помощи при старте в гору (НАС)</span></a></li>
-                                            <li><a href="#"><span class="img"><img src="/media/images/flat/TL/safety_ride_list_4.jpg" width="120" height="100" alt="Особо высокопрочная сталь" /><span class="dim">&nbsp;</span></span><span class="txt">Особо высокопрочная сталь (AHSS)</span></a></li>
+                                            <li class="on"><a href="#"><span class="img"><img src="/media/images/flat/TL/safety_ride_list_1.jpg" width="120" height="100" alt="Система ATCC" /><span class="dim"> </span></span><span class="txt">Управление тягой в повороте (ATCC)</span></a></li>
+                                            <li><a href="#"><span class="img"><img src="/media/images/flat/TL/safety_ride_list_2.jpg" width="120" height="100" alt="Система динамической стабилизации" /><span class="dim"> </span></span><span class="txt">Система динамической стабилизации (VSM)</span></a></li>
+                                            <li class="transmission"><a href="#"><span class="img"><img src="/media/images/flat/TL/safety_ride_list_3.jpg" width="120" height="100" alt="Система помощи при спуске с горы" /><span class="dim"> </span></span><span class="txt">Система помощи при спуске с горы (DBC) и система помощи при старте в гору (НАС)</span></a></li>
+                                            <li><a href="#"><span class="img"><img src="/media/images/flat/TL/safety_ride_list_4.jpg" width="120" height="100" alt="Особо высокопрочная сталь" /><span class="dim"> </span></span><span class="txt">Особо высокопрочная сталь (AHSS)</span></a></li>
                                         </ul>
                                     </div>
                                     <div class="view">
@@ -1077,7 +1084,7 @@ $APPLICATION->SetTitle("Tucson");
                                         </div>
                                     </li>
                                 </ul>
-                                <div class="dim">&nbsp;</div>
+                                <div class="dim"> </div>
                             </div>
                         </div>
                         <div class="morelist">
@@ -1348,9 +1355,9 @@ $APPLICATION->SetTitle("Tucson");
                         </div>
                         <div class="spec_message">
                             <div>
-                                <span class="add-blue-color">*</span> &mdash; Данные по максимальной мощности двигателя и крутящему моменту приведены согласно Одобрению типа транспортного средства<br>
-                                <span class="add-blue-color">**</span> &mdash; Показатели расхода топлива и массы выделяемого CO2 представлены согласно методике испытаний по Правилам ЕЭК ООН №83 и 101<br>
-                                <span class="add-blue-color">***</span> &mdash; Согласно сертификату соответствия по Директиве ЕС 92/21/EEC представлено значение межосевого дорожного просвета<br>
+                                <span class="add-blue-color">*</span> — Данные по максимальной мощности двигателя и крутящему моменту приведены согласно Одобрению типа транспортного средства<br>
+                                <span class="add-blue-color">**</span> — Показатели расхода топлива и массы выделяемого CO2 представлены согласно методике испытаний по Правилам ЕЭК ООН №83 и 101<br>
+                                <span class="add-blue-color">***</span> — Согласно сертификату соответствия по Директиве ЕС 92/21/EEC представлено значение межосевого дорожного просвета<br>
                             </div>
                         </div>
                     </div>
@@ -1409,47 +1416,45 @@ $APPLICATION->SetTitle("Tucson");
                 </div>
                 <div class="promo-slider_wrap">
                     <div class="promo-slider_cut">
-                        <ul class="promo-slider">
+                        <ul class="promo-slider" style="width: 632px;">
                             <li>
-                                <a href="/SantaFe/" class="promo-slider-link">
+                                <a href="/SantaFe" class="promo-slider-link">
                                     <img src="https://www.hyundai.ru/media/images/carmodels/SANTA FE_9295b644eb4a3ca7.png" alt="SANTA FE">
                                     <span class="model">SANTA FE</span>
-                                    <span class="price">от 1 964 000  &#8381;</span>
+                                    <span class="price">от 1 964 000  ₽</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/GrandSantaFe/" class="promo-slider-link">
+                                <a href="/GrandSantaFe" class="promo-slider-link">
                                     <img src="https://www.hyundai.ru/media/images/carmodels/Grand Santa fe_2625a0ed5fb73033.png" alt="Grand SANTA FE">
                                     <span class="model">Grand SANTA FE</span>
-                                    <span class="price">от 2 439 000  &#8381;</span>
+                                    <span class="price">от 2 439 000  ₽</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/H-1/" class="promo-slider-link">
+                                <a href="/H-1" class="promo-slider-link">
                                     <img src="https://www.hyundai.ru/media/images/carmodels/H-1_3185b17f6c10d2a9.png" alt="H-1">
                                     <span class="model">H-1</span>
-                                    <span class="price">от 2 079 000  &#8381;</span>
+                                    <span class="price">от 2 079 000  ₽</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/Elantra/" class="promo-slider-link">
+                                <a href="/Elantra" class="promo-slider-link">
                                     <img src="https://www.hyundai.ru/media/images/carmodels/Elantra_7505a0ed5f602de8.png" alt="ELANTRA">
                                     <span class="model">ELANTRA</span>
-                                    <span class="price">от  984 000  &#8381;</span>
+                                    <span class="price">от  994 000  ₽</span>
                                 </a>
                             </li>
-
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="disc-block">
-                <p class="dicslamer-casco"><sup>*</sup>6.9% годовых – процентная ставка в кредитном договоре. Валюта кредита - рубли РФ; уровень первоначального взноса от 30% от стоимости автомобиля. Срок кредита 12-36 месяцев. Программа распространяется на покупку в кредит Hyundai Tucson. Программой предусмотрено страхование жизни и здоровья заемщика. Минимальная сумма кредита – 50 000 руб., максимальная сумма кредита – 6 500 000 руб.. Обязательно подтверждение дохода клиента. Залоговое обеспечение - залог приобретаемого ТС. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013г. Предложение действует с 01.08.18 по 31.08.18, не является офертой. Условия могут быть изменены Банком в одностороннем порядке.</p>
-                <p class="dicslamer-casco"><sup>**</sup> Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в САО «ВСК» при покупке нового Hyundai Santa Fe в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены САО «ВСК» в одностороннем порядке. Предложение действует до 31.08.2018г.</p>
+                <p class="dicslamer-casco"><sup>*</sup>Платеж рассчитан в рамках программы Hyundai (Старт) исходя из цены Hyundai Tucson (Primary 2,0л 6MT 2WD) 1 399 000р., 2018 года производства, на условиях кредитного продукта «ДИРЕКТ Баллун ПСП КЛАССИКА: Hyundai в кредит»: первоначальный взнос 711 500р., сумма кредита 778595р., срок кредита 36 мес.; процентная ставка 9.9% годовых. Часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита - 45%. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Тарифным планом предусмотрена финансовая защита кредита. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.10.18 по 31.10.18г, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru</p>
             </div>
         </div>
 
-        <div class="contents_accessories pip" id="contents_accessories"></div>
+
 
         <!--RuTarget-->
         <script type="text/javascript" >
