@@ -2655,7 +2655,8 @@ html.is-spreader-active body {
     z-index: 2;
     position: relative;
     max-height: 80px;
-    line-height: 80px
+    line-height: 80px;
+    min-width: 1350px;
 }
 
 .main-header__holder::after {
