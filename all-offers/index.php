@@ -106,7 +106,7 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
-
+<!--
                 <div class="insection-offer-unit">
                     <a href="/promo/special-offer" class="insection-offer-unit__link">
                         <img src="http://www.hyundai-belgorod.ru/promo/special-offer/img/offer-preview.jpg" alt="" class="insection-offer-unit__back-img">
@@ -116,6 +116,7 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
+-->
 
 
                 <div class="insection-offer-unit">
@@ -182,6 +183,17 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
+
+                <div class="insection-offer-unit">
+                    <a href="/promo/hyundai-on-credit" class="insection-offer-unit__link">
+                        <img src="/upload/hyundai-on-credit-1.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Акция на автомобили Hyundai при покупке в кредит!</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
             </div>
             <!-- service stuff next -->
             <!-- not fully offers -->

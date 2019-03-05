@@ -1,0 +1,3 @@
+<?
+$sSectionName="special-offer";
+?>

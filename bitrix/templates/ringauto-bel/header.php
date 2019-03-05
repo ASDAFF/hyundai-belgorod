@@ -59,6 +59,9 @@
 			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 		})(window,document,'script','dataLayer','GTM-NZBL9QH');</script>
 	<!-- End Google Tag Manager -->
+
+	<!-- VK по запросу от 30.01.2019 -->
+<script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?160",t.onload=function(){VK.Retargeting.Init("VK-RTRG-328974-e0ET5"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-328974-e0ET5" style="position:fixed; left:-999px;" alt=""/></noscript>
 </head>
 <body class="main" style="">
 <style>

@@ -85,14 +85,14 @@ $APPLICATION->SetTitle("Tucson");
                                         </div>
                                         <div class="title-price">
                                             от 1 369 000  ₽<br>
-                                            <a href="/start?model=tucson" class="title-price-notice">В кредит от 10 000 ₽ / месяц</a>
+                                            <a href="/start?model=tucson" class="title-price-notice"><!--В кредит от 10 000 ₽ / месяц--></a>
                                             <!-- 								<div class="title-price-casco">+ каско в подарок!<sup>1</sup></div> -->
                                         </div>
                                         <!--                             <a href="/all-offers/tucson" class="btn-flat">Все предложения</a> -->
                                         <div class="blue-block clearfix">
                                             <div class="blue-block-content">
                                                 <div class="blue-block-row">
-                                                    <span class="blue-block-val">от 10 000 ₽</span>
+                                                    <span class="blue-block-val">В кредит от 10 000 ₽</span>
                                                     <span class="blue-block-text">в месяц<sup>*</sup></span>
                                                 </div>
                                                 <!--

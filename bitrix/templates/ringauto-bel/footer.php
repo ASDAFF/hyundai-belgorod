@@ -22,9 +22,9 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
                         <ul class="footer-nv__c-list">
 
                             <li class="footer-nv__c-list-i"><a href="/corporate-clients/" class="footer-nv__c-list-lnk">Корпоративным клиентам</a></li>
-                            <li class="footer-nv__c-list-i"><a href="http://www.hyundai.ru/configurator" target="_blank" class="footer-nv__c-list-lnk">Конфигуратор</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/configurator/" target="_blank" class="footer-nv__c-list-lnk">Конфигуратор</a></li>
                             <li class="footer-nv__c-list-i"><a href="#" class="footer-nv__c-list-lnk models-open">Модельный ряд</a></li>
-                            <li class="footer-nv__c-list-i"><a href="http://www.hyundai.ru/configurator" target="_blank" class="footer-nv__c-list-lnk">Расчет кредита</a></li>
+                            <li class="footer-nv__c-list-i"><a href="/configurator/" target="_blank" class="footer-nv__c-list-lnk">Расчет кредита</a></li>
 
                         </ul>
                     </li>
@@ -107,7 +107,7 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
             </nav>
             <div class="footer-primary__includes">
                 <div class="footer-primary__includes-cont">
-                    <img src="http://www.hyundai.ru/assets/img/home/fifa-partner.png" class="fifa-partner-image" alt="" />
+                    <img src="https://www.hyundai.ru/assets/img/home/combologo.png" class="fifa-partner-image" alt="" />
                 </div>
             </div>	</div>	<div class="footer-primary__main">
             <div class="footer-global-navigation">

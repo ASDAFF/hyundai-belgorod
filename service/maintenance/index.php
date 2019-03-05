@@ -280,7 +280,7 @@ $APPLICATION->SetTitle("Обслуживание");
                                 <div class="main-message">Мы хотим, чтобы владеть автомобилем Hyundai было просто и удобно</div>
                             </div>
                             <div class="grid-el grid-el-50 bottom-area-line__inner-right">
-                                <a href="/service/service-request/" class="request-service-btn" target="_blank">запись на сервис</a>
+                                <a href="/service-request/" class="request-service-btn" target="_blank">запись на сервис</a>
                                 <a href="/all-offers/#service-offers" class="offers-link">Сервисные акции<i class="icon icon-right"></i></a>
                             </div>
                         </div>
