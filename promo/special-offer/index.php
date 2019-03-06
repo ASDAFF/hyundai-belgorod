@@ -1,7 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Автомобили Hyundai по специальным условиям!");
-?><main class="main" data-model="home">
+?>
+
+<main class="main" data-model="home">
 
 	<style>
 		#wrapper {
@@ -1198,4 +1200,6 @@ $APPLICATION->SetTitle("Автомобили Hyundai по специальным
 			text-align: center;
 		}
 	</style>
-</main><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+</main>
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
