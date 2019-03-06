@@ -15,8 +15,14 @@ $APPLICATION->SetTitle("Автомобили Hyundai по специальным
 
 			<!-- WARNING -->
 			<!-- this checks only img src!! no checking by offer ID -->
-
-			<img src="http://hyundai-belgorod.ru/promo/special-offer/img/1_1920х530_Hyundai_10.jpg" class="promo-head">
+<!--
+			<img src="http://hyundai-belgorod.ru/promo/special-offer/img/1_1920х530_Hyundai_10.jpg" class="promo-head">-->
+<br>
+			<div class="news-line"></div>
+	<div class="news-center no-padding clearfix" style="text-align: center">
+		<span class="h1-offer">Спецпредложения Белгород</span>
+	</div>
+			<div class="news-line mt14"></div>
 
 			<!-- old syntax: -->
 			<!-- <img class="promo-head" src="http://www.hyundai.ru/media/offers_image/766be949ba7a5f92fc74d6e23aca1ed7_Hyundai_Shell_aug_1500x545.jpg" style=""/> -->
@@ -24,13 +30,13 @@ $APPLICATION->SetTitle("Автомобили Hyundai по специальным
 			<!-- end of hiding banner-->
 
 			<div class="offers-content">
-
+<!--
 				<h1 class="title-offer bordr-btm">Автомобили Hyundai по специальным условиям!</h1>
-
+-->
 				<div class="offers-block">
 
 					<div class="offer-terms">
-						<p>Только в Ринг Авто Белгород автомобили Hyundai по специальным условиям!</p>
+						<!--<p>Только в Ринг Авто Белгород автомобили Hyundai по специальным условиям!</p>-->
 <br>
 						<!--
 								<tr style="height:50.1pt">
@@ -66,7 +72,7 @@ $APPLICATION->SetTitle("Автомобили Hyundai по специальным
 										</p>
 									</td>
 								</tr>
---><table class="MsoNormalTable" cellspacing="0" cellpadding="0" style="width:625.0pt;margin-left:.1pt;border-collapse:collapse">
+--><table class="MsoNormalTable" cellspacing="0" cellpadding="0" style="width:700.0pt;margin-left:.1pt;border-collapse:collapse">
 							<tbody>
 								<tr style="height:50.1pt">
 									<td style="width:161.0pt;border:solid #CCC085 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:50.1pt">
@@ -1181,6 +1187,15 @@ $APPLICATION->SetTitle("Автомобили Hyundai по специальным
 			color: #1d88ce !mportant;
 			text-decoration: none;
 			border: 2px solid #fff;
+		}
+
+		.h1-offer {
+			font-weight: 300;
+			font-family: 'HyundaiSansHead',sans-serif;
+			color: #0084CF;
+			font-size: 40px;
+			text-transform: uppercase;
+			text-align: center;
 		}
 	</style>
 </main><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
