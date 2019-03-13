@@ -69,9 +69,9 @@ $(function() {
     });
     initSlideshow('.main-slideshow','.main-slideshow-item');
     initSlideshowTechnologies('.technologies','.technologies-item');
-    $('.scroll-pane').jScrollPane({
+/*    $('.scroll-pane').jScrollPane({
         autoReinitialise: true
-    });
+    });*/
    /* tabs('.technologies-item-content-center-right-tabs-menu','.technologies-item-content-center-right-tabs-menu-item','.technologies-item-content-center-right-tabs','.technologies-item-content-center-right-tabs-content',200);*/
 
     $('.gnb>li>a').click(function(){
@@ -406,7 +406,7 @@ function initCSS3oldIE6_9(e){
 
 // function initPlaceholder
 function initPlaceholder(e){
-    $(e).placeholder();
+   // $(e).placeholder();
 }
 
 /*
