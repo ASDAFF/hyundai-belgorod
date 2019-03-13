@@ -50,51 +50,51 @@
 }
 @font-face {
 	font-family: "HyundaiSans";
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-BoldItalic.eot");
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-BoldItalic.eot?#iefix") format("embedded-opentype"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-BoldItalic.woff2") format("woff2"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-BoldItalic.woff") format("woff"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansText-BoldItalic.ttf") format("truetype");
+	src: url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansText-BoldItalic.eot");
+	src: url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansText-BoldItalic.eot?#iefix") format("embedded-opentype"),
+		 url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansText-BoldItalic.woff2") format("woff2"),
+		 url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansText-BoldItalic.woff") format("woff"),
+		 url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansText-BoldItalic.ttf") format("truetype");
 	font-weight: 600;
 	font-style: italic;
 }
 @font-face {
 	font-family: "HyundaiSansHead";
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Regular.eot");
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Regular.eot?#iefix") format("embedded-opentype"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Regular.woff2") format("woff2"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Regular.woff") format("woff"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Regular.ttf") format("truetype");
+	src: url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Regular.eot");
+	src: url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Regular.eot?#iefix") format("embedded-opentype"),
+		 url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Regular.woff2") format("woff2"),
+		 url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Regular.woff") format("woff"),
+		 url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Regular.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: "HyundaiSansHead";
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Light.eot");
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Light.eot?#iefix") format("embedded-opentype"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Light.woff2") format("woff2"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Light.woff") format("woff"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Light.ttf") format("truetype");
+	src: url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Light.eot");
+	src: url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Light.eot?#iefix") format("embedded-opentype"),
+		 url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Light.woff2") format("woff2"),
+		 url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Light.woff") format("woff"),
+		 url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Light.ttf") format("truetype");
 	font-weight: 300;
 	font-style: normal;
 }
 @font-face {
 	font-family: "HyundaiSansHead";
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Medium.eot");
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Medium.eot?#iefix") format("embedded-opentype"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Medium.woff2") format("woff2"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Medium.woff") format("woff"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Medium.ttf") format("truetype");
+	src: url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Medium.eot");
+	src: url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Medium.eot?#iefix") format("embedded-opentype"),
+		 url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Medium.woff2") format("woff2"),
+		 url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Medium.woff") format("woff"),
+		 url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Medium.ttf") format("truetype");
 	font-weight: 500;
 	font-style: normal;
 }
 @font-face {
 	font-family: "HyundaiSansHead";
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Bold.eot");
-	src: url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Bold.eot?#iefix") format("embedded-opentype"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Bold.woff2") format("woff2"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Bold.woff") format("woff"),
-		 url("/bitrix/templates/ringauto/fonts/HyundaiSans/HyundaiSansHead-Bold.ttf") format("truetype");
+	src: url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Bold.eot");
+	src: url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Bold.eot?#iefix") format("embedded-opentype"),
+		 url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Bold.woff2") format("woff2"),
+		 url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Bold.woff") format("woff"),
+		 url("/bitrix/templates/ringauto-bel/fonts/HyundaiSans/HyundaiSansHead-Bold.ttf") format("truetype");
 	font-weight: 700;
 	font-style: normal;
 }

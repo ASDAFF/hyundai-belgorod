@@ -44,7 +44,9 @@
 	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.lazyload.min.js"></script>
     <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.validate.js"></script>
 	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.main.js"></script>
+	<? if($APPLICATION->GetCurPage() != "/NewElantra/"): ?>
 	<script src="<?=SITE_TEMPLATE_PATH?>/js/zing.js"></script>
+	<?endif;?>
 	<script src="<?=SITE_TEMPLATE_PATH?>/js/main.js"></script>
 
 
@@ -184,7 +186,9 @@
 	</header>
 
 
+	<? if($APPLICATION->GetCurPage() != "/NewElantra/"): ?>
 	<script src="/home_style/js/common.js"></script>
+	<?endif;?>
 
 	<?
 	$APPLICATION->IncludeFile("/bitrix/include/for_pages/stiker-model.php", Array(), Array(
