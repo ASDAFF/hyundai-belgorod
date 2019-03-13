@@ -209,6 +209,17 @@ $APPLICATION->SetTitle("all-offers");
             <div class="offers_divider__content__offers-grid-section clearfix">
 
                 <div class="insection-offer-unit">
+                    <a href="/promo/shell" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/6ebc6ed21af371078e33b6d1aca29d87_banner_solaris.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Новые рекорды с сервисом Hyundai</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+        <!--
+
+                <div class="insection-offer-unit">
                     <a href="/promo/autumn" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/766be949ba7a5f92fc74d6e23aca1ed7_Hyundai_Shell_aug_1500x545.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
@@ -217,7 +228,6 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
-        <!--
                 <div class="insection-offer-unit">
                     <a href="/promo/santafe_offer/" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/af769b27850993d65279bf07a5090af2_santa-fe_tiser_465_330.jpg" alt="" class="insection-offer-unit__back-img">

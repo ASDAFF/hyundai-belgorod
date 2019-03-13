@@ -21,7 +21,7 @@ $APPLICATION->SetTitle("Новые рекорды с сервисом Hyundai!")
                 <!-- WARNING -->
                 <!-- this checks only img src!! no checking by offer ID -->
 
-				<img class="promo-head" src="img/Shell.jpg" style=""/>
+				<img class="promo-head" src="img/Shell_Feb2019.jpg" style=""/>
 
                 <!-- old syntax: -->
                 <!-- <img class="promo-head" src="http://www.hyundai.ru/media/offers_image/dd77b6edbce77f33b7c4c23fd7d6e125_1920x530_Hyundai_Shell.jpg" style=""/> -->
@@ -38,20 +38,11 @@ $APPLICATION->SetTitle("Новые рекорды с сервисом Hyundai!")
 
 
 
-                                <p class="offer-terms__text">За годы инновационного сотрудничества Hyundai и «Шелл» делали всё, чтобы реализовать возможности и обеспечить защиту каждого двигателя Hyundai.  И для самых взыскательных клиентов совместно с компанией Шелл мы запустили специальную линейку моторных масел Shell Helix Ultra ECT AH 5W-30.</p>
-
-                                <p class="offer-terms__text">Моторное  масло Shell Helix Ultra ECT AH 5W-30  обладает особыми эксплуатационными характеристиками, поскольку  разработано из проверенных высокоэффективных компонентов  с применением технологии Shell PurePlus и  создано специально для автомобилей Hyundai.  <a href="/shell/" target="_blank">Подробнее</a></p>
-
-
-                                <div class="bottom-area-line__inner grid">
-                                    <div class="grid-el grid-el-50 bottom-area-line__inner-left">
-                                        <div class="main-message">Мы хотим, чтобы владеть автомобилем Hyundai было просто и удобно</div>
-                                    </div>
-                                    <div class="grid-el grid-el-50 bottom-area-line__inner-right">
-                                        <a href="/service/service-request/" class="request-service-btn" style="margin-right: 20px;">Запись на сервис</a>
-                                        <a href="/shell/" class="request-service-btn">Выберите масло</a>
-                                    </div>
-                                </div>
+                                <p class="offer-terms__text">Мы знаем, что владельцы Hyundai заинтересованы в надежной и эффективной работе двигателей своих автомобилей, поэтому приглашаем посетить официальные дилерские центры Hyundai, где вы сможете:</p>
+                                <ul>
+                                <li>•	пройти бесплатную диагностику по программе «Лучшее для своих»*;</li>
+                                <li>•	воспользоваться услугой замены масла на Shell Helix Ultra ECT AH 5W-30 по специальной цене.</li>
+                                </ul>
 
                                 <!--<p class="offer-terms__text">Преимущества масла Shell Helix Ultra ECT AH 5W-30
                                 <ul>
@@ -64,17 +55,12 @@ $APPLICATION->SetTitle("Новые рекорды с сервисом Hyundai!")
                                 </ul>
                                 </p><br/>-->
 
-                                <p class="offer-terms__text">Мы знаем, что владельцы Hyundai заинтересованы в надежной и эффективной работе двигателей своих автомобилей, поэтому приглашаем посетить официальные дилерские центры Hyundai, где вы сможете :
-                                <ul>
-                                    <li>- пройти бесплатную диагностику по программе «Лучшее для своих»**</li>
-                                    <li>- воспользоваться услугой замены масла на Shell Helix Ultra ECT AH 5W-30  по специальной цене:</li>
-                                </ul>
-                                </p><br/>
+                                <br/>
 
                                 <table cellpadding="10" cellspacing="0" border="1" style="margin-bottom: 20px;">
                                     <tr>
                                         <th style="text-align: center !important;">Модель</th>
-                                        <th style="text-align: center !important;">Стоимость, руб с НДС***</th>
+                                        <th style="text-align: center !important;">Стоимость, руб с НДС**</th>
                                     </tr>
                                     <tr>
                                         <td style="text-align: center !important;">Solaris</td>
@@ -89,13 +75,25 @@ $APPLICATION->SetTitle("Новые рекорды с сервисом Hyundai!")
                                         <td style="text-align: center !important;">2999</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center !important;">Tucson; Santa Fe****</td>
+                                        <td style="text-align: center !important;">Tucson; Santa Fe</td>
                                         <td style="text-align: center !important;">3499</td>
                                     </tr>
                                 </table>
 
+                                <p class="offer-terms__text">Моторное  масло Shell Helix Ultra ECT AH 5W-30  обладает особыми эксплуатационными характеристиками, поскольку  разработано из проверенных высокоэффективных компонентов  с применением технологии Shell PurePlus и  создано специально для автомобилей Hyundai.  <a href="/shell/" target="_blank">Подробнее</a></p>
+                                <p class="offer-terms__text">Предложение действительно только для автомобилей с бензиновыми двигателями и для моделей старше 3-х лет с момента выпуска.</p>
 
-                                <p class="offer-terms__text">Акция действует до 31 августа 2018. Торопитесь!</p>
+                                <div class="bottom-area-line__inner grid">
+                                    <div class="grid-el grid-el-50 bottom-area-line__inner-left">
+                                        <div class="main-message">Мы хотим, чтобы владеть автомобилем Hyundai было просто и удобно</div>
+                                    </div>
+                                    <div class="grid-el grid-el-50 bottom-area-line__inner-right">
+                                        <a href="/service-request/" class="request-service-btn" style="margin-right: 20px;">Запись на сервис</a>
+                                        <a href="/shell/" class="request-service-btn">Выберите масло</a>
+                                    </div>
+                                </div>
+
+                                <p class="offer-terms__text">Акция действует до 31 мая 2019.</p>
                                 <p class="offer-terms__text">Подробности кампании Вы можете уточнить у официальных дилеров Hyundai или по телефону: 8 800 333-71-67 </p>
                             </div>
 
@@ -106,20 +104,13 @@ $APPLICATION->SetTitle("Новые рекорды с сервисом Hyundai!")
 
 
                             <div class="tip-supscript ">
+
                                 <p style="font-size: 10px;">
-                                    *только для моторных масел класса вязкости «0W-XX». Подробности на сайте <a href="http://hyundai-belgorod.ru/shell">http://hyundai-belgorod.ru/shell</a>
+                                    * Сервисная программа «Лучшее для своих» включает в себя комплексную бесплатную диагностику автомобилей Hyundai старше 2-х лет с момента их выпуска по 36 ключевым пунктам без ограничений по сроку эксплуатации и пробегу автомобилей (в рамках кампании услуга предоставляется для автомобилей любого возраста).
                                 </p>
 
                                 <p style="font-size: 10px;">
-                                    ** Сервисная программа «Лучшее для своих» включает в себя комплексную бесплатную диагностику автомобилей Hyundai старше 2-х лет с момента их выпуска по 36 ключевым пунктам без ограничений по сроку эксплуатации и пробегу автомобилей (в рамках кампании услуга предоставляется для автомобилей любого возраста).
-                                </p>
-
-                                <p style="font-size: 10px;">
-                                    *** Рекомендованные максимальные розничные цены. В стоимость включены работы по замене масла, оригинальный масляный фильтр, необходимое количество масла Shell Helix Ultra ECT AH 5W-30, согласно рекомендациям в сервисной книжке автомобиля.
-                                </p>
-
-                                <p style="font-size: 10px;">
-                                    **** В кампании участвуют автомобили Tucson, Santa Fe, ix35 только с бензиновыми двигателями.
+                                    ** Рекомендованные максимальные розничные цены. В стоимость включены работы по замене масла, оригинальный масляный фильтр, необходимое количество масла Shell Helix Ultra ECT AH 5W-30, согласно рекомендациям в сервисной книжке автомобиля.
                                 </p>
 
                             </div>
