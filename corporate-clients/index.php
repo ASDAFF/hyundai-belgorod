@@ -49,17 +49,30 @@ $APPLICATION->SetTitle("corporate-clients");
                             <div class="contents">
                                 <div class="para">
                                     <p>Вне зависимости от размера Вашей компании и Ваших запросов, мы сделаем все, чтобы Вы получили лучшее предложение на рынке корпоративных продаж, предоставим Вам наиболее полный пакет услуг, начиная с профессионального совета по выбору той или иной модели и заканчивая высококачественным послепродажным обслуживанием. Широкая гамма нашего модельного ряда позволит Вам унифицировать корпоративный автопарк, приобрести автомобиль в соответствии с требованиями Вашего бюджета и статуса сотрудника.</p>
-                                    <p>В настоящее время действует <a href="/upload/Sonata.pdf" target="_blank">специальное предложение на автомобиль Hyundai Sonata</a> для корпоративных клиентов. Количество автомобилей ограничено.</p>
+
                                     <p class="last">За более подробной информацией Вы можете обратиться к официальному дилеру Hyundai «Ринг Авто Белгород», так и непосредственно в отдел корпоративных продаж.</p><p></p></div>
                                 <div class="fleet_wrap"><h2 class="title"></h2><div class="fleet">
+<p><img src="/upload/Окш.png"  style="width: 136px; float: left; margin: 0px 10px 00px 0px;"> <br>
+                            </p>
                                         <ul class="contact_us">
                                             <li style="width: 100%">
                                                 <span class="name">
-                                                    <strong><p>Василий Тамазашвили</p></strong>
+                                                    <strong><p>Сергей Окшинский </p></strong>
                                                     Менеджер по корпоративным продажам
                                                 </span>
-                                                    <p>тел.: +7 (909) 202-90-45</p>
-                                                <span class="mail"><a href="mailto:vasiliy.tamazashvili@hyundai-belgorod.ru">vasiliy.tamazashvili@hyundai-belgorod.ru</a></span>
+                                                    <p>тел.: +7 (909) 206-01-01</p>
+                                                <span class="mail"><a href="mailto:sergey.okshinskiy@hyundai-belgorod.ru">sergey.okshinskiy@hyundai-belgorod.ru</a></span>
+                                            </li></ul></div>
+                                            <div class="fleet">
+<p><img src="/upload/Трофимычев1.jpg"  style="width: 136px; float: left; margin: 0px 10px 00px 0px;"> <br>
+                            </p>
+                                             <ul class="contact_us"><li style="width: 100%">
+                                                <span class="name">
+                                                    <strong><p>Евгений Трофимычев </p></strong>
+                                                   Менеджер послепродажного обслуживания корпоративных клиентов
+                                                </span>
+                                                    <p>тел.:+7 (908) 780-48-88</p>
+                                                <span class="mail"><a href="mailto:evgeniy.тrofimychev@hyundai-belgorod.ru">evgeniy.тrofimychev@hyundai-belgorod.ru</a></span>
                                             </li>
                                             </ul></div></div></div></div>
 

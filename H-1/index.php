@@ -99,7 +99,7 @@ $APPLICATION->SetTitle("H-1");
 								<span>Раскройте свои возможности</span>
 							</div>
                             <div class="title-price">
-								от 2 079 000  &#8381;
+								от 2 121 000  &#8381;
 								<a href="/configurator/car/16#calculator" class="title-price-notice">В кредит от 31 255 &#8381; / месяц</a>
 							</div>
                             <a href="/hpromise/" class="btn-flat">Все предложения</a>
