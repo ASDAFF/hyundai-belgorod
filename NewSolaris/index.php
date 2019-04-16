@@ -430,9 +430,15 @@ $APPLICATION->SetTitle("NewSolaris");
                                                 <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
                                                 <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
                                             </div>
-                                            <div class="hero-promo" style="margin-bottom: 10px">
-                                                <div class="hero-promo-text">
-                                                    <img src="https://www.hyundai.ru/media/images/flat/SL2017/elements/h-stick-2.jpg?v=4">
+                                            <div class="hero-promo" style="width: 280px;color: white;margin-bottom: 15px;">
+                                                <div class="hero-promo-text" style="background-color: #1f3662;">
+                                                    <img src="https://www.hyundai.ru/media/images/flat/SL2017/elements/h-stick-2.jpg?v=4" style="display: block; max-height: 45px; margin-left: 3px;">
+                                                    <div class="blue-block-row" style="border-top: 1px solid #fff; font-family: HyundaiSansHead; margin-left: 24px; margin-right: 12px; padding: 10px 0px;">
+                                                        <a href="/promo/new_owners" class="blue-block-text" style="font-size: 18px; line-height: 30px; font-weight: 700; opacity: 0.95;">Выгода 10% <img src="https://www.hyundai.ru/assets/img/arrow_banner.png" style="vertical-align: middle; margin-left: 5px;"></a>
+                                                    </div>
+                                                    <div class="blue-block-row" style="border-top: 1px solid #fff; font-family: HyundaiSansHead; margin-left: 24px; margin-right: 12px; padding: 10px 0px; font-size: 18px; line-height: 22px; font-weight: 700; opacity: 0.95;">
+                                                        Скидка трейд-ин: 40 000 ₽
+                                                    </div>
                                                 </div>
 
                                             </div>
@@ -1579,7 +1585,7 @@ $APPLICATION->SetTitle("NewSolaris");
                             <p>*В 2017 году Новый Hyundai Solaris стал первым из 39 автомобилей, набрав 16 баллов из 16 возможных в рейтинге пассивной безопасности ARCAP (Autoreview Car Assessment Program – Программа оценки автомобилей «Авторевю»), опубликованном автомобильным изданием «Авторевю». ARCAP - рейтинг пассивной безопасности автомобилей при фронтальном ударе, составляемый автомобильным изданием «Авторевю» по итогам краш – теста по методике ARCAP. С подробным описанием целей и методики ARCAP и результатами предыдущих испытаний можно ознакомиться на сайте <a href="https://autoreview.ru/arcap/">www.autoreview.ru/arcap/</a></p>
                             <br>
                             <p>
-                                **Платеж рассчитан по программе Hyundai Старт исходя из цены Hyundai Solaris (1.4 6MT Active) 730 000 р. 2018 года производства на условиях кредитного продукта «Hyundai Finance Special»: срок кредита 36 мес., процентная ставка 14.8% годовых, первоначальный взнос 321 700 ублей, сумма кредита 408 300 рублей. Остаточный платеж (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 50% от цены ТС на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ПАО «Совкомбанк» Генеральная лицензия Банка России № 963 от 05 декабря 2014 года. Предложение действует с 01.02.2019 по 28.02.2019г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.sovcombank.ru.
+                                **Платеж рассчитан по программе Hyundai Старт исходя из цены Hyundai Solaris (1.4 6MT Active) 730 000 р. 2018 года производства на условиях кредитного продукта «Hyundai Finance Special»: срок кредита 36 мес., процентная ставка 14.8% годовых, первоначальный взнос 321 700 ублей, сумма кредита 408 300 рублей. Остаточный платеж (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 50% от цены ТС на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ПАО «Совкомбанк» Генеральная лицензия Банка России № 963 от 05 декабря 2014 года. Предложение действует с 01.04.2019 по 30.04.2019г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.sovcombank.ru.
                             </p>
                         </div>
                     </div>

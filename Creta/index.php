@@ -82,7 +82,7 @@ $APPLICATION->SetTitle("Creta");
 
                                         <div class="blue-block clearfix">
                                             <div class="blue-block-content">
-                                                <div class="blue-block-row" style="border-bottom: 0px !important;">
+                                                <div class="blue-block-row" style="border-bottom: 1px solid #fff;">
                                                     <span class="blue-block-val">от 7 000 ₽</span>
                                                     <span class="blue-block-text">в месяц<sup>*</sup></span>
                                                 </div>
@@ -91,6 +91,9 @@ $APPLICATION->SetTitle("Creta");
                                                                                         <span class="blue-block-text"><b>КАСКО</b> в подарок<sup>**</sup></span>
                                                                                     </div>
                                                 -->
+                                                <div class="blue-block-row">
+                                                    <a href="/promo/family_car" class="blue-block-text">Выгода 10% <img src="https://www.hyundai.ru/assets/img/arrow_banner.png" style="vertical-align: sub; margin-left: 5px;"></a>
+                                                </div>
                                             </div>
                                         </div>
                                         <br clear="all"/>
@@ -970,7 +973,7 @@ $APPLICATION->SetTitle("Creta");
                         </div>
                         <div class="spec_message">
                             <div>
-                                <span class="add-blue-color" style="padding: 0;">*</span>Платеж рассчитан в рамках программы Hyundai Старт исходя из цены Hyundai Creta (1.6 6MT 2WD Start) 879 900р. 2018 года производства на условиях кредитного «ДИРЕКТ Баллун ПСП КЛАССИКА: Hyundai в кредит»: первоначальный взнос 428 000р., сумма кредита 511 778р., срок кредита 36 мес., процентная ставка 9.9% годовых. Гарантированная остаточная стоимость автомобиля (часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита) - 45%. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Тарифным планом предусмотрена финансовая защита кредита. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.10.18 по 31.10.18г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru
+                                <span class="add-blue-color">*</span>Платеж рассчитан по программе Hyundai Старт исходя из цены Hyundai Creta (1.6 6MT 2WD Start) 947 000р. 2018 года производства на условиях кредитного продукта «Hyundai Finance Special»: срок кредита 36 мес., процентная ставка 14.8% годовых, первоначальный взнос 440 000 рублей, сумма кредита 507 000 рублей. Остаточный платеж (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 50% от цены ТС на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Тарифным планом предусмотрена финансовая защита кредита. Кредит предоставляется ПАО «Совкомбанк» Генеральная лицензия Банка России № 963 от 05 декабря 2014 года. Предложение действует с 01.04.2019 по 30.04.2019г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.sovcombank.ru.
                                 <br>
                             </div>
                         </div>
@@ -1324,40 +1327,19 @@ $APPLICATION->SetTitle("Creta");
                     </div>
                     <div class="promo-slider_wrap">
                         <div class="promo-slider_cut">
-                            <ul class="promo-slider" style="width: 790px;">
-                                <li>
-                                    <a href="/Tucson" class="promo-slider-link">
-                                        <img src="https://www.hyundai.ru/media/images/carmodels/Tucson_8655a0ed607025b4.png" alt="TUCSON">
-                                        <span class="model">TUCSON</span>
-                                        <span class="price">от 1 369 000  ₽</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/SantaFe" class="promo-slider-link">
-                                        <img src="https://www.hyundai.ru/media/images/carmodels/SANTA FE_9295b644eb4a3ca7.png" alt="SANTA FE">
-                                        <span class="model">SANTA FE</span>
-                                        <span class="price">от 1 964 000  ₽</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/GrandSantaFe" class="promo-slider-link">
-                                        <img src="https://www.hyundai.ru/media/images/carmodels/Grand Santa fe_2625a0ed5fb73033.png" alt="Grand SANTA FE">
-                                        <span class="model">Grand SANTA FE</span>
-                                        <span class="price">от 2 439 000  ₽</span>
-                                    </a>
-                                </li>
+                            <ul class="promo-slider" style="width: 316px;">
                                 <li>
                                     <a href="/H-1" class="promo-slider-link">
                                         <img src="https://www.hyundai.ru/media/images/carmodels/H-1_3185b17f6c10d2a9.png" alt="H-1">
                                         <span class="model">H-1</span>
-                                        <span class="price">от 2 079 000  ₽</span>
+                                        <span class="price">от 2 121 000  ₽</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/Elantra" class="promo-slider-link">
                                         <img src="https://www.hyundai.ru/media/images/carmodels/Elantra_7505a0ed5f602de8.png" alt="ELANTRA">
                                         <span class="model">ELANTRA</span>
-                                        <span class="price">от  994 000  ₽</span>
+                                        <span class="price">от 1 019 000  ₽</span>
                                     </a>
                                 </li>
                             </ul>

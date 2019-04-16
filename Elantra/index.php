@@ -778,7 +778,7 @@ $APPLICATION->SetTitle("Elantra");
                         </div>
                         <div class="spec_message">
                             <div>
-                                <span class="add-blue-color" style="padding: 0">*</span>Платеж рассчитан по программе Hyundai Старт исходя из цены Elantra (1.6 6МТ Start) 984 000р., 2018 года производства на условиях кредитного продукта «ДИРЕКТ Баллун ПСП КЛАССИКА: Hyundai в кредит»: срок кредита 36 мес., процентная ставка 9.9% годовых, первоначальный взнос 474 000р., сумма кредита 577 576р. Гарантированная остаточная стоимость автомобиля (часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита) ― 45%. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Тарифным планом предусмотрена финансовая защита кредита. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. Предложение действует с 01.10.18 по 31.10.18г, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.rusfinancebank.ru<br>
+                                *Платеж рассчитан по программе Hyundai Старт исходя из цены Hyundai Elantra (1.6 6МТ Start) 1 019 000р., 2018 года производства на условиях кредитного продукта «Hyundai Finance Special»: срок кредита 36 мес., процентная ставка 14.8% годовых, первоначальный взнос 460 000 рублей, сумма кредита 559 000 рублей. Остаточный платеж (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 50% от цены ТС на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ПАО «Совкомбанк» Генеральная лицензия Банка России № 963 от 05 декабря 2014 года. Предложение действует с 01.04.2019 по 30.04.2019г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.sovcombank.ru.<br>
                             </div>
                         </div>
                     </div>
@@ -1076,31 +1076,10 @@ $APPLICATION->SetTitle("Elantra");
                         <div class="promo-slider_cut">
                             <ul class="promo-slider">
                                 <li>
-                                    <a href="/Tucson/" class="promo-slider-link">
-                                        <img src="https://www.hyundai.ru/media/images/carmodels/Tucson_8655a0ed607025b4.png" alt="TUCSON">
-                                        <span class="model">TUCSON</span>
-                                        <span class="price">от 1 369 000  ₽</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/SantaFe/" class="promo-slider-link">
-                                        <img src="https://www.hyundai.ru/media/images/carmodels/Santa fe_8385a0ed6004e51b.png" alt="SANTA FE">
-                                        <span class="model">SANTA FE</span>
-                                        <span class="price">от 1 964 000  ₽</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/GrandSantaFe/" class="promo-slider-link">
-                                        <img src="https://www.hyundai.ru/media/images/carmodels/Grand Santa fe_2625a0ed5fb73033.png" alt="Grand SANTA FE">
-                                        <span class="model">Grand SANTA FE</span>
-                                        <span class="price">от 2 439 000  ₽</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/H-1/" class="promo-slider-link">
+                                    <a href="/H-1" class="promo-slider-link">
                                         <img src="https://www.hyundai.ru/media/images/carmodels/H-1_3185b17f6c10d2a9.png" alt="H-1">
                                         <span class="model">H-1</span>
-                                        <span class="price">от 2 079 000  ₽</span>
+                                        <span class="price">от 2 121 000  ₽</span>
                                     </a>
                                 </li>
                             </ul>
