@@ -61,247 +61,259 @@ $APPLICATION->SetTitle("Программа старт ");
 		</div>
 	</div>
 </div>
-<div id="model" class="model overflow">
-	<div class="layout__start-redesign">
-		<div class="model__cantainer">
-			<div class="model__top-line">
-				<div class="model__title title">
-					Ваша модель
-				</div>
-				<div class="model__menu">
-					<div class="model__menu-label">Все модели</div>
-				</div>
-			</div>
-		</div>
-		<div class="model__selects">
-			<select class="model__select" name="car">
-			</select>
-			<select class="model__select" name="type">
-			</select>
-		</div>
 
-		<div class="model__slider">
-			<div class="slider__label">
-				Solaris
-			</div>
-			<div class="hc-badge" style="transform: matrix(1, 0, 0, 1, 0, 0);">
-				<div class="hc-badge__holder">
-					<span class="hc-badge__name">«Старт»</span>
-					<span class="hc-badge__pay"><strong class="hc-badge__pay-value">15 436</strong><sup>1</sup></span>
-					<span class="hc-badge__pay-period">₽/мес.</span>
-				</div>
-			</div>
-			<div class="slider__box">
-									<img
-						src="img/23.png"
-						class="slider__item slider__item_active"
-						alt=""
-						data-name="SOLARIS"
-						data-id="23"
-					>
-									<img
-						src="img/24.png"
-						class="slider__item "
-						alt=""
-						data-name="SONATA"
-						data-id="24"
-					>
-									<img
-						src="img/25.png"
-						class="slider__item "
-						alt=""
-						data-name="Новый SANTA FE"
-						data-id="25"
-					>
-									<img
-						src="img/26.png"
-						class="slider__item "
-						alt=""
-						data-name="Новый TUCSON"
-						data-id="26"
-					>
-									<img
-						src="img/7.png"
-						class="slider__item "
-						alt=""
-						data-name="ELANTRA"
-						data-id="7"
-					>
-									<img
-						src="img/22.png"
-						class="slider__item "
-						alt=""
-						data-name="CRETA"
-						data-id="22"
-					>
-							</div>
-			<div class="slider__go-calc">
-                <div class="calc__total-price">
-                    <div class="calc__total-price-text">
-                        стоимость
+    <div id="model" class="model overflow">
+        <div class="layout__start-redesign">
+            <div class="model__cantainer">
+                <div class="model__top-line">
+                    <div class="model__title title">
+                        Ваша модель
                     </div>
-                    <div class="calc__total-price-digits">
-                        630 000
+                    <div class="model__menu">
+                        <div class="model__menu-label">Все модели</div>
                     </div>
                 </div>
-                <div class="slider__controls">
-					<div class="slider__control-prev">Solaris</div>
-					<div class="slider__control-next">Grand Santa Fe</div>
-				</div>
-				<a class="slider__go-calc-button" href="#calc">
-					Рассчитать кредит
-					<span class="slider__go-calc-arrow"></span>
-				</a>
-			</div>
-		</div>
-
-        <div id="calc"></div>
-<!--
-        <div class="solaris-spec" >
-            <div class="solaris-spec__main">
-                <div class="solaris-spec__main-spec">
-                    Спецпредложение
-                </div>
-                <div class="solaris-spec__main-caption">
-                    Новый Hyundai Solaris за 2500 ₽/мес.
-                </div>
-                <div class="solaris-spec__main-arrow"></div>
             </div>
-            <div class="solaris-spec__second">
-                <div class="solaris-spec__image">
-                    <div class="solaris-spec__casco">
-                        <div class="solaris-spec__casco-img"></div>
-                        <div class="solaris-spec__casco-text">
-                            Каско<br> в подарок
+            <div class="model__selects">
+                <select class="model__select" name="car">
+                </select>
+                <select class="model__select" name="type">
+                </select>
+            </div>
+
+            <div class="model__slider">
+                <div class="slider__label">
+                    Solaris			</div>
+                <div class="hc-badge" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+                    <div class="hc-badge__holder">
+                        <span class="hc-badge__name">«Старт»</span>
+                        <span class="hc-badge__pay"><strong class="hc-badge__pay-value">6&nbsp;000</strong><sup>1</sup></span>
+                        <span class="hc-badge__pay-period">₽/мес.</span>
+                    </div>
+                </div>
+                <div class="slider__box">
+                    <img
+                            src="img/27.png"
+                            class="slider__item slider__item_active"
+                            alt=""
+                            data-name="Новая ELANTRA"
+                            data-id="27"
+                    >
+                    <img
+                            src="img/23.png"
+                            class="slider__item "
+                            alt=""
+                            data-name="SOLARIS"
+                            data-id="23"
+                    >
+                    <img
+                            src="img/24.png"
+                            class="slider__item "
+                            alt=""
+                            data-name="SONATA"
+                            data-id="24"
+                    >
+                    <img
+                            src="img/25.png"
+                            class="slider__item "
+                            alt=""
+                            data-name="Новый SANTA FE"
+                            data-id="25"
+                    >
+                    <img
+                            src="img/26.png"
+                            class="slider__item "
+                            alt=""
+                            data-name="Новый TUCSON"
+                            data-id="26"
+                    >
+                    <img
+                            src="img/7.png"
+                            class="slider__item "
+                            alt=""
+                            data-name="ELANTRA"
+                            data-id="7"
+                    >
+                    <img
+                            src="img/22.png"
+                            class="slider__item "
+                            alt=""
+                            data-name="CRETA"
+                            data-id="22"
+                    >
+                </div>
+                <div class="slider__go-calc">
+                    <div class="calc__total-price">
+                        <div class="calc__total-price-text">
+                            стоимость
+                        </div>
+                        <div class="calc__total-price-digits">
+                            630 000
+                        </div>
+                    </div>
+                    <div class="slider__controls">
+                        <div class="slider__control-prev">Solaris</div>
+                        <div class="slider__control-next">Grand Santa Fe</div>
+                    </div>
+                    <a class="slider__go-calc-button" href="#calc">
+                        Рассчитать кредит
+                        <span class="slider__go-calc-arrow"></span>
+                    </a>
+                </div>
+            </div>
+
+            <div id="calc"></div>
+            <!--
+                    <div class="solaris-spec" >
+                        <div class="solaris-spec__main">
+                            <div class="solaris-spec__main-spec">
+                                Спецпредложение
+                            </div>
+                            <div class="solaris-spec__main-caption">
+                                Новый Hyundai Solaris за 2500 ₽/мес.
+                            </div>
+                            <div class="solaris-spec__main-arrow"></div>
+                        </div>
+                        <div class="solaris-spec__second">
+                            <div class="solaris-spec__image">
+                                <div class="solaris-spec__casco">
+                                    <div class="solaris-spec__casco-img"></div>
+                                    <div class="solaris-spec__casco-text">
+                                        Каско<br> в подарок
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="solaris-spec__info">
+                                <div class="solaris-spec__info-header">
+                                    Новый Hyundai Solaris<br>за 2500 ₽/мес
+                                </div>
+                                <div class="solaris-spec__items">
+                                    <div class="solaris-spec__item">
+                                        <div class="solaris-spec__item-header">
+                                            Первый взнос
+                                        </div>
+                                        <div class="solaris-spec__item-text">
+                                            50%
+                                        </div>
+                                    </div>
+                                    <div class="solaris-spec__item">
+                                        <div class="solaris-spec__item-header">
+                                            Остаточная стоимость
+                                        </div>
+                                        <div class="solaris-spec__item-text">
+                                            50%
+                                        </div>
+                                    </div>
+                                    <div class="solaris-spec__item">
+                                        <div class="solaris-spec__item-header">
+                                            Ежемесячный платеж
+                                        </div>
+                                        <div class="solaris-spec__item-text">
+                                            2500 ₽
+                                        </div>
+                                    </div>
+                                    <div class="solaris-spec__item">
+                                        <div class="solaris-spec__item-header">
+                                            Срок
+                                        </div>
+                                        <div class="solaris-spec__item-text">
+                                            24 мес
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="solaris-spec__buttons">
+                                    <div class="solaris-spec__email">
+                                        Отправить на email
+                                    </div>
+                                    <a class="solaris-spec__more" href="/promo/specprice">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            -->
+
+            <div class="calc">
+
+                <div class="calc-box">
+
+                    <div class="calc__box">
+                        <!-- 					<div class="calc_bg"></div> -->
+                        <div class="calc__widget">
+
+                        </div>
+                        <div class="calc__info">
+
+                            <div class="calc__label">
+                                Старт
+                            </div>
+                            <div class="calc__price startprice">
+                                31 580
+                            </div>
+                            <div class="calc__line">
+                                <div class="calc__line-scale start-scale" style="width:60%;"></div>
+                            </div>
+
+                            <div class="calc__label">
+                                Стандартный кредит
+                            </div>
+                            <div class="calc__price tprice">
+                                31 580
+                            </div>
+                            <div class="calc__line">
+                                <div class="calc__line-scale  full-scale"></div>
+                            </div>
+                            <div class="calc__button calculator-btn">
+                                Отправить на email
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="solaris-spec__info">
-                    <div class="solaris-spec__info-header">
-                        Новый Hyundai Solaris<br>за 2500 ₽/мес
+            </div>
+
+            <div class="slider-menu">
+                <div class="slider-menu__close"></div>
+                <div class="slider-menu__items">
+                    <div class="slider-menu__item" data-id="27">
+                        <div class="slider-menu__item-name">Новая ELANTRA</div>
+                        <div class="slider-menu__item-price">8 000</div>
+                        <img class="slider-menu__item-img" src="img/27.png">
                     </div>
-                    <div class="solaris-spec__items">
-                        <div class="solaris-spec__item">
-                            <div class="solaris-spec__item-header">
-                                Первый взнос
-                            </div>
-                            <div class="solaris-spec__item-text">
-                                50%
-                            </div>
-                        </div>
-                        <div class="solaris-spec__item">
-                            <div class="solaris-spec__item-header">
-                                Остаточная стоимость
-                            </div>
-                            <div class="solaris-spec__item-text">
-                                50%
-                            </div>
-                        </div>
-                        <div class="solaris-spec__item">
-                            <div class="solaris-spec__item-header">
-                                Ежемесячный платеж
-                            </div>
-                            <div class="solaris-spec__item-text">
-                                2500 ₽
-                            </div>
-                        </div>
-                        <div class="solaris-spec__item">
-                            <div class="solaris-spec__item-header">
-                                Срок
-                            </div>
-                            <div class="solaris-spec__item-text">
-                                24 мес
-                            </div>
-                        </div>
+                    <div class="slider-menu__item" data-id="23">
+                        <div class="slider-menu__item-name">SOLARIS</div>
+                        <div class="slider-menu__item-price">6 000</div>
+                        <img class="slider-menu__item-img" src="img/23.png">
                     </div>
-                    <div class="solaris-spec__buttons">
-                        <div class="solaris-spec__email">
-							Отправить на email
-						</div>
-                        <a class="solaris-spec__more" href="/promo/specprice">
-							Подробнее
-						</a>
+                    <div class="slider-menu__item" data-id="24">
+                        <div class="slider-menu__item-name">SONATA</div>
+                        <div class="slider-menu__item-price">9 000</div>
+                        <img class="slider-menu__item-img" src="img/24.png">
+                    </div>
+                    <div class="slider-menu__item" data-id="25">
+                        <div class="slider-menu__item-name">Новый SANTA FE</div>
+                        <div class="slider-menu__item-price">12 000</div>
+                        <img class="slider-menu__item-img" src="img/25.png">
+                    </div>
+                    <div class="slider-menu__item" data-id="26">
+                        <div class="slider-menu__item-name">Новый TUCSON</div>
+                        <div class="slider-menu__item-price">10 000</div>
+                        <img class="slider-menu__item-img" src="img/26.png">
+                    </div>
+                    <div class="slider-menu__item" data-id="7">
+                        <div class="slider-menu__item-name">ELANTRA</div>
+                        <div class="slider-menu__item-price">8 000</div>
+                        <img class="slider-menu__item-img" src="img/7.png">
+                    </div>
+                    <div class="slider-menu__item" data-id="22">
+                        <div class="slider-menu__item-name">CRETA</div>
+                        <div class="slider-menu__item-price">7 000</div>
+                        <img class="slider-menu__item-img" src="img/22.png">
                     </div>
                 </div>
             </div>
         </div>
--->
-
-		<div class="calc">
-
-			<div class="calc-box">
-
-				<div class="calc__box">
-					<div class="calc_bg"></div>
-					<div class="calc__widget">
-
-					</div>
-					<div class="calc__info">
-
-						<div class="calc__label">
-							Старт
-						</div>
-						<div class="calc__price startprice">
-							31 580
-						</div>
-						<div class="calc__line">
-							<div class="calc__line-scale start-scale" style="width:60%;"></div>
-						</div>
-
-						<div class="calc__label">
-							Стандартный кредит
-						</div>
-						<div class="calc__price tprice">
-							31 580
-						</div>
-						<div class="calc__line">
-							<div class="calc__line-scale  full-scale"></div>
-						</div>
-						<div class="calc__button calculator-btn">
-							Отправить на email
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="slider-menu">
-			<div class="slider-menu__close"></div>
-			<div class="slider-menu__items">
-														<div class="slider-menu__item" data-id="23">
-						<div class="slider-menu__item-name">SOLARIS</div>
-						<div class="slider-menu__item-price">6 000</div>
-						<img class="slider-menu__item-img" src="img/23.png">
-					</div>
-														<div class="slider-menu__item" data-id="24">
-						<div class="slider-menu__item-name">SONATA</div>
-						<div class="slider-menu__item-price">9 000</div>
-						<img class="slider-menu__item-img" src="img/24.png">
-					</div>
-														<div class="slider-menu__item" data-id="25">
-						<div class="slider-menu__item-name">Новый SANTA FE</div>
-						<div class="slider-menu__item-price">12 000</div>
-						<img class="slider-menu__item-img" src="img/25.png">
-					</div>
-														<div class="slider-menu__item" data-id="26">
-						<div class="slider-menu__item-name">Новый TUCSON</div>
-						<div class="slider-menu__item-price">10 000</div>
-						<img class="slider-menu__item-img" src="img/26.png">
-					</div>
-														<div class="slider-menu__item" data-id="7">
-						<div class="slider-menu__item-name">ELANTRA</div>
-						<div class="slider-menu__item-price">8 000</div>
-						<img class="slider-menu__item-img" src="img/7.png">
-					</div>
-														<div class="slider-menu__item" data-id="22">
-						<div class="slider-menu__item-name">CRETA</div>
-						<div class="slider-menu__item-price">7 000</div>
-						<img class="slider-menu__item-img" src="img/22.png">
-					</div>
-												</div>
-		</div>
-	</div>
-</div>
+    </div>
 
 <div class="options">
 	<div class="layout__start-redesign">
@@ -530,35 +542,43 @@ $APPLICATION->SetTitle("Программа старт ");
 			</div>
 
 
-			<div class="credit-disclaimer-center-text">
-				<p>
-					<sup data-car="23">1</sup>Платеж рассчитан по программе Hyundai Старт исходя из цены Solaris (1.4 6MT Active) 679 900 р. 2018 года производства на условиях кредитного продукта «ДИРЕКТ Баллун ПСП КЛАССИКА: Hyundai в кредит»: срок кредита 36 мес., процентная ставка 9.9% годовых, первоначальный взнос 314 500р., сумма кредита 413 816р. Гарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 45% от цены на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Тарифным планом предусмотрена финансовая защита кредита. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. Предложение действует с 01.10.18 по 31.10.18г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.rusfinancebank.ru
-				</p>
-				<p>
-					<sup data-car="7">2</sup>Платеж рассчитан по программе Hyundai Старт исходя из цены Elantra (1.6 6МТ Start) 984 000р., 2018 года производства на условиях кредитного продукта «ДИРЕКТ Баллун ПСП КЛАССИКА: Hyundai в кредит»: срок кредита 36 мес., процентная ставка 9.9% годовых, первоначальный взнос 474 000р., сумма кредита 577 576р. Гарантированная остаточная стоимость автомобиля (часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита) ― 45%. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Тарифным планом предусмотрена финансовая защита кредита. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. Предложение действует с 01.10.18 по 31.10.18г, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.rusfinancebank.ru
-				</p>
-				<p>
-					<sup data-car="24">3</sup>Платеж рассчитан по условиям программы Hyundai (Старт), исходя из цены Hyundai Sonata (Primary 2.0 MPI 6AT ) 1 299 000 руб., 2018 года производства, на условиях кредитного продукта «ДИРЕКТ Баллун ПСП КЛАССИКА: Hyundai в кредит», исходя из процентной ставки 9.9% годовых, первоначальный взнос 668 500 р., сумма кредита 714 043 р., срок кредита 36 месяцев. Гарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) 45% от цены на момент покупки. Обязательно оформление полиса КАСКО. Обеспечение: залог приобретаемого автомобиля. Тарифным планом предусмотрена финансовая защита кредита. Предложение носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.10.18 по 31.10.18г, не является офертой. Условия и тарифы могут быть изменены Банком в одностороннем порядке. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. Подробности на www.rusfinancebank.ru
-					</p>
-				<p>
-					<sup data-car="22">4</sup>Платеж рассчитан в рамках программы Hyundai Старт исходя из цены Hyundai Creta (1.6 6MT 2WD Start) 879 900р. 2018 года производства на условиях кредитного «ДИРЕКТ Баллун ПСП КЛАССИКА: Hyundai в кредит»: первоначальный взнос 428 000р., сумма кредита 511 778р., срок кредита 36 мес., процентная ставка 9.9% годовых. Гарантированная остаточная стоимость автомобиля (часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита) - 45%. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Тарифным планом предусмотрена финансовая защита кредита. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.10.18 по 31.10.18г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru
-				</p>
-				<p>
-					<sup data-car="25">5</sup>Ежемесячный платеж по кредиту рассчитан, исходя из цены Hyundai Santa Fe (Family 2,4л 6AT 4WD) 1 999 000 р., 2018 года производства, на условиях кредитного продукта «Директ Баллун ПСП КЛАССИКА: Hyundai в кредит»: первоначальный взнос 1 030 500 р., сумма кредита 968 500 р., срок кредита 36 мес., процентная ставка 12,9% годовых. Часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита - 45%. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.10.18 по 31.10.18г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru
+            <div class="credit-disclaimer-center-text">
+                <p>
+                    <sup data-car="23">1</sup>Платеж рассчитан по программе Hyundai Старт исходя из цены Hyundai Solaris (1.4 6MT Active) 730 000 р. 2018 года производства на условиях кредитного продукта «Hyundai Finance Special»: срок кредита 36 мес., процентная ставка 14.8% годовых, первоначальный взнос 321 700 ублей, сумма кредита 408 300 рублей. Остаточный платеж (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 50% от цены ТС на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ПАО «Совкомбанк» Генеральная лицензия Банка России № 963 от 05 декабря 2014 года. Предложение действует с 01.04.2019 по 30.04.2019г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.sovcombank.ru.
+                </p>
+                <p>
+                    <sup data-car="7">2</sup>Платеж рассчитан по программе Hyundai Старт исходя из цены Hyundai Elantra (1.6 6МТ Start) 1 019 000р., 2018 года производства на условиях кредитного продукта «Hyundai Finance Special»: срок кредита 36 мес., процентная ставка 14.8% годовых, первоначальный взнос 460 000 рублей, сумма кредита 559 000 рублей. Остаточный платеж (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 50% от цены ТС на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ПАО «Совкомбанк» Генеральная лицензия Банка России № 963 от 05 декабря 2014 года. Предложение действует с 01.04.2019 по 30.04.2019г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.sovcombank.ru.
+                </p>
+                <p>
+                    <sup data-car="24">3</sup>Платеж рассчитан по программе Hyundai Старт исходя цены Hyundai Sonata (Primary 2.0 MPI 6AT ) 1 334 000 руб, 2018 года производства на условиях кредитного продукта «Hyundai Finance Special»: срок кредита 36 мес., процентная ставка 14.8% годовых, первоначальный взнос 644 700 рублей, сумма кредита 689 300 рублей. Остаточный платеж (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 50% от цены ТС на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Тарифным планом предусмотрена финансовая защита кредита. Кредит предоставляется ПАО «Совкомбанк» Генеральная лицензия Банка России № 963 от 05 декабря 2014 года. Предложение действует с 01.04.2019 по 30.04.2019г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.sovcombank.ru
+                </p>
+                <p>
+                    <sup data-car="22">4</sup>Платеж рассчитан по программе Hyundai Старт исходя из цены Hyundai Creta (1.6 6MT 2WD Start) 947 000р. 2018 года производства на условиях кредитного продукта «Hyundai Finance Special»: срок кредита 36 мес., процентная ставка 14.8% годовых, первоначальный взнос 440 000 рублей, сумма кредита 507 000 рублей. Остаточный платеж (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 50% от цены ТС на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Тарифным планом предусмотрена финансовая защита кредита. Кредит предоставляется ПАО «Совкомбанк» Генеральная лицензия Банка России № 963 от 05 декабря 2014 года. Предложение действует с 01.04.2019 по 30.04.2019г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.sovcombank.ru.
+                </p>
+                <p>
+                    <sup data-car="25">5</sup>Платеж рассчитан по программе Hyundai Старт исходя цены Hyundai Santa Fe (Family 2,4л 6AT 4WD) 2 049 000 р., 2018 года производства на условиях кредитного продукта «Hyundai Finance Special»: срок кредита 36 мес., процентная ставка 14.3% годовых, первоначальный взнос 1 030 800 рублей, сумма кредита 1 018 200 рублей. Остаточный платеж (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 50% от цены ТС на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ПАО «Совкомбанк» Генеральная лицензия Банка России № 963 от 05 декабря 2014 года. Предложение действует с 01.04.2019 по 30.04.2019г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.sovcombank.ru
 
 
-				</p>
-				<p>
-					<sup data-car="26">6</sup>Платеж рассчитан в рамках программы Hyundai (Старт) исходя из цены Hyundai Tucson (Primary 2,0л 6MT 2WD) 1 399 000р., 2018 года производства, на условиях кредитного продукта «ДИРЕКТ Баллун ПСП КЛАССИКА: Hyundai в кредит»: первоначальный взнос 711 500р., сумма кредита 778595р., срок кредита 36 мес.; процентная ставка 9.9% годовых. Часть задолженности по кредиту в процентах от стоимости автомобиля на момент его покупки, подлежащая оплате в конце срока кредита - 45%. Кредит погашается равными ежемесячными платежами (за исключением первого и последнего). Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Тарифным планом предусмотрена финансовая защита кредита. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013 г. (далее - Банк). Кредит обеспечивается залогом приобретаемого автомобиля. Предложение действует с 01.10.18 по 31.10.18г, не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробности на www.rusfinancebank.ru
+                </p>
+                <p>
+                    <sup data-car="26">6</sup>Платеж рассчитан по программе Hyundai Старт исходя цены Hyundai Tucson (Primary 2,0л 6MT 2WD) 1 444 000р., 2018 года производства на условиях кредитного продукта «Hyundai Finance Special»: срок кредита 36 мес., процентная ставка 14.8% годовых, первоначальный взнос 690 300 рублей, сумма кредита 753 700 рублей. Остаточный платеж (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 50% от цены ТС на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ПАО «Совкомбанк» Генеральная лицензия Банка России № 963 от 05 декабря 2014 года. Предложение действует с 01.04.2019 по 30.04.2019г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.sovcombank.ru
 
 
-				</p>
-<!--
-				<p>
-					<sup>10</sup>Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в САО «ВСК» при покупке нового Hyundai Solaris, Elantra, Tucson, Sonata, Santa Fe, Grand Santa Fe в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены САО «ВСК» в одностороннем порядке. Предложение действует до 31.08.2018г
-				</p>
--->
-			</div>
+                </p>
+
+
+                <p>
+                    <sup data-car="27">7</sup>Платеж рассчитан по программе Hyundai Старт исходя из цены Hyundai New Elantra (1.6 6МТ Start) 1 049 000р., 2019 года производства, на условиях кредитного продукта «Hyundai Finance Special»: срок кредита 36 мес., процентная ставка 14.8% годовых, первоначальный взнос 480 200 рублей, сумма кредита 568 800 рублей. Остаточный платеж (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 50% от цены ТС на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ПАО «Совкомбанк» Генеральная лицензия Банка России № 963 от 05 декабря 2014 года. Предложение действует с 01.04.2019 по 30.04.2019г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.sovcombank.ru
+
+
+                </p>
+
+                <!--
+                                <p>
+                                    <sup>10</sup>Полис КАСКО на безвозмездной основе оформляется на срок 1 (один) год в САО «ВСК» при покупке нового Hyundai Solaris, Elantra, Tucson, Sonata, Santa Fe, Grand Santa Fe в кредит по программе СТАРТ. Указанная информация носит справочный характер и не является публичной офертой. Условия и тарифы могут быть изменены САО «ВСК» в одностороннем порядке. Предложение действует до 31.08.2018г
+                                </p>
+                -->
+            </div>
 
 
 		</div>
@@ -1050,6 +1070,6 @@ $APPLICATION->SetTitle("Программа старт ");
 <script type="text/javascript" src="http://www.hyundai.ru/media/js/libs/jquery.nanoscroller.min.js"></script>
 <script type="text/javascript" src="http://www.hyundai.ru/media/js/libs/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="http://www.hyundai.ru/media/start/js/roundslider.js"></script>
-<script type="text/javascript" src="script.js?v=2"></script>
+<script type="text/javascript" src="script.js?v=5"></script>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

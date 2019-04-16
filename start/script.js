@@ -68,7 +68,7 @@ $(document).ready(function() {
 		}
 	};
 
-	var widget, minVal, maxVal = 54, reset;
+	var widget, minVal, maxVal = 50, reset;
 
 	var calc = {
 		sum: {
@@ -76,30 +76,31 @@ $(document).ready(function() {
 		}
 		, getProgramPercent: function(prepay) {
 			if(prepay >=0 && prepay < 20)
-				return 0.1265;
+				return 0.158;
 			else if(prepay >= 20 && prepay < 30)
-				return 0.109;
+				return 0.148;
 			else if(prepay >= 30 && prepay < 50)
-				return 0.099;
+				return 0.138;
 			else if(prepay >= 50 && prepay < 55)
-				return 0.099;
+				return 0.133;
 
 			return 0.1265;
 		}
 		, getDefaultPercent: function(car_id) {
 			switch(car_id)
 			{
-				case 7: return 48; // Р­Р»Р°РЅС‚СЂР°,
+				case 7: return 44; // Р­Р»Р°РЅС‚СЂР°,
+				case 27: return 44; // Р­Р»Р°РЅС‚СЂР°,
 				case 6: return 42; // i40
 				case 5: return 41; // i40 wagon
 				case 18: return 46; // Tucson
-				case 22: return 49; // Creta
+				case 22: return 45; // Creta
 				case 17: return 48; // Santa Fe
 				case 13: return 46; // Grand Santa Fe
-				case 23: return 46; // New Solaris
-				case 24: return 51; // Sonata
-				case 26: return 51; // Tucson
-				case 25: return 53; // Santa Fe
+				case 23: return 43; // New Solaris
+				case 24: return 47; // Sonata
+				case 26: return 47; // Tucson
+				case 25: return 49; // Santa Fe
 			}
 
 			return 35;
@@ -138,23 +139,22 @@ $(document).ready(function() {
 			obj.option("value", dperc);
 
 			/*
-			 if ( car_id == 23 || car_id == 22) {
-			 minVal = 0;
-			 obj.option("min", 0);
-			 window.addEventListener('scroll', handler);
-			 $('.calc_bg').fadeOut();
-			 $(".solaris-spec").slideDown();
-			 } else {
-			 */
-			minVal = 20;
-			obj.option("value", 20);
+                        if ( car_id == 23 || car_id == 22) {
+                            minVal = 0;
+                            obj.option("min", 0);
+                            window.addEventListener('scroll', handler);
+                            $('.calc_bg').fadeOut();
+                            $(".solaris-spec").slideDown();
+                        } else {
+            */
+			minVal = 0;
+			obj.option("value", 0);
 			obj.option("value", dperc);
 			setTimeout(function(){
 				$('.calc_bg').fadeIn();
 			}, 300);
 			$(".solaris-spec").slideUp().removeClass("solaris-spec_active");
 //			}
-
 			this.calculate();
 		},
 		calculate: function ()
@@ -187,13 +187,13 @@ $(document).ready(function() {
 			var N = 36;
 
 			// РћСЃС‚Р°С‚РѕС‡РЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
-			RV = C * 0.45;
+			RV = C * 0.5;
 
 
 			//Р”РѕР±Р°РІР»СЏРµРј СЃС‚СЂР°С…РѕРІРєСѓ Р¶РёР·РЅРё Рє РѕР±С‰РµР№ СЃС‚РѕРёРјРѕСЃС‚Рё РєСЂРµРґРёС‚Р°
 			var years_count = 3;
 			//var insurance_percent = 3.5;
-			var insurance_percent = 3.5; // РЎРµР№С‡Р°СЃ РґР»СЏ СЃС‚Р°СЂС‚Р° РѕРЅР° СЂР°РІРЅР° РЅСѓР»СЋ
+			var insurance_percent = 0; // РЎРµР№С‡Р°СЃ РґР»СЏ СЃС‚Р°СЂС‚Р° РѕРЅР° СЂР°РІРЅР° РЅСѓР»СЋ
 			// (Р¦РµРЅР° - Рџ.Р’.) * СЃС‚СЂР°С…РѕРІРѕР№ С‚Р°СЂРёС„ РІ РіРѕРґ * РєРѕР»-РІРѕ Р»РµС‚
 			var lifeinsurance = (C - DP) * insurance_percent/100 * years_count;
 
@@ -209,9 +209,9 @@ $(document).ready(function() {
 			SMax = C;
 
 			/*
-			 S += lifeinsurance;
-			 SF += lifeinsurance;
-			 */
+                        S += lifeinsurance;
+                        SF += lifeinsurance;
+            */
 
 			P = percent / 12;
 
