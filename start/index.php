@@ -1,7 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Hyundai Solaris купить в Воронеже. Цена на новый Хендай Солярис");
-$APPLICATION->SetTitle("NewSolaris");
+$APPLICATION->SetPageProperty("title", "Программа старт ");
+$APPLICATION->SetTitle("Программа старт ");
 ?>
     <link type="text/css" href="http://www.hyundai.ru/media/start/css/roundslider.css" rel="stylesheet" />
     <link type="text/css" href="http://www.hyundai.ru/media/start/css/base.css" rel="stylesheet" />

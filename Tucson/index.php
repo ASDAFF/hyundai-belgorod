@@ -84,7 +84,7 @@ $APPLICATION->SetTitle("Tucson");
                                             <span>Новый Tucson – решайся!</span>
                                         </div>
                                         <div class="title-price">
-                                            от 1 369 000  ₽<br>
+                                            от 1 444 000  ₽<br>
                                             <a href="/start?model=tucson" class="title-price-notice"><!--В кредит от 10 000 ₽ / месяц--></a>
                                             <!-- 								<div class="title-price-casco">+ каско в подарок!<sup>1</sup></div> -->
                                         </div>

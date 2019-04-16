@@ -171,7 +171,7 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                     </div>
                     <div class="blue-b">
                         <div class="blue-b__price">
-                            <span>от</span> 1 999 000  &#8381;
+                            <span>от</span> 2 049 000  &#8381;
                             <!--                     <div class="blue-b__text">В кредит — от 12 000 ₽ в месяц</div> -->
                         </div>
 
@@ -1194,7 +1194,7 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                         </div>
                         <a href="https://www.hyundai.ru/configurator/car/25" class="price" style="display: inline-block;">
                             <div class="price__value">
-                                <span>от</span> 1 999 000  &#8381;
+                                <span>от</span> 2 0499 000  &#8381;
                             </div>
                             <div class="price__note">
                                 В кредит от 12&nbsp;000 ₽ в месяц

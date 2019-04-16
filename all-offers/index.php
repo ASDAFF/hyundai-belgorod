@@ -98,6 +98,27 @@ $APPLICATION->SetTitle("all-offers");
 -->
 
                 <div class="insection-offer-unit">
+                    <a href="/promo/suv-universiade" class="insection-offer-unit__link">
+                        <img src="/upload/hyundai-on-credit-1.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Кроссоверы Hyundai.С тобой заодно.</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="insection-offer-unit">
+                    <a href="https://www.hyundai.ru/promo/vdnh" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/f19ce211c4adc6df11f26f9574329dd5_Banner_Katok_v2_mob_466x330.png" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Зима на драйве</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="insection-offer-unit">
                     <a href="/start_plus" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/2565bfa8d092a3e09bbe2d2beb8c4ffe_start_plus_466x330.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
@@ -106,6 +127,18 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
+
+                <div class="insection-offer-unit">
+                    <a href="/promo/win" class="insection-offer-unit__link">
+                        <img src="http://www.hyundai.ru/media/offers_image/765529bc8c5f9bbeab84c69a60cd83fb_Sonata+Tucson_preview-banner_1500x545px_Oct2018.jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Победная выгода на автомобили Hyundai</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+
+
 <!--
                 <div class="insection-offer-unit">
                     <a href="/promo/special-offer" class="insection-offer-unit__link">
@@ -151,6 +184,7 @@ $APPLICATION->SetTitle("all-offers");
                     </a>
                 </div>
 
+<!--
                 <div class="insection-offer-unit">
                     <a href="/promo/major-leasing/" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/04cbeb84a054d5e241ea61acbfabdf67_5_19.jpg" alt="" class="insection-offer-unit__back-img">
@@ -161,7 +195,7 @@ $APPLICATION->SetTitle("all-offers");
                     </a>
                 </div>
 
-<!--
+
                 <div class="insection-offer-unit">
                     <a href="/promo/leasing_new/" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/822f208ac03003ca995030c04d001055_%D0%9B%D0%B8%D0%B7%D0%B8%D0%BD%D0%B3-%D0%B4%D0%BB%D1%8F-%D1%84%D0%B8%D0%B7-%D0%BB%D0%B8%D1%86_%D1%81%D0%BF%D0%B5%D1%86-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_preview.jpg" alt="" class="insection-offer-unit__back-img">
@@ -184,15 +218,6 @@ $APPLICATION->SetTitle("all-offers");
                     </a>
                 </div>
 
-                <div class="insection-offer-unit">
-                    <a href="/promo/hyundai-on-credit" class="insection-offer-unit__link">
-                        <img src="/upload/hyundai-on-credit-1.jpg" alt="" class="insection-offer-unit__back-img">
-                        <div class="insection-offer-unit__info">
-                            <span class="name">Акция на автомобили Hyundai при покупке в кредит!</span>
-                            <span class="addinfo"></span>
-                        </div>
-                    </a>
-                </div>
 
             </div>
             <!-- service stuff next -->
