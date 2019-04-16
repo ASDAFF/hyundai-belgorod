@@ -7,6 +7,10 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
 ));
 ?>
 
+    <link href="https://hpromise.hyundai.ru/bitrix/cache/css/s1/hyundai_2017/kernel_main/kernel_main_v1.css?155136336932682" type="text/css"  rel="stylesheet" />
+    <link href="https://hpromise.hyundai.ru/bitrix/cache/css/s1/hyundai_2017/template_30254c0dfdb2261f73f60bf71d7be8f3/template_30254c0dfdb2261f73f60bf71d7be8f3_v1.css?1551363366294836" type="text/css"  data-template-style="true" rel="stylesheet" />
+
+
 <div class="cont">
     <div class="banner nblock">
         <div class="banner-title">HYUNDAI<br>TRADE-IN</div>
@@ -76,146 +80,154 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
     </div>
     <div class="carslider nblock">
         <div class="carslider-circle"></div>
-
         <div class="carslider-inner">
 
             <div class="carslider-inner-single">
-                <div class="carslider-inner-single-title">Sonata</div>
-                <div class="carslider-inner-single-desc sonata">
-                    <a href="/Sonata/" class="carslider-inner-single-desc-link">описание модели</a>
-                    <div class="carslider-inner-single-desc-tit">Скидка</div>
-                    <div class="carslider-inner-single-desc-price">140 000 ₽</div>
-                    <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
-<div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
-                </div>
-                <div class="carslider-inner-single-img">
-                    <img src="/hpromise/img/sonata.png">
-                </div>
-                <a href="http://www.hyundai.ru/test-drive/Sonata" class="carslider-inner-single-button buttontd">
-                    <span>Тест-драйв</span>
-                </a>
-                <a href="http://www.hyundai.ru/configurator/car/24/modification" class="carslider-inner-single-button buttonkonf">
-                    <span>Конфигуратор</span>
-                </a>
-            </div>
-            <div class="carslider-inner-single">
-                <div class="carslider-inner-single-title">Solaris</div>
-                <div class="carslider-inner-single-desc solaris">
-                    <a href="/NewSolaris/" class="carslider-inner-single-desc-link">описание модели</a>
-                    <div class="carslider-inner-single-desc-tit">Скидка</div>
-                    <div class="carslider-inner-single-desc-price">20 000 ₽</div>
-                    <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
-<div class="carslider-inner-single-desc-bal">10 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
-                </div>
-                <div class="carslider-inner-single-img">
-                    <img src="/hpromise/img/solaris.png">
-                </div>
-                <a href="http://www.hyundai.ru/test-drive?old_car_id=200" class="carslider-inner-single-button buttontd">
-                    <span>Тест-драйв</span>
-                </a>
-                <a href="http://www.hyundai.ru/configurator/car?compl_id=379&packets=" class="carslider-inner-single-button buttonkonf">
-                    <span>Конфигуратор</span>
-                </a>
-            </div>
-            <div class="carslider-inner-single">
-                <div class="carslider-inner-single-title">Elantra</div>
-                <div class="carslider-inner-single-desc elantra">
-                    <a href="/Elantra/" class="carslider-inner-single-desc-link">описание модели</a>
-                    <div class="carslider-inner-single-desc-tit">Скидка</div>
-                    <div class="carslider-inner-single-desc-price">50 000 ₽</div>
-                    <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
-<div class="carslider-inner-single-desc-bal">10 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
-                </div>
-                <div class="carslider-inner-single-img">
-                    <img src="/hpromise/img/elantra_car_small.png">
-                </div>
-                <a href="http://www.hyundai.ru/test-drive?old_car_id=18" class="carslider-inner-single-button buttontd">
-                    <span>Тест-драйв</span>
-                </a>
-                <a href="http://www.hyundai.ru/configurator/?car_id=18" class="carslider-inner-single-button buttonkonf">
-                    <span>Конфигуратор</span>
-                </a>
-            </div>
-            <div class="carslider-inner-single">
-                <div class="carslider-inner-single-title">Tucson</div>
-                <div class="carslider-inner-single-desc tucson">
-                    <a href="/Tucson/" class="carslider-inner-single-desc-link">описание модели</a>
-                    <div class="carslider-inner-single-desc-tit">Скидка</div>
-                    <div class="carslider-inner-single-desc-price">80 000 ₽</div>
-                    <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
-<div class="carslider-inner-single-desc-bal">15 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
-                </div>
-                <div class="carslider-inner-single-img">
-                    <img src="/hpromise/img/tucson_car_big.png">
-                </div>
-                <a href="http://www.hyundai.ru/test-drive?old_car_id=30" class="carslider-inner-single-button buttontd">
-                    <span>Тест-драйв</span>
-                </a>
-                <a href="http://www.hyundai.ru/configurator?car_id=30" class="carslider-inner-single-button buttonkonf">
-                    <span>Конфигуратор</span>
-                </a>
-            </div>
-            <!--<div class="carslider-inner-single">
-                <div class="carslider-inner-single-title">Santa Fe</div>
+                <div class="carslider-inner-single-title santa_fe">Santa Fe</div>
                 <div class="carslider-inner-single-desc santa_fe">
-                    <a href="/SantaFe/" class="carslider-inner-single-desc-link">описание модели</a>
-                    <div class="carslider-inner-single-desc-tit">Скидка</div>
-                    <div class="carslider-inner-single-desc-price">100 000 ₽</div>-->
-                    <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
-<div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
-                <!--<</div>
-                <div class="carslider-inner-single-img">
-                    <img src="/hpromise/img/santa_fe_small.png">
-                </div>
-                <a href="http://www.hyundai.ru/test-drive?old_car_id=29" class="carslider-inner-single-button buttontd">
-                    <span>Тест-драйв</span>
-                </a>
-                <a href="http://www.hyundai.ru/configurator/?car_id=29" class="carslider-inner-single-button buttonkonf">
-                    <span>Конфигуратор</span>
-                </a>
-            </div>-->
-            <div class="carslider-inner-single">
-                <div class="carslider-inner-single-title">Новый Santa Fe</div>
-                <div class="carslider-inner-single-desc santa_fe">
-                    <a href="/NewSantaFe/" class="carslider-inner-single-desc-link">описание модели</a>
-                    <div class="carslider-inner-single-desc-tit">Скидка</div>
-                    <div class="carslider-inner-single-desc-price">120 000 ₽</div>
-                    <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
-<div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
-                </div>
-                <div class="carslider-inner-single-img">
-                    <img src="/hpromise/img/newSantaFe.png">
-                </div>
-                <a href="http://www.hyundai.ru/test-drive?old_car_id=29" class="carslider-inner-single-button buttontd">
-                    <span>Тест-драйв</span>
-                </a>
-                <a href="http://www.hyundai.ru/configurator/?car_id=29" class="carslider-inner-single-button buttonkonf">
-                    <span>Конфигуратор</span>
-                </a>
-            </div>
+                    <a href="/NewSantaFe" class="carslider-inner-single-desc-link">описание модели</a>
 
-<!--             <div class="carslider-inner-single">
-                <div class="carslider-inner-single-title">Grand Santa Fe</div>
-                <div class="carslider-inner-single-desc grand_santa_fe">
-                    <a href="/GrandSantaFe/" class="carslider-inner-single-desc-link">описание модели</a>
-                    <div class="carslider-inner-single-desc-tit">Скидка</div>
-                    <div class="carslider-inner-single-desc-price">120 000 ₽</div> -->
-                    <!--<div class="carslider-inner-single-desc-tit carslider-inner-single-desc-tit-ball">Баллы<sup>**</sup></div>
-<div class="carslider-inner-single-desc-bal">20 000 <sup class="carslider-inner-single-desc-bal-star"></sup></div>-->
-<!--                 </div>
-                <div class="carslider-inner-single-img">
-                    <img src="/hpromise/img/grand_sf_small.png">
+                    <div class="carslider-inner-single-desc-tit">Выгода</div>
+                    <div class="carslider-inner-single-desc-price">120 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
+
+
+                    <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
+                    <div class="carslider-inner-single-desc-price mobile_hidden">175 000 &#8381;</div>
+
                 </div>
-                <a href="http://www.hyundai.ru/test-drive?old_car_id=12" class="carslider-inner-single-button buttontd">
+                <div class="carslider-inner-single-img">
+                    <img src="https://hpromise.hyundai.ru/upload/iblock/aae/newSantaFe.png">
+                </div>
+                <a href="/test-drive/" class="carslider-inner-single-button buttontd">
                     <span>Тест-драйв</span>
                 </a>
-                <a href="http://www.hyundai.ru/configurator/?car_id=12" class="carslider-inner-single-button buttonkonf">
+                <a href="/configurator/" class="carslider-inner-single-button buttonkonf">
                     <span>Конфигуратор</span>
                 </a>
-            </div> -->
+            </div>
+            <div class="carslider-inner-single">
+                <div class="carslider-inner-single-title sonata">Sonata</div>
+                <div class="carslider-inner-single-desc sonata">
+                    <a href="http://sonata.hyundai.ru/" class="carslider-inner-single-desc-link">описание модели</a>
+
+                    <div class="carslider-inner-single-desc-tit">Выгода</div>
+                    <div class="carslider-inner-single-desc-price">140 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
+
+
+                    <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
+                    <div class="carslider-inner-single-desc-price mobile_hidden">180 000 &#8381;</div>
+
+                </div>
+                <div class="carslider-inner-single-img">
+                    <img src="https://hpromise.hyundai.ru/upload/iblock/4a7/sonata.png">
+                </div>
+                <a href="/test-drive/" class="carslider-inner-single-button buttontd">
+                    <span>Тест-драйв</span>
+                </a>
+                <a href="/configurator/" class="carslider-inner-single-button buttonkonf">
+                    <span>Конфигуратор</span>
+                </a>
+            </div>
+            <div class="carslider-inner-single">
+                <div class="carslider-inner-single-title solaris">Solaris</div>
+                <div class="carslider-inner-single-desc solaris">
+                    <a href="/NewSolaris" class="carslider-inner-single-desc-link">описание модели</a>
+
+                    <div class="carslider-inner-single-desc-tit">Выгода</div>
+                    <div class="carslider-inner-single-desc-price">50 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
+
+
+                    <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
+                    <div class="carslider-inner-single-desc-price mobile_hidden">85 000 &#8381;</div>
+
+                </div>
+                <div class="carslider-inner-single-img">
+                    <img src="https://hpromise.hyundai.ru/upload/iblock/5a6/solaris.png">
+                </div>
+                <a href="/test-drive/" class="carslider-inner-single-button buttontd">
+                    <span>Тест-драйв</span>
+                </a>
+                <a href="/configurator/" class="carslider-inner-single-button buttonkonf">
+                    <span>Конфигуратор</span>
+                </a>
+            </div>
+            <div class="carslider-inner-single">
+                <div class="carslider-inner-single-title creta">Creta</div>
+                <div class="carslider-inner-single-desc creta">
+                    <a href="/Creta" class="carslider-inner-single-desc-link">описание модели</a>
+
+                    <div class="carslider-inner-single-desc-tit">Выгода</div>
+                    <div class="carslider-inner-single-desc-price">20 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
+
+
+                    <div class="carslider-inner-single-desc-tit">Выгода<span class="hide"> при покупке<br/>по программе<br/><a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
+                    <div class="carslider-inner-single-desc-price">60 000 &#8381;</div>
+
+                </div>
+                <div class="carslider-inner-single-img">
+                    <img src="https://hpromise.hyundai.ru/upload/iblock/40c/creta_small.png">
+                </div>
+                <a href="/test-drive/" class="carslider-inner-single-button buttontd">
+                    <span>Тест-драйв</span>
+                </a>
+                <a href="/configurator/" class="carslider-inner-single-button buttonkonf">
+                    <span>Конфигуратор</span>
+                </a>
+            </div>
+            <div class="carslider-inner-single">
+                <div class="carslider-inner-single-title elantra">Elantra</div>
+                <div class="carslider-inner-single-desc elantra">
+                    <a href="/Elantra" class="carslider-inner-single-desc-link">описание модели</a>
+
+                    <div class="carslider-inner-single-desc-tit">Выгода</div>
+                    <div class="carslider-inner-single-desc-price">50 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
+
+
+                    <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
+                    <div class="carslider-inner-single-desc-price mobile_hidden">95 000 &#8381;</div>
+
+                </div>
+                <div class="carslider-inner-single-img">
+                    <img src="https://hpromise.hyundai.ru/upload/iblock/54e/platinum-silver_12.png">
+                </div>
+                <a href="/test-drive/" class="carslider-inner-single-button buttontd">
+                    <span>Тест-драйв</span>
+                </a>
+                <a href="/configurator/" class="carslider-inner-single-button buttonkonf">
+                    <span>Конфигуратор</span>
+                </a>
+            </div>
+            <div class="carslider-inner-single">
+                <div class="carslider-inner-single-title tucson">Tucson</div>
+                <div class="carslider-inner-single-desc tucson">
+                    <a href="/Tucson" class="carslider-inner-single-desc-link">описание модели</a>
+
+                    <div class="carslider-inner-single-desc-tit">Выгода</div>
+                    <div class="carslider-inner-single-desc-price">80 000 &#8381;</div>
+                    <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
+
+
+                    <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
+                    <div class="carslider-inner-single-desc-price mobile_hidden">125 000 &#8381;</div>
+
+                </div>
+                <div class="carslider-inner-single-img">
+                    <img src="https://hpromise.hyundai.ru/upload/iblock/ad9/TLr_Ara_Blue_1280_11.png">
+                </div>
+                <a href="/test-drive/" class="carslider-inner-single-button buttontd">
+                    <span>Тест-драйв</span>
+                </a>
+                <a href="/configurator/" class="carslider-inner-single-button buttonkonf">
+                    <span>Конфигуратор</span>
+                </a>
+            </div>
 
         </div>
-
         <div class="carslider-button buttonprev"></div>
         <div class="carslider-button buttonnext"></div>
         <div style="clear: both;"></div>
@@ -271,8 +283,10 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
     <div class="nblock">
         <div class="footnote">
             <p>* Механизм «ТРЕЙД-ИН» - переход права собственности бывшего в употреблении автомобиля к дилеру, осуществляемый для зачета его остаточной стоимости при приобретении нового автомобиля.</p>
-            <p>** Баллы начисляются после добавления нового а/м в Гараж в Мире Хёндэ, и их можно потратить в личном кабинете Мира Хёндэ.</p>
-            <p>*** Кроме автомобилей производства ТагАЗ</p>
+            <p>** Предложение ограничено, действительно с 11.02.2019 по 31.03.2019, не оферта.</p>
+            <p>***Кроме автомобилей производства ТагАЗ.</p>
+            <p>***Скидки не суммируются между собой.</p>
+            <p>Подробности у официальных <a href="https://hpromise.hyundai.ru/dealers-h-promise/">дилеров H-Promise</a>.</p>
         </div>
     </div>
 </div>
