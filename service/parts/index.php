@@ -27,15 +27,8 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                     <div class="content-header-fw__text">
                         <div class="content-title">Оригинальные запасные части</div>
                         <div class="content-descr">Hyundai использует высокие технологии и стандарты качества для того, чтобы обеспечить максимальную эффективность и оптимизировать работу автомобиля.</div>
-                        <!-- <a href="/service-request" class="bw-views-link" role="button">Записаться на сервис</a> -->
-                        <a class="s-anchor js-scroll-to-selling" href="#selling">
-                            <div class="s-anchor__wrap">
-                                <div class="s-anchor__image">
-                                    <img src="https://www.hyundai.ru/media/img/service-pages/selling/ZCH.png" alt="">
-                                </div>
-                                <span class="s-anchor__text">Оптовые продажи ЗЧ</span>
-                            </div>
-                        </a>
+
+                        <a href="https://www.hyundai.ru/media/downloads/mobis_zapchasty_final_160718.pdf" download="download" class="content-scroller content-scroller--bodywork" data-role="content-scroller" style="margin-top: 20px;"><i class="icon icon-dark icon-down"></i> Скачать каталог запчастей</a>
                     </div>
                 </div>
                 <div class="parts-views-wrapper" id="parts-views">
@@ -391,76 +384,6 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-
-                <div id="selling" class="selling">
-                    <div class="selling__container">
-                        <h2 class="selling__title">Оптовые продажи</h2>
-                        <div class="selling__text">
-                            Оптовая программа по&nbsp;продаже запасных частей направлена на&nbsp;развитие взаимовыгодного сотрудничества с&nbsp;независимыми магазинами запасных частей и&nbsp;станциями технического обслуживания автомобилей с&nbsp;целью дальнейшего предоставления услуг по&nbsp;продаже запасных частей высокого качества владельцам автомобилей HYUNDAI.
-                        </div>
-                        <div class="selling__list">
-                            <div class="selling__item selling__item--50">
-                                <div class="selling__subtitle">
-                                    Преимущества для&nbsp;независимых
-                                    оптовых партнеров
-                                </div>
-                            </div>
-                            <div class="selling__item selling__item--25">
-                                <div class="selling__img">
-                                    <img src="https://www.hyundai.ru/media/img/service-pages/selling/icon_1.png" alt="">
-                                </div>
-                                <div class="selling__description">
-                                    Высокое качество оригинальных запасных
-                                    частей HYUNDAI
-                                </div>
-                            </div>
-                            <div class="selling__item selling__item--25">
-                                <div class="selling__img">
-                                    <img src="https://www.hyundai.ru/media/img/service-pages/selling/icon_2.png" alt="">
-                                </div>
-                                <div class="selling__description">
-                                    Индивидуальный
-                                    подход
-                                    в&nbsp;ценообразовании
-                                </div>
-                            </div>
-                            <div class="selling__item selling__item--25">
-                                <div class="selling__img">
-                                    <img src="https://www.hyundai.ru/media/img/service-pages/selling/icon_3-01.png" alt="">
-                                </div>
-                                <div class="selling__description">
-                                    Широкий ассортимент
-                                </div>
-                            </div>
-                            <div class="selling__item selling__item--25">
-                                <div class="selling__img">
-                                    <img src="https://www.hyundai.ru/media/img/service-pages/selling/icon_4.png" alt="">
-                                </div>
-                                <div class="selling__description">
-                                    Гибкий способ оплаты
-                                </div>
-                            </div>
-                            <div class="selling__item selling__item--25">
-                                <div class="selling__img">
-                                    <img src="https://www.hyundai.ru/media/img/service-pages/selling/icon_5.png" alt="">
-                                </div>
-                                <div class="selling__description">
-                                    Возможность доставки
-                                </div>
-                            </div>
-                            <div class="selling__item selling__item--25">
-                                <div class="selling__img">
-                                    <img src="https://www.hyundai.ru/media/img/service-pages/selling/icon_6.png" alt="">
-                                </div>
-                                <div class="selling__description">
-                                    Техническая поддержка
-                                </div>
-                            </div>
-                        </div>
-
-                        <a class="bw-views-link showPartsPopup" role="button">Оставить заявку</a>
                     </div>
                 </div>
 
