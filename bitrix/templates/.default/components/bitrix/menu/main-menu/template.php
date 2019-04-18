@@ -220,6 +220,9 @@
 							<strong class="service-submenu__cat-title">Запасные части и&nbsp;аксессуары</strong>
 							<ul class="service-submenu__cat-items">
 								<li class="service-submenu__item">
+									<a href="/brand-collection/" class="service-submenu__link">Бренд-коллекция</a>
+								</li>
+                                <li class="service-submenu__item">
 									<a href="/service/parts" class="service-submenu__link">Оригинальные запасные части</a>
 								</li>
 								<li class="service-submenu__item">
@@ -242,9 +245,9 @@
 								<li class="service-submenu__item">
 									<a href="/service/roadside-assistance" class="service-submenu__link">Помощь на дороге</a>
 								</li>
-								<li class="service-submenu__item">
-									<a href="https://era.hyundai.ru/"  target="_blank" class="service-submenu__link">На связи<svg xmlns="http://www.w3.org/2000/svg" class="ic-svg ic-arrow-s"><use xlink:href="#ic-arrow-s"></use></svg></a>
-								</li>
+                                <li class="service-submenu__item">
+                                    <a href="https://era.hyundai.ru/"  target="_blank" class="service-submenu__link">На связи<svg xmlns="http://www.w3.org/2000/svg" class="ic-svg ic-arrow-s"><use xlink:href="#ic-arrow-s"></use></svg></a>
+                                </li>
 							</ul>
 						</li>
 						<li class="service-submenu__cat">
@@ -265,5 +268,12 @@
 
 		</div>
 	</div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" display="none" aria-hidden="true">
+        <symbol id="ic-arrow-s" viewbox="0 0 14.172 11.732">
+            <title>Arrow small</title>
+            <polygon fill-rule="evenodd" clip-rule="evenodd" points="8.325,0 7.675,0.759 12.27,5.379 0,5.379 0,6.379 12.27,6.379 7.646,11.025 8.354,11.732 14.172,5.879 "/>
+        </symbol>
+    </svg>
 
 <?endif?>

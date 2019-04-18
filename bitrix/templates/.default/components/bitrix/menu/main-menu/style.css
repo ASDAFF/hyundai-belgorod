@@ -40,5 +40,9 @@ ul.left-menu li a.selected:hover
 	color:#FC8D3D;
 }
 
+.service-submenu__item .ic-svg {
+	margin-left: 12px;
+}
+
 
 
