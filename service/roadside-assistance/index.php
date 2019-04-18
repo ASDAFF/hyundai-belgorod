@@ -30,7 +30,8 @@ $APPLICATION->SetTitle("Помощь на дороге");
                             <div class="subject-title clearfix">
                                 <div class="content-inner-title">Помощь на дороге</div>
                                 <div class="content-inner-descr">В случае непредвиденных ситуаций, при которых требуется техническая помощь (эвакуация, запуск двигателя, замена или ремонт колеса, вскрытие дверей, отключение сигнализации, подвоз топлива), на дороге водителю достаточно нажать на кнопку SOS – и уже через несколько секунд оператор «ЭРА-ГЛОНАСС» ответит, чтобы уточнить информацию о происшествии. Далее информация, которая включает в себя, в том числе, местоположение автомобиля, передается сервис-провайдеру РАТ, оператор которого связывается с водителем также посредством устройства «ЭРА-ГЛОНАСС» для оказания оперативной технической помощи или эвакуации (опция связи с оператором «ЭРА-ГЛОНАСС» доступна для автомобилей, оборудованных устройством «ЭРА-ГЛОНАСС»).</div>
-                                <div class="content-inner-descr">Программа «Помощь на дороге» является частью<br/>программы лояльности Hyundai.</div>
+                                <div class="content-inner-descr">Программа «Помощь на дороге» является частью программы лояльности Hyundai.<br/>Срок действия Программы с момента активации для владельцев моделей Hyundai (за исключением моделей Equus и Hyundai Genesis) – 1 год<br/>
+                                    Срок действия Программы с момента активации для владельцев моделей за Equus и Hyundai Genesis – 5 лет</div>
                             </div>
                             <div class="roadside-highlights__item">
                                 <div class="title">Цель</div>
@@ -57,71 +58,73 @@ $APPLICATION->SetTitle("Помощь на дороге");
                     </div>
                 </div>
                 <div class="content-inner">
-                    <div class="subject subject-validities">
-                        <div class="subject-blackboard">
-                            <div class="subject-title clearfix">
-                                <div class="content-inner-title content-inner-title--plus-descr">Сроки действия программы<sup>**</sup></div>
-                                <div class="content-inner-descr">Все новые автомобили Hyundai бесплатно подключаются<br/>к&nbsp;программе «Помощь на дороге»</div>
-                            </div>
-                            <div class="subject-content subject-content-validities">
-                                <div class="v-items">
-                                    <ul class="grid grid-100">
-                                        <li class="grid-el grid-el-25 v-item">
-                                            <div class="v-item-c">
-                                                <div class="v-item-c__circle">
-                                                    <span class="v-item-c__circle-t"><strong>1</strong>Год</span>
-                                                </div>
+                    <!--
+                                <div class="subject subject-validities">
+                                    <div class="subject-blackboard">
+                                        <div class="subject-title clearfix">
+                                            <div class="content-inner-title content-inner-title--plus-descr">Сроки действия программы<sup>**</sup></div>
+                                            <div class="content-inner-descr">Все новые автомобили Hyundai бесплатно подключаются<br/>к&nbsp;программе «Помощь на дороге»</div>
+                                        </div>
+                                        <div class="subject-content subject-content-validities">
+                                            <div class="v-items">
+                                                <ul class="grid grid-100">
+                                                    <li class="grid-el grid-el-25 v-item">
+                                                        <div class="v-item-c">
+                                                            <div class="v-item-c__circle">
+                                                                <span class="v-item-c__circle-t"><strong>1</strong>Год</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="v-item-t">
+                                                            <p class="v-item-t-par">Для всех моделей Hyundai (за исключением H1, Equus и Genesis), купленных с 1 марта 2016&nbsp;года
+                    </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="grid-el grid-el-25 v-item">
+                                                        <div class="v-item-c">
+                                                            <div class="v-item-c__circle">
+                                                                <span class="v-item-c__circle-t"><strong>2</strong>Года</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="v-item-t">
+                                                            <p class="v-item-t-par">Для всех моделей Hyundai (за исключением H1, Equus и Genesis), купленных с 1 апреля 2015&nbsp;года
+                    </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="grid-el grid-el-25 v-item">
+                                                        <div class="v-item-c">
+                                                            <div class="v-item-c__circle">
+                                                                <span class="v-item-c__circle-t"><strong>3</strong>Года</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="v-item-t">
+                                                            <p class="v-item-t-par">Для всех моделей Hyundai (за исключением H1, Equus и Genesis), купленных с 1 июня 2013 года до 31 марта 2015&nbsp;года
+                    </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="grid-el grid-el-25 v-item">
+                                                        <div class="v-item-c">
+                                                            <div class="v-item-c__circle">
+                                                                <span class="v-item-c__circle-t"><strong>5</strong>Лет</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="v-item-t">
+                                                            <p class="v-item-t-par">Для Hyundai Genesis и Equus, купленных с 1 июня 2013
+                    </p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
                                             </div>
-                                            <div class="v-item-t">
-                                                <p class="v-item-t-par">Для всех моделей Hyundai (за исключением H1, Equus и Genesis), купленных с 1 марта 2016&nbsp;года
-                                                </p>
+                                            <!--
+                    <div class="notes notes--validities">
+                                                <p>Услуги доступны в день, следующий за датой покупки автомобиля <sup>*</sup></p>
+                                                <p><sup class="skyblue">*</sup>  &mdash; Дату подключения услуг и срок окончания их действия необходимо уточнять у продавца</p>
+                                                <p><sup class="skyblue">**</sup> &mdash; Услуги оказывает ЗАО «Автоассистанс», Российское Автомобильное Товарищество (РАТ)</p>
                                             </div>
-                                        </li>
-                                        <li class="grid-el grid-el-25 v-item">
-                                            <div class="v-item-c">
-                                                <div class="v-item-c__circle">
-                                                    <span class="v-item-c__circle-t"><strong>2</strong>Года</span>
-                                                </div>
-                                            </div>
-                                            <div class="v-item-t">
-                                                <p class="v-item-t-par">Для всех моделей Hyundai (за исключением H1, Equus и Genesis), купленных с 1 апреля 2015&nbsp;года
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="grid-el grid-el-25 v-item">
-                                            <div class="v-item-c">
-                                                <div class="v-item-c__circle">
-                                                    <span class="v-item-c__circle-t"><strong>3</strong>Года</span>
-                                                </div>
-                                            </div>
-                                            <div class="v-item-t">
-                                                <p class="v-item-t-par">Для всех моделей Hyundai (за исключением H1, Equus и Genesis), купленных с 1 июня 2013 года до 31 марта 2015&nbsp;года
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="grid-el grid-el-25 v-item">
-                                            <div class="v-item-c">
-                                                <div class="v-item-c__circle">
-                                                    <span class="v-item-c__circle-t"><strong>5</strong>Лет</span>
-                                                </div>
-                                            </div>
-                                            <div class="v-item-t">
-                                                <p class="v-item-t-par">Для Hyundai Genesis и Equus, купленных с 1 июня 2013
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
+                    -- >
+                                        </div>
+                                    </div>
                                 </div>
-                                <!--
-        <div class="notes notes--validities">
-                                    <p>Услуги доступны в день, следующий за датой покупки автомобиля <sup>*</sup></p>
-                                    <p><sup class="skyblue">*</sup>  &mdash; Дату подключения услуг и срок окончания их действия необходимо уточнять у продавца</p>
-                                    <p><sup class="skyblue">**</sup> &mdash; Услуги оказывает ЗАО «Автоассистанс», Российское Автомобильное Товарищество (РАТ)</p>
-                                </div>
-        -->
-                            </div>
-                        </div>
-                    </div>
+                    -->
 
                     <div class="subject subject-features gray-bg">
                         <div class="subject-blackboard">
@@ -135,7 +138,7 @@ $APPLICATION->SetTitle("Помощь на дороге");
                                         <div class="features-item">
                                             <div class="features-item__title">Эвакуацию</div>
                                             <div class="features-item__text">
-                                                Эвакуация транспортного средства Клиента до ближайшего официального дилера Hyundai (в пределах 50 км от административной границы города присутствия официального Дилера Hyundai) на территории Российской Федерации, при неисправности***
+                                                Эвакуация транспортного средства Клиента до ближайшего официального дилера Hyundai (в пределах 100 км от административной границы города присутствия официального Дилера Hyundai) на территории Российской Федерации, при неисправности***
                                             </div>
                                         </div>
                                         <div class="features-item features-item--first">
@@ -147,7 +150,16 @@ $APPLICATION->SetTitle("Помощь на дороге");
                                                     <li>Помощь в дозаправке автомобиля (топливо&nbsp;оплачивает&nbsp;Клиент);</li>
                                                     <li>Работы по ремонту или замене колеса на&nbsp;штатное запасное;</li>
                                                     <li>Проведение работ по вскрытию дверей, багажника, капота автомобиля.</li>
-                                                </ul>
+                                                </ul><br/>
+                                                А также уникальная услуга «Аварийный комиссар»<sup>******</sup> (без услуги сбора справок):
+                                                <ul>
+                                                    <li>Прибытие аварийного комиссара на место ДТП</li>
+                                                    <li>Оказание клиенту консультационной и информационной поддержки</li>
+                                                    <li>Фотографирование и фиксация следов ДТП</li>
+                                                    <li>Составление акта осмотра транспортного средства</li>
+                                                    <li>Составление протокола выезда аварийного комиссара</li>
+                                                </ul><br/>
+                                                Услуга аварийного комиссара доступна в 65 городах*****
                                             </div>
                                         </div>
                                     </li>
@@ -155,7 +167,7 @@ $APPLICATION->SetTitle("Помощь на дороге");
                                         <div class="features-item features-item--evac features-item--pl150">
                                             <div class="features-item__title">Экстренную<br/>эвакуацию при ДТП</div>
                                             <div class="features-item__text">
-                                                Программа « Помощи на дороге» дополнена уникальным сервисом для  владельцев автомобилей Hyundai (за исключением H-1, EQUUS и Genesis). Компания Хендэ предлагает участникам программы услугу**** эвакуации транспортного средства клиента в случае ДТП до ближайшего официального дилерского центра Hyundai (в пределах 50 км от административной границы города присутствия официального Дилера Hyundai) на территории РФ
+                                                Программа « Помощи на дороге» дополнена уникальным сервисом для  владельцев автомобилей Hyundai (за исключением H-1, EQUUS и Genesis). Компания Хендэ предлагает участникам программы услугу**** эвакуации транспортного средства клиента в случае ДТП до ближайшего официального дилерского центра Hyundai (в пределах 100 км от административной границы города присутствия официального Дилера Hyundai) на территории РФ
                                             </div>
                                         </div>
                                         <div class="features-item features-item--last features-item--pl150">
@@ -189,6 +201,9 @@ $APPLICATION->SetTitle("Помощь на дороге");
                                     <p><sup class="skyblue">**</sup> &mdash; Услуги оказывает АО «Автоассистанс», Российское Автомобильное Товарищество (РАТ)</p>
                                     <p><sup class="skyblue">***</sup> &mdash; Случаи неисправностей, возникших в результате дорожно-транспортного происшествия (а также ущерба, нанесенного третьими лицами), не покрываются программой. Подробности программы описаны в Правилах оказания и использования услуг.</p>
                                     <p><sup class="skyblue">****</sup> &mdash; ХМСНГ оставляет за собой право изменения сроков и условий действия услуги.</p>
+                                    <p><sup class="skyblue">*****</sup> &mdash;Услуга доступна в следующих городах: Абакан, Архангельск, Астрахань, Барнаул, Белгород, Брянск, Бугульма, Владивосток, Волгоград, Воронеж, Георгиевск, Екатеринбург, Ессентуки, Железноводск, Иваново, Ижевск, Йошкар-Ола, Казань, Калининград, Калуга, Кемерово, Киров, Кисловодск, Кострома, Краснодар, Красноярск, Курган, Липецк, Магнитогорск, Минеральные Воды, Минусинск, Москва, Мурманск, Набережные Челны, Нижневартовск, Нижний Новгород, Нижний Тагил, Новокузнецк, Новосибирск, Омск, Оренбург, Пенза, Пермь, Петрозаводск, Псков, Пятигорск, Ростов-на-Дону, Рязань, СамараСанкт-Петербург, Саратов, Смоленск, Ставрополь, Старый Оскол, Стерлитамак, Сургут, Тольятти, Томск, Тула, Тюмень, Уфа, Хабаровск, Чебоксары, Челябинск, Череповец, Элиста</p>
+
+                                    <p><sup class="skyblue">******</sup> &mdash; действует для автомобилей, проданных с 1 января 2019г.</p>
                                 </div>
                             </div>
                         </div>
