@@ -10,8 +10,8 @@ $APPLICATION->SetTitle("Гарантия");
 
 
     <!--
-    Контент страницы начнется тут
-    -->
+Контент страницы начнется тут
+-->
 
     <main class="main" data-model="home">
 
@@ -27,7 +27,92 @@ $APPLICATION->SetTitle("Гарантия");
                 <div class="warranty-info" id="warranty-info">
                     <div class="content-inner">
                         <div class="content-descr">Для поддержания автомобиля в исправном техническом состоянии и сохранения гарантии необходимо соблюдать все правила нормальной эксплуатации автомобиля и рекомендации изготовителя, а также установленный регламент технического обслуживания.</div>
-                        <div class="subject subject-warranty-info grid">
+                        <div class="subject subject-warranty-info grid" data-model="solaris_new">
+                            <div class="warranty-info-block grid-el grid-el-50 grid-el-center">
+                                <div class="warranty-info-heading">Общая гарантия</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">5</div>
+                                    <div class="wrrnty-p__years-sup">Лет</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">150 000</div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-1.jpg" class="warranty-info-img" alt=""/></div>
+                            </div>
+                            <!-- <div class="warranty-info-block grid-el grid-el-50">
+                                <div class="warranty-info-heading">двигатель и коробка передач</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">5<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-sup">Лет</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">120 000<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-2.png" class="warranty-info-img" alt=""/></div>
+                            </div> -->
+                        </div>
+                        <div class="subject subject-warranty-info grid" data-model="creta" style="display: none">
+                            <div class="warranty-info-block grid-el grid-el-50 grid-el-center">
+                                <div class="warranty-info-heading">Общая гарантия</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">5</div>
+                                    <div class="wrrnty-p__years-sup">Лет</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">150 000</div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-1.jpg" class="warranty-info-img" alt=""/></div>
+                            </div>
+                            <!-- <div class="warranty-info-block grid-el grid-el-50">
+                                <div class="warranty-info-heading">двигатель и коробка передач</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">5<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-sup">Лет</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">120 000<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-2.png" class="warranty-info-img" alt=""/></div>
+                            </div> -->
+                        </div>
+                        <div class="subject subject-warranty-info grid" data-model="elantra" style="display: none">
+                            <div class="warranty-info-block grid-el grid-el-50 grid-el-center">
+                                <div class="warranty-info-heading">Общая гарантия</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">3</div>
+                                    <div class="wrrnty-p__years-sup">Года</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">100 000</div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-1.jpg" class="warranty-info-img" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="subject subject-warranty-info grid" data-model="genesis" style="display: none">
+                            <div class="warranty-info-block grid-el grid-el-50 grid-el-center">
+                                <div class="warranty-info-heading">Общая гарантия</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">5</div>
+                                    <div class="wrrnty-p__years-sup">Лет</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">150 000</div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-1.jpg" class="warranty-info-img" alt=""/></div>
+                            </div>
+                            <!-- <div class="warranty-info-block grid-el grid-el-50">
+                                <div class="warranty-info-heading">двигатель и коробка передач</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">5<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-sup">Лет</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">120 000<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-2.png" class="warranty-info-img" alt=""/></div>
+                            </div> -->
+                        </div>
+                        <div class="subject subject-warranty-info grid" data-model="h1" style="display: none">
                             <div class="warranty-info-block grid-el grid-el-50">
                                 <div class="warranty-info-heading">Общая гарантия</div>
                                 <div class="warranty-info-period">
@@ -51,24 +136,174 @@ $APPLICATION->SetTitle("Гарантия");
                                 <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-2.png" class="warranty-info-img" alt=""/></div>
                             </div>
                         </div>
+                        <div class="subject subject-warranty-info grid" data-model="i40" style="display: none">
+                            <div class="warranty-info-block grid-el grid-el-50">
+                                <div class="warranty-info-heading">Общая гарантия</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">3</div>
+                                    <div class="wrrnty-p__years-sup">Года</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">100 000</div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-1.jpg" class="warranty-info-img" alt=""/></div>
+                            </div>
+                            <div class="warranty-info-block grid-el grid-el-50">
+                                <div class="warranty-info-heading">двигатель и коробка передач</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">5<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-sup">Лет</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">120 000<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-2.png" class="warranty-info-img" alt=""/></div>
+                            </div>
+                        </div>
+                        <div class="subject subject-warranty-info grid" data-model="santafe" style="display: none">
+                            <div class="warranty-info-block grid-el grid-el-50">
+                                <div class="warranty-info-heading">Общая гарантия</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">3</div>
+                                    <div class="wrrnty-p__years-sup">Года</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">100 000</div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-1.jpg" class="warranty-info-img" alt=""/></div>
+                            </div>
+                            <div class="warranty-info-block grid-el grid-el-50">
+                                <div class="warranty-info-heading">двигатель и коробка передач</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">5<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-sup">Лет</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">120 000<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-2.png" class="warranty-info-img" alt=""/></div>
+                            </div>
+                        </div>
+                        <div class="subject subject-warranty-info grid" data-model="new_santafe" style="display: none">
+                            <div class="warranty-info-block grid-el grid-el-50 grid-el-center">
+                                <div class="warranty-info-heading">Общая гарантия</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">3</div>
+                                    <div class="wrrnty-p__years-sup">Года</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">100 000</div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-1.jpg" class="warranty-info-img" alt=""/></div>
+                            </div>
+                            <!-- <div class="warranty-info-block grid-el grid-el-50">
+                                <div class="warranty-info-heading">двигатель и коробка передач</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">3<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-sup">Года</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">100 000<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-2.png" class="warranty-info-img" alt=""/></div>
+                            </div> -->
+                        </div>
+                        <div class="subject subject-warranty-info grid" data-model="grandsantafe" style="display: none">
+                            <div class="warranty-info-block grid-el grid-el-50">
+                                <div class="warranty-info-heading">Общая гарантия</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">3</div>
+                                    <div class="wrrnty-p__years-sup">Года</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">100 000</div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-1.jpg" class="warranty-info-img" alt=""/></div>
+                            </div>
+                            <div class="warranty-info-block grid-el grid-el-50">
+                                <div class="warranty-info-heading">двигатель и коробка передач</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">5<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-sup">Лет</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">120 000<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-2.png" class="warranty-info-img" alt=""/></div>
+                            </div>
+                        </div>
+                        <div class="subject subject-warranty-info grid" data-model="tucson" style="display: none">
+                            <div class="warranty-info-block grid-el grid-el-50">
+                                <div class="warranty-info-heading">Общая гарантия</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">3</div>
+                                    <div class="wrrnty-p__years-sup">Года</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">100 000</div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-1.jpg" class="warranty-info-img" alt=""/></div>
+                            </div>
+                            <div class="warranty-info-block grid-el grid-el-50">
+                                <div class="warranty-info-heading">двигатель и коробка передач</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">5<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-sup">Лет</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">120 000<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-2.png" class="warranty-info-img" alt=""/></div>
+                            </div>
+                        </div>
+                        <div class="subject subject-warranty-info grid" data-model="new_tucson" style="display: none">
+                            <div class="warranty-info-block grid-el grid-el-50">
+                                <div class="warranty-info-heading">Общая гарантия</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">3</div>
+                                    <div class="wrrnty-p__years-sup">Года</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">100 000</div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-1.jpg" class="warranty-info-img" alt=""></div>
+                            </div>
+                            <div class="warranty-info-block grid-el grid-el-50">
+                                <div class="warranty-info-heading">двигатель и коробка передач</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">5<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-sup">Лет</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">120 000<sup><span style="font-size: 20px;">*</span></sup></div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-2.png" class="warranty-info-img" alt=""/></div>
+                            </div>
+                        </div>
+                        <div class="subject subject-warranty-info grid" data-model="sonata" style="display: none">
+                            <div class="warranty-info-block grid-el grid-el-50 grid-el-center">
+                                <div class="warranty-info-heading">Общая гарантия</div>
+                                <div class="warranty-info-period">
+                                    <div class="wrrnty-p__years">3</div>
+                                    <div class="wrrnty-p__years-sup">Года</div>
+                                    <div class="wrrnty-p__years-divider"></div>
+                                    <div class="wrrnty-p__years-milage">100 000</div>
+                                    <div class="wrrnty-p__years-milage-sup-sub">Км пробега</div>
+                                </div>
+                                <div class="warranty-info-image"><img src="https://www.hyundai.ru/media/img/service-pages/warranty-info-image-1.jpg" class="warranty-info-img" alt=""></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="manuals-car-silder">
                     <div class="car-slider_wrap">
                         <div class="car-slider_cut">
                             <ul class="car-slider">
-
                                 <li data-model="solaris_new" data-pdf="Solaris">
                                     <div class="image-wrap">
                                         <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/NewSolaris.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">SOLARIS</span>
-                                </li>
-                                <li data-model="creta" data-pdf="Creta">
-                                    <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/Creta.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">CRETA</span>
                                 </li>
                                 <li data-model="elantra" data-pdf="Other">
                                     <div class="image-wrap">
@@ -76,17 +311,47 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                     <span class="model">ELANTRA</span>
                                 </li>
-                                <li data-model="equus" data-pdf="Equus">
+                                <li data-model="sonata" data-pdf="Other">
+                                    <div class="image-wrap">
+                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/NewSonata.png" alt="" style="max-width: 100%;">
+                                    </div>
+                                    <span class="model">Sonata</span>
+                                </li>
+                                <li data-model="creta" data-pdf="Creta">
+                                    <div class="image-wrap">
+                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/Creta.png" alt="" style="max-width: 100%;">
+                                    </div>
+                                    <span class="model">CRETA</span>
+                                </li>
+                                <li data-model="new_tucson" data-pdf="Other">
+                                    <div class="image-wrap">
+                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/new_tucson.png" alt="" style="max-width: 100%;">
+                                    </div>
+                                    <span class="model">New TUCSON</span>
+                                </li>
+                                <li data-model="new_santafe" data-pdf="Other">
+                                    <div class="image-wrap">
+                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/new_santafe.png" alt="" style="max-width: 100%;">
+                                    </div>
+                                    <span class="model">New SANTA FE</span>
+                                </li>
+                                <!-- <li data-model="equus" data-pdf="Equus">
                                     <div class="image-wrap">
                                         <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/EQUUS.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">Equus</span>
-                                </li>
-                                <li data-model="genesis" data-pdf="Genesis">
+                                </li> -->
+                                <li data-model="grandsantafe" data-pdf="Other">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/Genesis.png" alt="" style="max-width: 100%;">
+                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/GrandSantaFe.png" alt="" style="max-width: 100%;">
                                     </div>
-                                    <span class="model">Genesis</span>
+                                    <span class="model">Grand SANTA FE</span>
+                                </li>
+                                <li data-model="santafe" data-pdf="Other">
+                                    <div class="image-wrap">
+                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/Santa_Fe_Premium.png" alt="" style="max-width: 100%;">
+                                    </div>
+                                    <span class="model">SANTA FE</span>
                                 </li>
                                 <li data-model="h1" data-pdf="Other">
                                     <div class="image-wrap">
@@ -100,29 +365,11 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                     <span class="model">i40</span>
                                 </li>
-                                <li data-model="santafe" data-pdf="Other">
+                                <li data-model="genesis" data-pdf="Genesis">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/Santa_Fe_Premium.png" alt="" style="max-width: 100%;">
+                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/Genesis.png" alt="" style="max-width: 100%;">
                                     </div>
-                                    <span class="model">SANTA FE</span>
-                                </li>
-                                <li data-model="grandsantafe" data-pdf="Other">
-                                    <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/GrandSantaFe.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">Grand SANTA FE</span>
-                                </li>
-                                <li data-model="tucson" data-pdf="Other">
-                                    <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/tucson.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">TUCSON</span>
-                                </li>
-                                <li data-model="sonata" data-pdf="Other">
-                                    <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/NewSonata.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">Sonata</span>
+                                    <span class="model">Genesis</span>
                                 </li>
                             </ul>
                         </div>
@@ -134,7 +381,6 @@ $APPLICATION->SetTitle("Гарантия");
                     <div class="subject subject-warranty">
                         <div class="subject-blackboard">
                             <a id="wcontent"></a>
-
                             <div class="avaible-documents" data-model="solaris_new">
                                 <div class="spoilers">
                                     <div class="spoilers-content">
@@ -225,7 +471,7 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="https://www.hyundai.ru/media/warranty/Solaris.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Solaris.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                             <div class="avaible-documents" data-model="creta" style="display: none;">
@@ -411,98 +657,98 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="https://www.hyundai.ru/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
-                            <div class="avaible-documents" data-model="equus" style="display: none;">
+                            <!-- <div class="avaible-documents" data-model="equus" style="display: none;">
                                 <div class="spoilers">
-                                    <div class="spoilers-content">
-                                        <div class="spoiler">
-                                            <div class="spoiler-title">Гарантийный период
-                                                <div class="warranty-value">
-                                                    <span class="warranty-value--years">5<sup>лет</sup></span>
-                                                    <span class="warranty-value--milage">150 000<sup>Км</sup><sub>пробега</sub></span>
+                                        <div class="spoilers-content">
+                                            <div class="spoiler">
+                                                <div class="spoiler-title">Гарантийный период
+                                                    <div class="warranty-value">
+                                                        <span class="warranty-value--years">5<sup>лет</sup></span>
+                                                        <span class="warranty-value--milage">150 000<sup>Км</sup><sub>пробега</sub></span>
+                                                    </div>
+                                                </div>
+                                                <div class="spoiler-inner">
+                                                    Срок гарантии на элементы новых автомобилей Хендэ Экус (Hyundai Equus), за исключением отдельных комплектующих изделий, указанных в настоящей гарантии, составляет 5 лет или 150 тыс. км пробега (в зависимости от того, что наступит раньше) начиная с момента продажи (передачи) автомобиля Хендэ Экус (Hyundai Equus) официальным дилером Хендэ (Hyundai) первому покупателю, о чем должна свидетельствовать соответствующая отметка о дате начала гарантии в сервисной книжке.<br/><br/>
+                                                    Владелец вправе предъявить требования по гарантии, связанные только с качеством материалов или изготовления и только в течение гарантийного периода.<br/><br/>
+                                                    Срок службы автомобиля Хендэ Экус (Hyundai Equus) составляет 6 лет или 180 тыс. км пробега (в зависимости от того, что наступит раньше).
                                                 </div>
                                             </div>
-                                            <div class="spoiler-inner">
-                                                Срок гарантии на элементы новых автомобилей Хендэ Экус (Hyundai Equus), за исключением отдельных комплектующих изделий, указанных в настоящей гарантии, составляет 5 лет или 150 тыс. км пробега (в зависимости от того, что наступит раньше) начиная с момента продажи (передачи) автомобиля Хендэ Экус (Hyundai Equus) официальным дилером Хендэ (Hyundai) первому покупателю, о чем должна свидетельствовать соответствующая отметка о дате начала гарантии в сервисной книжке.<br/><br/>
-                                                Владелец вправе предъявить требования по гарантии, связанные только с качеством материалов или изготовления и только в течение гарантийного периода.<br/><br/>
-                                                Срок службы автомобиля Хендэ Экус (Hyundai Equus) составляет 6 лет или 180 тыс. км пробега (в зависимости от того, что наступит раньше).
-                                            </div>
-                                        </div>
-                                        <div class="spoiler">
-                                            <div class="spoiler-title">
-                                                Гарантия на отдельные комплектующие
-                                                <div class="warranty-value">
-                                                    <span class="warranty-value--years">1<sup>Год</sup></span>
-                                                    <span class="warranty-value--milage">20 000<sup>Км</sup><sub>пробега</sub></span>
+                                            <div class="spoiler">
+                                                <div class="spoiler-title">
+                                                    Гарантия на отдельные комплектующие
+                                                    <div class="warranty-value">
+                                                        <span class="warranty-value--years">1<sup>Год</sup></span>
+                                                        <span class="warranty-value--milage">20 000<sup>Км</sup><sub>пробега</sub></span>
+                                                    </div>
+                                                </div>
+                                                <div class="spoiler-inner">
+                                                    На отдельные комплектующие автомобиля Хендэ Экус (Hyundai Equus), перечисленные ниже, предоставляется гарантия с момента продажи (передачи) автомобиля Хендэ Экус (Hyundai Equus) первому покупателю (т. е. с указанной в регистрационной карточке сервисной книжки даты начала гарантии) в пределах:<br/><br/>
+                                                    12 месяцев или 20 тыс. км пробега (в зависимости от того, что наступит раньше):
+                                                    <ul>
+                                                        <li>тормозные диски и барабаны;</li>
+                                                        <li>газоразрядные лампы;</li>
+                                                        <li>аккумуляторная батарея;</li>
+                                                        <li>заправка системы кондиционирования хладагентом;</li>
+                                                        <li>приводные ремни;</li>
+                                                        <li>прокладки различных типов (кроме прокладки головки блока цилиндров);</li>
+                                                        <li>втулки стабилизаторов передней и задней подвески.</li>
+                                                    </ul>
+                                                    36 месяцев или 100 тыс. км пробега (в зависимости от того, что наступит раньше):
+                                                    <ul>
+                                                        <li>Аудиоаппаратура, установленная изготовителем</li>
+                                                    </ul>
                                                 </div>
                                             </div>
-                                            <div class="spoiler-inner">
-                                                На отдельные комплектующие автомобиля Хендэ Экус (Hyundai Equus), перечисленные ниже, предоставляется гарантия с момента продажи (передачи) автомобиля Хендэ Экус (Hyundai Equus) первому покупателю (т. е. с указанной в регистрационной карточке сервисной книжки даты начала гарантии) в пределах:<br/><br/>
-                                                12 месяцев или 20 тыс. км пробега (в зависимости от того, что наступит раньше):
-                                                <ul>
-                                                    <li>тормозные диски и барабаны;</li>
-                                                    <li>газоразрядные лампы;</li>
-                                                    <li>аккумуляторная батарея;</li>
-                                                    <li>заправка системы кондиционирования хладагентом;</li>
-                                                    <li>приводные ремни;</li>
-                                                    <li>прокладки различных типов (кроме прокладки головки блока цилиндров);</li>
-                                                    <li>втулки стабилизаторов передней и задней подвески.</li>
-                                                </ul>
-                                                36 месяцев или 100 тыс. км пробега (в зависимости от того, что наступит раньше):
-                                                <ul>
-                                                    <li>Аудиоаппаратура, установленная изготовителем</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="spoiler">
-                                            <div class="spoiler-title">Гарантия на лакокрасочное покрытие
-                                                <div class="warranty-value">
-                                                    <span class="warranty-value--years">5<sup>лет</sup></span>
-                                                    <span class="warranty-value--milage">150 000<sup>Км</sup><sub>пробега</sub></span>
+                                            <div class="spoiler">
+                                                <div class="spoiler-title">Гарантия на лакокрасочное покрытие
+                                                    <div class="warranty-value">
+                                                        <span class="warranty-value--years">5<sup>лет</sup></span>
+                                                        <span class="warranty-value--milage">150 000<sup>Км</sup><sub>пробега</sub></span>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="spoiler-inner">
+                                                <div class="spoiler-inner">
                                                 Срок гарантии на лакокрасочное покрытие новых автомобилей Хендэ Экус (Hyundai Equus) составляет 5 лет или 150 тыс. км пробега (в зависимости от того, что наступит раньше) начиная с момента продажи (передачи) первому покупателю (т. е. с указанной в сервисной книжке даты начала гарантии).<br/><br/>
                                                 Владелец вправе предъявить требования к качеству лакокрасочного покрытия только в течение гарантийного периода.
-                                            </div>
-                                        </div>
-                                        <div class="spoiler">
-                                            <div class="spoiler-title">Гарантия на запасные части
-                                                <div class="warranty-value">
-                                                    <span class="warranty-value--years">1<sup>Год</sup></span>
-                                                    <span class="warranty-value--milage">20 000<sup>Км</sup><sub>пробега</sub></span>
                                                 </div>
                                             </div>
-                                            <div class="spoiler-inner">
+                                            <div class="spoiler">
+                                                <div class="spoiler-title">Гарантия на запасные части
+                                                    <div class="warranty-value">
+                                                        <span class="warranty-value--years">1<sup>Год</sup></span>
+                                                        <span class="warranty-value--milage">20 000<sup>Км</sup><sub>пробега</sub></span>
+                                                    </div>
+                                                </div>
+                                                <div class="spoiler-inner">
                                                 Срок гарантии на оригинальные запасные части для автомобиля Хендэ Экус (Hyundai Equus), кроме отдельных комплектующих изделий, составляет 1 год или 20 тыс. км пробега (в зависимости от того, что наступит раньше) начиная с момента установки запасной части на автомобиль Хендэ Экус (Hyundai Equus).
+                                                </div>
                                             </div>
-                                        </div>
 
-                                        <div class="spoiler">
-                                            <div class="spoiler-title">Гарантия на комплектующие сторонних поставщиков
-                                                <!--
-                                                                                            <div class="warranty-value">
-                                                                                                 <span class="warranty-value--years">1<sup>Год</sup></span>
-                                                                                                <span class="warranty-value--milage">20 000<sup>Км</sup><sub>пробега</sub></span>
-                                                                                            </div>
-                                                -->
-                                            </div>
-                                            <div class="spoiler-inner">
+                                            <div class="spoiler">
+                                                <div class="spoiler-title">Гарантия на комплектующие сторонних поставщиков
+
+                                                    <div class="warranty-value">
+                                                         <span class="warranty-value--years">1<sup>Год</sup></span>
+                                                        <span class="warranty-value--milage">20 000<sup>Км</sup><sub>пробега</sub></span>
+                                                    </div>
+
+                                                </div>
+                                                <div class="spoiler-inner">
                                                 На некоторые комплектующие автомобилей Хендэ Экус (Hyundai Equus) гарантия предоставляется поставщиками данных комплектующих и на их условиях. Условия гарантии и гарантийный период, указанные в данной сервисной книжке, не относятся ни в какой мере к данным комплектующим. В частности, к таким комплектующим относятся:
-                                                <ul class="spoiler-ul">
-                                                    <li>шины, изначально установленные на автомобиль изготовителем;</li>
-                                                    <li>мультимедийные и навигационные системы,установленные на автомобиль под контролем изготовителя.</li></ul>
-                                                Информацию по условиям гарантии для данных комплектующих вы сможете получить у авторизованных сервисных партнеров Хендэ (Hyundai).
+        <ul class="spoiler-ul">
+        <li>шины, изначально установленные на автомобиль изготовителем;</li>
+        <li>мультимедийные и навигационные системы,установленные на автомобиль под контролем изготовителя.</li></ul>
+        Информацию по условиям гарантии для данных комплектующих вы сможете получить у авторизованных сервисных партнеров Хендэ (Hyundai).
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
                                     <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Equus.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="avaible-documents" data-model="genesis" style="display: none;">
                                 <div class="spoilers">
                                     <div class="spoilers-content">
@@ -669,7 +915,7 @@ $APPLICATION->SetTitle("Гарантия");
                                                 </div>
                                             </div>
                                             <div class="spoiler-inner">
-                                                Гарантия 5 лет или 150 000 км пробега ( в зависимости от того, что наступит раньше)распространяется на ограниченный список механизмов двигателя и коробки передач.<br/><br/>
+                                                Гарантия 5 лет или 120 000 км пробега ( в зависимости от того, что наступит раньше)распространяется на ограниченный список механизмов двигателя и коробки передач.<br/><br/>
                                                 Механизмы двигателя: Блок цилиндров; Головка блока цилиндров; Маховик; Шкив коленчатого вала с демпфером крутильных колебаний; Масляный поддон; Масляный насос; Цепь газораспределительного механизма; Крышки клапанов; в т.ч. детали/элементы, конструктивно входящие в состав указанных механизмов двигателя.<br/><br/>
                                                 Механизмы коробки передач: Преобразователь крутящего момента (гидротрансформатор); Корпус коробки передач; Шестерни коробки передач; Синхронизаторы коробки передач; Пакеты фрикционов; блок гидравлических клапанов; Электронные компоненты внутри агрегата; в т.ч. детали/элементы, конструктивно входящие в состав указанных механизмов коробки передач.<br/><br/>
                                                 Данные условия гарантии распространяются исключительно на импортные автомобили Хендэ (Hyundai), ввезенные и реализованные на территорию Российской Федерации компанией «Хендэ Мотор СНГ», с датой передачи первому покупателю после 01.04.2009
@@ -696,7 +942,7 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="https://www.hyundai.ru/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                             <div class="avaible-documents" data-model="i40" style="display: none;">
@@ -776,7 +1022,7 @@ $APPLICATION->SetTitle("Гарантия");
                                                 </div>
                                             </div>
                                             <div class="spoiler-inner">
-                                                Гарантия 5 лет или 150 000 км пробега ( в зависимости от того, что наступит раньше)распространяется на ограниченный список механизмов двигателя и коробки передач.<br/><br/>
+                                                Гарантия 5 лет или 120 000 км пробега ( в зависимости от того, что наступит раньше)распространяется на ограниченный список механизмов двигателя и коробки передач.<br/><br/>
                                                 Механизмы двигателя: Блок цилиндров; Головка блока цилиндров; Маховик; Шкив коленчатого вала с демпфером крутильных колебаний; Масляный поддон; Масляный насос; Цепь газораспределительного механизма; Крышки клапанов; в т.ч. детали/элементы, конструктивно входящие в состав указанных механизмов двигателя.<br/><br/>
                                                 Механизмы коробки передач: Преобразователь крутящего момента (гидротрансформатор); Корпус коробки передач; Шестерни коробки передач; Синхронизаторы коробки передач; Пакеты фрикционов; блок гидравлических клапанов; Электронные компоненты внутри агрегата; в т.ч. детали/элементы, конструктивно входящие в состав указанных механизмов коробки передач.<br/><br/>
                                                 Данные условия гарантии распространяются исключительно на импортные автомобили Хендэ (Hyundai), ввезенные и реализованные на территорию Российской Федерации компанией «Хендэ Мотор СНГ», с датой передачи первому покупателю после 01.04.2009
@@ -803,7 +1049,7 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="https://www.hyundai.ru/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                             <div class="avaible-documents" data-model="santafe" style="display: none;">
@@ -883,7 +1129,7 @@ $APPLICATION->SetTitle("Гарантия");
                                                 </div>
                                             </div>
                                             <div class="spoiler-inner">
-                                                Гарантия 5 лет или 150 000 км пробега ( в зависимости от того, что наступит раньше)распространяется на ограниченный список механизмов двигателя и коробки передач.<br/><br/>
+                                                Гарантия 5 лет или 120 000 км пробега ( в зависимости от того, что наступит раньше)распространяется на ограниченный список механизмов двигателя и коробки передач.<br/><br/>
                                                 Механизмы двигателя: Блок цилиндров; Головка блока цилиндров; Маховик; Шкив коленчатого вала с демпфером крутильных колебаний; Масляный поддон; Масляный насос; Цепь газораспределительного механизма; Крышки клапанов; в т.ч. детали/элементы, конструктивно входящие в состав указанных механизмов двигателя.<br/><br/>
                                                 Механизмы коробки передач: Преобразователь крутящего момента (гидротрансформатор); Корпус коробки передач; Шестерни коробки передач; Синхронизаторы коробки передач; Пакеты фрикционов; блок гидравлических клапанов; Электронные компоненты внутри агрегата; в т.ч. детали/элементы, конструктивно входящие в состав указанных механизмов коробки передач.<br/><br/>
                                                 Данные условия гарантии распространяются исключительно на импортные автомобили Хендэ (Hyundai), ввезенные и реализованные на территорию Российской Федерации компанией «Хендэ Мотор СНГ», с датой передачи первому покупателю после 01.04.2009
@@ -910,7 +1156,114 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="https://www.hyundai.ru/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                </div>
+                            </div>
+                            <div class="avaible-documents" data-model="new_santafe" style="display: none;">
+                                <div class="spoilers">
+                                    <div class="spoilers-content">
+                                        <div class="spoiler">
+                                            <div class="spoiler-title">Гарантийный период
+                                                <div class="warranty-value">
+                                                    <span class="warranty-value--years">3<sup>года</sup></span>
+                                                    <span class="warranty-value--milage">100 000<sup>Км</sup><sub>пробега</sub></span>
+                                                </div>
+                                            </div>
+                                            <div class="spoiler-inner">
+                                                Срок гарантии на элементы новых автомобилей Хендэ Санта Фе (Hyundai Santa Fe), за исключением отдельных комплектующих изделий, указанных в настоящей гарантии, составляет 3 года или 100 тыс. км пробега (в зависимости от того, что наступит раньше) начиная с момента продажи (передачи) автомобиля Хендэ Санта Фе (Hyundai Santa Fe) официальным дилером Хендэ (Hyundai) первому покупателю, о чем должна свидетельствовать соответствующая отметка о дате начала гарантии в сервисной книжке.<br/><br/>
+                                                Владелец вправе предъявить требования по гарантии, связанные только с качеством материалов или изготовления и только в течение гарантийного периода.<br/><br/>
+                                                Срок службы автомобиля Хендэ Санта Фе (Hyundai Santa Fe) составляет 6 лет или 180 тыс. км пробега (в зависимости от того, что наступит раньше).
+                                            </div>
+                                        </div>
+                                        <div class="spoiler">
+                                            <div class="spoiler-title">
+                                                Гарантия на отдельные комплектующие
+                                                <div class="warranty-value">
+                                                    <span class="warranty-value--years">1<sup>Год</sup></span>
+                                                    <span class="warranty-value--milage">20 000<sup>Км</sup><sub>пробега</sub></span>
+                                                </div>
+                                            </div>
+                                            <div class="spoiler-inner">
+                                                На отдельные комплектующие автомобиля Хендэ Санта Фе (Hyundai Santa Fe), перечисленные ниже, предоставляется гарантия с момента продажи (передачи) автомобиля Хендэ Санта Фе (Hyundai Santa Fe) первому покупателю (т. е. с указанной в регистрационной карточке сервисной книжки даты начала гарантии) в пределах:<br/><br/>
+                                                12 месяцев или 20 тыс. км пробега (в зависимости от того, что наступит раньше):
+                                                <ul>
+                                                    <li>тормозные диски и барабаны;</li>
+                                                    <li>газоразрядные лампы;</li>
+                                                    <li>аккумуляторная батарея;</li>
+                                                    <li>заправка системы кондиционирования хладагентом;</li>
+                                                    <li>приводные ремни;</li>
+                                                    <li>прокладки различных типов (кроме прокладки головки блока цилиндров);</li>
+                                                    <li>втулки стабилизаторов передней и задней подвески.</li>
+                                                </ul>
+                                                36 месяцев или 100 тыс. км пробега (в зависимости от того, что наступит раньше):
+                                                <ul>
+                                                    <li>Аудиоаппаратура, установленная изготовителем</li>
+                                                </ul>
+                                                36 месяцев (без ограничений по пробегу):
+                                                <ul>
+                                                    <li>батарея (устройства ЭРА-ГЛОНАСС).</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="spoiler">
+                                            <div class="spoiler-title">Гарантия на лакокрасочное покрытие
+                                                <div class="warranty-value">
+                                                    <span class="warranty-value--years">3<sup>года</sup></span>
+                                                    <span class="warranty-value--milage">100 000<sup>Км</sup><sub>пробега</sub></span>
+                                                </div>
+                                            </div>
+                                            <div class="spoiler-inner">
+                                                Срок гарантии на лакокрасочное покрытие новых автомобилей Хендэ Санта Фе (Hyundai Santa Fe) составляет 3 года или 100 тыс. км пробега (в зависимости от того, что наступит раньше) начиная с момента продажи (передачи) первому покупателю (т. е. с указанной в сервисной книжке даты начала гарантии).<br/><br/>
+                                                Владелец вправе предъявить требования к качеству лакокрасочного покрытия только в течение гарантийного периода.
+                                            </div>
+                                        </div>
+                                        <div class="spoiler">
+                                            <div class="spoiler-title">Гарантия на запасные части
+                                                <div class="warranty-value">
+                                                    <span class="warranty-value--years">1<sup>Год</sup></span>
+                                                    <span class="warranty-value--milage">20 000<sup>Км</sup><sub>пробега</sub></span>
+                                                </div>
+                                            </div>
+                                            <div class="spoiler-inner">
+                                                Срок гарантии на оригинальные запасные части для автомобиля Хендэ Санта Фе (Hyundai Santa Fe), кроме отдельных комплектующих изделий, составляет 1 год или 20 тыс. км пробега (в зависимости от того, что наступит раньше) начиная с момента установки запасной части на автомобиль Хендэ Санта Фе (Hyundai Santa Fe).
+                                            </div>
+                                        </div>
+                                        <!-- <div class="spoiler">
+                                            <div class="spoiler-title">Гарантия на механизмы двигателя и КПП
+                                                <div class="warranty-value">
+                                                    <span class="warranty-value--years">5<sup>лет</sup></span>
+                                                    <span class="warranty-value--milage">120 000<sup>Км</sup><sub>пробега</sub></span>
+                                                </div>
+                                            </div>
+                                            <div class="spoiler-inner">
+                                                Гарантия 5 лет или 150 000 км пробега ( в зависимости от того, что наступит раньше)распространяется на ограниченный список механизмов двигателя и коробки передач.<br/><br/>
+                                                Механизмы двигателя: Блок цилиндров; Головка блока цилиндров; Маховик; Шкив коленчатого вала с демпфером крутильных колебаний; Масляный поддон; Масляный насос; Цепь газораспределительного механизма; Крышки клапанов; в т.ч. детали/элементы, конструктивно входящие в состав указанных механизмов двигателя.<br/><br/>
+                                                Механизмы коробки передач: Преобразователь крутящего момента (гидротрансформатор); Корпус коробки передач; Шестерни коробки передач; Синхронизаторы коробки передач; Пакеты фрикционов; блок гидравлических клапанов; Электронные компоненты внутри агрегата; в т.ч. детали/элементы, конструктивно входящие в состав указанных механизмов коробки передач.<br/><br/>
+                                                Данные условия гарантии распространяются исключительно на импортные автомобили Хендэ (Hyundai), ввезенные и реализованные на территорию Российской Федерации компанией «Хендэ Мотор СНГ», с датой передачи первому покупателю после 01.04.2009
+                                            </div>
+                                        </div> -->
+
+                                        <div class="spoiler">
+                                            <div class="spoiler-title">Гарантия на комплектующие сторонних поставщиков
+                                                <!--
+                                                                                            <div class="warranty-value">
+                                                                                                 <span class="warranty-value--years">1<sup>Год</sup></span>
+                                                                                                <span class="warranty-value--milage">20 000<sup>Км</sup><sub>пробега</sub></span>
+                                                                                            </div>
+                                                -->
+                                            </div>
+                                            <div class="spoiler-inner">
+                                                На некоторые комплектующие автомобилей Хендэ Санта Фе (Hyundai Santa Fe) гарантия предоставляется поставщиками данных комплектующих и на их условиях. Условия гарантии и гарантийный период, указанные в данной сервисной книжке, не относятся ни в какой мере к данным комплектующим. В частности, к таким комплектующим относятся:
+                                                <ul class="spoiler-ul">
+                                                    <li>шины, изначально установленные на автомобиль изготовителем;</li>
+                                                    <li>мультимедийные и навигационные системы,установленные на автомобиль под контролем изготовителя.</li></ul>
+                                                Информацию по условиям гарантии для данных комплектующих вы сможете получить у авторизованных сервисных партнеров Хендэ (Hyundai).
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- //spoilers -->
+                                <div class="warranty-dl">
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                             <div class="avaible-documents" data-model="grandsantafe" style="display: none;">
@@ -990,7 +1343,7 @@ $APPLICATION->SetTitle("Гарантия");
                                                 </div>
                                             </div>
                                             <div class="spoiler-inner">
-                                                Гарантия 5 лет или 150 000 км пробега ( в зависимости от того, что наступит раньше)распространяется на ограниченный список механизмов двигателя и коробки передач.<br/><br/>
+                                                Гарантия 5 лет или 120 000 км пробега ( в зависимости от того, что наступит раньше)распространяется на ограниченный список механизмов двигателя и коробки передач.<br/><br/>
                                                 Механизмы двигателя: Блок цилиндров; Головка блока цилиндров; Маховик; Шкив коленчатого вала с демпфером крутильных колебаний; Масляный поддон; Масляный насос; Цепь газораспределительного механизма; Крышки клапанов; в т.ч. детали/элементы, конструктивно входящие в состав указанных механизмов двигателя.<br/><br/>
                                                 Механизмы коробки передач: Преобразователь крутящего момента (гидротрансформатор); Корпус коробки передач; Шестерни коробки передач; Синхронизаторы коробки передач; Пакеты фрикционов; блок гидравлических клапанов; Электронные компоненты внутри агрегата; в т.ч. детали/элементы, конструктивно входящие в состав указанных механизмов коробки передач.<br/><br/>
                                                 Данные условия гарантии распространяются исключительно на импортные автомобили Хендэ (Hyundai), ввезенные и реализованные на территорию Российской Федерации компанией «Хендэ Мотор СНГ», с датой передачи первому покупателю после 01.04.2009
@@ -1017,10 +1370,10 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="https://www.hyundai.ru/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
-                            <div class="avaible-documents" data-model="tucson" style="display: none;">
+                            <div class="avaible-documents" data-model="new_tucson" style="display: none;">
                                 <div class="spoilers">
                                     <div class="spoilers-content">
                                         <div class="spoiler">
@@ -1097,7 +1450,7 @@ $APPLICATION->SetTitle("Гарантия");
                                                 </div>
                                             </div>
                                             <div class="spoiler-inner">
-                                                Гарантия 5 лет или 150 000 км пробега ( в зависимости от того, что наступит раньше)распространяется на ограниченный список механизмов двигателя и коробки передач.<br/><br/>
+                                                Гарантия 5 лет или 120 000 км пробега ( в зависимости от того, что наступит раньше)распространяется на ограниченный список механизмов двигателя и коробки передач.<br/><br/>
                                                 Механизмы двигателя: Блок цилиндров; Головка блока цилиндров; Маховик; Шкив коленчатого вала с демпфером крутильных колебаний; Масляный поддон; Масляный насос; Цепь газораспределительного механизма; Крышки клапанов; в т.ч. детали/элементы, конструктивно входящие в состав указанных механизмов двигателя.<br/><br/>
                                                 Механизмы коробки передач: Преобразователь крутящего момента (гидротрансформатор); Корпус коробки передач; Шестерни коробки передач; Синхронизаторы коробки передач; Пакеты фрикционов; блок гидравлических клапанов; Электронные компоненты внутри агрегата; в т.ч. детали/элементы, конструктивно входящие в состав указанных механизмов коробки передач.<br/><br/>
                                                 Данные условия гарантии распространяются исключительно на импортные автомобили Хендэ (Hyundai), ввезенные и реализованные на территорию Российской Федерации компанией «Хендэ Мотор СНГ», с датой передачи первому покупателю после 01.04.2009
@@ -1124,7 +1477,7 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="https://www.hyundai.ru/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                             <div class="avaible-documents" data-model="sonata" style="display: none;">
@@ -1217,7 +1570,7 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="https://www.hyundai.ru/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                         </div>
