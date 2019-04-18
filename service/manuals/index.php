@@ -28,101 +28,113 @@ $APPLICATION->SetTitle("Руководства, каталоги и буклет
                         <div class="car-slider_cut">
                             <ul class="car-slider">
 
+                                <li data-model="NewSantaFe">
+                                    <div class="image-wrap">
+                                        <img src=" https://hyundai.ru/media/images/carmodels/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20SANTA%20FE5645b686466141fd.png" alt="" style="max-width: 100%;">
+                                    </div>
+                                    <span class="model">Новый SANTA FE</span>
+                                </li>
+                                <li data-model="NewTucson">
+                                    <div class="image-wrap">
+                                        <img src=" https://hyundai.ru/media/images/carmodels/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20TUCSON5825b7ec65f6eefb.png" alt="" style="max-width: 100%;">
+                                    </div>
+                                    <span class="model">Новый TUCSON</span>
+                                </li>
+
                                 <li data-model="solaris_new">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/images/carmodels/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20Solaris_6665a0ed6184abe0.png" alt="" style="max-width: 100%;">
+                                        <img src=" https://hyundai.ru/media/images/carmodels/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20Solaris_6665a0ed6184abe0.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">Новый SOLARIS</span>
                                 </li>
+                                <li data-model="sonata">
+                                    <div class="image-wrap">
+                                        <img src=" https://hyundai.ru/media/images/carmodels/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20Sonata_5655a0ed61dc57ee.png" alt="" style="max-width: 100%;">
+                                    </div>
+                                    <span class="model">Sonata</span>
+                                </li>
                                 <li data-model="creta">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/Creta.png" alt="" style="max-width: 100%;">
+                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/Creta.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">CRETA</span>
                                 </li>
                                 <li data-model="elantra">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/Elantra.png" alt="" style="max-width: 100%;">
+                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/Elantra.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">ELANTRA</span>
                                 </li>
                                 <li data-model="equus">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/EQUUS.png" alt="" style="max-width: 100%;">
+                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/EQUUS.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">Equus</span>
                                 </li>
                                 <li data-model="genesis">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/Genesis.png" alt="" style="max-width: 100%;">
+                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/Genesis.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">Genesis</span>
                                 </li>
                                 <li data-model="h1">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/H-1.png" alt="" style="max-width: 100%;">
+                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/H-1.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">H-1</span>
                                 </li>
                                 <li data-model="i30">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/i30.png" alt="" style="max-width: 100%;">
+                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/i30.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">i30</span>
                                 </li>
                                 <li data-model="i40">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/i40_main.png" alt="" style="max-width: 100%;">
+                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/i40_main.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">i40</span>
                                 </li>
                                 <li data-model="ix35">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/ix35.png" alt="" style="max-width: 100%;">
+                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/ix35.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">ix35</span>
                                 </li>
                                 <li data-model="santafe">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/santafe.png" alt="" style="max-width: 100%;">
+                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/santafe.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">SANTA FE 2012</span>
                                 </li>
                                 <li data-model="santafepremium">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/Santa Fe Premium.png" alt="" style="max-width: 100%;">
+                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/Santa Fe Premium.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">SANTA FE 2015</span>
                                 </li>
                                 <li data-model="grandsantafe">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/GrandSantaFe.png" alt="" style="max-width: 100%;">
+                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/GrandSantaFe.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">Grand SANTA FE</span>
                                 </li>
                                 <li data-model="tucson">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/tucson.png" alt="" style="max-width: 100%;">
+                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/tucson.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">TUCSON</span>
                                 </li>
                                 <li data-model="solaris">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/solaris.png" alt="" style="max-width: 100%;">
+                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/solaris.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">Solaris</span>
                                 </li>
-                                <!--
-                                                        <li data-model="sonata">
-                                                            <div class="image-wrap">
-                                                                <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/sonata.png" alt="" style="max-width: 100%;">
-                                                            </div>
-                                                            <span class="model">Sonata</span>
-                                                        </li>
-                                -->
+
                                 <li data-model="veloster">
                                     <div class="image-wrap">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/car-slider/veloster.png" alt="" style="max-width: 100%;">
+                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/veloster.png" alt="" style="max-width: 100%;">
                                     </div>
                                     <span class="model">Veloster</span>
                                 </li>
@@ -135,6 +147,27 @@ $APPLICATION->SetTitle("Руководства, каталоги и буклет
 
                 <div class="content-inner">
                     <div class="content-inner-title">Доступные материалы</div>
+                    <div class="avaible-documents" data-model="NewSantaFe">
+                        <div class="avaible-documents-list grid">
+                            <div class="avaible-document-wrap grid-el grid-el-33">
+                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/NewSanta_Fe_TM.pdf" class="avaible-document avaible-document--manual">
+                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
+                                    <div class="avaible-document-model">Новый SANTA FE</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="avaible-documents" data-model="NewTucson">
+                        <div class="avaible-documents-list grid">
+                            <div class="avaible-document-wrap grid-el grid-el-33">
+                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/NewTucson_TLe.pdf" class="avaible-document avaible-document--manual">
+                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
+                                    <div class="avaible-document-model">Новый TUCSON</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="avaible-documents" data-model="solaris_new">
                         <div class="avaible-documents-list grid">
                             <div class="avaible-document-wrap grid-el grid-el-33">
@@ -434,18 +467,16 @@ $APPLICATION->SetTitle("Руководства, каталоги и буклет
                             </div>
                         </div>
                     </div>
-                    <!--
-                                <div class="avaible-documents" data-model="sonata" style="display: none;">
-                                    <div class="avaible-documents-list grid">
-                                        <div class="avaible-document-wrap grid-el grid-el-33">
-                                            <a href="http://www.hyundai.ru/media/downloads/pdf/pdf_ru_man_sonata.pdf" class="avaible-document avaible-document--manual">
-                                                <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                                <div class="avaible-document-model">Sonata</div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                    -->
+                    <div class="avaible-documents" data-model="sonata" style="display: none;">
+                        <div class="avaible-documents-list grid">
+                            <div class="avaible-document-wrap grid-el grid-el-33">
+                                <a href="http://www.hyundai.ru/media/downloads/pdf/Sonata.pdf" class="avaible-document avaible-document--manual">
+                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
+                                    <div class="avaible-document-model">Sonata</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="avaible-documents" data-model="veloster" style="display: none;">
                         <div class="avaible-documents-list grid">
                             <div class="avaible-document-wrap grid-el grid-el-33">
@@ -470,6 +501,7 @@ $APPLICATION->SetTitle("Руководства, каталоги и буклет
     <!--
     Контент страницы закончится тут
     -->
+
 
     <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="https://www.hyundai.ru/media/js/libs/jquery.nanoscroller.min.js"></script>
