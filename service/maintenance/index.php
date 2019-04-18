@@ -45,8 +45,9 @@ $APPLICATION->SetTitle("Обслуживание");
                                             <li data-value="ix35"          	data-type="3"	class="drop-down-item">ix35</li>
                                             <li data-value="Tucson"        	data-type="3"	class="drop-down-item">Tucson</li>
                                             <li data-value="Santa Fe"	   	data-type="3"	class="drop-down-item">Santa Fe</li>
+                                            <li data-value="New Santa Fe"	   	data-type="3"	class="drop-down-item">Новый Santa Fe</li>
                                             <li data-value="Grand Santa Fe"	data-type="3"	class="drop-down-item">Grand Santa Fe</li>
-                                            <li data-value="H-1"           	data-type="3"	class="drop-down-item">H-1</li>
+                                            <li data-value="H1"           	data-type="3"	class="drop-down-item">H-1</li>
                                         </ul>
                                     </div>
                                 </div>
