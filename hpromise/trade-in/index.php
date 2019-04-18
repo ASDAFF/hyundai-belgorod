@@ -10,6 +10,11 @@ $APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
     <link href="https://hpromise.hyundai.ru/bitrix/cache/css/s1/hyundai_2017/kernel_main/kernel_main_v1.css?155136336932682" type="text/css"  rel="stylesheet" />
     <link href="https://hpromise.hyundai.ru/bitrix/cache/css/s1/hyundai_2017/template_30254c0dfdb2261f73f60bf71d7be8f3/template_30254c0dfdb2261f73f60bf71d7be8f3_v1.css?1551363366294836" type="text/css"  data-template-style="true" rel="stylesheet" />
 
+<style>
+.carslider-inner-single-desc.sonata {
+    width: auto;
+}
+</style>
 
 <div class="cont">
     <div class="banner nblock">
