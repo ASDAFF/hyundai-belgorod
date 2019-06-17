@@ -7,16 +7,10 @@ $arUrlRewrite = array(
 		"PATH" => "/hpromise/avtomobili-s-probegom/index.php",
 	),
 	array(
-		"CONDITION" => "#^/services/#",
-		"RULE" => "",
-		"ID" => "bitrix:catalog",
-		"PATH" => "/services/index.php",
-	),
-	array(
-		"CONDITION" => "#^/products/#",
-		"RULE" => "",
-		"ID" => "bitrix:catalog",
-		"PATH" => "/products/index.php",
+		"CONDITION" => "#^/offer-service/(.*?)/#",
+		"RULE" => "ELEMENT_CODE=\$1",
+		"ID" => "bitrix:news.detail",
+		"PATH" => "/offer-service/index.php",
 	),
 	array(
 		"CONDITION" => "#^/contacts/#",
@@ -25,22 +19,22 @@ $arUrlRewrite = array(
 		"PATH" => "/contacts/index.php",
 	),
 	array(
-		"CONDITION" => "#^/offer/#",
+		"CONDITION" => "#^/products/#",
 		"RULE" => "",
-		"ID" => "bitrix:news",
-		"PATH" => "/offer/index.php",
+		"ID" => "bitrix:catalog",
+		"PATH" => "/products/index.php",
+	),
+	array(
+		"CONDITION" => "#^/services/#",
+		"RULE" => "",
+		"ID" => "bitrix:catalog",
+		"PATH" => "/services/index.php",
 	),
 	array(
 		"CONDITION" => "#^/news/#",
 		"RULE" => "",
 		"ID" => "bitrix:news",
 		"PATH" => "/news/index.php",
-	),
-	array(
-		"CONDITION" => "#^/offer-service/(.*?)/#",
-		"RULE" => "ELEMENT_CODE=\$1",
-		"ID" => "bitrix:news.detail",
-		"PATH" => "/offer-service/index.php",
 	),
 );
 

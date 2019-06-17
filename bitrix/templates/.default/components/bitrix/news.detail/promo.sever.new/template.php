@@ -52,7 +52,7 @@ $this->setFrameMode(true);
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="/" class="main-header__logo navbar-brand" title="Hyundai">
+				<a href="/" class="main-header__logo navbar-brand" title="Хёндай Ринг Авто Белгород" alt="Хёндай Ринг Авто Белгород">
 					<div class="logoblock">
 						<img src="images/logo.png">
 					</div>

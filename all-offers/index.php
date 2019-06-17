@@ -10,6 +10,36 @@ $APPLICATION->SetTitle("all-offers");
 
             <!-- just offers ok let's go -->
             <div class="offers_divider__content__offers-grid-section clearfix">
+
+<div class="insection-offer-unit">
+							<a href="/start" class="insection-offer-unit__link">
+								<img src="http://www.hyundai.ru/media/offers_image/609ef8839c9e9834efa0e2ac95efadf2_start_new.jpg" alt="" class="insection-offer-unit__back-img">
+								<div class="insection-offer-unit__info">
+									<span class="name">Финансовая программа Старт.<br>Гибкие условия, взнос от 0%</span>
+	 								<span class="addinfo"></span>
+								</div>
+							</a>
+						</div>
+
+<div class="insection-offer-unit">
+							<a href="/promo/trade-in_offer" class="insection-offer-unit__link">
+								<img src="http://www.hyundai.ru/media/offers_image/58754491c057742653047046093d240c_Santa_fe+Tucson_preview-banner_1900x530px_Apr2019.jpg" alt="" class="insection-offer-unit__back-img">
+								<div class="insection-offer-unit__info">
+									<span class="name">Выгода на SANTA FE, TUCSON</span>
+	 								<span class="addinfo">в трейд-ин до 100 000 ₽</span>
+								</div>
+							</a>
+						</div>
+
+<div class="insection-offer-unit">
+							<a href="/promo/cska_sponsorship" class="insection-offer-unit__link">
+								<img src="http://www.hyundai.ru/media/offers_image/88c0f30c73ebfbe7978e691bcadcbb5e_CSKA_new_preview.jpg" alt="" class="insection-offer-unit__back-img">
+								<div class="insection-offer-unit__info">
+									<span class="name">Спонсорское соглашение Hyundai и ПФК ЦСКА</span>
+	 								<span class="addinfo"></span>
+								</div>
+							</a>
+						</div>
                 <?
                 if(CModule::IncludeModule("iblock")) {
                     $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DETAIL_PICTURE", "CODE", "PROPERTY_ENABLE_SPEC");
@@ -107,7 +137,7 @@ $APPLICATION->SetTitle("all-offers");
                     </a>
                 </div>
 
-                <div class="insection-offer-unit">
+               <!-- <div class="insection-offer-unit">
                     <a href="https://www.hyundai.ru/promo/vdnh" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/f19ce211c4adc6df11f26f9574329dd5_Banner_Katok_v2_mob_466x330.png" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
@@ -115,7 +145,7 @@ $APPLICATION->SetTitle("all-offers");
                             <span class="addinfo"></span>
                         </div>
                     </a>
-                </div>
+                </div>-->
 
 
                 <div class="insection-offer-unit">
@@ -150,7 +180,7 @@ $APPLICATION->SetTitle("all-offers");
                     </a>
                 </div>
 -->
-
+<!--
 
                 <div class="insection-offer-unit">
                     <a href="/start/" class="insection-offer-unit__link">
@@ -161,6 +191,7 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
+-->
 <!--
 
                 <div class="insection-offer-unit">
@@ -217,7 +248,15 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
-
+<div class="insection-offer-unit">
+							<a href="/promo/robocar" class="insection-offer-unit__link">
+								<img src="http://www.hyundai.ru/media/offers_image/1fd7981dc76075cad486d796a5340354_465х330.jpg" alt="" class="insection-offer-unit__back-img">
+								<div class="insection-offer-unit__info">
+									<span class="name">Подарок от Робокара Поли в официальной дилерской сети Hyundai!</span>
+	 								<span class="addinfo"></span>
+								</div>
+							</a>
+						</div>
 
             </div>
             <!-- service stuff next -->

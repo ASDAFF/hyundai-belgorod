@@ -4,7 +4,7 @@
 
 	<div class="main-header">
 		<div class="main-header__holder">
-			<a href="/" class="main-header__logo" title="Hyundai">
+			<a href="/" class="main-header__logo" title="Хёндай Ринг Авто Белгород" alt="Хёндай Ринг Авто Белгород">
 				<div class="logoblock">
 					<img src="/_img/dealerLogo.png">
 				</div>
@@ -43,7 +43,7 @@
 					</li>
 					<? if(SITE_ID == "s1" OR SITE_ID == "s2" OR SITE_ID == "s5"): ?>
 					<li class="main-nav__item">
-						<a href="/offer/" class="main-nav__link">Авто в наличии</a>
+						<a href="https://cars.hyundai-belgorod.ru/" class="main-nav__link">Авто в наличии</a>
 					</li>
 					<? endif;?>
 

@@ -780,3 +780,27 @@
 2018-05-10 11:22:59 -  - exec CUpdateClientPartner::GetHTTPPage
 2018-05-10 11:23:00 -  - TIME GetUpdatesList(request) 0.469 sec
 2018-05-10 11:23:00 -  - exec CUpdateClientPartner::ParseServerData
+2019-06-06 16:10:56 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-06-06 16:10:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-06-06 16:10:56 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=hyundai-belgorod.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=20&TYPENC=E&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C16.5.4%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.feedback%2C2.5.1%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bseo%2C16.0.3%2CN%3Basd.tplvars%2C1.5.1%2CN%3Bcompression%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bsearch%2C16.0.0%2CN%3Bdev2fun.imagecompress%2C0.2.4%2CN%3Bsocialservices%2C16.5.4%2CN%3Bartrix.imageoptimizer%2C1.0.6%2CN%3Basd.iblock%2C4.6.6%2CN%3Bperfmon%2C16.0.0%2CN%3Bkarudo.vcs%2C1.1.5%2CN&reqm=bitrix.sitecorporate%2Caltasib.feedback%2Casd.tplvars%2Cthebrainstech.copyiblock%2Cdev2fun.imagecompress%2Cartrix.imageoptimizer%2Casd.iblock%2Ckarudo.vcs&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-06-06 16:10:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-06-06 16:10:56 -  - TIME GetUpdatesList(request) 0.401 sec
+2019-06-06 16:10:56 -  - exec CUpdateClientPartner::ParseServerData
+2019-06-06 16:11:01 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-06-06 16:11:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-06-06 16:11:01 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=hyundai-belgorod.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=20&TYPENC=E&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C16.5.4%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.feedback%2C2.5.1%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bseo%2C16.0.3%2CN%3Basd.tplvars%2C1.5.1%2CN%3Bcompression%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bsearch%2C16.0.0%2CN%3Bdev2fun.imagecompress%2C0.2.4%2CN%3Bsocialservices%2C16.5.4%2CN%3Bartrix.imageoptimizer%2C1.0.6%2CN%3Basd.iblock%2C4.6.6%2CN%3Bperfmon%2C16.0.0%2CN%3Bkarudo.vcs%2C1.1.5%2CN&reqm=bitrix.sitecorporate%2Caltasib.feedback%2Casd.tplvars%2Cthebrainstech.copyiblock%2Cdev2fun.imagecompress%2Cartrix.imageoptimizer%2Casd.iblock%2Ckarudo.vcs&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-06-06 16:11:01 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-06-06 16:11:01 -  - TIME GetUpdatesList(request) 0.237 sec
+2019-06-06 16:11:01 -  - exec CUpdateClientPartner::ParseServerData
+2019-06-06 16:11:13 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-06-06 16:11:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-06-06 16:11:13 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=hyundai-belgorod.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=20&TYPENC=E&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C16.5.4%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.feedback%2C2.5.1%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bseo%2C16.0.3%2CN%3Basd.tplvars%2C1.5.1%2CN%3Bcompression%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bsearch%2C16.0.0%2CN%3Bdev2fun.imagecompress%2C0.2.4%2CN%3Bsocialservices%2C16.5.4%2CN%3Bartrix.imageoptimizer%2C1.0.6%2CN%3Basd.iblock%2C4.6.6%2CN%3Bperfmon%2C16.0.0%2CN%3Bkarudo.vcs%2C1.1.5%2CN&reqm=bitrix.sitecorporate%2Caltasib.feedback%2Casd.tplvars%2Cthebrainstech.copyiblock%2Cdev2fun.imagecompress%2Cartrix.imageoptimizer%2Casd.iblock%2Ckarudo.vcs&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-06-06 16:11:13 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-06-06 16:11:13 -  - TIME GetUpdatesList(request) 0.25 sec
+2019-06-06 16:11:13 -  - exec CUpdateClientPartner::ParseServerData
+2019-06-06 17:00:45 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-06-06 17:00:45 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-06-06 17:00:45 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=hyundai-belgorod.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=20&TYPENC=E&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C16.5.4%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.feedback%2C2.5.1%2CN%3Bfileman%2C16.5.4%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bseo%2C16.0.3%2CN%3Basd.tplvars%2C1.5.1%2CN%3Bcompression%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bsearch%2C16.0.0%2CN%3Bdev2fun.imagecompress%2C0.2.4%2CN%3Bsocialservices%2C16.5.4%2CN%3Bartrix.imageoptimizer%2C1.0.6%2CN%3Basd.iblock%2C4.6.6%2CN%3Bperfmon%2C16.0.0%2CN%3Bkarudo.vcs%2C1.1.5%2CN&reqm=bitrix.sitecorporate%2Caltasib.feedback%2Casd.tplvars%2Cthebrainstech.copyiblock%2Cdev2fun.imagecompress%2Cartrix.imageoptimizer%2Casd.iblock%2Ckarudo.vcs&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-06-06 17:00:45 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-06-06 17:00:46 -  - TIME GetUpdatesList(request) 0.41 sec
+2019-06-06 17:00:46 -  - exec CUpdateClientPartner::ParseServerData

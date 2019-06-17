@@ -178,7 +178,7 @@ $APPLICATION->IncludeComponent(
 */
 ?>
 
-	<main class="main" data-model="home">
+	<!--<main class="main" data-model="home">
 
 		<style>
 			#wrapper {
@@ -195,7 +195,7 @@ $APPLICATION->IncludeComponent(
 				<!--
                             <img src="http://hyundai-belgorod.ru/promo/special-offer/img/1_1920х530_Hyundai_10.jpg" class="promo-head">-->
 				<br>
-				<div class="news-line"></div>
+				<!--<div class="news-line"></div>
 				<div class="news-center no-padding clearfix" style="text-align: center">
 					<span class="h1-offer">Спецпредложения Белгород</span>
 				</div>
@@ -206,11 +206,11 @@ $APPLICATION->IncludeComponent(
 
 				<!-- end of hiding banner-->
 
-				<div class="offers-content">
+				<!--<div class="offers-content">
 					<!--
                                     <h1 class="title-offer bordr-btm">Автомобили Hyundai по специальным условиям!</h1>
                     -->
-					<div class="offers-block">
+					<!--<div class="offers-block">
 
 						<div class="offer-terms">
 							<!--<p>Только в Ринг Авто Белгород автомобили Hyundai по специальным условиям!</p>-->
@@ -249,7 +249,7 @@ $APPLICATION->IncludeComponent(
                                             </p>
                                         </td>
                                     </tr>
-    --><table class="MsoNormalTable" cellspacing="0" cellpadding="0" style="width:700.0pt;margin-left:.1pt;border-collapse:collapse">
+    --><!--<table class="MsoNormalTable" cellspacing="0" cellpadding="0" style="width:700.0pt;margin-left:.1pt;border-collapse:collapse">
 								<tbody>
 								<tr style="height:50.1pt">
 									<td style="width:161.0pt;border:solid #CCC085 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:50.1pt">
@@ -1338,7 +1338,7 @@ $APPLICATION->IncludeComponent(
 
 				</div>
 
-			</div>
+			</div>-->
 		</div>
 
 
