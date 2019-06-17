@@ -18,6 +18,13 @@ $this->setFrameMode(true);
 		<div class="home-hero-slider">
 			<div class="hero-slider-container">
 				<div class="hero-slider-wrapper">
+
+                    <div class="hero-slide">
+                        <a href="#" class="hero-slide__inner include-video">
+                            <img class="hero-slide__image video-cover" src="https://www.hyundai.ru/assets/img/start/pics/cover.jpg" alt="">
+                        </a>
+                    </div>
+
 					<?foreach($arResult["ITEMS"] as $arItem):?>
 					<div class="hero-slide">
 						<a href="<?=$arItem["CODE"]?>" class="hero-slide__inner">
@@ -39,6 +46,7 @@ $this->setFrameMode(true);
 						<div class="hero-slider-bullets"></div>
 						<div class="hero-slider-list-container">
 							<ul class="hero-slider-list">
+                                <li class="hero-slider-list__item" data-role="slide-refer">СТАРТ!</li>
 								<?foreach($arResult["ITEMS"] as $arItem):?>
 								<li class="hero-slider-list__item" data-role="slide-refer"><?=$arItem['NAME']?></li>
 								<?endforeach;?>
@@ -51,6 +59,7 @@ $this->setFrameMode(true);
 		</div>
 	</div>
 </section>
+
 
 
 

@@ -232,8 +232,9 @@ $APPLICATION->SetTitle("Мебельная компания");
 		));
 		?>
 
-
-		<script type="text/javascript" src="/home_style/js/home.js"></script>	</main>
+        <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/home.js"></script>
+        
+    </main>
 
 
 
