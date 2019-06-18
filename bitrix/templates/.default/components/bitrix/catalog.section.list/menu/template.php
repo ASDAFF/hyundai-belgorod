@@ -72,6 +72,13 @@ $arSectionDeleteParams = array("CONFIRM" => GetMessage('CT_BCSL_ELEMENT_DELETE_C
                         <img src="/assets/img/logocrashtest.svg">
                     </div>
                 <?endif;?>
+                <? if($rows == 4):?>
+                    <span class="showroom__cat-item-name" style="color: #103a71;">
+					<br>
+					Выбрать модель&nbsp;
+					<svg xmlns="http://www.w3.org/2000/svg" class="ic-svg ic-arrow-s"><use xlink:href="#ic-arrow-s"></use></svg>
+				</span>
+                <? endif; ?>
             </a>
 
             <? endwhile; ?>
