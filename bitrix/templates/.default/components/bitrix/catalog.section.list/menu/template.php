@@ -49,7 +49,7 @@ $arSectionDeleteParams = array("CONFIRM" => GetMessage('CT_BCSL_ELEMENT_DELETE_C
 
 <ul class="showroom">
 
-    <? foreach ($arResult['SECTIONS'] as &$arSection): ?>
+    <? foreach ($arResult['SECTIONS'] as $rows => &$arSection): ?>
     <li class="showroom__cat" role="menuitem">
         <div class="showroom__cat-title"><?=$arSection['NAME']?></div>
         <div class="showroom__cat-items">
