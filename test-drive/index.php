@@ -105,7 +105,9 @@ $APPLICATION->SetTitle("Тест-драйв");
                                 </div>
                             </div>
                         </div>
-                        <div class="currentCarImg__wrap"><img class="currentCarImg" src="https://www.hyundai.ru/media/img/test_drive_imgs/i30N.png" alt="Car picture"/></div>
+                        <div class="currentCarImg__wrap">
+                            <img class="currentCarImg" src="https://www.hyundai.ru/media/img/test_drive_imgs/H-1.png" alt="Car picture"/>
+                        </div>
                         <a target="_blank" class="car-about skyblue underlined" href="/NewSolaris/">Описание модели</a>
                         <!-- <div id="creta-test-drive" style="padding-top: 10px; color: #fff;">Тест-драйв доступен во всех официальных дилерских центрах после 25 февраля 2017 г.</div> -->
                     </div>
