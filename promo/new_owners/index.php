@@ -58,7 +58,7 @@ $APPLICATION->SetTitle("Везёт же новеньким!");
                             </div>
 
                             <br/><br/>
-                            <a href="javascript:void(0);" target="_blank" class="request-service-btn" data-role="credit-open">Оставить заявку</a>   <a href="/configurator" target="_blank" class="inverse-service-btn">Конфигуратор</a>   <a href="/start" target="_blank" class="inverse-service-btn">Кредитный калькулятор</a>
+                            <a href="javascript:void(0);" target="_blank" class="request-service-btn" data-role="credit-open">Оставить заявку</a>   <a href="/configurator" target="_blank" class="inverse-service-btn">Конфигуратор</a>   <a href="/start/#calc" target="_blank" class="inverse-service-btn">Кредитный калькулятор</a>
 
 
                             <!-- additional terms as footer -->
