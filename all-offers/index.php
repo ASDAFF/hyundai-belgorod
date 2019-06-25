@@ -11,6 +11,17 @@ $APPLICATION->SetTitle("all-offers");
             <!-- just offers ok let's go -->
             <div class="offers_divider__content__offers-grid-section clearfix">
 
+			<div class="insection-offer-unit">
+							<a href="/promo/solaris_super_series/" class="insection-offer-unit__link">
+								<img src="https://www.hyundai.ru/media/offers_image/03a77b505bf9e4c4d028173b4e819ba5_465%D1%85330.png" alt="" class="insection-offer-unit__back-img">
+								<div class="insection-offer-unit__info">
+									<span class="name">SOLARIS Super Series</span>
+	 								<span class="addinfo"></span>
+								</div>
+							</a>
+						</div>
+			
+			
 <div class="insection-offer-unit">
 							<a href="/start" class="insection-offer-unit__link">
 								<img src="http://www.hyundai.ru/media/offers_image/609ef8839c9e9834efa0e2ac95efadf2_start_new.jpg" alt="" class="insection-offer-unit__back-img">
@@ -126,7 +137,7 @@ $APPLICATION->SetTitle("all-offers");
                     </a>
                 </div>
 -->
-
+ <!--
                 <div class="insection-offer-unit">
                     <a href="/promo/suv-universiade" class="insection-offer-unit__link">
                         <img src="/upload/hyundai-on-credit-1.jpg" alt="" class="insection-offer-unit__back-img">
@@ -135,7 +146,7 @@ $APPLICATION->SetTitle("all-offers");
                             <span class="addinfo"></span>
                         </div>
                     </a>
-                </div>
+                </div>->
 
                <!-- <div class="insection-offer-unit">
                     <a href="https://www.hyundai.ru/promo/vdnh" class="insection-offer-unit__link">
@@ -158,7 +169,7 @@ $APPLICATION->SetTitle("all-offers");
                     </a>
                 </div>
 
-                <div class="insection-offer-unit">
+               <!-- <div class="insection-offer-unit">
                     <a href="/promo/win" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/765529bc8c5f9bbeab84c69a60cd83fb_Sonata+Tucson_preview-banner_1500x545px_Oct2018.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
@@ -166,7 +177,7 @@ $APPLICATION->SetTitle("all-offers");
                             <span class="addinfo"></span>
                         </div>
                     </a>
-                </div>
+                </div>-->
 
 
 <!--
@@ -272,7 +283,7 @@ $APPLICATION->SetTitle("all-offers");
 
             <div class="offers_divider__content__offers-grid-section clearfix">
 
-                <div class="insection-offer-unit">
+                 <!--<div class="insection-offer-unit">
                     <a href="/promo/shell" class="insection-offer-unit__link">
                         <img src="http://www.hyundai.ru/media/offers_image/6ebc6ed21af371078e33b6d1aca29d87_banner_solaris.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
@@ -280,7 +291,7 @@ $APPLICATION->SetTitle("all-offers");
                             <span class="addinfo"></span>
                         </div>
                     </a>
-                </div>
+                </div>  -->
         <!--
 
                 <div class="insection-offer-unit">
