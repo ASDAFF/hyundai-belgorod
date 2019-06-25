@@ -149,7 +149,7 @@ $this->setFrameMode(true);
 		</div>
 	</script>
 
-	<script type="text/javascript" src="http://maps.google.ru/maps/api/js?key=AIzaSyCg3II6UgahN4akFiKCe1Vjrm4wRMBPp8A"></script>
+	<script type="text/javascript" src="https://maps.google.ru/maps/api/js?key=AIzaSyDX8W8BnupAAQjlKYfnq8J51ZLY3hpnxgA"></script>
 	<script type="text/javascript" src="/media/js/underscore.js"></script>
 	<script type="text/javascript" src="/contacts/find-dealer.js"></script>
 
