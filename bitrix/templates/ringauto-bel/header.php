@@ -138,7 +138,7 @@
 					<li class="navbar-primary__nv-list-item"><a target="_blank" href="http://www.hyundai.ru/configurator" class="navbar-primary__nv-list-link">Создать свой Hyundai</a></li>
 					<li class="navbar-primary__nv-list-item"><a target="_blank" href="https://cars.hyundai-belgorod.ru/" class="navbar-primary__nv-list-link">Онлайн-витрина</a></li>
 					<li class="navbar-primary__nv-list-item"><a href="/service-request/" class="navbar-primary__nv-list-link">Запись на сервис</a></li>
-					<li class="navbar-primary__nv-list-item"><a href="#" class="navbar-primary__nv-list-link zing_form_toggler_spec" for="testdrive">Тест-драйв</a></li>
+					<li class="navbar-primary__nv-list-item"><a href="/test-drive/" class="navbar-primary__nv-list-link">Тест-драйв</a></li>
 				</ul>
 			</nav>
 		</div>
