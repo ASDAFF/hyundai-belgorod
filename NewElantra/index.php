@@ -243,7 +243,7 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                 <a target="_blank" href="#" class="df-button nav__buton js-p-td-open">
                     Тест-драйв
                 </a>
-                <a target="_blank" href="/configurator/car/27" class="df-button nav__buton">
+                <a target="_blank" href="/configurator/car/27/modification" class="df-button nav__buton">
                     Конфигуратор
                 </a>
                 <a target="_blank" href="/contacts/" class="df-button nav__buton">
@@ -309,7 +309,7 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                     </ul>
                 </div>
 
-                <a target="_blank" href="/configurator/car/27" class="view__button df-button">Создать конфигурацию</a>
+                <a target="_blank" href="/configurator/car/27/modification" class="view__button df-button">Создать конфигурацию</a>
             </div>
         </section>
 
@@ -917,7 +917,7 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
             <nav class="highlight-nav">
                 <ul class="highlight-nav__items">
                     <li class="highlight-nav__item">
-                        <a href="/configurator/car/27" class="highlight-nav__link">
+                        <a href="/configurator/car/27/modification" class="highlight-nav__link">
                             <svg xmlns="http://www.w3.org/2000/svg" class="highlight-nav__icon ic-svg ic-car"><use xlink:href="#ic-car"></use></svg>
                             <strong class="highlight-nav__name">Создать свой Hyundai</strong>
                             <span class="highlight-nav__highspot">Ваш автомобиль в&nbsp;один клик</span>
@@ -938,7 +938,7 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                         </a>
                     </li>
                     <li class="highlight-nav__item">
-                        <a href="/configurator/car/27" class="highlight-nav__link">
+                        <a href="/configurator/car/27/modification" class="highlight-nav__link">
                             <svg xmlns="http://www.w3.org/2000/svg" class="highlight-nav__icon ic-svg ic-calc"><use xlink:href="#ic-calc"></use></svg>
                             <strong class="highlight-nav__name">Рассчитать кредит</strong>
                             <span class="highlight-nav__highspot">Финансовые программы</span>

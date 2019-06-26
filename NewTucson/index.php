@@ -2062,7 +2062,7 @@ $APPLICATION->SetTitle("Новый TUCSON.");
                         </div>
 
                         <div class="table__bottom">
-                            <a href="https://www.hyundai.ru/configurator/car/26/modification" class="arrow-link">
+                            <a href="http://hyundai-belgorod.ru/configurator/car/26/modification" class="arrow-link">
                                 <div class="arrow-link__text">
                                     Сравнить конфигурации
                                 </div>
@@ -2080,7 +2080,7 @@ $APPLICATION->SetTitle("Новый TUCSON.");
                             <nav class="highlight-nav highlight-nav--full-width">
                                 <ul class="highlight-nav__items">
                                     <li class="highlight-nav__item">
-                                        <a href="https://www.hyundai.ru/configurator/car/26" class="highlight-nav__link">
+                                        <a href="http://hyundai-belgorod.ru/configurator/car/26" class="highlight-nav__link">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="highlight-nav__icon ic-svg ic-car"><use xlink:href="#ic-car"></use></svg>
                                             <strong class="highlight-nav__name">Создать свой Hyundai</strong>
                                             <span class="highlight-nav__highspot">Ваш автомобиль в&nbsp;один клик</span>
@@ -2101,7 +2101,7 @@ $APPLICATION->SetTitle("Новый TUCSON.");
                                         </a>
                                     </li>
                                     <li class="highlight-nav__item">
-                                        <a href="https://www.hyundai.ru/configurator/car/26#calculator" class="highlight-nav__link">
+                                        <a href="http://hyundai-belgorod.ru/configurator/car/26#calculator" class="highlight-nav__link">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="highlight-nav__icon ic-svg ic-calc"><use xlink:href="#ic-calc"></use></svg>
                                             <strong class="highlight-nav__name">Рассчитать кредит</strong>
                                             <span class="highlight-nav__highspot">Финансовые программы</span>

@@ -1,8 +1,10 @@
+
+<title>Car</title>
 <section class="section section--highlight-nav">
     <nav class="highlight-nav">
         <ul class="highlight-nav__items">
             <li class="highlight-nav__item">
-                <a href="http://www.hyundai.ru/configurator" class="highlight-nav__link" target="_blank">
+                <a href="http://hyundai-belgorod.ru/configurator/" class="highlight-nav__link" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" class="highlight-nav__icon ic-svg ic-car"><use xlink:href="#ic-car"></use></svg>
                     <strong class="highlight-nav__name">Создать свой Hyundai</strong>
                     <span class="highlight-nav__highspot">Ваш автомобиль в один клик</span>
@@ -25,7 +27,7 @@
                 </a>
             </li>
             <li class="highlight-nav__item">
-                <a href="http://www.hyundai.ru/configurator" class="highlight-nav__link" target="_blank">
+                <a href="http://hyundai-belgorod.ru/configurator/" class="highlight-nav__link" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" class="highlight-nav__icon ic-svg ic-calc"><use xlink:href="#ic-calc"></use></svg>
                     <strong class="highlight-nav__name">Рассчитать кредит</strong>
                     <span class="highlight-nav__highspot">Финансовые программы</span>
@@ -39,6 +41,7 @@
 
             <symbol id="ic-car" viewbox="0 0 75.613 40.536">
                 <title>Car</title>
+
                 <g>
                     <path d="M75.321,21.434c-0.538-4.051-6.8-5.326-11.474-6.351c-1.136-0.248-2.207-0.483-3.109-0.737
 					c-1.9-0.532-4.052-3.734-6.133-6.832c-2.45-3.648-5.654-6.649-8.325-7.269C45.579,0.082,44.501,0,43.076,0

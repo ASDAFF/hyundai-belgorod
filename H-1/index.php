@@ -1069,7 +1069,7 @@ $APPLICATION->SetTitle("H-1");
 				</div>
 			</div>
 			<div class="detailedSpecLink">
-				<a href="https://www.hyundai.ru/configurator">Подробные характеристики</a>
+				<a href="http://hyundai-belgorod.ru/configurator/">Подробные характеристики</a>
 			</div>
 			<div class="spec_message">
 			    <div>
@@ -1135,8 +1135,8 @@ $APPLICATION->SetTitle("H-1");
 			</div>
 			<div class="promo-grid">
 				<ul class="clearfix">
-					<li><a href="https://www.hyundai.ru/configurator"><span>Конфигуратор H-1</span></a></li>
-					<li><a href="https://www.hyundai.ru/configurator"><span>Рассчитать кредит</span></a></li>
+					<li><a href="http://hyundai-belgorod.ru/configurator/"><span>Конфигуратор H-1</span></a></li>
+					<li><a href="http://hyundai-belgorod.ru/configurator/"><span>Рассчитать кредит</span></a></li>
 				</ul>
 			</div>
 		</div>

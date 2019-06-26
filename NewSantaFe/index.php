@@ -1798,7 +1798,7 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                         </div>
 
                         <div class="table__bottom">
-                            <a href="https://www.hyundai.ru/configurator/car/25/modification" class="arrow-link">
+                            <a href="http://hyundai-belgorod.ru/configurator/car/25/modification" class="arrow-link">
                                 <div class="arrow-link__text">
                                     Сравнить конфигурации
                                 </div>

@@ -1242,7 +1242,7 @@ $APPLICATION->SetTitle("Creta");
                             </div>
                         </div>
                         <div class="detailedSpecLink">
-                            <a href="http://www.hyundai.ru/configurator/car/22" target="_blank" onClick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
+                            <a href="http://hyundai-belgorod.ru/configurator/car/22" target="_blank" onClick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
                         </div>
                         <div class="spec_message">
                             <div>
@@ -1319,9 +1319,9 @@ $APPLICATION->SetTitle("Creta");
                         </div>
                         <div class="promo-grid">
                             <ul class="clearfix">
-                                <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Конфигуратор Creta</span></a></li>
+                                <li><a href="http://hyundai-belgorod.ru/configurator/" target="_blank"><span>Конфигуратор Creta</span></a></li>
                                 <li><a target="_blank" href="http://www.hyundai.ru/media/downloads/accessoires/Creta_Acc.pdf"><span>Каталог аксессуаров</span></a></li>
-                                <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Рассчитать кредит</span></a></li>
+                                <li><a href="http://hyundai-belgorod.ru/configurator/" target="_blank"><span>Рассчитать кредит</span></a></li>
                             </ul>
                         </div>
                     </div>
