@@ -18,24 +18,30 @@ $arUrlRewrite = array(
 		"ID" => "bitrix:news",
 		"PATH" => "/contacts/index.php",
 	),
-	array(
-		"CONDITION" => "#^/products/#",
-		"RULE" => "",
-		"ID" => "bitrix:catalog",
-		"PATH" => "/products/index.php",
-	),
-	array(
-		"CONDITION" => "#^/services/#",
-		"RULE" => "",
-		"ID" => "bitrix:catalog",
-		"PATH" => "/services/index.php",
-	),
-	array(
-		"CONDITION" => "#^/news/#",
-		"RULE" => "",
-		"ID" => "bitrix:news",
-		"PATH" => "/news/index.php",
-	),
+    array(
+        "CONDITION" => "#^/products/#",
+        "RULE" => "",
+        "ID" => "bitrix:catalog",
+        "PATH" => "/products/index.php",
+    ),
+    array(
+        "CONDITION" => "#^/services/#",
+        "RULE" => "",
+        "ID" => "bitrix:catalog",
+        "PATH" => "/services/index.php",
+    ),
+    array(
+        "CONDITION" => "#^/news/#",
+        "RULE" => "",
+        "ID" => "bitrix:news",
+        "PATH" => "/news/index.php",
+    ),
+    array(
+        "CONDITION" => "#^/configurator/#",
+        "RULE" => "",
+        "ID" => "",
+        "PATH" => "/configurator/index.php",
+    ),
 );
 
 ?>
