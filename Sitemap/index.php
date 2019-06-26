@@ -128,9 +128,7 @@ $APPLICATION->SetTitle("Sitemap");
                     <div class="sitemap_menu ">
                         <h2>Медиа-центр</h2>
 
-                        <ul class="list_site">
-                            <li><a href="/news" title="Новости компании" target="">Новости компании</a><ul></ul></li></ul>
-                        <ul class="list_site"><li><a href="/HyundaiMotorWorldmagazine" title="Журнал Hyundai Motor CIS" target="">Журнал Hyundai Motor CIS</a><ul></ul></li></ul>
+                        <ul class="list_site"><li><a href="/news" title="Новости компании" target="">Новости компании</a><ul></ul></li></ul>
                         <ul class="list_site"><li><a href="/awards" title="Награды" target="">Награды</a><ul></ul></li></ul>
                         <!--                     <ul class="list_site"><li><a href="/socialnetworks" title="Социальные сети" target="">Социальные сети</a><ul></ul></li></ul> -->
                     </div>
@@ -141,7 +139,6 @@ $APPLICATION->SetTitle("Sitemap");
                                     <li><a href="/AboutUs" title="обзор" target="">Обзор</a></li>
                                     <li><a href="/CareersMoscow" title="вакансии" target="">Карьера в Hyundai</a></li>
                                     <li><a href="/Partners" title="партнеры" target="">Партнеры</a></li>
-                                    <li><a href="/Become-a-dealer" title="стать дилером" target="">Стать дилером</a></li>
                                     <li><a href="/Tenders" title="Тендеры ХМСНГ" target="">Тендеры ХМСНГ</a></li></ul></li></ul>
 
                         <ul class="list_site">

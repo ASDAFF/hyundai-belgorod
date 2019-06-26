@@ -17,7 +17,6 @@ $APPLICATION->SetTitle("XMMP");
                             <li class=""><a href="/AboutUs">Обзор</a></li>
                             <li class=""><a href="/CareersMoscow">Карьера в Hyundai</a></li>
                             <li class=""><a href="/Partners">Партнеры</a></li>
-                            <li class=""><a href="/Become-a-dealer">Стать дилером</a></li>
                             <li class=""><a href="/Tenders">Тендеры ХМСНГ</a></li>
                         </ul>
                     </li>
