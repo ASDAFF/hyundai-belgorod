@@ -222,7 +222,7 @@ $APPLICATION->SetTitle("best");
                             <div class="main-message">Мы хотим, чтобы владеть автомобилем Hyundai было просто и удобно</div>
                         </div>
                         <div class="grid-el grid-el-50 bottom-area-line__inner-right">
-                            <a href="#" class="request-service-btn zing_form_toggler" for="zing_cuzov_btn">запись на сервис</a>
+                            <a href="/service-request/" class="request-service-btn">запись на сервис</a>
                             <a href="/all-offers/" class="offers-link">Сервисные акции<i class="icon icon-right"></i></a>
                         </div>
                     </div>
