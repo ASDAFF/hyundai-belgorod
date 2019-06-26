@@ -58,7 +58,9 @@ $this->setFrameMode(true);
 								<a href="/">Сайт дилера</a>
 							</div>
 						</div>
-						<div id="map_canvas" class="no-directions"></div>
+						<div id="map_canvas" class="no-directions">
+                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adb1e2254f56728a8fb9906cc844006161e6d90818a4e68173046984e491d2269&amp;width=100%25&amp;height=420&amp;lang=ru_RU&amp;scroll=false"></script>
+                        </div>
 					</div>
 					<div class="dealer__map_results">
 						<h2 class="dealer__map_results__city"><?=$arItem["NAME"]?></h2>
@@ -149,9 +151,8 @@ $this->setFrameMode(true);
 		</div>
 	</script>
 
-	<script type="text/javascript" src="https://maps.google.ru/maps/api/js?key=AIzaSyDX8W8BnupAAQjlKYfnq8J51ZLY3hpnxgA"></script>
 	<script type="text/javascript" src="/media/js/underscore.js"></script>
-	<script type="text/javascript" src="/contacts/find-dealer.js"></script>
+
 
 
 
