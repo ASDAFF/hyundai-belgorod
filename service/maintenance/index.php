@@ -186,7 +186,7 @@ $APPLICATION->SetTitle("Обслуживание");
                                     <div class="subject-wa-title content-inner-title">Workshop Automation</div>
                                     <div class="subject-wa-text">– это автоматизированная система обслуживания клиентов и контроля за рабочими процессами в дилерском центре, реализованная как мобильное приложение для планшетных компьютеров.
                                     </div>
-                                    <div class="subject-wa-link"><a href="/find-dealer">найти дилера<img src="https://www.hyundai.ru/media/img/service-pages/wa_arrow.png"></a></div>
+                                    <div class="subject-wa-link"><a href="/contacts/">найти дилера<img src="https://www.hyundai.ru/media/img/service-pages/wa_arrow.png"></a></div>
                                 </div>
                                 <div class="subject-wa-right">
                                     <img src="https://www.hyundai.ru/media/img/service-pages/wa_pic.jpg">

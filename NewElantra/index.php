@@ -931,7 +931,7 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                         </a>
                     </li>
                     <li class="highlight-nav__item">
-                        <a href="/test-drive/NewElantra" class="highlight-nav__link">
+                        <a href="/test-drive/" class="highlight-nav__link">
                             <svg xmlns="http://www.w3.org/2000/svg" class="highlight-nav__icon ic-svg ic-steering-wheel"><use xlink:href="#ic-steering-wheel"></use></svg>
                             <strong class="highlight-nav__name">Тест-драйв</strong>
                             <span class="highlight-nav__highspot">Моментальная заявка в&nbsp;удобное для&nbsp;вас&nbsp;время</span>
